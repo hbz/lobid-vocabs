@@ -57,7 +57,7 @@
     <skos:inScheme rdf:resource="http://lobid.org/vocab/libtype#scheme"/>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</skos:notation>
     <skos:prefLabel xml:lang="de">Gefängnisbibliothek</skos:prefLabel>
-    <skos:pürefLabel xml:lang="en">Prison Library</skos:pürefLabel>
+    <skos:prefLabel xml:lang="en">Prison Library</skos:pürefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://lobid.org/vocab/libtype#n58">
     <skos:inScheme rdf:resource="http://lobid.org/vocab/libtype#scheme"/>
