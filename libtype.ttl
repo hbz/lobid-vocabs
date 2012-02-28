@@ -99,7 +99,7 @@ libtype:n55
   skos:inScheme libtype:scheme ;
   skos:notation "55"^^xsd:integer ;
   skos:prefLabel "Gefängnisbibliothek"@de ;
-  skos:pürefLabel "Prison Library"@en .
+  skos:prefLabel "Prison Library"@en .
    
 libtype:n58
   a skos:Concept ;
