@@ -18,6 +18,6 @@
 lv:contactqr
    rdf:type owl:ObjectProperty ;
    rdfs:label "has contact QR code"@en ;
-   rdfs:comment "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en
+   rdfs:comment "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en ;
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
