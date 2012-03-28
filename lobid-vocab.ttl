@@ -21,3 +21,17 @@ lv:contactqr
    rdfs:comment "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en ;
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
+
+# <http://lobid.org/vocab/lobid#fulltextOnline>
+
+lv:fulltextOnline
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "has online full text available via"@en ;
+   rdfs:comment "Relates a bibliographic resource to an online resource (full text in HTML, PDFs or landing pages in OA repositories, on publishers' websites etc.) that represents the fulltext of the bibliographic resource or contains a link to a full text of the resource. "@en ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf (<http://purl.org/ontology/bibo/Collection>
+            <http://purl.org/ontology/bibo/Document>
+        )
+    ] ;
+    rdfs:range <foaf:Document> .
