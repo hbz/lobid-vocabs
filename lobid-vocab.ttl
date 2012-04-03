@@ -17,7 +17,8 @@
 
 lv:contactqr
    rdf:type owl:ObjectProperty ;
-   rdfs:label "has contact QR code"@en ;
+   rdfs:label "Contact QR code"@en ;
+   rdfs:label "Kontakt-QR-Code"@de ;
    rdfs:comment "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en ;
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
@@ -26,7 +27,8 @@ lv:contactqr
 
 lv:fulltextOnline
    rdf:type owl:ObjectProperty ;
-   rdfs:label "has online full text available via"@en ;
+   rdfs:label "Fulltext Online"@en ;
+   rdfs:label "Online-Volltext"@de ;
    rdfs:comment "Relates a bibliographic resource to an online resource (full text in HTML, PDFs or landing pages in OA repositories, on publishers' websites etc.) that represents the full text of the bibliographic resource or contains a link to a full text of the resource. "@en ;
     rdfs:domain [
         a owl:Class ;
