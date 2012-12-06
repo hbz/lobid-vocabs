@@ -10,6 +10,7 @@
 <http://lobid.org/vocab/lobid#>
    rdf:type owl:Ontology ;
    dct:title "lobid vocab" ;
+   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the lobid.org service are defined . Already existing properties and classes which are (re)used in lobid.org aren't documented here."@en .
 
 
