@@ -43,5 +43,6 @@ lv:hbzID
    rdfs:label "hbz-ID" ;
    rdfs:comment "HT-Nummer. Der Identifier, der einer bibliographischen Ressource im hbz-Verbundkatalog zugewiesen wurde."@de ;
    rdfs:comment "The identifier that is assigned to a bibliographic resource in the hbz union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
