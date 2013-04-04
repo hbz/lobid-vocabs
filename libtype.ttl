@@ -14,12 +14,8 @@ libtype:scheme
     libtype:n15,
     libtype:n21,
     libtype:n33,
+    libtype:n36,
     libtype:n39,
-    libtype:n52,
-    libtype:n53,
-    libtype:n54,
-    libtype:n55,
-    libtype:n58,
     libtype:n60,
     libtype:n65,
     libtype:n70,
@@ -29,13 +25,11 @@ libtype:scheme
     libtype:n86,
     libtype:n87,
     libtype:n88,
+    libtype:n89,
     libtype:n91,
-    libtype:n92,
-    libtype:n93,
     libtype:n94,
     libtype:n95,
     libtype:n96,
-    libtype:n97,
     libtype:n98.
  
 libtype:n11
@@ -65,7 +59,13 @@ libtype:n33
   skos:notation "33"^^xsd:integer ;
   skos:prefLabel "Öffentliche Bibliothek"@de ;
   skos:prefLabel "Public Library"@en .
- 
+
+libtype:n36
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "36"^^xsd:integer ;
+  skos:prefLabel "Öffentliche Bibliothek für besondere Benutzergruppen"@de .
+
 libtype:n39
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
@@ -73,41 +73,6 @@ libtype:n39
   skos:prefLabel "Fahrbibliothek"@de ;
   skos:prefLabel "Mobile Library"@en .
  
-libtype:n52
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "52"^^xsd:integer ;
-  skos:prefLabel "Kinderbibliothek, Jugendbibliothek"@de ;
-  skos:prefLabel "Children's Library, Youth Library"@en .
- 
-libtype:n53
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "53"^^xsd:integer ;
-  skos:prefLabel "Patientenbibliothek" ;
-  skos:prefLabel "Patients' Library"@en .
- 
-libtype:n54
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "54"^^xsd:integer ;
-  skos:prefLabel "Musikbibliothek"@de;
-  skos:prefLabel "Music Library"@en .
-   
-libtype:n55
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "55"^^xsd:integer ;
-  skos:prefLabel "Gefängnisbibliothek"@de ;
-  skos:prefLabel "Prison Library"@en .
-   
-libtype:n58
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "58"^^xsd:integer ;
-  skos:prefLabel "Blinden- und Blindenhörbibliothek"@de ;
-  skos:prefLabel "Library for the Blind"@en .
-   
 libtype:n60
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
@@ -119,7 +84,7 @@ libtype:n65
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "65"^^xsd:integer ;
-  skos:prefLabel "Abteilungsbibliothek, Fachbereichsbibliothek, Institutsbibliothek der Universität"@de ;
+  skos:prefLabel "Abteilungsbibliothek, Fachbereichsbibliothek, Institutsbibliothek (Universität)"@de ;
   skos:prefLabel "University's Departement Library, Faculty Library, Institute Library"@en .
      
 libtype:n70
@@ -133,15 +98,15 @@ libtype:n73
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "73"^^xsd:integer ;
-  skos:prefLabel "Abteilungsbibliothek, Fachbereichsbibliothek, Institutsbibliothek der Hochschule"@de ;
-  skos:prefLabel "College's Departement Library, Faculty Library, Institute Library"@en .
+  skos:prefLabel "Abteilungsbibliothek, Fachbereichsbibliothek (Hochschule, nicht Universität)"@de ;
+  skos:prefLabel "College's Departement Library, Faculty Library (not University)"@en .
    
 libtype:n81
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "81"^^xsd:integer ;
-  skos:prefLabel "Spezialbibliothek"@de ;
-  skos:prefLabel "Special Library"@en .
+  skos:prefLabel "Wissenschaftliche Spezialbibliothek"@de ;
+  skos:prefLabel "Academic Special Library"@en .
    
 libtype:n85
   a skos:Concept ;
@@ -170,27 +135,20 @@ libtype:n88
   skos:notation "88"^^xsd:integer ;
   skos:prefLabel "Sonstige Einrichtung"@de ;
   skos:prefLabel "Other Organization"@en .
- 
+
+libtype:n89
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "89"^^xsd:integer ;
+  skos:prefLabel "Paket elektronischer Ressourcen"@de ;
+  skos:prefLabel "Collection of electronic resources"@en .
+
 libtype:n91
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "91"^^xsd:integer ;
   skos:prefLabel "Fachstelle für Bibliotheken"@de ;
   skos:prefLabel "State Public Library Office"@en .
-   
-libtype:n92
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "92"^^xsd:integer ;
-  skos:prefLabel "Verband, Organisation"@de ;
-  skos:prefLabel "Association"@en .
-   
-libtype:n93
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "93"^^xsd:integer ;
-  skos:prefLabel "Ausbildungsstätte"@de ;
-  skos:prefLabel "Educational Institution"@en .
    
 libtype:n94
   a skos:Concept ;
