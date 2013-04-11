@@ -1,4 +1,4 @@
-@prefix lv:   <http://lobid.org/vocab/lobid#> .
+@prefix lv:   <http://purl.org/lobid/lv# > .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
@@ -8,7 +8,7 @@
 
 # About lobid vocab
 
-<http://lobid.org/vocab/lobid#>
+<http://purl.org/lobid/lv#>
    rdf:type owl:Ontology ;
    dct:title "lobid vocab" ;
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -16,7 +16,7 @@
    oo:contact <mailto:semweb@hbz-nrw.de> .
 
 
-# <http://lobid.org/vocab/lobid#contactqr>
+# <http://purl.org/lobid/lv#contactqr>
 
 lv:contactqr
    rdf:type owl:ObjectProperty ;
@@ -26,7 +26,7 @@ lv:contactqr
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
 
-# <http://lobid.org/vocab/lobid#fulltextOnline>
+# <http://purl.org/lobid/lv#fulltextOnline>
 
 lv:fulltextOnline
    rdf:type owl:ObjectProperty ;
@@ -36,7 +36,7 @@ lv:fulltextOnline
    rdfs:domain dct:BibliographicResource ;
    rdfs:range foaf:Document .
 
-# <http://lobid.org/vocab/lobid#hbzID>
+# <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
    rdf:type rdf:Property ;
