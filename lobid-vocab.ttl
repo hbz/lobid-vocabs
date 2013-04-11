@@ -1,4 +1,4 @@
-@prefix lv:   <http://purl.org/lobid/lv# > .
+@prefix lv:   <http://purl.org/lobid/lv#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
