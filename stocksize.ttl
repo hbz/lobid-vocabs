@@ -1,0 +1,104 @@
+@prefix stocksize: <http://purl.org/lobid/stocksize#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+ 
+stocksize:scheme
+  a skos:ConceptScheme ;
+  dct:title    "Bestandsgrößenklassen gemäß dem Sigelverzeichnis"@de ,
+		"Stock Size Classification after the German ISIL Registry"@en ;
+  dct:creator "Adrian Pohl" ;
+  dct:creator "Felix Ostrowski" ;
+  dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für Bestandsgrößen bibliothekarischer Einrichtungen. Siehe auch http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (Punkt 8)."@de ,
+"This is a SKOS representation of the classification scheme for stock size of libraries and related institutions used in the German Natinal ISIL registry. See also (German) http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (point 8)."@en ;
+  skos:hasTopConcept
+    stocksize:n01,
+    stocksize:n02,
+    stocksize:n03,
+    stocksize:n04,
+    stocksize:n05,
+    stocksize:n06,
+    stocksize:n07,
+    stocksize:n08,
+    stocksize:n09,
+    stocksize:n10,
+    stocksize:n11,
+    stocksize:n12,
+    stocksize:n13.
+ 
+stocksize:n01
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "01"^^xsd:integer ;
+  skos:prefLabel "bis 1.000"@de ;
+  skos:prefLabel "up to 1,000"@en .
+ 
+stocksize:n02
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "02"^^xsd:integer ;
+  skos:prefLabel "1.001 - 2.000"@de ;
+  skos:prefLabel "1,001 - 2,000"@en .
+ 
+stocksize:n03
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "03"^^xsd:integer ;
+  skos:prefLabel "2.001 - 3.000"@de ;
+  skos:prefLabel "2,001 - 3,000"@en .
+ 
+stocksize:n04
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "04"^^xsd:integer ;
+  skos:prefLabel "3.001 - 5.000"@de ;
+  skos:prefLabel "3,001 - 5,000"@en .
+ 
+stocksize:n05
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "05"^^xsd:integer ;
+  skos:prefLabel "5.001 - 10.000"@de ;
+  skos:prefLabel "5,001 - 10,000"@en .
+ 
+stocksize:n06
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "06"^^xsd:integer ;
+  skos:prefLabel "10.001 - 30.000"@de ;
+  skos:prefLabel "10,001 - 30,000"@en .
+ 
+stocksize:n07
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "07"^^xsd:integer ;
+  skos:prefLabel "30.001 - 100.000" ;
+  skos:prefLabel "30.001 - 100,000"@en .
+ 
+stocksize:n08
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "08"^^xsd:integer ;
+  skos:prefLabel "100.001 - 300.000"@de;
+  skos:prefLabel "100,001 - 300,000"@en .
+   
+stocksize:n09
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "09"^^xsd:integer ;
+  skos:prefLabel "300.001 - 1.000.000"@de ;
+  skos:prefLabel "300,001 - 1,000,000"@en .
+   
+stocksize:n10
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "10"^^xsd:integer ;
+  skos:prefLabel "1.000.001 und mehr"@de ;
+  skos:prefLabel "1,000,001 and more"@en .
+   
+stocksize:n11
+  a skos:Concept ;
+  skos:inScheme stocksize:scheme ;
+  skos:notation "11"^^xsd:integer ;
+  skos:prefLabel "Einrichtung ohne Bestand"@de ;
+  skos:prefLabel "Institution without a collection"@en .
