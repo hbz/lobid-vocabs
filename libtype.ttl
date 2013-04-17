@@ -1,0 +1,186 @@
+@prefix libtype: <http://lobid.org/vocab/libtype#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+ 
+libtype:scheme
+  a skos:ConceptScheme ;
+  dct:title "Bibliothekstypen gemäß dem Sigelverzeichnis" ;
+  dct:creator "Adrian Pohl" ;
+  dct:creator "Felix Ostrowski" ;
+  dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für bibliothekarische Einrichtungen. Siehe http://sigel.staatsbibliothek-berlin.de/formular/main.php?func=change."@de ;
+  skos:hasTopConcept
+    libtype:n11,
+    libtype:n15,
+    libtype:n21,
+    libtype:n33,
+    libtype:n36,
+    libtype:n39,
+    libtype:n60,
+    libtype:n65,
+    libtype:n70,
+    libtype:n73,
+    libtype:n81,
+    libtype:n85,
+    libtype:n86,
+    libtype:n87,
+    libtype:n88,
+    libtype:n89,
+    libtype:n91,
+    libtype:n94,
+    libtype:n95,
+    libtype:n96,
+    libtype:n98.
+ 
+libtype:n11
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "11"^^xsd:integer ;
+  skos:prefLabel "Nationalbibliothek"@de ;
+  skos:prefLabel "National Library"@en .
+ 
+libtype:n15
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "15"^^xsd:integer ;
+  skos:prefLabel "Zentrale Fachbibliothek"@de ;
+  skos:prefLabel "Central Subject Library"@en .
+ 
+libtype:n21
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "21"^^xsd:integer ;
+  skos:prefLabel "Regionalbibliothek"@de ;
+  skos:prefLabel "Regional Library"@en .
+ 
+libtype:n33
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "33"^^xsd:integer ;
+  skos:prefLabel "Öffentliche Bibliothek"@de ;
+  skos:prefLabel "Public Library"@en .
+
+libtype:n36
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "36"^^xsd:integer ;
+  skos:prefLabel "Öffentliche Bibliothek für besondere Benutzergruppen"@de .
+
+libtype:n39
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "39"^^xsd:integer ;
+  skos:prefLabel "Fahrbibliothek"@de ;
+  skos:prefLabel "Mobile Library"@en .
+ 
+libtype:n60
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "60"^^xsd:integer ;
+  skos:prefLabel "Zentrale Universitätsbibliothek"@de ;
+  skos:prefLabel "Central University Library"@en .
+   
+libtype:n65
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "65"^^xsd:integer ;
+  skos:prefLabel "Abteilungsbibliothek, Fachbereichsbibliothek, Institutsbibliothek (Universität)"@de ;
+  skos:prefLabel "University's Departement Library, Faculty Library, Institute Library"@en .
+     
+libtype:n70
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "70"^^xsd:integer ;
+  skos:prefLabel "Zentrale Hochschulbibliothek, nicht Universität"@de ;
+  skos:prefLabel "Central Academic Library, not University"@en .
+   
+libtype:n73
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "73"^^xsd:integer ;
+  skos:prefLabel "Abteilungsbibliothek, Fachbereichsbibliothek (Hochschule, nicht Universität)"@de ;
+  skos:prefLabel "College's Departement Library, Faculty Library (not University)"@en .
+   
+libtype:n81
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "81"^^xsd:integer ;
+  skos:prefLabel "Wissenschaftliche Spezialbibliothek"@de ;
+  skos:prefLabel "Academic Special Library"@en .
+   
+libtype:n85
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "85"^^xsd:integer ;
+  skos:prefLabel "Archiv (nicht Archivbibliothek)"@de ;
+  skos:prefLabel "Archive"@en .
+   
+libtype:n86
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "86"^^xsd:integer ;
+  skos:prefLabel "Museum (nicht Museumsbibliothek)"@de ;
+  skos:PrefLabel "Museum (not Museum Library)"@en .
+   
+libtype:n87
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "87"^^xsd:integer ;
+  skos:prefLabel "Verlag"@de ;
+  skos:PrefLabel "Publisher"@en .
+   
+libtype:n88
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "88"^^xsd:integer ;
+  skos:prefLabel "Sonstige Einrichtung"@de ;
+  skos:prefLabel "Other Organization"@en .
+
+libtype:n89
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "89"^^xsd:integer ;
+  skos:prefLabel "Paket elektronischer Ressourcen"@de ;
+  skos:prefLabel "Collection of electronic resources"@en .
+
+libtype:n91
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "91"^^xsd:integer ;
+  skos:prefLabel "Fachstelle für Bibliotheken"@de ;
+  skos:prefLabel "State Public Library Office"@en .
+   
+libtype:n94
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "94"^^xsd:integer ;
+  skos:prefLabel "Regionaler Zentralkatalog / Leihverkehrszentrale"@de ;
+  skos:prefLabel "Regional Catalogue"@en .
+   
+libtype:n95
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "95"^^xsd:integer ;
+  skos:prefLabel "Fachzentralkatalog"@de ;
+  skos:prefLabel "Central Subject Catalogue"@en .
+   
+libtype:n96
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "96"^^xsd:integer ;
+  skos:prefLabel "Verbundsystem/ -kataloge"@de ;
+  skos:prefLabel "Union Catalogue"@en .
+   
+libtype:n97
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "97"^^xsd:integer ;
+  skos:prefLabel "Ministerium"@de ;
+  skos:prefLabel "Ministry"@en .
+ 
+libtype:n98
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "98"^^xsd:integer ;
+  skos:prefLabel "Serviceeinrichtung"@de ;
+  skos:prefLabel "Service Institution"@en .
