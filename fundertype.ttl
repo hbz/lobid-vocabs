@@ -1,0 +1,118 @@
+@prefix fundertype: <http://purl.org/lobid/fundertype#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+ 
+fundertype:scheme
+  a skos:ConceptScheme ;
+  dct:title   "Unterhaltsträger gemäß dem Sigelverzeichnis"@de,
+		"Funding Bodies after the German ISIL Registry"@en ;
+  dct:creator "Adrian Pohl" ;
+  dct:creator "Felix Ostrowski" ;
+  dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für Unterhaltsträger bibliothekarischer Einrichtungen. Siehe http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (Punkt 7)."@de ,
+"This is a SKOS representation of the classification scheme for funding bodies of libraries and related institutions used in the German Natinal ISIL registry. See also http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (point 7)."@en ;
+  skos:hasTopConcept
+    fundertype:n01,
+    fundertype:n02,
+    fundertype:n03,
+    fundertype:n04,
+    fundertype:n05,
+    fundertype:n06,
+    fundertype:n07,
+    fundertype:n08,
+    fundertype:n09,
+    fundertype:n10,
+    fundertype:n11,
+    fundertype:n12,
+    fundertype:n13.
+ 
+fundertype:n01
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "01"^^xsd:integer ;
+  skos:prefLabel "Bundesrepublik Deutschland"@de ;
+  skos:prefLabel "Federal Republic of Germany"@en .
+ 
+fundertype:n02
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "02"^^xsd:integer ;
+  skos:prefLabel "Land"@de ;
+  skos:prefLabel "Federal State"@en .
+ 
+fundertype:n03
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "03"^^xsd:integer ;
+  skos:prefLabel "Kreis"@de ;
+  skos:prefLabel "County"@en .
+ 
+fundertype:n04
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "04"^^xsd:integer ;
+  skos:prefLabel "Gemeinde"@de ;
+  skos:prefLabel "Commune"@en .
+ 
+fundertype:n05
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "05"^^xsd:integer ;
+  skos:prefLabel "Sonstige Gebietskörperschaft"@de ;
+  skos:prefLabel "Other Territorial Authority"@en .
+ 
+fundertype:n06
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "06"^^xsd:integer ;
+  skos:prefLabel "Sonstige öffentliche Trägerschaft"@de ;
+  skos:prefLabel "Other Public Sector Funder"@en .
+ 
+fundertype:n07
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "07"^^xsd:integer ;
+  skos:prefLabel "Körperschaft oder Stiftung des öffentlichen Rechts" ;
+  skos:prefLabel "Corporate Body or Foundation under Public Law"@en .
+ 
+fundertype:n08
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "08"^^xsd:integer ;
+  skos:prefLabel "Körperschaft oder Stiftung des privaten Rechts"@de;
+  skos:prefLabel "Corporate Body or Foundation under Private Law"@en .
+   
+fundertype:n09
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "09"^^xsd:integer ;
+  skos:prefLabel "Evangelische Kirche"@de ;
+  skos:pürefLabel "Evangelical Church"@en .
+   
+fundertype:n10
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "10"^^xsd:integer ;
+  skos:prefLabel "Katholische Kirche"@de ;
+  skos:prefLabel "Catholic Church"@en .
+   
+fundertype:n11
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "11"^^xsd:integer ;
+  skos:prefLabel "Sonstige Religionsgemeinschaften"@de ;
+  skos:prefLabel "Other Religious Communities"@en .
+   
+fundertype:n12
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "12"^^xsd:integer ;
+  skos:prefLabel "Private Trägerschaft (natürliche Personen)"@de ;
+  skos:prefLabel "Private Funding Body (Natural Person)"@en .
+     
+fundertype:n13
+  a skos:Concept ;
+  skos:inScheme fundertype:scheme ;
+  skos:notation "13"^^xsd:integer ;
+  skos:prefLabel "Ausländische Trägerschaft"@de ;
+  skos:prefLabel "Foreign Funding Body"@en .
