@@ -5,6 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oo: <http://purl.org/openorg/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 # About lobid vocab
 
@@ -46,3 +47,22 @@ lv:hbzID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#stocksize>
+
+lv:stocksize
+   rdf:type rdf:Property ;
+   rdfs:label "Stock Size"@en ;
+   rdfs:label "Bestandsgröße"@de ;
+   rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
+   rdfs:domain foaf:Organization .
+
+# <http://purl.org/lobid/lv#fundertype>
+
+lv:fundertype
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Type of funding organization"@en ;
+   rdfs:label "Art des Unterhaltträgers"@de ;
+   rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://lobid.org/vocab/fundertype#."@en ;
+   rdfs:domain foaf:Organization ;
+   rdfs:range skos:Concept .
