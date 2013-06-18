@@ -37,6 +37,16 @@ lv:fulltextOnline
    rdfs:domain dct:BibliographicResource ;
    rdfs:range foaf:Document .
 
+# <http://purl.org/lobid/lv#fundertype>
+
+lv:fundertype
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Type of funding organization"@en ;
+   rdfs:label "Art des Unterhaltträgers"@de ;
+   rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://lobid.org/vocab/fundertype#."@en ;
+   rdfs:domain foaf:Organization ;
+   rdfs:range skos:Concept .
+
 # <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
@@ -47,6 +57,18 @@ lv:hbzID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+   
+# <http://purl.org/lobid/lv#isil>
+
+lv:isil
+   rdf:type rdf:Property ;
+   rdfs:label "ISIL" ;
+   rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). Ein eindeutiger Identifikator für Bibliotheken und verwandte Einrichtungen oder untergeordnete Organisationseinheiten, der durch ISIL-Agenturen vergeben wird."@de ;
+   rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). 'An ISIL identifies an organization, i.e., a library or a related organization, or one of its subordinate units, which is responsible for an action or service in a bibliographic environment (e.g. creation of machine-readable information). It can be used to identify the originator or holder of a resource (e.g. library material).'"@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:seeAlso <http://biblstandard.dk/isil/scope.htm> ;
+   rdfs:domain foaf:Organization ;
+   rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#stocksize>
 
@@ -56,13 +78,3 @@ lv:stocksize
    rdfs:label "Bestandsgröße"@de ;
    rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
    rdfs:domain foaf:Organization .
-
-# <http://purl.org/lobid/lv#fundertype>
-
-lv:fundertype
-   rdf:type owl:ObjectProperty ;
-   rdfs:label "Type of funding organization"@en ;
-   rdfs:label "Art des Unterhaltträgers"@de ;
-   rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://lobid.org/vocab/fundertype#."@en ;
-   rdfs:domain foaf:Organization ;
-   rdfs:range skos:Concept .
