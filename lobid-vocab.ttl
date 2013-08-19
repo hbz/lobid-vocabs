@@ -51,7 +51,8 @@ lv:fundertype
 
 lv:hbzID
    rdf:type rdf:Property ;
-   rdfs:label "hbz-ID" ;
+   rdfs:label "hbz-ID"@de ;
+   rdfs:label "hbz ID"@en ;
    rdfs:comment "HT-Nummer. Der Identifier, der einer bibliographischen Ressource im hbz-Verbundkatalog zugewiesen wurde."@de ;
    rdfs:comment "The identifier that is assigned to a bibliographic resource in the hbz union catalogue."@en ;
    rdfs:subPropertyOf dct:identifier ;
