@@ -1,14 +1,16 @@
 @prefix fundertype: <http://purl.org/lobid/fundertype#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct:    <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
  
 fundertype:scheme
   a skos:ConceptScheme ;
   dct:title   "Unterhaltsträger gemäß dem Sigelverzeichnis"@de,
 		"Funding Bodies after the German ISIL Registry"@en ;
-  dct:creator "Adrian Pohl" ;
-  dct:creator "Felix Ostrowski" ;
+  dct:creator <http://lobid.org/person/ap> ;
+  dc:creator "Felix Ostrowski" ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für Unterhaltsträger bibliothekarischer Einrichtungen. Siehe http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (Punkt 7)."@de ,
 "This is a SKOS representation of the classification scheme for funding bodies of libraries and related institutions used in the German Natinal ISIL registry. See also http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (point 7)."@en ;
   skos:hasTopConcept

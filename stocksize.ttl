@@ -1,5 +1,6 @@
 @prefix stocksize: <http://purl.org/lobid/stocksize#> .
 @prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct:    <http://purl.org/dc/terms/> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
  
@@ -7,8 +8,9 @@ stocksize:scheme
   a skos:ConceptScheme ;
   dct:title    "Bestandsgrößenklassen gemäß dem Sigelverzeichnis"@de ,
 		"Stock Size Classification after the German ISIL Registry"@en ;
-  dct:creator "Adrian Pohl" ;
-  dct:creator "Felix Ostrowski" ;
+  dct:creator <http://lobid.org/person/ap> ;
+  dc:creator "Felix Ostrowski" ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für Bestandsgrößen bibliothekarischer Einrichtungen. Siehe auch http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (Punkt 8)."@de ,
 "This is a SKOS representation of the classification scheme for stock size of libraries and related institutions used in the German Natinal ISIL registry. See also (German) http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/ (point 8)."@en ;
   skos:hasTopConcept
