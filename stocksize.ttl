@@ -75,7 +75,7 @@ stocksize:n07
   skos:inScheme stocksize:scheme ;
   skos:notation "07"^^xsd:integer ;
   skos:prefLabel "30.001 - 100.000" ;
-  skos:prefLabel "30.001 - 100,000"@en .
+  skos:prefLabel "30,001 - 100,000"@en .
  
 stocksize:n08
   a skos:Concept ;
