@@ -6,14 +6,22 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oo: <http://purl.org/openorg/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
 
 # About lobid vocab
 
-<http://purl.org/lobid/lv#>
-   rdf:type owl:Ontology ;
+<http://purl.org/lobid/lv>
+   rdf:type owl:Ontology , voaf:Vocabulary ;
+   vann:preferredNamespacePrefix "lv" ;
    dct:title "lobid vocab" ;
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-   dct:description "Under this name space new properties and classes needed for the lobid.org service are defined . Already existing properties and classes which are (re)used in lobid.org aren't documented here."@en ;
+   dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
+   dct:issued "2012-01-17" ;
+   dct:modified "See https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
+   dct:publisher <http://lobid.org/organisation/DE-605> ;
+   dct:creator <http://lobid.org/person/ap> ;
+   vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
 
 
@@ -23,6 +31,7 @@ lv:contactqr
    rdf:type owl:ObjectProperty ;
    rdfs:label "Contact QR code"@en ;
    rdfs:label "Kontakt-QR-Code"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en ;
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
@@ -33,6 +42,7 @@ lv:fulltextOnline
    rdf:type owl:ObjectProperty ;
    rdfs:label "Fulltext Online"@en ;
    rdfs:label "Online-Volltext"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Relates a bibliographic resource to an online resource (full text in HTML, PDFs or landing pages in OA repositories, on publishers' websites etc.) that represents the full text of the bibliographic resource or contains a link to a full text of the resource. "@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range foaf:Document .
@@ -43,6 +53,7 @@ lv:fundertype
    rdf:type owl:ObjectProperty ;
    rdfs:label "Type of funding organization"@en ;
    rdfs:label "Art des Unterhaltträgers"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://lobid.org/vocab/fundertype#."@en ;
    rdfs:domain foaf:Organization ;
    rdfs:range skos:Concept .
@@ -53,6 +64,7 @@ lv:hbzID
    rdf:type rdf:Property ;
    rdfs:label "hbz-ID"@de ;
    rdfs:label "hbz ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "HT-Nummer. Der Identifier, der einer bibliographischen Ressource im hbz-Verbundkatalog zugewiesen wurde."@de ;
    rdfs:comment "The identifier that is assigned to a bibliographic resource in the hbz union catalogue."@en ;
    rdfs:subPropertyOf dct:identifier ;
@@ -64,6 +76,7 @@ lv:hbzID
 lv:isil
    rdf:type rdf:Property ;
    rdfs:label "ISIL" ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). Ein eindeutiger Identifikator für Bibliotheken und verwandte Einrichtungen oder untergeordnete Organisationseinheiten, der durch ISIL-Agenturen vergeben wird."@de ;
    rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). 'An ISIL identifies an organization, i.e., a library or a related organization, or one of its subordinate units, which is responsible for an action or service in a bibliographic environment (e.g. creation of machine-readable information). It can be used to identify the originator or holder of a resource (e.g. library material).'"@en ;
    rdfs:subPropertyOf dct:identifier ;
@@ -77,5 +90,6 @@ lv:stocksize
    rdf:type rdf:Property ;
    rdfs:label "Stock Size"@en ;
    rdfs:label "Bestandsgröße"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
    rdfs:domain foaf:Organization .
