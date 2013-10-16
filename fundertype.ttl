@@ -74,7 +74,7 @@ fundertype:n07
   a skos:Concept ;
   skos:inScheme fundertype:scheme ;
   skos:notation "07"^^xsd:integer ;
-  skos:prefLabel "Körperschaft oder Stiftung des öffentlichen Rechts" ;
+  skos:prefLabel "Körperschaft oder Stiftung des öffentlichen Rechts"@de ;
   skos:prefLabel "Corporate Body or Foundation under Public Law"@en .
  
 fundertype:n08
