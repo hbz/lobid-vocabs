@@ -61,7 +61,7 @@ lv:fundertype
 # <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
-   rdf:type rdf:Property ;
+   rdf:type owl:DatatypeProperty ;
    rdfs:label "hbz-ID"@de ;
    rdfs:label "hbz ID"@en ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
@@ -74,7 +74,7 @@ lv:hbzID
 # <http://purl.org/lobid/lv#isil>
 
 lv:isil
-   rdf:type rdf:Property ;
+   rdf:type owl:DatatypeProperty ;
    rdfs:label "ISIL" ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). Ein eindeutiger Identifikator für Bibliotheken und verwandte Einrichtungen oder untergeordnete Organisationseinheiten, der durch ISIL-Agenturen vergeben wird."@de ;
@@ -93,3 +93,14 @@ lv:stocksize
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
    rdfs:domain foaf:Organization .
+
+# <http://purl.org/lobid/lv#urn>
+
+lv:urn
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "URN"@en ;
+   rdfs:label "URN"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to indicate the uniform resource name (URN) of a bibliographic resource. The URN must be stated as a string not as URI, thus identifying the identifier itself and not the resource that is identified by the URN."@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
