@@ -8,6 +8,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # About lobid vocab
 
@@ -77,12 +78,20 @@ lv:isil
    rdf:type owl:DatatypeProperty ;
    rdfs:label "ISIL" ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). Ein eindeutiger Identifikator für Bibliotheken und verwandte Einrichtungen oder untergeordnete Organisationseinheiten, der durch ISIL-Agenturen vergeben wird."@de ;
-   rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). 'An ISIL identifies an organization, i.e., a library or a related organization, or one of its subordinate units, which is responsible for an action or service in a bibliographic environment (e.g. creation of machine-readable information). It can be used to identify the originator or holder of a resource (e.g. library material).'"@en ;
+   rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). Ein eindeutiger Identifikator für Bibliotheken und verwandte Einrichtungen oder untergeordnete Organisationseinheiten, der durch ISIL-Agenturen vergeben wird. Das Literal sollte durch den folgenden regulären Ausdruck gematcht werden: [A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11} ."@de ;
+   rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). 'An ISIL identifies an organization, i.e., a library or a related organization, or one of its subordinate units, which is responsible for an action or service in a bibliographic environment (e.g. creation of machine-readable information). It can be used to identify the originator or holder of a resource (e.g. library material).' The literal should conform to this regular expression: [A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11} ."@en ;
    rdfs:subPropertyOf dct:identifier ;
    rdfs:seeAlso <http://biblstandard.dk/isil/scope.htm> ;
-   rdfs:domain foaf:Agent ;
-   rdfs:range rdfs:Literal .
+   rdfs:domain foaf:Organization ;
+   rdfs:range [
+      a rdfs:Datatype ;
+      owl:onDatatype xsd:string ;
+      owl:withRestrictions (
+        [
+            xsd:pattern "[A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11}"
+        ]
+      )
+              ]  .
 
 # <http://purl.org/lobid/lv#stocksize>
 
