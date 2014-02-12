@@ -55,7 +55,7 @@ lv:fundertype
    rdfs:label "Type of funding organization"@en ;
    rdfs:label "Art des Unterhaltträgers"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://lobid.org/vocab/fundertype#."@en ;
+   rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://purl.org/lobid/fundertype."@en ;
    rdfs:domain foaf:Organization ;
    rdfs:range skos:Concept .
 
