@@ -5,12 +5,13 @@
 
 <http://purl.org/lobid/rpb>
     a skos:ConceptScheme ;
-    vann:preferredNamespacePrefix "rpb" ;
     dct:title "Systematik der Rheinland-Pfälzischen Bibliographie"@de , "Classification scheme for the bibliography of Rhineland-Palatinate"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "This classification was created for use in the bibliography of . The transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
     dct:issued "2014-01-28" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
+    vann:preferredNamespaceUri "http://purl.org/lobid/rpb" ;
+    vann:preferredNamespacePrefix "rpb" ;
     skos:hasTopConcept <http://purl.org/lobid/rpb#n100000>, <http://purl.org/lobid/rpb#n120000>, <http://purl.org/lobid/rpb#n140000>, <http://purl.org/lobid/rpb#n160000>, <http://purl.org/lobid/rpb#n200000>, <http://purl.org/lobid/rpb#n210000>, <http://purl.org/lobid/rpb#n220000>, <http://purl.org/lobid/rpb#n240000>, <http://purl.org/lobid/rpb#n260000>, <http://purl.org/lobid/rpb#n400000>, <http://purl.org/lobid/rpb#n420000>, <http://purl.org/lobid/rpb#n440000>, <http://purl.org/lobid/rpb#n500000>, <http://purl.org/lobid/rpb#n520000>, <http://purl.org/lobid/rpb#n530000>, <http://purl.org/lobid/rpb#n540000>, <http://purl.org/lobid/rpb#n550000>, <http://purl.org/lobid/rpb#n560000>, <http://purl.org/lobid/rpb#n570000>, <http://purl.org/lobid/rpb#n580000>, <http://purl.org/lobid/rpb#n610000>, <http://purl.org/lobid/rpb#n630000>, <http://purl.org/lobid/rpb#n650000>, <http://purl.org/lobid/rpb#n700000>, <http://purl.org/lobid/rpb#n720000>, <http://purl.org/lobid/rpb#n730000>, <http://purl.org/lobid/rpb#n740000>, <http://purl.org/lobid/rpb#n760000>, <http://purl.org/lobid/rpb#n780000>, <http://purl.org/lobid/rpb#n790000>, <http://purl.org/lobid/rpb#n800000>, <http://purl.org/lobid/rpb#n820000>, <http://purl.org/lobid/rpb#n840000>, <http://purl.org/lobid/rpb#n860000>, <http://purl.org/lobid/rpb#n880000> .
 
 <http://purl.org/lobid/rpb#n100000>

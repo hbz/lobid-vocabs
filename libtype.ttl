@@ -1,7 +1,8 @@
-@prefix libtype: <http://purl.org/lobid/libtype#> .
-@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct:    <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix libtype: <http://purl.org/lobid/libtype#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
  
 libtype:scheme
@@ -11,6 +12,8 @@ libtype:scheme
   dc:creator "Felix Ostrowski" ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für bibliothekarische Einrichtungen. Siehe http://sigel.staatsbibliothek-berlin.de/formular/main.php?func=change."@de ;
+  vann:preferredNamespaceUri "http://purl.org/lobid/libtype#" ;
+  vann:preferredNamespacePrefix "libtype" ;
   skos:hasTopConcept
     libtype:n11,
     libtype:n15,
