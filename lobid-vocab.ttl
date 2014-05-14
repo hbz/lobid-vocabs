@@ -1,3 +1,4 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix lv:   <http://purl.org/lobid/lv#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
@@ -24,6 +25,14 @@
    dct:creator <http://lobid.org/person/ap> ;
    vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
+
+lv:Bibliography
+   a owl:Class ;
+   rdfs:subClassOf bibo:Collection ;
+   rdfs:label "Bibliography"@en ;
+   rdfs:label "Bibliographie"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A collection of documents relevant to a particular subject or author."@en .
 
 
 # <http://purl.org/lobid/lv#contactqr>
