@@ -22,7 +22,7 @@
    dct:issued "2012-01-17" ;
    dct:modified "See https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
-   dct:creator <http://lobid.org/person/ap> ;
+   dct:creator <http://lobid.org/team/ap> ;
    vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
 

@@ -8,7 +8,7 @@
 libtype:scheme
   a skos:ConceptScheme ;
   dct:title "Bibliothekstypen gemäß dem Sigelverzeichnis" ;
-  dct:creator <http://lobid.org/person/ap> ;
+  dct:creator <http://lobid.org/team/ap> ;
   dc:creator "Felix Ostrowski" ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für bibliothekarische Einrichtungen. Siehe http://sigel.staatsbibliothek-berlin.de/formular/main.php?func=change."@de ;
