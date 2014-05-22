@@ -22,7 +22,7 @@
    dct:issued "2012-01-17" ;
    dct:modified "See https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
-   dct:creator <http://lobid.org/person/ap> ;
+   dct:creator <http://lobid.org/team/ap> ;
    vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
 
@@ -122,3 +122,17 @@ lv:urn
    rdfs:comment "This property is used to indicate the uniform resource name (URN) of a bibliographic resource. The URN must be stated as a string not as URI, thus identifying the identifier itself and not the resource that is identified by the URN."@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#zdbID>
+
+lv:zdbID
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "ZDB-ID"@de ;
+   rdfs:label "ZDB ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "ZDB-Nummer. Der Identifier, der einer bibliographischen Ressource in der Zeitschriftendatenbank (ZDB) zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the German Journal Database (Zeitschriftendatenbank, ZDB)."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
