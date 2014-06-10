@@ -6,6 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix oo: <http://purl.org/openorg/> .
+@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
@@ -111,6 +112,17 @@ lv:stocksize
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
    rdfs:domain foaf:Organization .
+
+# <http://purl.org/lobid/lv#titleKeyword>
+
+lv:titleKeyword
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Title Keyword"@en ;
+   rdfs:label "Titelstichwort"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Indicates a title keyword, possibly in a different spelling than used in the original title."@en ;
+   rdfs:domain schema:CreativeWork .
+
 
 # <http://purl.org/lobid/lv#urn>
 
