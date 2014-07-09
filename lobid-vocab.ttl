@@ -21,7 +21,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2014-06-10"^^xsd:date ;
+   dct:modified "2014-07-09"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -35,6 +35,18 @@ lv:Bibliography
    rdfs:label "Bibliographie"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A collection of documents relevant to a particular subject or author."@en .
+
+# <http://purl.org/lobid/lv#ags>
+
+lv:ags
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Amtlicher Gemeindeschlüssel"@de ;
+   rdfs:label "Community Identification Number"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Amtlicher Gemeindeschlüssel (AGS) of the of the region a spatial resource is located in."@en ;
+   rdfs:comment "Amtlicher Gemeindeschlüssel (AGS) der Region, in der sich die beschriebene raum-zeitliche Ressource befindet."@de ;
+   rdfs:seeAlso <http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel> , <http://en.wikipedia.org/wiki/Community_Identification_Number#Germany> ;
+   rdfs:range xsd:positiveInteger .
 
 
 # <http://purl.org/lobid/lv#contactqr>
