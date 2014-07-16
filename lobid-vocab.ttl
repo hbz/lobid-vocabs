@@ -32,9 +32,55 @@ lv:Bibliography
    a owl:Class ;
    rdfs:subClassOf bibo:Collection ;
    rdfs:label "Bibliography"@en ;
-   rdfs:label "Bibliographie"@de ;
+   rdfs:label "Bibliografie"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "A collection of documents relevant to a particular subject or author."@en .
+   rdfs:comment "A collection of documents relevant to a particular subject or author."@en ;
+   rdfs:comment "Eine Sammlung von Literaturnachweisen."@de .
+
+# <http://purl.org/lobid/lv#Biography>
+
+lv:Biography
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Biography"@en ;
+   rdfs:label "Biografie"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A detailed description or account of a person's life"@en ;
+   rdfs:comment "Die Lebensbeschreibung einer Person."@de .
+
+# <http://purl.org/lobid/lv#Festschrift>
+
+lv:Festschrift
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Festschrift"@en ;
+   rdfs:label "Festschrift"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A publication honoring a respected person, especially an academic."@en ;
+   rdfs:comment "Einem Gelehrten gewidmete Sammlung von Aufsätzen."@de .
+
+# <http://purl.org/lobid/lv#OfficialPublication>
+
+lv:OfficialPublication
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Official Publication"@en ;
+   rdfs:label "Amtliche Veröffentlichung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A publication  that records the business and proceedings of a government agency."@en ;
+   rdfs:comment "Eine behördliche Publikation für amtliche Bekanntmachungen."@de .
+
+
+# <http://purl.org/lobid/lv#Schoolbook>
+
+lv:Schoolbook
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Schoolbook"@en ;
+   rdfs:label "Schulbuch"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A textbook used by school teachers in their classes."@en ;
+   rdfs:comment "Ein Lehrbuch, das Schullehrer im Unterricht einsetzen."@de .
 
 # <http://purl.org/lobid/lv#ags>
 
