@@ -21,12 +21,14 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2014-07-09"^^xsd:date ;
+   dct:modified "2014-07-16"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
    vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
+
+# <http://purl.org/lobid/lv#Bibliography>
 
 lv:Bibliography
    a owl:Class ;
@@ -115,6 +117,32 @@ lv:isil
         ]
       )
               ]  .
+
+# <http://purl.org/lobid/lv#nwbibsubject>
+
+lv:nwbibsubject
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "NWBib-Sachschlagwort"@de ;
+   rdfs:label "NWBib subject heading"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Verlinkt eine Ressource aus der Nordrhein-Westfälischen Bibliographie (NWBib) mit einer Systemstelle aus der NWBib-Sachsystematik."@de ;
+   rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's subject classification."@en ;
+   rdfs:subPropertyOf dct:subject ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range skos:Concept .
+
+# <http://purl.org/lobid/lv#nwbibspatial>
+
+lv:nwbibspatial
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "NWBib-Ortsschlagwort"@de ;
+   rdfs:label "NWBib spatial subject heading"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Verlinkt eine Ressource aus der Nordrhein-Westfälischen Bibliographie mit einer Systemstelle aus der NWBib-Ortssystematik."@de ;
+   rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's spatial classification."@en ;
+   rdfs:subPropertyOf dct:subject ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range skos:Concept .
 
 # <http://purl.org/lobid/lv#stocksize>
 
