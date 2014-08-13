@@ -61,6 +61,18 @@ lv:Festschrift
    rdfs:comment "A publication honoring a respected person, especially an academic."@en ;
    rdfs:comment "Einem Gelehrten gewidmete Sammlung von Aufsätzen."@de .
 
+# <http://purl.org/lobid/lv#Miscellaneous>
+
+lv:Miscellaneous
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Miscellaneous"@en ;
+   rdfs:label "Sonstige"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This class covers all publication types that are not covered by existing class definitions. It is used to enable facets over seldomly found publication types in library catalogs."@en ;
+   rdfs:comment "Diese Klasse deckt alle Publikationstypen ab, die nicht durch bestehende Klassen erfasst sind. Sie dient insbesondere dem Angebot von Facetten für jene Publikationstypen, die in Bibliothekskatalogen selten zu finden sind."@de ;
+   rdfs:seeAlso <https://wiki1.hbz-nrw.de/x/E4AyAQ#Facettenueberhbz01-Daten-misc> .
+
 # <http://purl.org/lobid/lv#OfficialPublication>
 
 lv:OfficialPublication
@@ -69,7 +81,7 @@ lv:OfficialPublication
    rdfs:label "Official Publication"@en ;
    rdfs:label "Amtliche Veröffentlichung"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "A publication  that records the business and proceedings of a government agency."@en ;
+   rdfs:comment "A publication that records the business and proceedings of a government agency."@en ;
    rdfs:comment "Eine behördliche Publikation für amtliche Bekanntmachungen."@de .
 
 
