@@ -120,6 +120,20 @@ lv:contactqr
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
 
+# <http://purl.org/lobid/lv#dbsID>
+
+lv:dbsID
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "DBS-ID"@de ;
+   rdfs:label "DBS ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "DBS-Nummer. Der Identifier, der einer Bibliothek innerhalb der Deutschen Bibliotheksstatistik (DBS) zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that was assigned to a library in the context of the German Library Statistics (DBS)."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain schema:Library ;
+   rdfs:range rdfs:Literal .
+
+
 # <http://purl.org/lobid/lv#fulltextOnline>
 
 lv:fulltextOnline
@@ -165,7 +179,6 @@ lv:isil
    rdfs:comment "International Standard Identifier for Libraries and Related Organizations (ISIL). 'An ISIL identifies an organization, i.e., a library or a related organization, or one of its subordinate units, which is responsible for an action or service in a bibliographic environment (e.g. creation of machine-readable information). It can be used to identify the originator or holder of a resource (e.g. library material).' The literal should conform to this regular expression: [A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11} ."@en ;
    rdfs:subPropertyOf dct:identifier ;
    rdfs:seeAlso <http://biblstandard.dk/isil/scope.htm> ;
-   rdfs:domain foaf:Organization ;
    rdfs:range [
       a rdfs:Datatype ;
       owl:onDatatype xsd:string ;
