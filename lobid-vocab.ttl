@@ -103,7 +103,7 @@ lv:ags
    rdfs:label "Amtlicher Gemeindeschlüssel"@de ;
    rdfs:label "Community Identification Number"@en ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Amtlicher Gemeindeschlüssel (AGS) of the of the region a spatial resource is located in."@en ;
+   rdfs:comment "Amtlicher Gemeindeschlüssel (AGS) of the region a spatial resource is located in."@en ;
    rdfs:comment "Amtlicher Gemeindeschlüssel (AGS) der Region, in der sich die beschriebene raum-zeitliche Ressource befindet."@de ;
    rdfs:seeAlso <http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel> , <http://en.wikipedia.org/wiki/Community_Identification_Number#Germany> ;
    rdfs:range xsd:positiveInteger .
@@ -214,6 +214,19 @@ lv:nwbibspatial
    rdfs:subPropertyOf dct:subject ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range skos:Concept .
+
+# <http://purl.org/lobid/lv#rs>
+
+lv:rs
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Regionalschlüssel"@de ;
+   rdfs:label "Region key"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Key of the region a spatial resource is located in."@en ;
+   rdfs:comment "Regionalschlüssel der Region, in der sich die beschriebene raum-zeitliche Ressource befindet."@de ;
+   rdfs:seeAlso <https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel#Regionalschl.C3.BCssel> ;
+   rdfs:range xsd:positiveInteger .
+
 
 # <http://purl.org/lobid/lv#stocksize>
 
