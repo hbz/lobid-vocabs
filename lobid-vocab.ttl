@@ -21,12 +21,23 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2014-08-12"^^xsd:date ;
+   dct:modified "2014-12-08"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
    vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
+
+# <http://purl.org/lobid/lv#ArchivedWebPage>
+
+lv:ArchivedWebPage
+   a owl:Class ;
+   rdfs:subClassOf <http://data.archiveshub.ac.uk/def/ArchivalResource> ;
+   rdfs:label "Archived Web Page"@en ;
+   rdfs:label "Archivierte Webseite"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "An archival resource that is product of archiving a web page."@en ;
+   rdfs:comment "Das Produkt der Archivierung einer Webseite."@de .
 
 # <http://purl.org/lobid/lv#Bibliography>
 
@@ -271,6 +282,18 @@ lv:urn
    rdfs:comment "This property is used to indicate the uniform resource name (URN) of a bibliographic resource. The URN must be stated as a string not as URI, thus identifying the identifier itself and not the resource that is identified by the URN."@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#webPageArchived>
+
+lv:webPageArchived
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Web page archived"@en ; 
+   rdfs:label "Archivierte Webseite"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to link the product of archiving a web page to the web page being archived."@en ;
+   rdfs:domain lv:ArchivedWebPage ;
+   rdfs:range schema:WebPage .
+
 
 # <http://purl.org/lobid/lv#zdbID>
 
