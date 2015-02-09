@@ -21,7 +21,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2014-12-08"^^xsd:date ;
+   dct:modified "2015-02-09"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -60,6 +60,18 @@ lv:Biography
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A detailed description or account of a person's life"@en ;
    rdfs:comment "Die Lebensbeschreibung einer Person."@de .
+
+# <http://purl.org/lobid/lv#EditedVolume>
+
+lv:EditedVolume
+   a owl:Class ;
+   rdfs:subClassOf bibo:Collection ;
+   rdfs:label "Edited Volume"@en ;
+   rdfs:label "Aufsatzsammlung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "a collection of scholarly or scientific articles written by different authors"@en ;
+   rdfs:comment "Ein Sammelwerk mit mehreren Beiträgen."@de .
+
 
 # <http://purl.org/lobid/lv#Festschrift>
 
