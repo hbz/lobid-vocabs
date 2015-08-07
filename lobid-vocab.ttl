@@ -164,6 +164,20 @@ lv:contactqr
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
 
+
+# <http://purl.org/lobid/lv#containedIn>
+
+lv:containedIn
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Contained in"@en ; 
+   rdfs:label "Enthalten in"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to link an article to a journal or an edited volume it is contained in."@en ;
+   rdfs:comment "Diese Property verlinkt einen Artikel mit einer Zeitschrift oder einer Aufsatzsammlung, in der er enthalten ist."@de;
+   rdfs:subpropertyOf dct:isPartOf;
+   rdfs:domain bibo:Article ;
+   rdfs:range dct:BibliographicResource .
+
 # <http://purl.org/lobid/lv#dbsID>
 
 lv:dbsID
