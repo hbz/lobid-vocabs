@@ -21,7 +21,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2015-02-09"^^xsd:date ;
+   dct:modified "2015-08-10"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -96,6 +96,17 @@ lv:Miscellaneous
    rdfs:comment "Diese Klasse deckt alle Publikationstypen ab, die nicht durch bestehende Klassen erfasst sind. Sie dient insbesondere dem Angebot von Facetten für jene Publikationstypen, die in Bibliothekskatalogen selten zu finden sind."@de ;
    rdfs:seeAlso <https://wiki1.hbz-nrw.de/x/E4AyAQ#Facettenueberhbz01-Daten-misc> .
 
+# <http://purl.org/lobid/lv#MultiVolumeWorkRelation>
+
+lv:MultiVolumeWorkRelation
+   a owl:Class ;
+   rdfs:label "Volume-to-work relation"@en ;
+   rdfs:label "Band-Werk-Beziehung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "The relationship between a volume and a multi-volume work it is part of."@en ;
+   rdfs:comment "Die Beziehung zwischen einem Band und dem übergeordneten mehrbändigen Werk."@de .
+
+
 # <http://purl.org/lobid/lv#OfficialPublication>
 
 lv:OfficialPublication
@@ -118,6 +129,16 @@ lv:Schoolbook
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A textbook used by school teachers in their classes."@en ;
    rdfs:comment "Ein Lehrbuch, das Schullehrer im Unterricht einsetzen."@de .
+
+# <http://purl.org/lobid/lv#SeriesRelation>
+
+lv:SeriesRelation
+   a owl:Class ;
+   rdfs:label "Resource-to-series relation"@en ;
+   rdfs:label "Dokument-Reihe-Beziehung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "The relationship between a resource and a series it is part of."@en ;
+   rdfs:comment "Die Beziehung zwischen einem Dokument und einer Reihe."@de .
 
 # <http://purl.org/lobid/lv#ags>
 
@@ -142,6 +163,20 @@ lv:contactqr
    rdfs:comment "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en ;
    rdfs:domain foaf:Agent ;
    rdfs:range foaf:Image .
+
+
+# <http://purl.org/lobid/lv#containedIn>
+
+lv:containedIn
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Contained in"@en ; 
+   rdfs:label "Enthalten in"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to link an article to a journal or an edited volume it is contained in."@en ;
+   rdfs:comment "Diese Property verlinkt einen Artikel mit einer Zeitschrift oder einer Aufsatzsammlung, in der er enthalten ist."@de;
+   rdfs:subpropertyOf dct:isPartOf;
+   rdfs:domain bibo:Article ;
+   rdfs:range dct:BibliographicResource .
 
 # <http://purl.org/lobid/lv#dbsID>
 
@@ -191,7 +226,19 @@ lv:hbzID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
-   
+
+# <http://purl.org/lobid/lv#inSeries>
+
+lv:inSeries
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "in Series"@en ; 
+   rdfs:label "In Reihe"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to link a document to a document-to-series relation."@en ;
+   rdfs:comment "Diese Property verlinkt eine Ressource mit einer Dokument-Serie-Beziehung."@de;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range lv:SeriesRelation .
+
 # <http://purl.org/lobid/lv#isil>
 
 lv:isil
@@ -211,6 +258,18 @@ lv:isil
         ]
       )
               ]  .
+
+# <http://purl.org/lobid/lv#multiVolumeWork>
+
+lv:multiVolumeWork
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Multi-volume work"@en ; 
+   rdfs:label "Mehrbändiges Werk"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This properties is used to link a volume-to-work relation to a volume."@en ;
+   rdfs:comment "Diese Property verlinkt eine Band-Werk-Beziehung mit einem mehrbändigen Werk."@de;
+   rdfs:domain lv:MultiVolumeWorkRelation ;
+   rdfs:range dct:BibliographicResource .
 
 # <http://purl.org/lobid/lv#nwbibsubject>
 
@@ -238,6 +297,20 @@ lv:nwbibspatial
    rdfs:domain dct:BibliographicResource ;
    rdfs:range skos:Concept .
 
+# <http://purl.org/lobid/lv#numbering>
+
+lv:numbering
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "numbering"@en ; 
+   rdfs:label "Nummer"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to indicate the numbering within a volume-to-work or a document-to-series relation."@en ;
+   rdfs:comment "Zur Angabe der Nummerierung innerhalb einer Band-Werk-Beziehung oder Dokument-Reihe-Beziehung."@de;
+   rdfs:domain [ a owl:Class;
+        owl:unionOf (  lv:MultiVolumeWorkRelation lv:SeriesRelation)
+    ];
+   rdfs:range rdfs:Literal .
+
 # <http://purl.org/lobid/lv#rs>
 
 lv:rs
@@ -250,6 +323,17 @@ lv:rs
    rdfs:seeAlso <https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel#Regionalschl.C3.BCssel> ;
    rdfs:range xsd:positiveInteger .
 
+# <http://purl.org/lobid/lv#series>
+
+lv:series
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Series"@en ; 
+   rdfs:label "Reihe"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to link a document-to-series relation to a series."@en ;
+   rdfs:comment "Diese Property verlinkt eine Dokument-Serie-Beziehung mit einer Serie."@de;
+   rdfs:domain lv:SeriesRelation ;
+   rdfs:range dct:BibliographicResource .
 
 # <http://purl.org/lobid/lv#stocksize>
 
@@ -294,6 +378,19 @@ lv:urn
    rdfs:comment "This property is used to indicate the uniform resource name (URN) of a bibliographic resource. The URN must be stated as a string not as URI, thus identifying the identifier itself and not the resource that is identified by the URN."@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#volumeIn>
+
+lv:volumeIn
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "volume in"@en ; 
+   rdfs:label "Bestandteil von"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to link a volume to a volume-to-work relation."@en ;
+   rdfs:comment "Diese Property verlinkt ein Band mit einer Band-Werk-Beziehung."@de;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range lv:MultiVolumeWorkRelation .
+
 
 # <http://purl.org/lobid/lv#webPageArchived>
 
