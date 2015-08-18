@@ -21,7 +21,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2015-08-10"^^xsd:date ;
+   dct:modified "2015-08-18"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -174,7 +174,7 @@ lv:containedIn
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This property is used to link an article to a journal or an edited volume it is contained in."@en ;
    rdfs:comment "Diese Property verlinkt einen Artikel mit einer Zeitschrift oder einer Aufsatzsammlung, in der er enthalten ist."@de;
-   rdfs:subpropertyOf dct:isPartOf;
+   rdfs:subPropertyOf dct:isPartOf;
    rdfs:domain bibo:Article ;
    rdfs:range dct:BibliographicResource .
 
