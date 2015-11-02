@@ -7,7 +7,7 @@
  
 libtype:scheme
   a skos:ConceptScheme ;
-  dct:title "Bibliothekstypen gemäß dem Sigelverzeichnis" ;
+  dct:title "Bibliothekstypen gemäß dem Sigelverzeichnis"@de ;
   dct:creator <http://lobid.org/team/ap> ;
   dc:creator "Felix Ostrowski" ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
