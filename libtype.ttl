@@ -121,7 +121,14 @@ libtype:n81
   skos:notation "81"^^xsd:integer ;
   skos:prefLabel "Wissenschaftliche Spezialbibliothek"@de ;
   skos:prefLabel "Academic Special Library"@en .
-   
+
+libtype:n82
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "82"^^xsd:integer ;
+  skos:prefLabel "Einrichtung der Denkmalpflege"@de ;
+  skos:prefLabel "Institution for Preservation of Historical Monuments"@en .
+
 libtype:n84
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
