@@ -122,6 +122,13 @@ libtype:n81
   skos:prefLabel "Wissenschaftliche Spezialbibliothek"@de ;
   skos:prefLabel "Academic Special Library"@en .
    
+libtype:n84
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "84"^^xsd:integer ;
+  skos:prefLabel "Forschungseinrichtung"@de ;
+  skos:prefLabel "Research Institution"@en .
+
 libtype:n85
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
