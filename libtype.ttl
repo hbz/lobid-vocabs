@@ -175,8 +175,8 @@ libtype:n95
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "95"^^xsd:integer ;
-  skos:prefLabel "Fachzentralkatalog"@de ;
-  skos:prefLabel "Central Subject Catalogue"@en .
+  skos:prefLabel "Virtuelle Bibliothek / Portal"@de ;
+  skos:prefLabel "Virtual Library / Portal"@en .
    
 libtype:n96
   a skos:Concept ;
