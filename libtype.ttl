@@ -136,13 +136,6 @@ libtype:n84
   skos:prefLabel "Forschungseinrichtung"@de ;
   skos:prefLabel "Research Institution"@en .
 
-libtype:n85
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "85"^^xsd:integer ;
-  skos:prefLabel "Archiv (nicht Archivbibliothek)"@de ;
-  skos:prefLabel "Archive"@en .
-   
 libtype:n86
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
