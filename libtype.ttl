@@ -67,6 +67,13 @@ libtype:n33
   skos:prefLabel "Öffentliche Bibliothek"@de ;
   skos:prefLabel "Public Library"@en .
 
+libtype:n34
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "34"^^xsd:integer ;
+  skos:prefLabel "Mediathek"@de ;
+  skos:prefLabel "Media Library"@en .
+
 libtype:n36
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
