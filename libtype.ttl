@@ -184,13 +184,6 @@ libtype:n96
   skos:notation "96"^^xsd:integer ;
   skos:prefLabel "Verbundsystem/ -kataloge"@de ;
   skos:prefLabel "Union Catalogue"@en .
-   
-libtype:n97
-  a skos:Concept ;
-  skos:inScheme libtype:scheme ;
-  skos:notation "97"^^xsd:integer ;
-  skos:prefLabel "Ministerium"@de ;
-  skos:prefLabel "Ministry"@en .
  
 libtype:n98
   a skos:Concept ;
