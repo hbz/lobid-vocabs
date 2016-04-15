@@ -1,0 +1,22 @@
+@prefix : <https://w3id.org/lobid/rpb2#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<https://w3id.org/lobid/rpb2>
+    a skos:ConceptScheme ;
+    dct:title "RPB-Sachgruppen und Exoten"@de ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dct:description "This SKOS verison of a controlled vocabulary for the Rhineland-Palatian Bibliography (RPB) was created by the hbz." ;
+    dct:issued "2016-xx-x" ;
+    dct:publisher <http://lobid.org/organisation/DE-605> ;
+    vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
+    vann:preferredNamespacePrefix "rpb2" ;
+    skos:hasTopConcept <https://w3id.org/lobid/rpb2#n100> .
+
+<http://purl.org/lobid/nwbib-spatial#n100>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "100" ;
+    skos:prefLabel "Wissenschaft und Kultur allgemein"@de .
