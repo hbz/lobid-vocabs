@@ -21,11 +21,90 @@
     skos:notation "100" ;
     skos:prefLabel "Wissenschaft und Kultur allgemein"@de .
 
+<http://purl.org/lobid/nwbib-spatial#n106>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "106" ;
+    skos:prefLabel "Amtsdruckschriften Rheinland-Pfalz"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n107>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "107" ;
+    skos:prefLabel "Schulbücher"@de .
+
+
 <http://purl.org/lobid/nwbib-spatial#n120>
     a skos:Concept ;
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "120" ;
     skos:prefLabel "Erziehung, Bildung, Unterricht"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n130>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "130" ;
+    skos:prefLabel "Landeskunde Region Koblenz"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n131>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "131" ;
+    skos:prefLabel "Landeskunde Pfalz"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n132>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "132" ;
+    skos:prefLabel "Personen aus der Region Koblenz"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n133>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "133" ;
+    skos:prefLabel "Personen aus der Pfalz"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n136>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "136" ;
+    skos:prefLabel "Landeskunde Region Trier"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n137>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "137" ;
+    skos:prefLabel "Landeskunde Rheinhessen"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n139>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "139" ;
+    skos:prefLabel "Belegexemplare Rheinland-Pfalz"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n140>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "140" ;
+    skos:prefLabel "Pflichtexemplar Region Koblenz"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n141>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "141" ;
+    skos:prefLabel "Pflichtexemplar Pfalz"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n146>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "146" ;
+    skos:prefLabel "Pflichtexemplar Region Trier"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n147>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "147" ;
+    skos:prefLabel "Pflichtexemplar Rheinhessen"@de .
 
 <http://purl.org/lobid/nwbib-spatial#n150>
     a skos:Concept ;
