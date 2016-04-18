@@ -12,8 +12,7 @@
     dct:issued "2016-xx-x" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
-    vann:preferredNamespacePrefix "rpb2" ;
-    skos:hasTopConcept <https://w3id.org/lobid/rpb2#n100> .
+    vann:preferredNamespacePrefix "rpb2" .
 
 <http://purl.org/lobid/nwbib-spatial#n100>
     a skos:Concept ;
