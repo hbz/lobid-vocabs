@@ -20,3 +20,345 @@
     skos:inScheme <https://w3id.org/lobid/rpb2> ;
     skos:notation "100" ;
     skos:prefLabel "Wissenschaft und Kultur allgemein"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n120>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "120" ;
+    skos:prefLabel "Erziehung, Bildung, Unterricht"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n150>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "150" ;
+    skos:prefLabel "Allg. und vergl. Sprach- u. Lit. – Wiss."@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n180>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "180" ;
+    skos:prefLabel "Wörterbücher (nicht fachgebunden)"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n200>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "200" ;
+    skos:prefLabel "Deutsche Sprache und Literatur"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n210>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "210" ;
+    skos:prefLabel "Übrige germanische Sprachen und Lit."@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n230>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "230" ;
+    skos:prefLabel "Englische Sprache und Literatur"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n250>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "250" ;
+    skos:prefLabel "Romanische Sprachen und Literaturen"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n260>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "260" ;
+    skos:prefLabel "Klassische Sprachen und Literaturen"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n270>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "270" ;
+    skos:prefLabel "Slawische und baltische Spr. u. Lit."@de .
+
+<http://purl.org/lobid/nwbib-spatial#n280>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "280" ;
+    skos:prefLabel "Sonstige Sprachen und Literaturen"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n300>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "300" ;
+    skos:prefLabel "Archäologie, Vorgeschichte"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n320>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "320" ;
+    skos:prefLabel "Historische Hilfswissenschaften"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n330>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "330" ;
+    skos:prefLabel "Geschichte"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n380>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "380" ;
+    skos:prefLabel "Wirtschafts- und Sozialgeschichte"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n400>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "400" ;
+    skos:prefLabel "Philosophie/Esoterik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n430>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "430" ;
+    skos:prefLabel "Allg. und vergl. Religionswiss."@de .
+
+<http://purl.org/lobid/nwbib-spatial#n450>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "450" ;
+    skos:prefLabel "Christliche Religionen"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n480>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "480" ;
+    skos:prefLabel "Nichtchristliche Religionen"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n500>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "500" ;
+    skos:prefLabel "Bildende Kunst"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n510>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "510" ;
+    skos:prefLabel "Architektur"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n520>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "520" ;
+    skos:prefLabel "Photographie"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n530>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "530" ;
+    skos:prefLabel "Film"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n540>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "540" ;
+    skos:prefLabel "Theater, Tanz"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n550>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "550" ;
+    skos:prefLabel "Musik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n560>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "560" ;
+    skos:prefLabel "Buch, Bibl., Information und Dok."@de .
+
+<http://purl.org/lobid/nwbib-spatial#n580>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "580" ;
+    skos:prefLabel "Handschriften, Buchkunst"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n600>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "600" ;
+    skos:prefLabel "Recht, öffentliche Verwaltung"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n610>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "610" ;
+    skos:prefLabel "Politik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n620>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "620" ;
+    skos:prefLabel "Publizistik"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n630>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "630" ;
+    skos:prefLabel "Soziologie, Gesellschaft"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n640>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "640" ;
+    skos:prefLabel "Volks- und Völkerkunde"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n650>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "650" ;
+    skos:prefLabel "Wirtschaft und Arbeit"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n680>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "680" ;
+    skos:prefLabel "Wein"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n690>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "690" ;
+    skos:prefLabel "Militär"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n700>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "700" ;
+    skos:prefLabel "Natur, Naturwiss. allgemein"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n710>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "710" ;
+    skos:prefLabel "Geographie"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n720>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "720" ;
+    skos:prefLabel "Geowissenschaften"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n740>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "740" ;
+    skos:prefLabel "Umweltschutz, Raumordn., Landschaft"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n760>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "760" ;
+    skos:prefLabel "Landwirtschaft"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n780>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "780" ;
+    skos:prefLabel "Biologie"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n800>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "800" ;
+    skos:prefLabel "Mathematik"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n810>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "810" ;
+    skos:prefLabel "Statistik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n820>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "820" ;
+    skos:prefLabel "Informatik, Kybernetik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n830>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "830" ;
+    skos:prefLabel "Physik, Astronomie"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n840>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "840" ;
+    skos:prefLabel "Chemie"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n850>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "850" ;
+    skos:prefLabel "Medizin"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n860>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "860" ;
+    skos:prefLabel "Psychologie"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n880>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "880" ;
+    skos:prefLabel "Veterinärmedizin"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n900>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "900" ;
+    skos:prefLabel "Technik allgemein"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n910>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "910" ;
+    skos:prefLabel "Energie, Masch.-, Fertigungstechnik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n920>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "920" ;
+    skos:prefLabel "Elektrotechnik"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n930>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "930" ;
+    skos:prefLabel "Bergbau, Bautechnik, Umwelttechnik"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n940>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "940" ;
+    skos:prefLabel "Nachrichten- und Verkehrswesen"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n950>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "950" ;
+    skos:prefLabel "Chemische Technik, Versch. Technologien"@de .
+    
+<http://purl.org/lobid/nwbib-spatial#n970>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "970" ;
+    skos:prefLabel "Hausw., Hotel- und Gaststättengewerbe"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n980>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "980" ;
+    skos:prefLabel "Basteln, Handarbeit, Heimwerken"@de .
+
+<http://purl.org/lobid/nwbib-spatial#n990>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/lobid/rpb2> ;
+    skos:notation "990" ;
+    skos:prefLabel "Sport, Spiele"@de .
