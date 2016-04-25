@@ -6,9 +6,9 @@
 
 <https://w3id.org/lobid/rpb2>
     a skos:ConceptScheme ;
-    dct:title "RPB-Sachgruppen und Exoten"@de ;
+    dct:title "RPB-Sachgruppen und Zusätze"@de ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    dct:description "This SKOS verison of a controlled vocabulary for the Rhineland-Palatian Bibliography (RPB) was created by the hbz." ;
+    dct:description "This SKOS version of a controlled vocabulary for the Rhineland-Palatian Bibliography (RPB) was created by the hbz." ;
     dct:issued "2016-04-25" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
