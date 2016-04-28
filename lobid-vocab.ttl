@@ -297,6 +297,19 @@ lv:nwbibspatial
    rdfs:domain dct:BibliographicResource ;
    rdfs:range skos:Concept .
 
+# <http://purl.org/lobid/lv#rpbSubject>
+
+lv:rpbSubject
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "RPB-Sachschlagwort"@de ;
+   rdfs:label "RPB subject heading"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Verlinkt eine Ressource aus der Rheinland-Pfälzischen Bibliographie (RPB) mit einer Systemstelle aus einer RPB-Sachsystematik: http://purl.org/lobid/rpb und https://w3id.org/lobid/rpb2."@de ;
+   rdfs:comment "Links a resource in the Bibliography of Rhineland-Palatinate (RPB) to a concept in one of RPB's subject classification: http://purl.org/lobid/rpb and https://w3id.org/lobid/rpb2."@en ;
+   rdfs:subPropertyOf dct:subject ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range skos:Concept .
+
 # <http://purl.org/lobid/lv#numbering>
 
 lv:numbering
