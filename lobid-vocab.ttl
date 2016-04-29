@@ -21,7 +21,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2015-08-18"^^xsd:date ;
+   dct:modified "2016-04-28"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -278,8 +278,8 @@ lv:nwbibsubject
    rdfs:label "NWBib-Sachschlagwort"@de ;
    rdfs:label "NWBib subject heading"@en ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Verlinkt eine Ressource aus der Nordrhein-Westfälischen Bibliographie (NWBib) mit einer Systemstelle aus der NWBib-Sachsystematik."@de ;
-   rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's subject classification."@en ;
+   rdfs:comment "Verlinkt eine Ressource aus der Nordrhein-Westfälischen Bibliographie (NWBib) mit einer Systemstelle aus der NWBib-Sachsystematik (http://purl.org/lobid/nwbib)."@de ;
+   rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's subject classification (http://purl.org/lobid/nwbib)."@en ;
    rdfs:subPropertyOf dct:subject ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range skos:Concept .
@@ -291,8 +291,21 @@ lv:nwbibspatial
    rdfs:label "NWBib-Ortsschlagwort"@de ;
    rdfs:label "NWBib spatial subject heading"@en ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Verlinkt eine Ressource aus der Nordrhein-Westfälischen Bibliographie mit einer Systemstelle aus der NWBib-Ortssystematik."@de ;
-   rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's spatial classification."@en ;
+   rdfs:comment "Verlinkt eine Ressource aus der Nordrhein-Westfälischen Bibliographie mit einer Systemstelle aus der NWBib-Ortssystematik (http://purl.org/lobid/nwbib-spatial)."@de ;
+   rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's spatial classification (http://purl.org/lobid/nwbib-spatial)."@en ;
+   rdfs:subPropertyOf dct:subject ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range skos:Concept .
+
+# <http://purl.org/lobid/lv#rpbSubject>
+
+lv:rpbSubject
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "RPB-Sachschlagwort"@de ;
+   rdfs:label "RPB subject heading"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Verlinkt eine Ressource aus der Rheinland-Pfälzischen Bibliographie (RPB) mit einer Systemstelle aus einer RPB-Sachsystematik: http://purl.org/lobid/rpb und https://w3id.org/lobid/rpb2."@de ;
+   rdfs:comment "Links a resource in the Bibliography of Rhineland-Palatinate (RPB) to a concept in one of RPB's subject classification: http://purl.org/lobid/rpb and https://w3id.org/lobid/rpb2."@en ;
    rdfs:subPropertyOf dct:subject ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range skos:Concept .
