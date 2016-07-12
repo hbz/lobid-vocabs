@@ -106,4 +106,4 @@ stocksize:n11
   skos:inScheme stocksize:scheme ;
   skos:notation "11"^^xsd:integer ;
   skos:prefLabel "Einrichtung ohne Bestand"@de ;
-  skos:prefLabel "Institution without a collection"@en .
+  skos:prefLabel "Institution without holdings"@en .
