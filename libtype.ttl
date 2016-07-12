@@ -89,7 +89,8 @@ libtype:n36
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "36"^^xsd:integer ;
-  skos:prefLabel "Öffentliche Bibliothek für besondere Benutzergruppen"@de .
+  skos:prefLabel "Öffentliche Bibliothek für besondere Benutzergruppen"@de ;
+  skos:prefLabel "Public Library for special user groups"@en.
 
 libtype:n39
 a skos:Concept ;
@@ -131,14 +132,14 @@ a skos:Concept ;
 skos:inScheme libtype:scheme ;
 skos:notation "55"^^xsd:integer ;
 skos:prefLabel "Archiv (Wirtschaft)"@de ;
-skos:prefLabel "Archive (enterprise)"@en .
+skos:prefLabel "Archive (Enterprise)"@en .
 
 libtype:n56
 a skos:Concept ;
 skos:inScheme libtype:scheme ;
 skos:notation "56"^^xsd:integer ;
 skos:prefLabel "Archiv (Parlament, Partei, Stiftung oder Verband)"@de ;
-skos:prefLabel "Archive (parliament, party, foundation or federation)"@en .
+skos:prefLabel "Archive (Parliament, Party, Foundation or Federation)"@en .
 
 libtype:n57
 a skos:Concept ;
@@ -236,7 +237,7 @@ libtype:n89
   skos:inScheme libtype:scheme ;
   skos:notation "89"^^xsd:integer ;
   skos:prefLabel "Paket elektronischer Ressourcen"@de ;
-  skos:prefLabel "Collection of electronic resources"@en .
+  skos:prefLabel "Collection of Electronic Resources"@en .
 
 libtype:n91
   a skos:Concept ;
