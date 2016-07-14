@@ -111,7 +111,7 @@ a skos:Concept ;
 skos:inScheme libtype:scheme ;
 skos:notation "52"^^xsd:integer ;
 skos:prefLabel "Archiv (kommunal)"@de ;
-skos:prefLabel "Archive (municipal)"@en .
+skos:prefLabel "Archive (Municipal)"@en .
 
 libtype:n53
 a skos:Concept ;
