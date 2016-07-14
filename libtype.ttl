@@ -90,7 +90,7 @@ libtype:n36
   skos:inScheme libtype:scheme ;
   skos:notation "36"^^xsd:integer ;
   skos:prefLabel "Öffentliche Bibliothek für besondere Benutzergruppen"@de ;
-  skos:prefLabel "Public Library for special user groups"@en.
+  skos:prefLabel "Public Library for Special User Groups"@en.
 
 libtype:n39
 a skos:Concept ;
