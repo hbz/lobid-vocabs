@@ -130,6 +130,18 @@ lv:Schoolbook
    rdfs:comment "A textbook used by school teachers in their classes."@en ;
    rdfs:comment "Ein Lehrbuch, das Schullehrer im Unterricht einsetzen."@de .
 
+# <http://purl.org/lobid/lv#SecondaryPublication>
+
+lv:SecondaryPublicationEvent
+   a owl:Class ;
+   rdfs:subClassOf schema:PublicationEvent ;
+   rdfs:label "Publication Event of Secondary Form"@en ;
+   rdfs:label "Publikation der Sekundärform"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "The publication event of a reproduction/secondary form of an already published work."@en ;
+   rdfs:comment "Das Ereignis der Publikation einer Sekundärform (z.B. Digitalisat oder Mikroform)."@de .
+
+
 # <http://purl.org/lobid/lv#SeriesRelation>
 
 lv:SeriesRelation
