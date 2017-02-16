@@ -21,7 +21,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2017-02-15"^^xsd:date ;
+   dct:modified "2017-02-16"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -130,7 +130,7 @@ lv:Schoolbook
    rdfs:comment "A textbook used by school teachers in their classes."@en ;
    rdfs:comment "Ein Lehrbuch, das Schullehrer im Unterricht einsetzen."@de .
 
-# <http://purl.org/lobid/lv#SecondaryPublication>
+# <http://purl.org/lobid/lv#SecondaryPublicationEvent>
 
 lv:SecondaryPublicationEvent
    a owl:Class ;
@@ -138,8 +138,8 @@ lv:SecondaryPublicationEvent
    rdfs:label "Publication Event of Secondary Form"@en ;
    rdfs:label "Publikation der Sekundärform"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "The publication event of a reproduction/secondary form of an already published work."@en ;
-   rdfs:comment "Das Ereignis der Publikation einer Sekundärform (z.B. Digitalisat oder Mikroform)."@de .
+   rdfs:comment "The publication event of a reproduction/secondary form of an already published work (e.g. digitised media or microform)."@en ;
+   rdfs:comment "Das Ereignis der Publikation einer Reproduktion/Sekundärform (z.B. Digitalisat oder Mikroform)."@de .
 
 
 # <http://purl.org/lobid/lv#SeriesRelation>
