@@ -215,8 +215,10 @@ libtype:n86
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "86"^^xsd:integer ;
-  skos:prefLabel "Museum (nicht Museumsbibliothek)"@de ;
-  skos:PrefLabel "Museum (not Museum Library)"@en .
+  skos:prefLabel "Museum"@de ;
+  skos:scopeNote "nicht Museumsbibliothek"@de ;
+  skos:PrefLabel "Museum"@en ;
+  skos:scopeNote "not Museum Library"@en .
    
 libtype:n87
   a skos:Concept ;
