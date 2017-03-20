@@ -393,6 +393,18 @@ lv:subjectChain
    rdfs:range rdfs:Literal .
 
 
+# <http://purl.org/lobid/lv#subjectAltLabel>
+
+lv:subjectAltLabel
+   rdf:type rdf:Property ;
+   rdfs:label "Alternative label of subject"@en ;
+   rdfs:label "Alternative Bezeichnung des Themas"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Contains labels which are used for search but are not shown in the frontend."@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
 # <http://purl.org/lobid/lv#titleKeyword>
 
 lv:titleKeyword
