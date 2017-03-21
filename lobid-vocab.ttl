@@ -22,7 +22,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2017-02-24"^^xsd:date ;
+   dct:modified "2017-03-21"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -389,6 +389,18 @@ lv:subjectChain
    rdfs:label "Schlagwortfolge"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A pipe-separated list of subject terms, optionally followed by a comma-seperated list of permutations (in parentheses)."@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#subjectAltLabel>
+
+lv:subjectAltLabel
+   rdf:type rdf:Property ;
+   rdfs:label "Variant spelling of a subject heading"@en ;
+   rdfs:label "Abweichende Benennung eines Schlagworts"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Contains labels which are used for search but are not shown in the frontend."@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
