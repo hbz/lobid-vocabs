@@ -173,6 +173,7 @@ lv:callNumber
     rdfs:domain bf:Item;
     rdfs:label "call number"@en ;
     rdfs:label "Signatur"@de ;
+    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf dct:identifier .
 
