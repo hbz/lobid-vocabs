@@ -258,8 +258,8 @@ lv:inCollection
    rdfs:label "in collection"@en ;
    rdfs:label "In Sammlung"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "This property is used to link a document to a collection (bibliography, repository etc.) it is part of."@en ;
-   rdfs:comment "Diese Property verlinkt eine Ressource mit Sammlung (Bibliographie, Dokumentenserver etc.), von der es Teil ist."@de;
+   rdfs:comment "This property is used to link a bibliographic resource to a collection (bibliography, repository etc.) it is part of."@en ;
+   rdfs:comment "Diese Property verlinkt eine Ressource mit einer Sammlung (Bibliographie, Dokumentenserver etc.), zu der es gehört."@de;
    rdfs:domain dct:BibliographicResource .
 
 # <http://purl.org/lobid/lv#inSeries>
