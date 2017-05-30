@@ -22,7 +22,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2017-04-13"^^xsd:date ;
+   dct:modified "2017-05-30"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -84,6 +84,16 @@ lv:Festschrift
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A publication honoring a respected person, especially an academic."@en ;
    rdfs:comment "Einem Gelehrten gewidmete Sammlung von Aufsätzen."@de .
+
+# <http://purl.org/lobid/lv#IsPartOfRelation>
+
+lv:IsPartOfRelation
+   a owl:Class ;
+   rdfs:label "Part-of relation"@en ;
+   rdfs:label "Teil-von-Beziehung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "The relationship between a resource and a superordinate resource it is part of."@en ;
+   rdfs:comment "Die Beziehung zwischen einer Ressource und der ihr übergeordneten Ressource."@de .
 
 # <http://purl.org/lobid/lv#Miscellaneous>
 
@@ -238,6 +248,18 @@ lv:fundertype
    rdfs:domain foaf:Organization ;
    rdfs:range skos:Concept .
 
+# <http://purl.org/lobid/lv#hasSuperordinate>
+
+lv:hasSuperordinate
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Übergeordnete Ressource"@en ;
+  rdfs:label "Superordinate resource"@de ;
+  rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+  rdfs:comment "This property is used to link a is-part-of relation to a superordinate resource."@en ;
+  rdfs:comment "Diese Property verlinkt eine Teil-von-Beziehung mit der übergeordneten Ressource."@de;
+  rdfs:domain lv:IsPartRelation ;
+  rdfs:range dct:BibliographicResource .
+
 # <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
@@ -293,6 +315,18 @@ lv:isil
         ]
       )
               ]  .
+
+# <http://purl.org/lobid/lv#isPartOf>
+
+lv:isPartOf
+    rdf:type owl:ObjectProperty ;
+    rdfs:label "is part of"@en ;
+    rdfs:label "Bestandteil von"@de ;
+    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+    rdfs:comment "This property is used to link a resource to a is-part-of relation."@en ;
+    rdfs:comment "Diese Property verlinkt eine Ressource mit einer Teil-von-Beziehung."@de;
+    rdfs:domain dct:BibliographicResource ;
+    rdfs:range lv:IsPartOfRelation .
 
 # <http://purl.org/lobid/lv#multiVolumeWork>
 
@@ -416,7 +450,6 @@ lv:subjectAltLabel
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
-
 # <http://purl.org/lobid/lv#titleKeyword>
 
 lv:titleKeyword
@@ -477,3 +510,8 @@ lv:zdbID
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
+[ ] rdfs:subPropertyOf dct:isPartOf ;
+   owl:propertyChain (
+   lv:isPartOf
+   lv:superordinate
+   ) .
