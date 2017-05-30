@@ -93,7 +93,7 @@ lv:IsPartOfRelation
    rdfs:label "Teil-von-Beziehung"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "The relationship between a resource and a superordinate resource it is part of."@en ;
-   rdfs:comment "Die Beziehung zwischen einer Ressource und der ihm übergeordneten Ressource."@de .
+   rdfs:comment "Die Beziehung zwischen einer Ressource und der ihr übergeordneten Ressource."@de .
 
 # <http://purl.org/lobid/lv#Miscellaneous>
 
