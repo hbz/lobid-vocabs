@@ -248,6 +248,18 @@ lv:fundertype
    rdfs:domain foaf:Organization ;
    rdfs:range skos:Concept .
 
+# <http://purl.org/lobid/lv#hasSuperordinate>
+
+lv:hasSuperordinate
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Übergeordnete Ressource"@en ;
+  rdfs:label "Superordinate resource"@de ;
+  rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+  rdfs:comment "This property is used to link a is-part-of relation to a superordinate resource."@en ;
+  rdfs:comment "Diese Property verlinkt eine Teil-von-Beziehung mit der übergeordneten Ressource."@de;
+  rdfs:domain lv:IsPartRelation ;
+  rdfs:range dct:BibliographicResource .
+
 # <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
@@ -437,18 +449,6 @@ lv:subjectAltLabel
    rdfs:comment "Contains labels which are used for search but are not shown in the frontend."@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
-
-# <http://purl.org/lobid/lv#superordinate>
-
-lv:superordinate
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "Übergeordnete Ressource"@en ;
-  rdfs:label "Superordinate resource"@de ;
-  rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-  rdfs:comment "This property is used to link a is-part-of relation to a superordinate resource."@en ;
-  rdfs:comment "Diese Property verlinkt eine Teil-von-Beziehung mit der übergeordneten Ressource."@de;
-  rdfs:domain lv:IsPartRelation ;
-  rdfs:range dct:BibliographicResource .
 
 # <http://purl.org/lobid/lv#titleKeyword>
 
