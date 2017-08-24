@@ -3539,7 +3539,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n546020> ;
     skos:notation "rpb546028" ;
-    skos:prefLabel "Alternative Energiequelle"@de .
+    skos:prefLabel "Erneuerbare Energien"@de .
 
 <http://purl.org/lobid/rpb#n546040>
     a skos:Concept ;
