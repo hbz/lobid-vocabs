@@ -163,6 +163,17 @@ lv:SeriesRelation
    rdfs:comment "The relationship between a resource and a series it is part of."@en ;
    rdfs:comment "Die Beziehung zwischen einem Dokument und einer Reihe."@de .
 
+ # <http://purl.org/lobid/lv#Statistics
+
+   lv:Statistics
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Statistics"@en ;
+   rdfs:label "Statistik"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A systematic collection and analysis of empirical data."@en ;
+   rdfs:comment "Eine systematische Sammlung und Analyse von empirischen Daten."@de .
+
 # <http://purl.org/lobid/lv#ags>
 
 lv:ags
