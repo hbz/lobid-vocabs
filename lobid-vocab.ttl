@@ -22,7 +22,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2017-05-31"^^xsd:date ;
+   dct:modified "2017-08-30"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -162,6 +162,17 @@ lv:SeriesRelation
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "The relationship between a resource and a series it is part of."@en ;
    rdfs:comment "Die Beziehung zwischen einem Dokument und einer Reihe."@de .
+
+# <http://purl.org/lobid/lv#Statistics>
+
+lv:Statistics
+   a owl:Class ;
+   rdfs:subClassOf dct:BibliographicResource ;
+   rdfs:label "Statistics"@en ;
+   rdfs:label "Statistik"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A systematic collection and analysis of empirical data."@en ;
+   rdfs:comment "Eine systematische Sammlung und Analyse von empirischen Daten."@de .
 
 # <http://purl.org/lobid/lv#ags>
 
