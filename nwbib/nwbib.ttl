@@ -8,8 +8,9 @@
     vann:preferredNamespacePrefix "nwbib" ;
     dct:title "Sachsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Classification scheme of the North Rhine-Westphalian bibliography"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    dct:description "This classification was created for use in the North Rhine-Westphalian bibliography. The transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
+    dct:description "This classification was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
     dct:issued "2014-01-28" ;
+    dct:modified "2017-10-09" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "http://purl.org/lobid/nwbib#" ;
     skos:hasTopConcept <http://purl.org/lobid/nwbib#s1>, <http://purl.org/lobid/nwbib#s2>, <http://purl.org/lobid/nwbib#s4>, <http://purl.org/lobid/nwbib#s5>, <http://purl.org/lobid/nwbib#s6>, <http://purl.org/lobid/nwbib#s7>, <http://purl.org/lobid/nwbib#s8> .
