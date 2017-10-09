@@ -12,11 +12,61 @@
     dct:issued "2014-01-28" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "http://purl.org/lobid/nwbib#" ;
-    skos:hasTopConcept <http://purl.org/lobid/nwbib#s100000>, <http://purl.org/lobid/nwbib#s120000>, <http://purl.org/lobid/nwbib#s140000>, <http://purl.org/lobid/nwbib#s160000>, <http://purl.org/lobid/nwbib#s200000>, <http://purl.org/lobid/nwbib#s210000>, <http://purl.org/lobid/nwbib#s220000>, <http://purl.org/lobid/nwbib#s240000>, <http://purl.org/lobid/nwbib#s260000>, <http://purl.org/lobid/nwbib#s400000>, <http://purl.org/lobid/nwbib#s420000>, <http://purl.org/lobid/nwbib#s440000>, <http://purl.org/lobid/nwbib#s500000>, <http://purl.org/lobid/nwbib#s520000>, <http://purl.org/lobid/nwbib#s530000>, <http://purl.org/lobid/nwbib#s540000>, <http://purl.org/lobid/nwbib#s550000>, <http://purl.org/lobid/nwbib#s560000>, <http://purl.org/lobid/nwbib#s570000>, <http://purl.org/lobid/nwbib#s580000>, <http://purl.org/lobid/nwbib#s610000>, <http://purl.org/lobid/nwbib#s630000>, <http://purl.org/lobid/nwbib#s650000>, <http://purl.org/lobid/nwbib#s700000>, <http://purl.org/lobid/nwbib#s720000>, <http://purl.org/lobid/nwbib#s730000>, <http://purl.org/lobid/nwbib#s740000>, <http://purl.org/lobid/nwbib#s760000>, <http://purl.org/lobid/nwbib#s780000>, <http://purl.org/lobid/nwbib#s790000>, <http://purl.org/lobid/nwbib#s800000>, <http://purl.org/lobid/nwbib#s820000>, <http://purl.org/lobid/nwbib#s840000>, <http://purl.org/lobid/nwbib#s860000>, <http://purl.org/lobid/nwbib#s880000> .
+    skos:hasTopConcept <http://purl.org/lobid/nwbib#s1>, <http://purl.org/lobid/nwbib#s2>, <http://purl.org/lobid/nwbib#s4>, <http://purl.org/lobid/nwbib#s5>, <http://purl.org/lobid/nwbib#s6>, <http://purl.org/lobid/nwbib#s7>, <http://purl.org/lobid/nwbib#s8> .
+
+<http://purl.org/lobid/nwbib#s1>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s100000> ,<http://purl.org/lobid/nwbib#s120000>, <http://purl.org/lobid/nwbib#s140000>, <http://purl.org/lobid/nwbib#s160000>;
+    skos:notation "1" ;
+    skos:prefLabel "Landeskunde (allgemein. Geo-u. Biowissenschaften)"@de .
+
+<http://purl.org/lobid/nwbib#s2>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s200000> ,<http://purl.org/lobid/nwbib#s210000>, <http://purl.org/lobid/nwbib#s220000>, <http://purl.org/lobid/nwbib#s240000>, <http://purl.org/lobid/nwbib#s260000>;
+    skos:notation "2" ;
+    skos:prefLabel "Landeskunde (historisch)"@de .
+
+<http://purl.org/lobid/nwbib#s4>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s400000> ,<http://purl.org/lobid/nwbib#s420000>, <http://purl.org/lobid/nwbib#s440000> ;
+    skos:notation "4" ;
+    skos:prefLabel "Staat. Politik. Verwaltung. Recht"@de .
+
+<http://purl.org/lobid/nwbib#s5>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s500000> ,<http://purl.org/lobid/nwbib#s520000>, <http://purl.org/lobid/nwbib#s530000>, <http://purl.org/lobid/nwbib#s540000>, <http://purl.org/lobid/nwbib#s550000>, <http://purl.org/lobid/nwbib#s560000>, <http://purl.org/lobid/nwbib#s570000>, <http://purl.org/lobid/nwbib#s580000> ;
+    skos:notation "5" ;
+    skos:prefLabel "Bevölkerung. Soziales. Wirtschaft. Raumordnung. Umweltschutz"@de .
+
+<http://purl.org/lobid/nwbib#s6>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s610000> ,<http://purl.org/lobid/nwbib#s630000>, <http://purl.org/lobid/nwbib#s650000> ;
+    skos:notation "6" ;
+    skos:prefLabel "Religion"@de .
+
+<http://purl.org/lobid/nwbib#s7>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s700000> ,<http://purl.org/lobid/nwbib#s720000>, <http://purl.org/lobid/nwbib#s730000>, <http://purl.org/lobid/nwbib#s740000>, <http://purl.org/lobid/nwbib#s760000> ,<http://purl.org/lobid/nwbib#s780000>, <http://purl.org/lobid/nwbib#s790000> ;
+    skos:notation "7" ;
+    skos:prefLabel "Volkskunde. Gesellschaft. Kultur. Bildung"@de .
+
+<http://purl.org/lobid/nwbib#s8>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:narrower <http://purl.org/lobid/nwbib#s800000> ,<http://purl.org/lobid/nwbib#s820000>, <http://purl.org/lobid/nwbib#s840000>, <http://purl.org/lobid/nwbib#s860000>, <http://purl.org/lobid/nwbib#s880000> ;
+    skos:notation "8" ;
+    skos:prefLabel "Künste. Medien"@de .
 
 <http://purl.org/lobid/nwbib#s100000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s1> ;
     skos:narrower <http://purl.org/lobid/nwbib#s100100>, <http://purl.org/lobid/nwbib#s101000>, <http://purl.org/lobid/nwbib#s102000>, <http://purl.org/lobid/nwbib#s106000>, <http://purl.org/lobid/nwbib#s109000> ;
     skos:notation "100000" ;
     skos:prefLabel "Allgemeine Landeskunde"@de .
@@ -81,6 +131,7 @@
 <http://purl.org/lobid/nwbib#s120000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s1> ;
     skos:narrower <http://purl.org/lobid/nwbib#s120100>, <http://purl.org/lobid/nwbib#s122000>, <http://purl.org/lobid/nwbib#s124000>, <http://purl.org/lobid/nwbib#s126000> ;
     skos:notation "120000" ;
     skos:prefLabel "Kartographie. Geodäsie"@de .
@@ -138,6 +189,7 @@
 <http://purl.org/lobid/nwbib#s140000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s1> ;
     skos:narrower <http://purl.org/lobid/nwbib#s140100>, <http://purl.org/lobid/nwbib#s141000>, <http://purl.org/lobid/nwbib#s141100>, <http://purl.org/lobid/nwbib#s141200>, <http://purl.org/lobid/nwbib#s141400>, <http://purl.org/lobid/nwbib#s141600>, <http://purl.org/lobid/nwbib#s142000>, <http://purl.org/lobid/nwbib#s142100>, <http://purl.org/lobid/nwbib#s142300>, <http://purl.org/lobid/nwbib#s142500>, <http://purl.org/lobid/nwbib#s146000> ;
     skos:notation "140000" ;
     skos:prefLabel "Geowissenschaften"@de .
@@ -670,6 +722,7 @@
 <http://purl.org/lobid/nwbib#s160000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s1> ;
     skos:narrower <http://purl.org/lobid/nwbib#s160100>, <http://purl.org/lobid/nwbib#s161000>, <http://purl.org/lobid/nwbib#s162000>, <http://purl.org/lobid/nwbib#s163000>, <http://purl.org/lobid/nwbib#s164000> ;
     skos:notation "160000" ;
     skos:prefLabel "Biowissenschaften"@de .
@@ -842,6 +895,7 @@
 <http://purl.org/lobid/nwbib#s200000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s2> ;
     skos:narrower <http://purl.org/lobid/nwbib#s200100>, <http://purl.org/lobid/nwbib#s202000>, <http://purl.org/lobid/nwbib#s202500>, <http://purl.org/lobid/nwbib#s203000>, <http://purl.org/lobid/nwbib#s203500>, <http://purl.org/lobid/nwbib#s204000>, <http://purl.org/lobid/nwbib#s205000>, <http://purl.org/lobid/nwbib#s206000>, <http://purl.org/lobid/nwbib#s207000>, <http://purl.org/lobid/nwbib#s208000>, <http://purl.org/lobid/nwbib#s208500>, <http://purl.org/lobid/nwbib#s209000> ;
     skos:notation "200000" ;
     skos:prefLabel "Historische Hilfswissenschaften"@de .
@@ -956,6 +1010,7 @@
 <http://purl.org/lobid/nwbib#s210000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s2> ;
     skos:narrower <http://purl.org/lobid/nwbib#s210100>, <http://purl.org/lobid/nwbib#s213000>, <http://purl.org/lobid/nwbib#s217000> ;
     skos:notation "210000" ;
     skos:prefLabel "Archive. Museen"@de .
@@ -1107,6 +1162,7 @@
 <http://purl.org/lobid/nwbib#s220000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s2> ;
     skos:narrower <http://purl.org/lobid/nwbib#s220100>, <http://purl.org/lobid/nwbib#s220500>, <http://purl.org/lobid/nwbib#s221000>, <http://purl.org/lobid/nwbib#s222000>, <http://purl.org/lobid/nwbib#s223000>, <http://purl.org/lobid/nwbib#s224000>, <http://purl.org/lobid/nwbib#s225000>, <http://purl.org/lobid/nwbib#s226000>, <http://purl.org/lobid/nwbib#s227000>, <http://purl.org/lobid/nwbib#s228000> ;
     skos:notation "220000" ;
     skos:prefLabel "Vor- und Frühgeschichte. Archäologie"@de .
@@ -1329,6 +1385,7 @@
 <http://purl.org/lobid/nwbib#s240000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s2> ;
     skos:narrower <http://purl.org/lobid/nwbib#s240100>, <http://purl.org/lobid/nwbib#s240200>, <http://purl.org/lobid/nwbib#s240500>, <http://purl.org/lobid/nwbib#s240600>, <http://purl.org/lobid/nwbib#s249800> ;
     skos:notation "240000" ;
     skos:prefLabel "Geschichte"@de .
@@ -1371,6 +1428,7 @@
 <http://purl.org/lobid/nwbib#s260000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s2> ;
     skos:narrower <http://purl.org/lobid/nwbib#s260100>, <http://purl.org/lobid/nwbib#s262000>, <http://purl.org/lobid/nwbib#s263000> ;
     skos:notation "260000" ;
     skos:prefLabel "Militär. Wehrwesen"@de .
@@ -1522,6 +1580,7 @@
 <http://purl.org/lobid/nwbib#s400000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s4> ;
     skos:narrower <http://purl.org/lobid/nwbib#s400100>, <http://purl.org/lobid/nwbib#s402000>, <http://purl.org/lobid/nwbib#s402300>, <http://purl.org/lobid/nwbib#s404000>, <http://purl.org/lobid/nwbib#s404300>, <http://purl.org/lobid/nwbib#s406000>, <http://purl.org/lobid/nwbib#s406100>, <http://purl.org/lobid/nwbib#s406200>, <http://purl.org/lobid/nwbib#s406300> ;
     skos:notation "400000" ;
     skos:prefLabel "Staat. Politik"@de .
@@ -1832,6 +1891,7 @@
 <http://purl.org/lobid/nwbib#s420000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s4> ;
     skos:narrower <http://purl.org/lobid/nwbib#s420100>, <http://purl.org/lobid/nwbib#s421000>, <http://purl.org/lobid/nwbib#s421400>, <http://purl.org/lobid/nwbib#s422000>, <http://purl.org/lobid/nwbib#s423000>, <http://purl.org/lobid/nwbib#s423400>, <http://purl.org/lobid/nwbib#s423600>, <http://purl.org/lobid/nwbib#s424000>, <http://purl.org/lobid/nwbib#s425000>, <http://purl.org/lobid/nwbib#s425200>, <http://purl.org/lobid/nwbib#s425400>, <http://purl.org/lobid/nwbib#s426000>, <http://purl.org/lobid/nwbib#s428000> ;
     skos:notation "420000" ;
     skos:prefLabel "Verwaltung"@de .
@@ -2265,6 +2325,7 @@
 <http://purl.org/lobid/nwbib#s440000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s4> ;
     skos:narrower <http://purl.org/lobid/nwbib#s440100>, <http://purl.org/lobid/nwbib#s442000>, <http://purl.org/lobid/nwbib#s443000>, <http://purl.org/lobid/nwbib#s444000>, <http://purl.org/lobid/nwbib#s446000>, <http://purl.org/lobid/nwbib#s447000>, <http://purl.org/lobid/nwbib#s448000> ;
     skos:notation "440000" ;
     skos:prefLabel "Recht"@de .
@@ -2409,6 +2470,7 @@
 <http://purl.org/lobid/nwbib#s500000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s500100>, <http://purl.org/lobid/nwbib#s502000>, <http://purl.org/lobid/nwbib#s503000>, <http://purl.org/lobid/nwbib#s503200>, <http://purl.org/lobid/nwbib#s503400>, <http://purl.org/lobid/nwbib#s503600> ;
     skos:notation "500000" ;
     skos:prefLabel "Bevölkerung"@de .
@@ -2581,6 +2643,7 @@
 <http://purl.org/lobid/nwbib#s520000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s520100>, <http://purl.org/lobid/nwbib#s521000>, <http://purl.org/lobid/nwbib#s521200>, <http://purl.org/lobid/nwbib#s521400>, <http://purl.org/lobid/nwbib#s522000>, <http://purl.org/lobid/nwbib#s523000> ;
     skos:notation "520000" ;
     skos:prefLabel "Sozialwesen"@de .
@@ -2804,6 +2867,7 @@
 <http://purl.org/lobid/nwbib#s530000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s530100>, <http://purl.org/lobid/nwbib#s532000>, <http://purl.org/lobid/nwbib#s533000>, <http://purl.org/lobid/nwbib#s534000>, <http://purl.org/lobid/nwbib#s535000>, <http://purl.org/lobid/nwbib#s537000> ;
     skos:notation "530000" ;
     skos:prefLabel "Gesundheitswesen"@de .
@@ -2925,6 +2989,7 @@
 <http://purl.org/lobid/nwbib#s540000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s540100>, <http://purl.org/lobid/nwbib#s541000>, <http://purl.org/lobid/nwbib#s541500>, <http://purl.org/lobid/nwbib#s542000>, <http://purl.org/lobid/nwbib#s543000>, <http://purl.org/lobid/nwbib#s543200>, <http://purl.org/lobid/nwbib#s543400>, <http://purl.org/lobid/nwbib#s543600>, <http://purl.org/lobid/nwbib#s543800>, <http://purl.org/lobid/nwbib#s544000>, <http://purl.org/lobid/nwbib#s544200>, <http://purl.org/lobid/nwbib#s544400>, <http://purl.org/lobid/nwbib#s544600>, <http://purl.org/lobid/nwbib#s545000>, <http://purl.org/lobid/nwbib#s546000>, <http://purl.org/lobid/nwbib#s547000>, <http://purl.org/lobid/nwbib#s547400>, <http://purl.org/lobid/nwbib#s547600>, <http://purl.org/lobid/nwbib#s548000>, <http://purl.org/lobid/nwbib#s548200>, <http://purl.org/lobid/nwbib#s548300>, <http://purl.org/lobid/nwbib#s548400>, <http://purl.org/lobid/nwbib#s548500>, <http://purl.org/lobid/nwbib#s548600>, <http://purl.org/lobid/nwbib#s548800> ;
     skos:notation "540000" ;
     skos:prefLabel "Wirtschaft"@de .
@@ -3692,6 +3757,7 @@
 <http://purl.org/lobid/nwbib#s550000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s550100>, <http://purl.org/lobid/nwbib#s551000>, <http://purl.org/lobid/nwbib#s552000>, <http://purl.org/lobid/nwbib#s553000>, <http://purl.org/lobid/nwbib#s554000>, <http://purl.org/lobid/nwbib#s555000>, <http://purl.org/lobid/nwbib#s556000>, <http://purl.org/lobid/nwbib#s557000>, <http://purl.org/lobid/nwbib#s558000> ;
     skos:notation "550000" ;
     skos:prefLabel "Verkehr"@de .
@@ -3807,6 +3873,7 @@
 <http://purl.org/lobid/nwbib#s560000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s560100>, <http://purl.org/lobid/nwbib#s562000>, <http://purl.org/lobid/nwbib#s562300>, <http://purl.org/lobid/nwbib#s564000>, <http://purl.org/lobid/nwbib#s566000> ;
     skos:notation "560000" ;
     skos:prefLabel "Siedlung"@de .
@@ -4016,6 +4083,7 @@
 <http://purl.org/lobid/nwbib#s570000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s570100>, <http://purl.org/lobid/nwbib#s572000>, <http://purl.org/lobid/nwbib#s574000> ;
     skos:notation "570000" ;
     skos:prefLabel "Raumordnung und Städtebau"@de .
@@ -4109,6 +4177,7 @@
 <http://purl.org/lobid/nwbib#s580000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s5> ;
     skos:narrower <http://purl.org/lobid/nwbib#s580100>, <http://purl.org/lobid/nwbib#s582000>, <http://purl.org/lobid/nwbib#s584000>, <http://purl.org/lobid/nwbib#s586000> ;
     skos:notation "580000" ;
     skos:prefLabel "Umwelt- und Naturschutz"@de .
@@ -4288,6 +4357,7 @@
 <http://purl.org/lobid/nwbib#s610000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s6> ;
     skos:narrower <http://purl.org/lobid/nwbib#s610100>, <http://purl.org/lobid/nwbib#s611000>, <http://purl.org/lobid/nwbib#s612000>, <http://purl.org/lobid/nwbib#s612500>, <http://purl.org/lobid/nwbib#s613000>, <http://purl.org/lobid/nwbib#s615000>, <http://purl.org/lobid/nwbib#s616000>, <http://purl.org/lobid/nwbib#s617000> ;
     skos:notation "610000" ;
     skos:prefLabel "Christliche Kirchen"@de .
@@ -4671,6 +4741,7 @@
 <http://purl.org/lobid/nwbib#s630000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s6> ;
     skos:narrower <http://purl.org/lobid/nwbib#s630100>, <http://purl.org/lobid/nwbib#s631000>, <http://purl.org/lobid/nwbib#s632000>, <http://purl.org/lobid/nwbib#s635000>, <http://purl.org/lobid/nwbib#s636000>, <http://purl.org/lobid/nwbib#s637000>, <http://purl.org/lobid/nwbib#s638000> ;
     skos:notation "630000" ;
     skos:prefLabel "Judentum"@de .
@@ -4735,6 +4806,7 @@
 <http://purl.org/lobid/nwbib#s650000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s6> ;
     skos:narrower <http://purl.org/lobid/nwbib#s650100>, <http://purl.org/lobid/nwbib#s651000>, <http://purl.org/lobid/nwbib#s655000> ;
     skos:notation "650000" ;
     skos:prefLabel "Nichtchristliche Religionen. Weltanschauungen"@de .
@@ -4786,6 +4858,7 @@
 <http://purl.org/lobid/nwbib#s700000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s700100>, <http://purl.org/lobid/nwbib#s702000>, <http://purl.org/lobid/nwbib#s704000>, <http://purl.org/lobid/nwbib#s704200>, <http://purl.org/lobid/nwbib#s704400>, <http://purl.org/lobid/nwbib#s704600>, <http://purl.org/lobid/nwbib#s706000>, <http://purl.org/lobid/nwbib#s706200>, <http://purl.org/lobid/nwbib#s708000>, <http://purl.org/lobid/nwbib#s708200>, <http://purl.org/lobid/nwbib#s708400> ;
     skos:notation "700000" ;
     skos:prefLabel "Volkskunde"@de .
@@ -5284,6 +5357,7 @@
 <http://purl.org/lobid/nwbib#s720000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s720100>, <http://purl.org/lobid/nwbib#s722000>, <http://purl.org/lobid/nwbib#s723000>, <http://purl.org/lobid/nwbib#s724000>, <http://purl.org/lobid/nwbib#s725000>, <http://purl.org/lobid/nwbib#s726000>, <http://purl.org/lobid/nwbib#s729000> ;
     skos:notation "720000" ;
     skos:prefLabel "Gesellschaft"@de .
@@ -5440,6 +5514,7 @@
 <http://purl.org/lobid/nwbib#s730000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s730100>, <http://purl.org/lobid/nwbib#s731000>, <http://purl.org/lobid/nwbib#s732000>, <http://purl.org/lobid/nwbib#s733000>, <http://purl.org/lobid/nwbib#s734000>, <http://purl.org/lobid/nwbib#s735000>, <http://purl.org/lobid/nwbib#s736000> ;
     skos:notation "730000" ;
     skos:prefLabel "Kultur und Freizeit"@de .
@@ -5548,6 +5623,7 @@
 <http://purl.org/lobid/nwbib#s740000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s740100>, <http://purl.org/lobid/nwbib#s742000>, <http://purl.org/lobid/nwbib#s744000>, <http://purl.org/lobid/nwbib#s745000>, <http://purl.org/lobid/nwbib#s746000>, <http://purl.org/lobid/nwbib#s747000> ;
     skos:notation "740000" ;
     skos:prefLabel "Sprache"@de .
@@ -5713,6 +5789,7 @@
 <http://purl.org/lobid/nwbib#s760000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s760100>, <http://purl.org/lobid/nwbib#s761000>, <http://purl.org/lobid/nwbib#s762000>, <http://purl.org/lobid/nwbib#s766000>, <http://purl.org/lobid/nwbib#s767000>, <http://purl.org/lobid/nwbib#s768000>, <http://purl.org/lobid/nwbib#s769000> ;
     skos:notation "760000" ;
     skos:prefLabel "Literatur"@de .
@@ -5873,6 +5950,7 @@
 <http://purl.org/lobid/nwbib#s780000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s780100>, <http://purl.org/lobid/nwbib#s781000>, <http://purl.org/lobid/nwbib#s782000>, <http://purl.org/lobid/nwbib#s782500>, <http://purl.org/lobid/nwbib#s783000>, <http://purl.org/lobid/nwbib#s784000>, <http://purl.org/lobid/nwbib#s785000>, <http://purl.org/lobid/nwbib#s785500>, <http://purl.org/lobid/nwbib#s786000>, <http://purl.org/lobid/nwbib#s788000> ;
     skos:notation "780000" ;
     skos:prefLabel "Bildung und Erziehung"@de .
@@ -6210,6 +6288,7 @@
 <http://purl.org/lobid/nwbib#s790000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s7> ;
     skos:narrower <http://purl.org/lobid/nwbib#s790100>, <http://purl.org/lobid/nwbib#s791000>, <http://purl.org/lobid/nwbib#s792000>, <http://purl.org/lobid/nwbib#s793000>, <http://purl.org/lobid/nwbib#s794000>, <http://purl.org/lobid/nwbib#s796000>, <http://purl.org/lobid/nwbib#s797000>, <http://purl.org/lobid/nwbib#s798000>, <http://purl.org/lobid/nwbib#s798200>, <http://purl.org/lobid/nwbib#s799000>, <http://purl.org/lobid/nwbib#s799200> ;
     skos:notation "790000" ;
     skos:prefLabel "Wissenschaft und Forschung"@de .
@@ -6310,6 +6389,7 @@
 <http://purl.org/lobid/nwbib#s800000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s8> ;
     skos:narrower <http://purl.org/lobid/nwbib#s800100>, <http://purl.org/lobid/nwbib#s802000>, <http://purl.org/lobid/nwbib#s803000>, <http://purl.org/lobid/nwbib#s804000>, <http://purl.org/lobid/nwbib#s806000>, <http://purl.org/lobid/nwbib#s807000>, <http://purl.org/lobid/nwbib#s808000> ;
     skos:notation "800000" ;
     skos:prefLabel "Darstellende Kunst"@de .
@@ -6432,6 +6512,7 @@
 <http://purl.org/lobid/nwbib#s820000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s8> ;
     skos:narrower <http://purl.org/lobid/nwbib#s820100>, <http://purl.org/lobid/nwbib#s821000>, <http://purl.org/lobid/nwbib#s822000>, <http://purl.org/lobid/nwbib#s822400>, <http://purl.org/lobid/nwbib#s822500>, <http://purl.org/lobid/nwbib#s823000>, <http://purl.org/lobid/nwbib#s824000>, <http://purl.org/lobid/nwbib#s825000>, <http://purl.org/lobid/nwbib#s825500>, <http://purl.org/lobid/nwbib#s826000>, <http://purl.org/lobid/nwbib#s827000>, <http://purl.org/lobid/nwbib#s828000> ;
     skos:notation "820000" ;
     skos:prefLabel "Musik"@de .
@@ -6553,6 +6634,7 @@
 <http://purl.org/lobid/nwbib#s840000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s8> ;
     skos:narrower <http://purl.org/lobid/nwbib#s840100>, <http://purl.org/lobid/nwbib#s841000>, <http://purl.org/lobid/nwbib#s842000>, <http://purl.org/lobid/nwbib#s843000>, <http://purl.org/lobid/nwbib#s844000>, <http://purl.org/lobid/nwbib#s844200>, <http://purl.org/lobid/nwbib#s844500>, <http://purl.org/lobid/nwbib#s845000>, <http://purl.org/lobid/nwbib#s846000>, <http://purl.org/lobid/nwbib#s847000>, <http://purl.org/lobid/nwbib#s847500>, <http://purl.org/lobid/nwbib#s848000>, <http://purl.org/lobid/nwbib#s849000> ;
     skos:notation "840000" ;
     skos:prefLabel "Kunst. Architektur"@de .
@@ -6947,6 +7029,7 @@
 <http://purl.org/lobid/nwbib#s860000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s8> ;
     skos:narrower <http://purl.org/lobid/nwbib#s860100>, <http://purl.org/lobid/nwbib#s861000>, <http://purl.org/lobid/nwbib#s865000> ;
     skos:notation "860000" ;
     skos:prefLabel "Buch und Bibliothek"@de .
@@ -7104,6 +7187,7 @@
 <http://purl.org/lobid/nwbib#s880000>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
+    skos:broader <http://purl.org/lobid/nwbib#s8> ;
     skos:narrower <http://purl.org/lobid/nwbib#s880100>, <http://purl.org/lobid/nwbib#s882000>, <http://purl.org/lobid/nwbib#s884000> ;
     skos:notation "880000" ;
     skos:prefLabel "Publizistik. Information und Dokumentation"@de .
