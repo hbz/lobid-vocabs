@@ -9,7 +9,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
     dct:issued "2014-01-28" ;
-    dct:modified "2017-10-09" ;
+    dct:modified "2017-10-25" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "http://purl.org/lobid/nwbib-spatial#" ;
     vann:preferredNamespacePrefix "nwbib-spatial" ;
@@ -39,7 +39,7 @@
 <http://purl.org/lobid/nwbib-spatial#n4-7>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
-    skos:narrower <http://purl.org/lobid/nwbib-spatial#n42>, <http://purl.org/lobid/nwbib-spatial#n43>, <http://purl.org/lobid/nwbib-spatial#n44>, <http://purl.org/lobid/nwbib-spatial#n45>, <http://purl.org/lobid/nwbib-spatial#n46>, <http://purl.org/lobid/nwbib-spatial#n47>, <http://purl.org/lobid/nwbib-spatial#n48>, <http://purl.org/lobid/nwbib-spatial#n52>, <http://purl.org/lobid/nwbib-spatial#n54>, <http://purl.org/lobid/nwbib-spatial#n57>, <http://purl.org/lobid/nwbib-spatial#n62>, <http://purl.org/lobid/nwbib-spatial#n63>, <http://purl.org/lobid/nwbib-spatial#n64>, <http://purl.org/lobid/nwbib-spatial#n65>, <http://purl.org/lobid/nwbib-spatial#n66>, <http://purl.org/lobid/nwbib-spatial#n67>, <http://purl.org/lobid/nwbib-spatial#n68>, <http://purl.org/lobid/nwbib-spatial#n69>, <http://purl.org/lobid/nwbib-spatial#n70>, <http://purl.org/lobid/nwbib-spatial#n72>, <http://purl.org/lobid/nwbib-spatial#n74>, <http://purl.org/lobid/nwbib-spatial#n76>, <http://purl.org/lobid/nwbib-spatial#n77>;
+    skos:narrower <http://purl.org/lobid/nwbib-spatial#n42>, <http://purl.org/lobid/nwbib-spatial#n43>, <http://purl.org/lobid/nwbib-spatial#n44>, <http://purl.org/lobid/nwbib-spatial#n45>, <http://purl.org/lobid/nwbib-spatial#n46>, <http://purl.org/lobid/nwbib-spatial#n47>, <http://purl.org/lobid/nwbib-spatial#n48>, <http://purl.org/lobid/nwbib-spatial#n52>, <http://purl.org/lobid/nwbib-spatial#n54>, <http://purl.org/lobid/nwbib-spatial#n57>, <http://purl.org/lobid/nwbib-spatial#n62>, <http://purl.org/lobid/nwbib-spatial#n63>, <http://purl.org/lobid/nwbib-spatial#n64>, <http://purl.org/lobid/nwbib-spatial#n65>, <http://purl.org/lobid/nwbib-spatial#n66>, <http://purl.org/lobid/nwbib-spatial#n68>, <http://purl.org/lobid/nwbib-spatial#n69>, <http://purl.org/lobid/nwbib-spatial#n70>, <http://purl.org/lobid/nwbib-spatial#n72>, <http://purl.org/lobid/nwbib-spatial#n74>, <http://purl.org/lobid/nwbib-spatial#n76>, <http://purl.org/lobid/nwbib-spatial#n77>;
     skos:notation "4-7" ;
     skos:prefLabel "Historische Territorien und Gebiete"@de .
 
@@ -287,13 +287,6 @@
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "66" ;
     skos:prefLabel "Vest Recklinghausen"@de .
-
-<http://purl.org/lobid/nwbib-spatial#n67>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
-    skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
-    skos:notation "67" ;
-    skos:prefLabel "Grafschaften Mark und Ravensberg"@de .
 
 <http://purl.org/lobid/nwbib-spatial#n68>
     a skos:Concept ;
