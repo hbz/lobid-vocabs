@@ -522,7 +522,7 @@ lv:zdbID
    rdfs:range rdfs:Literal .
 
 [ ] rdfs:subPropertyOf dct:isPartOf ;
-   owl:propertyChain (
+   owl:propertyChainAxiom (
    lv:isPartOf
    lv:hasSuperordinate
    ) .
