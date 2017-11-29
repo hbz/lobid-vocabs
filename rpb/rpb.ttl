@@ -4151,9 +4151,15 @@
 <http://purl.org/lobid/rpb#n582000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n580000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n582020>, <http://purl.org/lobid/rpb#n582030>, <http://purl.org/lobid/rpb#n582040>, <http://purl.org/lobid/rpb#n582050>, <http://purl.org/lobid/rpb#n582060>, <http://purl.org/lobid/rpb#n582070> ;
+    skos:narrower <http://purl.org/lobid/rpb#n582010>, <http://purl.org/lobid/rpb#n582020>, <http://purl.org/lobid/rpb#n582030>, <http://purl.org/lobid/rpb#n582040>, <http://purl.org/lobid/rpb#n582050>, <http://purl.org/lobid/rpb#n582060>, <http://purl.org/lobid/rpb#n582070> ;
     skos:notation "rpb582000" ;
     skos:prefLabel "Umweltschutz"@de .
+
+<http://purl.org/lobid/rpb#n582010>
+    a skos:Concept ;
+    skos:broader <http://purl.org/lobid/rpb#n582000> ;
+    skos:notation "rpb582010" ;
+    skos:prefLabel "Klimaschutz"@de .
 
 <http://purl.org/lobid/rpb#n582020>
     a skos:Concept ;
