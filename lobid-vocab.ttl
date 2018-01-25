@@ -297,6 +297,12 @@ lv:hasSuperordinate
   rdfs:domain lv:IsPartRelation ;
   rdfs:range dct:BibliographicResource .
 
+[ ] rdfs:subPropertyOf dct:isPartOf ;
+  owl:propertyChainAxiom (
+  lv:isPartOf
+  lv:hasSuperordinate
+  ) .
+
 # <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
@@ -546,9 +552,3 @@ lv:zdbID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
-
-[ ] rdfs:subPropertyOf dct:isPartOf ;
-   owl:propertyChainAxiom (
-   lv:isPartOf
-   lv:hasSuperordinate
-   ) .
