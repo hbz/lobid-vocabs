@@ -22,7 +22,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2017-08-30"^^xsd:date ;
+   dct:modified "2018-01-25"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -222,6 +222,32 @@ lv:containedIn
    rdfs:subPropertyOf dct:isPartOf;
    rdfs:domain bibo:Article ;
    rdfs:range dct:BibliographicResource .
+
+
+# <http://purl.org/lobid/lv#containsExampleOfWork>
+
+lv:containsExampleOfWork
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Contains example of work"@en ;
+   rdfs:label "Enthält eine Instanz des Werkes"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to indicate a work of which the resource contains an instance. Traditionally, this work is identified by a uniform title and optionally with a GND ID."@en ;
+   rdfs:comment "Diese Property verweist auf ein Werk, von dem die Ressource eine Instanz beinhaltet. Das heißt, hier werden Einheitssachtitel und optional die GND-ID eines Werks angegeben, von dem die Ressource eine Instanz enthält."@de;
+   rdfs:domain bibo:BibliographicResource ;
+   rdfs:range <http://d-nb.info/standards/elementset/gnd#Work> .
+
+[ ] rdfs:subPropertyOf lv:containsExampleOfWork ;
+   owl:propertyChainAxiom (
+   bf:hasPart
+   bf:instanceOf
+   ) .
+
+[ ] rdfs:subPropertyOf lv:containsExampleOfWork ;
+   owl:propertyChainAxiom (
+   schema:hasPart
+   schema:exampleOfWork
+   ) .
+
 
 # <http://purl.org/lobid/lv#dbsID>
 
