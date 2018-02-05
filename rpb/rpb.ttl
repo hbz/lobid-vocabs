@@ -5065,7 +5065,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n708400> ;
     skos:notation "rpb708420" ;
-    skos:prefLabel "Kostümkunde"@de .
+    skos:prefLabel "Kostüm"@de .
 
 <http://purl.org/lobid/rpb#n708430>
     a skos:Concept ;
