@@ -62,6 +62,17 @@ lv:Biography
    rdfs:comment "A detailed description or account of a person's life"@en ;
    rdfs:comment "Die Lebensbeschreibung einer Person."@de .
 
+# <http://purl.org/lobid/lv#ChoirTraining>
+
+lv:ChoirTraining
+   a owl:Class ;
+   rdfs:subClassOf bf:Role ;
+   rdfs:label "Choir training"@en ;
+   rdfs:label "Choreinstudierung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A person who is training the choir to sing the songs before a performance."@en ;
+   rdfs:comment "Eine Person, welche mit dem Chor vor einem Auftritt die Lieder probt."@de .
+
 # <http://purl.org/lobid/lv#EditedVolume>
 
 lv:EditedVolume
@@ -94,6 +105,17 @@ lv:IsPartOfRelation
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "The relationship between a resource and a superordinate resource it is part of."@en ;
    rdfs:comment "Die Beziehung zwischen einer Ressource und der ihr übergeordneten Ressource."@de .
+
+# <http://purl.org/lobid/lv#StageDesign>
+
+lv:StageDesign
+   a owl:Class ;
+   rdfs:subClassOf bf:Role ;
+   rdfs:label "Stage design"@en ;
+   rdfs:label "Bühnenbild"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "An entity responsible for the apperance of the stage."@en ;
+   rdfs:comment "Eine Entität, die für die Optik der Bühne verantwortlich ist."@de .
 
 # <http://purl.org/lobid/lv#Miscellaneous>
 
