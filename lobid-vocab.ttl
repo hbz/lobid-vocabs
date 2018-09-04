@@ -335,7 +335,7 @@ lv:inCollection
       rdfs:label "In Dataset"@de ;
       rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
       rdfs:comment "This property is used to link a data record to a data set it is part of."@en ;
-      rdfs:comment "Diese Property verlinkt eine Datensatz mit einem Dataset, zu dem er gehört."@de;
+      rdfs:comment "Diese Property verlinkt einen Datensatz mit einem Dataset, zu dem er gehört."@de;
       rdfs:range schema:Dataset .
 
 # <http://purl.org/lobid/lv#inSeries>
