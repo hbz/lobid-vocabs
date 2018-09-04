@@ -22,7 +22,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2018-01-25"^^xsd:date ;
+   dct:modified "2018-09-04"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -214,7 +214,7 @@ lv:contactqr
 
 lv:containedIn
    rdf:type owl:ObjectProperty ;
-   rdfs:label "Contained in"@en ; 
+   rdfs:label "Contained in"@en ;
    rdfs:label "Enthalten in"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This property is used to link an article to a journal or an edited volume it is contained in."@en ;
@@ -316,7 +316,7 @@ lv:hbzID
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
-   # <http://purl.org/lobid/lv#inCollection>
+# <http://purl.org/lobid/lv#inCollection>
 
 lv:inCollection
    rdf:type owl:ObjectProperty ;
@@ -326,6 +326,17 @@ lv:inCollection
    rdfs:comment "This property is used to link a bibliographic resource to a collection (bibliography, repository etc.) it is part of."@en ;
    rdfs:comment "Diese Property verlinkt eine Ressource mit einer Sammlung (Bibliographie, Dokumentenserver etc.), zu der sie gehört."@de;
    rdfs:domain dct:BibliographicResource .
+
+# <http://purl.org/lobid/lv#inDataset>
+
+   lv:inDataset
+      rdf:type owl:ObjectProperty ;
+      rdfs:label "in data set"@en ;
+      rdfs:label "In Dataset"@de ;
+      rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+      rdfs:comment "This property is used to link a data record to a data set it is part of."@en ;
+      rdfs:comment "Diese Property verlinkt einen Datensatz mit einem Dataset, zu dem er gehört."@de;
+      rdfs:range schema:Dataset .
 
 # <http://purl.org/lobid/lv#inSeries>
 
@@ -375,7 +386,7 @@ lv:isPartOf
 
 lv:multiVolumeWork
    rdf:type owl:ObjectProperty ;
-   rdfs:label "Multi-volume work"@en ; 
+   rdfs:label "Multi-volume work"@en ;
    rdfs:label "Mehrbändiges Werk"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This properties is used to link a volume-to-work relation to a volume."@en ;
@@ -426,7 +437,7 @@ lv:rpbSubject
 
 lv:numbering
    rdf:type owl:ObjectProperty ;
-   rdfs:label "numbering"@en ; 
+   rdfs:label "numbering"@en ;
    rdfs:label "Nummer"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This property is used to indicate the numbering within a volume-to-work or a document-to-series relation."@en ;
@@ -452,7 +463,7 @@ lv:rs
 
 lv:series
    rdf:type owl:ObjectProperty ;
-   rdfs:label "Series"@en ; 
+   rdfs:label "Series"@en ;
    rdfs:label "Reihe"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This property is used to link a document-to-series relation to a series."@en ;
@@ -519,7 +530,7 @@ lv:urn
 
 lv:volumeIn
    rdf:type owl:ObjectProperty ;
-   rdfs:label "volume in"@en ; 
+   rdfs:label "volume in"@en ;
    rdfs:label "Bestandteil von"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This property is used to link a volume to a volume-to-work relation."@en ;
@@ -532,7 +543,7 @@ lv:volumeIn
 
 lv:webPageArchived
    rdf:type owl:ObjectProperty ;
-   rdfs:label "Web page archived"@en ; 
+   rdfs:label "Web page archived"@en ;
    rdfs:label "Archivierte Webseite"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "This property is used to link the product of archiving a web page to the web page being archived."@en ;
