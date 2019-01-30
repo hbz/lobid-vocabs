@@ -377,17 +377,3 @@
     skos:broader <http://purl.org/lobid/nwbib-spatial#n9> ;
     skos:notation "91" ;
     skos:prefLabel "Euregio"@de .
-
-<http://purl.org/lobid/nwbib-spatial#n96>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
-    skos:broader <http://purl.org/lobid/nwbib-spatial#n9> ;
-    skos:notation "96" ;
-    skos:prefLabel "Regierungsbezirke"@de .
-
-<http://purl.org/lobid/nwbib-spatial#n97>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
-    skos:broader <http://purl.org/lobid/nwbib-spatial#n9> ;
-    skos:notation "97" ;
-    skos:prefLabel "Kreise"@de .
