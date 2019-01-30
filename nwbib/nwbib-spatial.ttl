@@ -1,4 +1,5 @@
 @prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
@@ -9,7 +10,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
     dct:issued "2014-01-28" ;
-    dct:modified "2017-10-25" ;
+    dct:modified "2019-01-30" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "http://purl.org/lobid/nwbib-spatial#" ;
     vann:preferredNamespacePrefix "nwbib-spatial" ;
@@ -55,112 +56,128 @@
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n0> ;
     skos:notation "01" ;
-    skos:prefLabel "Nordrhein-Westfalen"@de .
+    skos:prefLabel "Nordrhein-Westfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q1198> .
 
 <http://purl.org/lobid/nwbib-spatial#n03>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n0> ;
     skos:notation "03" ;
-    skos:prefLabel "Rheinland"@de .
+    skos:prefLabel "Rheinland"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q152243> .
 
 <http://purl.org/lobid/nwbib-spatial#n05>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n0> ;
     skos:notation "05" ;
-    skos:prefLabel "Westfalen"@de .
+    skos:prefLabel "Westfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q8614> .
 
 <http://purl.org/lobid/nwbib-spatial#n10>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "10" ;
-    skos:prefLabel "Westfälische Bucht"@de .
+    skos:prefLabel "Westfälische Bucht"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q462011> .
 
 <http://purl.org/lobid/nwbib-spatial#n12>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "12" ;
-    skos:prefLabel "Weserbergland"@de .
+    skos:prefLabel "Weserbergland"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q72931> .
 
 <http://purl.org/lobid/nwbib-spatial#n13>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "13" ;
-    skos:prefLabel "Ostwestfalen"@de .
+    skos:prefLabel "Ostwestfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q2036208> .
 
 <http://purl.org/lobid/nwbib-spatial#n14>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "14" ;
-    skos:prefLabel "Sauerland"@de .
+    skos:prefLabel "Sauerland"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q4194> .
 
 <http://purl.org/lobid/nwbib-spatial#n16>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "16" ;
-    skos:prefLabel "Siegerland"@de .
+    skos:prefLabel "Siegerland"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q580471> .
 
 <http://purl.org/lobid/nwbib-spatial#n18>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "18" ;
-    skos:prefLabel "Wittgensteiner Land"@de .
+    skos:prefLabel "Wittgensteiner Land"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q881875> .
 
 <http://purl.org/lobid/nwbib-spatial#n20>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "20" ;
-    skos:prefLabel "Ruhrgebiet"@de .
+    skos:prefLabel "Ruhrgebiet"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q151993> .
 
 <http://purl.org/lobid/nwbib-spatial#n22>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "22" ;
-    skos:prefLabel "Bergisches Land"@de .
+    skos:prefLabel "Bergisches Land"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q153464> .
 
 <http://purl.org/lobid/nwbib-spatial#n24>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "24" ;
-    skos:prefLabel "Niederrhein-Gebiet"@de .
+    skos:prefLabel "Niederrhein-Gebiet"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q445609> .
 
 <http://purl.org/lobid/nwbib-spatial#n28>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n1-2> ;
     skos:notation "28" ;
-    skos:prefLabel "Eifel"@de .
+    skos:prefLabel "Eifel"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q152356> .
 
 <http://purl.org/lobid/nwbib-spatial#n32>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n3> ;
     skos:notation "32" ;
-    skos:prefLabel "Evangelische Kirche im Rheinland"@de .
+    skos:prefLabel "Evangelische Kirche im Rheinland"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q1380992> .
 
 <http://purl.org/lobid/nwbib-spatial#n33>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n3> ;
     skos:notation "33" ;
-    skos:prefLabel "Evangelische Kirche von Westfalen"@de .
+    skos:prefLabel "Evangelische Kirche von Westfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q1381014> .
 
 <http://purl.org/lobid/nwbib-spatial#n34>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n3> ;
     skos:notation "34" ;
-    skos:prefLabel "Lippische Landeskirche"@de .
+    skos:prefLabel "Lippische Landeskirche"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q1413205> .
 
 <http://purl.org/lobid/nwbib-spatial#n35>
     a skos:Concept ;
@@ -188,7 +205,8 @@
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "42" ;
-    skos:prefLabel "Kurfürstentum und Erzbistum Köln"@de .
+    skos:prefLabel "Kurfürstentum und Erzbistum Köln"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q7904317> .
 
 <http://purl.org/lobid/nwbib-spatial#n43>
     a skos:Concept ;
@@ -202,35 +220,40 @@
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "44" ;
-    skos:prefLabel "Grafschaft, Herzogtum Jülich. Herzogtum Jülich"@de .
+    skos:prefLabel "Grafschaft, Herzogtum Jülich. Herzogtum Jülich"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q836937> .
 
 <http://purl.org/lobid/nwbib-spatial#n45>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "45" ;
-    skos:prefLabel "Grafschaft, Herzogtum Kleve"@de .
+    skos:prefLabel "Grafschaft, Herzogtum Kleve"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q641138> .
 
 <http://purl.org/lobid/nwbib-spatial#n46>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "46" ;
-    skos:prefLabel "Grafschaft, Herzogtum, Großherzogtum Berg"@de .
+    skos:prefLabel "Grafschaft, Herzogtum, Großherzogtum Berg"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q249428> .
 
 <http://purl.org/lobid/nwbib-spatial#n47>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "47" ;
-    skos:prefLabel "Grafschaft, Herzogtum Geldern"@de .
+    skos:prefLabel "Grafschaft, Herzogtum Geldern"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q152420> .
 
 <http://purl.org/lobid/nwbib-spatial#n48>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "48" ;
-    skos:prefLabel "Niederrheinisch-Westfälischer Reichskreis"@de .
+    skos:prefLabel "Niederrheinisch-Westfälischer Reichskreis"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q708742> .
 
 <http://purl.org/lobid/nwbib-spatial#n52>
     a skos:Concept ;
@@ -251,63 +274,72 @@
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "57" ;
-    skos:prefLabel "Preußische Provinz Rheinland"@de .
+    skos:prefLabel "Preußische Provinz Rheinland"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q698162> .
 
 <http://purl.org/lobid/nwbib-spatial#n62>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "62" ;
-    skos:prefLabel "Herzogtum Westfalen"@de .
+    skos:prefLabel "Herzogtum Westfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q657241> .
 
 <http://purl.org/lobid/nwbib-spatial#n63>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "63" ;
-    skos:prefLabel "Fürstbistum und Hochstift Paderborn"@de .
+    skos:prefLabel "Fürstbistum und Hochstift Paderborn"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q649192> .
 
 <http://purl.org/lobid/nwbib-spatial#n64>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "64" ;
-    skos:prefLabel "Bistum und Fürstbistum Minden"@de .
+    skos:prefLabel "Bistum und Fürstbistum Minden"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q650645> .
 
 <http://purl.org/lobid/nwbib-spatial#n65>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "65" ;
-    skos:prefLabel "Fürstbistum und Hochstift Münster"@de .
+    skos:prefLabel "Fürstbistum und Hochstift Münster"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q697254> .
 
 <http://purl.org/lobid/nwbib-spatial#n66>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "66" ;
-    skos:prefLabel "Vest Recklinghausen"@de .
+    skos:prefLabel "Vest Recklinghausen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q514557> .
 
 <http://purl.org/lobid/nwbib-spatial#n68>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "68" ;
-    skos:prefLabel "Grafschaft Mark"@de .
+    skos:prefLabel "Grafschaft Mark"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q700198> .
 
 <http://purl.org/lobid/nwbib-spatial#n69>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "69" ;
-    skos:prefLabel "Grafschaft Ravensberg"@de .
+    skos:prefLabel "Grafschaft Ravensberg"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q573290> .
 
 <http://purl.org/lobid/nwbib-spatial#n70>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "70" ;
-    skos:prefLabel "Grafschaft, Fürstentum und Freistaat Lippe"@de .
+    skos:prefLabel "Grafschaft, Fürstentum und Freistaat Lippe"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q14551680>, <http://www.wikidata.org/entity/Q835382> .
 
 <http://purl.org/lobid/nwbib-spatial#n72>
     a skos:Concept ;
@@ -328,14 +360,16 @@
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "76" ;
-    skos:prefLabel "Königreich Westfalen"@de .
+    skos:prefLabel "Königreich Westfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q153943> .
 
 <http://purl.org/lobid/nwbib-spatial#n77>
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
     skos:broader <http://purl.org/lobid/nwbib-spatial#n4-7> ;
     skos:notation "77" ;
-    skos:prefLabel "Preußische Provinz Westfalen"@de .
+    skos:prefLabel "Preußische Provinz Westfalen"@de ;
+    foaf:focus <http://www.wikidata.org/entity/Q829718> .
 
 <http://purl.org/lobid/nwbib-spatial#n91>
     a skos:Concept ;
@@ -343,17 +377,3 @@
     skos:broader <http://purl.org/lobid/nwbib-spatial#n9> ;
     skos:notation "91" ;
     skos:prefLabel "Euregio"@de .
-
-<http://purl.org/lobid/nwbib-spatial#n96>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
-    skos:broader <http://purl.org/lobid/nwbib-spatial#n9> ;
-    skos:notation "96" ;
-    skos:prefLabel "Regierungsbezirke"@de .
-
-<http://purl.org/lobid/nwbib-spatial#n97>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/lobid/nwbib-spatial> ;
-    skos:broader <http://purl.org/lobid/nwbib-spatial#n9> ;
-    skos:notation "97" ;
-    skos:prefLabel "Kreise"@de .
