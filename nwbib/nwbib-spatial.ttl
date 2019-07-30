@@ -28953,13 +28953,6 @@ nwbib-spatial:Q1722587
         skos:prefLabel  "Kalscheuren"@de ;
         foaf:focus      wd:Q1722587 .
 
-nwbib-spatial:Q18202314
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q10929 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hengsbeck"@de ;
-        foaf:focus      wd:Q18202314 .
-
 nwbib-spatial:Q10921  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q5946 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
@@ -28967,12 +28960,12 @@ nwbib-spatial:Q10921  a  skos:Concept ;
         skos:prefLabel  "Olsberg"@de ;
         foaf:focus      wd:Q10921 .
 
-nwbib-spatial:N35  a    skos:Concept ;
-        skos:broader    nwbib-spatial:N3 ;
+nwbib-spatial:Q18202314
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10929 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "35" ;
-        skos:prefLabel  "Evangelische Kirche. Kirchenkreise"@de ;
-        foaf:focus      <> .
+        skos:prefLabel  "Hengsbeck"@de ;
+        foaf:focus      wd:Q18202314 .
 
 nwbib-spatial:Q2147435
         a               skos:Concept ;
