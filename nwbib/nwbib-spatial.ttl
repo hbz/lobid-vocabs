@@ -512,7 +512,8 @@ nwbib-spatial:Q3821604
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sayn-Wittgenstein-Wittgenstein"@de .
+        skos:prefLabel  "Grafschaft Sayn-Wittgenstein-Wittgenstein"@de ;
+        foaf:focus      wd:Q3821604 .
 
 nwbib-spatial:Q1250584
         a               skos:Concept ;
@@ -546,7 +547,8 @@ nwbib-spatial:Q1020946
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Büren"@de .
+        skos:prefLabel  "Herrschaft Büren"@de ;
+        foaf:focus      wd:Q1020946 .
 
 nwbib-spatial:Q1533439
         a               skos:Concept ;
@@ -750,7 +752,8 @@ nwbib-spatial:Q56042007
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N14 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Westsauerland"@de .
+        skos:prefLabel  "Westsauerland"@de ;
+        foaf:focus      wd:Q56042007 .
 
 nwbib-spatial:Q1453792
         a               skos:Concept ;
@@ -876,7 +879,8 @@ nwbib-spatial:Q212520
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Niederrheinisches Tiefland"@de .
+        skos:prefLabel  "Niederrheinisches Tiefland"@de ;
+        foaf:focus      wd:Q212520 .
 
 nwbib-spatial:Q865488
         a               skos:Concept ;
@@ -967,13 +971,15 @@ nwbib-spatial:Q544579
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sayn-Altenkirchen"@de .
+        skos:prefLabel  "Grafschaft Sayn-Altenkirchen"@de ;
+        foaf:focus      wd:Q544579 .
 
 nwbib-spatial:Q56007789
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sayn-Wittgenstein"@de .
+        skos:prefLabel  "Grafschaft Sayn-Wittgenstein"@de ;
+        foaf:focus      wd:Q56007789 .
 
 nwbib-spatial:Q1670477
         a               skos:Concept ;
@@ -1007,7 +1013,8 @@ nwbib-spatial:Q47462234
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Recklinghausen"@de .
+        skos:prefLabel  "Kirchenkreis Recklinghausen"@de ;
+        foaf:focus      wd:Q47462234 .
 
 nwbib-spatial:Q811538
         a               skos:Concept ;
@@ -1139,7 +1146,8 @@ nwbib-spatial:Q47462213
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Münster"@de .
+        skos:prefLabel  "Kirchenkreis Münster"@de ;
+        foaf:focus      wd:Q47462213 .
 
 nwbib-spatial:Q2535484
         a               skos:Concept ;
@@ -1286,7 +1294,8 @@ nwbib-spatial:Q3821487
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sayn-Wittgenstein-Berleburg"@de .
+        skos:prefLabel  "Grafschaft Sayn-Wittgenstein-Berleburg"@de ;
+        foaf:focus      wd:Q3821487 .
 
 nwbib-spatial:Q1295  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
@@ -1390,7 +1399,8 @@ nwbib-spatial:Q1452958
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sternberg"@de .
+        skos:prefLabel  "Grafschaft Sternberg"@de ;
+        foaf:focus      wd:Q1452958 .
 
 nwbib-spatial:Q323607
         a               skos:Concept ;
@@ -1778,7 +1788,8 @@ nwbib-spatial:Q1243986
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Niederrheinische Bucht"@de .
+        skos:prefLabel  "Niederrheinische Bucht"@de ;
+        foaf:focus      wd:Q1243986 .
 
 nwbib-spatial:Q2512937
         a               skos:Concept ;
@@ -2240,7 +2251,8 @@ nwbib-spatial:Q63078887
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis An der Ruhr"@de .
+        skos:prefLabel  "Kirchenkreis An der Ruhr"@de ;
+        foaf:focus      wd:Q63078887 .
 
 nwbib-spatial:Q437203
         a               skos:Concept ;
@@ -2373,7 +2385,8 @@ nwbib-spatial:Q15450305
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Herne"@de .
+        skos:prefLabel  "Kirchenkreis Herne"@de ;
+        foaf:focus      wd:Q15450305 .
 
 nwbib-spatial:Q17591153
         a               skos:Concept ;
@@ -2497,7 +2510,8 @@ nwbib-spatial:Q722335
 nwbib-spatial:Q7927  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Köln"@de .
+        skos:prefLabel  "Regierungsbezirk Köln"@de ;
+        foaf:focus      wd:Q7927 .
 
 nwbib-spatial:Q326318
         a               skos:Concept ;
@@ -2910,7 +2924,8 @@ nwbib-spatial:Q315288
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Arnsberg"@de .
+        skos:prefLabel  "Grafschaft Arnsberg"@de ;
+        foaf:focus      wd:Q315288 .
 
 nwbib-spatial:Q225432
         a               skos:Concept ;
@@ -3113,13 +3128,15 @@ nwbib-spatial:Q47021505
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Bonn"@de .
+        skos:prefLabel  "Kirchenkreis Bonn"@de ;
+        foaf:focus      wd:Q47021505 .
 
 nwbib-spatial:Q47454940
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Jülicher Börde"@de .
+        skos:prefLabel  "Jülicher Börde"@de ;
+        foaf:focus      wd:Q47454940 .
 
 nwbib-spatial:Q1522623
         a               skos:Concept ;
@@ -3308,7 +3325,8 @@ nwbib-spatial:Q702291
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bistum Essen"@de .
+        skos:prefLabel  "Bistum Essen"@de ;
+        foaf:focus      wd:Q702291 .
 
 nwbib-spatial:Q1003241
         a               skos:Concept ;
@@ -3609,7 +3627,8 @@ nwbib-spatial:Q11026135
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Fürstentum Salm"@de .
+        skos:prefLabel  "Fürstentum Salm"@de ;
+        foaf:focus      wd:Q11026135 .
 
 nwbib-spatial:Q1526672
         a               skos:Concept ;
@@ -3622,13 +3641,15 @@ nwbib-spatial:Q317108
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Tecklenburger Land"@de .
+        skos:prefLabel  "Tecklenburger Land"@de ;
+        foaf:focus      wd:Q317108 .
 
 nwbib-spatial:Q876546
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Fürstentum Minden"@de .
+        skos:prefLabel  "Fürstentum Minden"@de ;
+        foaf:focus      wd:Q876546 .
 
 nwbib-spatial:Q1392863
         a               skos:Concept ;
@@ -3873,7 +3894,8 @@ nwbib-spatial:Q1265044
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Dortmund"@de .
+        skos:prefLabel  "Grafschaft Dortmund"@de ;
+        foaf:focus      wd:Q1265044 .
 
 nwbib-spatial:Q2265208
         a               skos:Concept ;
@@ -3907,7 +3929,8 @@ nwbib-spatial:Q1614442
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Steinfurt"@de .
+        skos:prefLabel  "Grafschaft Steinfurt"@de ;
+        foaf:focus      wd:Q1614442 .
 
 nwbib-spatial:Q181809
         a               skos:Concept ;
@@ -3984,7 +4007,8 @@ nwbib-spatial:Q56041996
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N14 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Nordsauerland"@de .
+        skos:prefLabel  "Nordsauerland"@de ;
+        foaf:focus      wd:Q56041996 .
 
 nwbib-spatial:Q1361890
         a               skos:Concept ;
@@ -4186,7 +4210,8 @@ nwbib-spatial:Q63191391
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N28 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Monschauer Land"@de .
+        skos:prefLabel  "Monschauer Land"@de ;
+        foaf:focus      wd:Q63191391 .
 
 nwbib-spatial:Q1951696
         a               skos:Concept ;
@@ -4442,7 +4467,8 @@ nwbib-spatial:Q551530
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N54 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herzogtum Arenberg"@de .
+        skos:prefLabel  "Herzogtum Arenberg"@de ;
+        foaf:focus      wd:Q551530 .
 
 nwbib-spatial:Q55499826
         a               skos:Concept ;
@@ -4694,7 +4720,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2019-08-22" ;
+        dct:modified                   "2019-08-29" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -4784,7 +4810,8 @@ nwbib-spatial:Q47462151
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Hagen"@de .
+        skos:prefLabel  "Kirchenkreis Hagen"@de ;
+        foaf:focus      wd:Q47462151 .
 
 nwbib-spatial:Q1465627
         a               skos:Concept ;
@@ -5467,7 +5494,8 @@ nwbib-spatial:Q1541708
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N54 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Kerpen und Lommersum"@de .
+        skos:prefLabel  "Grafschaft Kerpen und Lommersum"@de ;
+        foaf:focus      wd:Q1541708 .
 
 nwbib-spatial:Q1250725
         a               skos:Concept ;
@@ -6097,7 +6125,8 @@ nwbib-spatial:Q1743158
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Minden"@de .
+        skos:prefLabel  "Kirchenkreis Minden"@de ;
+        foaf:focus      wd:Q1743158 .
 
 nwbib-spatial:Q1394210
         a               skos:Concept ;
@@ -6485,7 +6514,8 @@ nwbib-spatial:Q3708105
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Fürstbistum Corvey"@de .
+        skos:prefLabel  "Fürstbistum Corvey"@de ;
+        foaf:focus      wd:Q3708105 .
 
 nwbib-spatial:Q652822
         a               skos:Concept ;
@@ -6661,7 +6691,8 @@ nwbib-spatial:Q881030
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Tecklenburg"@de .
+        skos:prefLabel  "Grafschaft Tecklenburg"@de ;
+        foaf:focus      wd:Q881030 .
 
 nwbib-spatial:Q1827438
         a               skos:Concept ;
@@ -7122,7 +7153,8 @@ nwbib-spatial:Q15823609
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis An Sieg und Rhein"@de .
+        skos:prefLabel  "Kirchenkreis An Sieg und Rhein"@de ;
+        foaf:focus      wd:Q15823609 .
 
 nwbib-spatial:Q884517
         a               skos:Concept ;
@@ -7142,7 +7174,8 @@ nwbib-spatial:Q628609
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Fürstentum Rheina-Wolbeck"@de .
+        skos:prefLabel  "Fürstentum Rheina-Wolbeck"@de ;
+        foaf:focus      wd:Q628609 .
 
 nwbib-spatial:Q1235231
         a               skos:Concept ;
@@ -7226,7 +7259,8 @@ nwbib-spatial:Q55721822
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Anholt"@de .
+        skos:prefLabel  "Herrschaft Anholt"@de ;
+        foaf:focus      wd:Q55721822 .
 
 nwbib-spatial:Q1713705
         a               skos:Concept ;
@@ -7655,7 +7689,8 @@ nwbib-spatial:Q47462099
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Gelsenkirchen und Wattenscheid"@de .
+        skos:prefLabel  "Kirchenkreis Gelsenkirchen und Wattenscheid"@de ;
+        foaf:focus      wd:Q47462099 .
 
 nwbib-spatial:Q892920
         a               skos:Concept ;
@@ -7900,7 +7935,8 @@ nwbib-spatial:Q1296974
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Paderborn"@de .
+        skos:prefLabel  "Kirchenkreis Paderborn"@de ;
+        foaf:focus      wd:Q1296974 .
 
 nwbib-spatial:Q1261123
         a               skos:Concept ;
@@ -8444,7 +8480,8 @@ nwbib-spatial:Q1541799
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Schwalenberg"@de .
+        skos:prefLabel  "Grafschaft Schwalenberg"@de ;
+        foaf:focus      wd:Q1541799 .
 
 nwbib-spatial:Q2407434
         a               skos:Concept ;
@@ -8666,7 +8703,8 @@ nwbib-spatial:Q165763
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Waldeck"@de .
+        skos:prefLabel  "Waldeck"@de ;
+        foaf:focus      wd:Q165763 .
 
 nwbib-spatial:Q790589
         a               skos:Concept ;
@@ -9315,7 +9353,8 @@ nwbib-spatial:Q1743149
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Hattingen-Witten"@de .
+        skos:prefLabel  "Kirchenkreis Hattingen-Witten"@de ;
+        foaf:focus      wd:Q1743149 .
 
 nwbib-spatial:Q1758854
         a               skos:Concept ;
@@ -9454,7 +9493,8 @@ nwbib-spatial:Q17592686
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Aachen"@de .
+        skos:prefLabel  "Kirchenkreis Aachen"@de ;
+        foaf:focus      wd:Q17592686 .
 
 nwbib-spatial:Q1258777
         a               skos:Concept ;
@@ -9693,7 +9733,8 @@ nwbib-spatial:Q30602340
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Osning"@de .
+        skos:prefLabel  "Osning"@de ;
+        foaf:focus      wd:Q30602340 .
 
 nwbib-spatial:Q1868316
         a               skos:Concept ;
@@ -9974,7 +10015,8 @@ nwbib-spatial:Q1743181
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Unna"@de .
+        skos:prefLabel  "Kirchenkreis Unna"@de ;
+        foaf:focus      wd:Q1743181 .
 
 nwbib-spatial:Q1514770
         a               skos:Concept ;
@@ -10289,7 +10331,8 @@ nwbib-spatial:Q47462244
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Siegen"@de .
+        skos:prefLabel  "Kirchenkreis Siegen"@de ;
+        foaf:focus      wd:Q47462244 .
 
 nwbib-spatial:Q1948600
         a               skos:Concept ;
@@ -11087,7 +11130,8 @@ nwbib-spatial:Q55986040
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Volmarstein"@de .
+        skos:prefLabel  "Herrschaft Volmarstein"@de ;
+        foaf:focus      wd:Q55986040 .
 
 nwbib-spatial:Q769183
         a               skos:Concept ;
@@ -11297,7 +11341,8 @@ nwbib-spatial:Q1243933
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ville"@de .
+        skos:prefLabel  "Ville"@de ;
+        foaf:focus      wd:Q1243933 .
 
 nwbib-spatial:Q1019615
         a               skos:Concept ;
@@ -11868,7 +11913,8 @@ nwbib-spatial:Q778810
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N14 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ebbegebirge"@de .
+        skos:prefLabel  "Ebbegebirge"@de ;
+        foaf:focus      wd:Q778810 .
 
 nwbib-spatial:Q1710815
         a               skos:Concept ;
@@ -12036,7 +12082,8 @@ nwbib-spatial:Q325202
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N52 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Reichsabtei Burtscheid"@de .
+        skos:prefLabel  "Reichsabtei Burtscheid"@de ;
+        foaf:focus      wd:Q325202 .
 
 nwbib-spatial:Q1921610
         a               skos:Concept ;
@@ -12104,7 +12151,8 @@ nwbib-spatial:Q1632285
 nwbib-spatial:Q11805  a  skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Erzbistum Köln"@de .
+        skos:prefLabel  "Erzbistum Köln"@de ;
+        foaf:focus      wd:Q11805 .
 
 nwbib-spatial:Q43054377
         a               skos:Concept ;
@@ -12173,7 +12221,8 @@ nwbib-spatial:Q26271345
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N10 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Emscher-Lippe-Region"@de .
+        skos:prefLabel  "Emscher-Lippe-Region"@de ;
+        foaf:focus      wd:Q26271345 .
 
 nwbib-spatial:Q993810
         a               skos:Concept ;
@@ -12193,7 +12242,8 @@ nwbib-spatial:Q14212620
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N28 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kalkeifel"@de .
+        skos:prefLabel  "Kalkeifel"@de ;
+        foaf:focus      wd:Q14212620 .
 
 nwbib-spatial:Q12464  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6287 ;
@@ -12361,7 +12411,8 @@ nwbib-spatial:Q47454950
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Zülpicher Börde"@de .
+        skos:prefLabel  "Zülpicher Börde"@de ;
+        foaf:focus      wd:Q47454950 .
 
 nwbib-spatial:Q2137878
         a               skos:Concept ;
@@ -12500,7 +12551,8 @@ nwbib-spatial:Q47022089
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Gladbach-Neuss"@de .
+        skos:prefLabel  "Kirchenkreis Gladbach-Neuss"@de ;
+        foaf:focus      wd:Q47022089 .
 
 nwbib-spatial:Q1250633
         a               skos:Concept ;
@@ -12644,7 +12696,8 @@ nwbib-spatial:Q1406857
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N28 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Rureifel"@de .
+        skos:prefLabel  "Rureifel"@de ;
+        foaf:focus      wd:Q1406857 .
 
 nwbib-spatial:Q300703
         a               skos:Concept ;
@@ -12873,7 +12926,8 @@ nwbib-spatial:Q1741344
 nwbib-spatial:Q4219  a  skos:Concept ;
         skos:broader    nwbib-spatial:N14 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Rothaargebirge"@de .
+        skos:prefLabel  "Rothaargebirge"@de ;
+        foaf:focus      wd:Q4219 .
 
 nwbib-spatial:Q28109555
         a               skos:Concept ;
@@ -13035,7 +13089,8 @@ nwbib-spatial:Q1997843
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N28 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Nordeifel"@de .
+        skos:prefLabel  "Nordeifel"@de ;
+        foaf:focus      wd:Q1997843 .
 
 nwbib-spatial:Q2534953
         a               skos:Concept ;
@@ -13217,7 +13272,8 @@ nwbib-spatial:Q477038
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Gemen"@de .
+        skos:prefLabel  "Herrschaft Gemen"@de ;
+        foaf:focus      wd:Q477038 .
 
 nwbib-spatial:Q2348419
         a               skos:Concept ;
@@ -13619,7 +13675,8 @@ nwbib-spatial:Q47462166
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Hamm"@de .
+        skos:prefLabel  "Kirchenkreis Hamm"@de ;
+        foaf:focus      wd:Q47462166 .
 
 nwbib-spatial:Q829042
         a               skos:Concept ;
@@ -14884,7 +14941,8 @@ nwbib-spatial:Q55936383
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Canstein"@de .
+        skos:prefLabel  "Herrschaft Canstein"@de ;
+        foaf:focus      wd:Q55936383 .
 
 nwbib-spatial:Q1871068
         a               skos:Concept ;
@@ -15174,7 +15232,8 @@ nwbib-spatial:Q15056814
 nwbib-spatial:Q7923  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Detmold"@de .
+        skos:prefLabel  "Regierungsbezirk Detmold"@de ;
+        foaf:focus      wd:Q7923 .
 
 nwbib-spatial:Q17558355
         a               skos:Concept ;
@@ -15195,13 +15254,15 @@ nwbib-spatial:Q56008058
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Grönebach"@de .
+        skos:prefLabel  "Grafschaft Grönebach"@de ;
+        foaf:focus      wd:Q56008058 .
 
 nwbib-spatial:Q2548986
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Warburger Börde"@de .
+        skos:prefLabel  "Warburger Börde"@de ;
+        foaf:focus      wd:Q2548986 .
 
 nwbib-spatial:Q2554478
         a               skos:Concept ;
@@ -15531,7 +15592,8 @@ nwbib-spatial:Q879507
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Lingen"@de .
+        skos:prefLabel  "Grafschaft Lingen"@de ;
+        foaf:focus      wd:Q879507 .
 
 nwbib-spatial:Q1377603
         a               skos:Concept ;
@@ -15678,7 +15740,8 @@ nwbib-spatial:Q736029
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Nassau-Siegen"@de .
+        skos:prefLabel  "Nassau-Siegen"@de ;
+        foaf:focus      wd:Q736029 .
 
 nwbib-spatial:Q1805516
         a               skos:Concept ;
@@ -15818,7 +15881,8 @@ nwbib-spatial:Q464473
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Eggegebirge"@de .
+        skos:prefLabel  "Eggegebirge"@de ;
+        foaf:focus      wd:Q464473 .
 
 nwbib-spatial:Q1499815
         a               skos:Concept ;
@@ -16182,7 +16246,8 @@ nwbib-spatial:Q328928
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N54 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Moers"@de .
+        skos:prefLabel  "Grafschaft Moers"@de ;
+        foaf:focus      wd:Q328928 .
 
 nwbib-spatial:Q814023
         a               skos:Concept ;
@@ -16223,7 +16288,8 @@ nwbib-spatial:Q47021915
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Essen"@de .
+        skos:prefLabel  "Kirchenkreis Essen"@de ;
+        foaf:focus      wd:Q47021915 .
 
 nwbib-spatial:Q1569696
         a               skos:Concept ;
@@ -16279,7 +16345,8 @@ nwbib-spatial:Q47462205
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Lüdenscheid"@de .
+        skos:prefLabel  "Kirchenkreis Lüdenscheid"@de ;
+        foaf:focus      wd:Q47462205 .
 
 nwbib-spatial:Q225794
         a               skos:Concept ;
@@ -16391,7 +16458,8 @@ nwbib-spatial:Q47462263
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Tecklenburg"@de .
+        skos:prefLabel  "Kirchenkreis Tecklenburg"@de ;
+        foaf:focus      wd:Q47462263 .
 
 nwbib-spatial:Q1966840
         a               skos:Concept ;
@@ -16565,7 +16633,8 @@ nwbib-spatial:Q253765
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Erzbistum Paderborn"@de .
+        skos:prefLabel  "Erzbistum Paderborn"@de ;
+        foaf:focus      wd:Q253765 .
 
 nwbib-spatial:Q334676
         a               skos:Concept ;
@@ -16804,7 +16873,8 @@ nwbib-spatial:Q2133651
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ravensberger Land"@de .
+        skos:prefLabel  "Ravensberger Land"@de ;
+        foaf:focus      wd:Q2133651 .
 
 nwbib-spatial:Q1496176
         a               skos:Concept ;
@@ -17027,7 +17097,8 @@ nwbib-spatial:Q109773
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Teutoburger Wald"@de .
+        skos:prefLabel  "Teutoburger Wald"@de ;
+        foaf:focus      wd:Q109773 .
 
 nwbib-spatial:Q1026604
         a               skos:Concept ;
@@ -17665,7 +17736,8 @@ nwbib-spatial:Q47462041
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Bielefeld"@de .
+        skos:prefLabel  "Kirchenkreis Bielefeld"@de ;
+        foaf:focus      wd:Q47462041 .
 
 nwbib-spatial:Q1812057
         a               skos:Concept ;
@@ -17839,7 +17911,8 @@ nwbib-spatial:Q47022310
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Moers"@de .
+        skos:prefLabel  "Kirchenkreis Moers"@de ;
+        foaf:focus      wd:Q47022310 .
 
 nwbib-spatial:Q5645  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q5946 ;
@@ -18042,7 +18115,8 @@ nwbib-spatial:Q47443308
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N54 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Homburg, Nümbrecht"@de .
+        skos:prefLabel  "Herrschaft Homburg, Nümbrecht"@de ;
+        foaf:focus      wd:Q47443308 .
 
 nwbib-spatial:Q2010510
         a               skos:Concept ;
@@ -18680,7 +18754,8 @@ nwbib-spatial:Q1743154
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Lübbecke"@de .
+        skos:prefLabel  "Kirchenkreis Lübbecke"@de ;
+        foaf:focus      wd:Q1743154 .
 
 nwbib-spatial:Q1333768
         a               skos:Concept ;
@@ -18945,7 +19020,8 @@ nwbib-spatial:Q47022528
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Wesel"@de .
+        skos:prefLabel  "Kirchenkreis Wesel"@de ;
+        foaf:focus      wd:Q47022528 .
 
 nwbib-spatial:Q1795775
         a               skos:Concept ;
@@ -19042,7 +19118,8 @@ nwbib-spatial:Q1184019
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N10 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Delbrücker Land"@de .
+        skos:prefLabel  "Delbrücker Land"@de ;
+        foaf:focus      wd:Q1184019 .
 
 nwbib-spatial:Q1019826
         a               skos:Concept ;
@@ -19153,7 +19230,8 @@ nwbib-spatial:Q825489
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Pyrmont"@de .
+        skos:prefLabel  "Grafschaft Pyrmont"@de ;
+        foaf:focus      wd:Q825489 .
 
 nwbib-spatial:Q819821
         a               skos:Concept ;
@@ -19451,7 +19529,8 @@ nwbib-spatial:Q315663
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Limburg"@de .
+        skos:prefLabel  "Grafschaft Limburg"@de ;
+        foaf:focus      wd:Q315663 .
 
 nwbib-spatial:Q317111
         a               skos:Concept ;
@@ -19724,7 +19803,8 @@ nwbib-spatial:Q47021768
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Bad Godesberg-Voreifel"@de .
+        skos:prefLabel  "Kirchenkreis Bad Godesberg-Voreifel"@de ;
+        foaf:focus      wd:Q47021768 .
 
 nwbib-spatial:Q5764545
         a               skos:Concept ;
@@ -20455,7 +20535,8 @@ nwbib-spatial:Q47461972
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Arnsberg"@de .
+        skos:prefLabel  "Kirchenkreis Arnsberg"@de ;
+        foaf:focus      wd:Q47461972 .
 
 nwbib-spatial:Q894909
         a               skos:Concept ;
@@ -20650,7 +20731,8 @@ nwbib-spatial:Q2048240
 nwbib-spatial:Q7926  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Düsseldorf"@de .
+        skos:prefLabel  "Regierungsbezirk Düsseldorf"@de ;
+        foaf:focus      wd:Q7926 .
 
 nwbib-spatial:Q204683
         a               skos:Concept ;
@@ -20699,7 +20781,8 @@ nwbib-spatial:Q47445689
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Schwalm-Nette-Platte"@de .
+        skos:prefLabel  "Schwalm-Nette-Platte"@de ;
+        foaf:focus      wd:Q47445689 .
 
 nwbib-spatial:Q6842  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6246 ;
@@ -20740,7 +20823,8 @@ nwbib-spatial:Q702826
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Wiehengebirge"@de .
+        skos:prefLabel  "Wiehengebirge"@de ;
+        foaf:focus      wd:Q702826 .
 
 nwbib-spatial:Q1427151
         a               skos:Concept ;
@@ -20795,7 +20879,8 @@ nwbib-spatial:Q55984306
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrlichkeit Heessen"@de .
+        skos:prefLabel  "Herrlichkeit Heessen"@de ;
+        foaf:focus      wd:Q55984306 .
 
 nwbib-spatial:Q15126199
         a               skos:Concept ;
@@ -21127,7 +21212,8 @@ nwbib-spatial:Q767106
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N10 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Senne"@de .
+        skos:prefLabel  "Senne"@de ;
+        foaf:focus      wd:Q767106 .
 
 nwbib-spatial:Q2282582
         a               skos:Concept ;
@@ -21280,7 +21366,8 @@ nwbib-spatial:Q896058
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N10 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hellwegbörden"@de .
+        skos:prefLabel  "Hellwegbörden"@de ;
+        foaf:focus      wd:Q896058 .
 
 nwbib-spatial:Q1250579
         a               skos:Concept ;
@@ -21723,7 +21810,8 @@ nwbib-spatial:Q2533842
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N28 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Voreifel"@de .
+        skos:prefLabel  "Voreifel"@de ;
+        foaf:focus      wd:Q2533842 .
 
 nwbib-spatial:Q1644208
         a               skos:Concept ;
@@ -22031,7 +22119,8 @@ nwbib-spatial:Q684314
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bistum Aachen"@de .
+        skos:prefLabel  "Bistum Aachen"@de ;
+        foaf:focus      wd:Q684314 .
 
 nwbib-spatial:Q1587121
         a               skos:Concept ;
@@ -22248,7 +22337,8 @@ nwbib-spatial:Q769380
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bistum Münster"@de .
+        skos:prefLabel  "Bistum Münster"@de ;
+        foaf:focus      wd:Q769380 .
 
 nwbib-spatial:Q2526225
         a               skos:Concept ;
@@ -22296,7 +22386,8 @@ nwbib-spatial:Q896929
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Aachen (bis 1972)"@de .
+        skos:prefLabel  "Regierungsbezirk Aachen (bis 1972)"@de ;
+        foaf:focus      wd:Q896929 .
 
 nwbib-spatial:Q1648862
         a               skos:Concept ;
@@ -22421,7 +22512,8 @@ nwbib-spatial:Q56005590
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Wittgenstein"@de .
+        skos:prefLabel  "Grafschaft Wittgenstein"@de ;
+        foaf:focus      wd:Q56005590 .
 
 nwbib-spatial:Q2023418
         a               skos:Concept ;
@@ -22541,7 +22633,8 @@ nwbib-spatial:Q932656
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrschaft Rheda"@de .
+        skos:prefLabel  "Herrschaft Rheda"@de ;
+        foaf:focus      wd:Q932656 .
 
 nwbib-spatial:Q1146720
         a               skos:Concept ;
@@ -22575,7 +22668,8 @@ nwbib-spatial:Q47462240
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Schwelm"@de .
+        skos:prefLabel  "Kirchenkreis Schwelm"@de ;
+        foaf:focus      wd:Q47462240 .
 
 nwbib-spatial:Q1376273
         a               skos:Concept ;
@@ -23424,7 +23518,8 @@ nwbib-spatial:Q553182
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N54 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sayn"@de .
+        skos:prefLabel  "Grafschaft Sayn"@de ;
+        foaf:focus      wd:Q553182 .
 
 nwbib-spatial:Q204743
         a               skos:Concept ;
@@ -23472,7 +23567,8 @@ nwbib-spatial:Q6896  a  skos:Concept ;
 nwbib-spatial:Q1700  a  skos:Concept ;
         skos:broader    nwbib-spatial:N10 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Münsterland"@de .
+        skos:prefLabel  "Münsterland"@de ;
+        foaf:focus      wd:Q1700 .
 
 nwbib-spatial:Q182208
         a               skos:Concept ;
@@ -23838,7 +23934,8 @@ nwbib-spatial:Q47462060
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Bochum"@de .
+        skos:prefLabel  "Kirchenkreis Bochum"@de ;
+        foaf:focus      wd:Q47462060 .
 
 nwbib-spatial:Q1621640
         a               skos:Concept ;
@@ -23942,7 +24039,8 @@ nwbib-spatial:Q47444602
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Niederrheinische Sandplatten"@de .
+        skos:prefLabel  "Niederrheinische Sandplatten"@de ;
+        foaf:focus      wd:Q47444602 .
 
 nwbib-spatial:Q876233
         a               skos:Concept ;
@@ -23984,7 +24082,8 @@ nwbib-spatial:Q2147825
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Rheinisches Braunkohlerevier"@de .
+        skos:prefLabel  "Rheinisches Braunkohlerevier"@de ;
+        foaf:focus      wd:Q2147825 .
 
 nwbib-spatial:Q1288658
         a               skos:Concept ;
@@ -24062,7 +24161,8 @@ nwbib-spatial:Q1749655
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Niederrheinischer Höhenzug"@de .
+        skos:prefLabel  "Niederrheinischer Höhenzug"@de ;
+        foaf:focus      wd:Q1749655 .
 
 nwbib-spatial:Q19311452
         a               skos:Concept ;
@@ -24293,7 +24393,8 @@ nwbib-spatial:Q3821213
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Sayn-Wittgenstein-Hohenstein"@de .
+        skos:prefLabel  "Grafschaft Sayn-Wittgenstein-Hohenstein"@de ;
+        foaf:focus      wd:Q3821213 .
 
 nwbib-spatial:Q1692676
         a               skos:Concept ;
@@ -24369,7 +24470,8 @@ nwbib-spatial:Q1743178
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Steinfurt-Coesfeld-Borken"@de .
+        skos:prefLabel  "Kirchenkreis Steinfurt-Coesfeld-Borken"@de ;
+        foaf:focus      wd:Q1743178 .
 
 nwbib-spatial:Q328046
         a               skos:Concept ;
@@ -24669,7 +24771,8 @@ nwbib-spatial:Q328545
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Nassau-Dillenburg"@de .
+        skos:prefLabel  "Nassau-Dillenburg"@de ;
+        foaf:focus      wd:Q328545 .
 
 nwbib-spatial:Q1296113
         a               skos:Concept ;
@@ -24689,7 +24792,8 @@ nwbib-spatial:Q2011523
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Oberwälder Land"@de .
+        skos:prefLabel  "Oberwälder Land"@de ;
+        foaf:focus      wd:Q2011523 .
 
 nwbib-spatial:Q1602902
         a               skos:Concept ;
@@ -24723,7 +24827,8 @@ nwbib-spatial:Q1324681
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Gütersloh"@de .
+        skos:prefLabel  "Kirchenkreis Gütersloh"@de ;
+        foaf:focus      wd:Q1324681 .
 
 nwbib-spatial:Q5457331
         a               skos:Concept ;
@@ -24864,7 +24969,8 @@ nwbib-spatial:Q55890544
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Herrlichkeit Lembeck"@de .
+        skos:prefLabel  "Herrlichkeit Lembeck"@de ;
+        foaf:focus      wd:Q55890544 .
 
 nwbib-spatial:Q6191  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
@@ -25152,7 +25258,8 @@ nwbib-spatial:Q876515
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Minden-Ravensberg"@de .
+        skos:prefLabel  "Minden-Ravensberg"@de ;
+        foaf:focus      wd:Q876515 .
 
 nwbib-spatial:Q2769211
         a               skos:Concept ;
@@ -25179,7 +25286,8 @@ nwbib-spatial:Q47462321
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Wittgenstein"@de .
+        skos:prefLabel  "Kirchenkreis Wittgenstein"@de ;
+        foaf:focus      wd:Q47462321 .
 
 nwbib-spatial:Q1521837
         a               skos:Concept ;
@@ -25325,7 +25433,8 @@ nwbib-spatial:Q876552
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N54 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Gimborn-Neustadt"@de .
+        skos:prefLabel  "Grafschaft Gimborn-Neustadt"@de ;
+        foaf:focus      wd:Q876552 .
 
 nwbib-spatial:Q1428062
         a               skos:Concept ;
@@ -25416,7 +25525,8 @@ nwbib-spatial:Q1423799
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Herford"@de .
+        skos:prefLabel  "Kirchenkreis Herford"@de ;
+        foaf:focus      wd:Q1423799 .
 
 nwbib-spatial:Q650721
         a               skos:Concept ;
@@ -25464,7 +25574,8 @@ nwbib-spatial:Q56042004
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N14 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ostsauerland"@de .
+        skos:prefLabel  "Ostsauerland"@de ;
+        foaf:focus      wd:Q56042004 .
 
 nwbib-spatial:Q316969
         a               skos:Concept ;
@@ -25484,7 +25595,8 @@ nwbib-spatial:Q47462109
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Gladbeck-Bottrop-Dorsten"@de .
+        skos:prefLabel  "Kirchenkreis Gladbeck-Bottrop-Dorsten"@de ;
+        foaf:focus      wd:Q47462109 .
 
 nwbib-spatial:N9  a     skos:Concept ;
         skos:inScheme   <https://nwbib.de/spatial> ;
@@ -25840,7 +25952,8 @@ nwbib-spatial:Q47022415
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Lennep"@de .
+        skos:prefLabel  "Kirchenkreis Lennep"@de ;
+        foaf:focus      wd:Q47022415 .
 
 nwbib-spatial:Q44081891
         a               skos:Concept ;
@@ -25966,7 +26079,8 @@ nwbib-spatial:Q883257
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N36 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bistum Minden"@de .
+        skos:prefLabel  "Bistum Minden"@de ;
+        foaf:focus      wd:Q883257 .
 
 nwbib-spatial:Q200743
         a               skos:Concept ;
@@ -26022,7 +26136,8 @@ nwbib-spatial:Q47462077
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Dortmund"@de .
+        skos:prefLabel  "Kirchenkreis Dortmund"@de ;
+        foaf:focus      wd:Q47462077 .
 
 nwbib-spatial:Q323577
         a               skos:Concept ;
@@ -26098,7 +26213,8 @@ nwbib-spatial:Q564155
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N52 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stift Essen"@de .
+        skos:prefLabel  "Stift Essen"@de ;
+        foaf:focus      wd:Q564155 .
 
 nwbib-spatial:Q2566258
         a               skos:Concept ;
@@ -26497,7 +26613,8 @@ nwbib-spatial:Q884315
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N24 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kölner Bucht"@de .
+        skos:prefLabel  "Kölner Bucht"@de ;
+        foaf:focus      wd:Q884315 .
 
 nwbib-spatial:Q1672690
         a               skos:Concept ;
@@ -26546,7 +26663,8 @@ nwbib-spatial:Q599193
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N28 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hohes Venn"@de .
+        skos:prefLabel  "Hohes Venn"@de ;
+        foaf:focus      wd:Q599193 .
 
 nwbib-spatial:Q593247
         a               skos:Concept ;
@@ -26644,7 +26762,8 @@ nwbib-spatial:Q875161
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N12 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lipper Bergland"@de .
+        skos:prefLabel  "Lipper Bergland"@de ;
+        foaf:focus      wd:Q875161 .
 
 nwbib-spatial:Q1395453
         a               skos:Concept ;
@@ -26798,7 +26917,8 @@ nwbib-spatial:Q15116936
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Soest"@de .
+        skos:prefLabel  "Kirchenkreis Soest"@de ;
+        foaf:focus      wd:Q15116936 .
 
 nwbib-spatial:Q1382102
         a               skos:Concept ;
@@ -26972,7 +27092,8 @@ nwbib-spatial:Q1591063
 nwbib-spatial:Q7924  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Arnsberg"@de .
+        skos:prefLabel  "Regierungsbezirk Arnsberg"@de ;
+        foaf:focus      wd:Q7924 .
 
 nwbib-spatial:Q1661581
         a               skos:Concept ;
@@ -27246,7 +27367,8 @@ nwbib-spatial:Q1743148
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Halle"@de .
+        skos:prefLabel  "Kirchenkreis Halle"@de ;
+        foaf:focus      wd:Q1743148 .
 
 nwbib-spatial:Q1501486
         a               skos:Concept ;
@@ -28452,7 +28574,8 @@ nwbib-spatial:Q1432757
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N10 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Paderborner Hochfläche"@de .
+        skos:prefLabel  "Paderborner Hochfläche"@de ;
+        foaf:focus      wd:Q1432757 .
 
 nwbib-spatial:Q7028  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6163 ;
@@ -28535,7 +28658,8 @@ nwbib-spatial:Q1455460
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N32 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Jülich"@de .
+        skos:prefLabel  "Kirchenkreis Jülich"@de ;
+        foaf:focus      wd:Q1455460 .
 
 nwbib-spatial:Q1734823
         a               skos:Concept ;
@@ -30148,7 +30272,8 @@ nwbib-spatial:Q56042224
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N14 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Südsauerland"@de .
+        skos:prefLabel  "Südsauerland"@de ;
+        foaf:focus      wd:Q56042224 .
 
 nwbib-spatial:Q1250616
         a               skos:Concept ;
@@ -30168,7 +30293,8 @@ nwbib-spatial:Q1424058
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Vlotho"@de .
+        skos:prefLabel  "Kirchenkreis Vlotho"@de ;
+        foaf:focus      wd:Q1424058 .
 
 nwbib-spatial:Q1445255
         a               skos:Concept ;
