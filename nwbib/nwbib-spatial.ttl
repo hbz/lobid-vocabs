@@ -9756,7 +9756,7 @@ nwbib-spatial:Q56008538
         foaf:focus      wd:Q56008538 .
 
 nwbib-spatial:Q7920  a  skos:Concept ;
-        skos:broader    nwbib-spatial:Q829718 ;
+        skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Regierungsbezirk Münster"@de ;
         foaf:focus      wd:Q7920 .
@@ -12924,7 +12924,7 @@ nwbib-spatial:Q6089  a  skos:Concept ;
 
 nwbib-spatial:Q313969
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q829718 ;
+        skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Regierungsbezirk Minden (bis 1947)"@de ;
         foaf:focus      wd:Q313969 .
