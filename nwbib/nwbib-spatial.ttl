@@ -4979,7 +4979,8 @@ nwbib-spatial:N54  a    skos:Concept ;
         skos:broader    nwbib-spatial:N4-7 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "54" ;
-        skos:prefLabel  "Kleinere weltliche Territorien im Rheinland"@de .
+        skos:prefLabel  "Kleinere weltliche Territorien im Rheinland"@de ;
+        foaf:focus wd:Q67206648 .
 
 nwbib-spatial:Q1344515
         a               skos:Concept ;
@@ -23801,7 +23802,8 @@ nwbib-spatial:N74  a    skos:Concept ;
         skos:broader    nwbib-spatial:N4-7 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "74" ;
-        skos:prefLabel  "Kleinere weltliche Territorien in Westfalen"@de .
+        skos:prefLabel  "Kleinere weltliche Territorien in Westfalen"@de ;
+        foaf:focus wd:Q67206680 .
 
 nwbib-spatial:Q225055
         a               skos:Concept ;
