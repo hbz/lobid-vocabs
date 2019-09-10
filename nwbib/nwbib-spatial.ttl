@@ -2559,6 +2559,7 @@ nwbib-spatial:Q722335
 nwbib-spatial:Q7927  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "053" ;
         skos:prefLabel  "Regierungsbezirk Köln"@de ;
         foaf:focus      wd:Q7927 .
 
@@ -9758,6 +9759,7 @@ nwbib-spatial:Q56008538
 nwbib-spatial:Q7920  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "055" ;
         skos:prefLabel  "Regierungsbezirk Münster"@de ;
         foaf:focus      wd:Q7920 .
 
@@ -15616,6 +15618,7 @@ nwbib-spatial:Q15056814
 nwbib-spatial:Q7923  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "057" ;
         skos:prefLabel  "Regierungsbezirk Detmold"@de ;
         foaf:focus      wd:Q7923 .
 
@@ -21263,6 +21266,7 @@ nwbib-spatial:Q2048240
 nwbib-spatial:Q7926  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "051" ;
         skos:prefLabel  "Regierungsbezirk Düsseldorf"@de ;
         foaf:focus      wd:Q7926 .
 
@@ -22967,6 +22971,7 @@ nwbib-spatial:Q896929
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "054" ;
         skos:prefLabel  "Regierungsbezirk Aachen (bis 1972)"@de ;
         foaf:focus      wd:Q896929 .
 
@@ -27792,6 +27797,7 @@ nwbib-spatial:Q1591063
 nwbib-spatial:Q7924  a  skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "059" ;
         skos:prefLabel  "Regierungsbezirk Arnsberg"@de ;
         foaf:focus      wd:Q7924 .
 
