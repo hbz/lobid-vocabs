@@ -2049,13 +2049,6 @@ nwbib-spatial:Q3978  a  skos:Concept ;
         skos:prefLabel  "Dormagen"@de ;
         foaf:focus      wd:Q3978 .
 
-nwbib-spatial:N05  a    skos:Concept ;
-        skos:broader    nwbib-spatial:N0 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05" ;
-        skos:prefLabel  "Westfalen"@de ;
-        foaf:focus      wd:Q8614 .
-
 nwbib-spatial:Q1334185
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2948 ;
@@ -4875,7 +4868,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2019-12-04" ;
+        dct:modified                   "2019-12-13" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -20684,6 +20677,13 @@ nwbib-spatial:Q323601
         skos:prefLabel  "Unterbilk"@de ;
         foaf:focus      wd:Q323601 .
 
+nwbib-spatial:N04  a    skos:Concept ;
+        skos:broader    nwbib-spatial:N0 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "04" ;
+        skos:prefLabel  "Westfalen"@de ;
+        foaf:focus      wd:Q8614 .
+
 nwbib-spatial:Q243206
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6246 ;
@@ -24361,6 +24361,13 @@ nwbib-spatial:Q1250708
         skos:prefLabel  "Syburg"@de ;
         foaf:focus      wd:Q1250708 .
 
+nwbib-spatial:Q43497701
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q1526063 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Währentrup"@de ;
+        foaf:focus      wd:Q43497701 .
+
 nwbib-spatial:Q168646
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6230 ;
@@ -27131,6 +27138,13 @@ nwbib-spatial:Q14878  a  skos:Concept ;
         skos:notation   "05158024" ;
         skos:prefLabel  "Mettmann"@de ;
         foaf:focus      wd:Q14878 .
+
+nwbib-spatial:N23  a    skos:Concept ;
+        skos:broader    nwbib-spatial:N1-2 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "23" ;
+        skos:prefLabel  "Siebengebirge"@de ;
+        foaf:focus      wd:Q4236 .
 
 nwbib-spatial:Q1234953
         a               skos:Concept ;
