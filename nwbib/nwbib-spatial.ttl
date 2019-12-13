@@ -568,7 +568,6 @@ nwbib-spatial:Q1366459
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q896929 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05436" ;
         skos:prefLabel  "Kreis Schleiden (bis 1971)"@de ;
         foaf:focus      wd:Q1366459 .
 
@@ -625,7 +624,6 @@ nwbib-spatial:Q1787411
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q896929 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05435" ;
         skos:prefLabel  "Kreis Monschau (bis 1971)"@de ;
         foaf:focus      wd:Q1787411 .
 
@@ -1223,7 +1221,6 @@ nwbib-spatial:Q2147516
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05139" ;
         skos:prefLabel  "Rhein-Wupper-Kreis (bis 1974)"@de ;
         foaf:focus      wd:Q2147516 .
 
@@ -1595,7 +1592,6 @@ nwbib-spatial:Q653282
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05532" ;
         skos:prefLabel  "Kreis Beckum (bis 1974)"@de ;
         foaf:focus      wd:Q653282 .
 
@@ -2193,7 +2189,6 @@ nwbib-spatial:Q1543152
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05737" ;
         skos:prefLabel  "Kreis Lemgo (bis 1972)"@de ;
         foaf:focus      wd:Q1543152 .
 
@@ -4134,7 +4129,6 @@ nwbib-spatial:Q1738986
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05831" ;
         skos:prefLabel  "Kreis Lüdenscheid (bis 1974)"@de ;
         foaf:focus      wd:Q1738986 .
 
@@ -4875,7 +4869,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2019-12-04" ;
+        dct:modified                   "2019-12-13" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -4935,7 +4929,6 @@ nwbib-spatial:Q1787280
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q896929 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05433" ;
         skos:prefLabel  "Kreis Erkelenz (bis 1971)"@de ;
         foaf:focus      wd:Q1787280 .
 
@@ -6001,7 +5994,6 @@ nwbib-spatial:Q166787
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05734" ;
         skos:prefLabel  "Kreis Halle (bis 1972)"@de ;
         foaf:focus      wd:Q166787 .
 
@@ -6604,7 +6596,6 @@ nwbib-spatial:Q1747717
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05837" ;
         skos:prefLabel  "Kreis Meschede (bis 1974)"@de ;
         foaf:focus      wd:Q1747717 .
 
@@ -6647,7 +6638,6 @@ nwbib-spatial:Q1521339
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q896929 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05434" ;
         skos:prefLabel  "Kreis Jülich (bis 1971)"@de ;
         foaf:focus      wd:Q1521339 .
 
@@ -7428,7 +7418,6 @@ nwbib-spatial:Q1787239
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05833" ;
         skos:prefLabel  "Kreis Brilon (bis 1974)"@de ;
         foaf:focus      wd:Q1787239 .
 
@@ -7627,7 +7616,6 @@ nwbib-spatial:Q1787361
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05135" ;
         skos:prefLabel  "Kreis Kempen-Krefeld (bis 1974)"@de ;
         foaf:focus      wd:Q1787361 .
 
@@ -8740,7 +8728,6 @@ nwbib-spatial:Q907346
 nwbib-spatial:Q16018  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6187 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05566084" ;
         skos:prefLabel  "Steinfurt (bis 1421)"@de ;
         foaf:focus      wd:Q16018 .
 
@@ -10521,7 +10508,6 @@ nwbib-spatial:Q600902
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05832" ;
         skos:prefLabel  "Kreis Arnsberg (bis 1974)"@de ;
         foaf:focus      wd:Q600902 .
 
@@ -10711,7 +10697,6 @@ nwbib-spatial:Q1787267
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05232" ;
         skos:prefLabel  "Kreis Düsseldorf-Mettmann (bis 1974)"@de ;
         foaf:focus      wd:Q1787267 .
 
@@ -10838,7 +10823,6 @@ nwbib-spatial:Q1787246
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05732" ;
         skos:prefLabel  "Kreis Büren (bis 1974)"@de ;
         foaf:focus      wd:Q1787246 .
 
@@ -15087,7 +15071,6 @@ nwbib-spatial:Q1412180
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05739" ;
         skos:prefLabel  "Kreis Minden (bis 1972)"@de ;
         foaf:focus      wd:Q1412180 .
 
@@ -15222,7 +15205,6 @@ nwbib-spatial:Q897140
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05539" ;
         skos:prefLabel  "Kreis Tecklenburg (bis 1974)"@de ;
         foaf:focus      wd:Q897140 .
 
@@ -15655,7 +15637,6 @@ nwbib-spatial:Q1787514
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05839" ;
         skos:prefLabel  "Kreis Siegen (bis 1974)"@de ;
         foaf:focus      wd:Q1787514 .
 
@@ -15768,7 +15749,6 @@ nwbib-spatial:Q1673662
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05233" ;
         skos:prefLabel  "Kreis Geldern (bis 1974)"@de ;
         foaf:focus      wd:Q1673662 .
 
@@ -16226,7 +16206,6 @@ nwbib-spatial:Q180248
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05742" ;
         skos:prefLabel  "Kreis Wiedenbrück (bis 1972)"@de ;
         foaf:focus      wd:Q180248 .
 
@@ -18509,7 +18488,6 @@ nwbib-spatial:Q878419
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05531" ;
         skos:prefLabel  "Kreis Ahaus (bis 1974)"@de ;
         foaf:focus      wd:Q878419 .
 
@@ -18713,7 +18691,6 @@ nwbib-spatial:Q1787563
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05741" ;
         skos:prefLabel  "Kreis Warburg (bis 1974)"@de ;
         foaf:focus      wd:Q1787563 .
 
@@ -19253,7 +19230,6 @@ nwbib-spatial:Q2268218
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q896929 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05437" ;
         skos:prefLabel  "Selfkantkreis Geilenkirchen-Heinsberg (bis 1971)"@de ;
         foaf:focus      wd:Q2268218 .
 
@@ -19793,7 +19769,6 @@ nwbib-spatial:Q1787383
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05836" ;
         skos:prefLabel  "Kreis Lippstadt (bis 1974)"@de ;
         foaf:focus      wd:Q1787383 .
 
@@ -20801,7 +20776,6 @@ nwbib-spatial:Q260884
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q313969 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05731" ;
         skos:prefLabel  "Kreis Bielefeld (bis 1972)"@de ;
         foaf:focus      wd:Q260884 .
 
@@ -22388,7 +22362,6 @@ nwbib-spatial:Q1322719
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05835" ;
         skos:prefLabel  "Kreis Iserlohn (bis 1974)"@de ;
         foaf:focus      wd:Q1322719 .
 
@@ -22775,7 +22748,6 @@ nwbib-spatial:Q1372871
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7927 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05337" ;
         skos:prefLabel  "Siegkreis (bis 1969)"@de ;
         foaf:focus      wd:Q1372871 .
 
@@ -23028,7 +23000,6 @@ nwbib-spatial:Q896929
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N9 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "054" ;
         skos:prefLabel  "Regierungsbezirk Aachen"@de ;
         foaf:focus      wd:Q896929 .
 
@@ -23353,7 +23324,6 @@ nwbib-spatial:Q1739523
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05738" ;
         skos:prefLabel  "Kreis Lübbecke (bis 1972)"@de ;
         foaf:focus      wd:Q1739523 .
 
@@ -24132,7 +24102,6 @@ nwbib-spatial:Q1461305
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05231" ;
         skos:prefLabel  "Kreis Dinslaken (bis 1974)"@de ;
         foaf:focus      wd:Q1461305 .
 
@@ -25927,7 +25896,6 @@ nwbib-spatial:Q1787307
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05134" ;
         skos:prefLabel  "Kreis Grevenbroich (bis 1974)"@de ;
         foaf:focus      wd:Q1787307 .
 
@@ -25970,7 +25938,6 @@ nwbib-spatial:Q7379734
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7927 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05354" ;
         skos:prefLabel  "Kreis Aachen (bis 2009)"@de ;
         foaf:focus      wd:Q7379734 .
 
@@ -26677,7 +26644,6 @@ nwbib-spatial:Q1644645
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7927 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05331" ;
         skos:prefLabel  "Kreis Bergheim (bis 1974)"@de ;
         foaf:focus      wd:Q1644645 .
 
@@ -26735,7 +26701,6 @@ nwbib-spatial:Q878752
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05536" ;
         skos:prefLabel  "Landkreis Münster (bis 1974)"@de ;
         foaf:focus      wd:Q878752 .
 
@@ -27487,7 +27452,6 @@ nwbib-spatial:Q1787578
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05842" ;
         skos:prefLabel  "Kreis Wittgenstein (bis 1974)"@de ;
         foaf:focus      wd:Q1787578 .
 
@@ -27579,7 +27543,6 @@ nwbib-spatial:Q1587845
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05733" ;
         skos:prefLabel  "Kreis Detmold (bis 1972)"@de ;
         foaf:focus      wd:Q1587845 .
 
@@ -28072,7 +28035,6 @@ nwbib-spatial:Q1787409
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05237" ;
         skos:prefLabel  "Kreis Moers (bis 1974)"@de ;
         foaf:focus      wd:Q1787409 .
 
@@ -28746,7 +28708,6 @@ nwbib-spatial:Q1759911
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05138" ;
         skos:prefLabel  "Kreis Rees (bis 1974)"@de ;
         foaf:focus      wd:Q1759911 .
 
@@ -31055,7 +31016,6 @@ nwbib-spatial:Q895515
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05535" ;
         skos:prefLabel  "Kreis Lüdinghausen (bis 1974)"@de ;
         foaf:focus      wd:Q895515 .
 
