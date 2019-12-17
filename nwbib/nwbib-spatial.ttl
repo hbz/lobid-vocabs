@@ -15,7 +15,7 @@ nwbib-spatial:Q2259617
 nwbib-spatial:Q2103  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05911000" ;
+        skos:notation   "05911" ;
         skos:prefLabel  "Bochum"@de ;
         foaf:focus      wd:Q2103 .
 
@@ -1318,7 +1318,7 @@ nwbib-spatial:Q3821487
 nwbib-spatial:Q1295  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05913000" ;
+        skos:notation   "05913" ;
         skos:prefLabel  "Dortmund"@de ;
         foaf:focus      wd:Q1295 .
 
@@ -1500,7 +1500,7 @@ nwbib-spatial:Q1493739
 nwbib-spatial:Q2899  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05117000" ;
+        skos:notation   "05117" ;
         skos:prefLabel  "Mülheim an der Ruhr"@de ;
         foaf:focus      wd:Q2899 .
 
@@ -1782,7 +1782,7 @@ nwbib-spatial:Q1568387
 nwbib-spatial:Q2942  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05122000" ;
+        skos:notation   "05122" ;
         skos:prefLabel  "Solingen"@de ;
         foaf:focus      wd:Q2942 .
 
@@ -4280,7 +4280,7 @@ nwbib-spatial:Q2420122
 nwbib-spatial:Q2938  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7927 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05316000" ;
+        skos:notation   "05316" ;
         skos:prefLabel  "Leverkusen"@de ;
         foaf:focus      wd:Q2938 .
 
@@ -5313,7 +5313,7 @@ nwbib-spatial:Q200122
 nwbib-spatial:Q2758  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05116000" ;
+        skos:notation   "05116" ;
         skos:prefLabel  "Mönchengladbach"@de ;
         foaf:focus      wd:Q2758 .
 
@@ -5473,7 +5473,7 @@ nwbib-spatial:Q1952096
 nwbib-spatial:Q2880  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05915000" ;
+        skos:notation   "05915" ;
         skos:prefLabel  "Hamm"@de ;
         foaf:focus      wd:Q2880 .
 
@@ -7754,7 +7754,7 @@ nwbib-spatial:Q1487002
 nwbib-spatial:Q1718  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05111000" ;
+        skos:notation   "05111" ;
         skos:prefLabel  "Düsseldorf"@de ;
         foaf:focus      wd:Q1718 .
 
@@ -8678,7 +8678,7 @@ nwbib-spatial:Q378206
 nwbib-spatial:Q2871  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05914000" ;
+        skos:notation   "05914" ;
         skos:prefLabel  "Hagen"@de ;
         foaf:focus      wd:Q2871 .
 
@@ -8970,7 +8970,7 @@ nwbib-spatial:Q1172775
 nwbib-spatial:Q2765  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05513000" ;
+        skos:notation   "05513" ;
         skos:prefLabel  "Gelsenkirchen"@de ;
         foaf:focus      wd:Q2765 .
 
@@ -11527,7 +11527,7 @@ nwbib-spatial:Q889190
 nwbib-spatial:Q586  a   skos:Concept ;
         skos:broader    nwbib-spatial:Q7927 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05314000" ;
+        skos:notation   "05314" ;
         skos:prefLabel  "Bonn"@de ;
         foaf:focus      wd:Q586 .
 
@@ -15510,7 +15510,7 @@ nwbib-spatial:Q835962
 nwbib-spatial:Q2742  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05515000" ;
+        skos:notation   "05515" ;
         skos:prefLabel  "Münster"@de ;
         foaf:focus      wd:Q2742 .
 
@@ -18479,7 +18479,7 @@ nwbib-spatial:Q1948206
 nwbib-spatial:Q2107  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05124000" ;
+        skos:notation   "05124" ;
         skos:prefLabel  "Wuppertal"@de ;
         foaf:focus      wd:Q2107 .
 
@@ -19578,7 +19578,7 @@ nwbib-spatial:Q1787972
 nwbib-spatial:Q3069  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7920 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05512000" ;
+        skos:notation   "05512" ;
         skos:prefLabel  "Bottrop"@de ;
         foaf:focus      wd:Q3069 .
 
@@ -20225,7 +20225,7 @@ nwbib-spatial:Q817897
 nwbib-spatial:Q2904  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7924 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05916000" ;
+        skos:notation   "05916" ;
         skos:prefLabel  "Herne"@de ;
         foaf:focus      wd:Q2904 .
 
@@ -22001,7 +22001,7 @@ nwbib-spatial:Q56033157
 nwbib-spatial:Q2066  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05113000" ;
+        skos:notation   "05113" ;
         skos:prefLabel  "Essen"@de ;
         foaf:focus      wd:Q2066 .
 
@@ -22809,7 +22809,7 @@ nwbib-spatial:Q1453703
 nwbib-spatial:Q3097  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05120000" ;
+        skos:notation   "05120" ;
         skos:prefLabel  "Remscheid"@de ;
         foaf:focus      wd:Q3097 .
 
@@ -24002,7 +24002,7 @@ nwbib-spatial:Q2309758
 nwbib-spatial:Q2805  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05114000" ;
+        skos:notation   "05114" ;
         skos:prefLabel  "Krefeld"@de ;
         foaf:focus      wd:Q2805 .
 
@@ -25367,7 +25367,7 @@ nwbib-spatial:Q1607341
 nwbib-spatial:Q365  a   skos:Concept ;
         skos:broader    nwbib-spatial:Q7927 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05315000" ;
+        skos:notation   "05315" ;
         skos:prefLabel  "Köln"@de ;
         foaf:focus      wd:Q365 .
 
@@ -25472,7 +25472,7 @@ nwbib-spatial:Q437554
 nwbib-spatial:Q2100  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05112000" ;
+        skos:notation   "05112" ;
         skos:prefLabel  "Duisburg"@de ;
         foaf:focus      wd:Q2100 .
 
@@ -26722,7 +26722,7 @@ nwbib-spatial:Q5380059
 nwbib-spatial:Q2838  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05119000" ;
+        skos:notation   "05119" ;
         skos:prefLabel  "Oberhausen"@de ;
         foaf:focus      wd:Q2838 .
 
@@ -28182,7 +28182,7 @@ nwbib-spatial:Q1310783
 nwbib-spatial:Q2112  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05711000" ;
+        skos:notation   "05711" ;
         skos:prefLabel  "Bielefeld"@de ;
         foaf:focus      wd:Q2112 .
 
