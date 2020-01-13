@@ -1055,6 +1055,13 @@ nwbib-spatial:Q3007  a  skos:Concept ;
         skos:prefLabel  "Altstadt-Süd"@de ;
         foaf:focus      wd:Q3007 .
 
+nwbib-spatial:Q1281908
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q255235 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Eckum"@de ;
+        foaf:focus      wd:Q1281908 .
+
 nwbib-spatial:Q200247
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6191 ;
@@ -2336,7 +2343,7 @@ nwbib-spatial:Q151287
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Brand (Stadtbezirk)"@de ;
+        skos:prefLabel  "Brand"@de ;
         foaf:focus      wd:Q151287 .
 
 nwbib-spatial:Q889074
@@ -4762,7 +4769,7 @@ nwbib-spatial:Q153260
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q586 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bad Godesberg (Stadtbezirk)"@de ;
+        skos:prefLabel  "Bad Godesberg"@de ;
         foaf:focus      wd:Q153260 .
 
 nwbib-spatial:Q1637915
@@ -10941,7 +10948,7 @@ nwbib-spatial:Q1808050
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Laurensberg (Stadtbezirk)"@de ;
+        skos:prefLabel  "Laurensberg"@de ;
         foaf:focus      wd:Q1808050 .
 
 nwbib-spatial:Q4175  a  skos:Concept ;
@@ -12634,7 +12641,7 @@ nwbib-spatial:Q1566490
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Haaren (Stadtbezirk)"@de ;
+        skos:prefLabel  "Haaren"@de ;
         foaf:focus      wd:Q1566490 .
 
 nwbib-spatial:Q1722366
@@ -12711,7 +12718,7 @@ nwbib-spatial:Q114402
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2107 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Langerfeld-Beyenburg (Stadtbezirk)"@de ;
+        skos:prefLabel  "Langerfeld-Beyenburg"@de ;
         foaf:focus      wd:Q114402 .
 
 nwbib-spatial:Q876078
@@ -13003,7 +13010,7 @@ nwbib-spatial:Q300703
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Aachen-Mitte (Stadtbezirk)"@de ;
+        skos:prefLabel  "Aachen-Mitte"@de ;
         foaf:focus      wd:Q300703 .
 
 nwbib-spatial:Q258026
@@ -13515,7 +13522,7 @@ nwbib-spatial:Q1304021
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Eilendorf (Stadtbezirk)"@de ;
+        skos:prefLabel  "Eilendorf"@de ;
         foaf:focus      wd:Q1304021 .
 
 nwbib-spatial:Q5398  a  skos:Concept ;
@@ -16922,7 +16929,7 @@ nwbib-spatial:Q2151315
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Richterich (Stadtbezirk)"@de ;
+        skos:prefLabel  "Richterich"@de ;
         foaf:focus      wd:Q2151315 .
 
 nwbib-spatial:Q26208579
@@ -20780,7 +20787,7 @@ nwbib-spatial:Q1790749
 
 nwbib-spatial:Q260884
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q313969 ;
+        skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Kreis Bielefeld (bis 1972)"@de ;
         foaf:focus      wd:Q260884 .
@@ -22263,7 +22270,7 @@ nwbib-spatial:Q2563710
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kornelimünster/Walheim (Stadtbezirk)"@de ;
+        skos:prefLabel  "Kornelimünster/Walheim"@de ;
         foaf:focus      wd:Q2563710 .
 
 nwbib-spatial:Q198799
@@ -30084,7 +30091,7 @@ nwbib-spatial:Q1486216
         foaf:focus      wd:Q1486216 .
 
 nwbib-spatial:Q53907  a  skos:Concept ;
-        skos:broader    nwbib-spatial:Q7923 ;
+        skos:broader    nwbib-spatial:Q6234 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "05758036" ;
         skos:prefLabel  "Vlotho"@de ;
