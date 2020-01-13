@@ -4868,7 +4868,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2019-12-17" ;
+        dct:modified                   "2020-01-13" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12933,7 +12933,7 @@ nwbib-spatial:Q313969
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N05 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Minden"@de ;
+        skos:prefLabel  "Regierungsbezirk Minden (bis 1947)"@de ;
         foaf:focus      wd:Q313969 .
 
 nwbib-spatial:Q1464738
@@ -23006,7 +23006,7 @@ nwbib-spatial:Q896929
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N05 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Regierungsbezirk Aachen"@de ;
+        skos:prefLabel  "Regierungsbezirk Aachen (bis 1972)"@de ;
         foaf:focus      wd:Q896929 .
 
 nwbib-spatial:Q1648862
