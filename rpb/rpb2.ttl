@@ -10,6 +10,7 @@
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "This SKOS version of a controlled vocabulary for the Rhineland-Palatian Bibliography (RPB) was created by the hbz." ;
     dct:issued "2016-04-25" ;
+    dct:modified "2020-01-15" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
     vann:preferredNamespacePrefix "rpb2" ;
