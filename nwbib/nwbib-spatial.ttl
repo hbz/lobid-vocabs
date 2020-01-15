@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-01-13" ;
+        dct:modified                   "2020-01-15" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -6696,6 +6696,13 @@ nwbib-spatial:Q243554
         skos:notation   "05154024" ;
         skos:prefLabel  "Kalkar"@de ;
         foaf:focus      wd:Q243554 .
+
+nwbib-spatial:Q3708105
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N36 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Fürstbistum Corvey"@de ;
+        foaf:focus      wd:Q3708105 .
 
 nwbib-spatial:Q652822
         a               skos:Concept ;
@@ -10881,6 +10888,13 @@ nwbib-spatial:Q866662
         skos:prefLabel  "Bissen"@de ;
         foaf:focus      wd:Q866662 .
 
+nwbib-spatial:Q1573603
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2880 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Stadtbezirk Hamm-Bockum-Hövel"@de ;
+        foaf:focus      wd:Q1573603 .
+
 nwbib-spatial:Q47483940
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3813 ;
@@ -14902,6 +14916,13 @@ nwbib-spatial:Q688115
         skos:prefLabel  "Heimerzheim"@de ;
         foaf:focus      wd:Q688115 .
 
+nwbib-spatial:Q78855747
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q1490832 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Gadderbaum"@de ;
+        foaf:focus      wd:Q78855747 .
+
 nwbib-spatial:Q2380038
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q240887 ;
@@ -15976,19 +15997,19 @@ nwbib-spatial:Q1250624
         skos:prefLabel  "Großholthausen"@de ;
         foaf:focus      wd:Q1250624 .
 
-nwbib-spatial:Q678079
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q446864 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Pesch"@de ;
-        foaf:focus      wd:Q678079 .
-
 nwbib-spatial:Q879507
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Grafschaft Lingen"@de ;
         foaf:focus      wd:Q879507 .
+
+nwbib-spatial:Q678079
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q446864 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Pesch"@de ;
+        foaf:focus      wd:Q678079 .
 
 nwbib-spatial:Q1377603
         a               skos:Concept ;
@@ -16368,6 +16389,13 @@ nwbib-spatial:Q681425
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Ronsdorf (Stadtbezirk)"@de ;
         foaf:focus      wd:Q681425 .
+
+nwbib-spatial:Q61790035
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2899 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Eppinghofen"@de ;
+        foaf:focus      wd:Q61790035 .
 
 nwbib-spatial:Q1231010
         a               skos:Concept ;
@@ -17494,12 +17522,12 @@ nwbib-spatial:Q1645841
         skos:prefLabel  "Sellmecke"@de ;
         foaf:focus      wd:Q1645841 .
 
-nwbib-spatial:Q1350655
+nwbib-spatial:Q457468
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q6863 ;
+        skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ergste"@de ;
-        foaf:focus      wd:Q1350655 .
+        skos:prefLabel  "Grafschaft Rietberg (bis 1807)"@de ;
+        foaf:focus      wd:Q457468 .
 
 nwbib-spatial:Q1300844
         a               skos:Concept ;
@@ -17508,12 +17536,12 @@ nwbib-spatial:Q1300844
         skos:prefLabel  "Ehringhausen"@de ;
         foaf:focus      wd:Q1300844 .
 
-nwbib-spatial:Q457468
+nwbib-spatial:Q1350655
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:N74 ;
+        skos:broader    nwbib-spatial:Q6863 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Rietberg (bis 1807)"@de ;
-        foaf:focus      wd:Q457468 .
+        skos:prefLabel  "Ergste"@de ;
+        foaf:focus      wd:Q1350655 .
 
 nwbib-spatial:Q1367000
         a               skos:Concept ;
@@ -20497,6 +20525,13 @@ nwbib-spatial:Q316174
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Stift Herford"@de ;
         foaf:focus      wd:Q316174 .
+
+nwbib-spatial:Q153751
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q892684 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Poppelsdorf"@de ;
+        foaf:focus      wd:Q153751 .
 
 nwbib-spatial:Q1589197
         a               skos:Concept ;
@@ -25266,6 +25301,13 @@ nwbib-spatial:Q1017751
         skos:prefLabel  "Bustedt"@de ;
         foaf:focus      wd:Q1017751 .
 
+nwbib-spatial:Q1605209
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q890253 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Hengstey"@de ;
+        foaf:focus      wd:Q1605209 .
+
 nwbib-spatial:Q1524924
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3959 ;
@@ -26815,6 +26857,13 @@ nwbib-spatial:Q1368635
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Kupferdreh"@de ;
         foaf:focus      wd:Q1368635 .
+
+nwbib-spatial:Q883257
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N36 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Bistum Minden"@de ;
+        foaf:focus      wd:Q883257 .
 
 nwbib-spatial:Q200743
         a               skos:Concept ;
@@ -29588,6 +29637,13 @@ nwbib-spatial:Q1727980
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Stachelau"@de ;
         foaf:focus      wd:Q1727980 .
+
+nwbib-spatial:Q1268972
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q968 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Nörde"@de ;
+        foaf:focus      wd:Q1268972 .
 
 nwbib-spatial:Q2166846
         a               skos:Concept ;
