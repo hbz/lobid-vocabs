@@ -2343,7 +2343,7 @@ nwbib-spatial:Q151287
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Brand"@de ;
+        skos:prefLabel  "Brand (Stadtbezirk)"@de ;
         foaf:focus      wd:Q151287 .
 
 nwbib-spatial:Q889074
@@ -4769,7 +4769,7 @@ nwbib-spatial:Q153260
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q586 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bad Godesberg"@de ;
+        skos:prefLabel  "Bad Godesberg (Stadtbezirk)"@de ;
         foaf:focus      wd:Q153260 .
 
 nwbib-spatial:Q1637915
@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-01-15" ;
+        dct:modified                   "2020-01-17" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -5145,7 +5145,7 @@ nwbib-spatial:Q740616
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3097 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lüttringhausen"@de ;
+        skos:prefLabel  "Lüttringhausen (Stadtbezirk)"@de ;
         foaf:focus      wd:Q740616 .
 
 nwbib-spatial:Q47190993
@@ -10962,7 +10962,7 @@ nwbib-spatial:Q1808050
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Laurensberg"@de ;
+        skos:prefLabel  "Laurensberg (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1808050 .
 
 nwbib-spatial:Q4175  a  skos:Concept ;
@@ -11416,7 +11416,7 @@ nwbib-spatial:Q492224
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2103 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Wattenscheid"@de ;
+        skos:prefLabel  "Wattenscheid (Stadtbezirk)"@de ;
         foaf:focus      wd:Q492224 .
 
 nwbib-spatial:Q142780
@@ -12655,7 +12655,7 @@ nwbib-spatial:Q1566490
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Haaren"@de ;
+        skos:prefLabel  "Haaren (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1566490 .
 
 nwbib-spatial:Q1722366
@@ -13024,7 +13024,7 @@ nwbib-spatial:Q300703
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Aachen-Mitte"@de ;
+        skos:prefLabel  "Aachen-Mitte (Stadtbezirk)"@de ;
         foaf:focus      wd:Q300703 .
 
 nwbib-spatial:Q258026
@@ -13536,7 +13536,7 @@ nwbib-spatial:Q1304021
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Eilendorf"@de ;
+        skos:prefLabel  "Eilendorf (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1304021 .
 
 nwbib-spatial:Q5398  a  skos:Concept ;
@@ -14617,7 +14617,7 @@ nwbib-spatial:Q1486892
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q4090 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hangelar"@de ;
+        skos:prefLabel  "Hangelar (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1486892 .
 
 nwbib-spatial:Q1252653
@@ -16957,7 +16957,7 @@ nwbib-spatial:Q2151315
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Richterich"@de ;
+        skos:prefLabel  "Richterich (Stadtbezirk)"@de ;
         foaf:focus      wd:Q2151315 .
 
 nwbib-spatial:Q26208579
@@ -19229,7 +19229,7 @@ nwbib-spatial:Q1982226
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3840 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Neviges"@de ;
+        skos:prefLabel  "Neviges (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1982226 .
 
 nwbib-spatial:Q3764  a  skos:Concept ;
@@ -20198,7 +20198,7 @@ nwbib-spatial:Q1436564
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q4090 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Menden"@de ;
+        skos:prefLabel  "Menden (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1436564 .
 
 nwbib-spatial:Q14949  a  skos:Concept ;
@@ -22305,7 +22305,7 @@ nwbib-spatial:Q2563710
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1017 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kornelimünster/Walheim"@de ;
+        skos:prefLabel  "Kornelimünster/Walheim (Stadtbezirk)"@de ;
         foaf:focus      wd:Q2563710 .
 
 nwbib-spatial:Q198799
@@ -22894,7 +22894,7 @@ nwbib-spatial:Q326089
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2942 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Gräfrath"@de ;
+        skos:prefLabel  "Gräfrath (Stadtbezirk)"@de ;
         foaf:focus      wd:Q326089 .
 
 nwbib-spatial:Q14400001
@@ -23167,7 +23167,7 @@ nwbib-spatial:Q1476033
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3840 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Langenberg (Rheinland)"@de ;
+        skos:prefLabel  "Langenberg (Rheinland) (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1476033 .
 
 nwbib-spatial:Q56005590
@@ -25046,7 +25046,7 @@ nwbib-spatial:Q1677185
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2758 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Wickrath"@de ;
+        skos:prefLabel  "Wickrath (Stadtbezirk)"@de ;
         foaf:focus      wd:Q1677185 .
 
 nwbib-spatial:Q2293534
@@ -30251,13 +30251,6 @@ nwbib-spatial:Q19297486
         skos:prefLabel  "Oberlerbach"@de ;
         foaf:focus      wd:Q19297486 .
 
-nwbib-spatial:Q1747416
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q204919 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ophoven"@de ;
-        foaf:focus      wd:Q1747416 .
-
 nwbib-spatial:Q182248
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6187 ;
@@ -30265,6 +30258,20 @@ nwbib-spatial:Q182248
         skos:notation   "05566064" ;
         skos:prefLabel  "Nordwalde"@de ;
         foaf:focus      wd:Q182248 .
+
+nwbib-spatial:Q1747416
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q204919 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ophoven"@de ;
+        foaf:focus      wd:Q1747416 .
+
+nwbib-spatial:Q1377265
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3771 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Nordhorn"@de ;
+        foaf:focus      wd:Q1377265 .
 
 nwbib-spatial:Q1534368
         a               skos:Concept ;
@@ -30567,7 +30574,7 @@ nwbib-spatial:Q486577
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3097 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lennep"@de ;
+        skos:prefLabel  "Lennep (Stadtbezirk)"@de ;
         foaf:focus      wd:Q486577 .
 
 nwbib-spatial:Q1477503
