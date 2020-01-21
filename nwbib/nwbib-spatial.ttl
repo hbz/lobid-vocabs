@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-01-17" ;
+        dct:modified                   "2020-01-20" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12732,7 +12732,7 @@ nwbib-spatial:Q114402
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2107 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Langerfeld-Beyenburg"@de ;
+        skos:prefLabel  "Langerfeld-Beyenburg (Stadtbezirk)"@de ;
         foaf:focus      wd:Q114402 .
 
 nwbib-spatial:Q876078
