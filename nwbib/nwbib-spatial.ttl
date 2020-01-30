@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-01-20" ;
+        dct:modified                   "2020-01-30" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -7453,6 +7453,13 @@ nwbib-spatial:Q11102  a  skos:Concept ;
         skos:notation   "05974020" ;
         skos:prefLabel  "Geseke"@de ;
         foaf:focus      wd:Q11102 .
+
+nwbib-spatial:Q61275196
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q181609 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Wechte"@de ;
+        foaf:focus      wd:Q61275196 .
 
 nwbib-spatial:Q200208
         a               skos:Concept ;
@@ -20519,13 +20526,6 @@ nwbib-spatial:Q1738257
         skos:prefLabel  "Kellersberg"@de ;
         foaf:focus      wd:Q1738257 .
 
-nwbib-spatial:Q316174
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:N74 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stift Herford"@de ;
-        foaf:focus      wd:Q316174 .
-
 nwbib-spatial:Q153751
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q892684 ;
@@ -23395,6 +23395,13 @@ nwbib-spatial:Q26696033
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Neheim"@de ;
         foaf:focus      wd:Q26696033 .
+
+nwbib-spatial:Q1282032
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q242514 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kükenbruch"@de ;
+        foaf:focus      wd:Q1282032 .
 
 nwbib-spatial:Q15052205
         a               skos:Concept ;
