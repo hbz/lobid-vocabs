@@ -3859,7 +3859,7 @@ nwbib-spatial:Q1541601
 
 nwbib-spatial:Q1906190
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q59138859 ;
+        skos:broader    nwbib-spatial:Q512233 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Marxloh"@de ;
         foaf:focus      wd:Q1906190 .
@@ -4868,7 +4868,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-03-24" ;
+        dct:modified                   "2020-03-25" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12695,7 +12695,7 @@ nwbib-spatial:Q1803277
 
 nwbib-spatial:Q432818
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q59138859 ;
+        skos:broader    nwbib-spatial:Q512233 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Alsum"@de ;
         foaf:focus      wd:Q432818 .
@@ -14783,7 +14783,7 @@ nwbib-spatial:Q25392878
 
 nwbib-spatial:Q1262424
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q59138859 ;
+        skos:broader    nwbib-spatial:Q512233 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Obermarxloh"@de ;
         foaf:focus      wd:Q1262424 .
@@ -16018,19 +16018,19 @@ nwbib-spatial:Q1250624
         skos:prefLabel  "Großholthausen"@de ;
         foaf:focus      wd:Q1250624 .
 
-nwbib-spatial:Q678079
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q446864 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Pesch"@de ;
-        foaf:focus      wd:Q678079 .
-
 nwbib-spatial:Q879507
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Grafschaft Lingen"@de ;
         foaf:focus      wd:Q879507 .
+
+nwbib-spatial:Q678079
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q446864 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Pesch"@de ;
+        foaf:focus      wd:Q678079 .
 
 nwbib-spatial:Q1377603
         a               skos:Concept ;
@@ -19528,7 +19528,7 @@ nwbib-spatial:Q15965177
 
 nwbib-spatial:Q1980918
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q59138859 ;
+        skos:broader    nwbib-spatial:Q512233 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Neumühl"@de ;
         foaf:focus      wd:Q1980918 .
