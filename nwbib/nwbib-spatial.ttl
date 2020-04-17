@@ -4868,7 +4868,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-03-25" ;
+        dct:modified                   "2020-04-17" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12193,7 +12193,7 @@ nwbib-spatial:Q2166105
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q681425 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ronsdorf"@de ;
+        skos:prefLabel  "Ronsdorf-Mitte/Nord"@de ;
         foaf:focus      wd:Q2166105 .
 
 nwbib-spatial:Q1796601
@@ -14003,7 +14003,7 @@ nwbib-spatial:Q2301766
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1325224 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Sonnborn (Quartier)"@de ;
+        skos:prefLabel  "Sonnborn"@de ;
         foaf:focus      wd:Q2301766 .
 
 nwbib-spatial:Q1258005
@@ -20923,7 +20923,7 @@ nwbib-spatial:Q1098922
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q13388983 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Clausen (Wuppertal)"@de ;
+        skos:prefLabel  "Clausen"@de ;
         foaf:focus      wd:Q1098922 .
 
 nwbib-spatial:Q59138834
@@ -22785,6 +22785,13 @@ nwbib-spatial:Q684314
         skos:prefLabel  "Bistum Aachen"@de ;
         foaf:focus      wd:Q684314 .
 
+nwbib-spatial:Q1573752
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q7926 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Landkreis Neuß (bis 1929)"@de ;
+        foaf:focus      wd:Q1573752 .
+
 nwbib-spatial:Q1587121
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q254458 ;
@@ -24194,6 +24201,13 @@ nwbib-spatial:Q437214
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Altenhellefeld"@de ;
         foaf:focus      wd:Q437214 .
+
+nwbib-spatial:Q89555728
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2713 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ameke"@de ;
+        foaf:focus      wd:Q89555728 .
 
 nwbib-spatial:Q2429850
         a               skos:Concept ;
@@ -29498,6 +29512,13 @@ nwbib-spatial:Q4195  a  skos:Concept ;
         skos:prefLabel  "Erftstadt"@de ;
         foaf:focus      wd:Q4195 .
 
+nwbib-spatial:Q90685626
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q14895 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Geisbruch"@de ;
+        foaf:focus      wd:Q90685626 .
+
 nwbib-spatial:Q1546105
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10893 ;
@@ -29909,7 +29930,7 @@ nwbib-spatial:Q1568943
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q769183 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hahnerberg (Quartier)"@de ;
+        skos:prefLabel  "Hahnerberg"@de ;
         foaf:focus      wd:Q1568943 .
 
 nwbib-spatial:Q857498
