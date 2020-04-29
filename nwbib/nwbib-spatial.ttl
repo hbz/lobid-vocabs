@@ -4868,7 +4868,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-04-17" ;
+        dct:modified                   "2020-04-29" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -25747,7 +25747,7 @@ nwbib-spatial:Q1110953
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7926 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Landkreis Grevenbroich-Neuß (bis 1946)"@de ;
+        skos:prefLabel  "Landkreis Grevenbroich-Neuß (1929 bis 1946)"@de ;
         foaf:focus      wd:Q1110953 .
 
 nwbib-spatial:Q1368836
