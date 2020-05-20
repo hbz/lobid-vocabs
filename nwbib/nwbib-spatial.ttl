@@ -4868,7 +4868,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-05-19" ;
+        dct:modified                   "2020-05-20" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -7975,6 +7975,13 @@ nwbib-spatial:Q2568740
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Wiemeringhausen"@de ;
         foaf:focus      wd:Q2568740 .
+
+nwbib-spatial:Q59138859
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q512233 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Hamborn"@de ;
+        foaf:focus      wd:Q59138859 .
 
 nwbib-spatial:Q1614216
         a               skos:Concept ;
