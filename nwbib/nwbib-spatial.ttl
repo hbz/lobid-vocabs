@@ -2726,6 +2726,13 @@ nwbib-spatial:Q1659080
         skos:prefLabel  "Ilse"@de ;
         foaf:focus      wd:Q1659080 .
 
+nwbib-spatial:Q1382121
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q241761 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Eversen"@de ;
+        foaf:focus      wd:Q1382121 .
+
 nwbib-spatial:Q614447
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10960 ;
@@ -4868,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-06-03" ;
+        dct:modified                   "2020-06-23" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12201,7 +12208,7 @@ nwbib-spatial:Q2166105
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q681425 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ronsdorf-Mitte/Nord"@de ;
+        skos:prefLabel  "Ronsdorf"@de ;
         foaf:focus      wd:Q2166105 .
 
 nwbib-spatial:Q1796601
@@ -19912,6 +19919,13 @@ nwbib-spatial:Q2565372
         skos:prefLabel  "Westhofen"@de ;
         foaf:focus      wd:Q2565372 .
 
+nwbib-spatial:Q1257407
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q14936 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Sinningen"@de ;
+        foaf:focus      wd:Q1257407 .
+
 nwbib-spatial:Q819253
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200059 ;
@@ -25103,7 +25117,7 @@ nwbib-spatial:Q1677185
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2758 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Wickrath (Stadtbezirk)"@de ;
+        skos:prefLabel  "Wickrath"@de ;
         foaf:focus      wd:Q1677185 .
 
 nwbib-spatial:Q2293534
