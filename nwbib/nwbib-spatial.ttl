@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-06-25" ;
+        dct:modified                   "2020-07-06" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -5021,6 +5021,13 @@ nwbib-spatial:Q1344515
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Neukirchen"@de ;
         foaf:focus      wd:Q1344515 .
+
+nwbib-spatial:Q96877974
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3973 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Belmen"@de ;
+        foaf:focus      wd:Q96877974 .
 
 nwbib-spatial:Q1290287
         a               skos:Concept ;
