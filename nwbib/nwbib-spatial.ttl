@@ -3003,7 +3003,7 @@ nwbib-spatial:Q315288
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Arnsberg"@de ;
+        skos:prefLabel  "Grafschaft Arnsberg (bis 1368)"@de ;
         foaf:focus      wd:Q315288 .
 
 nwbib-spatial:Q225432
@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-07-09" ;
+        dct:modified                   "2020-08-10" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -6359,19 +6359,19 @@ nwbib-spatial:Q818831
         skos:prefLabel  "Berchum"@de ;
         foaf:focus      wd:Q818831 .
 
-nwbib-spatial:Q15899917
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q16207454 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Langenhorst"@de ;
-        foaf:focus      wd:Q15899917 .
-
 nwbib-spatial:Q1494183
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q59240473 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Garenfeld"@de ;
         foaf:focus      wd:Q1494183 .
+
+nwbib-spatial:Q15899917
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3840 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Langenhorst"@de ;
+        foaf:focus      wd:Q15899917 .
 
 nwbib-spatial:Q5575  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q5937 ;
@@ -8417,6 +8417,13 @@ nwbib-spatial:Q15122844
         skos:prefLabel  "Niederdrees"@de ;
         foaf:focus      wd:Q15122844 .
 
+nwbib-spatial:Q865895
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3840 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Birth"@de ;
+        foaf:focus      wd:Q865895 .
+
 nwbib-spatial:Q14943  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6210 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
@@ -10093,7 +10100,7 @@ nwbib-spatial:Q59263010
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3167 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk Weidenau"@de ;
+        skos:prefLabel  "Weidenau (Stadtbezirk)"@de ;
         foaf:focus      wd:Q59263010 .
 
 nwbib-spatial:Q1523280
@@ -13018,7 +13025,7 @@ nwbib-spatial:Q1775208
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10887 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kloster Ewig"@de ;
+        skos:prefLabel  "Augustinerchorherrenstift Ewig, Attendorn"@de ;
         foaf:focus      wd:Q1775208 .
 
 nwbib-spatial:Q878973
@@ -18337,6 +18344,13 @@ nwbib-spatial:Q1261080
         skos:prefLabel  "Eilversen"@de ;
         foaf:focus      wd:Q1261080 .
 
+nwbib-spatial:Q64739586
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q300703 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Beverau"@de ;
+        foaf:focus      wd:Q64739586 .
+
 nwbib-spatial:Q915117
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6842 ;
@@ -18756,6 +18770,13 @@ nwbib-spatial:Q1242046
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Donop"@de ;
         foaf:focus      wd:Q1242046 .
+
+nwbib-spatial:Q2128453
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q57006 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Klein-Netterden"@de ;
+        foaf:focus      wd:Q2128453 .
 
 nwbib-spatial:Q1787563
         a               skos:Concept ;
@@ -19265,7 +19286,7 @@ nwbib-spatial:Q1982226
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3840 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Neviges (Stadtbezirk)"@de ;
+        skos:prefLabel  "Neviges"@de ;
         foaf:focus      wd:Q1982226 .
 
 nwbib-spatial:Q3764  a  skos:Concept ;
@@ -22902,7 +22923,7 @@ nwbib-spatial:Q995951
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200105 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Brück (Nideggen)"@de ;
+        skos:prefLabel  "Brück"@de ;
         foaf:focus      wd:Q995951 .
 
 nwbib-spatial:Q1453703
@@ -23231,7 +23252,7 @@ nwbib-spatial:Q1476033
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3840 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Langenberg (Rheinland) (Stadtbezirk)"@de ;
+        skos:prefLabel  "Langenberg (Rheinland)"@de ;
         foaf:focus      wd:Q1476033 .
 
 nwbib-spatial:Q56005590
@@ -23954,7 +23975,7 @@ nwbib-spatial:Q225055
         skos:broader    nwbib-spatial:Q6218 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "05754024" ;
-        skos:prefLabel  "Langenberg (Westfalen)"@de ;
+        skos:prefLabel  "Langenberg"@de ;
         foaf:focus      wd:Q225055 .
 
 nwbib-spatial:Q1200380
@@ -29193,7 +29214,7 @@ nwbib-spatial:Q225774
         skos:broader    nwbib-spatial:Q6218 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "05754012" ;
-        skos:prefLabel  "Halle (Westf.)"@de ;
+        skos:prefLabel  "Halle"@de ;
         foaf:focus      wd:Q225774 .
 
 nwbib-spatial:Q50046754
@@ -30103,6 +30124,13 @@ nwbib-spatial:Q2430684
         skos:prefLabel  "Thüle"@de ;
         foaf:focus      wd:Q2430684 .
 
+nwbib-spatial:Q1403427
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q200059 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Huchem-Stammeln"@de ;
+        foaf:focus      wd:Q1403427 .
+
 nwbib-spatial:Q257147
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q54803598 ;
@@ -30404,7 +30432,7 @@ nwbib-spatial:Q2024532
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1295 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk Hörde"@de ;
+        skos:prefLabel  "Hörde (Stadtbezirk)"@de ;
         foaf:focus      wd:Q2024532 .
 
 nwbib-spatial:Q15110163
@@ -30964,13 +30992,6 @@ nwbib-spatial:Q382581
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Soller"@de ;
         foaf:focus      wd:Q382581 .
-
-nwbib-spatial:Q16207454
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q3840 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Velbert-Mitte (Stadtbezirk)"@de ;
-        foaf:focus      wd:Q16207454 .
 
 nwbib-spatial:Q16024  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6246 ;
