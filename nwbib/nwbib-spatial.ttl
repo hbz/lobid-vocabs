@@ -4875,7 +4875,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-08-10" ;
+        dct:modified                   "2020-08-17" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -13020,13 +13020,6 @@ nwbib-spatial:Q1743618
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Kirspenich"@de ;
         foaf:focus      wd:Q1743618 .
-
-nwbib-spatial:Q1775208
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q10887 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Augustinerchorherrenstift Ewig, Attendorn"@de ;
-        foaf:focus      wd:Q1775208 .
 
 nwbib-spatial:Q878973
         a               skos:Concept ;
@@ -24041,6 +24034,13 @@ nwbib-spatial:Q200105
         skos:notation   "05358044" ;
         skos:prefLabel  "Nideggen"@de ;
         foaf:focus      wd:Q200105 .
+
+nwbib-spatial:Q95350780
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10887 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ewig"@de ;
+        foaf:focus      wd:Q95350780 .
 
 nwbib-spatial:Q1625158
         a               skos:Concept ;
