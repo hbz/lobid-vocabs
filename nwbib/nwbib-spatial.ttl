@@ -3871,6 +3871,13 @@ nwbib-spatial:Q1906190
         skos:prefLabel  "Marxloh"@de ;
         foaf:focus      wd:Q1906190 .
 
+nwbib-spatial:Q2299820
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q255416 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Wey"@de ;
+        foaf:focus      wd:Q2299820 .
+
 nwbib-spatial:Q47012203
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q449632 ;
@@ -4875,7 +4882,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-09-30" ;
+        dct:modified                   "2020-10-14" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -18631,6 +18638,13 @@ nwbib-spatial:Q1281184
         skos:prefLabel  "Echthausen"@de ;
         foaf:focus      wd:Q1281184 .
 
+nwbib-spatial:Q2232281
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11047 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Scheel"@de ;
+        foaf:focus      wd:Q2232281 .
+
 nwbib-spatial:Q1739823
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q4074 ;
@@ -19750,6 +19764,13 @@ nwbib-spatial:Q1742484
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Tüddern"@de ;
         foaf:focus      wd:Q1742484 .
+
+nwbib-spatial:Q731895
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q53911 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Häver"@de ;
+        foaf:focus      wd:Q731895 .
 
 nwbib-spatial:Q1670041
         a               skos:Concept ;
