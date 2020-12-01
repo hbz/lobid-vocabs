@@ -4882,7 +4882,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2020-10-14" ;
+        dct:modified                   "2020-12-01" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -23000,7 +23000,7 @@ nwbib-spatial:Q326089
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2942 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Gräfrath (Stadtbezirk)"@de ;
+        skos:prefLabel  "Gräfrath"@de ;
         foaf:focus      wd:Q326089 .
 
 nwbib-spatial:Q14400001
@@ -23203,7 +23203,7 @@ nwbib-spatial:Q15815893
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q14878 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Obschwarzbach"@de ;
+        skos:prefLabel  "Honschaft Obschwarzbach"@de ;
         foaf:focus      wd:Q15815893 .
 
 nwbib-spatial:Q1790957
