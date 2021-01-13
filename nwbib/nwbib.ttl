@@ -704,7 +704,7 @@
     skos:broader <http://purl.org/lobid/nwbib#s142500> ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "142560" ;
-    skos:prefLabel "Klimäanderungen"@de .
+    skos:prefLabel "Klimaänderungen"@de .
 
 <http://purl.org/lobid/nwbib#s142570>
     a skos:Concept ;
@@ -718,7 +718,7 @@
     skos:broader <http://purl.org/lobid/nwbib#s140000> ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "146000" ;
-    skos:prefLabel "Geöokologie"@de .
+    skos:prefLabel "Geoökologie"@de .
 
 <http://purl.org/lobid/nwbib#s160000>
     a skos:Concept ;
