@@ -2646,7 +2646,7 @@
     a skos:Concept ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:broader :s5 ;
-    skos:narrower :s520100, :s521000, :s521200, :s521400, :s522000, :s523000 ;
+    skos:narrower :s520100, :s521000, :s521200, :s521400, :s522000, :s523000, :s52400 ;
     skos:notation "520000" ;
     skos:prefLabel "Sozialwesen"@de .
 
@@ -2740,7 +2740,7 @@
     a skos:Concept ;
     skos:broader :s520000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
-    skos:narrower :s523001, :s524000 ;
+    skos:narrower :s523001, :s523010, :s523020, :s523030, :s523040, :s523050, :s523060, :s523070, :s523080, :s523090 ;
     skos:notation "523000" ;
     skos:prefLabel "Sozialhilfe (Fürsorge)"@de .
 
@@ -2748,27 +2748,26 @@
     a skos:Concept ;
     skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
-    skos:narrower :s523010, :s523020, :s523030, :s523040, :s523050, :s523060, :s523070, :s523080, :s523090 ;
     skos:notation "523001" ;
     skos:prefLabel "Sozialarbeit"@de .
 
 :s523010
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523010" ;
     skos:prefLabel "Arbeitslosenhilfe"@de .
 
 :s523020
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523020" ;
     skos:prefLabel "Gefangenenfürsorge"@de .
 
 :s523030
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:narrower :s523035 ;
     skos:notation "523030" ;
@@ -2783,49 +2782,49 @@
 
 :s523040
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523040" ;
     skos:prefLabel "Unfallfürsorge"@de .
 
 :s523050
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523050" ;
     skos:prefLabel "Krankenfürsorge"@de .
 
 :s523060
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523060" ;
     skos:prefLabel "Behindertenhilfe"@de .
 
 :s523070
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523070" ;
     skos:prefLabel "Kriegsopferfürsorge"@de .
 
 :s523080
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523080" ;
     skos:prefLabel "Waisenfürsorge"@de .
 
 :s523090
     a skos:Concept ;
-    skos:broader :s523001 ;
+    skos:broader :s523000 ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:notation "523090" ;
     skos:prefLabel "Altenhilfe"@de .
 
 :s524000
     a skos:Concept ;
-    skos:broader :s523000 ;
+    skos:broader :s520000 ; ;
     skos:inScheme <http://purl.org/lobid/nwbib> ;
     skos:narrower :s524010, :s524030, :s524050, :s524060, :s524070 ;
     skos:notation "524000" ;
