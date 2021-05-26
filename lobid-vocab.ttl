@@ -335,8 +335,8 @@ lv:almaIdMMS
    rdfs:label "Alma MMS ID"@de ;
    rdfs:label "Alma MMS ID"@en ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Der Identifier, der einer bibliographischen Ressource in Alma zugewiesen wurde."@de ;
-   rdfs:comment "The identifier that is assigned to a bibliographic resource in the Alma catalogue."@en ;
+   rdfs:comment "Die Datensatz-ID im Alma Metadata Management System (MMS). Die MMS ID kann 8 bis 19 Stellen land sein (wobei die ersten beiden Stellen den Datensatztyp angeben und die letzten vier Stellen auf den Identifikator für die Institution bezug nehmen.)"@de ;
+   rdfs:comment "The record ID number in the Alma Metadata Management System (MMS). The MMS ID can be 8 to 19 digits long (with the first two digits referring to the record type and the last four digits referring to a unique identifier for the institution)."@en ;
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
