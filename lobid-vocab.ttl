@@ -328,9 +328,9 @@ lv:hbzID
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
-# <http://purl.org/lobid/lv#almaIdMMS>
+# <http://purl.org/lobid/lv#almaMmsId>
 
-lv:almaIdMMS
+lv:almaMmsId
    rdf:type owl:DatatypeProperty ;
    rdfs:label "Alma MMS ID"@de ;
    rdfs:label "Alma MMS ID"@en ;
