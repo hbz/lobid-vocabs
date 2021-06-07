@@ -186,7 +186,7 @@ lv:ags
    rdfs:seeAlso <http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel> , <http://en.wikipedia.org/wiki/Community_Identification_Number#Germany> ;
    rdfs:range xsd:positiveInteger .
 
- # <http://purl.org/lobid/lv#callNumber>
+# <http://purl.org/lobid/lv#callNumber>
 
 lv:callNumber
     a owl:DatatypeProperty ;
@@ -194,6 +194,18 @@ lv:callNumber
     rdfs:domain bf:Item;
     rdfs:label "call number"@en ;
     rdfs:label "Signatur"@de ;
+    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf dct:identifier .
+
+# <http://purl.org/lobid/lv#currentLocation>
+
+lv:currentLocation
+    a owl:DatatypeProperty ;
+    rdfs:comment "The location of an item"@en ;
+    rdfs:domain bf:Item;
+    rdfs:label "current location"@en ;
+    rdfs:label "Standort"@de ;
     rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf dct:identifier .
@@ -315,6 +327,20 @@ lv:hbzID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#almaMmsId>
+
+lv:almaMmsId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Alma MMS ID"@de ;
+   rdfs:label "Alma MMS ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Die Datensatz-ID im Alma Metadata Management System (MMS). Die MMS ID kann 8 bis 19 Stellen land sein (wobei die ersten beiden Stellen den Datensatztyp angeben und die letzten vier Stellen auf den Identifikator für die Institution bezug nehmen.)"@de ;
+   rdfs:comment "The record ID number in the Alma Metadata Management System (MMS). The MMS ID can be 8 to 19 digits long (with the first two digits referring to the record type and the last four digits referring to a unique identifier for the institution)."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
 
 # <http://purl.org/lobid/lv#inCollection>
 
