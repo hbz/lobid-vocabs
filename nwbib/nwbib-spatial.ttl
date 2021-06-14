@@ -25663,7 +25663,7 @@ nwbib-spatial:Q323826
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 7"@de ;
+        skos:prefLabel  "Stadtbezirk 7 (Düsseldorf)"@de ;
         foaf:focus      wd:Q323826 .
 
 nwbib-spatial:Q437554
