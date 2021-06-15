@@ -2262,6 +2262,13 @@ nwbib-spatial:Q57726512
         skos:prefLabel  "Cronenberg"@de ;
         foaf:focus      wd:Q57726512 .
 
+nwbib-spatial:Q105745680
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q243079 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Vornick"@de ;
+        foaf:focus      wd:Q105745680 .
+
 nwbib-spatial:Q1734761
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q11114 ;
@@ -4882,7 +4889,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2021-01-19" ;
+        dct:modified                   "2021-06-14" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -5075,7 +5082,7 @@ nwbib-spatial:Q2132375
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200105 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Rath (Nideggen)"@de ;
+        skos:prefLabel  "Rath"@de ;
         foaf:focus      wd:Q2132375 .
 
 nwbib-spatial:Q1870653
@@ -5189,6 +5196,13 @@ nwbib-spatial:N33  a    skos:Concept ;
         skos:notation   "33" ;
         skos:prefLabel  "Evangelische Kirche von Westfalen"@de ;
         foaf:focus      wd:Q1381014 .
+
+nwbib-spatial:Q1625196
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2805 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Holterhöfe"@de ;
+        foaf:focus      wd:Q1625196 .
 
 nwbib-spatial:Q1721358
         a               skos:Concept ;
@@ -11860,7 +11874,7 @@ nwbib-spatial:Q2310026
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200076 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Spiel (Titz)"@de ;
+        skos:prefLabel  "Spiel"@de ;
         foaf:focus      wd:Q2310026 .
 
 nwbib-spatial:Q16054325
@@ -12468,7 +12482,7 @@ nwbib-spatial:Q820266
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q199974 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bergstein (Hürtgenwald)"@de ;
+        skos:prefLabel  "Bergstein"@de ;
         foaf:focus      wd:Q820266 .
 
 nwbib-spatial:Q1760219
@@ -24660,6 +24674,13 @@ nwbib-spatial:Q1838195
         skos:prefLabel  "Alfen"@de ;
         foaf:focus      wd:Q1838195 .
 
+nwbib-spatial:Q39695707
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q245466 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Amtmannscherf"@de ;
+        foaf:focus      wd:Q39695707 .
+
 nwbib-spatial:Q1345672
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200894 ;
@@ -29242,7 +29263,7 @@ nwbib-spatial:Q225774
         skos:broader    nwbib-spatial:Q6218 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "05754012" ;
-        skos:prefLabel  "Halle"@de ;
+        skos:prefLabel  "Halle (Westf.)"@de ;
         foaf:focus      wd:Q225774 .
 
 nwbib-spatial:Q50046754
