@@ -3829,6 +3829,13 @@ nwbib-spatial:Q1951765
         skos:prefLabel  "Muffendorf"@de ;
         foaf:focus      wd:Q1951765 .
 
+nwbib-spatial:Q47446722
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q182805 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Husen"@de ;
+        foaf:focus      wd:Q47446722 .
+
 nwbib-spatial:Q1367173
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q14833 ;
@@ -4889,7 +4896,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2021-06-14" ;
+        dct:modified                   "2021-06-18" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -10700,6 +10707,13 @@ nwbib-spatial:Q470160
         skos:prefLabel  "Amern"@de ;
         foaf:focus      wd:Q470160 .
 
+nwbib-spatial:Q1946283
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q204683 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Obspringen"@de ;
+        foaf:focus      wd:Q1946283 .
+
 nwbib-spatial:Q1411667
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q241450 ;
@@ -16346,7 +16360,7 @@ nwbib-spatial:Q1593198
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q5645 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Heddinghausen (Marsberg)"@de ;
+        skos:prefLabel  "Heddinghausen"@de ;
         foaf:focus      wd:Q1593198 .
 
 nwbib-spatial:Q2382291
