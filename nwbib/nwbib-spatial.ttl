@@ -4896,7 +4896,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2021-06-18" ;
+        dct:modified                   "2021-07-07" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -13069,6 +13069,13 @@ nwbib-spatial:Q878973
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Henglarn"@de ;
         foaf:focus      wd:Q878973 .
+
+nwbib-spatial:Q40719211
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10890 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Berlinghausen"@de ;
+        foaf:focus      wd:Q40719211 .
 
 nwbib-spatial:Q1553033
         a               skos:Concept ;
