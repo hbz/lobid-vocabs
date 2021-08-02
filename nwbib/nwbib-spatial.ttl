@@ -4896,7 +4896,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2021-07-08" ;
+        dct:modified                   "2021-08-02" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -8930,7 +8930,7 @@ nwbib-spatial:Q1980790
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q240039 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Neukirchen (Weilerswist)"@de ;
+        skos:prefLabel  "Neukirchen"@de ;
         foaf:focus      wd:Q1980790 .
 
 nwbib-spatial:Q2015224
@@ -10973,19 +10973,19 @@ nwbib-spatial:Q10906  a  skos:Concept ;
         skos:prefLabel  "Kirchhundem"@de ;
         foaf:focus      wd:Q10906 .
 
-nwbib-spatial:Q1624184
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q11114 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hoinkhausen"@de ;
-        foaf:focus      wd:Q1624184 .
-
 nwbib-spatial:Q27994630
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2871 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Stadtbezirk Haspe"@de ;
         foaf:focus      wd:Q27994630 .
+
+nwbib-spatial:Q1624184
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11114 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Hoinkhausen"@de ;
+        foaf:focus      wd:Q1624184 .
 
 nwbib-spatial:Q2380832
         a               skos:Concept ;
@@ -17355,6 +17355,13 @@ nwbib-spatial:Q161729
         skos:prefLabel  "Wülfrath"@de ;
         foaf:focus      wd:Q161729 .
 
+nwbib-spatial:Q1557059
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q241450 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Gut Unterdickt"@de ;
+        foaf:focus      wd:Q1557059 .
+
 nwbib-spatial:Q153197
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q4068 ;
@@ -21452,7 +21459,7 @@ nwbib-spatial:Q1301824
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q241450 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Eicherscheid (Bad Münstereifel)"@de ;
+        skos:prefLabel  "Eicherscheid"@de ;
         foaf:focus      wd:Q1301824 .
 
 nwbib-spatial:Q14833  a  skos:Concept ;
