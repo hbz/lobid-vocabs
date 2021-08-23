@@ -400,8 +400,21 @@
 <http://purl.org/lobid/rpb#n142320>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n142300> ;
+    skos:narrower <http://purl.org/lobid/rpb#n142323>, <http://purl.org/lobid/rpb#n142325> ;
     skos:notation "rpb142320" ;
     skos:prefLabel "Fließgewässer"@de .
+
+<http://purl.org/lobid/rpb#n142323>
+    a skos:Concept ;
+    skos:broader <http://purl.org/lobid/rpb#n142320> ;
+    skos:notation "rpb142323" ;
+    skos:prefLabel "Hochwasser"@de .
+
+<http://purl.org/lobid/rpb#n142325>
+    a skos:Concept ;
+    skos:broader <http://purl.org/lobid/rpb#n142320> ;
+    skos:notation "rpb142325" ;
+    skos:prefLabel "Niedrigwasser"@de .
 
 <http://purl.org/lobid/rpb#n142330>
     a skos:Concept ;
