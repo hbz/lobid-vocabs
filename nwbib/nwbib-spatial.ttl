@@ -4896,7 +4896,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2021-08-02" ;
+        dct:modified                   "2021-12-01" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12318,6 +12318,13 @@ nwbib-spatial:Q164458
         skos:prefLabel  "Mechernich"@de ;
         foaf:focus      wd:Q164458 .
 
+nwbib-spatial:Q1531431
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q200122 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Glimbach"@de ;
+        foaf:focus      wd:Q1531431 .
+
 nwbib-spatial:Q1221477
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2834 ;
@@ -12325,12 +12332,12 @@ nwbib-spatial:Q1221477
         skos:prefLabel  "Diestedde"@de ;
         foaf:focus      wd:Q1221477 .
 
-nwbib-spatial:Q1531431
+nwbib-spatial:Q29878899
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q200122 ;
+        skos:broader    nwbib-spatial:Q245542 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Glimbach"@de ;
-        foaf:focus      wd:Q1531431 .
+        skos:prefLabel  "Durhaus"@de ;
+        foaf:focus      wd:Q29878899 .
 
 nwbib-spatial:Q28037590
         a               skos:Concept ;
@@ -14993,6 +15000,13 @@ nwbib-spatial:Q200190
         skos:notation   "05554052" ;
         skos:prefLabel  "Schöppingen"@de ;
         foaf:focus      wd:Q200190 .
+
+nwbib-spatial:Q109703178
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10890 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Gipperich"@de ;
+        foaf:focus      wd:Q109703178 .
 
 nwbib-spatial:Q688115
         a               skos:Concept ;
@@ -19120,6 +19134,13 @@ nwbib-spatial:Q2361112
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Stürzelberg"@de ;
         foaf:focus      wd:Q2361112 .
+
+nwbib-spatial:Q29514553
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q245542 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Unterbörsch"@de ;
+        foaf:focus      wd:Q29514553 .
 
 nwbib-spatial:Q11293  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q11280 ;
@@ -24737,6 +24758,13 @@ nwbib-spatial:Q27973169
         skos:prefLabel  "Stadtbezirk Bochum-Nord"@de ;
         foaf:focus      wd:Q27973169 .
 
+nwbib-spatial:Q1988468
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q59259446 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Niedersetzen"@de ;
+        foaf:focus      wd:Q1988468 .
+
 nwbib-spatial:Q6228  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q7923 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
@@ -30343,6 +30371,13 @@ nwbib-spatial:Q1803000
         skos:prefLabel  "Landhausen"@de ;
         foaf:focus      wd:Q1803000 .
 
+nwbib-spatial:Q19295196
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3097 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Lüdorf"@de ;
+        foaf:focus      wd:Q19295196 .
+
 nwbib-spatial:Q1245781
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q57006 ;
@@ -30371,12 +30406,12 @@ nwbib-spatial:Q61726089
         skos:prefLabel  "Waat"@de ;
         foaf:focus      wd:Q61726089 .
 
-nwbib-spatial:Q19295196
+nwbib-spatial:Q26836855
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q3097 ;
+        skos:broader    nwbib-spatial:Q245542 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lüdorf"@de ;
-        foaf:focus      wd:Q19295196 .
+        skos:prefLabel  "Bornen"@de ;
+        foaf:focus      wd:Q26836855 .
 
 nwbib-spatial:Q2362997
         a               skos:Concept ;
