@@ -10244,6 +10244,13 @@ nwbib-spatial:Q1601677
         skos:prefLabel  "Helberhausen"@de ;
         foaf:focus      wd:Q1601677 .
 
+nwbib-spatial:Q15059086
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q12547 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Queckenberg"@de ;
+        foaf:focus      wd:Q15059086 .
+
 nwbib-spatial:Q2233764
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q204966 ;
