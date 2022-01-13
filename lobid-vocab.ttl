@@ -11,6 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # About lobid vocab
@@ -22,7 +23,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2018-09-04"^^xsd:date ;
+   dct:modified "2022-01-13"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -431,7 +432,8 @@ lv:nwbibsubject
    rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's subject classification (http://purl.org/lobid/nwbib)."@en ;
    rdfs:subPropertyOf dct:subject ;
    rdfs:domain dct:BibliographicResource ;
-   rdfs:range skos:Concept .
+   rdfs:range skos:Concept ;
+   vs:status "deprecated" .
 
 # <http://purl.org/lobid/lv#nwbibspatial>
 
@@ -444,7 +446,8 @@ lv:nwbibspatial
    rdfs:comment "Links a resource in the Northrhine-Westphalian Bibliography (NWBib) to a concept in NWBib's spatial classification (http://purl.org/lobid/nwbib-spatial)."@en ;
    rdfs:subPropertyOf dct:subject ;
    rdfs:domain dct:BibliographicResource ;
-   rdfs:range skos:Concept .
+   rdfs:range skos:Concept ;
+   vs:status "deprecated" .
 
 # <http://purl.org/lobid/lv#rpbSubject>
 
@@ -457,7 +460,8 @@ lv:rpbSubject
    rdfs:comment "Links a resource in the Bibliography of Rhineland-Palatinate (RPB) to a concept in one of RPB's subject classification: http://purl.org/lobid/rpb and https://w3id.org/lobid/rpb2."@en ;
    rdfs:subPropertyOf dct:subject ;
    rdfs:domain dct:BibliographicResource ;
-   rdfs:range skos:Concept .
+   rdfs:range skos:Concept ;
+   vs:status "deprecated" .
 
 # <http://purl.org/lobid/lv#numbering>
 
@@ -516,7 +520,8 @@ lv:subjectChain
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A pipe-separated list of subject terms, optionally followed by a comma-seperated list of permutations (in parentheses)."@en ;
    rdfs:domain dct:BibliographicResource ;
-   rdfs:range rdfs:Literal .
+   rdfs:range rdfs:Literal ;
+   vs:status "deprecated" .
 
 
 # <http://purl.org/lobid/lv#subjectAltLabel>
