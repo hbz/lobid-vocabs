@@ -2,18 +2,18 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix : <http://purl.org/lobid/nwbib#> .
+@prefix : <https://nwbib.de/subjects#> .
 
-<http://purl.org/lobid/nwbib>
+<https://nwbib.de/subjects>
     a skos:ConceptScheme ;
     vann:preferredNamespacePrefix "nwbib" ;
     dct:title "Sachsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Classification scheme of the North Rhine-Westphalian bibliography"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "This classification was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
     dct:issued "2014-01-28" ;
-    dct:modified "2017-10-09" ;
-    dct:publisher <http://lobid.org/organisation/DE-605> ;
-    vann:preferredNamespaceUri "http://purl.org/lobid/nwbib#" ;
+    dct:modified "2022-01-13" ;
+    dct:publisher <http://lobid.org/organisations/DE-605> ;
+    vann:preferredNamespaceUri "https://nwbib.de/subjects#" ;
     skos:hasTopConcept :s1, :s2, :s4, :s5, :s6, :s7, :s8 .
 
 :s1
