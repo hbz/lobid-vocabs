@@ -25934,6 +25934,13 @@ nwbib-spatial:Q204919
         skos:prefLabel  "Wassenberg"@de ;
         foaf:focus      wd:Q204919 .
 
+nwbib-spatial:Q2356192
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q6961 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Striefen"@de ;
+        foaf:focus      wd:Q2356192 .
+
 nwbib-spatial:Q16830359
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3886 ;
