@@ -4896,7 +4896,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-01-13" ;
+        dct:modified                   "2022-02-24" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -7089,6 +7089,13 @@ nwbib-spatial:Q25391997
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Holsterhausen"@de ;
         foaf:focus      wd:Q25391997 .
+
+nwbib-spatial:Q50388833
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q254171 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ohlig"@de ;
+        foaf:focus      wd:Q50388833 .
 
 nwbib-spatial:Q1679505
         a               skos:Concept ;
@@ -28571,6 +28578,13 @@ nwbib-spatial:Q1257549
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Dreierwalde"@de ;
         foaf:focus      wd:Q1257549 .
+
+nwbib-spatial:Q19687919
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q245495 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Junkersholz"@de ;
+        foaf:focus      wd:Q19687919 .
 
 nwbib-spatial:Q894249
         a               skos:Concept ;
