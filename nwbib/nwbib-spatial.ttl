@@ -4903,7 +4903,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-03-24" ;
+        dct:modified                   "2022-03-31" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -30843,6 +30843,13 @@ nwbib-spatial:Q254649
         skos:notation   "05382016" ;
         skos:prefLabel  "Eitorf"@de ;
         foaf:focus      wd:Q254649 .
+
+nwbib-spatial:Q1017276
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3973 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Busch"@de ;
+        foaf:focus      wd:Q1017276 .
 
 nwbib-spatial:Q1464434
         a               skos:Concept ;
