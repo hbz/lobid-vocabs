@@ -4903,7 +4903,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-03-31" ;
+        dct:modified                   "2022-04-07" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12246,19 +12246,19 @@ nwbib-spatial:Q1258922
         skos:prefLabel  "Driesch"@de ;
         foaf:focus      wd:Q1258922 .
 
-nwbib-spatial:Q1626841
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q10893 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Saalhausen"@de ;
-        foaf:focus      wd:Q1626841 .
-
 nwbib-spatial:Q43161685
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200640 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Tungerloh-Pröbsting"@de ;
         foaf:focus      wd:Q43161685 .
+
+nwbib-spatial:Q1626841
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10893 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Saalhausen"@de ;
+        foaf:focus      wd:Q1626841 .
 
 nwbib-spatial:Q2245352
         a               skos:Concept ;
@@ -14041,6 +14041,13 @@ nwbib-spatial:Q55499395
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Oege"@de ;
         foaf:focus      wd:Q55499395 .
+
+nwbib-spatial:Q1417419
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q182938 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Hedem"@de ;
+        foaf:focus      wd:Q1417419 .
 
 nwbib-spatial:Q10976  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6298 ;
@@ -16025,6 +16032,13 @@ nwbib-spatial:Q1504397
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Manrode"@de ;
         foaf:focus      wd:Q1504397 .
+
+nwbib-spatial:Q65182530
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q243474 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Groin"@de ;
+        foaf:focus      wd:Q65182530 .
 
 nwbib-spatial:Q153908
         a               skos:Concept ;
