@@ -4903,7 +4903,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-04-07" ;
+        dct:modified                   "2022-04-21" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -22721,6 +22721,13 @@ nwbib-spatial:Q11136  a  skos:Concept ;
         skos:notation   "05974024" ;
         skos:prefLabel  "Lippetal"@de ;
         foaf:focus      wd:Q11136 .
+
+nwbib-spatial:Q1880210
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q6961 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Lückert"@de ;
+        foaf:focus      wd:Q1880210 .
 
 nwbib-spatial:Q1258126
         a               skos:Concept ;
