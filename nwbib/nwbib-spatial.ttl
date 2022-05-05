@@ -249,6 +249,13 @@ nwbib-spatial:Q762492
         skos:prefLabel  "Zündorf"@de ;
         foaf:focus      wd:Q762492 .
 
+nwbib-spatial:Q111827768
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q204860 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dorp"@de ;
+        foaf:focus      wd:Q111827768 .
+
 nwbib-spatial:Q1546896
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q5628 ;
@@ -4903,7 +4910,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-04-21" ;
+        dct:modified                   "2022-05-05" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -10264,6 +10271,13 @@ nwbib-spatial:Q15059086
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Queckenberg"@de ;
         foaf:focus      wd:Q15059086 .
+
+nwbib-spatial:Q15056742
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q205050 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Honsdorf"@de ;
+        foaf:focus      wd:Q15056742 .
 
 nwbib-spatial:Q2233764
         a               skos:Concept ;
