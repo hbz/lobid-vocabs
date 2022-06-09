@@ -4910,7 +4910,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-05-05" ;
+        dct:modified                   "2022-06-09" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -7680,6 +7680,13 @@ nwbib-spatial:Q242757
         skos:notation   "05766056" ;
         skos:prefLabel  "Oerlinghausen"@de ;
         foaf:focus      wd:Q242757 .
+
+nwbib-spatial:Q32945246
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10887 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Wamge"@de ;
+        foaf:focus      wd:Q32945246 .
 
 nwbib-spatial:Q2125576
         a               skos:Concept ;
@@ -17951,6 +17958,13 @@ nwbib-spatial:Q1879111
         skos:prefLabel  "Lämershagen-Gräfinghagen"@de ;
         foaf:focus      wd:Q1879111 .
 
+nwbib-spatial:Q112078933
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q1573609 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Lohauserholz"@de ;
+        foaf:focus      wd:Q112078933 .
+
 nwbib-spatial:Q1880510
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2938 ;
@@ -22953,6 +22967,13 @@ nwbib-spatial:Q1959100
         skos:prefLabel  "Häger"@de ;
         foaf:focus      wd:Q1959100 .
 
+nwbib-spatial:Q65945133
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q14895 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Rossenray"@de ;
+        foaf:focus      wd:Q65945133 .
+
 nwbib-spatial:Q163772
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6249 ;
@@ -24920,19 +24941,19 @@ nwbib-spatial:Q12449  a  skos:Concept ;
         skos:prefLabel  "Lohmar"@de ;
         foaf:focus      wd:Q12449 .
 
-nwbib-spatial:Q56398551
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q253765 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Dekanat Werl"@de ;
-        foaf:focus      wd:Q56398551 .
-
 nwbib-spatial:Q43161686
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200640 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Estern"@de ;
         foaf:focus      wd:Q43161686 .
+
+nwbib-spatial:Q56398551
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Werl"@de ;
+        foaf:focus      wd:Q56398551 .
 
 nwbib-spatial:Q47462060
         a               skos:Concept ;
