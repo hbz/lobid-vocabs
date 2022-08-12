@@ -6449,7 +6449,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n846000> ;
     skos:notation "rpb846050" ;
-    skos:prefLabel "Maler"@de .
+    skos:prefLabel "Malerin. Maler"@de .
 
 <http://purl.org/lobid/rpb#n847000>
     a skos:Concept ;
