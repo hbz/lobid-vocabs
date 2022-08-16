@@ -14,28 +14,28 @@
         dct:title                      "Raumsystematik der Rheinland-Pfälzischen Bibliographie"@de , "Spatial classification scheme for the Bibiography of Rhineland-Palatinate"@en ;
         vann:preferredNamespacePrefix  "rpb-spatial" ;
         vann:preferredNamespaceUri     "https://rpb.lobid.org/spatial#" ;
-        skos:hasTopConcept             :n1 , :n2 , :n3, :n4, :n5, :n6 .
+        skos:hasTopConcept             :n01 , :n02 , :n03, :n04, :n05, :n06 .
 
-:n1     a skos:Concept ;
+:n01    a skos:Concept ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rheinland-Pfalz insgesamt. Landesteile"@de .
 
-:n2     a skos:Concept ;
+:n02    a skos:Concept ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Landschaften in Rheinland-Pfalz"@de .
 
-:n3     a skos:Concept ;
+:n03    a skos:Concept ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kirchliche Gebiete in Rheinland-Pfalz"@de .
 
-:n4     a skos:Concept ;
+:n04    a skos:Concept ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Historische Territorien und Gebiete"@de .
 
-:n5     a skos:Concept ;
+:n05    a skos:Concept ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Angrenzende Gebiete und länderübergreifende Regionen"@de .
 
-:n6     a skos:Concept ;
+:n06    a skos:Concept ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile "@de .
