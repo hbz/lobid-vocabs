@@ -1,0 +1,41 @@
+@prefix : <https://rpb.lobid.org/spatial#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+
+<https://rpb.lobid.org/spatial>
+        a                              skos:ConceptScheme ;
+        dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)." ;
+        dct:issued                     "2022-08-26" ;
+        dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dct:publisher                  <http://lobid.org/organisations/DE-605> ;
+        dct:title                      "Raumsystematik der Rheinland-Pfälzischen Bibliographie"@de , "Spatial classification scheme for the Bibiography of Rhineland-Palatinate"@en ;
+        vann:preferredNamespacePrefix  "rpb-spatial" ;
+        vann:preferredNamespaceUri     "https://rpb.lobid.org/spatial#" ;
+        skos:hasTopConcept             :n01 , :n02 , :n03, :n04, :n05, :n06 .
+
+:n01    a skos:Concept ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rheinland-Pfalz insgesamt. Landesteile"@de .
+
+:n02    a skos:Concept ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Landschaften in Rheinland-Pfalz"@de .
+
+:n03    a skos:Concept ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kirchliche Gebiete in Rheinland-Pfalz"@de .
+
+:n04    a skos:Concept ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Historische Territorien und Gebiete"@de .
+
+:n05    a skos:Concept ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Angrenzende Gebiete und länderübergreifende Regionen"@de .
+
+:n06    a skos:Concept ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Einzelne Landkreise, Verbandsgemeinden, Orte und Ortsteile "@de .
