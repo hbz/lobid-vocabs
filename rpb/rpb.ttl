@@ -488,7 +488,7 @@
 <http://purl.org/lobid/rpb#n142500>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n140000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n142520>, <http://purl.org/lobid/rpb#n142530>, <http://purl.org/lobid/rpb#n142540>, <http://purl.org/lobid/rpb#n142550>, <http://purl.org/lobid/rpb#n142560>, <http://purl.org/lobid/rpb#n142570> ;
+    skos:narrower <http://purl.org/lobid/rpb#n142520>, <http://purl.org/lobid/rpb#n142530>, <http://purl.org/lobid/rpb#n142540>, <http://purl.org/lobid/rpb#n142541>, <http://purl.org/lobid/rpb#n142550>, <http://purl.org/lobid/rpb#n142560>, <http://purl.org/lobid/rpb#n142570> ;
     skos:notation "rpb142500" ;
     skos:prefLabel "Klima"@de .
 
@@ -544,13 +544,12 @@
 <http://purl.org/lobid/rpb#n142540>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n142500> ;
-    skos:narrower <http://purl.org/lobid/rpb#n142541> ;
     skos:notation "rpb142540" ;
     skos:prefLabel "Wetterdienst"@de .
 
 <http://purl.org/lobid/rpb#n142541>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n142540> ;
+    skos:broader <http://purl.org/lobid/rpb#n142500> ;
     skos:notation "rpb142541" ;
     skos:prefLabel "Wetterlage"@de .
 
@@ -1298,7 +1297,7 @@
     skos:broader <http://purl.org/lobid/rpb#n240000> ;
     skos:notation "rpb242500" ;
     skos:prefLabel "Hochstift Speyer"@de .
-
+F
 <http://purl.org/lobid/rpb#n242600>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n240000> ;
@@ -3867,7 +3866,7 @@
 
 <http://purl.org/lobid/rpb#n560000>
     a skos:Concept ;
-    skos:narrower <http://purl.org/lobid/rpb#n560100>, <http://purl.org/lobid/rpb#n562000>, <http://purl.org/lobid/rpb#n563000>, <http://purl.org/lobid/rpb#n564000>, <http://purl.org/lobid/rpb#n566000> ;
+    skos:narrower <http://purl.org/lobid/rpb#n560100>, <http://purl.org/lobid/rpb#n562000>, <http://purl.org/lobid/rpb#n562300>, <http://purl.org/lobid/rpb#n562600>, <http://purl.org/lobid/rpb#n563000>, <http://purl.org/lobid/rpb#n564000>, <http://purl.org/lobid/rpb#n566000> ;
     skos:notation "rpb560000" ;
     skos:prefLabel "Siedlung"@de .
 
@@ -3880,7 +3879,7 @@
 <http://purl.org/lobid/rpb#n562000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n560000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n562040>, <http://purl.org/lobid/rpb#n562060>, <http://purl.org/lobid/rpb#n562300>, <http://purl.org/lobid/rpb#n562600> ;
+    skos:narrower <http://purl.org/lobid/rpb#n562040>, <http://purl.org/lobid/rpb#n562060> ;
     skos:notation "rpb562000" ;
     skos:prefLabel "Siedlung / Geschichte"@de .
 
@@ -3898,13 +3897,13 @@
 
 <http://purl.org/lobid/rpb#n562300>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n562000> ;
+    skos:broader <http://purl.org/lobid/rpb#n560000> ;
     skos:notation "rpb562300" ;
     skos:prefLabel "Kulturlandschaft"@de .
 
 <http://purl.org/lobid/rpb#n562600>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n562000> ;
+    skos:broader <http://purl.org/lobid/rpb#n560000> ;
     skos:notation "rpb562600" ;
     skos:prefLabel "Siedlungsraum"@de .
 
@@ -4226,7 +4225,7 @@
 <http://purl.org/lobid/rpb#n584000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n580000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n584040>, <http://purl.org/lobid/rpb#n584050>, <http://purl.org/lobid/rpb#n584060>, <http://purl.org/lobid/rpb#n584070>, <http://purl.org/lobid/rpb#n584080>, <http://purl.org/lobid/rpb#n584090> ;
+    skos:narrower <http://purl.org/lobid/rpb#n584040>, <http://purl.org/lobid/rpb#n584050>, <http://purl.org/lobid/rpb#n584060>, <http://purl.org/lobid/rpb#n584070>, <http://purl.org/lobid/rpb#n584075>, <http://purl.org/lobid/rpb#n584080>, <http://purl.org/lobid/rpb#n584090> ;
     skos:notation "rpb584000" ;
     skos:prefLabel "Naturschutz. Landschaftspflege"@de .
 
@@ -4253,6 +4252,12 @@
     skos:broader <http://purl.org/lobid/rpb#n584000> ;
     skos:notation "rpb584070" ;
     skos:prefLabel "Naturschutzgebiet"@de .
+	
+<http://purl.org/lobid/rpb#n584075>
+    a skos:Concept ;
+    skos:broader <http://purl.org/lobid/rpb#n584000> ;
+    skos:notation "rpb584075" ;
+    skos:prefLabel "Nationalpark"@de .
 
 <http://purl.org/lobid/rpb#n584080>
     a skos:Concept ;
@@ -4699,26 +4704,26 @@
     skos:broader <http://purl.org/lobid/rpb#n700000> ;
     skos:narrower <http://purl.org/lobid/rpb#n704020>, <http://purl.org/lobid/rpb#n704040>, <http://purl.org/lobid/rpb#n704060>, <http://purl.org/lobid/rpb#n704080>, <http://purl.org/lobid/rpb#n704090> ;
     skos:notation "rpb704000" ;
-    skos:prefLabel "Brauchtum"@de .
+    skos:prefLabel "Brauch"@de .
 
 <http://purl.org/lobid/rpb#n704020>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704000> ;
     skos:notation "rpb704020" ;
-    skos:prefLabel "Brauchtum / Alltag"@de .
+    skos:prefLabel "Brauch / Alltag"@de .
 
 <http://purl.org/lobid/rpb#n704040>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704000> ;
     skos:narrower <http://purl.org/lobid/rpb#n704042>, <http://purl.org/lobid/rpb#n704043>, <http://purl.org/lobid/rpb#n704044>, <http://purl.org/lobid/rpb#n704045>, <http://purl.org/lobid/rpb#n704046>, <http://purl.org/lobid/rpb#n704047> ;
     skos:notation "rpb704040" ;
-    skos:prefLabel "Brauchtum / Jahreslauf"@de .
+    skos:prefLabel "Brauch / Jahreslauf"@de .
 
 <http://purl.org/lobid/rpb#n704042>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704040> ;
     skos:notation "rpb704042" ;
-    skos:prefLabel "Weihnachten. Neujahr. Winter / Brauchtum"@de .
+    skos:prefLabel "Winter / Brauch. Weihnachten. Neujahr"@de .
 
 <http://purl.org/lobid/rpb#n704043>
     a skos:Concept ;
@@ -4730,13 +4735,13 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704040> ;
     skos:notation "rpb704044" ;
-    skos:prefLabel "Ostern. Frühling / Brauchtum"@de .
+    skos:prefLabel "Frühling / Brauch. Ostern"@de .
 
 <http://purl.org/lobid/rpb#n704045>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704040> ;
     skos:notation "rpb704045" ;
-    skos:prefLabel "Mai / Brauchtum. Pfingsten. Sommer / Brauchtum"@de .
+    skos:prefLabel "Mai / Brauch. Pfingsten. Sommer / Brauch"@de .
 
 <http://purl.org/lobid/rpb#n704046>
     a skos:Concept ;
@@ -4755,7 +4760,7 @@
     skos:broader <http://purl.org/lobid/rpb#n704000> ;
     skos:narrower <http://purl.org/lobid/rpb#n704061>, <http://purl.org/lobid/rpb#n704063>, <http://purl.org/lobid/rpb#n704064> ;
     skos:notation "rpb704060" ;
-    skos:prefLabel "Lebenslauf / Brauchtum"@de .
+    skos:prefLabel "Lebenslauf / Brauch"@de .
 
 <http://purl.org/lobid/rpb#n704061>
     a skos:Concept ;
@@ -4767,26 +4772,26 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704060> ;
     skos:notation "rpb704063" ;
-    skos:prefLabel "Liebe / Brauchtum. Verlobung. Hochzeit"@de .
+    skos:prefLabel "Liebe / Brauch. Verlobung. Hochzeit"@de .
 
 <http://purl.org/lobid/rpb#n704064>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704060> ;
     skos:notation "rpb704064" ;
-    skos:prefLabel "Tod / Brauchtum. Bestattung"@de .
+    skos:prefLabel "Tod / Brauch. Bestattung"@de .
 
 <http://purl.org/lobid/rpb#n704080>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704000> ;
     skos:narrower <http://purl.org/lobid/rpb#n704082> ;
     skos:notation "rpb704080" ;
-    skos:prefLabel "Beruf / Brauchtum"@de .
+    skos:prefLabel "Beruf / Brauch"@de .
 
 <http://purl.org/lobid/rpb#n704082>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n704080> ;
     skos:notation "rpb704082" ;
-    skos:prefLabel "Handwerk / Brauchtum"@de .
+    skos:prefLabel "Handwerk / Brauch"@de .
 
 <http://purl.org/lobid/rpb#n704090>
     a skos:Concept ;
@@ -4959,7 +4964,7 @@
 <http://purl.org/lobid/rpb#n708000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n700000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n708020>, <http://purl.org/lobid/rpb#n708030>, <http://purl.org/lobid/rpb#n708040>, <http://purl.org/lobid/rpb#n708050>, <http://purl.org/lobid/rpb#n708060>, <http://purl.org/lobid/rpb#n708200>, <http://purl.org/lobid/rpb#n708290> ;
+    skos:narrower <http://purl.org/lobid/rpb#n708020>, <http://purl.org/lobid/rpb#n708030>, <http://purl.org/lobid/rpb#n708040>, <http://purl.org/lobid/rpb#n708050>, <http://purl.org/lobid/rpb#n708060>, <http://purl.org/lobid/rpb#n708200> ;
     skos:notation "rpb708000" ;
     skos:prefLabel "Sachkulturforschung"@de .
 
@@ -5021,7 +5026,7 @@
 <http://purl.org/lobid/rpb#n708200>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n708000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n708220>, <http://purl.org/lobid/rpb#n708230>, <http://purl.org/lobid/rpb#n708250>, <http://purl.org/lobid/rpb#n708260>, <http://purl.org/lobid/rpb#n708270>, <http://purl.org/lobid/rpb#n708280> ;
+    skos:narrower <http://purl.org/lobid/rpb#n708220>, <http://purl.org/lobid/rpb#n708230>, <http://purl.org/lobid/rpb#n708250>, <http://purl.org/lobid/rpb#n708260>, <http://purl.org/lobid/rpb#n708270>, <http://purl.org/lobid/rpb#n708280>, <http://purl.org/lobid/rpb#n708290> ;
     skos:notation "rpb708200" ;
     skos:prefLabel "Volkskunst"@de .
 
@@ -5063,7 +5068,7 @@
 
 <http://purl.org/lobid/rpb#n708290>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n708000> ;
+    skos:broader <http://purl.org/lobid/rpb#n708200> ;
     skos:notation "rpb708290" ;
     skos:prefLabel "Textilien"@de .
 
@@ -5651,7 +5656,7 @@
 <http://purl.org/lobid/rpb#n784000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n780000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n784010>, <http://purl.org/lobid/rpb#n784016>, <http://purl.org/lobid/rpb#n784020>, <http://purl.org/lobid/rpb#n784030>, <http://purl.org/lobid/rpb#n784033>, <http://purl.org/lobid/rpb#n784040>, <http://purl.org/lobid/rpb#n784041>, <http://purl.org/lobid/rpb#n784042>, <http://purl.org/lobid/rpb#n784043>, <http://purl.org/lobid/rpb#n784044>, <http://purl.org/lobid/rpb#n784045>, <http://purl.org/lobid/rpb#n784046>, <http://purl.org/lobid/rpb#n784047>, <http://purl.org/lobid/rpb#n784048>, <http://purl.org/lobid/rpb#n784049>, <http://purl.org/lobid/rpb#n784050>, <http://purl.org/lobid/rpb#n784060>, <http://purl.org/lobid/rpb#n784070>, <http://purl.org/lobid/rpb#n784080>, <http://purl.org/lobid/rpb#n784090> ;
+    skos:narrower <http://purl.org/lobid/rpb#n784010>, <http://purl.org/lobid/rpb#n784016>, <http://purl.org/lobid/rpb#n784020>, http://purl.org/lobid/rpb#n784025>, <http://purl.org/lobid/rpb#n784030>, <http://purl.org/lobid/rpb#n784035>, <http://purl.org/lobid/rpb#n784040>, <http://purl.org/lobid/rpb#n784041>, <http://purl.org/lobid/rpb#n784042>, <http://purl.org/lobid/rpb#n784043>, <http://purl.org/lobid/rpb#n784033>, <http://purl.org/lobid/rpb#n784044>, <http://purl.org/lobid/rpb#n784045>, <http://purl.org/lobid/rpb#n784046>, <http://purl.org/lobid/rpb#n784047>, <http://purl.org/lobid/rpb#n784048>, <http://purl.org/lobid/rpb#n784049>, <http://purl.org/lobid/rpb#n784050>, <http://purl.org/lobid/rpb#n784060>, <http://purl.org/lobid/rpb#n784070>, <http://purl.org/lobid/rpb#n784080>, <http://purl.org/lobid/rpb#n784090> ;
     skos:notation "rpb784000" ;
     skos:prefLabel "Allgemein bildende Schule"@de .
 
@@ -5683,13 +5688,12 @@
 <http://purl.org/lobid/rpb#n784020>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n784000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n784025> ;
     skos:notation "rpb784020" ;
     skos:prefLabel "Schulrecht"@de .
 
 <http://purl.org/lobid/rpb#n784025>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n784020> ;
+    skos:broader <http://purl.org/lobid/rpb#n784000> ;
     skos:notation "rpb784025" ;
     skos:prefLabel "Elternarbeit"@de .
 
@@ -5699,16 +5703,9 @@
     skos:notation "rpb784030" ;
     skos:prefLabel "Schulverwaltung"@de .
 
-<http://purl.org/lobid/rpb#n784033>
-    a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n784000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n784035> ;
-    skos:notation "rpb784033" ;
-    skos:prefLabel "Realschule plus"@de .
-
 <http://purl.org/lobid/rpb#n784035>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n784033> ;
+    skos:broader <http://purl.org/lobid/rpb#n784000> ;
     skos:notation "rpb784035" ;
     skos:prefLabel "Schulbau"@de .
 
@@ -5735,6 +5732,12 @@
     skos:broader <http://purl.org/lobid/rpb#n784000> ;
     skos:notation "rpb784043" ;
     skos:prefLabel "Realschule"@de .
+
+<http://purl.org/lobid/rpb#n784033>
+    a skos:Concept ;
+    skos:broader <http://purl.org/lobid/rpb#n784000> ;
+    skos:notation "rpb784033" ;
+    skos:prefLabel "Realschule Plus"@de .
 
 <http://purl.org/lobid/rpb#n784044>
     a skos:Concept ;
@@ -5961,7 +5964,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n794000> ;
     skos:notation "rpb794010" ;
-    skos:prefLabel "Einzelne Hochschulen"@de .
+    skos:prefLabel "Einzelne Hochschule"@de .
 
 <http://purl.org/lobid/rpb#n796000>
     a skos:Concept ;
