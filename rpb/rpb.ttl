@@ -30,7 +30,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n100000> ;
     skos:notation "rpb101000" ;
-    skos:prefLabel "Bibliographie"@de .
+    skos:prefLabel "Bibliografie"@de .
 
 <http://purl.org/lobid/rpb#n102000>
     a skos:Concept ;
@@ -91,26 +91,26 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n100000> ;
     skos:notation "rpb109000" ;
-    skos:prefLabel "Biographie"@de .
+    skos:prefLabel "Biografie"@de .
 
 <http://purl.org/lobid/rpb#n120000>
     a skos:Concept ;
     skos:narrower <http://purl.org/lobid/rpb#n120100>, <http://purl.org/lobid/rpb#n122000>, <http://purl.org/lobid/rpb#n124000>, <http://purl.org/lobid/rpb#n126000> ;
     skos:notation "rpb120000" ;
-    skos:prefLabel "Kartographie. Geodäsie"@de .
+    skos:prefLabel "Kartografie. Geodäsie"@de .
 
 <http://purl.org/lobid/rpb#n120100>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n120000> ;
     skos:notation "rpb120100" ;
-    skos:prefLabel "Kartographie. Geodäsie allgemein"@de .
+    skos:prefLabel "Kartografie. Geodäsie allgemein"@de .
 
 <http://purl.org/lobid/rpb#n122000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n120000> ;
     skos:narrower <http://purl.org/lobid/rpb#n122030>, <http://purl.org/lobid/rpb#n122050>, <http://purl.org/lobid/rpb#n122070> ;
     skos:notation "rpb122000" ;
-    skos:prefLabel "Kartographie"@de .
+    skos:prefLabel "Kartografie"@de .
 
 <http://purl.org/lobid/rpb#n122030>
     a skos:Concept ;
@@ -122,7 +122,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n122000> ;
     skos:notation "rpb122050" ;
-    skos:prefLabel "Computerkartographie"@de .
+    skos:prefLabel "Computerkartografie"@de .
 
 <http://purl.org/lobid/rpb#n122070>
     a skos:Concept ;
@@ -340,7 +340,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n142100> ;
     skos:notation "rpb142110" ;
-    skos:prefLabel "Relief / Geographie"@de .
+    skos:prefLabel "Relief / Geografie"@de .
 
 <http://purl.org/lobid/rpb#n142120>
     a skos:Concept ;
@@ -748,7 +748,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n200000> ;
     skos:notation "rpb203500" ;
-    skos:prefLabel "Paläographie"@de .
+    skos:prefLabel "Paläografie"@de .
 
 <http://purl.org/lobid/rpb#n204000>
     a skos:Concept ;
@@ -1432,7 +1432,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n242800> ;
     skos:notation "rpb242852" ;
-    skos:prefLabel "Fürstentum Isenburg"@de .
+    skos:prefLabel "Fürstentum Isenburg. Grafschaft Isenburg"@de .
 
 <http://purl.org/lobid/rpb#n242854>
     a skos:Concept ;
@@ -1511,19 +1511,19 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n245100> ;
     skos:notation "rpb245140" ;
-    skos:prefLabel "Rhein-Mosel / Dep."@de .
+    skos:prefLabel "Rhein-Mosel-Département"@de .
 
 <http://purl.org/lobid/rpb#n245160>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n245100> ;
     skos:notation "rpb245160" ;
-    skos:prefLabel "Donnersberg / Dep."@de .
+    skos:prefLabel "Département Donnersberg"@de .
 
 <http://purl.org/lobid/rpb#n245180>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n245100> ;
     skos:notation "rpb245180" ;
-    skos:prefLabel "Saar / Dep."@de .
+    skos:prefLabel "Saardepartement"@de .
 
 <http://purl.org/lobid/rpb#n245300>
     a skos:Concept ;
@@ -2265,20 +2265,20 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n425000> ;
     skos:notation "rpb425030" ;
-    skos:prefLabel "Bezirk Koblenz"@de .
+    skos:prefLabel "Regierungsbezirk Koblenz"@de .
 
 <http://purl.org/lobid/rpb#n425040>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n425000> ;
     skos:notation "rpb425040" ;
-    skos:prefLabel "Bezirk Trier"@de .
+    skos:prefLabel "Regierungsbezirk Trier"@de .
 
 <http://purl.org/lobid/rpb#n425050>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n425000> ;
     skos:narrower <http://purl.org/lobid/rpb#n425052> ;
     skos:notation "rpb425050" ;
-    skos:prefLabel "Rheinhessen-Pfalz"@de .
+    skos:prefLabel "Regierungsbezirk Rheinhessen-Pfalz"@de .
 
 <http://purl.org/lobid/rpb#n425052>
     a skos:Concept ;
@@ -2847,7 +2847,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n522000> ;
     skos:notation "rpb522050" ;
-    skos:prefLabel "Mildtätige Stiftung"@de .
+    skos:prefLabel "Karitative Stiftung"@de .
 
 <http://purl.org/lobid/rpb#n523000>
     a skos:Concept ;
@@ -3552,7 +3552,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n546020> ;
     skos:notation "rpb546028" ;
-    skos:prefLabel "Erneuerbare Energien"@de .
+    skos:prefLabel "Alternative Energiequelle"@de .
 
 <http://purl.org/lobid/rpb#n546040>
     a skos:Concept ;
@@ -5078,7 +5078,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n708400> ;
     skos:notation "rpb708420" ;
-    skos:prefLabel "Kostüm"@de .
+    skos:prefLabel "Kostümkunde"@de .
 
 <http://purl.org/lobid/rpb#n708430>
     a skos:Concept ;
@@ -5508,7 +5508,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n760000> ;
     skos:notation "rpb762000" ;
-    skos:prefLabel "Literaturgeschichte / Fach"@de .
+    skos:prefLabel "Literatur / Geschichte"@de .
 
 <http://purl.org/lobid/rpb#n766000>
     a skos:Concept ;
@@ -6469,7 +6469,7 @@
     skos:broader <http://purl.org/lobid/rpb#n840000> ;
     skos:narrower <http://purl.org/lobid/rpb#n847550> ;
     skos:notation "rpb847500" ;
-    skos:prefLabel "Druckgraphik"@de .
+    skos:prefLabel "Druckgrafik"@de .
 
 <http://purl.org/lobid/rpb#n847550>
     a skos:Concept ;
@@ -6481,7 +6481,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n840000> ;
     skos:notation "rpb848000" ;
-    skos:prefLabel "Photographie"@de .
+    skos:prefLabel "Fotografie"@de .
 
 <http://purl.org/lobid/rpb#n849000>
     a skos:Concept ;
