@@ -56,7 +56,7 @@
         skos:prefLabel  "Welterod"@de .
 
 :n33100003  a           skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Alzey, Stadt"@de .
 
@@ -91,7 +91,7 @@
         skos:prefLabel  "Ebertsheim"@de .
 
 :n33901  a              skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rhein-Nahe, Verbandsgemeinde"@de .
 
@@ -366,7 +366,7 @@
         skos:prefLabel  "Kempenich"@de .
 
 :n13804  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Linz a.Rh., Verbandsgemeinde"@de .
 
@@ -436,7 +436,7 @@
         skos:prefLabel  "Pütschbach"@de .
 
 :n33206  a              skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wachenheim an der Weinstraße, Verbandsgemeinde"@de .
 
@@ -616,7 +616,7 @@
         skos:prefLabel  "Hahnhof"@de .
 
 :n14100075  a           skos:Concept ;
-        skos:broader    :n1410 ;
+        skos:broader    :n141 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lahnstein, große kreisangehörige Stadt"@de .
 
@@ -661,7 +661,7 @@
         skos:prefLabel  "Hausweiler"@de .
 
 :n33705  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Landau-Land, Verbandsgemeinde"@de .
 
@@ -751,7 +751,7 @@
         skos:prefLabel  "Oberhochstadt"@de .
 
 :n13300006  a           skos:Concept ;
-        skos:broader    :n1330 ;
+        skos:broader    :n133 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Kreuznach, große kreisangehörige Stadt"@de .
 
@@ -776,19 +776,19 @@
         skos:prefLabel  "Hunzel"@de .
 
 :n33201  a              skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Deidesheim, Verbandsgemeinde"@de .
-
-:n137000030301  a       skos:Concept ;
-        skos:broader    :n13700003 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bad Tönisstein, Kuranlage und Hotel"@de .
 
 :n23301011  a           skos:Concept ;
         skos:broader    :n23301 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Brockscheid"@de .
+
+:n137000030301  a       skos:Concept ;
+        skos:broader    :n13700003 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bad Tönisstein, Kuranlage und Hotel"@de .
 
 :n141000750200  a       skos:Concept ;
         skos:broader    :n14100075 ;
@@ -886,7 +886,7 @@
         skos:prefLabel  "Weisenheim am Berg"@de .
 
 :n13210  a              skos:Concept ;
-        skos:broader    :n1321 ;
+        skos:broader    :n132 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Altenkirchen-Flammersfeld, Verbandsgemeinde"@de .
 
@@ -1006,7 +1006,7 @@
         skos:prefLabel  "Sehlem"@de .
 
 :n13104  a              skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Brohltal, Verbandsgemeinde"@de .
 
@@ -1101,7 +1101,7 @@
         skos:prefLabel  "Alsenborn"@de .
 
 :n14310  a              skos:Concept ;
-        skos:broader    :n1431 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wirges, Verbandsgemeinde"@de .
 
@@ -1166,7 +1166,7 @@
         skos:prefLabel  "Schmalenbachsmühle"@de .
 
 :n33509  a              skos:Concept ;
-        skos:broader    :n3350 ;
+        skos:broader    :n335 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Weilerbach, Verbandsgemeinde"@de .
 
@@ -1271,7 +1271,7 @@
         skos:prefLabel  "Elzerath (Ortsbezirk)"@de .
 
 :n23100502  a           skos:Concept ;
-        skos:broader    :n2310 ;
+        skos:broader    :n231 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Morbach"@de .
 
@@ -1406,7 +1406,7 @@
         skos:prefLabel  "Kreuznick"@de .
 
 :n33610  a              skos:Concept ;
-        skos:broader    :n3361 ;
+        skos:broader    :n336 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kusel-Altenglan, Verbandsgemeinde"@de .
 
@@ -1800,15 +1800,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rodershausen"@de .
 
+:n14008  a              skos:Concept ;
+        skos:broader    :n140 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Simmern-Rheinböllen, Verbandsgemeinde"@de .
+
 :n14308263  a           skos:Concept ;
         skos:broader    :n14308 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Meudt"@de .
-
-:n14008  a              skos:Concept ;
-        skos:broader    :n1400 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Simmern-Rheinböllen, Verbandsgemeinde"@de .
 
 :n23304242  a           skos:Concept ;
         skos:broader    :n23304 ;
@@ -1864,6 +1864,11 @@
         skos:broader    :n23108 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Manderscheid, Stadt"@de .
+
+:n331   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Alzey-Worms, Landkreis"@de .
 
 :n33207029  a           skos:Concept ;
         skos:broader    :n33207 ;
@@ -1966,7 +1971,7 @@
         skos:prefLabel  "Irrhausen"@de .
 
 :n23200018  a           skos:Concept ;
-        skos:broader    :n2320 ;
+        skos:broader    :n232 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bitburg, Stadt"@de .
 
@@ -2116,12 +2121,12 @@
         skos:prefLabel  "Herschwiesen (Ortsbezirk)"@de .
 
 :n14003  a              skos:Concept ;
-        skos:broader    :n1400 ;
+        skos:broader    :n140 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kastellaun, Verbandsgemeinde"@de .
 
 :n13800045  a           skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Neuwied, große kreisangehörige Stadt"@de .
 
@@ -2141,7 +2146,7 @@
         skos:prefLabel  "Mörschbach"@de .
 
 :n13402  a              skos:Concept ;
-        skos:broader    :n1340 ;
+        skos:broader    :n134 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Birkenfeld, Verbandsgemeinde"@de .
 
@@ -2236,7 +2241,7 @@
         skos:prefLabel  "Melsbach"@de .
 
 :n33400007  a           skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Germersheim, Stadt"@de .
 
@@ -2361,7 +2366,7 @@
         skos:prefLabel  "Seifen"@de .
 
 :n33807  a              skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Römerberg-Dudenhofen, Verbandsgemeinde"@de .
 
@@ -2481,7 +2486,7 @@
         skos:prefLabel  "Rudolphskirchen"@de .
 
 :n33303  a              skos:Concept ;
-        skos:broader    :n3330 ;
+        skos:broader    :n333 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Göllheim, Verbandsgemeinde"@de .
 
@@ -2550,10 +2555,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Driesch"@de .
 
-:n13703049  a           skos:Concept ;
-        skos:broader    :n13703 ;
+:n33610089  a           skos:Concept ;
+        skos:broader    :n33610 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Kirchwald"@de .
+        skos:prefLabel  "Rutsweiler am Glan"@de .
 
 :n14    a               skos:Concept ;
         skos:broader    :n2 ;
@@ -2565,10 +2570,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Freusburgermühle"@de .
 
-:n33610089  a           skos:Concept ;
-        skos:broader    :n33610 ;
+:n13703049  a           skos:Concept ;
+        skos:broader    :n13703 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rutsweiler am Glan"@de .
+        skos:prefLabel  "Kirchwald"@de .
 
 :n13306033  a           skos:Concept ;
         skos:broader    :n13306 ;
@@ -2746,7 +2751,7 @@
         skos:prefLabel  "Rheinprovinz"@de .
 
 :n13206  a              skos:Concept ;
-        skos:broader    :n1320 ;
+        skos:broader    :n132 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hamm(Sieg), Verbandsgemeinde"@de .
 
@@ -2805,15 +2810,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberstadt (Ortsbezirk)"@de .
 
-:n13703007  a           skos:Concept ;
-        skos:broader    :n13703 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Baar"@de .
-
 :n143062950101  a       skos:Concept ;
         skos:broader    :n14306295 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Neukirch"@de .
+
+:n13703007  a           skos:Concept ;
+        skos:broader    :n13703 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Baar"@de .
 
 :n311000000500  a       skos:Concept ;
         skos:broader    :n31100000 ;
@@ -2941,7 +2946,7 @@
         skos:prefLabel  "Neunkirchen"@de .
 
 :n33400501  a           skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wörth am Rhein, Stadt"@de .
 
@@ -2951,7 +2956,7 @@
         skos:prefLabel  "Sainscheid"@de .
 
 :n13700068  a           skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mayen, große kreisangehörige Stadt"@de .
 
@@ -2986,7 +2991,7 @@
         skos:prefLabel  "Seibersbach"@de .
 
 :n14306  a              skos:Concept ;
-        skos:broader    :n1430 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rennerod, Verbandsgemeinde"@de .
 
@@ -3076,7 +3081,7 @@
         skos:prefLabel  "Rosenheim (Lkr. Altenkirchen)"@de .
 
 :n33107  a              skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wonnegau, Verbandsgemeinde"@de .
 
@@ -3341,7 +3346,7 @@
         skos:prefLabel  "Arenfels, Schloß und Hsgr."@de .
 
 :n14301  a              skos:Concept ;
-        skos:broader    :n1430 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Marienberg (Ww), Verbandsgemeinde"@de .
 
@@ -3411,7 +3416,7 @@
         skos:prefLabel  "Waldleiningen"@de .
 
 :n33102  a              skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Eich, Verbandsgemeinde"@de .
 
@@ -3496,7 +3501,7 @@
         skos:prefLabel  "Laubach"@de .
 
 :n33200025  a           skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Haßloch"@de .
 
@@ -3989,15 +3994,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Algenrodt"@de .
 
-:n33511  a              skos:Concept ;
-        skos:broader    :n3351 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Landstuhl, Verbandsgemeinde"@de .
-
 :n133090460200  a       skos:Concept ;
         skos:broader    :n13309046 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hochstetten"@de .
+
+:n33511  a              skos:Concept ;
+        skos:broader    :n335 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Landstuhl, Verbandsgemeinde"@de .
 
 :n13207045  a           skos:Concept ;
         skos:broader    :n13207 ;
@@ -4104,15 +4109,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Beckenhof"@de .
 
+:n34006  a              skos:Concept ;
+        skos:broader    :n340 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Waldfischbach-Burgalben, Verbandsgemeinde"@de .
+
 :n14307064  a           skos:Concept ;
         skos:broader    :n14307 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rückeroth"@de .
-
-:n34006  a              skos:Concept ;
-        skos:broader    :n3400 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Waldfischbach-Burgalben, Verbandsgemeinde"@de .
 
 :n340030280108  a       skos:Concept ;
         skos:broader    :n34003028 ;
@@ -4120,7 +4125,7 @@
         skos:prefLabel  "Salzwoog (Ortsbezirk)"@de .
 
 :n33405  a              skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lingenfeld, Verbandsgemeinde"@de .
 
@@ -4225,7 +4230,7 @@
         skos:prefLabel  "Strauscheid"@de .
 
 :n23507  a              skos:Concept ;
-        skos:broader    :n2350 ;
+        skos:broader    :n235 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Trier-Land, Verbandsgemeinde"@de .
 
@@ -4369,15 +4374,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Einrich"@de .
 
+:n14302276  a           skos:Concept ;
+        skos:broader    :n14302 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Nister"@de .
+
 :n13309063  a           skos:Concept ;
         skos:broader    :n13309 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Meckenbach"@de .
 
-:n14302276  a           skos:Concept ;
-        skos:broader    :n14302 ;
+:n232   a               skos:Concept ;
+        skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Nister"@de .
+        skos:prefLabel  "Eifelkreis Bitburg-Prüm, Landkreis"@de .
 
 :n13210103  a           skos:Concept ;
         skos:broader    :n13210 ;
@@ -4439,15 +4449,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Zehnhausen bei Rennerod"@de .
 
+:n34001  a              skos:Concept ;
+        skos:broader    :n340 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Dahner Felsenland, Verbandsgemeinde"@de .
+
 :n14308058  a           skos:Concept ;
         skos:broader    :n14308 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Obererbach"@de .
-
-:n34001  a              skos:Concept ;
-        skos:broader    :n3400 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Dahner Felsenland, Verbandsgemeinde"@de .
 
 :n23304037  a           skos:Concept ;
         skos:broader    :n23304 ;
@@ -4468,11 +4478,6 @@
         skos:broader    :n4 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Pfalz-Zweibrücken"@de .
-
-:n3340  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Germersheim, Landkreis"@de .
 
 :n14103059  a           skos:Concept ;
         skos:broader    :n14103 ;
@@ -4508,11 +4513,6 @@
         skos:broader    :n33302038 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kerzweilerhof (T.a.Ortsbezirk Rosenthal)"@de .
-
-:n1330  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bad Kreuznach, Landkreis"@de .
 
 :n111000001400  a       skos:Concept ;
         skos:broader    :n11100000 ;
@@ -4570,7 +4570,7 @@
         skos:prefLabel  "Niederhoppen, Hof"@de .
 
 :n13807  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Unkel, Verbandsgemeinde"@de .
 
@@ -4960,7 +4960,7 @@
         skos:prefLabel  "Neustraßburg"@de .
 
 :n13802  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Hönningen, Verbandsgemeinde"@de .
 
@@ -5155,7 +5155,7 @@
         skos:prefLabel  "Rechtenbach"@de .
 
 :n23306  a              skos:Concept ;
-        skos:broader    :n2330 ;
+        skos:broader    :n233 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gerolstein, Verbandsgemeinde"@de .
 
@@ -5280,7 +5280,7 @@
         skos:prefLabel  "Beindersheim"@de .
 
 :n33703  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Edenkoben, Verbandsgemeinde"@de .
 
@@ -5465,7 +5465,7 @@
         skos:prefLabel  "Etscheid"@de .
 
 :n23301  a              skos:Concept ;
-        skos:broader    :n2330 ;
+        skos:broader    :n233 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Daun, Verbandsgemeinde"@de .
 
@@ -5540,7 +5540,7 @@
         skos:prefLabel  "Gerbach"@de .
 
 :n13102  a              skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Altenahr, Verbandsgemeinde"@de .
 
@@ -5643,6 +5643,11 @@
         skos:broader    :n33307 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bayerfeld-Steckweiler"@de .
+
+:n339   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Mainz-Bingen, Landkreis"@de .
 
 :n132081170402  a       skos:Concept ;
         skos:broader    :n13208117 ;
@@ -5934,6 +5939,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Echternacherbrück"@de .
 
+:n334   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Germersheim, Landkreis"@de .
+
 :n34003026  a           skos:Concept ;
         skos:broader    :n34003 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6025,7 +6035,7 @@
         skos:prefLabel  "Dill"@de .
 
 :n33502  a              skos:Concept ;
-        skos:broader    :n3350 ;
+        skos:broader    :n335 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Enkenbach-Alsenborn, Verbandsgemeinde"@de .
 
@@ -6250,7 +6260,7 @@
         skos:prefLabel  "Simmertal"@de .
 
 :n14006  a              skos:Concept ;
-        skos:broader    :n1400 ;
+        skos:broader    :n140 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Simmern-Rheinböllen, Verbandsgemeinde"@de .
 
@@ -6270,7 +6280,7 @@
         skos:prefLabel  "Mutterschied"@de .
 
 :n13405  a              skos:Concept ;
-        skos:broader    :n1340 ;
+        skos:broader    :n134 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Herrstein-Rhaunen, Verbandsgemeinde"@de .
 
@@ -6404,11 +6414,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dachsenhausen"@de .
 
-:n13702095  a           skos:Concept ;
-        skos:broader    :n13702 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rüber"@de .
-
 :n235071110300  a       skos:Concept ;
         skos:broader    :n23507111 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6418,6 +6423,11 @@
         skos:broader    :n33707023 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dreihof"@de .
+
+:n13702095  a           skos:Concept ;
+        skos:broader    :n13702 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rüber"@de .
 
 :n135010820208  a       skos:Concept ;
         skos:broader    :n13501082 ;
@@ -6473,6 +6483,11 @@
         skos:broader    :n13802024 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niederhammerstein"@de .
+
+:n138   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Neuwied, Landkreis"@de .
 
 :n33107006  a           skos:Concept ;
         skos:broader    :n33107 ;
@@ -6570,7 +6585,7 @@
         skos:prefLabel  "Thalfang"@de .
 
 :n33306  a              skos:Concept ;
-        skos:broader    :n3330 ;
+        skos:broader    :n333 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Winnweiler, Verbandsgemeinde"@de .
 
@@ -6624,11 +6639,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nannhausen"@de .
 
-:n13702053  a           skos:Concept ;
-        skos:broader    :n13702 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Kollig"@de .
-
 :n335010030200  a       skos:Concept ;
         skos:broader    :n33501003 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6639,10 +6649,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nordpfälzer Bergland"@de .
 
-:n3310  a               skos:Concept ;
-        skos:broader    :n6 ;
+:n13702053  a           skos:Concept ;
+        skos:broader    :n13702 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Alzey-Worms, Landkreis"@de .
+        skos:prefLabel  "Kollig"@de .
 
 :n14103029  a           skos:Concept ;
         skos:broader    :n14103 ;
@@ -6830,7 +6840,7 @@
         skos:prefLabel  "Jahrsbergerhöfe"@de .
 
 :n13209  a              skos:Concept ;
-        skos:broader    :n1320 ;
+        skos:broader    :n132 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Betzdorf-Gebhardshain, Verbandsgemeinde"@de .
 
@@ -6918,6 +6928,11 @@
         skos:broader    :n13309041 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Krebsweiler"@de .
+
+:n133   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bad Kreuznach, Landkreis"@de .
 
 :n13210004  a           skos:Concept ;
         skos:broader    :n13210 ;
@@ -7114,10 +7129,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ediger-Eller"@de .
 
-:n13310  a              skos:Concept ;
-        skos:broader    :n1331 ;
+:n14309  a              skos:Concept ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Nahe-Glan, Verbandsgemeinde"@de .
+        skos:prefLabel  "Westerburg, Verbandsgemeinde"@de .
 
 :n23506083  a           skos:Concept ;
         skos:broader    :n23506 ;
@@ -7134,10 +7149,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Eschenau"@de .
 
-:n14309  a              skos:Concept ;
-        skos:broader    :n1430 ;
+:n13310  a              skos:Concept ;
+        skos:broader    :n133 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Westerburg, Verbandsgemeinde"@de .
+        skos:prefLabel  "Nahe-Glan, Verbandsgemeinde"@de .
 
 :n340010290101  a       skos:Concept ;
         skos:broader    :n34001029 ;
@@ -7170,7 +7185,7 @@
         skos:prefLabel  "Winkel (Eifel)"@de .
 
 :n13708  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Weißenthurm, Verbandsgemeinde"@de .
 
@@ -7404,11 +7419,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Etschberg"@de .
 
-:n2310  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bernkastel-Wittlich, Landkreis"@de .
-
 :n34002049  a           skos:Concept ;
         skos:broader    :n34002 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -7465,7 +7475,7 @@
         skos:prefLabel  "Wartenberg-Rohrbach"@de .
 
 :n33609  a              skos:Concept ;
-        skos:broader    :n3360 ;
+        skos:broader    :n336 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberes Glantal, Verbandsgemeinde"@de .
 
@@ -7505,7 +7515,7 @@
         skos:prefLabel  "Wildenburg"@de .
 
 :n14304  a              skos:Concept ;
-        skos:broader    :n1430 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Montabaur, Verbandsgemeinde"@de .
 
@@ -7515,7 +7525,7 @@
         skos:prefLabel  "Altenglan"@de .
 
 :n13703  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Vordereifel, Verbandsgemeinde"@de .
 
@@ -7550,7 +7560,7 @@
         skos:prefLabel  "Oberdiebach"@de .
 
 :n33105  a              skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wöllstein, Verbandsgemeinde"@de .
 
@@ -7660,7 +7670,7 @@
         skos:prefLabel  "Burgschwalbach"@de .
 
 :n23207  a              skos:Concept ;
-        skos:broader    :n2320 ;
+        skos:broader    :n232 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Speicher, Verbandsgemeinde"@de .
 
@@ -7694,7 +7704,7 @@
         dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)." ;
         dct:issued                     "2022-08-26" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-08-23" ;
+        dct:modified                   "2022-08-25" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Spatial classification scheme for the Bibiography of Rhineland-Palatinate"@en , "Raumsystematik der Rheinland-Pfälzischen Bibliographie"@de ;
         vann:preferredNamespacePrefix  "rpb-spatial" ;
@@ -7722,7 +7732,7 @@
         skos:prefLabel  "Lautersheim"@de .
 
 :n13700003  a           skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Andernach, große kreisangehörige Stadt"@de .
 
@@ -8036,7 +8046,7 @@
         skos:prefLabel  "Ruppenrod"@de .
 
 :n33200002  a           skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Dürkheim, Stadt"@de .
 
@@ -8249,6 +8259,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hetzerath"@de .
 
+:n34009  a              skos:Concept ;
+        skos:broader    :n340 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Thaleischweiler-Wallhalben, Verbandsgemeinde"@de .
+
 :n14307067  a           skos:Concept ;
         skos:broader    :n14307 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -8258,11 +8273,6 @@
         skos:broader    :n13405092 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Weitersbacher Hütte"@de .
-
-:n34009  a              skos:Concept ;
-        skos:broader    :n3400 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Thaleischweiler-Wallhalben, Verbandsgemeinde"@de .
 
 :n23306022  a           skos:Concept ;
         skos:broader    :n23306 ;
@@ -8344,15 +8354,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hirzenach (Ortsbezirk)"@de .
 
+:n14103  a              skos:Concept ;
+        skos:broader    :n141 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Diez, Verbandsgemeinde"@de .
+
 :n23201297  a           skos:Concept ;
         skos:broader    :n23201 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Reiff"@de .
-
-:n14103  a              skos:Concept ;
-        skos:broader    :n1410 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Diez, Verbandsgemeinde"@de .
 
 :n141111260101  a       skos:Concept ;
         skos:broader    :n14111126 ;
@@ -8375,7 +8385,7 @@
         skos:prefLabel  "Kimmlerhof"@de .
 
 :n13502  a              skos:Concept ;
-        skos:broader    :n1350 ;
+        skos:broader    :n135 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kaisersesch, Verbandsgemeinde"@de .
 
@@ -8605,7 +8615,7 @@
         skos:prefLabel  "Schönbornerhof"@de .
 
 :n33907  a              skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rhein-Selz, Verbandsgemeinde"@de .
 
@@ -8720,7 +8730,7 @@
         skos:prefLabel  "Harspelt"@de .
 
 :n34004  a              skos:Concept ;
-        skos:broader    :n3400 ;
+        skos:broader    :n340 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rodalben, Verbandsgemeinde"@de .
 
@@ -8745,7 +8755,7 @@
         skos:prefLabel  "Ochtendung"@de .
 
 :n33403  a              skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Jockgrim, Verbandsgemeinde"@de .
 
@@ -8865,7 +8875,7 @@
         skos:prefLabel  "Dichtelbach"@de .
 
 :n33900009  a           skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Budenheim"@de .
 
@@ -8879,20 +8889,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Ems, Stadt"@de .
 
-:n233010430103  a       skos:Concept ;
-        skos:broader    :n23301043 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Siedlung Rackenbach"@de .
-
 :n33402027  a           skos:Concept ;
         skos:broader    :n33402 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Scheibenhardt"@de .
 
-:n3380  a               skos:Concept ;
-        skos:broader    :n6 ;
+:n233010430103  a       skos:Concept ;
+        skos:broader    :n23301043 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rhein-Pfalz-Kreis , Landkreis"@de .
+        skos:prefLabel  "Siedlung Rackenbach"@de .
 
 :n13306112  a           skos:Concept ;
         skos:broader    :n13306 ;
@@ -8944,11 +8949,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Duchroth"@de .
 
-:n1370  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Mayen-Koblenz, Landkreis"@de .
-
 :n33702019  a           skos:Concept ;
         skos:broader    :n33702 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -8970,7 +8970,7 @@
         skos:prefLabel  "Herschbroich"@de .
 
 :n13306  a              skos:Concept ;
-        skos:broader    :n1330 ;
+        skos:broader    :n133 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rüdesheim, Verbandsgemeinde"@de .
 
@@ -8990,7 +8990,7 @@
         skos:prefLabel  "Hamm (Ortsbezirk)"@de .
 
 :n33902  a              skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bodenheim, Verbandsgemeinde"@de .
 
@@ -9150,7 +9150,7 @@
         skos:prefLabel  "Blechhammer"@de .
 
 :n33800025  a           skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Schifferstadt, Stadt"@de .
 
@@ -9180,7 +9180,7 @@
         skos:prefLabel  "Dammheim (Ortsbezirk)"@de .
 
 :n13805  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Puderbach, Verbandsgemeinde"@de .
 
@@ -9235,7 +9235,7 @@
         skos:prefLabel  "Oberarnbach"@de .
 
 :n33207  a              skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Leiningerland, Verbandsgemeinde"@de .
 
@@ -9260,7 +9260,7 @@
         skos:prefLabel  "Deudesfeld"@de .
 
 :n33800004  a           skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bobenheim-Roxheim"@de .
 
@@ -9300,7 +9300,7 @@
         skos:prefLabel  "Berwartstein, Burg und Gastst."@de .
 
 :n13301  a              skos:Concept ;
-        skos:broader    :n1330 ;
+        skos:broader    :n133 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Kreuznach, Verbandsgemeinde"@de .
 
@@ -9378,6 +9378,11 @@
         skos:broader    :n33608 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Langweiler"@de .
+
+:n140   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rhein-Hunsrück-Kreis, Landkreis"@de .
 
 :n4051096n7  a          skos:Concept ;
         skos:broader    :n50 ;
@@ -9490,7 +9495,7 @@
         skos:prefLabel  "Hefersweiler"@de .
 
 :n33706  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Maikammer, Verbandsgemeinde"@de .
 
@@ -9585,7 +9590,7 @@
         skos:prefLabel  "Weißenseifen"@de .
 
 :n33202  a              skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Freinsheim, Verbandsgemeinde"@de .
 
@@ -9695,7 +9700,7 @@
         skos:prefLabel  "Müllenbach"@de .
 
 :n23304  a              skos:Concept ;
-        skos:broader    :n2330 ;
+        skos:broader    :n233 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kelberg, Verbandsgemeinde"@de .
 
@@ -9815,7 +9820,7 @@
         skos:prefLabel  "Berndroth"@de .
 
 :n33701  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Annweiler am Trifels, Verbandsgemeinde"@de .
 
@@ -10220,7 +10225,7 @@
         skos:prefLabel  "Schloß Dhaun (Ortsbezirk)"@de .
 
 :n23108  a              skos:Concept ;
-        skos:broader    :n2310 ;
+        skos:broader    :n231 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wittlich-Land, Verbandsgemeinde"@de .
 
@@ -10564,15 +10569,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dodenburg"@de .
 
+:n14009  a              skos:Concept ;
+        skos:broader    :n140 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hunsrück-Mittelrhein, Verbandsgemeinde"@de .
+
 :n31200000  a           skos:Concept ;
         skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kaiserslautern, Kreisfreie Stadt"@de .
-
-:n14009  a              skos:Concept ;
-        skos:broader    :n1400 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Hunsrück-Mittelrhein, Verbandsgemeinde"@de .
 
 :n23304243  a           skos:Concept ;
         skos:broader    :n23304 ;
@@ -10619,20 +10624,25 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ediger"@de .
 
-:n334020270101  a       skos:Concept ;
-        skos:broader    :n33402027 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bienwaldmühle"@de .
-
 :n233062110102  a       skos:Concept ;
         skos:broader    :n23306211 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Weiermühle"@de .
 
+:n334020270101  a       skos:Concept ;
+        skos:broader    :n33402027 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bienwaldmühle"@de .
+
 :n34008226  a           skos:Concept ;
         skos:broader    :n34008 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Walshausen"@de .
+
+:n332   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bad Dürkheim, Landkreis"@de .
 
 :n23201267  a           skos:Concept ;
         skos:broader    :n23201 ;
@@ -10805,7 +10815,7 @@
         skos:prefLabel  "Wingendorf (Ortsbezirk)"@de .
 
 :n14110  a              skos:Concept ;
-        skos:broader    :n1411 ;
+        skos:broader    :n141 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Ems-Nassau, Verbandsgemeinde"@de .
 
@@ -10945,7 +10955,7 @@
         skos:prefLabel  "Winkelbach"@de .
 
 :n14004  a              skos:Concept ;
-        skos:broader    :n1400 ;
+        skos:broader    :n140 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kirchberg / Hunsrück, Verbandsgemeinde"@de .
 
@@ -11120,7 +11130,7 @@
         skos:prefLabel  "Nehren"@de .
 
 :n33808  a              skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rheinauen, Verbandsgemeinde"@de .
 
@@ -11133,11 +11143,6 @@
         skos:broader    :n21100000 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Filsch (Ortsbezirk 14)"@de .
-
-:n1340  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Birkenfeld, Landkreis"@de .
 
 :n233060830100  a       skos:Concept ;
         skos:broader    :n23306083 ;
@@ -11220,7 +11225,7 @@
         skos:prefLabel  "Asbacherhütte, Pflegeanst."@de .
 
 :n33304  a              skos:Concept ;
-        skos:broader    :n3330 ;
+        skos:broader    :n333 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kirchheimbolanden, Verbandsgemeinde"@de .
 
@@ -11500,7 +11505,7 @@
         skos:prefLabel  "Kleinere Territorien des 19. und 20. Jh."@de .
 
 :n13207  a              skos:Concept ;
-        skos:broader    :n1320 ;
+        skos:broader    :n132 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kirchen(Sieg), Verbandsgemeinde"@de .
 
@@ -11573,6 +11578,11 @@
         skos:broader    :n14110091 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Burg Nassau"@de .
+
+:n131   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ahrweiler, Landkreis"@de .
 
 :n315000000900  a       skos:Concept ;
         skos:broader    :n31500000 ;
@@ -11754,15 +11764,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hönningen"@de .
 
+:n14307  a              skos:Concept ;
+        skos:broader    :n143 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Selters(Ww), Verbandsgemeinde"@de .
+
 :n14107140  a           skos:Concept ;
         skos:broader    :n14107 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Winterwerb"@de .
-
-:n14307  a              skos:Concept ;
-        skos:broader    :n1430 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Selters(Ww), Verbandsgemeinde"@de .
 
 :n33610006  a           skos:Concept ;
         skos:broader    :n33610 ;
@@ -12099,6 +12109,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ariendorf"@de .
 
+:n14302  a              skos:Concept ;
+        skos:broader    :n143 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hachenburg, Verbandsgemeinde"@de .
+
 :n14310028  a           skos:Concept ;
         skos:broader    :n14310 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -12109,18 +12124,13 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Klaftertalerhof"@de .
 
-:n14302  a              skos:Concept ;
-        skos:broader    :n1430 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Hachenburg, Verbandsgemeinde"@de .
-
 :n33608001  a           skos:Concept ;
         skos:broader    :n33608 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Adenbach"@de .
 
 :n13701  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Pellenz, Verbandsgemeinde"@de .
 
@@ -12185,7 +12195,7 @@
         skos:prefLabel  "Flakhaus"@de .
 
 :n33103  a              skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Monsheim, Verbandsgemeinde"@de .
 
@@ -12290,7 +12300,7 @@
         skos:prefLabel  "Spessart"@de .
 
 :n23205  a              skos:Concept ;
-        skos:broader    :n2320 ;
+        skos:broader    :n232 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Südeifel, Verbandsgemeinde"@de .
 
@@ -12639,7 +12649,7 @@
         skos:prefLabel  "Krumscheid"@de .
 
 :n13505  a              skos:Concept ;
-        skos:broader    :n1350 ;
+        skos:broader    :n135 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Zell (Mosel), Verbandsgemeinde"@de .
 
@@ -12964,7 +12974,7 @@
         skos:prefLabel  "Honigsessen"@de .
 
 :n33406  a              skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rülzheim, Verbandsgemeinde"@de .
 
@@ -13048,18 +13058,13 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Breit"@de .
 
-:n1400  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rhein-Hunsrück-Kreis, Landkreis"@de .
-
 :n23205033  a           skos:Concept ;
         skos:broader    :n23205 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ernzen"@de .
 
 :n23508  a              skos:Concept ;
-        skos:broader    :n2350 ;
+        skos:broader    :n235 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Saarburg-Kell, Verbandsgemeinde"@de .
 
@@ -13089,7 +13094,7 @@
         skos:prefLabel  "Niedererbach"@de .
 
 :n13400045  a           skos:Concept ;
-        skos:broader    :n1340 ;
+        skos:broader    :n134 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Idar-Oberstein, große kreisangehörige Stadt"@de .
 
@@ -13154,7 +13159,7 @@
         skos:prefLabel  "Niederschelderhütte"@de .
 
 :n13309  a              skos:Concept ;
-        skos:broader    :n1330 ;
+        skos:broader    :n133 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kirner Land, Verbandsgemeinde"@de .
 
@@ -13204,7 +13209,7 @@
         skos:prefLabel  "Neupfalz"@de .
 
 :n13100090  a           skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Grafschaft"@de .
 
@@ -13249,7 +13254,7 @@
         skos:prefLabel  "Ebertseifen"@de .
 
 :n34002  a              skos:Concept ;
-        skos:broader    :n3400 ;
+        skos:broader    :n340 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hauenstein, Verbandsgemeinde"@de .
 
@@ -13264,7 +13269,7 @@
         skos:prefLabel  "Hochstift Worms"@de .
 
 :n33401  a              skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bellheim, Verbandsgemeinde"@de .
 
@@ -13363,11 +13368,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dackscheid"@de .
 
-:n33907037  a           skos:Concept ;
-        skos:broader    :n33907 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Mommenheim"@de .
-
 :n134020420100  a       skos:Concept ;
         skos:broader    :n13402042 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -13378,20 +13378,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gumbsweiler"@de .
 
-:n13809072  a           skos:Concept ;
-        skos:broader    :n13809 ;
+:n33907037  a           skos:Concept ;
+        skos:broader    :n33907 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Thalhausen"@de .
+        skos:prefLabel  "Mommenheim"@de .
 
 :n27    a               skos:Concept ;
         skos:broader    :n2 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Untere-Saar-Tal"@de .
 
-:n3320  a               skos:Concept ;
-        skos:broader    :n6 ;
+:n13809072  a           skos:Concept ;
+        skos:broader    :n13809 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bad Dürkheim, Landkreis"@de .
+        skos:prefLabel  "Thalhausen"@de .
 
 :n132081170105  a       skos:Concept ;
         skos:broader    :n13208117 ;
@@ -13404,7 +13404,7 @@
         skos:prefLabel  "Hattert"@de .
 
 :n23503  a              skos:Concept ;
-        skos:broader    :n2350 ;
+        skos:broader    :n235 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Konz, Verbandsgemeinde"@de .
 
@@ -13427,11 +13427,6 @@
         skos:broader    :n13301039 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dreiweiherhof"@de .
-
-:n1310  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Ahrweiler, Landkreis"@de .
 
 :n232050160102  a       skos:Concept ;
         skos:broader    :n23205016 ;
@@ -13749,7 +13744,7 @@
         skos:prefLabel  "Rahms"@de .
 
 :n13803  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dierdorf, Verbandsgemeinde"@de .
 
@@ -13819,7 +13814,7 @@
         skos:prefLabel  "Kasdorf"@de .
 
 :n33205  a              skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lambrecht (Pfalz), Verbandsgemeinde"@de .
 
@@ -13884,7 +13879,7 @@
         skos:prefLabel  "Strüth"@de .
 
 :n23100134  a           skos:Concept ;
-        skos:broader    :n2310 ;
+        skos:broader    :n231 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wittlich, Stadt"@de .
 
@@ -14018,11 +14013,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Haschbach am Remigiusberg"@de .
 
-:n2320  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Eifelkreis Bitburg-Prüm, Landkreis"@de .
-
 :n231005021500  a       skos:Concept ;
         skos:broader    :n23100502 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -14034,7 +14024,7 @@
         skos:prefLabel  "Schlausenbach"@de .
 
 :n33704  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Herxheim , Verbandsgemeinde"@de .
 
@@ -14284,7 +14274,7 @@
         skos:prefLabel  "Schwarzenborn"@de .
 
 :n13103  a              skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Breisig, Verbandsgemeinde"@de .
 
@@ -14414,7 +14404,7 @@
         skos:prefLabel  "Schmalenbach"@de .
 
 :n33508  a              skos:Concept ;
-        skos:broader    :n3350 ;
+        skos:broader    :n335 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ramstein-Miesenbach, Verbandsgemeinde"@de .
 
@@ -14644,7 +14634,7 @@
         skos:prefLabel  "Engeln (Ortsbezirk)"@de .
 
 :n23106  a              skos:Concept ;
-        skos:broader    :n2310 ;
+        skos:broader    :n231 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Thalfang am Erbeskopf, Verbandsgemeinde"@de .
 
@@ -14864,7 +14854,7 @@
         skos:prefLabel  "Beltheim"@de .
 
 :n13100007  a           skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Neuenahr-Ahrweiler, Stadt"@de .
 
@@ -15034,7 +15024,7 @@
         skos:prefLabel  "Reichenbach-Steegen"@de .
 
 :n23101  a              skos:Concept ;
-        skos:broader    :n2310 ;
+        skos:broader    :n231 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bernkastel-Kues, Verbandsgemeinde"@de .
 
@@ -15203,15 +15193,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wienau (Ortsbezirk)"@de .
 
-:n13702102  a           skos:Concept ;
-        skos:broader    :n13702 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Trimbs"@de .
-
 :n33401001  a           skos:Concept ;
         skos:broader    :n33401 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bellheim"@de .
+
+:n13702102  a           skos:Concept ;
+        skos:broader    :n13702 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Trimbs"@de .
 
 :n14309219  a           skos:Concept ;
         skos:broader    :n14309 ;
@@ -15349,7 +15339,7 @@
         skos:prefLabel  "Reichenstein"@de .
 
 :n33307  a              skos:Concept ;
-        skos:broader    :n3330 ;
+        skos:broader    :n333 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nordpfälzer Land, Verbandsgemeinde"@de .
 
@@ -15368,11 +15358,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Tiefenthal"@de .
 
-:n3390  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Mainz-Bingen, Landkreis"@de .
-
 :n141031300101  a       skos:Concept ;
         skos:broader    :n14103130 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -15383,18 +15368,23 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niedererbach"@de .
 
-:n336090640100  a       skos:Concept ;
-        skos:broader    :n33609064 ;
+:n33800019  a           skos:Concept ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Dietschweiler"@de .
+        skos:prefLabel  "Mutterstadt"@de .
 
 :n14008101  a           skos:Concept ;
         skos:broader    :n14008 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Neuerkirch"@de .
 
+:n336090640100  a       skos:Concept ;
+        skos:broader    :n33609064 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Dietschweiler"@de .
+
 :n13401  a              skos:Concept ;
-        skos:broader    :n1340 ;
+        skos:broader    :n134 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Baumholder, Verbandsgemeinde"@de .
 
@@ -15408,11 +15398,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niederasdorf"@de .
 
-:n33800019  a           skos:Concept ;
-        skos:broader    :n3380 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Mutterstadt"@de .
-
 :n33907028  a           skos:Concept ;
         skos:broader    :n33907 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -15422,11 +15407,6 @@
         skos:broader    :n23108117 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wilmshof"@de .
-
-:n1380  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Neuwied, Landkreis"@de .
 
 :n132100620105  a       skos:Concept ;
         skos:broader    :n13210062 ;
@@ -15573,6 +15553,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberhausen an der Nahe"@de .
 
+:n33806  a              skos:Concept ;
+        skos:broader    :n338 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Lambsheim-Heßheim, Verbandsgemeinde"@de .
+
 :n33705042  a           skos:Concept ;
         skos:broader    :n33705 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -15583,11 +15568,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Schönfelderhof"@de .
 
-:n33806  a              skos:Concept ;
-        skos:broader    :n3380 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Lambsheim-Heßheim, Verbandsgemeinde"@de .
-
 :n339010030108  a       skos:Concept ;
         skos:broader    :n33901003 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -15597,6 +15577,11 @@
         skos:broader    :n13101 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Senscheid"@de .
+
+:n134   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Birkenfeld, Landkreis"@de .
 
 :n14009201  a           skos:Concept ;
         skos:broader    :n14009 ;
@@ -15669,7 +15654,7 @@
         skos:prefLabel  "Kapellen-Drusweiler"@de .
 
 :n33302  a              skos:Concept ;
-        skos:broader    :n3330 ;
+        skos:broader    :n333 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Eisenberg (Pfalz), Verbandsgemeinde"@de .
 
@@ -15804,7 +15789,7 @@
         skos:prefLabel  "Hümmel"@de .
 
 :n13311  a              skos:Concept ;
-        skos:broader    :n1331 ;
+        skos:broader    :n133 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Langenlonsheim-Stromberg, Verbandsgemeinde"@de .
 
@@ -15824,7 +15809,7 @@
         skos:prefLabel  "Bermersheim vor der Höhe"@de .
 
 :n13709  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rhein-Mosel, Verbandsgemeinde"@de .
 
@@ -15964,7 +15949,7 @@
         skos:prefLabel  "Grenderich"@de .
 
 :n33801  a              skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dannstadt-Schauernheim, Verbandsgemeinde"@de .
 
@@ -15978,20 +15963,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kyrburg"@de .
 
-:n13703006  a           skos:Concept ;
-        skos:broader    :n13703 ;
+:n33900030  a           skos:Concept ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Arft"@de .
+        skos:prefLabel  "Ingelheim am Rhein, große kreisangeh. Stadt"@de .
 
 :n33610046  a           skos:Concept ;
         skos:broader    :n33610 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Horschbach"@de .
 
-:n33900030  a           skos:Concept ;
-        skos:broader    :n3390 ;
+:n13703006  a           skos:Concept ;
+        skos:broader    :n13703 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Ingelheim am Rhein, große kreisangeh. Stadt"@de .
+        skos:prefLabel  "Arft"@de .
 
 :n235081540300  a       skos:Concept ;
         skos:broader    :n23508154 ;
@@ -16174,7 +16159,7 @@
         skos:prefLabel  "Wippe"@de .
 
 :n14305  a              skos:Concept ;
-        skos:broader    :n1430 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ransbach-Baumbach, Verbandsgemeinde"@de .
 
@@ -16189,7 +16174,7 @@
         skos:prefLabel  "Speyer, Kreisfreie Stadt"@de .
 
 :n13704  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mendig, Verbandsgemeinde"@de .
 
@@ -16234,7 +16219,7 @@
         skos:prefLabel  "Merzweiler"@de .
 
 :n33106  a              skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wörrstadt, Verbandsgemeinde"@de .
 
@@ -16319,7 +16304,7 @@
         skos:prefLabel  "Heidnerhof"@de .
 
 :n23208  a              skos:Concept ;
-        skos:broader    :n2320 ;
+        skos:broader    :n232 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bitburger Land, Verbandsgemeinde"@de .
 
@@ -16549,7 +16534,7 @@
         skos:prefLabel  "Langenbach"@de .
 
 :n33101  a              skos:Concept ;
-        skos:broader    :n3310 ;
+        skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Alzey-Land, Verbandsgemeinde"@de .
 
@@ -16584,7 +16569,7 @@
         skos:prefLabel  "Linkenbach"@de .
 
 :n14000501  a           skos:Concept ;
-        skos:broader    :n1400 ;
+        skos:broader    :n140 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Boppard, Stadt"@de .
 
@@ -16629,7 +16614,7 @@
         skos:prefLabel  "Landkern"@de .
 
 :n33200024  a           skos:Concept ;
-        skos:broader    :n3320 ;
+        skos:broader    :n332 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Grünstadt, Stadt"@de .
 
@@ -16638,20 +16623,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Orbis"@de .
 
-:n137002030104  a       skos:Concept ;
-        skos:broader    :n13700203 ;
+:n14109  a              skos:Concept ;
+        skos:broader    :n141 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Mülhofen"@de .
+        skos:prefLabel  "Loreley, Verbandsgemeinde"@de .
 
 :n13309205  a           skos:Concept ;
         skos:broader    :n13309 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Schwarzerden"@de .
 
-:n14109  a              skos:Concept ;
-        skos:broader    :n1410 ;
+:n137002030104  a       skos:Concept ;
+        skos:broader    :n13700203 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Loreley, Verbandsgemeinde"@de .
+        skos:prefLabel  "Mülhofen"@de .
 
 :n23201309  a           skos:Concept ;
         skos:broader    :n23201 ;
@@ -16993,7 +16978,7 @@
         skos:prefLabel  "Insheim"@de .
 
 :n13100077  a           skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sinzig, Stadt"@de .
 
@@ -17023,7 +17008,7 @@
         skos:prefLabel  "Bärbach"@de .
 
 :n13503  a              skos:Concept ;
-        skos:broader    :n1350 ;
+        skos:broader    :n135 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ulmen, Verbandsgemeinde"@de .
 
@@ -17183,7 +17168,7 @@
         skos:prefLabel  "Wilzenburg"@de .
 
 :n33510  a              skos:Concept ;
-        skos:broader    :n3351 ;
+        skos:broader    :n335 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Otterbach-Otterberg, Verbandsgemeinde"@de .
 
@@ -17218,7 +17203,7 @@
         skos:prefLabel  "Friedelsheim"@de .
 
 :n33908  a              skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sprendlingen-Gensingen, Verbandsgemeinde"@de .
 
@@ -17323,7 +17308,7 @@
         skos:prefLabel  "Rodalberhof"@de .
 
 :n33404  a              skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kandel, Verbandsgemeinde"@de .
 
@@ -17433,7 +17418,7 @@
         skos:prefLabel  "Emmelbaum"@de .
 
 :n23506  a              skos:Concept ;
-        skos:broader    :n2350 ;
+        skos:broader    :n235 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Schweich an der Röm. Weinstraße, Verbandsgemeinde"@de .
 
@@ -17537,15 +17522,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Donsieders"@de .
 
+:n33903  a              skos:Concept ;
+        skos:broader    :n339 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Gau-Algesheim, Verbandsgemeinde"@de .
+
 :n14009149  a           skos:Concept ;
         skos:broader    :n14009 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Thörlingen"@de .
-
-:n33903  a              skos:Concept ;
-        skos:broader    :n3390 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Gau-Algesheim, Verbandsgemeinde"@de .
 
 :n14008150  a           skos:Concept ;
         skos:broader    :n14008 ;
@@ -17562,15 +17547,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dörscheid"@de .
 
+:n14309226  a           skos:Concept ;
+        skos:broader    :n14309 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Girkenroth"@de .
+
 :n13306086  a           skos:Concept ;
         skos:broader    :n13306 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Roxheim"@de .
 
-:n14309226  a           skos:Concept ;
-        skos:broader    :n14309 ;
+:n231   a               skos:Concept ;
+        skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Girkenroth"@de .
+        skos:prefLabel  "Bernkastel-Wittlich, Landkreis"@de .
 
 :n14304024  a           skos:Concept ;
         skos:broader    :n14304 ;
@@ -17718,7 +17708,7 @@
         skos:prefLabel  "Hergenfeld"@de .
 
 :n23501  a              skos:Concept ;
-        skos:broader    :n2350 ;
+        skos:broader    :n235 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hermeskeil, Verbandsgemeinde"@de .
 
@@ -17753,7 +17743,7 @@
         skos:prefLabel  "Hövels"@de .
 
 :n33900005  a           skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bingen am Rhein, große kreisangehörige Stadt"@de .
 
@@ -17792,15 +17782,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Höhn"@de .
 
-:n137000030308  a       skos:Concept ;
-        skos:broader    :n13700003 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Pönterhof"@de .
-
 :n23301018  a           skos:Concept ;
         skos:broader    :n23301 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dockweiler"@de .
+
+:n137000030308  a       skos:Concept ;
+        skos:broader    :n13700003 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Pönterhof"@de .
 
 :n133000060200  a       skos:Concept ;
         skos:broader    :n13300006 ;
@@ -17808,7 +17798,7 @@
         skos:prefLabel  "Bosenheim (Ortsbezirk)"@de .
 
 :n33800005  a           skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Böhl-Iggelheim"@de .
 
@@ -17932,6 +17922,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lauterecken, Stadt"@de .
 
+:n141   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rhein-Lahn-Kreis, Landkreis"@de .
+
 :n340092170102  a       skos:Concept ;
         skos:broader    :n34009217 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -18053,7 +18048,7 @@
         skos:prefLabel  "Geisbüschhof"@de .
 
 :n33707  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Offenbach an der Queich, Verbandsgemeinde"@de .
 
@@ -18123,7 +18118,7 @@
         skos:prefLabel  "Sankt Julian"@de .
 
 :n13801  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Asbach, Verbandsgemeinde"@de .
 
@@ -18393,7 +18388,7 @@
         skos:prefLabel  "Gau-Heppenheim"@de .
 
 :n33702  a              skos:Concept ;
-        skos:broader    :n3370 ;
+        skos:broader    :n337 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Bergzabern, Verbandsgemeinde"@de .
 
@@ -18708,7 +18703,7 @@
         skos:prefLabel  "Schladt"@de .
 
 :n13101  a              skos:Concept ;
-        skos:broader    :n1310 ;
+        skos:broader    :n131 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Adenau, Verbandsgemeinde"@de .
 
@@ -18753,7 +18748,7 @@
         skos:prefLabel  "Tettscheid (Ortsbezirk)"@de .
 
 :n23109  a              skos:Concept ;
-        skos:broader    :n2310 ;
+        skos:broader    :n231 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Traben-Trarbach, Verbandsgemeinde"@de .
 
@@ -18816,6 +18811,11 @@
         skos:broader    :n14109 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Weyer"@de .
+
+:n338   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rhein-Pfalz-Kreis , Landkreis"@de .
 
 :n23306056  a           skos:Concept ;
         skos:broader    :n23306 ;
@@ -19303,7 +19303,7 @@
         skos:prefLabel  "Dickenschied"@de .
 
 :n33501  a              skos:Concept ;
-        skos:broader    :n3350 ;
+        skos:broader    :n335 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bruchmühlbach-Miesau, Verbandsgemeinde"@de .
 
@@ -19427,15 +19427,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Traben-Trarbach, Stadt"@de .
 
+:n14111  a              skos:Concept ;
+        skos:broader    :n141 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Aar-Einrich, Verbandsgemeinde"@de .
+
 :n339000050600  a       skos:Concept ;
         skos:broader    :n33900005 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gaulsheim"@de .
-
-:n14111  a              skos:Concept ;
-        skos:broader    :n1411 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Aar-Einrich, Verbandsgemeinde"@de .
 
 :n340092250100  a       skos:Concept ;
         skos:broader    :n34009225 ;
@@ -19481,11 +19481,6 @@
         skos:broader    :n13208054 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberhövels"@de .
-
-:n1410  a               skos:Concept ;
-        skos:broader    :n6 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rhein-Lahn-Kreis, Landkreis"@de .
 
 :n14110098  a           skos:Concept ;
         skos:broader    :n14110 ;
@@ -19767,6 +19762,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niederdürenbach"@de .
 
+:n137   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Mayen-Koblenz, Landkreis"@de .
+
 :n312000002100  a       skos:Concept ;
         skos:broader    :n31200000 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -19908,7 +19908,7 @@
         skos:prefLabel  "Hochheim (Ortsbezirk)"@de .
 
 :n33800017  a           skos:Concept ;
-        skos:broader    :n3380 ;
+        skos:broader    :n338 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Limburgerhof"@de .
 
@@ -20033,7 +20033,7 @@
         skos:prefLabel  "Beilstein"@de .
 
 :n13700203  a           skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bendorf, Stadt"@de .
 
@@ -20062,15 +20062,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Steineberg"@de .
 
+:n33804  a              skos:Concept ;
+        skos:broader    :n338 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Maxdorf, Verbandsgemeinde"@de .
+
 :n14305009  a           skos:Concept ;
         skos:broader    :n14305 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Deesen"@de .
-
-:n14302261  a           skos:Concept ;
-        skos:broader    :n14302 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Marzhausen"@de .
 
 :n33511002  a           skos:Concept ;
         skos:broader    :n33511 ;
@@ -20078,7 +20078,7 @@
         skos:prefLabel  "Bann"@de .
 
 :n13208  a              skos:Concept ;
-        skos:broader    :n1320 ;
+        skos:broader    :n132 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wissen, Verbandsgemeinde"@de .
 
@@ -20112,6 +20112,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wederath (Ortsbezirk)"@de .
 
+:n14302261  a           skos:Concept ;
+        skos:broader    :n14302 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Marzhausen"@de .
+
 :n13210082  a           skos:Concept ;
         skos:broader    :n13210 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -20121,11 +20126,6 @@
         skos:broader    :n33705 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Heuchelheim-Klingen"@de .
-
-:n33804  a              skos:Concept ;
-        skos:broader    :n3380 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Maxdorf, Verbandsgemeinde"@de .
 
 :n13501065  a           skos:Concept ;
         skos:broader    :n13501 ;
@@ -20358,7 +20358,7 @@
         skos:prefLabel  "Gebhardshain"@de .
 
 :n14308  a              skos:Concept ;
-        skos:broader    :n1430 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wallmerod, Verbandsgemeinde"@de .
 
@@ -20378,7 +20378,7 @@
         skos:prefLabel  "Weroth"@de .
 
 :n13707  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Vallendar, Verbandsgemeinde"@de .
 
@@ -20473,7 +20473,7 @@
         skos:prefLabel  "Frankeneck"@de .
 
 :n13203  a              skos:Concept ;
-        skos:broader    :n1320 ;
+        skos:broader    :n132 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Daaden-Herdorf, Verbandsgemeinde"@de .
 
@@ -20638,7 +20638,7 @@
         skos:prefLabel  "Unkenbach"@de .
 
 :n33608  a              skos:Concept ;
-        skos:broader    :n3360 ;
+        skos:broader    :n336 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lauterecken-Wolfstein, Verbandsgemeinde"@de .
 
@@ -20683,7 +20683,7 @@
         skos:prefLabel  "Oppenhausen (Ortsbezirk)"@de .
 
 :n14303  a              skos:Concept ;
-        skos:broader    :n1430 ;
+        skos:broader    :n143 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Höhr-Grenzhausen, Verbandsgemeinde"@de .
 
@@ -20708,7 +20708,7 @@
         skos:prefLabel  "Lindenberg"@de .
 
 :n13702  a              skos:Concept ;
-        skos:broader    :n1370 ;
+        skos:broader    :n137 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Maifeld, Verbandsgemeinde"@de .
 
@@ -20838,7 +20838,7 @@
         skos:prefLabel  "Wassenach"@de .
 
 :n23206  a              skos:Concept ;
-        skos:broader    :n2320 ;
+        skos:broader    :n232 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Prüm, Verbandsgemeinde"@de .
 
@@ -21212,7 +21212,7 @@
         skos:prefLabel  "Mittelhofen"@de .
 
 :n14107  a              skos:Concept ;
-        skos:broader    :n1410 ;
+        skos:broader    :n141 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nastätten, Verbandsgemeinde"@de .
 
@@ -21242,7 +21242,7 @@
         skos:prefLabel  "Galenberg"@de .
 
 :n23201  a              skos:Concept ;
-        skos:broader    :n2320 ;
+        skos:broader    :n232 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Arzfeld, Verbandsgemeinde"@de .
 
@@ -21516,10 +21516,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Krutweiler (Ortsbezirk)"@de .
 
-:n14307066  a           skos:Concept ;
-        skos:broader    :n14307 ;
+:n34008  a              skos:Concept ;
+        skos:broader    :n340 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Schenkelberg"@de .
+        skos:prefLabel  "Zweibrücken-Land, Verbandsgemeinde"@de .
 
 :n132060960106  a       skos:Concept ;
         skos:broader    :n13206096 ;
@@ -21531,10 +21531,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Arzbach"@de .
 
-:n34008  a              skos:Concept ;
-        skos:broader    :n3400 ;
+:n14307066  a           skos:Concept ;
+        skos:broader    :n14307 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Zweibrücken-Land, Verbandsgemeinde"@de .
+        skos:prefLabel  "Schenkelberg"@de .
 
 :n131020390103  a       skos:Concept ;
         skos:broader    :n13102039 ;
@@ -21592,7 +21592,7 @@
         skos:prefLabel  "Büdingen"@de .
 
 :n13501  a              skos:Concept ;
-        skos:broader    :n1350 ;
+        skos:broader    :n135 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Cochem, Verbandsgemeinde"@de .
 
@@ -21797,7 +21797,7 @@
         skos:prefLabel  "Klingbachhof"@de .
 
 :n33906  a              skos:Concept ;
-        skos:broader    :n3390 ;
+        skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nieder-Olm, Verbandsgemeinde"@de .
 
@@ -21806,15 +21806,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niederich"@de .
 
-:n13702112  a           skos:Concept ;
-        skos:broader    :n13702 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Welling"@de .
-
 :n23501030  a           skos:Concept ;
         skos:broader    :n23501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Geisfeld"@de .
+
+:n13702112  a           skos:Concept ;
+        skos:broader    :n13702 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Welling"@de .
 
 :n13306089  a           skos:Concept ;
         skos:broader    :n13306 ;
@@ -21896,15 +21896,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Döttingen"@de .
 
+:n34003  a              skos:Concept ;
+        skos:broader    :n340 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Pirmasens-Land, Verbandsgemeinde"@de .
+
 :n14307061  a           skos:Concept ;
         skos:broader    :n14307 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Quirnbach"@de .
-
-:n34003  a              skos:Concept ;
-        skos:broader    :n3400 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Pirmasens-Land, Verbandsgemeinde"@de .
 
 :n231001340100  a       skos:Concept ;
         skos:broader    :n23100134 ;
@@ -21917,7 +21917,7 @@
         skos:prefLabel  "Kettrichhof (Ortsbezirk)"@de .
 
 :n33402  a              skos:Concept ;
-        skos:broader    :n3340 ;
+        skos:broader    :n334 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hagenbach, Verbandsgemeinde"@de .
 
@@ -21971,15 +21971,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Biebelhausen"@de .
 
+:n13100070  a           skos:Concept ;
+        skos:broader    :n131 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Remagen, Stadt"@de .
+
 :n13210078  a           skos:Concept ;
         skos:broader    :n13210 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niedersteinebach"@de .
-
-:n13100070  a           skos:Concept ;
-        skos:broader    :n1310 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Remagen, Stadt"@de .
 
 :n334005010200  a       skos:Concept ;
         skos:broader    :n33400501 ;
@@ -22052,12 +22052,12 @@
         skos:prefLabel  "Heimborn"@de .
 
 :n13809  a              skos:Concept ;
-        skos:broader    :n1380 ;
+        skos:broader    :n138 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rengsdorf-Waldbreitbach, Verbandsgemeinde"@de .
 
 :n23504  a              skos:Concept ;
-        skos:broader    :n2350 ;
+        skos:broader    :n235 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ruwer, Verbandsgemeinde"@de .
 
