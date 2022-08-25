@@ -1297,7 +1297,7 @@
     skos:broader <http://purl.org/lobid/rpb#n240000> ;
     skos:notation "rpb242500" ;
     skos:prefLabel "Hochstift Speyer"@de .
-F
+
 <http://purl.org/lobid/rpb#n242600>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n240000> ;
@@ -5656,7 +5656,7 @@ F
 <http://purl.org/lobid/rpb#n784000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n780000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n784010>, <http://purl.org/lobid/rpb#n784016>, <http://purl.org/lobid/rpb#n784020>, http://purl.org/lobid/rpb#n784025>, <http://purl.org/lobid/rpb#n784030>, <http://purl.org/lobid/rpb#n784035>, <http://purl.org/lobid/rpb#n784040>, <http://purl.org/lobid/rpb#n784041>, <http://purl.org/lobid/rpb#n784042>, <http://purl.org/lobid/rpb#n784043>, <http://purl.org/lobid/rpb#n784033>, <http://purl.org/lobid/rpb#n784044>, <http://purl.org/lobid/rpb#n784045>, <http://purl.org/lobid/rpb#n784046>, <http://purl.org/lobid/rpb#n784047>, <http://purl.org/lobid/rpb#n784048>, <http://purl.org/lobid/rpb#n784049>, <http://purl.org/lobid/rpb#n784050>, <http://purl.org/lobid/rpb#n784060>, <http://purl.org/lobid/rpb#n784070>, <http://purl.org/lobid/rpb#n784080>, <http://purl.org/lobid/rpb#n784090> ;
+    skos:narrower <http://purl.org/lobid/rpb#n784010>, <http://purl.org/lobid/rpb#n784016>, <http://purl.org/lobid/rpb#n784020>, <http://purl.org/lobid/rpb#n784025>, <http://purl.org/lobid/rpb#n784030>, <http://purl.org/lobid/rpb#n784035>, <http://purl.org/lobid/rpb#n784040>, <http://purl.org/lobid/rpb#n784041>, <http://purl.org/lobid/rpb#n784042>, <http://purl.org/lobid/rpb#n784043>, <http://purl.org/lobid/rpb#n784033>, <http://purl.org/lobid/rpb#n784044>, <http://purl.org/lobid/rpb#n784045>, <http://purl.org/lobid/rpb#n784046>, <http://purl.org/lobid/rpb#n784047>, <http://purl.org/lobid/rpb#n784048>, <http://purl.org/lobid/rpb#n784049>, <http://purl.org/lobid/rpb#n784050>, <http://purl.org/lobid/rpb#n784060>, <http://purl.org/lobid/rpb#n784070>, <http://purl.org/lobid/rpb#n784080>, <http://purl.org/lobid/rpb#n784090> ;
     skos:notation "rpb784000" ;
     skos:prefLabel "Allgemein bildende Schule"@de .
 
