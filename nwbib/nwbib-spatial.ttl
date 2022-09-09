@@ -4910,7 +4910,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-09-02" ;
+        dct:modified                   "2022-09-09" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -13119,6 +13119,13 @@ nwbib-spatial:Q1019955
         skos:prefLabel  "Börnhausen"@de ;
         foaf:focus      wd:Q1019955 .
 
+nwbib-spatial:Q27901871
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q254458 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Derscheid"@de ;
+        foaf:focus      wd:Q27901871 .
+
 nwbib-spatial:Q1743618
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q241450 ;
@@ -16334,6 +16341,13 @@ nwbib-spatial:Q1805516
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Lankern"@de ;
         foaf:focus      wd:Q1805516 .
+
+nwbib-spatial:Q105455560
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2758 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Uedding"@de ;
+        foaf:focus      wd:Q105455560 .
 
 nwbib-spatial:Q1719629
         a               skos:Concept ;
