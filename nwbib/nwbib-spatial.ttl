@@ -4910,7 +4910,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-09-13" ;
+        dct:modified                   "2022-09-15" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -17824,6 +17824,13 @@ nwbib-spatial:Q2239953
         skos:prefLabel  "Ahausen"@de ;
         foaf:focus      wd:Q2239953 .
 
+nwbib-spatial:Q2380724
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q182857 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Südfelde"@de ;
+        foaf:focus      wd:Q2380724 .
+
 nwbib-spatial:Q1784044
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6111 ;
@@ -24723,19 +24730,19 @@ nwbib-spatial:Q28151475
         skos:prefLabel  "Lüttelforst"@de ;
         foaf:focus      wd:Q28151475 .
 
-nwbib-spatial:Q3146968
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q243433 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hau"@de ;
-        foaf:focus      wd:Q3146968 .
-
 nwbib-spatial:Q1318117
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q163570 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Kehn"@de ;
         foaf:focus      wd:Q1318117 .
+
+nwbib-spatial:Q3146968
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q243433 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Hau"@de ;
+        foaf:focus      wd:Q3146968 .
 
 nwbib-spatial:Q53904  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6234 ;
