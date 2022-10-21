@@ -1460,6 +1460,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Minderlittgen"@de .
 
+:n336   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kusel, Landkreis"@de .
+
 :n13405028  a           skos:Concept ;
         skos:broader    :n13405 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -2380,6 +2385,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mittelrheinisches Becken"@de .
 
+:n135   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Cochem-Zell, Landkreis"@de .
+
 :n00Sn02k2161a  a       skos:Concept ;
         skos:broader    :n20 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -2555,10 +2565,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Driesch"@de .
 
-:n33610089  a           skos:Concept ;
-        skos:broader    :n33610 ;
+:n13703049  a           skos:Concept ;
+        skos:broader    :n13703 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rutsweiler am Glan"@de .
+        skos:prefLabel  "Kirchwald"@de .
 
 :n14    a               skos:Concept ;
         skos:broader    :n2 ;
@@ -2570,10 +2580,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Freusburgermühle"@de .
 
-:n13703049  a           skos:Concept ;
-        skos:broader    :n13703 ;
+:n33610089  a           skos:Concept ;
+        skos:broader    :n33610 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Kirchwald"@de .
+        skos:prefLabel  "Rutsweiler am Glan"@de .
 
 :n13306033  a           skos:Concept ;
         skos:broader    :n13306 ;
@@ -4387,7 +4397,7 @@
 :n232   a               skos:Concept ;
         skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Eifelkreis Bitburg-Prüm, Landkreis"@de .
+        skos:prefLabel  "Eifelkreis Bitburg-Prüm"@de .
 
 :n13210103  a           skos:Concept ;
         skos:broader    :n13210 ;
@@ -7704,7 +7714,7 @@
         dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)." ;
         dct:issued                     "2022-08-26" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-08-25" ;
+        dct:modified                   "2022-10-21" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Spatial classification scheme for the Bibiography of Rhineland-Palatinate"@en , "Raumsystematik der Rheinland-Pfälzischen Bibliographie"@de ;
         vann:preferredNamespacePrefix  "rpb-spatial" ;
@@ -8629,6 +8639,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Norken"@de .
 
+:n235   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Trier-Saarburg, Landkreis"@de .
+
 :n23205072  a           skos:Concept ;
         skos:broader    :n23205 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -9382,7 +9397,7 @@
 :n140   a               skos:Concept ;
         skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rhein-Hunsrück-Kreis, Landkreis"@de .
+        skos:prefLabel  "Rhein-Hunsrück-Kreis"@de .
 
 :n4051096n7  a          skos:Concept ;
         skos:broader    :n50 ;
@@ -10253,6 +10268,11 @@
         skos:broader    :n13210040 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Amteroth"@de .
+
+:n337   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Südliche Weinstraße, Landkreis"@de .
 
 :n336080730102  a       skos:Concept ;
         skos:broader    :n33608073 ;
@@ -13178,15 +13198,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kindsbach"@de .
 
+:n14309228  a           skos:Concept ;
+        skos:broader    :n14309 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Guckheim"@de .
+
 :n13306088  a           skos:Concept ;
         skos:broader    :n13306 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sankt Katharinen"@de .
 
-:n14309228  a           skos:Concept ;
-        skos:broader    :n14309 ;
+:n233   a               skos:Concept ;
+        skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Guckheim"@de .
+        skos:prefLabel  "Vulkaneifel, Landkreis"@de .
 
 :n14304026  a           skos:Concept ;
         skos:broader    :n14304 ;
@@ -13582,6 +13607,11 @@
         skos:broader    :n13702501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Küttig (Ortsbezirk)"@de .
+
+:n143   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Westerwald-Kreis"@de .
 
 :n33107011  a           skos:Concept ;
         skos:broader    :n33107 ;
@@ -14662,6 +14692,11 @@
         skos:broader    :n13206038 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oppertsau"@de .
+
+:n335   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kaiserslautern, Landkreis"@de .
 
 :n23306053  a           skos:Concept ;
         skos:broader    :n23306 ;
@@ -17925,7 +17960,7 @@
 :n141   a               skos:Concept ;
         skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rhein-Lahn-Kreis, Landkreis"@de .
+        skos:prefLabel  "Rhein-Lahn-Kreis"@de .
 
 :n340092170102  a       skos:Concept ;
         skos:broader    :n34009217 ;
@@ -18815,7 +18850,7 @@
 :n338   a               skos:Concept ;
         skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rhein-Pfalz-Kreis , Landkreis"@de .
+        skos:prefLabel  "Rhein-Pfalz-Kreis"@de .
 
 :n23306056  a           skos:Concept ;
         skos:broader    :n23306 ;
@@ -19181,6 +19216,11 @@
         skos:broader    :n34008 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wiesbach"@de .
+
+:n333   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Donnersberg-Kreis"@de .
 
 :n13405025  a           skos:Concept ;
         skos:broader    :n13405 ;
@@ -20161,6 +20201,11 @@
         skos:broader    :n33608 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kappeln"@de .
+
+:n132   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Altenkirchen(Ww), Landkreis"@de .
 
 :n14107104  a           skos:Concept ;
         skos:broader    :n14107 ;
@@ -21660,6 +21705,11 @@
         skos:broader    :n23508 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mandern"@de .
+
+:n340   a               skos:Concept ;
+        skos:broader    :n6 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Südwestpfalz, Landkreis"@de .
 
 :n132090060200  a       skos:Concept ;
         skos:broader    :n13209006 ;
