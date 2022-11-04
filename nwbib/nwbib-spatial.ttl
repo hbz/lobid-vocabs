@@ -4910,7 +4910,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-09-15" ;
+        dct:modified                   "2022-11-04" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -29730,6 +29730,13 @@ nwbib-spatial:Q883858
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Blerichen"@de ;
         foaf:focus      wd:Q883858 .
+
+nwbib-spatial:Q2563512
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253498 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Werthhoven"@de ;
+        foaf:focus      wd:Q2563512 .
 
 nwbib-spatial:Q54803601
         a               skos:Concept ;
