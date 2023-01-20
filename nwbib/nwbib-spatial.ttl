@@ -239,7 +239,7 @@ nwbib-spatial:Q446870
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Kalk (Stadtbezirk)"@de ;
+        skos:prefLabel  "Kalk (Stadtbezirk)"@de ;
         foaf:focus      wd:Q446870 .
 
 nwbib-spatial:Q762492
@@ -750,7 +750,7 @@ nwbib-spatial:Q1321518
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200640 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hochmoor"@de ;
+        skos:prefLabel  "Gescher-Hochmoor"@de ;
         foaf:focus      wd:Q1321518 .
 
 nwbib-spatial:Q56009018
@@ -4917,7 +4917,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-12-15" ;
+        dct:modified                   "2023-01-20" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -5846,7 +5846,7 @@ nwbib-spatial:Q446857
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Innenstadt (Stadtbezirk)"@de ;
+        skos:prefLabel  "Innenstadt (Stadtbezirk)"@de ;
         foaf:focus      wd:Q446857 .
 
 nwbib-spatial:Q1547007
@@ -9622,7 +9622,7 @@ nwbib-spatial:Q446864
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Chorweiler (Stadtbezirk)"@de ;
+        skos:prefLabel  "Chorweiler (Stadtbezirk)"@de ;
         foaf:focus      wd:Q446864 .
 
 nwbib-spatial:Q894441
@@ -10072,7 +10072,7 @@ nwbib-spatial:Q446716
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Rodenkirchen (Stadtbezirk)"@de ;
+        skos:prefLabel  "Rodenkirchen (Stadtbezirk)"@de ;
         foaf:focus      wd:Q446716 .
 
 nwbib-spatial:Q1959104
@@ -11455,6 +11455,13 @@ nwbib-spatial:Q1021839
         skos:prefLabel  "Büttenberg"@de ;
         foaf:focus      wd:Q1021839 .
 
+nwbib-spatial:Q22694545
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q5632 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Wallen"@de ;
+        foaf:focus      wd:Q22694545 .
+
 nwbib-spatial:Q1241123
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6961 ;
@@ -11613,7 +11620,7 @@ nwbib-spatial:Q518491
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Lindenthal (Stadtbezirk)"@de ;
+        skos:prefLabel  "Lindenthal (Stadtbezirk)"@de ;
         foaf:focus      wd:Q518491 .
 
 nwbib-spatial:Q316951
@@ -13586,7 +13593,7 @@ nwbib-spatial:Q518604
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Nippes (Stadtbezirk)"@de ;
+        skos:prefLabel  "Nippes (Stadtbezirk)"@de ;
         foaf:focus      wd:Q518604 .
 
 nwbib-spatial:Q1997843
@@ -13840,7 +13847,7 @@ nwbib-spatial:Q153779
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Mülheim (Stadtbezirk)"@de ;
+        skos:prefLabel  "Mülheim (Stadtbezirk)"@de ;
         foaf:focus      wd:Q153779 .
 
 nwbib-spatial:Q1987623
@@ -14361,7 +14368,7 @@ nwbib-spatial:Q458126
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Ehrenfeld (Stadtbezirk)"@de ;
+        skos:prefLabel  "Ehrenfeld (Stadtbezirk)"@de ;
         foaf:focus      wd:Q458126 .
 
 nwbib-spatial:Q59140358
@@ -14926,7 +14933,7 @@ nwbib-spatial:Q1534965
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q446716 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Sürth"@de ;
+        skos:prefLabel  "Sürth (Köln)"@de ;
         foaf:focus      wd:Q1534965 .
 
 nwbib-spatial:Q1533738
@@ -16016,7 +16023,7 @@ nwbib-spatial:Q19284594
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2834 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Göttingen"@de ;
+        skos:prefLabel  "Liesborn-Göttingen"@de ;
         foaf:focus      wd:Q19284594 .
 
 nwbib-spatial:Q2534487
@@ -16619,7 +16626,7 @@ nwbib-spatial:Q2309080
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q255416 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Spenrath"@de ;
+        skos:prefLabel  "Alt-Spenrath"@de ;
         foaf:focus      wd:Q2309080 .
 
 nwbib-spatial:Q153903
@@ -21381,7 +21388,7 @@ nwbib-spatial:Q1625098
 nwbib-spatial:Q5657  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q518604 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bilderstöckchen"@de ;
+        skos:prefLabel  "Bilderstöckchen (Köln)"@de ;
         foaf:focus      wd:Q5657 .
 
 nwbib-spatial:Q607614
@@ -23519,7 +23526,7 @@ nwbib-spatial:Q458242
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q365 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Köln-Porz (Stadtbezirk)"@de ;
+        skos:prefLabel  "Porz (Stadtbezirk)"@de ;
         foaf:focus      wd:Q458242 .
 
 nwbib-spatial:Q1272261
@@ -24410,7 +24417,7 @@ nwbib-spatial:Q2041586
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q255416 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Otzenrath (bis 2008)"@de ;
+        skos:prefLabel  "Alt-Otzenrath (bis 2008)"@de ;
         foaf:focus      wd:Q2041586 .
 
 nwbib-spatial:Q15123474
