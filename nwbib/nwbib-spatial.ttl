@@ -4917,7 +4917,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-01-20" ;
+        dct:modified                   "2023-01-23" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -14632,7 +14632,7 @@ nwbib-spatial:Q44023866
         skos:broader    nwbib-spatial:Q323826 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Knittkuhl"@de ;
-        foaf:focus      wd:Q44023866 .
+        foaf:focus      wd:Q17351610 .
 
 nwbib-spatial:Q2125590
         a               skos:Concept ;
