@@ -3252,7 +3252,7 @@
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n544050> ;
     skos:notation "rpb544056" ;
-    skos:prefLabel "Landarbeiter"@de .
+    skos:prefLabel "Landarbeiterin. Landarbeiter"@de .
 
 <http://purl.org/lobid/rpb#n544060>
     a skos:Concept ;
@@ -5656,7 +5656,7 @@
 <http://purl.org/lobid/rpb#n784000>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n780000> ;
-    skos:narrower <http://purl.org/lobid/rpb#n784010>, <http://purl.org/lobid/rpb#n784016>, <http://purl.org/lobid/rpb#n784020>, <http://purl.org/lobid/rpb#n784025>, <http://purl.org/lobid/rpb#n784030>, <http://purl.org/lobid/rpb#n784035>, <http://purl.org/lobid/rpb#n784040>, <http://purl.org/lobid/rpb#n784041>, <http://purl.org/lobid/rpb#n784042>, <http://purl.org/lobid/rpb#n784043>, <http://purl.org/lobid/rpb#n784033>, <http://purl.org/lobid/rpb#n784044>, <http://purl.org/lobid/rpb#n784045>, <http://purl.org/lobid/rpb#n784046>, <http://purl.org/lobid/rpb#n784047>, <http://purl.org/lobid/rpb#n784048>, <http://purl.org/lobid/rpb#n784049>, <http://purl.org/lobid/rpb#n784050>, <http://purl.org/lobid/rpb#n784060>, <http://purl.org/lobid/rpb#n784070>, <http://purl.org/lobid/rpb#n784080>, <http://purl.org/lobid/rpb#n784090> ;
+    skos:narrower <http://purl.org/lobid/rpb#n784010>, <http://purl.org/lobid/rpb#n784016>, <http://purl.org/lobid/rpb#n784020>, <http://purl.org/lobid/rpb#n784025>, <http://purl.org/lobid/rpb#n784030>, <http://purl.org/lobid/rpb#n784035>, <http://purl.org/lobid/rpb#n784040>, <http://purl.org/lobid/rpb#n784041>, <http://purl.org/lobid/rpb#n784042>, <http://purl.org/lobid/rpb#n784043>, <http://purl.org/lobid/rpb#n784044>, <http://purl.org/lobid/rpb#n784045>, <http://purl.org/lobid/rpb#n784046>, <http://purl.org/lobid/rpb#n784047>, <http://purl.org/lobid/rpb#n784048>, <http://purl.org/lobid/rpb#n784049>, <http://purl.org/lobid/rpb#n784050>, <http://purl.org/lobid/rpb#n784060>, <http://purl.org/lobid/rpb#n784070>, <http://purl.org/lobid/rpb#n784080>, <http://purl.org/lobid/rpb#n784090> ;
     skos:notation "rpb784000" ;
     skos:prefLabel "Allgemein bildende Schule"@de .
 
@@ -5730,12 +5730,13 @@
 <http://purl.org/lobid/rpb#n784043>
     a skos:Concept ;
     skos:broader <http://purl.org/lobid/rpb#n784000> ;
+    skos:narrower <http://purl.org/lobid/rpb#n784033> ;
     skos:notation "rpb784043" ;
     skos:prefLabel "Realschule"@de .
 
 <http://purl.org/lobid/rpb#n784033>
     a skos:Concept ;
-    skos:broader <http://purl.org/lobid/rpb#n784000> ;
+    skos:broader <http://purl.org/lobid/rpb#n784043> ;
     skos:notation "rpb784033" ;
     skos:prefLabel "Realschule Plus"@de .
 
