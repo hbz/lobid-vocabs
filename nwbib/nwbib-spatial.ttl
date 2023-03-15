@@ -750,7 +750,7 @@ nwbib-spatial:Q1321518
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200640 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Gescher-Hochmoor"@de ;
+        skos:prefLabel  "Hochmoor (Gescher)"@de ;
         foaf:focus      wd:Q1321518 .
 
 nwbib-spatial:Q56009018
@@ -912,7 +912,7 @@ nwbib-spatial:Q865488
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10956 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Birkelbach (Erndtebrück)"@de ;
+        skos:prefLabel  "Birkelbach"@de ;
         foaf:focus      wd:Q865488 .
 
 nwbib-spatial:Q200894
@@ -4917,7 +4917,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-01-23" ;
+        dct:modified                   "2023-03-15" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12201,6 +12201,13 @@ nwbib-spatial:Q27907265
         skos:prefLabel  "Hufe"@de ;
         foaf:focus      wd:Q27907265 .
 
+nwbib-spatial:Q59594697
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q245466 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Scheuren"@de ;
+        foaf:focus      wd:Q59594697 .
+
 nwbib-spatial:Q892667
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q892684 ;
@@ -16023,7 +16030,7 @@ nwbib-spatial:Q19284594
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2834 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Liesborn-Göttingen"@de ;
+        skos:prefLabel  "Göttingen (Wadersloh)"@de ;
         foaf:focus      wd:Q19284594 .
 
 nwbib-spatial:Q2534487
@@ -17723,7 +17730,7 @@ nwbib-spatial:Q1670480
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q7025 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lützerath"@de ;
+        skos:prefLabel  "Lützerath (bis 2023)"@de ;
         foaf:focus      wd:Q1670480 .
 
 nwbib-spatial:Q1501157
@@ -21388,7 +21395,7 @@ nwbib-spatial:Q1625098
 nwbib-spatial:Q5657  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q518604 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bilderstöckchen (Köln)"@de ;
+        skos:prefLabel  "Bilderstöckchen"@de ;
         foaf:focus      wd:Q5657 .
 
 nwbib-spatial:Q607614
@@ -23570,6 +23577,13 @@ nwbib-spatial:Q877120
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Küdinghoven"@de ;
         foaf:focus      wd:Q877120 .
+
+nwbib-spatial:Q1242335
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q4060 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Stotzheim"@de ;
+        foaf:focus      wd:Q1242335 .
 
 nwbib-spatial:Q1737716
         a               skos:Concept ;
