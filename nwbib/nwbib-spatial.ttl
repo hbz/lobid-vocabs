@@ -4917,7 +4917,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-03-23" ;
+        dct:modified                   "2023-04-27" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -9229,13 +9229,6 @@ nwbib-spatial:Q3971  a  skos:Concept ;
         skos:prefLabel  "Herford"@de ;
         foaf:focus      wd:Q3971 .
 
-nwbib-spatial:Q1978684
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q255235 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "St. Martinus"@de ;
-        foaf:focus      wd:Q1978684 .
-
 nwbib-spatial:Q2357464
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10958 ;
@@ -10065,7 +10058,7 @@ nwbib-spatial:Q1520246
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200122 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Gevenich (Linnich)"@de ;
+        skos:prefLabel  "Gevenich"@de ;
         foaf:focus      wd:Q1520246 .
 
 nwbib-spatial:Q446716
@@ -11473,7 +11466,7 @@ nwbib-spatial:Q1331787
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200059 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ellen (Niederzier)"@de ;
+        skos:prefLabel  "Ellen"@de ;
         foaf:focus      wd:Q1331787 .
 
 nwbib-spatial:Q2009245
@@ -16432,6 +16425,13 @@ nwbib-spatial:Q1450941
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Langenei"@de ;
         foaf:focus      wd:Q1450941 .
+
+nwbib-spatial:Q117595925
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2948 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Röckrath"@de ;
+        foaf:focus      wd:Q117595925 .
 
 nwbib-spatial:Q1478782
         a               skos:Concept ;
@@ -24522,7 +24522,7 @@ nwbib-spatial:Q2429850
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q199988 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Thum (Kreuzau)"@de ;
+        skos:prefLabel  "Thum"@de ;
         foaf:focus      wd:Q2429850 .
 
 nwbib-spatial:Q18923127
@@ -27146,6 +27146,13 @@ nwbib-spatial:Q1384350
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Hamm"@de ;
         foaf:focus      wd:Q1384350 .
+
+nwbib-spatial:Q59168726
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q255235 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Nettesheim"@de ;
+        foaf:focus      wd:Q59168726 .
 
 nwbib-spatial:Q1723245
         a               skos:Concept ;
