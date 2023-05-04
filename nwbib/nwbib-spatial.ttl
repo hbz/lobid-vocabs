@@ -4917,7 +4917,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-04-27" ;
+        dct:modified                   "2023-05-04" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -30058,6 +30058,13 @@ nwbib-spatial:N77  a    skos:Concept ;
         skos:notation   "77" ;
         skos:prefLabel  "Preußische Provinz Westfalen"@de ;
         foaf:focus      wd:Q829718 .
+
+nwbib-spatial:Q1430425
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q200122 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Floßdorf"@de ;
+        foaf:focus      wd:Q1430425 .
 
 nwbib-spatial:Q2289707
         a               skos:Concept ;
