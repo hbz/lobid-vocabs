@@ -2852,6 +2852,13 @@ nwbib-spatial:Q1917708
         skos:prefLabel  "Meierberg"@de ;
         foaf:focus      wd:Q1917708 .
 
+nwbib-spatial:Q1524435
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q5628 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Nierentrop"@de ;
+        foaf:focus      wd:Q1524435 .
+
 nwbib-spatial:Q2462352
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q243526 ;
@@ -4917,7 +4924,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-05-04" ;
+        dct:modified                   "2023-05-31" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -11994,7 +12001,7 @@ nwbib-spatial:Q864049
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200068 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Binsfeld (Nörvenich)"@de ;
+        skos:prefLabel  "Binsfeld"@de ;
         foaf:focus      wd:Q864049 .
 
 nwbib-spatial:Q263744
@@ -12156,7 +12163,7 @@ nwbib-spatial:Q1250850
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200068 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Dorweiler (Nörvenich)"@de ;
+        skos:prefLabel  "Dorweiler"@de ;
         foaf:focus      wd:Q1250850 .
 
 nwbib-spatial:Q881250
@@ -23282,6 +23289,13 @@ nwbib-spatial:Q1921817
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Merklinde"@de ;
         foaf:focus      wd:Q1921817 .
+
+nwbib-spatial:Q908119
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10929 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Bremke"@de ;
+        foaf:focus      wd:Q908119 .
 
 nwbib-spatial:Q1664975
         a               skos:Concept ;
