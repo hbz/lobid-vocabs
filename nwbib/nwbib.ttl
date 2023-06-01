@@ -3,6 +3,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix : <https://nwbib.de/subjects#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 
 <https://nwbib.de/subjects>
     a skos:ConceptScheme ;
@@ -6869,7 +6870,7 @@
     skos:notation "844500" ;
     skos:prefLabel "Stadtbaukunst"@de ;
     skos:closeMatch wd:Q1550861 ;
-    skos:example "Treppenhäuser im öffentlichen Raum" .
+    skos:example "Treppenhäuser im öffentlichen Raum"@de .
 
 :N845000
     a skos:Concept ;
