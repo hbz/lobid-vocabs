@@ -6867,7 +6867,9 @@
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844500" ;
-    skos:prefLabel "Stadtbaukunst"@de .
+    skos:prefLabel "Stadtbaukunst"@de ;
+    skos:closeMatch wd:Q1550861 ;
+    skos:example "Treppenhäuser im öffentlichen Raum" .
 
 :N845000
     a skos:Concept ;
