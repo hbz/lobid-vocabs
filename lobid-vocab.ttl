@@ -594,3 +594,16 @@ lv:zdbID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#dnbID>
+
+lv:dnbID
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "DNB-ID"@de ;
+   rdfs:label "DNB ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "DNB-Nummer. Der Identifier, der einer bibliographischen Ressource im Katalog der DNB (Deutsche National Bibliothek) zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the catalogue of the German National Library (DNB, Deutsche National Bibliothek))."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
