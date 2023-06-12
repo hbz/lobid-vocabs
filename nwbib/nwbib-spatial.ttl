@@ -4924,7 +4924,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-06-01" ;
+        dct:modified                   "2023-06-12" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -20869,6 +20869,13 @@ nwbib-spatial:Q55988759
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Hees"@de ;
         foaf:focus      wd:Q55988759 .
+
+nwbib-spatial:Q818997
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11064 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Berenbrock"@de ;
+        foaf:focus      wd:Q818997 .
 
 nwbib-spatial:Q1812138
         a               skos:Concept ;
