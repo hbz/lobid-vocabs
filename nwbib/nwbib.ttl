@@ -4,6 +4,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix : <https://nwbib.de/subjects#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
+@prefix gnd: <https://d-nb.info/gnd/> .
 
 <https://nwbib.de/subjects>
     a skos:ConceptScheme ;
@@ -3024,8 +3025,8 @@
     skos:notation "542000" ;
     skos:prefLabel "Wirtschaftsgeschichte"@de ;
 	skos:definition "Geschichtswissenschaft mit ökonomischem und sozialwissenschaftlichem Schwerpunkt"@de ;
-	skos:editorialNote "wird verwendet, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc."@de ;
-	skos:exactMatch wd:Q47398, <https://d-nb.info/gnd/7504419-5> .
+	skos:scopeNote "Wird verwendet, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc."@de ;
+	skos:exactMatch wd:Q47398, gnd:7504419-5 .
 
 :N543000
     a skos:Concept ;
@@ -3732,7 +3733,7 @@
     skos:prefLabel "Fremdenverkehr"@de ;
 	skos:altLabel "Tourismus"@de, "Touristik"@de, "tourism"@en ;
 	skos:definition "Überbegriff für Reisen, die Reisebranche und das Gastgewerbe und die Freizeitwirtschaft"@de ;
-	skos:exactMatch wd:Q49389, <https://d-nb.info/gnd/4018406-7> .
+	skos:exactMatch wd:Q49389, gnd:4018406-7 .
 
 :N548820
     a skos:Concept ;
@@ -6735,7 +6736,7 @@
     skos:prefLabel "Architektur"@de ;
 	skos:definition "Gebäude im öffentlichen Raum"@de ;
 	skos:editorialNote "nicht bei Baudenkmälern anwenden, dafür s. entspr. Notation unter 844000 Baudenkmäler.Kunstwerke"@de ;
-	skos:exactMatch wd:Q12271 , <https://d-nb.info/gnd/4002851-3> .
+	skos:exactMatch wd:Q12271 , gnd:4002851-3 .
 
 :N843010
     a skos:Concept ;
@@ -6745,7 +6746,7 @@
     skos:prefLabel "Baukonstruktion. Bautechnik"@de ;
 	skos:altLabel "human-made geographic feature"@en ;
 	skos:definition "Konstruktion von Bauwerken und Gebäuden"@de , "Bau- und Herstellungsprozess"@de ;
-	skos:exactMatch wd:Q811430, <https://d-nb.info/gnd/4004821-4> .
+	skos:exactMatch wd:Q811430, gnd:4004821-4 .
 
 :N843020
     a skos:Concept ;
@@ -6883,7 +6884,7 @@
     skos:prefLabel "Stadtbaukunst"@de ;
 	skos:definition "Stadtbildprägende Bauten, als Ensemble erbaut"@de, "Kunst am Bau"@de ;
     skos:example "Treppenhäuser im öffentlichen Raum"@de , "Rundgang zum Thema Stadt und Kunst"@de ;
-	skos:closeMatch <https://d-nb.info/gnd/4056795-3> .
+	skos:closeMatch gnd:4056795-3 .
 
 :N845000
     a skos:Concept ;
