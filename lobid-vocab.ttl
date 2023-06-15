@@ -612,7 +612,7 @@ lv:dnbID
 
 lv:bibliographicLevel
    rdf:type owl:DatatypeProperty ;
-   rdfs:label "Bibliografischer Level"@de ;
+   rdfs:label "Bibliografisches Level"@de ;
    rdfs:label "Bibliographic Level"@en ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Beschreibt das bibliografische Level einer Ressource, angeleht an MARC 21-Leader 07 - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@de ;
