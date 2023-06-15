@@ -23,7 +23,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2022-01-13"^^xsd:date ;
+   dct:modified "2023-06-15"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -607,3 +607,17 @@ lv:dnbID
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#bibliographicLevel>
+
+lv:bibliographicLevel
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Bibliografisches Level"@de ;
+   rdfs:label "Bibliographic Level"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Beschreibt das bibliografische Level einer Ressource, angeleht an MARC 21-Leader 07 - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@de ;
+   rdfs:comment "Describes the bibliographic level of a resource, based on MARC 21-Leader 07 -  - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+   
