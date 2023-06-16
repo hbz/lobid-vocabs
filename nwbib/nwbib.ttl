@@ -94,14 +94,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N102060, :N102070, :N105000 ;
     skos:notation "102000" ;
-    skos:prefLabel "Landesbeschreibungen"@de .
+    skos:prefLabel "Landesbeschreibungen"@de ;
+    skos:definition "Als Landesbeschreibung wurden frühe Formen der geografischen Landesaufnahme bezeichnet. Ab dem 17. Jahrhundert verstand man darunter eine Sammlung topografischer Karten kombiniert mit textlicher Beschreibung von Landschaft und Städten (Wikipedia)"@de ;
+    skos:scopeNote "auch Bilder/Bildbände"@de, "freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
 
 :N102060
     a skos:Concept ;
     skos:broader :N102000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102060" ;
-    skos:prefLabel "Reiseberichte"@de .
+    skos:prefLabel "Reiseberichte"@de ;
+    skos:scopeNote "auch Kunstführer"@de, "freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
 
 :N102070
     a skos:Concept ;
@@ -129,7 +132,10 @@
     skos:broader :N100000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "109000" ;
-    skos:prefLabel "Biographien"@de .
+    skos:prefLabel "Biographien"@de ;
+    skos:definition "Lebensbeschreibung einer Person"@de ;
+    skos:scopeNote "Biographisches Material über einzelne Personen ist auch in den Sachgebieten sowie unter dem Registereintrag Biographien / ... verzeichnet"@de ;
+    skos:exactMatch wd:Q36279, gnd:4006804-3 .
 
 :N120000
     a skos:Concept ;
@@ -137,7 +143,8 @@
     skos:broader :N1 ;
     skos:narrower :N120100, :N122000, :N124000, :N126000 ;
     skos:notation "120000" ;
-    skos:prefLabel "Kartographie. Geodäsie"@de .
+    skos:prefLabel "Kartographie. Geodäsie"@de ;
+    skos:scopeNote "Karten einzelner Regionen und Orte s. im Regionen- bzw. Ortsteil im Sachgebiet "Kartographie. Geodäsie" oder unter dem Registereintrag: Karten"@de .
 
 :N120100
     a skos:Concept ;
@@ -253,7 +260,10 @@
     skos:broader :N141200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141210" ;
-    skos:prefLabel "Historische Geologie"@de .
+    skos:prefLabel "Historische Geologie"@de ;
+    skos:definition "Teilgebiet der Geologie mit Forschungs- und Lehrgegenstand der Erdgeschichte"@de ;
+	skos:scopeNote "nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen"@de ;
+	skos:exactMatch wd:Q754590, <https://d-nb.info/gnd/4025104-4> .
 
 :N141220
     a skos:Concept ;
@@ -334,7 +344,9 @@
     skos:broader :N141400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141460" ;
-    skos:prefLabel "Mineralquellen. Thermalquellen"@de .
+    skos:prefLabel "Mineralquellen. Thermalquellen"@de ;
+    skos:scopeNote "freie SW: Mineralquelle bzw. Thermalquelle"@de ;
+    skos:exactMatch wd:Q1365924, wd:Q177380, gnd:4170037-5, gnd:4191517-3 .
 
 :N141600
     a skos:Concept ;
