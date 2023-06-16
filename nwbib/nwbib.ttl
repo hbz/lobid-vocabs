@@ -145,7 +145,7 @@
     skos:narrower :N120100, :N122000, :N124000, :N126000 ;
     skos:notation "120000" ;
     skos:prefLabel "Kartographie. Geodäsie"@de ;
-    skos:scopeNote "Karten einzelner Regionen und Orte s. im Regionen- bzw. Ortsteil im Sachgebiet "Kartographie. Geodäsie" oder unter dem Registereintrag: Karten"@de .
+    skos:scopeNote "Karten einzelner Regionen und Orte s. im Regionen- bzw. Ortsteil im Sachgebiet \"Kartographie. Geodäsie\" oder unter dem Registereintrag: Karten"@de .
 
 :N120100
     a skos:Concept ;
