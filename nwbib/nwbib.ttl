@@ -1,6 +1,5 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix gnd: <https://d-nb.info/gnd/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix : <https://nwbib.de/subjects#> .
@@ -98,7 +97,7 @@
     skos:notation "102000" ;
     skos:prefLabel "Landesbeschreibungen"@de ;
     skos:definition "Als Landesbeschreibung wurden frühe Formen der geografischen Landesaufnahme bezeichnet. Ab dem 17. Jahrhundert verstand man darunter eine Sammlung topografischer Karten kombiniert mit textlicher Beschreibung von Landschaft und Städten (Wikipedia)"@de ;
-    skos:scopeNote "auch Bilder/Bildbände"@de, "freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
+    skos:scopeNote "auch Bilder/Bildbände"@de, "Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
 
 :N102060
     a skos:Concept ;
@@ -106,7 +105,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102060" ;
     skos:prefLabel "Reiseberichte"@de ;
-    skos:scopeNote "auch Kunstführer"@de, "freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
+    skos:scopeNote "auch Kunstführer"@de, "Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
 
 :N102070
     a skos:Concept ;
@@ -347,7 +346,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141460" ;
     skos:prefLabel "Mineralquellen. Thermalquellen"@de ;
-    skos:scopeNote "freie SW: Mineralquelle bzw. Thermalquelle"@de ;
+    skos:scopeNote "Freie SW: Mineralquelle bzw. Thermalquelle"@de ;
     skos:exactMatch wd:Q1365924, wd:Q177380, gnd:4170037-5, gnd:4191517-3 .
 
 :N141600
@@ -538,7 +537,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142310, :N142320, :N142330, :N142340, :N142350, :N142360, :N142370, :N142380, :N142390 ;
     skos:notation "142300" ;
-    skos:prefLabel "Wasser"@de .
+    skos:prefLabel "Wasser"@de ;
+    skos:scopeNote "Mineralbrunnen u. Thermalquellen, s. [Sachgebiet \"Mineralogie: Mineralquellen. Thermalquellen\"](https://nwbib.de/subjects#N141460)"@de ;
+    skos:exactMatch wd:Q283, gnd:4064689-0 .
 
 :N142310
     a skos:Concept ;
@@ -589,7 +590,9 @@
     skos:broader :N142350 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142352" ;
-    skos:prefLabel "Bodenwasser. Grundwasser"@de .
+    skos:prefLabel "Bodenwasser. Grundwasser"@de ;
+    skos:scopeNote "Freie SW: Bodenwasser; Grundwasser"@de ;
+    skos:exactMatch wd:Q1316304, wd:Q161598 , gnd:4007420-1 , gnd:4022369-3 .
 
 :N142360
     a skos:Concept ;
@@ -604,7 +607,11 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142372, :N142373, :N142375 ;
     skos:notation "142370" ;
-    skos:prefLabel "Wasserwirtschaft"@de .
+    skos:prefLabel "Wasserwirtschaft"@de ;
+    skos:altLabel "Wasserversorgung, Wasserversorgungswirtschaft, Wassermanagement"@de ;
+    skos:definition "Bewirtschaftung des Wassers durch den Menschen"@de ;
+    skos:scopeNote "Notation 142375 Brauchwasser"@de ;
+    skos:exactMatch wd:Q1501619, gnd:4064821-7 .
 
 :N142372
     a skos:Concept ;
@@ -684,14 +691,16 @@
     skos:broader :N142520 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142524" ;
-    skos:prefLabel "Niederschlag"@de .
+    skos:prefLabel "Niederschlag"@de ;
+    skos:scopeNote "Freie SW: Luftfeuchtigkeit; Niederschlag"@de .
 
 :N142526
     a skos:Concept ;
     skos:broader :N142520 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142526" ;
-    skos:prefLabel "Luft"@de .
+    skos:prefLabel "Luft"@de ;
+    skos:scopeNote "Freie SW: z.B. Wind"@de .
 
 :N142530
     a skos:Concept ;
@@ -734,7 +743,9 @@
     skos:broader :N140000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "146000" ;
-    skos:prefLabel "Geoökologie"@de .
+    skos:prefLabel "Geoökologie"@de ;
+    skos:definition "Wiss., die sich aus geograph.-geowiss. Sicht mit dem Landschaftshaushalt in räuml. Ausprägung beschäftigt"@de ;
+    skos:exactMatch wd:Q1265151, gnd:4137703-5 .
 
 :N160000
     a skos:Concept ;
@@ -778,7 +789,9 @@
     skos:broader :N161000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "161040" ;
-    skos:prefLabel "Lebensgemeinschaften von Tieren und Pflanzen"@de .
+    skos:prefLabel "Lebensgemeinschaften von Tieren und Pflanzen"@de ;
+    skos:altLabel "Biozönose"@de ;
+    skos:exactMatch wd:Q184806, gnd:4167021-8 .
 
 :N161050
     a skos:Concept ;
@@ -843,7 +856,8 @@
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163030" ;
-    skos:prefLabel "Insekten. Spinnen"@de .
+    skos:prefLabel "Insekten. Spinnen"@de ;
+    skos:scopeNote "Schmetterlinge, Libellen"@de .
 
 :N163040
     a skos:Concept ;
@@ -972,7 +986,8 @@
     skos:broader :N205000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "205020" ;
-    skos:prefLabel "Geld. Münzen"@de .
+    skos:prefLabel "Geld. Münzen"@de ;
+    skos:scopeNote "Freie SW: Geld; Münze"@de .
 
 :N205040
     a skos:Concept ;
@@ -1022,7 +1037,9 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "209000" ;
-    skos:prefLabel "Orden. Ehrenzeichen"@de .
+    skos:prefLabel "Orden. Ehrenzeichen"@de ;
+    skos:scopeNote "S.a. [Sachgebiet \"Militärische Auszeichnungen\"](https://nwbib.de/subjects#N262026), freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
+    skos:exactMatch gnd:4121162-5 .
 
 :N210000
     a skos:Concept ;
@@ -1045,7 +1062,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N213010, :N213020, :N213030, :N213040, :N213050, :N213060, :N213070, :N213080, :N213090 ;
     skos:notation "213000" ;
-    skos:prefLabel "Archive"@de .
+    skos:prefLabel "Archive"@de ;
+    skos:scopeNote "Einzelne Kreis- u. Stadtarchive"@de .
 
 :N213010
     a skos:Concept ;
@@ -1059,7 +1077,8 @@
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213020" ;
-    skos:prefLabel "Kreisarchive. Stadtarchive"@de .
+    skos:prefLabel "Kreisarchive. Stadtarchive"@de ;
+    skos:scopeNote "Freie SW: Kreisarchiv; Stadtarchiv"@de .
 
 :N213030
     a skos:Concept ;
@@ -1094,7 +1113,8 @@
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213070" ;
-    skos:prefLabel "Pressearchive. Rundfunkarchive"@de .
+    skos:prefLabel "Pressearchive. Rundfunkarchive"@de ;
+    skos:scopeNote "Freie SW: Pressearchiv; Rundfunkarchiv"@de .
 
 :N213080
     a skos:Concept ;
@@ -1124,7 +1144,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N217010, :N217020, :N217030, :N217040, :N217050, :N217090 ;
     skos:notation "217000" ;
-    skos:prefLabel "Museen und Sammlungen"@de .
+    skos:prefLabel "Museen und Sammlungen"@de ;
+    skos:scopeNote "Kunstmuseen s. [Sachgebiet \"Kunstmuseen und Kunstsammlungen\"](https://nwbib.de/subjects#N841040)"@de .
 
 :N217010
     a skos:Concept ;
@@ -1153,7 +1174,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N217042 ;
     skos:notation "217040" ;
-    skos:prefLabel "Historische Museen"@de .
+    skos:prefLabel "Historische Museen"@de ;
+    skos:example "LVR Bonn"@de .
 
 :N217042
     a skos:Concept ;
@@ -1196,7 +1218,8 @@
     skos:broader :N220000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "220500" ;
-    skos:prefLabel "Archäologie"@de .
+    skos:prefLabel "Archäologie"@de ;
+    skos:scopeNote "z.B. Archäologie mit Geschichte"@de, "Hier nur Archäologie bis zum Mittelalter; \"methodische\" Stelle"@de .
 
 :N221000
     a skos:Concept ;
@@ -1210,7 +1233,8 @@
     skos:broader :N220000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "222000" ;
-    skos:prefLabel "Paläolithikum. Mesolithikum"@de .
+    skos:prefLabel "Paläolithikum. Mesolithikum"@de ;
+    skos:scopeNote "Freie SW: Paläolithikum; Mesolithikum"@de .
 
 :N223000
     a skos:Concept ;
@@ -1218,28 +1242,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N223020, :N223030, :N223040, :N223050, :N223060, :N223070 ;
     skos:notation "223000" ;
-    skos:prefLabel "Neolithikum"@de .
+    skos:prefLabel "Neolithikum"@de ;
+    skos:scopeNote "5300-2150 v.Chr."@de .
 
 :N223020
     a skos:Concept ;
     skos:broader :N223000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223020" ;
-    skos:prefLabel "Bandkeramische Kultur"@de .
+    skos:prefLabel "Bandkeramische Kultur"@de ;
+    skos:scopeNote "5300-4900 v.Chr."@de .
 
 :N223030
     a skos:Concept ;
     skos:broader :N223000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223030" ;
-    skos:prefLabel "Rössener Kultur"@de .
+    skos:prefLabel "Rössener Kultur"@de ;
+    skos:scopeNote "4800-4600 v.Chr."@de .
 
 :N223040
     a skos:Concept ;
     skos:broader :N223000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223040" ;
-    skos:prefLabel "Michelsberger Kultur"@de .
+    skos:prefLabel "Michelsberger Kultur"@de ;
+    skos:scopeNote "4300-2800 v.Chr."@de .
 
 :N223050
     a skos:Concept ;
@@ -1260,7 +1288,8 @@
     skos:broader :N223000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223070" ;
-    skos:prefLabel "Glockenbecherkultur"@de .
+    skos:prefLabel "Glockenbecherkultur"@de ;
+    skos:scopeNote "2800-2150 v.Chr."@de .
 
 :N224000
     a skos:Concept ;
@@ -1268,21 +1297,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N224050, :N224060 ;
     skos:notation "224000" ;
-    skos:prefLabel "Bronzezeit"@de .
+    skos:prefLabel "Bronzezeit"@de ;
+    skos:scopeNote "2150-800 v.Chr."@de .
 
 :N224050
     a skos:Concept ;
     skos:broader :N224000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "224050" ;
-    skos:prefLabel "Hügelgräberkultur"@de .
+    skos:prefLabel "Hügelgräberkultur"@de ;
+    skos:scopeNote "1500-1300 v.Chr."@de .
 
 :N224060
     a skos:Concept ;
     skos:broader :N224000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "224060" ;
-    skos:prefLabel "Urnenfelderkultur"@de .
+    skos:prefLabel "Urnenfelderkultur"@de ;
+    skos:scopeNote "1300-800 v.Chr."@de .
 
 :N225000
     a skos:Concept ;
@@ -1290,21 +1322,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N225020, :N225030, :N225040, :N225050 ;
     skos:notation "225000" ;
-    skos:prefLabel "Vorrömische Eisenzeit"@de .
+    skos:prefLabel "Vorrömische Eisenzeit"@de ;
+    skos:scopeNote "800 v.Chr.- um Chr. Geburt"@de .
 
 :N225020
     a skos:Concept ;
     skos:broader :N225000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225020" ;
-    skos:prefLabel "Hallstattkultur"@de .
+    skos:prefLabel "Hallstattkultur"@de ;
+    skos:scopeNote "800-475 v.Chr."@de .
 
 :N225030
     a skos:Concept ;
     skos:broader :N225000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225030" ;
-    skos:prefLabel "Latène-Zeit"@de .
+    skos:prefLabel "Latène-Zeit"@de ;
+    skos:scopeNote "475 v.Chr.- um Chr. Geburt"@de .
 
 :N225040
     a skos:Concept ;
@@ -1369,7 +1404,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N227020, :N227030, :N227040 ;
     skos:notation "227000" ;
-    skos:prefLabel "Völkerwanderungszeit"@de .
+    skos:prefLabel "Völkerwanderungszeit"@de ;
+    skos:scopeNote "4.-6. Jh."@de .
 
 :N227020
     a skos:Concept ;
@@ -1397,7 +1433,8 @@
     skos:broader :N220000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "228000" ;
-    skos:prefLabel "Mittelalter und Neuzeit"@de .
+    skos:prefLabel "Mittelalter und Neuzeit"@de ;
+    skos:scopeNote "500-1500"@de .
 
 :N240000
     a skos:Concept ;
@@ -1405,7 +1442,8 @@
     skos:broader :N2 ;
     skos:narrower :N240100, :N240200, :N240500, :N240600, :N249800 ;
     skos:notation "240000" ;
-    skos:prefLabel "Geschichte"@de .
+    skos:prefLabel "Geschichte"@de ;
+    skos:scopeNote "Wird verwendet, wenn mehrere Aspekte von Geschichte, insb. politische Geschichte, angesprochen werden"@de, "Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet (z.B. 542000, 263020 etc)"@de .
 
 :N240100
     a skos:Concept ;
@@ -1478,7 +1516,8 @@
     skos:broader :N262010 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262011" ;
-    skos:prefLabel "Burgen"@de .
+    skos:prefLabel "Burgen"@de ;
+    skos:scopeNote "Wenn militärisch behandelt wird"@de, "s.a. 844040"@de .
 
 :N262012
     a skos:Concept ;
@@ -1535,7 +1574,8 @@
     skos:broader :N262020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262026" ;
-    skos:prefLabel "Militärische Auszeichnungen"@de .
+    skos:prefLabel "Militärische Auszeichnungen"@de ;
+    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei 2090000)"@de .
 
 :N263000
     a skos:Concept ;
@@ -1578,7 +1618,8 @@
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263050" ;
-    skos:prefLabel "Besatzungstruppen. Ausländische Streitkräfte"@de .
+    skos:prefLabel "Besatzungstruppen. Ausländische Streitkräfte"@de ;
+    skos:scopeNote "Freie SW: Besatzungstruppe; Ausländisches Militär"@de .
 
 :N263060
     a skos:Concept ;
@@ -1644,7 +1685,9 @@
     skos:broader :N402000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402060" ;
-    skos:prefLabel "Staatsformen"@de .
+    skos:prefLabel "Staatsformen"@de ;
+    skos:scopeNote "Benutzt für historische Themen"@de ;
+    skos:exactMatch wd:Q183039, gnd:4077779-0 .
 
 :N402070
     a skos:Concept ;
@@ -1709,7 +1752,8 @@
     skos:broader :N404000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404070" ;
-    skos:prefLabel "Regierungspolitik"@de .
+    skos:prefLabel "Regierungspolitik"@de ;
+    skos:scopeNote "Auch bei Regionalpolitik verwendet"@de .
 
 :N404300
     a skos:Concept ;
@@ -2178,7 +2222,8 @@
     skos:broader :N425400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425490" ;
-    skos:prefLabel "Kreispartnerschaften"@de .
+    skos:prefLabel "Kreispartnerschaften"@de ;
+    skos:scopeNote "Analog zu [Städtepartnerschaft](https://nwbib.de/subjects#N426090)"@de .
 
 :N426000
     a skos:Concept ;
@@ -2235,7 +2280,8 @@
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426090" ;
-    skos:prefLabel "Städtepartnerschaften"@de .
+    skos:prefLabel "Städtepartnerschaften"@de ;
+    skos:scopeNote "Analog zu [Kreispartnerschaften](https://nwbib.de/subjects#N425490)"@de .
 
 :N428000
     a skos:Concept ;
@@ -2301,7 +2347,8 @@
     skos:broader :N428000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428060" ;
-    skos:prefLabel "Personenstand"@de .
+    skos:prefLabel "Personenstand"@de ;
+    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., ggf. zusätzl. [Quellen](https://nwbib.de/subjects#N240100) u. Kirchengemeinden (https://nwbib.de/subjects#N611030 o. https://nwbib.de/subjects#N613030)"@de .
 
 :N428070
     a skos:Concept ;
@@ -2337,7 +2384,8 @@
     skos:broader :N428070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428078" ;
-    skos:prefLabel "Katastrophen. Unfälle"@de .
+    skos:prefLabel "Katastrophen. Unfälle"@de ;
+    skos:scopeNote "Freie SW: Katastrophe; Unfall"@de .
 
 :N440000
     a skos:Concept ;
@@ -2512,7 +2560,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N503020, :N503030, :N503040, :N503050, :N503060, :N503070, :N503080, :N503090 ;
     skos:notation "503000" ;
-    skos:prefLabel "Bevölkerungsstruktur"@de .
+    skos:prefLabel "Bevölkerungsstruktur"@de ;
+    skos:scopeNote "Statistiken, s.a. [Sozialstruktur](https://nwbib.de/subjects#N724000)"@de .
 
 :N503020
     a skos:Concept ;
@@ -2540,7 +2589,8 @@
     skos:broader :N503000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503050" ;
-    skos:prefLabel "Einwohnerverzeichnisse"@de .
+    skos:prefLabel "Einwohnerverzeichnisse"@de ;
+    skos:scopeNote "Benutzt für Verzeichnisse, zusätzl. [Quellen](https://nwbib.de/subjects#N240100)"@de .
 
 :N503060
     a skos:Concept ;
@@ -2561,7 +2611,8 @@
     skos:broader :N503000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503080" ;
-    skos:prefLabel "Einkommen. Vermögen"@de .
+    skos:prefLabel "Einkommen. Vermögen"@de ;
+    skos:scopeNote "Statistiken, s.a. [Sachgebiet \"Lohn und Einkommen\"](https://nwbib.de/subjects#N543660), freie SW: Einkommen; Vermögen"@de .
 
 :N503090
     a skos:Concept ;
@@ -2590,21 +2641,24 @@
     skos:broader :N503200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503230" ;
-    skos:prefLabel "Geburtenziffer"@de .
+    skos:prefLabel "Geburtenziffer"@de ;
+    skos:scopeNote "Für Statistiken verwenden"@de .
 
 :N503240
     a skos:Concept ;
     skos:broader :N503200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503240" ;
-    skos:prefLabel "Eheschließungen"@de .
+    skos:prefLabel "Eheschließungen"@de ;
+    skos:scopeNote "Für Statistiken verwenden"@de .
 
 :N503250
     a skos:Concept ;
     skos:broader :N503200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503250" ;
-    skos:prefLabel "Sterbeziffer"@de .
+    skos:prefLabel "Sterbeziffer"@de ;
+    skos:scopeNote "Für Statistiken verwenden"@de .
 
 :N503260
     a skos:Concept ;
@@ -2742,14 +2796,17 @@
     skos:broader :N522000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "522020" ;
-    skos:prefLabel "Kirchliche Träger"@de .
+    skos:prefLabel "Kirchliche Träger"@de ;
+    skos:example "Caritas etc."@de .
 
 :N522030
     a skos:Concept ;
     skos:broader :N522000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "522030" ;
-    skos:prefLabel "Private Träger"@de .
+    skos:prefLabel "Private Träger"@de ;
+    skos:example "AWO"@de ;
+    skos:scopeNote "Auch mildtätige Stiftungen"@de .
 
 :N523000
     a skos:Concept ;
@@ -2771,7 +2828,8 @@
     skos:broader :N523000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523010" ;
-    skos:prefLabel "Arbeitslosenhilfe"@de .
+    skos:prefLabel "Arbeitslosenhilfe"@de ;
+    skos:scopeNote "Hier nur Titel zur sozialen Betreuung, nicht zur Versicherung, s. [Arbeitslosenversicherung](https://nwbib.de/subjects#N521450)"@de .
 
 :N523020
     a skos:Concept ;
@@ -2786,7 +2844,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N523035 ;
     skos:notation "523030" ;
-    skos:prefLabel "Armenfürsorge"@de .
+    skos:prefLabel "Armenfürsorge"@de ;
+    skos:scopeNote "Auch für die Zeit nach 1960, wenn es sich um die soziale Betreuung handelt"@de .
 
 :N523035
     a skos:Concept ;
@@ -2800,14 +2859,16 @@
     skos:broader :N523000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523040" ;
-    skos:prefLabel "Unfallfürsorge"@de .
+    skos:prefLabel "Unfallfürsorge"@de ;
+    skos:scopeNote "Verwendet für die soziale Betreuung der Unfallopfer"@de .
 
 :N523050
     a skos:Concept ;
     skos:broader :N523000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523050" ;
-    skos:prefLabel "Krankenfürsorge"@de .
+    skos:prefLabel "Krankenfürsorge"@de ;
+    skos:scopeNote "Verwendet für die soziale Betreuung der Kranken, s.a. [Krankenpflege](https://nwbib.de/subjects#N534010)"@de .
 
 :N523060
     a skos:Concept ;
@@ -2850,7 +2911,8 @@
     skos:broader :N524000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "524010" ;
-    skos:prefLabel "Kinder- und Jugendhilfe"@de .
+    skos:prefLabel "Kinder- und Jugendhilfe"@de ;
+    skos:scopeNote "Freie SW: Kinderfürsorge; Jugendhilfe"@de .
 
 :N524030
     a skos:Concept ;
