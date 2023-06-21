@@ -1038,7 +1038,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "209000" ;
     skos:prefLabel "Orden. Ehrenzeichen"@de ;
-    skos:scopeNote "S.a. Sachgebiet \"Militärische Auszeichnungen\"(https://nwbib.de/subjects#N262026), freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
+    skos:scopeNote "S.a. [Sachgebiet \"Militärische Auszeichnungen\"](https://nwbib.de/subjects#N262026), freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
     skos:exactMatch gnd:4121162-5 .
 
 :N210000
@@ -1145,7 +1145,7 @@
     skos:narrower :N217010, :N217020, :N217030, :N217040, :N217050, :N217090 ;
     skos:notation "217000" ;
     skos:prefLabel "Museen und Sammlungen"@de ;
-    skos:scopeNote "Kunstmuseen s. Sachgebiet \"Kunstmuseen und Kunstsammlungen\"(https://nwbib.de/subjects#N841040)"@de .
+    skos:scopeNote "Kunstmuseen s. [Sachgebiet \"Kunstmuseen und Kunstsammlungen\"](https://nwbib.de/subjects#N841040)"@de .
 
 :N217010
     a skos:Concept ;
@@ -2223,7 +2223,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425490" ;
     skos:prefLabel "Kreispartnerschaften"@de ;
-    skos:scopeNote "Analog zu Städtepartnerschaft (https://nwbib.de/subjects#N426090)"@de .
+    skos:scopeNote "Analog zu [Städtepartnerschaft](https://nwbib.de/subjects#N426090)"@de .
 
 :N426000
     a skos:Concept ;
@@ -2281,7 +2281,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426090" ;
     skos:prefLabel "Städtepartnerschaften"@de ;
-    skos:scopeNote "Analog zu Kreispartnerschaften (https://nwbib.de/subjects#N425490)"@de .
+    skos:scopeNote "Analog zu [Kreispartnerschaften](https://nwbib.de/subjects#N425490)"@de .
 
 :N428000
     a skos:Concept ;
@@ -2348,7 +2348,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428060" ;
     skos:prefLabel "Personenstand"@de ;
-    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., ggf. zusätzl. Quellen (https://nwbib.de/subjects#N240100) u. Kirchengemeinden (https://nwbib.de/subjects#N611030 o. https://nwbib.de/subjects#N613030)"@de .
+    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., ggf. zusätzl. [Quellen](https://nwbib.de/subjects#N240100) u. Kirchengemeinden (https://nwbib.de/subjects#N611030 o. https://nwbib.de/subjects#N613030)"@de .
 
 :N428070
     a skos:Concept ;
@@ -2561,7 +2561,7 @@
     skos:narrower :N503020, :N503030, :N503040, :N503050, :N503060, :N503070, :N503080, :N503090 ;
     skos:notation "503000" ;
     skos:prefLabel "Bevölkerungsstruktur"@de ;
-    skos:scopeNote "Statistiken, s.a. Sozialstruktur (https://nwbib.de/subjects#N724000)"@de .
+    skos:scopeNote "Statistiken, s.a. [Sozialstruktur](https://nwbib.de/subjects#N724000)"@de .
 
 :N503020
     a skos:Concept ;
@@ -2590,7 +2590,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503050" ;
     skos:prefLabel "Einwohnerverzeichnisse"@de ;
-    skos:scopeNote "Benutzt für Verzeichnisse, zusätzl. Quellen (https://nwbib.de/subjects#N240100)"@de .
+    skos:scopeNote "Benutzt für Verzeichnisse, zusätzl. [Quellen](https://nwbib.de/subjects#N240100)"@de .
 
 :N503060
     a skos:Concept ;
@@ -2612,7 +2612,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503080" ;
     skos:prefLabel "Einkommen. Vermögen"@de ;
-    skos:scopeNote "Statistiken, s.a. Sachgebiet \"Lohn und Einkommen\"(https://nwbib.de/subjects#N543660), freie SW: Einkommen; Vermögen"@de .
+    skos:scopeNote "Statistiken, s.a. [Sachgebiet \"Lohn und Einkommen\"](https://nwbib.de/subjects#N543660), freie SW: Einkommen; Vermögen"@de .
 
 :N503090
     a skos:Concept ;
@@ -2829,7 +2829,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523010" ;
     skos:prefLabel "Arbeitslosenhilfe"@de ;
-    skos:scopeNote "Hier nur Titel zur sozialen Betreuung, nicht zur Versicherung, s. Arbeitslosenversicherung (https://nwbib.de/subjects#N521450)"@de .
+    skos:scopeNote "Hier nur Titel zur sozialen Betreuung, nicht zur Versicherung, s. [Arbeitslosenversicherung](https://nwbib.de/subjects#N521450)"@de .
 
 :N523020
     a skos:Concept ;
@@ -2868,7 +2868,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523050" ;
     skos:prefLabel "Krankenfürsorge"@de ;
-    skos:scopeNote "Verwendet für die soziale Betreuung der Kranken, s.a. Krankenpflege (https://nwbib.de/subjects#N534010)"@de .
+    skos:scopeNote "Verwendet für die soziale Betreuung der Kranken, s.a. [Krankenpflege](https://nwbib.de/subjects#N534010)"@de .
 
 :N523060
     a skos:Concept ;
