@@ -1577,7 +1577,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262026" ;
     skos:prefLabel "Militärische Auszeichnungen"@de ;
-    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei 2090000)"@de .
+    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](https://nwbib.de/subjects#N209000)"@de .
 
 :N263000
     a skos:Concept ;
@@ -3897,14 +3897,15 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "553000" ;
     skos:prefLabel "Straßenverkehr"@de ;
-    skos:scopeNote "Straßenbahn, U-Bahn, S-Bahn, Fahrradverkehr, Ruhender Verkehr"@de .
+    skos:scopeNote "Fahrradverkehr, Ruhender Verkehr"@de .
 
 :N554000
     a skos:Concept ;
     skos:broader :N550000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "554000" ;
-    skos:prefLabel "Öffentlicher Personennahverkehr"@de .
+    skos:prefLabel "Öffentlicher Personennahverkehr"@de ;
+    skos:scopeNote "Straßenbahn, U-Bahn, S-Bahn"@de .
 
 :N555000
     a skos:Concept ;
@@ -4855,11 +4856,7 @@
     skos:narrower :N617030, :N617050 ;
     skos:notation "617000" ;
     skos:prefLabel "Bestattungswesen"@de ;
-<<<<<<< HEAD
     skos:scopeNote "S.a. [Tod. Bestattung](https://nwbib.de/subjects#N704064)"@de .
-=======
-    skos:scopeNote "s.a. [Tod. Bestattung](https://nwbib.de/subjects#N704064)"@de .
->>>>>>> 80d3291a555ec977c350e8f9d781d09f23fa2ad2
 
 :N617030
     a skos:Concept ;
@@ -4895,7 +4892,8 @@
     skos:broader :N630000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "631000" ;
-    skos:prefLabel "Jüdische Religion"@de .
+    skos:prefLabel "Jüdische Religion"@de ;
+    skos:scopeNote "An dieser Stelle: Synagogen; Judenfriedhöfe etc."@de .
 
 :N632000
     a skos:Concept ;
@@ -4931,7 +4929,8 @@
     skos:broader :N630000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "637000" ;
-    skos:prefLabel "Sprache und Literatur der Juden"@de .
+    skos:prefLabel "Sprache und Literatur der Juden"@de ;
+    skos:scopeNote "Ggf. Jiddisch"@de .
 
 :N638000
     a skos:Concept ;
@@ -5042,7 +5041,8 @@
     skos:broader :N704040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704042" ;
-    skos:prefLabel "Winter. Weihnachten. Neujahr"@de .
+    skos:prefLabel "Winter. Weihnachten. Neujahr"@de ;
+    skos:scopeNote "Freie SW: Winter, Brauchtum"@de .
 
 :N704043
     a skos:Concept ;
@@ -5056,7 +5056,8 @@
     skos:broader :N704040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704044" ;
-    skos:prefLabel "Frühling. Ostern"@de .
+    skos:prefLabel "Frühling. Ostern"@de ;
+    skos:scopeNote "Freie SW: Ernte, Brauchtum"@de .
 
 :N704045
     a skos:Concept ;
@@ -5092,14 +5093,16 @@
     skos:broader :N704060 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704063" ;
-    skos:prefLabel "Liebe. Verlobung. Hochzeit"@de .
+    skos:prefLabel "Liebe. Verlobung. Hochzeit"@de ;
+    skos:scopeNote "Freie SW: Hochzeit, Brauchtum"@de .
 
 :N704064
     a skos:Concept ;
     skos:broader :N704060 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704064" ;
-    skos:prefLabel "Tod. Bestattung"@de .
+    skos:prefLabel "Tod. Bestattung"@de ;
+    skos:scopeNote "Freie SW: Tod, Brauchtum; s.a. [Bestattungswesen](https://nwbib.de/subjects#N617000)"@de .
 
 :N704070
     a skos:Concept ;
@@ -5136,7 +5139,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N704220, :N704250, :N704260, :N704270, :N704280 ;
     skos:notation "704200" ;
-    skos:prefLabel "Volkswissen. Volksglaube"@de .
+    skos:prefLabel "Volkswissen. Volksglaube"@de ;
+    skos:scopeNote "Hier auch Aberglaube"@de .
 
 :N704220
     a skos:Concept ;
@@ -5208,7 +5212,8 @@
     skos:broader :N704620 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704626" ;
-    skos:prefLabel "Volkstümliche Heiligenverehrung"@de .
+    skos:prefLabel "Volkstümliche Heiligenverehrung"@de ;
+    skos:scopeNote "S.a. [Heilige. Heiligenverehrung](https://nwbib.de/subjects#N611090)"@de .
 
 :N706000
     a skos:Concept ;
@@ -5346,7 +5351,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N708020, :N708030, :N708040, :N708050, :N708060 ;
     skos:notation "708000" ;
-    skos:prefLabel "Sachkulturforschung"@de .
+    skos:prefLabel "Sachkulturforschung"@de ;
+    skos:exactMatch gnd:4178835-7 .
 
 :N708020
     a skos:Concept ;
@@ -5361,21 +5367,24 @@
     skos:broader :N708020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708024" ;
-    skos:prefLabel "Bürgerhäuser"@de .
+    skos:prefLabel "Bürgerhäuser"@de ;
+    skos:scopeNote "S.a. [Wohnhäuser](https://nwbib.de/subjects#N843060)"@de .
 
 :N708028
     a skos:Concept ;
     skos:broader :N708020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708028" ;
-    skos:prefLabel "Bauernhäuser"@de .
+    skos:prefLabel "Bauernhäuser"@de ;
+    skos:scopeNote "Volkskundlicher Aspekt; s.a. [Bauernhäuser](https://nwbib.de/subjects#N843050), [Hofgeschichte](https://nwbib.de/subjects#N544030)"@de .
 
 :N708029
     a skos:Concept ;
     skos:broader :N708020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708029" ;
-    skos:prefLabel "Sonstige Landwirtschaftliche Gebäude. Mühlen"@de .
+    skos:prefLabel "Sonstige Landwirtschaftliche Gebäude. Mühlen"@de ;
+    skos:scopeNote "Freie SW: Wirtschaftsgebäude; Mühle"@de .
 
 :N708030
     a skos:Concept ;
@@ -5396,14 +5405,16 @@
     skos:broader :N708000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708050" ;
-    skos:prefLabel "Spielzeug. Spiele"@de .
+    skos:prefLabel "Spielzeug. Spiele"@de ;
+    skos:scopeNote "Freie SW: Spielzeug; Spiel"@de.
 
 :N708060
     a skos:Concept ;
     skos:broader :N708000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708060" ;
-    skos:prefLabel "Nahrung"@de .
+    skos:prefLabel "Nahrung"@de ;
+    skos:scopeNote "Hier auch Kochbücher"@de .
 
 :N708200
     a skos:Concept ;
@@ -5526,7 +5537,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N724020, :N724030, :N724040, :N724050, :N724060, :N724070 ;
     skos:notation "724000" ;
-    skos:prefLabel "Sozialstruktur"@de .
+    skos:prefLabel "Sozialstruktur"@de ;
+    skos:scopeNote "Schichte, soziale Netze; s.a. [Bevölkerungsstruktur](https://nwbib.de/subjects#N503000)"@de .
 
 :N724020
     a skos:Concept ;
@@ -5568,7 +5580,8 @@
     skos:broader :N724000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724070" ;
-    skos:prefLabel "Originale"@de .
+    skos:prefLabel "Originale"@de ;
+    skos:scopeNote "Bezieht sich auf Person"@de .
 
 :N725000
     a skos:Concept ;
@@ -5583,7 +5596,8 @@
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725010" ;
-    skos:prefLabel "Familie"@de .
+    skos:prefLabel "Familie"@de ;
+    skos:scopeNote "Hier auch familienähnliche Lebensgemeinschaften unterbringen"@de .
 
 :N725020
     a skos:Concept ;
@@ -5604,28 +5618,32 @@
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725040" ;
-    skos:prefLabel "Alternative Lebensformen"@de .
+    skos:prefLabel "Alternative Lebensformen"@de ;
+    skos:scopeNote "Hier auch Lebensgemeinschaften; familienähnliche Lebensgemeinschaften jedoch bei [Familie](https://nwbib.de/subjects#N725010)"@de .
 
 :N725050
     a skos:Concept ;
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725050" ;
-    skos:prefLabel "Vereine. Interessenverbände"@de .
+    skos:prefLabel "Vereine. Interessenverbände"@de ;
+    skos:scopeNote "Freie SW: Verein; Interessenverband"@de .
 
 :N725060
     a skos:Concept ;
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725060" ;
-    skos:prefLabel "Minderheiten. Randgruppen"@de .
+    skos:prefLabel "Minderheiten. Randgruppen"@de ;
+    skos:scopeNote "Minderheit bzw. Randgruppe frei verschlagworten"@de .
 
 :N725070
     a skos:Concept ;
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725070" ;
-    skos:prefLabel "Ausländer"@de .
+    skos:prefLabel "Ausländer"@de ;
+    skos:scopeNote "Hier auch Lit. zu Asylbewerbern bzw. -berechtigten unterbringen"@de .
 
 :N725080
     a skos:Concept ;
@@ -5646,7 +5664,8 @@
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "729000" ;
-    skos:prefLabel "Sexualität"@de .
+    skos:prefLabel "Sexualität"@de ;
+    skos:scopeNote "Freie SW: Homosexualität, Prostitution etc."@de .
 
 :N730000
     a skos:Concept ;
