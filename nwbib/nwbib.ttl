@@ -4855,7 +4855,7 @@
     skos:narrower :N617030, :N617050 ;
     skos:notation "617000" ;
     skos:prefLabel "Bestattungswesen"@de ;
-    skos:scopeNote "s.a. [Tod.Bestattung](https://nwbib.de/subjects#N704064)"@de .
+    skos:scopeNote "s.a. [Tod. Bestattung](https://nwbib.de/subjects#N704064)"@de .
 
 :N617030
     a skos:Concept ;
