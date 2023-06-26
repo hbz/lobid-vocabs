@@ -2350,7 +2350,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428060" ;
     skos:prefLabel "Personenstand"@de ;
-    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., ggf. zusätzl. [Quellen](https://nwbib.de/subjects#N240100) u. [Kirchengemeinden](https://nwbib.de/subjects#N611030 o. https://nwbib.de/subjects#N613030)"@de .
+    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., ggf. zusätzl. [Quellen](https://nwbib.de/subjects#N240100) u. [katholische](https://nwbib.de/subjects#N611030) o. [evangelische](https://nwbib.de/subjects#N613030) Kirchengemeinden"@de .
 
 :N428070
     a skos:Concept ;
