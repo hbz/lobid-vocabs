@@ -1518,7 +1518,7 @@
     skos:notation "262011" ;
     skos:prefLabel "Burgen"@de ;
     skos:definition "geschlossener, bewohnbarer Wehrbau"@de ;
-    skos:scopeNote "Wenn militärisch behandelt wird"@de, "s.a. [Sachgebiet Burgen.Schlösser](https://nwbib.de/subjects#N844040)"@de ;
+    skos:scopeNote "Wenn militärisch behandelt wird"@de, "s.a. [Sachgebiet Burgen. Schlösser](https://nwbib.de/subjects#N844040)"@de ;
     skos:exactMatch wd:Q23413, gnd:4009104-1 .
 
 :N262012
