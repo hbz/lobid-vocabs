@@ -5042,7 +5042,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704042" ;
     skos:prefLabel "Winter. Weihnachten. Neujahr"@de ;
-    skos:scopeNote "Freie SW: Winter, Brauchtum"@de .
+    skos:scopeNote "Freie SW: Winter; Brauchtum"@de .
 
 :N704043
     a skos:Concept ;
