@@ -1577,7 +1577,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262026" ;
     skos:prefLabel "Militärische Auszeichnungen"@de ;
-    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](https://nwbib.de/subjects#N209000)"@de .
+    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](https://nwbib.de/subjects#N209000))"@de .
 
 :N263000
     a skos:Concept ;
