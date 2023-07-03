@@ -4893,7 +4893,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "631000" ;
     skos:prefLabel "Jüdische Religion"@de ;
-    skos:scopeNote "An dieser Stelle: Synagogen; Judenfriedhöfe etc."@de .
+    skos:scopeNote "An dieser Stelle: Synagogen; jüdische Friedhöfe etc."@de .
 
 :N632000
     a skos:Concept ;
