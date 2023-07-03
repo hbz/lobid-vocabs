@@ -1451,7 +1451,8 @@
     skos:narrower :N240100, :N240200, :N240500, :N240600, :N249800 ;
     skos:notation "240000" ;
     skos:prefLabel "Geschichte"@de ;
-    skos:scopeNote "Wird verwendet, wenn mehrere Aspekte von Geschichte, insb. politische Geschichte, angesprochen werden"@de, "Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet (z.B. 542000, 263020 etc)"@de .
+    skos:example "Auch verwenden bei \"Kriegsende in Neuss 1945-1948\""@de ;
+    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden"@de, "Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de .
 
 :N240100
     a skos:Concept ;
@@ -1607,7 +1608,8 @@
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263020" ;
-    skos:prefLabel "Militärgeschichte"@de .
+    skos:prefLabel "Militärgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N263030
     a skos:Concept ;
@@ -1719,7 +1721,8 @@
     skos:broader :N402300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402330" ;
-    skos:prefLabel "Verfassungsgeschichte"@de .
+    skos:prefLabel "Verfassungsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn verfassungsrechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N402340
     a skos:Concept ;
@@ -1778,7 +1781,8 @@
     skos:broader :N404300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404320" ;
-    skos:prefLabel "Parlamentsgeschichte"@de .
+    skos:prefLabel "Parlamentsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn parlamentarischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N404340
     a skos:Concept ;
@@ -1993,7 +1997,8 @@
     skos:broader :N420000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "422000" ;
-    skos:prefLabel "Verwaltungsgeschichte"@de .
+    skos:prefLabel "Verwaltungsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Verwaltungsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N423000
     a skos:Concept ;
@@ -2418,7 +2423,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N442050 ;
     skos:notation "442000" ;
-    skos:prefLabel "Rechtsgeschichte"@de .
+    skos:prefLabel "Rechtsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn rechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N442050
     a skos:Concept ;
@@ -2461,7 +2467,8 @@
     skos:broader :N444000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "444070" ;
-    skos:prefLabel "Kriminalgeschichte"@de .
+    skos:prefLabel "Kriminalgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Kriminalaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N446000
     a skos:Concept ;
@@ -2562,7 +2569,8 @@
     skos:broader :N500000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "502000" ;
-    skos:prefLabel "Bevölkerungsgeschichte"@de .
+    skos:prefLabel "Bevölkerungsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Bevölkerungsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N503000
     a skos:Concept ;
@@ -2981,7 +2989,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "532010" ;
     skos:prefLabel "Medizingeschichte"@de ;
-    skos:example "Seuchen"@de .
+    skos:example "Seuchen"@de ;
+    skos:scopeNote "Verwenden, wenn medizinischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N532030
     a skos:Concept ;
@@ -3112,7 +3121,7 @@
     skos:notation "542000" ;
     skos:prefLabel "Wirtschaftsgeschichte"@de ;
 	skos:definition "Geschichtswissenschaft mit ökonomischem und sozialwissenschaftlichem Schwerpunkt"@de ;
-	skos:scopeNote "Verwenden, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc."@de ;
+	skos:scopeNote "Verwenden, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc.; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de ;
 	skos:exactMatch wd:Q47398, gnd:7504419-5 .
 
 :N543000
@@ -3289,7 +3298,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544020" ;
     skos:prefLabel "Agrargeschichte"@de ;
-    skos:scopeNote "Freie SW: Landwirtschaft; Geschichte"@de .
+    skos:scopeNote "Freie SW: Landwirtschaft; Geschichte; Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N544030
     a skos:Concept ;
@@ -3434,7 +3443,8 @@
     skos:broader :N544400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544420" ;
-    skos:prefLabel "Forstgeschichte"@de .
+    skos:prefLabel "Forstgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Forstaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N544440
     a skos:Concept ;
@@ -3527,7 +3537,8 @@
     skos:broader :N545000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "545020" ;
-    skos:prefLabel "Bergbaugeschichte"@de .
+    skos:prefLabel "Bergbaugeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Bergbauaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N545030
     a skos:Concept ;
@@ -3651,7 +3662,8 @@
     skos:broader :N547000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547020" ;
-    skos:prefLabel "Handwerksgeschichte"@de .
+    skos:prefLabel "Handwerksgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Handwerksaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N547030
     a skos:Concept ;
@@ -3695,7 +3707,8 @@
     skos:broader :N547400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547420" ;
-    skos:prefLabel "Industriegeschichte"@de .
+    skos:prefLabel "Industriegeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn industrieller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N547440
     a skos:Concept ;
@@ -3747,7 +3760,8 @@
     skos:broader :N548000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548020" ;
-    skos:prefLabel "Handelsgeschichte"@de .
+    skos:prefLabel "Handelsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Handelsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N548030
     a skos:Concept ;
@@ -3898,7 +3912,8 @@
     skos:broader :N550000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "552000" ;
-    skos:prefLabel "Verkehrsgeschichte"@de .
+    skos:prefLabel "Verkehrsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Verkehrsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N553000
     a skos:Concept ;
@@ -3929,7 +3944,8 @@
     skos:broader :N555000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "555020" ;
-    skos:prefLabel "Eisenbahngeschichte"@de .
+    skos:prefLabel "Eisenbahngeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Eisenbahnaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N556000
     a skos:Concept ;
@@ -3952,7 +3968,8 @@
     skos:broader :N557000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "557020" ;
-    skos:prefLabel "Schiffahrtsgeschichte"@de .
+    skos:prefLabel "Schiffahrtsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Schiffahrtsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N557040
     a skos:Concept ;
@@ -3981,7 +3998,8 @@
     skos:broader :N558000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "558020" ;
-    skos:prefLabel "Postgeschichte"@de .
+    skos:prefLabel "Postgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Postaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N558050
     a skos:Concept ;
@@ -4012,7 +4030,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N562040, :N562060 ;
     skos:notation "562000" ;
-    skos:prefLabel "Siedlungsgeschichte"@de .
+    skos:prefLabel "Siedlungsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Siedlungsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N562040
     a skos:Concept ;
@@ -4521,7 +4540,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611010" ;
     skos:prefLabel "Kirchengeschichte"@de ;
-    skos:scopeNote "Freie SW: Katholische Kirche; Geschichte"@de .
+    skos:scopeNote "Freie SW: Katholische Kirche; Geschichte; Verwenden, wenn kirchlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N611020
     a skos:Concept ;
@@ -4730,7 +4749,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613010" ;
     skos:prefLabel "Kirchengeschichte"@de ;
-    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte"@de .
+    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte; Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N613020
     a skos:Concept ;
@@ -5541,7 +5560,8 @@
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "722000" ;
-    skos:prefLabel "Sozialgeschichte"@de .
+    skos:prefLabel "Sozialgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn sozialer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N723000
     a skos:Concept ;
@@ -5713,7 +5733,8 @@
     skos:broader :N730000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "732000" ;
-    skos:prefLabel "Kulturgeschichte"@de .
+    skos:prefLabel "Kulturgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn kultureller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N733000
     a skos:Concept ;
@@ -5818,7 +5839,8 @@
     skos:broader :N740000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "742000" ;
-    skos:prefLabel "Sprachgeschichte"@de .
+    skos:prefLabel "Sprachgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn sprachlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N744000
     a skos:Concept ;
@@ -6011,7 +6033,8 @@
     skos:broader :N760000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "762000" ;
-    skos:prefLabel "Literaturgeschichte"@de .
+    skos:prefLabel "Literaturgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Literaturaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N766000
     a skos:Concept ;
@@ -6175,7 +6198,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "783000" ;
     skos:prefLabel "Schulgeschichte"@de ;
-    skos:scopeNote "Geschichte einzelner Schulen s.a. [Schulformen](https://nwbib.de/subjects#N784040)"@de .
+    skos:scopeNote "Geschichte einzelner Schulen s.a. [Schulformen](https://nwbib.de/subjects#N784040); Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N784000
     a skos:Concept ;
@@ -6606,7 +6629,8 @@
     skos:broader :N802000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802020" ;
-    skos:prefLabel "Theatergeschichte"@de .
+    skos:prefLabel "Theatergeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Theateraspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N802030
     a skos:Concept ;
@@ -6752,7 +6776,8 @@
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "823000" ;
-    skos:prefLabel "Musikgeschichte"@de .
+    skos:prefLabel "Musikgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Musikaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N824000
     a skos:Concept ;
@@ -6918,7 +6943,8 @@
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "842000" ;
-    skos:prefLabel "Kunstgeschichte"@de .
+    skos:prefLabel "Kunstgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn künstlerischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N843000
     a skos:Concept ;
@@ -7275,7 +7301,8 @@
     skos:broader :N861000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861010" ;
-    skos:prefLabel "Schriftgeschichte"@de .
+    skos:prefLabel "Schriftgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Schriftaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N861020
     a skos:Concept ;
@@ -7289,14 +7316,16 @@
     skos:broader :N861000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861030" ;
-    skos:prefLabel "Buchgeschichte"@de .
+    skos:prefLabel "Buchgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Buchaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N861040
     a skos:Concept ;
     skos:broader :N861000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861040" ;
-    skos:prefLabel "Druckgeschichte"@de .
+    skos:prefLabel "Druckgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Druckaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N861050
     a skos:Concept ;
@@ -7354,7 +7383,8 @@
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865020" ;
-    skos:prefLabel "Bibliotheksgeschichte"@de .
+    skos:prefLabel "Bibliotheksgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn Bibliotheksaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N865030
     a skos:Concept ;
