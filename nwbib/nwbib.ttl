@@ -5643,7 +5643,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725070" ;
     skos:prefLabel "Ausländer"@de ;
-    skos:scopeNote "Hier auch Lit. zu Asylbewerbern bzw. -berechtigten unterbringen"@de .
+    skos:scopeNote "Hier auch Lit. zu Asylbewerbern bzw. -berechtigten"@de .
 
 :N725080
     a skos:Concept ;
