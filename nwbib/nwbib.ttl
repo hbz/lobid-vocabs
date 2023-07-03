@@ -5597,7 +5597,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725010" ;
     skos:prefLabel "Familie"@de ;
-    skos:scopeNote "Hier auch familienähnliche Lebensgemeinschaften unterbringen"@de .
+    skos:scopeNote "Hier auch familienähnliche Lebensgemeinschaften"@de .
 
 :N725020
     a skos:Concept ;
