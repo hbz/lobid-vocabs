@@ -5094,7 +5094,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704063" ;
     skos:prefLabel "Liebe. Verlobung. Hochzeit"@de ;
-    skos:scopeNote "Freie SW: Hochzeit, Brauchtum"@de .
+    skos:scopeNote "Freie SW: Hochzeit; Brauchtum"@de .
 
 :N704064
     a skos:Concept ;
