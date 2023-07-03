@@ -5665,7 +5665,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "729000" ;
     skos:prefLabel "Sexualität"@de ;
-    skos:scopeNote "Freie SW: Homosexualität, Prostitution etc."@de .
+    skos:scopeNote "Freie SW: Homosexualität; Prostitution etc."@de .
 
 :N730000
     a skos:Concept ;
