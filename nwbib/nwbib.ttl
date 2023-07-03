@@ -820,7 +820,10 @@
     skos:broader :N162000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "162030" ;
-    skos:prefLabel "Kryptogamen"@de .
+    skos:prefLabel "Kryptogamen"@de ;
+    skos:definition "Blütenlose Pflanzen, Sporenpflanzen"@de ;
+    skos:scopeNote "Flechten, Sporenpflanzen, auch Pilze"@de ;
+    skos:exactMatch gnd:4073845-0 .
 
 :N162040
     a skos:Concept ;
@@ -878,7 +881,9 @@
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163060" ;
-    skos:prefLabel "Lurche"@de .
+    skos:prefLabel "Lurche"@de ;
+    skos:altLabel "Amphibien"@de ;
+    skos:exactMatch gnd:4036689-3 .
 
 :N163070
     a skos:Concept ;
@@ -1001,7 +1006,10 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "206000" ;
-    skos:prefLabel "Epigraphik"@de .
+    skos:prefLabel "Epigraphik"@de ;
+    skos:altLabel "Inschriftenkunde"@de ;
+    skos:definition "Historische Hilfswissenschaft der Erkundung von Inschriften auf unterschiedlichen Materialien"@de ;
+    skos:exactMatch wd:Q181260, gnd:4152508-5 .
 
 :N207000
     a skos:Concept ;
@@ -2799,7 +2807,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "522020" ;
     skos:prefLabel "Kirchliche Träger"@de ;
-    skos:example "Caritas etc."@de .
+    skos:example "Caritas etc."@de, "Freie SW: Sozialhilfeträger"@de.
 
 :N522030
     a skos:Concept ;
@@ -2808,7 +2816,7 @@
     skos:notation "522030" ;
     skos:prefLabel "Private Träger"@de ;
     skos:example "AWO"@de ;
-    skos:scopeNote "Auch mildtätige Stiftungen"@de .
+    skos:scopeNote "Auch mildtätige Stiftungen"@de, "Freie SW: Sozialhilfeträger"@de .
 
 :N523000
     a skos:Concept ;
@@ -3104,7 +3112,7 @@
     skos:notation "542000" ;
     skos:prefLabel "Wirtschaftsgeschichte"@de ;
 	skos:definition "Geschichtswissenschaft mit ökonomischem und sozialwissenschaftlichem Schwerpunkt"@de ;
-	skos:scopeNote "Wird verwendet, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc."@de ;
+	skos:scopeNote "Verwenden, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc."@de ;
 	skos:exactMatch wd:Q47398, gnd:7504419-5 .
 
 :N543000
@@ -4027,7 +4035,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "562300" ;
     skos:prefLabel "Kulturlandschaft"@de ;
-    skos:scopeNote "Straßen und Lage"@de .
+    skos:scopeNote "Straßen und Lage; s.a. [Landschaftsentwicklung](https://nwbib.de/subjects#N584090), [Landschaftsplanung](https://nwbib.de/subjects#N572050)"@de .
 
 :N564000
     a skos:Concept ;
@@ -4243,7 +4251,8 @@
     skos:broader :N572000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "572050" ;
-    skos:prefLabel "Landschaftsplanung"@de .
+    skos:prefLabel "Landschaftsplanung"@de ;
+    skos:scopeNote "S.a. [Landschaftsentwicklung]((https://nwbib.de/subjects#N584090), [Kulturlandschaft](https://nwbib.de/subjects#N562300)"@de .
 
 :N572060
     a skos:Concept ;
@@ -4275,7 +4284,8 @@
     skos:broader :N574000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574030" ;
-    skos:prefLabel "Städtebau"@de .
+    skos:prefLabel "Städtebau"@de ;
+    skos:scopeNote "S.a. [Stadtbaukunst](https://nwbib.de/subjects#N844500)"@de .
 
 :N574040
     a skos:Concept ;
@@ -4435,7 +4445,8 @@
     skos:broader :N584000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584090" ;
-    skos:prefLabel "Landschaftsentwicklung"@de .
+    skos:prefLabel "Landschaftsentwicklung"@de ;
+    skos:scopeNote "S.a. [Landschaftsplanung](https://nwbib.de/subjects#N572050), [Kulturlandschaft](https://nwbib.de/subjects#N562300)"@de .
 
 :N586000
     a skos:Concept ;
@@ -4450,7 +4461,8 @@
     skos:broader :N586000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586020" ;
-    skos:prefLabel "Parks"@de .
+    skos:prefLabel "Parks"@de ;
+    skos:scopeNote "Für Gartenkunst s.a. [Park- und Gartenanlagen](https://nwbib.de/subjects#N844060)"@de .
 
 :N586030
     a skos:Concept ;
@@ -4508,7 +4520,8 @@
     skos:broader :N611000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611010" ;
-    skos:prefLabel "Kirchengeschichte"@de .
+    skos:prefLabel "Kirchengeschichte"@de ;
+    skos:scopeNote "Freie SW: Katholische Kirche; Geschichte"@de .
 
 :N611020
     a skos:Concept ;
@@ -4716,7 +4729,8 @@
     skos:broader :N613000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613010" ;
-    skos:prefLabel "Kirchengeschichte"@de .
+    skos:prefLabel "Kirchengeschichte"@de ;
+    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte"@de .
 
 :N613020
     a skos:Concept ;
@@ -4731,7 +4745,8 @@
     skos:broader :N613020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613025" ;
-    skos:prefLabel "Kirchenverwaltung"@de .
+    skos:prefLabel "Kirchenverwaltung"@de ;
+    skos:scopeNote "Freie SW: Evangelische Gemeinde; Ort"@de .
 
 :N613030
     a skos:Concept ;
@@ -5133,7 +5148,8 @@
     skos:broader :N704000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704090" ;
-    skos:prefLabel "Vereine der Brauchtumspflege"@de .
+    skos:prefLabel "Vereine der Brauchtumspflege"@de ;
+    skos:scopeNote "Z.B. Karnevalsverein; S.a. [Schützenwesen](https://nwbib.de/subjects#N704070)"@de .
 
 :N704200
     a skos:Concept ;
@@ -5309,7 +5325,8 @@
     skos:broader :N706000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706090" ;
-    skos:prefLabel "Mundartliteratur"@de .
+    skos:prefLabel "Mundartliteratur"@de ;
+    skos:scopeNote "S.a. [Mundarten](https://nwbib.de/subjects#N744000)"@de .
 
 :N706200
     a skos:Concept ;
@@ -5378,7 +5395,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708028" ;
     skos:prefLabel "Bauernhäuser"@de ;
-    skos:scopeNote "Volkskundlicher Aspekt; s.a. [Bauernhäuser](https://nwbib.de/subjects#N843050), [Hofgeschichte](https://nwbib.de/subjects#N544030)"@de .
+    skos:scopeNote "Volkskundlicher Aspekt; Für Architektur s.a. [Bauernhäuser](https://nwbib.de/subjects#N843050), [Hofgeschichte](https://nwbib.de/subjects#N544030)"@de .
 
 :N708029
     a skos:Concept ;
@@ -5629,7 +5646,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725050" ;
     skos:prefLabel "Vereine. Interessenverbände"@de ;
-    skos:scopeNote "Freie SW: Verein; Interessenverband"@de .
+    skos:scopeNote "Freie SW: Verein; Interessenverband; S.a. [Sportvereine](https://nwbib.de/subjects#N736050), [Schützenwesen](https://nwbib.de/subjects#N704070)"@de .
 
 :N725060
     a skos:Concept ;
@@ -7021,7 +7038,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844040" ;
     skos:prefLabel "Burgen. Schlösser"@de ;
-    skos:scopeNote "Freie SW: Burg; Schloß; s.a. [Burgen](https://nwbib.de/subjects#N262011)"@de .
+    skos:scopeNote "Freie SW: Burg; Schloß; Bei militärischen Aspekten s. [Burgen](https://nwbib.de/subjects#N262011)"@de .
 
 :N844050
     a skos:Concept ;
@@ -7035,7 +7052,8 @@
     skos:broader :N844000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844060" ;
-    skos:prefLabel "Park- und Gartenanlagen"@de .
+    skos:prefLabel "Park- und Gartenanlagen"@de ;
+    skos:scopeNote "Verwenden bei Gartenkunst; Freie SW: Gartenkunst; S.a. Grünanlagen [Parks](https://nwbib.de/subjects#N704070)"@de .
 
 :N844070
     a skos:Concept ;
