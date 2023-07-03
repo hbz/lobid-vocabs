@@ -97,7 +97,7 @@
     skos:notation "102000" ;
     skos:prefLabel "Landesbeschreibungen"@de ;
     skos:definition "Als Landesbeschreibung wurden frühe Formen der geografischen Landesaufnahme bezeichnet. Ab dem 17. Jahrhundert verstand man darunter eine Sammlung topografischer Karten kombiniert mit textlicher Beschreibung von Landschaft und Städten (Wikipedia)"@de ;
-    skos:scopeNote "auch Bilder/Bildbände"@de, "Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
+    skos:scopeNote "Auch Bilder/Bildbände"@de, "Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
 
 :N102060
     a skos:Concept ;
@@ -105,7 +105,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102060" ;
     skos:prefLabel "Reiseberichte"@de ;
-    skos:scopeNote "auch Kunstführer"@de, "Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
+    skos:scopeNote "Auch Kunstführer"@de, "Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
 
 :N102070
     a skos:Concept ;
@@ -263,7 +263,7 @@
     skos:notation "141210" ;
     skos:prefLabel "Historische Geologie"@de ;
     skos:definition "Teilgebiet der Geologie mit Forschungs- und Lehrgegenstand der Erdgeschichte"@de ;
-	skos:scopeNote "nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen"@de ;
+	skos:scopeNote "Nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen"@de ;
 	skos:exactMatch wd:Q754590, <https://d-nb.info/gnd/4025104-4> .
 
 :N141220
@@ -538,7 +538,7 @@
     skos:narrower :N142310, :N142320, :N142330, :N142340, :N142350, :N142360, :N142370, :N142380, :N142390 ;
     skos:notation "142300" ;
     skos:prefLabel "Wasser"@de ;
-    skos:scopeNote "Mineralbrunnen u. Thermalquellen, s. [Sachgebiet Mineralogie: Mineralquellen. Thermalquellen](https://nwbib.de/subjects#N141460)"@de ;
+    skos:scopeNote "Mineralbrunnen u. Thermalquellen, s. [Mineralquellen. Thermalquellen](https://nwbib.de/subjects#N141460)"@de ;
     skos:exactMatch wd:Q283, gnd:4064689-0 .
 
 :N142310
@@ -857,7 +857,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163030" ;
     skos:prefLabel "Insekten. Spinnen"@de ;
-    skos:scopeNote "Schmetterlinge, Libellen"@de .
+    skos:scopeNote "Schmetterlinge, Libellen; Freie SW: Insekten; Spinnen; Spinnentiere"@de .
 
 :N163040
     a skos:Concept ;
@@ -2592,7 +2592,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503050" ;
     skos:prefLabel "Einwohnerverzeichnisse"@de ;
-    skos:scopeNote "Benutzt für Verzeichnisse, zusätzl. [Quellen](https://nwbib.de/subjects#N240100)"@de .
+    skos:scopeNote "Benutzt für historische Verzeichnisse, zusätzl. [Quellen](https://nwbib.de/subjects#N240100)"@de .
 
 :N503060
     a skos:Concept ;
@@ -3280,7 +3280,8 @@
     skos:broader :N544000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544020" ;
-    skos:prefLabel "Agrargeschichte"@de .
+    skos:prefLabel "Agrargeschichte"@de ;
+    skos:scopeNote "Freie SW: Landwirtschaft; Geschichte"@de .
 
 :N544030
     a skos:Concept ;
@@ -3288,7 +3289,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544030" ;
     skos:prefLabel "Hofgeschichte"@de ;
-    skos:scopeNote "S.a. [Bauernhäuser](https://nwbib.de/subjects#N708028), [Bauernhäuser](https://nwbib.de/subjects#N843050)"@de .
+    skos:scopeNote "Freie SW: Bauernhof; Geschichte, s.a. [Bauernhäuser](https://nwbib.de/subjects#N708028), [Bauernhäuser](https://nwbib.de/subjects#N843050)"@de .
 
 :N544040
     a skos:Concept ;
@@ -3935,7 +3936,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N557020, :N557040, :N557060 ;
     skos:notation "557000" ;
-    skos:prefLabel "Schiffahrt"@de .
+    skos:prefLabel "Schiffahrt"@de ;
+    skos:scopeNote "Bei Flüssen, Kanälen u. Seen SW \"Binnenschiffahrt\" verwenden"@de .
 
 :N557020
     a skos:Concept ;
@@ -4049,7 +4051,7 @@
     skos:narrower :N564051, :N564052 ;
     skos:notation "564050" ;
     skos:prefLabel "Dorftopographie"@de ;
-    skos:scopeNote "Freie SW: Ortsname, Topographie"@de .
+    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Topographie"@de .
 
 :N564051
     a skos:Concept ;
@@ -4057,7 +4059,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "564051" ;
     skos:prefLabel "Dorfplätze"@de ;
-    skos:scopeNote "Freie SW: Ortsname; Platz"@de .
+    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Platz"@de .
 
 :N564052
     a skos:Concept ;
@@ -4065,7 +4067,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "564052" ;
     skos:prefLabel "Dorfstraßen"@de ;
-    skos:scopeNote "Häuser, freie SW: Ortsname; Straße"@de .
+    skos:scopeNote "Häuser; bei freier SW-Vergabe: Ortsname; Straße"@de .
 
 :N564080
     a skos:Concept ;
@@ -4154,7 +4156,7 @@
     skos:narrower :N566051, :N566052, :N566053 ;
     skos:notation "566050" ;
     skos:prefLabel "Stadttopographie"@de ;
-    skos:scopeNote "Ortsname; Topographie, s.a. [Dorftopographie](https://nwbib.de/subjects#N564050)"@de .
+    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Topographie, s.a. [Dorftopographie](https://nwbib.de/subjects#N564050)"@de .
 
 :N566051
     a skos:Concept ;
@@ -4846,7 +4848,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "616000" ;
     skos:prefLabel "Ökumene"@de ;
-    skos:scopeNote "auch Islam"@de ;
+    skos:scopeNote "Auch Islam"@de ;
     skos:exactMatch gnd:4138445-3 .
 
 :N617000
@@ -5538,7 +5540,7 @@
     skos:narrower :N724020, :N724030, :N724040, :N724050, :N724060, :N724070 ;
     skos:notation "724000" ;
     skos:prefLabel "Sozialstruktur"@de ;
-    skos:scopeNote "Schichte, soziale Netze; s.a. [Bevölkerungsstruktur](https://nwbib.de/subjects#N503000)"@de .
+    skos:scopeNote "Schichten, soziale Netze; s.a. [Bevölkerungsstruktur](https://nwbib.de/subjects#N503000)"@de .
 
 :N724020
     a skos:Concept ;
@@ -5581,7 +5583,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724070" ;
     skos:prefLabel "Originale"@de ;
-    skos:scopeNote "Bezieht sich auf Person"@de .
+    skos:scopeNote "Bezieht sich auf Personen"@de .
 
 :N725000
     a skos:Concept ;
@@ -5619,7 +5621,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725040" ;
     skos:prefLabel "Alternative Lebensformen"@de ;
-    skos:scopeNote "Hier auch Lebensgemeinschaften; familienähnliche Lebensgemeinschaften jedoch bei [Familie](https://nwbib.de/subjects#N725010)"@de .
+    skos:scopeNote "Hier auch Lebensgemeinschaften; jedoch familienähnliche Lebensgemeinschaften bei [Familie](https://nwbib.de/subjects#N725010)"@de .
 
 :N725050
     a skos:Concept ;
@@ -6045,7 +6047,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N767040 ;
     skos:notation "767000" ;
-    skos:prefLabel "Literarische Texte"@de .
+    skos:prefLabel "Literarische Texte"@de ;
+    skos:scopeNote "Nur als Überschrift verwenden, untergeordnete Notationen besetzen"@de .
 
 :N767040
     a skos:Concept ;
@@ -6155,7 +6158,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "783000" ;
     skos:prefLabel "Schulgeschichte"@de ;
-    skos:scopeNote "Geschichte einzelner Schulen s.a. unter [Schulformen](https://nwbib.de/subjects#N784040)"@de .
+    skos:scopeNote "Geschichte einzelner Schulen s.a. [Schulformen](https://nwbib.de/subjects#N784040)"@de .
 
 :N784000
     a skos:Concept ;
@@ -6287,7 +6290,9 @@
     skos:broader :N784050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784051" ;
-    skos:prefLabel "Elementarbereich"@de .
+    skos:prefLabel "Elementarbereich"@de ;
+    skos:definition "Vorschulische Förderung, Bildung und Betreuung von Kindern"@de ;
+    skos:exactMatch wd:Q1327731, gnd:4151987-5 .
 
 :N784052
     a skos:Concept ;
@@ -6906,7 +6911,7 @@
     skos:notation "843000" ;
     skos:prefLabel "Architektur"@de ;
 	skos:definition "Gebäude im öffentlichen Raum"@de ;
-	skos:editorialNote "nicht bei Baudenkmälern anwenden, dafür s. entspr. Notation unter 844000 Baudenkmäler.Kunstwerke"@de ;
+	skos:editorialNote "Nicht bei Baudenkmälern anwenden, dafür s. entspr. Notation unter [Baudenkmäler.Kunstwerke](https://nwbib.de/subjects#N844000)"@de ;
 	skos:exactMatch wd:Q12271 , gnd:4002851-3 .
 
 :N843010
