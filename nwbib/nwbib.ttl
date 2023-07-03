@@ -5057,7 +5057,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704044" ;
     skos:prefLabel "Frühling. Ostern"@de ;
-    skos:scopeNote "Freie SW: Ernte, Brauchtum"@de .
+    skos:scopeNote "Freie SW: Ernte; Brauchtum"@de .
 
 :N704045
     a skos:Concept ;
