@@ -5102,7 +5102,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704064" ;
     skos:prefLabel "Tod. Bestattung"@de ;
-    skos:scopeNote "Freie SW: Tod, Brauchtum; s.a. [Bestattungswesen](https://nwbib.de/subjects#N617000)"@de .
+    skos:scopeNote "Freie SW: Tod; Brauchtum; s.a. [Bestattungswesen](https://nwbib.de/subjects#N617000)"@de .
 
 :N704070
     a skos:Concept ;
