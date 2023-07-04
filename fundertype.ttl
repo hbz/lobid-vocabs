@@ -92,7 +92,7 @@ fundertype:n09
   skos:inScheme fundertype:scheme ;
   skos:notation "09" ;
   skos:prefLabel "Evangelische Kirche"@de ;
-  skos:pürefLabel "Protestant Church"@en .
+  skos:prefLabel "Protestant Church"@en .
 
 fundertype:n10
   a skos:Concept ;
