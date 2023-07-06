@@ -3298,7 +3298,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544020" ;
     skos:prefLabel "Agrargeschichte"@de ;
-    skos:scopeNote "Freie SW: Landwirtschaft; Geschichte; Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
+    skos:scopeNote "Freie SW: Landwirtschaft; Geschichte; Verwenden, wenn landwirtschaftlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N544030
     a skos:Concept ;
@@ -4271,7 +4271,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "572050" ;
     skos:prefLabel "Landschaftsplanung"@de ;
-    skos:scopeNote "S.a. [Landschaftsentwicklung]((https://nwbib.de/subjects#N584090), [Kulturlandschaft](https://nwbib.de/subjects#N562300)"@de .
+    skos:scopeNote "S.a. [Landschaftsentwicklung](https://nwbib.de/subjects#N584090), [Kulturlandschaft](https://nwbib.de/subjects#N562300)"@de .
 
 :N572060
     a skos:Concept ;
@@ -4749,7 +4749,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613010" ;
     skos:prefLabel "Kirchengeschichte"@de ;
-    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte; Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
+    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte; Verwenden, wenn kirchlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N704070)"@de .
 
 :N613020
     a skos:Concept ;
@@ -6891,7 +6891,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841040" ;
     skos:prefLabel "Kunstmuseen und Kunstsammlungen"@de ;
-    skos:scopeNote "Freie SW: Kunstmuseum; Kunstsammlungen"@de .
+    skos:scopeNote "Freie SW: Kunstmuseum; Kunstsammlung"@de .
 
 :N841050
     a skos:Concept ;
@@ -6954,7 +6954,7 @@
     skos:notation "843000" ;
     skos:prefLabel "Architektur"@de ;
 	skos:definition "Gebäude im öffentlichen Raum"@de ;
-	skos:editorialNote "Nicht bei Baudenkmälern anwenden, dafür s. entspr. Notation unter [Baudenkmäler.Kunstwerke](https://nwbib.de/subjects#N844000)"@de ;
+	skos:editorialNote "Nicht bei Baudenkmälern anwenden, dafür s. entspr. Notation unter [Baudenkmäler. Kunstwerke](https://nwbib.de/subjects#N844000)"@de ;
 	skos:exactMatch wd:Q12271 , gnd:4002851-3 .
 
 :N843010
@@ -7079,7 +7079,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844060" ;
     skos:prefLabel "Park- und Gartenanlagen"@de ;
-    skos:scopeNote "Verwenden bei Gartenkunst; Freie SW: Gartenkunst; S.a. Grünanlagen [Parks](https://nwbib.de/subjects#N704070)"@de .
+    skos:scopeNote "Verwenden bei Gartenkunst; Freie SW: Gartenkunst; S.a. [Grünanlagen](https://nwbib.de/subjects#N586000); [Parks](https://nwbib.de/subjects#N586020)"@de .
 
 :N844070
     a skos:Concept ;
