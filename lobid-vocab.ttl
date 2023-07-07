@@ -620,4 +620,16 @@ lv:bibliographicLevel
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#stockNumber>
+
+lv:langNote
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Language Note"@en ;
+   rdfs:label "Hinweis zur Sprache"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "States a langauge note of a resource, based on MARC 21-546 - Language Note: https://www.loc.gov/marc/bibliographic/bd546.html"@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
    
