@@ -1407,7 +1407,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226030" ;
     skos:prefLabel "Römer"@de ;
-    skos:scopeNote "S.a. [Römer](https://nwbib.de/subjects#N227020)"@de ;
+    skos:scopeNote "S.a. [Römer (Völkerwanderungszeit)](https://nwbib.de/subjects#N227020)"@de ;
     skos:exactMatch gnd:4122633-1 .
 
 :N226040
