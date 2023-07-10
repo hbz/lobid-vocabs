@@ -778,7 +778,10 @@
     skos:broader :N161000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "161020" ;
-    skos:prefLabel "Biogeographie"@de .
+    skos:prefLabel "Biogeographie"@de ;
+    skos:definition "Lehre von der Verbreitung der Pflanzen und Tiere auf der Erde"@de ;
+    skos:scopeNote "Verortung von Tieren und Pflanzen; Für Verortung von Tieren s. [Tiergeographie](https://nwbib.de/subjects#N163010), für Verortung von Pflanzen s. [Pflanzengeographie](https://nwbib.de/subjects#N162020)"@de ;
+    skos:exactMatch wd:Q52106, gnd:4006801-8 .
 
 :N161030
     a skos:Concept ;
@@ -816,7 +819,10 @@
     skos:broader :N162000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "162020" ;
-    skos:prefLabel "Pflanzengeographie"@de .
+    skos:prefLabel "Pflanzengeographie"@de ;
+    skos:altLabel "Phytogeographie, Vegetationsgeographie"@de ;
+    skos:definition "Verortung von Pflanzen"@de ;
+    skos:exactMatch wd:Q771220, gnd:4045561-0 .
 
 :N162030
     a skos:Concept ;
@@ -848,7 +854,10 @@
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163010" ;
-    skos:prefLabel "Tiergeographie"@de .
+    skos:prefLabel "Tiergeographie"@de ;
+    skos:altLabel "Geozoologie, Zoogeographie"@de ;
+    skos:definition "Wissenschaft von der geografischen Verbreitung und Ausbreitung der Tiere auf der Erde"@de ;
+    skos:exactMatch wd:Q599991, gnd:4133437-1 .
 
 :N163020
     a skos:Concept ;
@@ -5922,7 +5931,9 @@
     skos:broader :N740000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "745000" ;
-    skos:prefLabel "Sprachgeographie"@de .
+    skos:prefLabel "Sprachgeographie"@de ;
+    skos:definition "Verortung von Sprache"@de ;
+    skos:exactMatch gnd:4056463-0 .
 
 :N746000
     a skos:Concept ;
@@ -5968,7 +5979,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N746042, :N746043, :N746044, :N746045, :N746046 ;
     skos:notation "746040" ;
-    skos:prefLabel "Geographische Namen"@de .
+    skos:prefLabel "Geographische Namen"@de ;
+    skos:scopeNote "S.a. untergeordnete Notationen"@de .
 
 :N746042
     a skos:Concept ;
