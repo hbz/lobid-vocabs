@@ -119,14 +119,16 @@
     skos:broader :N102000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "105000" ;
-    skos:prefLabel "Heimatpflege"@de .
+    skos:prefLabel "Heimatpflege"@de ;
+    skos:scopeNote "Ggf. s.a. [Heimatvereine](https://nwbib.de/subjects#N106000)"@de .
 
 :N106000
     a skos:Concept ;
     skos:broader :N100000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "106000" ;
-    skos:prefLabel "Heimatvereine"@de .
+    skos:prefLabel "Heimatvereine"@de ;
+    skos:scopeNote "Ggf. s.a. [Heimatpflege](https://nwbib.de/subjects#N105000)"@de .
 
 :N109000
     a skos:Concept ;
@@ -1017,14 +1019,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N207020 ;
     skos:notation "207000" ;
-    skos:prefLabel "Genealogie"@de .
+    skos:prefLabel "Genealogie"@de ;
+    skos:scopeNote "S.a. [Einzelne Familien](https://nwbib.de/subjects#N207020)"@de .
 
 :N207020
     a skos:Concept ;
     skos:broader :N207000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "207020" ;
-    skos:prefLabel "Einzelne Familien"@de .
+    skos:prefLabel "Einzelne Familien"@de ;
+    skos:scopeNote "Verwendet bei biographischen Angaben zu Familien, die in Feld 689 verknüpft werden, s.a. [Genealogie](https://nwbib.de/subjects#N207000)"@de .
 
 :N208000
     a skos:Concept ;
@@ -1354,14 +1358,20 @@
     skos:broader :N225000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225040" ;
-    skos:prefLabel "Kelten"@de .
+    skos:prefLabel "Kelten"@de ;
+    skos:definition "Volksgruppen der Eisenzeit in Europa"@de ;
+    skos:scopeNote "S.a. [Kelten](https://nwbib.de/subjects#N226020)"@de ;
+    skos:exactMatch wd:Q35966, gnd:4030206-4 .
 
 :N225050
     a skos:Concept ;
     skos:broader :N225000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225050" ;
-    skos:prefLabel "Germanen"@de .
+    skos:prefLabel "Germanen"@de ;
+    skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
+    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen](https://nwbib.de/subjects#N226040), s.a. [Germanen](https://nwbib.de/subjects#N227030)"@de ;
+    skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N226000
     a skos:Concept ;
@@ -1369,7 +1379,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N226010, :N226020, :N226030, :N226040, :N226050 ;
     skos:notation "226000" ;
-    skos:prefLabel "Römerzeit"@de .
+    skos:prefLabel "Römerzeit"@de ;
+    skos:scopeNote "Epochenbezeichnung, benutzt in Verbindung mit einzelnen Orten und Regionen des Römischen Reichs"@de ;
+    skos:exactMatch gnd:4076769-3 .
 
 :N226010
     a skos:Concept ;
@@ -1383,28 +1395,37 @@
     skos:broader :N226000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226020" ;
-    skos:prefLabel "Kelten"@de .
+    skos:prefLabel "Kelten"@de ;
+    skos:scopeNote "S.a. [Kelten](https://nwbib.de/subjects#N225040)"@de .
 
 :N226030
     a skos:Concept ;
     skos:broader :N226000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226030" ;
-    skos:prefLabel "Römer"@de .
+    skos:prefLabel "Römer"@de ;
+    skos:scopeNote "S.a. [Römer](https://nwbib.de/subjects#N227020)"@de ;
+    skos:exactMatch gnd:4122633-1 .
 
 :N226040
     a skos:Concept ;
     skos:broader :N226000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226040" ;
-    skos:prefLabel "Germanen"@de .
+    skos:prefLabel "Germanen"@de ;
+    skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
+    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen](https://nwbib.de/subjects#N225050), s.a. [Germanen](https://nwbib.de/subjects#N227030)"@de ;
+    skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N226050
     a skos:Concept ;
     skos:broader :N226000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226050" ;
-    skos:prefLabel "Franken"@de .
+    skos:prefLabel "Franken"@de ;
+    skos:definition "Germanischer Großstamm"@de ;
+    skos:scopeNote "S.a. [Franken](https://nwbib.de/subjects#N227040)"@de ;
+    skos:exactMatch wd:Q43482, gnd:4071340-4 . 
 
 :N227000
     a skos:Concept ;
@@ -1420,14 +1441,19 @@
     skos:broader :N227000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "227020" ;
-    skos:prefLabel "Römer"@de .
+    skos:prefLabel "Römer"@de ;
+    skos:scopeNote "S.a. [Römer](https://nwbib.de/subjects#N226030)"@de ;
+    skos:exactMatch gnd:4122633-1 .
 
 :N227030
     a skos:Concept ;
     skos:broader :N227000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "227030" ;
-    skos:prefLabel "Germanen"@de .
+    skos:prefLabel "Germanen"@de ;
+    skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
+    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen](https://nwbib.de/subjects#N225050), s.a. [Germanen](https://nwbib.de/subjects#N226040)"@de ;
+    skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N227040
     a skos:Concept ;
@@ -1846,7 +1872,8 @@
     skos:broader :N406000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406060" ;
-    skos:prefLabel "Politische Bewegungen"@de .
+    skos:prefLabel "Politische Bewegungen"@de ;
+    skos:scopeNote "Ggf. s.a. [Politische Gruppen](https://nwbib.de/subjects#N406200)"@de .
 
 :N406080
     a skos:Concept ;
@@ -1883,14 +1910,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N406230, :N406250, :N406270 ;
     skos:notation "406200" ;
-    skos:prefLabel "Politische Gruppen"@de .
+    skos:prefLabel "Politische Gruppen"@de ;
+    skos:scopeNote "Ggf. s.a. [Politische Bewegungen](https://nwbib.de/subjects#N406060)"@de .
 
 :N406230
     a skos:Concept ;
     skos:broader :N406200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406230" ;
-    skos:prefLabel "Interessenverbände"@de .
+    skos:prefLabel "Interessenverbände"@de ;
+    skos:scopeNote "Im Unterschied zu [Vereine. Interessenverbände](https://nwbib.de/subjects#N725050)"@de .
 
 :N406250
     a skos:Concept ;
@@ -2886,7 +2915,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523050" ;
     skos:prefLabel "Krankenfürsorge"@de ;
-    skos:scopeNote "Verwendet für die soziale Betreuung der Kranken, s.a. [Krankenpflege](https://nwbib.de/subjects#N534010)"@de .
+    skos:scopeNote "Verwendet für die soziale Betreuung der Kranken, s.a. [Krankenpflege](https://nwbib.de/subjects#N534010), [Krankenversorgung](https://nwbib.de/subjects#N534000)"@de .
 
 :N523060
     a skos:Concept ;
@@ -3027,14 +3056,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N534010, :N534020, :N534030, :N534050, :N534060, :N534080 ;
     skos:notation "534000" ;
-    skos:prefLabel "Krankenversorgung"@de .
+    skos:prefLabel "Krankenversorgung"@de ;
+    skos:scopeNote "S.a. [Krankenfürsorge](https://nwbib.de/subjects#N523050), [Krankenpflege](https://nwbib.de/subjects#N534010)"@de .
 
 :N534010
     a skos:Concept ;
     skos:broader :N534000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "534010" ;
-    skos:prefLabel "Krankenpflege"@de .
+    skos:prefLabel "Krankenpflege"@de ;
+    skos:scopeNote "S.a. [Krankenfürsorge](https://nwbib.de/subjects#N523050), [Krankenversorgung](https://nwbib.de/subjects#N534000)"@de .
 
 :N534020
     a skos:Concept ;
@@ -4086,7 +4117,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "564051" ;
     skos:prefLabel "Dorfplätze"@de ;
-    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Platz"@de .
+    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Platz; Für Städte s. [Plätze](https://nwbib.de/subjects#N566051)"@de .
 
 :N564052
     a skos:Concept ;
@@ -4131,7 +4162,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N566041, :N566042, :N566043, :N566044, :N566045, :N566046 ;
     skos:notation "566040" ;
-    skos:prefLabel "Stadtstruktur"@de .
+    skos:prefLabel "Stadtstruktur"@de ;
+    skos:scopeNote "S.a. [Stadttopographie](https://nwbib.de/subjects#N566050)"@de .
 
 :N566041
     a skos:Concept ;
@@ -4153,14 +4185,16 @@
     skos:broader :N566040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566043" ;
-    skos:prefLabel "Geschäftsviertel"@de .
+    skos:prefLabel "Geschäftsviertel"@de ;
+    skos:scopeNote "S.a. [Gewerbegebiete](https://nwbib.de/subjects#N566044)"@de .
 
 :N566044
     a skos:Concept ;
     skos:broader :N566040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566044" ;
-    skos:prefLabel "Gewerbegebiete"@de .
+    skos:prefLabel "Gewerbegebiete"@de ;
+    skos:scopeNote "S.a. [Geschäftsviertel](https://nwbib.de/subjects#N566043)"@de .
 
 :N566045
     a skos:Concept ;
@@ -4183,14 +4217,15 @@
     skos:narrower :N566051, :N566052, :N566053 ;
     skos:notation "566050" ;
     skos:prefLabel "Stadttopographie"@de ;
-    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Topographie, s.a. [Dorftopographie](https://nwbib.de/subjects#N564050)"@de .
+    skos:scopeNote "S.a. [Stadtstruktur](https://nwbib.de/subjects#N566040); Bei freier SW-Vergabe: Ortsname; Topographie, s.a. [Dorftopographie](https://nwbib.de/subjects#N564050)"@de .
 
 :N566051
     a skos:Concept ;
     skos:broader :N566050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566051" ;
-    skos:prefLabel "Plätze"@de .
+    skos:prefLabel "Plätze"@de ;
+    skos:scopeNote "Für Dörfer s. [Dorfplätze](https://nwbib.de/subjects#N564051)"@de .
 
 :N566052
     a skos:Concept ;
@@ -4256,7 +4291,9 @@
     skos:broader :N572000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "572020" ;
-    skos:prefLabel "Landesplanung"@de .
+    skos:prefLabel "Landesplanung"@de ;
+    skos:altLabel "Gebietsplanung, Landesentwicklungsplanung"@de ;
+    skos:exactMatch gnd:4034268-2 .
 
 :N572030
     a skos:Concept ;
@@ -4413,7 +4450,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N584020, :N584040, :N584050, :N584060, :N584070, :N584080, :N584090 ;
     skos:notation "584000" ;
-    skos:prefLabel "Naturschutz. Landschaftspflege"@de .
+    skos:prefLabel "Naturschutz. Landschaftspflege"@de ;
+    skos:scopeNote "S.a. [Pflanzenschutz](https://nwbib.de/subjects#N584050)"@de .
 
 :N584020
     a skos:Concept ;
@@ -4457,7 +4495,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584080" ;
     skos:prefLabel "Naturparke"@de ;
-    skos:scopeNote "Freie SW: Name des Naturparks"@de .
+    skos:scopeNote "Freie SW: Name des Naturparks; S.a. [Parks](https://nwbib.de/subjects#N586020), [Park- und Gartenanlagen](https://nwbib.de/subjects#N844060)"@de .
 
 :N584090
     a skos:Concept ;
@@ -4481,7 +4519,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586020" ;
     skos:prefLabel "Parks"@de ;
-    skos:scopeNote "Für Gartenkunst s.a. [Park- und Gartenanlagen](https://nwbib.de/subjects#N844060)"@de .
+    skos:scopeNote "Für Gartenkunst s. [Park- und Gartenanlagen](https://nwbib.de/subjects#N844060); S.a. [Naturparke](https://nwbib.de/subjects#N584080)"@de .
 
 :N586030
     a skos:Concept ;
@@ -4577,7 +4615,8 @@
     skos:broader :N611040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611042" ;
-    skos:prefLabel "Seelsorge"@de .
+    skos:prefLabel "Seelsorge"@de ;
+    skos:scopeNote "S.a. [evangelische](https://nwbib.de/subjects#N613042)"@de .
 
 :N611043
     a skos:Concept ;
@@ -4787,7 +4826,8 @@
     skos:broader :N613040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613042" ;
-    skos:prefLabel "Seelsorge"@de .
+    skos:prefLabel "Seelsorge"@de ;
+    skos:scopeNote "S.a. [katholische](https://nwbib.de/subjects#N611042)"@de .
 
 :N613043
     a skos:Concept ;
@@ -4951,14 +4991,16 @@
     skos:broader :N630000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "635000" ;
-    skos:prefLabel "Jüdische Volkskunde"@de .
+    skos:prefLabel "Jüdische Volkskunde"@de ;
+    skos:scopeNote "S.a. [Jüdisches Kulturleben](https://nwbib.de/subjects#N636000)"@de .
 
 :N636000
     a skos:Concept ;
     skos:broader :N630000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "636000" ;
-    skos:prefLabel "Jüdisches Kulturleben"@de .
+    skos:prefLabel "Jüdisches Kulturleben"@de ;
+    skos:scopeNote "S.a. [Jüdische Volkskunde](https://nwbib.de/subjects#N635000)"@de .
 
 :N637000
     a skos:Concept ;
@@ -5309,14 +5351,19 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N706052 ;
     skos:notation "706050" ;
-    skos:prefLabel "Schwänke"@de .
+    skos:prefLabel "Schwänke"@de ;
+    skos:altLabel "Schwankdichtung"@de ;
+    skos:definition "volksnahe Erzählung, lustiger Einfall"@de ;
+    skos:exactMatch wd:Q11871, gnd:4053736-5 .
 
 :N706052
     a skos:Concept ;
     skos:broader :N706050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706052" ;
-    skos:prefLabel "Witz"@de .
+    skos:prefLabel "Witz"@de ;
+    skos:definition "Literaturgattung, die das Gegenüber belustigen soll"@de ;
+    skos:exactMatch wd:Q131138, gnd:4066680-3 .
 
 :N706060
     a skos:Concept ;
@@ -5367,7 +5414,8 @@
     skos:broader :N706200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706220" ;
-    skos:prefLabel "Musikinstrumente"@de .
+    skos:prefLabel "Musikinstrumente"@de ;
+    skos:scopeNote "Im Bereich Musik s. [Musikinstrumente](https://nwbib.de/subjects#N828000)"@de .
 
 :N706230
     a skos:Concept ;
@@ -5429,7 +5477,8 @@
     skos:broader :N708000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708030" ;
-    skos:prefLabel "Hausrat"@de .
+    skos:prefLabel "Hausrat"@de ;
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Hausrat](https://nwbib.de/subjects#N849060)"@de .
 
 :N708040
     a skos:Concept ;
@@ -5481,7 +5530,8 @@
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708250" ;
-    skos:prefLabel "Keramik"@de .
+    skos:prefLabel "Keramik"@de ;
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Keramik](https://nwbib.de/subjects#N849040)"@de .
 
 :N708260
     a skos:Concept ;
@@ -5502,14 +5552,16 @@
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708280" ;
-    skos:prefLabel "Glas"@de .
+    skos:prefLabel "Glas"@de ;
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Glas](https://nwbib.de/subjects#N849056)"@de .
 
 :N708290
     a skos:Concept ;
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708290" ;
-    skos:prefLabel "Textilien"@de .
+    skos:prefLabel "Textilien"@de ;
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Textilkunst. Mode](https://nwbib.de/subjects#N849082)"@de .
 
 :N708400
     a skos:Concept ;
@@ -5538,7 +5590,8 @@
     skos:broader :N708400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708450" ;
-    skos:prefLabel "Schmuck"@de .
+    skos:prefLabel "Schmuck"@de ;
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [GOld- und Silberschmiedekunst. Schmuck](https://nwbib.de/subjects#N849020)"@de .
 
 :N720000
     a skos:Concept ;
@@ -5666,7 +5719,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725050" ;
     skos:prefLabel "Vereine. Interessenverbände"@de ;
-    skos:scopeNote "Freie SW: Verein; Interessenverband; S.a. [Sportvereine](https://nwbib.de/subjects#N736050), [Schützenwesen](https://nwbib.de/subjects#N704070)"@de .
+    skos:scopeNote "Zur Geselligkeitspflege, soziale Interessen, Freizeitvereine; Im Unterschied zu [Interessenverbände](https://nwbib.de/subjects#N406230); Freie SW: Verein; Interessenverband; S.a. [Sportvereine](https://nwbib.de/subjects#N736050), [Schützenwesen](https://nwbib.de/subjects#N704070)"@de .
 
 :N725060
     a skos:Concept ;
@@ -6755,14 +6808,16 @@
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "822000" ;
-    skos:prefLabel "Musikerziehung"@de .
+    skos:prefLabel "Musikerziehung"@de ;
+    skos:scopeNote "S.a. [Musikförderung](https://nwbib.de/subjects#N822400)"@de .
 
 :N822400
     a skos:Concept ;
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "822400" ;
-    skos:prefLabel "Musikförderung"@de .
+    skos:prefLabel "Musikförderung"@de ;
+    skos:scopeNote "S.a. [Musikerziehung](https://nwbib.de/subjects#N822000)"@de .
 
 :N822500
     a skos:Concept ;
@@ -6853,7 +6908,8 @@
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "828000" ;
-    skos:prefLabel "Musikinstrumente"@de .
+    skos:prefLabel "Musikinstrumente"@de ;
+    skos:scopeNote "Im Bereich Volksmusik und Volkstanz s. [Musikinstrumente](https://nwbib.de/subjects#N706220)"@de .
 
 :N840000
     a skos:Concept ;
@@ -7079,7 +7135,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844060" ;
     skos:prefLabel "Park- und Gartenanlagen"@de ;
-    skos:scopeNote "Verwenden bei Gartenkunst; Freie SW: Gartenkunst; S.a. [Parks](https://nwbib.de/subjects#N586020)"@de .
+    skos:scopeNote "Verwenden bei Gartenkunst; Freie SW: Gartenkunst; S.a. [Parks](https://nwbib.de/subjects#N586020), [Naturparke](https://nwbib.de/subjects#N584080)"@de .
 
 :N844070
     a skos:Concept ;
@@ -7162,7 +7218,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849020" ;
     skos:prefLabel "Gold- und Silberschmiedekunst. Schmuck"@de ;
-    skos:scopeNote "Freie SW: Goldschmiedekunst; Silberschmiedekunst; Schmuck"@de .
+    skos:scopeNote "Freie SW: Goldschmiedekunst; Silberschmiedekunst; Schmuck; Im Bereich Volkskunde s. [Schmuck](https://nwbib.de/subjects#N708450)"@de .
 
 :N849030
     a skos:Concept ;
@@ -7198,7 +7254,8 @@
     skos:broader :N849000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849040" ;
-    skos:prefLabel "Keramik"@de .
+    skos:prefLabel "Keramik"@de ;
+    skos:scopeNote "Im Bereich Volkskunst s. [Keramik](https://nwbib.de/subjects#N708250)"@de .
 
 :N849050
     a skos:Concept ;
@@ -7227,14 +7284,16 @@
     skos:broader :N849050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849056" ;
-    skos:prefLabel "Glas"@de .
+    skos:prefLabel "Glas"@de ;
+    skos:scopeNote "Im Bereich Volkskunst s. [Glas](https://nwbib.de/subjects#N708280)"@de .
 
 :N849060
     a skos:Concept ;
     skos:broader :N849000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849060" ;
-    skos:prefLabel "Hausrat"@de .
+    skos:prefLabel "Hausrat"@de ;
+    skos:scopeNote "Im Bereich Sachkulturforschung s. [Hausrat](https://nwbib.de/subjects#N708030)"@de .
 
 :N849070
     a skos:Concept ;
@@ -7256,7 +7315,8 @@
     skos:broader :N849080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849082" ;
-    skos:prefLabel "Textilkunst. Mode"@de .
+    skos:prefLabel "Textilkunst. Mode"@de ;
+    skos:scopeNote "Im Bereich Volkskunst s. [Textilien](https://nwbib.de/subjects#N708290)"@de .
 
 :N849084
     a skos:Concept ;
