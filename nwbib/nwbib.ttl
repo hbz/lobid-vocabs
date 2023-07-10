@@ -1373,7 +1373,7 @@
     skos:notation "225050" ;
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
-    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen](https://nwbib.de/subjects#N226040), s.a. [Germanen](https://nwbib.de/subjects#N227030)"@de ;
+    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen (Römerzeit)](https://nwbib.de/subjects#N226040), s.a. [Germanen (Völkerwanderungszeit)](https://nwbib.de/subjects#N227030)"@de ;
     skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N226000
@@ -1417,7 +1417,7 @@
     skos:notation "226040" ;
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
-    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen](https://nwbib.de/subjects#N225050), s.a. [Germanen](https://nwbib.de/subjects#N227030)"@de ;
+    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225050), s.a. [Germanen (Völkerwanderungszeit)](https://nwbib.de/subjects#N227030)"@de ;
     skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N226050
@@ -1427,7 +1427,7 @@
     skos:notation "226050" ;
     skos:prefLabel "Franken"@de ;
     skos:definition "Germanischer Großstamm"@de ;
-    skos:scopeNote "S.a. [Franken](https://nwbib.de/subjects#N227040)"@de ;
+    skos:scopeNote "S.a. [Franken (Völkerwanderungszeit)](https://nwbib.de/subjects#N227040)"@de ;
     skos:exactMatch wd:Q43482, gnd:4071340-4 . 
 
 :N227000
@@ -1445,7 +1445,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "227020" ;
     skos:prefLabel "Römer"@de ;
-    skos:scopeNote "S.a. [Römer](https://nwbib.de/subjects#N226030)"@de ;
+    skos:scopeNote "S.a. [Römer (Römerzeit)](https://nwbib.de/subjects#N226030)"@de ;
     skos:exactMatch gnd:4122633-1 .
 
 :N227030
@@ -1455,7 +1455,7 @@
     skos:notation "227030" ;
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
-    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen](https://nwbib.de/subjects#N225050), s.a. [Germanen](https://nwbib.de/subjects#N226040)"@de ;
+    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225050), s.a. [Germanen (Römerzeit)](https://nwbib.de/subjects#N226040)"@de ;
     skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N227040
@@ -5602,7 +5602,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708450" ;
     skos:prefLabel "Schmuck"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [GOld- und Silberschmiedekunst. Schmuck](https://nwbib.de/subjects#N849020)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Gold- und Silberschmiedekunst. Schmuck](https://nwbib.de/subjects#N849020)"@de .
 
 :N720000
     a skos:Concept ;
