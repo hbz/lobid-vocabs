@@ -146,15 +146,15 @@
     skos:broader :N1 ;
     skos:narrower :N120100, :N122000, :N124000, :N126000 ;
     skos:notation "120000" ;
-    skos:prefLabel "Kartographie. Geodäsie"@de ;
-    skos:scopeNote "Karten einzelner Regionen und Orte s. im Regionen- bzw. Ortsteil im Sachgebiet \"Kartographie. Geodäsie\" oder unter dem Registereintrag: Karten"@de .
+    skos:prefLabel "Kartographie. Geodäsie"@de .
 
 :N120100
     a skos:Concept ;
     skos:broader :N120000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "120100" ;
-    skos:prefLabel "Kartographie. Geodäsie - Allgemeines"@de .
+    skos:prefLabel "Kartographie. Geodäsie - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Kartographie](https://nwbib.de/subjects#N122000), [Geodäsie](https://nwbib.de/subjects#N124000)"@de .
 
 :N122000
     a skos:Concept ;
@@ -303,7 +303,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141420, :N141430, :N141450, :N141460 ;
     skos:notation "141400" ;
-    skos:prefLabel "Mineralogie. Gesteinskunde"@de .
+    skos:prefLabel "Mineralogie. Gesteinskunde"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Mineralogie](https://nwbib.de/subjects#N141420), [Gesteinskunde](https://nwbib.de/subjects#N141430)"@de .
 
 :N141420
     a skos:Concept ;
@@ -1066,7 +1067,8 @@
     skos:broader :N210000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "210100" ;
-    skos:prefLabel "Archive. Museen - Allgemeines"@de .
+    skos:prefLabel "Archive. Museen - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Archive](https://nwbib.de/subjects#N213000), [Museen und Sammlungen](https://nwbib.de/subjects#N217000)"@de .
 
 :N213000
     a skos:Concept ;
@@ -1223,7 +1225,8 @@
     skos:broader :N220000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "220100" ;
-    skos:prefLabel "Vor- und Frühgeschichte. Archäologie - Allgemeines"@de .
+    skos:prefLabel "Vor- und Frühgeschichte. Archäologie - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Vor- und Frühgeschichte](https://nwbib.de/subjects#N221000), [Archäologie](https://nwbib.de/subjects#N220500)"@de .
 
 :N220500
     a skos:Concept ;
@@ -1528,7 +1531,8 @@
     skos:broader :N260000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "260100" ;
-    skos:prefLabel "Militär. Wehrwesen - Allgemeines"@de .
+    skos:prefLabel "Militär. Wehrwesen - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Militär](https://nwbib.de/subjects#N262000), [Wehrwesen](https://nwbib.de/subjects#N263000)"@de .
 
 :N262000
     a skos:Concept ;
@@ -1888,7 +1892,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N406120, :N406130 ;
     skos:notation "406100" ;
-    skos:prefLabel "Parteien. Politiker"@de .
+    skos:prefLabel "Parteien. Politiker"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Parteien](https://nwbib.de/subjects#N406120), [Politiker](https://nwbib.de/subjects#N406130)"@de .
 
 :N406120
     a skos:Concept ;
@@ -3504,7 +3509,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N544610, :N544620, :N544640, :N544650, :N544660, :N544670 ;
     skos:notation "544600" ;
-    skos:prefLabel "Jagd. Fischfang"@de .
+    skos:prefLabel "Jagd. Fischfang"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Jagd](https://nwbib.de/subjects#N544610), [Fischfang](https://nwbib.de/subjects#N544650)"@de .
 
 :N544610
     a skos:Concept ;
@@ -4276,7 +4282,8 @@
     skos:broader :N570000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "570100" ;
-    skos:prefLabel "Raumordnung und Städtebau - Allgemeines"@de .
+    skos:prefLabel "Raumordnung und Städtebau - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Raumordnung](https://nwbib.de/subjects#N572000), [Städtebau](https://nwbib.de/subjects#N574030)"@de .
 
 :N572000
     a skos:Concept ;
@@ -5030,7 +5037,8 @@
     skos:broader :N650000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "650100" ;
-    skos:prefLabel "Nichtchristliche Religionen. Weltanschauungen - Allgemeines"@de .
+    skos:prefLabel "Nichtchristliche Religionen. Weltanschauungen - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Nichtchristliche Religionen](https://nwbib.de/subjects#N651000), [Weltanschauungen](https://nwbib.de/subjects#N655000)"@de .
 
 :N651000
     a skos:Concept ;
@@ -5322,7 +5330,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N706041, :N706042, :N706043 ;
     skos:notation "706040" ;
-    skos:prefLabel "Märchen. Sagen. Legenden"@de .
+    skos:prefLabel "Märchen. Sagen. Legenden"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Märchen](https://nwbib.de/subjects#N706041), [Sagen](https://nwbib.de/subjects#N706042), [Legenden](https://nwbib.de/subjects#N706043)"@de .
 
 :N706041
     a skos:Concept ;
@@ -5400,7 +5409,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N706210, :N706220, :N706230, :N706240 ;
     skos:notation "706200" ;
-    skos:prefLabel "Volksmusik und Volkstanz"@de .
+    skos:prefLabel "Volksmusik und Volkstanz"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Volksmusik](https://nwbib.de/subjects#N706210), [Volkstanz](https://nwbib.de/subjects#N706240)"@de .
 
 :N706210
     a skos:Concept ;
@@ -5569,7 +5579,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N708410, :N708430, :N708450 ;
     skos:notation "708400" ;
-    skos:prefLabel "Kleidung. Schmuck"@de .
+    skos:prefLabel "Kleidung. Schmuck"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Kleidung](https://nwbib.de/subjects#N708410), [Schmuck](https://nwbib.de/subjects#N708450)"@de .
 
 :N708410
     a skos:Concept ;
@@ -5934,7 +5945,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N746032, :N746034 ;
     skos:notation "746030" ;
-    skos:prefLabel "Hausnamen. Hofnamen"@de .
+    skos:prefLabel "Hausnamen. Hofnamen"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Hausnamen](https://nwbib.de/subjects#N746032), [Hofnamen](https://nwbib.de/subjects#N746034)"@de .
 
 :N746032
     a skos:Concept ;
@@ -6924,7 +6936,8 @@
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "840100" ;
-    skos:prefLabel "Kunst. Architektur - Allgemeines"@de .
+    skos:prefLabel "Kunst. Architektur - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Kunst](https://nwbib.de/subjects#N841000), [Architektur](https://nwbib.de/subjects#N843000)"@de .
 
 :N841000
     a skos:Concept ;
@@ -7037,7 +7050,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N843042, :N843044, :N843046 ;
     skos:notation "843040" ;
-    skos:prefLabel "Büro-, Geschäfts-, Industriebauten"@de .
+    skos:prefLabel "Büro-, Geschäfts-, Industriebauten"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Bürohäuser](https://nwbib.de/subjects#N843042), [Geschäftshäuser](https://nwbib.de/subjects#N843044), [Industriebauten](https://nwbib.de/subjects#N843046)"@de .
 
 :N843042
     a skos:Concept ;
@@ -7263,7 +7277,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N849052, :N849054, :N849056 ;
     skos:notation "849050" ;
-    skos:prefLabel "Porzellan. Fayence. Glas"@de .
+    skos:prefLabel "Porzellan. Fayence. Glas"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Porzellan](https://nwbib.de/subjects#N849052), [Fayence](https://nwbib.de/subjects#N849054), [Glas](https://nwbib.de/subjects#N849056)"@de .
 
 :N849052
     a skos:Concept ;
@@ -7308,7 +7323,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N849082, :N849084, :N849086 ;
     skos:notation "849080" ;
-    skos:prefLabel "Textilien. Teppiche. Tapeten"@de .
+    skos:prefLabel "Textilien. Teppiche. Tapeten"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Textilkunst. Mode](https://nwbib.de/subjects#N849082), [Teppichknüpferei. Teppichweberei](https://nwbib.de/subjects#N849084), [Tapeten](https://nwbib.de/subjects#N849086)"@de .
 
 :N849082
     a skos:Concept ;
@@ -7346,7 +7362,8 @@
     skos:broader :N860000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "860100" ;
-    skos:prefLabel "Buch und Bibliothek - Allgemeines"@de .
+    skos:prefLabel "Buch und Bibliothek - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Buch](https://nwbib.de/subjects#N861000), [Bibliotheken](https://nwbib.de/subjects#N865000)"@de .
 
 :N861000
     a skos:Concept ;
@@ -7508,7 +7525,8 @@
     skos:broader :N880000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "880100" ;
-    skos:prefLabel "Publizistik. Information und Dokumentation - Allgemeines"@de .
+    skos:prefLabel "Publizistik. Information und Dokumentation - Allgemeines"@de ;
+    skos:scopeNote "S.a. einzelne Notationen [Publizistik](https://nwbib.de/subjects#N882000), [Information und Dokumentation](https://nwbib.de/subjects#N884000)"@de .
 
 :N882000
     a skos:Concept ;
