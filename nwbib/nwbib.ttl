@@ -1363,7 +1363,7 @@
     skos:notation "225040" ;
     skos:prefLabel "Kelten"@de ;
     skos:definition "Volksgruppen der Eisenzeit in Europa"@de ;
-    skos:scopeNote "S.a. [Kelten](https://nwbib.de/subjects#N226020)"@de ;
+    skos:scopeNote "S.a. [Kelten (Römerzeit)](https://nwbib.de/subjects#N226020)"@de ;
     skos:exactMatch wd:Q35966, gnd:4030206-4 .
 
 :N225050
@@ -1399,7 +1399,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226020" ;
     skos:prefLabel "Kelten"@de ;
-    skos:scopeNote "S.a. [Kelten](https://nwbib.de/subjects#N225040)"@de .
+    skos:scopeNote "S.a. [Kelten (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225040)"@de .
 
 :N226030
     a skos:Concept ;
