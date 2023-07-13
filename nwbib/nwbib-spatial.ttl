@@ -123,6 +123,13 @@ nwbib-spatial:Q61727598
         skos:prefLabel  "Essenberg"@de ;
         foaf:focus      wd:Q61727598 .
 
+nwbib-spatial:Q119520676
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q161729 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Rohdenhaus"@de ;
+        foaf:focus      wd:Q119520676 .
+
 nwbib-spatial:Q2130385
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q240964 ;
@@ -4924,7 +4931,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-06-12" ;
+        dct:modified                   "2023-07-13" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -10588,19 +10595,19 @@ nwbib-spatial:Q21039639
         skos:prefLabel  "Schwafheim"@de ;
         foaf:focus      wd:Q21039639 .
 
-nwbib-spatial:Q1659238
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q182857 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ilserheide"@de ;
-        foaf:focus      wd:Q1659238 .
-
 nwbib-spatial:Q1795744
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q153779 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Flittard"@de ;
         foaf:focus      wd:Q1795744 .
+
+nwbib-spatial:Q1659238
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q182857 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ilserheide"@de ;
+        foaf:focus      wd:Q1659238 .
 
 nwbib-spatial:Q851588
         a               skos:Concept ;
@@ -10804,6 +10811,13 @@ nwbib-spatial:Q1644202
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Hönnepel"@de ;
         foaf:focus      wd:Q1644202 .
+
+nwbib-spatial:Q2016558
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253185 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ohmbach"@de ;
+        foaf:focus      wd:Q2016558 .
 
 nwbib-spatial:Q56033650
         a               skos:Concept ;
@@ -13630,6 +13644,13 @@ nwbib-spatial:Q2568286
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Wiedenfeld"@de ;
         foaf:focus      wd:Q2568286 .
+
+nwbib-spatial:Q1551698
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11052 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Grötzenberg"@de ;
+        foaf:focus      wd:Q1551698 .
 
 nwbib-spatial:Q1607669
         a               skos:Concept ;
@@ -27540,6 +27561,13 @@ nwbib-spatial:Q2238773
         skos:prefLabel  "Schleiden"@de ;
         foaf:focus      wd:Q2238773 .
 
+nwbib-spatial:Q73604858
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3822 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Alstedde"@de ;
+        foaf:focus      wd:Q73604858 .
+
 nwbib-spatial:Q1825949
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q11047 ;
@@ -29552,6 +29580,13 @@ nwbib-spatial:Q54785788
         skos:prefLabel  "Überruhr-Hinsel"@de ;
         foaf:focus      wd:Q54785788 .
 
+nwbib-spatial:Q50046754
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q254171 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Wiescheid"@de ;
+        foaf:focus      wd:Q50046754 .
+
 nwbib-spatial:Q225774
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6218 ;
@@ -29560,19 +29595,19 @@ nwbib-spatial:Q225774
         skos:prefLabel  "Halle (Westf.)"@de ;
         foaf:focus      wd:Q225774 .
 
-nwbib-spatial:Q50046754
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q254171 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Wiescheid"@de ;
-        foaf:focus      wd:Q50046754 .
-
 nwbib-spatial:Q1609484
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q114402 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Herbringhausen"@de ;
         foaf:focus      wd:Q1609484 .
+
+nwbib-spatial:Q120531435
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q255416 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Neuenhoven"@de ;
+        foaf:focus      wd:Q120531435 .
 
 nwbib-spatial:Q2354004
         a               skos:Concept ;
