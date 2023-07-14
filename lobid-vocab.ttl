@@ -619,4 +619,14 @@ lv:bibliographicLevel
    rdfs:comment "Describes the bibliographic level of a resource, based on MARC 21-Leader 07 -  - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
-   
+
+# <http://purl.org/lobid/lv#stockNumber>
+
+lv:stockNumber
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Publisher or Distributor Number"@en ;
+   rdfs:label "Verlags-/Vertriebsnummer"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "States the publisher or distributor number of a resource, based on MARC 21-028 - Publisher or Distributor Number: https://www.loc.gov/marc/bibliographic/bd028.html"@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
