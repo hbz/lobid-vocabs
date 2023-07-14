@@ -190,7 +190,10 @@
     skos:broader :N120000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "124000" ;
-    skos:prefLabel "Geodäsie"@de .
+    skos:prefLabel "Geodäsie"@de ;
+    skos:altLabel "Vermessungskunde, Feldmessung"@de ;
+    skos:definition "Wissenschaft von der Vermessung und Darstellung der Erde"@de ;
+    skos:exactMatch wd:Q131089, gnd:4020202-1 .
 
 :N126000
     a skos:Concept ;
@@ -220,7 +223,10 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141020, :N141030, :N141040 ;
     skos:notation "141000" ;
-    skos:prefLabel "Geophysik"@de .
+    skos:prefLabel "Geophysik"@de ;
+    skos:altLabel "Physik der Erde"@de ;
+    skos:definition "Study of physical processes and phenomena occurring in the earth and in its vicinity"@en ;
+    skos:exactMatch wd:Q46255, gnd:4020252-5 .
 
 :N141020
     a skos:Concept ;
@@ -248,7 +254,10 @@
     skos:broader :N140000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141100" ;
-    skos:prefLabel "Geochemie"@de .
+    skos:prefLabel "Geochemie"@de ;
+    skos:altLabel "Gesteinschemie, Lithogeochemie"@de ;
+    skos:definition "Bez. für ein Teilgebiet der Geowissenschaften, das die chem. Zusammensetzung und die chem. Veränderungen der Erde untersucht"@de;
+    skos:exactMatch wd:Q161764, gnd:4020198-3 .
 
 :N141200
     a skos:Concept ;
@@ -256,7 +265,10 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141210, :N141220, :N141230, :N141240 ;
     skos:notation "141200" ;
-    skos:prefLabel "Geologie"@de .
+    skos:prefLabel "Geologie"@de ;
+    skos:altLabel "Geognosie"@de ;
+    skos:definition "Wissenschaft von der Entwicklung und vom Aufbau der Erde"@de ;
+    skos:exactMatch wd:Q1069, gnd:4020227-6 .
 
 :N141210
     a skos:Concept ;
@@ -274,7 +286,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141225 ;
     skos:notation "141220" ;
-    skos:prefLabel "Tektonik"@de .
+    skos:prefLabel "Tektonik"@de ;
+    skos:definition "Lehre vom Aufbau der Erdkruste und von den in ihr stattfindenden großräumigen Bewegungen"@de ;
+    skos:exactMatch wd:Q78125729, gnd:4059351-4 .
 
 :N141225
     a skos:Concept ;
@@ -288,14 +302,20 @@
     skos:broader :N141200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141230" ;
-    skos:prefLabel "Ingenieurgeologie"@de .
+    skos:prefLabel "Ingenieurgeologie"@de ;
+    skos:altLabel "Baugeologie"@de ;
+    skos:definition "Zweig der Angewandten Geologie und Geotechnik; Sie befasst sich mit dem Verhalten von Gesteinen und des Gebirges entsprechend den genetisch bedingten Materialeigenschaften und ihrer erdgeschichtlichen Entwicklung"@de ;
+    skos:exactMatch wd:Q586474, gnd:4125674-8 .
 
 :N141240
     a skos:Concept ;
     skos:broader :N141200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141240" ;
-    skos:prefLabel "Stratigraphie"@de .
+    skos:prefLabel "Stratigraphie"@de ;
+    skos:altLabel "Schichtenkunde"@de ;
+    skos:definition "Teildisziplin der Geologie"@de ;
+    skos:exactMatch wd:Q134783, gnd:4057956-6 .
 
 :N141400
     a skos:Concept ;
@@ -358,7 +378,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141620, :N141630, :N141640 ;
     skos:notation "141600" ;
-    skos:prefLabel "Paläontologie"@de .
+    skos:prefLabel "Paläontologie"@de ;
+    skos:definition "Wissenschaft von den Lebewesen vergangener Erdzeitalter"@de ;
+    skos:exactMatch wd:Q7205, gnd:4044375-9 .
 
 :N141620
     a skos:Concept ;
@@ -366,14 +388,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141622, :N141624 ;
     skos:notation "141620" ;
-    skos:prefLabel "Paläobotanik"@de .
+    skos:prefLabel "Paläobotanik"@de ;
+    skos:definition "Wissenschaft von den fossilen Pflanzen"@de ;
+    skos:exactMatch wd:Q192694, gnd:4044361-9 .
 
 :N141622
     a skos:Concept ;
     skos:broader :N141620 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141622" ;
-    skos:prefLabel "Fossile Kryptogamen"@de .
+    skos:prefLabel "Fossile Kryptogamen"@de ;
+    skos:scopeNote "S.a. [Kryptogamen](https://nwbib.de/subjects#N162030)"@de .
 
 :N141624
     a skos:Concept ;
@@ -388,7 +413,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141632, :N141634 ;
     skos:notation "141630" ;
-    skos:prefLabel "Paläozoologie"@de .
+    skos:prefLabel "Paläozoologie"@de ;
+    skos:definition "Naturwissenschaft, die sich der Erforschung der fossilen Tiere widmet, und als solche eine Teildisziplin der Paläontologie darstellt"@de ;
+    skos:exactMatch wd:Q210369, gnd:4044380-2 .
 
 :N141632
     a skos:Concept ;
@@ -409,7 +436,9 @@
     skos:broader :N141600 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141640" ;
-    skos:prefLabel "Mikropaläontologie"@de .
+    skos:prefLabel "Mikropaläontologie"@de ;
+    skos:definition "Befasst sich mit dem Studium der Mikrofossilien. Als Mikrofossilien werden Fossilien von Mikroorganismen und mikroskopisch kleine fossile Reste größerer Lebewesen bezeichnet"@de ;
+    skos:exactMatch gnd:4125948-8 .
 
 :N142000
     a skos:Concept ;
@@ -475,7 +504,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142110, :N142120, :N142130, :N142140, :N142170, :N142180, :N142190 ;
     skos:notation "142100" ;
-    skos:prefLabel "Geomorphologie"@de .
+    skos:prefLabel "Geomorphologie"@de ;
+    skos:definition "Teilgebiet der Physischen Geographie; Untersucht die Formen und formbildenden Prozesse der Oberfläche, nicht nur der Erde, sondern auch jene des Mondes, des Mars und anderer Planeten"@de ;
+    skos:exactMatch wd:Q52109, gnd:4130684-3 .
 
 :N142110
     a skos:Concept ;
@@ -497,28 +528,35 @@
     skos:broader :N142120 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142125" ;
-    skos:prefLabel "Sedimentation"@de .
+    skos:prefLabel "Sedimentation"@de ;
+    skos:definition "Absetzen fester Teilchen aus Flüssigkeiten oder Gasen unter Schwerkraft oder Zentrifugalkraft"@de ;
+    skos:exactMatch wd:Q635485, gnd:4054080-7 .
 
 :N142130
     a skos:Concept ;
     skos:broader :N142100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142130" ;
-    skos:prefLabel "Klimamorphologie"@de .
+    skos:prefLabel "Klimamorphologie"@de ;
+    skos:exactMatch gnd:4073512-6 .
 
 :N142140
     a skos:Concept ;
     skos:broader :N142100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142140" ;
-    skos:prefLabel "Glazialmorphologie"@de .
+    skos:prefLabel "Glazialmorphologie"@de ;
+    skos:definition "Aufbau und Entstehung der Oberflächen bei Gletschern, Lehre von den Eisformen"@de ;
+    skos:exactMatch wd:Q2116384, gnd:4021212-9 .
 
 :N142170
     a skos:Concept ;
     skos:broader :N142100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142170" ;
-    skos:prefLabel "Karst"@de .
+    skos:prefLabel "Karst"@de ;
+    skos:definition "Topography formed from the dissolution of soluble rocks"@en ;
+    skos:exactMatch wd:Q16817, gnd:4129942-5 .
 
 :N142180
     a skos:Concept ;
@@ -586,7 +624,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142352 ;
     skos:notation "142350" ;
-    skos:prefLabel "Hydrogeologie"@de .
+    skos:prefLabel "Hydrogeologie"@de ;
+    skos:definition "Wissenschaft vom Wasser in der Erdkruste"@de ;
+    skos:exactMatch wd:Q179509, gnd:4026307-1 .
 
 :N142352
     a skos:Concept ;
@@ -643,7 +683,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142382 ;
     skos:notation "142380" ;
-    skos:prefLabel "Hydrobiologie"@de .
+    skos:prefLabel "Hydrobiologie"@de ;
+    skos:altLabel "Gewässerbiologie"@de ;
+    skos:exactMatch wd:Q5728861, gnd:4026300-9 .
 
 :N142382
     a skos:Concept ;
@@ -710,7 +752,10 @@
     skos:broader :N142500 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142530" ;
-    skos:prefLabel "Klimatologie"@de .
+    skos:prefLabel "Klimatologie"@de ;
+    skos:altLabel "Klimakunde, Klimaforschung"@de ;
+    skos:definition "Interdisziplinäre Wissenschaft der Fachgebiete Meteorologie, Geographie, Geologie, Ozeanographie und Physik"@de ;
+    skos:exactMatch wd:Q52139, gnd:4031178-8 .
 
 :N142540
     a skos:Concept ;
@@ -739,7 +784,9 @@
     skos:broader :N142500 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142570" ;
-    skos:prefLabel "Paläoklimatologie"@de .
+    skos:prefLabel "Paläoklimatologie"@de ;
+    skos:definition "Wissenschaft, die die Geschichte des Klimas zum Gegenstand hat"@de ;
+    skos:exactMatch wd:Q191069, gnd:4173112-8 .
 
 :N146000
     a skos:Concept ;
@@ -929,7 +976,9 @@
     skos:broader :N164000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "164040" ;
-    skos:prefLabel "Paläanthropologie"@de .
+    skos:prefLabel "Paläanthropologie"@de ;
+    skos:definition "Wissenschaft der Entstehung der spezifischen Merkmale des Menschen"@de ;
+    skos:exactMatch wd:Q7206, gnd:4173104-9 .
 
 :N200000
     a skos:Concept ;
@@ -958,7 +1007,9 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "202500" ;
-    skos:prefLabel "Metrologie"@de .
+    skos:prefLabel "Metrologie"@de ;
+    skos:definition "Lehre von den Maßen und den Maßsystemen"@de ;
+    skos:exactMatch wd:Q394, gnd:4169749-2 .
 
 :N203000
     a skos:Concept ;
@@ -972,7 +1023,9 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "203500" ;
-    skos:prefLabel "Paläographie"@de .
+    skos:prefLabel "Paläographie"@de ;
+    skos:definition "Lehre von alten Schriften"@de ;
+    skos:exactMatch wd:Q179957, gnd:4173110-4 .
 
 :N204000
     a skos:Concept ;
@@ -987,7 +1040,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N205020, :N205040 ;
     skos:notation "205000" ;
-    skos:prefLabel "Numismatik"@de .
+    skos:prefLabel "Numismatik"@de ;
+    skos:definition "Wissenschaft von Münzen, Medaillen sowie weiteren Zahlungsmitteln und Geldgeschichte"@de ;
+    skos:exactMatch wd:Q631286, gnd:4172175-5 .
 
 :N205020
     a skos:Concept ;
@@ -1021,7 +1076,9 @@
     skos:narrower :N207020 ;
     skos:notation "207000" ;
     skos:prefLabel "Genealogie"@de ;
-    skos:scopeNote "S.a. [Einzelne Familien](https://nwbib.de/subjects#N207020)"@de .
+    skos:definition "Historische Hilfswissenschaft der Familiengeschichtsforschung"@de ;
+    skos:scopeNote "S.a. [Einzelne Familien](https://nwbib.de/subjects#N207020)"@de ;
+    skos:exactMatch wd:Q47307, gnd:4020097-8 .
 
 :N207020
     a skos:Concept ;
@@ -1036,7 +1093,9 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "208000" ;
-    skos:prefLabel "Heraldik"@de .
+    skos:prefLabel "Heraldik"@de ;
+    skos:definition "Lehre von Wappen und deren richtigem Gebrauch"@de ;
+    skos:exactMatch wd:Q18336, gnd:4072428-1 .
 
 :N208500
     a skos:Concept ;
@@ -1249,7 +1308,10 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "222000" ;
     skos:prefLabel "Paläolithikum. Mesolithikum"@de ;
-    skos:scopeNote "Freie SW: Paläolithikum; Mesolithikum"@de .
+    skos:altLabel "Paläolithikum: Altsteinzeit; Mesolithikum: Mittelsteinzeit"@de ;
+    skos:definition "Archäologische Funde frühester Epoche, Paläolithikum:ca. 3000000 v. Chr.-10000 v. Chr., Mesolithikum: ca. 8500-5500 v. Chr."@de ;
+    skos:scopeNote "Freie SW: Paläolithikum; Mesolithikum"@de ;
+    skos:exactMatch wd:Q40203, wd:Q44155, gnd:4140148-7, gnd:4169472-7 .
 
 :N223000
     a skos:Concept ;
@@ -1258,7 +1320,10 @@
     skos:narrower :N223020, :N223030, :N223040, :N223050, :N223060, :N223070 ;
     skos:notation "223000" ;
     skos:prefLabel "Neolithikum"@de ;
-    skos:scopeNote "5300-2150 v.Chr."@de .
+    skos:altLabel "Jungsteinzeit, Jüngere Steinzeit"@de ;
+    skos:definition "Archäologischer Zeitraum, letzter Teil der Steinzeit"@de ;
+    skos:scopeNote "5300-2150 v.Chr."@de ;
+    skos:exactMatch wd:Q36422, gnd:4075272-0 .
 
 :N223020
     a skos:Concept ;
@@ -1266,7 +1331,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223020" ;
     skos:prefLabel "Bandkeramische Kultur"@de ;
-    skos:scopeNote "5300-4900 v.Chr."@de .
+    skos:definition "5700-4800 v.Chr."@de ;
+    skos:exactMatch gnd:4143987-9 .
 
 :N223030
     a skos:Concept ;
@@ -1274,7 +1340,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223030" ;
     skos:prefLabel "Rössener Kultur"@de ;
-    skos:scopeNote "4800-4600 v.Chr."@de .
+    skos:definition "Jungsteinzeitl. Kulturgruppe in West- u. Mitteldeutschland, 4800-4000 v.Chr."@de ;
+    skos:exactMatch wd:Q1886212, gnd:4196969-8 .
 
 :N223040
     a skos:Concept ;
@@ -1282,21 +1349,27 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223040" ;
     skos:prefLabel "Michelsberger Kultur"@de ;
-    skos:scopeNote "4300-2800 v.Chr."@de .
+    skos:definition "Jungsteinzeitliche Kultur in Mitteleuropa, 4100-3400 v.Chr."@de ;
+    skos:exactMatch wd:Q570798, gnd:4169764-9 .
 
 :N223050
     a skos:Concept ;
     skos:broader :N223000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223050" ;
-    skos:prefLabel "Megalithkultur"@de .
+    skos:prefLabel "Megalithkultur"@de ;
+    skos:definition "3000-2000 v. Chr., Sammelbez. f. west- u. nordeurop. Kulturgruppen, i.w.S. auch archäol. u. ethnolog. Kulturen außerhalb Europas"@de ;
+    skos:exactMatch wd:Q337451, gnd:4038344-1 .
 
 :N223060
     a skos:Concept ;
     skos:broader :N223000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223060" ;
-    skos:prefLabel "Schnurkeramische Kultur"@de .
+    skos:prefLabel "Schnurkeramische Kultur"@de ;
+    skos:altLabel "Streitaxtkultur"@de ;
+    skos:definition "3000-2000 v. Chr., archäologische Epoche der Funde aus der Kupferzeit"@de ;
+    skos:exactMatch wd:Q933996, gnd:4179902-1 .
 
 :N223070
     a skos:Concept ;
@@ -1304,7 +1377,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "223070" ;
     skos:prefLabel "Glockenbecherkultur"@de ;
-    skos:scopeNote "2800-2150 v.Chr."@de .
+    skos:definition "2800-2150 v.Chr."@de ;
+    skos:exactMatch gnd:4157634-2 .
 
 :N224000
     a skos:Concept ;
@@ -1313,7 +1387,8 @@
     skos:narrower :N224050, :N224060 ;
     skos:notation "224000" ;
     skos:prefLabel "Bronzezeit"@de ;
-    skos:scopeNote "2150-800 v.Chr."@de .
+    skos:definition "2150-800 v.Chr."@de ;
+    skos:exactMatch wd:Q11761, gnd:4008357-3 .
 
 :N224050
     a skos:Concept ;
@@ -1321,7 +1396,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "224050" ;
     skos:prefLabel "Hügelgräberkultur"@de ;
-    skos:scopeNote "1500-1300 v.Chr."@de .
+    skos:definition "1500-1300 v.Chr."@de ;
+    skos:exactMatch gnd:4160741-7 .
 
 :N224060
     a skos:Concept ;
@@ -1329,7 +1405,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "224060" ;
     skos:prefLabel "Urnenfelderkultur"@de ;
-    skos:scopeNote "1300-800 v.Chr."@de .
+    skos:definition "1300-800 v.Chr."@de ;
+    skos:exactMatch wd:Q223998, gnd:4062146-7 .
 
 :N225000
     a skos:Concept ;
@@ -1338,7 +1415,8 @@
     skos:narrower :N225020, :N225030, :N225040, :N225050 ;
     skos:notation "225000" ;
     skos:prefLabel "Vorrömische Eisenzeit"@de ;
-    skos:scopeNote "800 v.Chr.- um Chr. Geburt"@de .
+    skos:definition "800 v.Chr.-um Chr. Geburt"@de ;
+    skos:exactMatch gnd:4133554-5 .
 
 :N225020
     a skos:Concept ;
@@ -1346,7 +1424,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225020" ;
     skos:prefLabel "Hallstattkultur"@de ;
-    skos:scopeNote "800-475 v.Chr."@de .
+    skos:definition "800-475 v.Chr., Zeitabschnitt der älteren Eisenzeit"@de ;
+    skos:exactMatch wd:Q202165, gnd:4072254-5 .
 
 :N225030
     a skos:Concept ;
@@ -1354,7 +1433,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225030" ;
     skos:prefLabel "Latène-Zeit"@de ;
-    skos:scopeNote "475 v.Chr.- um Chr. Geburt"@de .
+    skos:definition "475 v.Chr.-um Chr. Geburt, kelt. Kultur der jüngeren vorröm. Eisenzeit "@de ;
+    skos:exactMatch wd:Q208247, gnd:4034668-7 .
 
 :N225040
     a skos:Concept ;
@@ -4677,7 +4757,10 @@
     skos:narrower :N611082, :N611083, :N611084, :N611085 ;
     skos:notation "611080" ;
     skos:prefLabel "Kultus"@de ;
-    skos:scopeNote "Freie SW: z.B. Gottesdienst"@de .
+    skos:altLabel "Kult, Kultpraxis"@de ;
+    skos:definition "Gesamtheit religiöser Handlungen"@de ;
+    skos:scopeNote "S.a. [evangelischer](https://nwbib.de/subjects#N613070); Freie SW: z.B. Gottesdienst"@de ;
+    skos:exactMatch wd:Q756820, gnd:4033535-5 .
 
 :N611082
     a skos:Concept ;
@@ -4729,35 +4812,47 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N612025 ;
     skos:notation "612020" ;
-    skos:prefLabel "Calvinismus"@de .
+    skos:prefLabel "Calvinismus"@de ;
+    skos:definition "Theologische Bewegung des französischen Reformators aus Genf Johannes Calvin; Oberbegriff: Protestantismus"@de ;
+    skos:exactMatch wd:Q101849, gnd:4136802-2 .
 
 :N612025
     a skos:Concept ;
     skos:broader :N612020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612025" ;
-    skos:prefLabel "Zwinglianer"@de .
+    skos:prefLabel "Zwinglianer"@de ;
+    skos:definition "Anhänger der Lehre von Ulrich Zwingli aus Zürich"@de ;
+    skos:exactMatch wd:Q244830 .
 
 :N612030
     a skos:Concept ;
     skos:broader :N612000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612030" ;
-    skos:prefLabel "Täufer"@de .
+    skos:prefLabel "Täufer"@de ;
+    skos:altLabel "Anabaptismus, Anabaptisten, Wiedertäufer"@de ;
+    skos:definition "Anhänger der christlichen Täuferbewegung im 16. Jahrhundert"@de ;
+    skos:exactMatch wd:Q165580, gnd:4078126-4 .
 
 :N612040
     a skos:Concept ;
     skos:broader :N612000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612040" ;
-    skos:prefLabel "Schwärmer"@de .
+    skos:prefLabel "Schwärmer"@de ;
+    skos:altLabel "Schwarmgeist, Schwärmertum, Schwärmer (Theologie), Spiritualismus (Theologie)"@de ;
+    skos:definition "Der schon seit der Mitte des 19. Jahrhunderts für Außenseiter der Reformation gebräuchliche Begriff Spiritualist löste zeitgenössische abwertende Begriffe wie „Schwärmer“ oder „Schwarmgeister“ (häufig bei Martin Luther) ab"@de ;
+    skos:exactMatch wd:Q100275927, gnd:4180308-5 .
 
 :N612050
     a skos:Concept ;
     skos:broader :N612000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612050" ;
-    skos:prefLabel "Reformatoren"@de .
+    skos:prefLabel "Reformatoren"@de ;
+    skos:definition "Personen der Kirchengeschichte, die bei der Gründung und Ausformung der evangelischen Kirchen während der Reformation mitwirkten"@de ;
+    skos:exactMatch wd:Q763779, gnd:4177347-0 .
 
 :N612070
     a skos:Concept ;
@@ -4765,21 +4860,27 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612070" ;
     skos:prefLabel "Glaubensflüchtlinge"@de ;
-    skos:scopeNote "Z.B. Salzburger Exulanten"@de .
+    skos:altLabel "Religiöser Flüchtling"@de ;
+    skos:scopeNote "Z.B. Salzburger Exulanten"@de ;
+    skos:exactMatch gnd:4413224-4 .
 
 :N612080
     a skos:Concept ;
     skos:broader :N612000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612080" ;
-    skos:prefLabel "Hugenotten"@de .
+    skos:prefLabel "Hugenotten"@de ;
+    skos:definition "Synonym für Protestanten: heute meist Bezeichnung für franz. Protestanten, die 1559 auf ihrer ersten Nationalsynode in Paris ihr Bekenntnis (Confessio Gallicana) formulierten"@de ;
+    skos:exactMatch wd:Q101935, gnd:4026112-8 .
 
 :N612500
     a skos:Concept ;
     skos:broader :N610000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "612500" ;
-    skos:prefLabel "Gegenreformation"@de .
+    skos:prefLabel "Gegenreformation"@de ;
+    skos:definition "Im evangel. Bereich bevorzugte Terminologie; sachlich weitgehend deckungsgleich mit Katholische Erneuerung; Rekatholisierung vor Beginn der Aufklärung"@de ;
+    skos:exactMatch wd:Q128168, gnd:4019710-4 .
 
 :N613000
     a skos:Concept ;
@@ -4841,7 +4942,9 @@
     skos:broader :N613040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613043" ;
-    skos:prefLabel "Diakonie"@de .
+    skos:prefLabel "Diakonie"@de ;
+    skos:altLabel "Evangelische Sozialarbeit"@de ;
+    skos:exactMatch wd:Q1208280, gnd:4012046-6 .
 
 :N613044
     a skos:Concept ;
@@ -4871,7 +4974,11 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N613072, :N613073 ;
     skos:notation "613070" ;
-    skos:prefLabel "Kultus"@de .
+    skos:prefLabel "Kultus"@de ;
+    skos:altLabel "Kult, Kultpraxis"@de ;
+    skos:definition "Gesamtheit religiöser Handlungen"@de ;
+    skos:scopeNote "S.a. [katholischer](https://nwbib.de/subjects#N611080); Freie SW: z.B. Gottesdienst"@de ;
+    skos:exactMatch wd:Q756820, gnd:4033535-5 .
 
 :N613072
     a skos:Concept ;
@@ -4914,7 +5021,9 @@
     skos:broader :N615000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "615040" ;
-    skos:prefLabel "Altkatholische Kirche"@de .
+    skos:prefLabel "Altkatholische Kirche"@de ;
+    skos:definition "Churches that split from Roman Catholic Church in the 1870s"@en ;
+    skos:exactMatch wd:Q5169816, gnd:4001531-2 .
 
 :N615070
     a skos:Concept ;
@@ -4929,7 +5038,6 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "616000" ;
     skos:prefLabel "Ökumene"@de ;
-    skos:scopeNote "Auch Islam"@de ;
     skos:exactMatch gnd:4138445-3 .
 
 :N617000
