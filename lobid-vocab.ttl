@@ -617,7 +617,6 @@ lv:bibliographicLevel
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "Beschreibt das bibliografische Level einer Ressource, angeleht an MARC 21-Leader 07 - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@de ;
    rdfs:comment "Describes the bibliographic level of a resource, based on MARC 21-Leader 07 -  - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@en ;
-   rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
    
