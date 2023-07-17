@@ -570,7 +570,9 @@
     skos:broader :N142100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142190" ;
-    skos:prefLabel "Angewandte Geomorphologie"@de .
+    skos:prefLabel "Angewandte Geomorphologie"@de ;
+    skos:scopeNote "S.a. [Geomorphologie](https://nwbib.de/subjects#N142100)"@de ;
+    skos:exactMatch gnd:4142437-2 .
 
 :N142300
     a skos:Concept ;
@@ -1570,14 +1572,15 @@
     skos:notation "240000" ;
     skos:prefLabel "Geschichte"@de ;
     skos:example "Auch verwenden bei \"Kriegsende in Neuss 1945-1948\""@de ;
-    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden"@de, "Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de .
+    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden; Für NRW s. [Nordrhein-Westfalen, insgesamt](https://nwbib.de/subjects#N249800)"@de, "Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de .
 
 :N240100
     a skos:Concept ;
     skos:broader :N240000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "240100" ;
-    skos:prefLabel "Quellen"@de .
+    skos:prefLabel "Quellen"@de ;
+    skos:scopeNote "Verwenden, wenn Quelle abgebildet ist oder im Text Bezug auf eine Quelle genommen wird"@de .
 
 :N240200
     a skos:Concept ;
@@ -2099,7 +2102,8 @@
     skos:broader :N420000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "420100" ;
-    skos:prefLabel "Verwaltung - Allgemeines"@de .
+    skos:prefLabel "Verwaltung - Allgemeines"@de ;
+    skos:scopeNote "Verwenden bei sehr allgemeinem Kontext wie Verwaltung in NRW; Im Unterschied zu [Allgemeine Verwaltung](https://nwbib.de/subjects#N423000)"@de .
 
 :N421000
     a skos:Concept ;
@@ -2129,7 +2133,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N423030, :N423050 ;
     skos:notation "423000" ;
-    skos:prefLabel "Allgemeine Verwaltung"@de .
+    skos:prefLabel "Allgemeine Verwaltung"@de ;
+    skos:example "Behörden (Bundesbehörden, städtische Behörden u.Ä.)"@de .
 
 :N423030
     a skos:Concept ;
@@ -2427,7 +2432,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N428020, :N428030, :N428040, :N428050, :N428060, :N428070 ;
     skos:notation "428000" ;
-    skos:prefLabel "Sicherheit und Ordnung"@de .
+    skos:prefLabel "Sicherheit und Ordnung"@de ;
+    skos:example "Polizei, Ordnungsamt, Sicherheit bei Veranstaltungen, Verkehrsunfallentwicklung u.Ä."@de .
 
 :N428020
     a skos:Concept ;
@@ -2456,7 +2462,8 @@
     skos:broader :N428000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428040" ;
-    skos:prefLabel "Zivilschutz"@de .
+    skos:prefLabel "Zivilschutz"@de ;
+    skos:example "Feuerwehr, Luftschutz, Krisenmanagement, Gefahrenabwehr u.Ä."@de .
 
 :N428050
     a skos:Concept ;
@@ -2486,7 +2493,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428060" ;
     skos:prefLabel "Personenstand"@de ;
-    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., ggf. zusätzl. [Quellen](https://nwbib.de/subjects#N240100) u. [katholische](https://nwbib.de/subjects#N611030) o. [evangelische](https://nwbib.de/subjects#N613030) Kirchengemeinden"@de .
+    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., Themen wie Sterberegister, Eheschließungen u.Ä.; Ggf. zusätzl. [Quellen](https://nwbib.de/subjects#N240100) u. [katholische](https://nwbib.de/subjects#N611030) o. [evangelische](https://nwbib.de/subjects#N613030) Kirchengemeinden"@de .
 
 :N428070
     a skos:Concept ;
@@ -2663,14 +2670,20 @@
     skos:broader :N440000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "447000" ;
-    skos:prefLabel "Rechtsprechung"@de .
+    skos:prefLabel "Rechtsprechung"@de ;
+    skos:altLabel "Judikatur, Spruchpraxis"@de ;
+    skos:scopeNote "Verwenden, wenn konkrete Fälle geschildert werden, inkl. Gerichtsprozesse"@de ;
+    skos:exactMatch gnd:4115710-2 .
 
 :N448000
     a skos:Concept ;
     skos:broader :N440000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "448000" ;
-    skos:prefLabel "Rechtspflege"@de .
+    skos:prefLabel "Rechtspflege"@de ;
+    skos:definition "Anwendung des Rechts auf den Einzelfall durch den Staat"@de ;
+    skos:scopeNote "Betrifft juristische Berufe; Verwenden auch bei Grundbucheintragungen, Erbschaftsangelegenheiten, Personenstandsangelegenheiten"@de ;
+    skos:exactMatch wd:Q1522168, gnd:4048816-0 .
 
 :N500000
     a skos:Concept ;
@@ -2955,7 +2968,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N523001, :N523010, :N523020, :N523030, :N523040, :N523050, :N523060, :N523070, :N523080, :N523090 ;
     skos:notation "523000" ;
-    skos:prefLabel "Sozialhilfe (Fürsorge)"@de .
+    skos:prefLabel "Sozialhilfe (Fürsorge)"@de ;
+    skos:definition "Gebräuchlich bzw. amtliche Bezeichnung ab ca. 1960; Vor 1960 s. Fürsorge; Staatliche Sozialleistung zur Gewährung des soziokulturellen Existenzminimums in der Bundesrepublik Deutschland"@de ;
+    skos:exactMatch wd:Q15848050, gnd:4055776-5 .
 
 :N523001
     a skos:Concept ;
@@ -2977,7 +2992,8 @@
     skos:broader :N523000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523020" ;
-    skos:prefLabel "Gefangenenfürsorge"@de .
+    skos:prefLabel "Gefangenenfürsorge"@de ;
+    skos:scopeNote "Verwendet für die soziale Betreuung von Gefangenen"@de .
 
 :N523030
     a skos:Concept ;
@@ -3023,14 +3039,16 @@
     skos:broader :N523000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523070" ;
-    skos:prefLabel "Kriegsopferfürsorge"@de .
+    skos:prefLabel "Kriegsopferfürsorge"@de ;
+    skos:scopeNote "Verwendet für die soziale Betreuung der Kriegsopfer"@de .
 
 :N523080
     a skos:Concept ;
     skos:broader :N523000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523080" ;
-    skos:prefLabel "Waisenfürsorge"@de .
+    skos:prefLabel "Waisenfürsorge"@de ;
+    skos:scopeNote "Verwendet für die soziale Betreuung der Waisen"@de .
 
 :N523090
     a skos:Concept ;
@@ -3081,7 +3099,9 @@
     skos:broader :N524000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "524070" ;
-    skos:prefLabel "Familienfürsorge"@de .
+    skos:prefLabel "Familienfürsorge"@de ;
+    skos:scopeNote "Verwendet für die soziale Betreuung von Familien"@de ;
+    skos:exactMatch gnd:4016411-1 .
 
 :N530000
     a skos:Concept ;
@@ -4437,7 +4457,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574030" ;
     skos:prefLabel "Städtebau"@de ;
-    skos:scopeNote "S.a. [Stadtbaukunst](https://nwbib.de/subjects#N844500)"@de .
+    skos:scopeNote "Verwenden bei größerem Kontext (wenn es nicht nur Platzgestaltungen in der Innenstadt geht); S.a. [Stadtbaukunst](https://nwbib.de/subjects#N844500)"@de .
 
 :N574040
     a skos:Concept ;
@@ -5636,7 +5656,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N708220, :N708230, :N708250, :N708260, :N708270, :N708280, :N708290 ;
     skos:notation "708200" ;
-    skos:prefLabel "Volkskunst"@de .
+    skos:prefLabel "Volkskunst"@de ;
+    skos:definition "Kunst, die von indigenen Völker, Bauern und anderen Gruppen produziert wird"@de, "Art produced by artisans trained in a relevant skill working within a local client economy"@en ;
+    skos:exactMatch wd:Q1153484, gnd:4063851-0 .
 
 :N708220
     a skos:Concept ;
@@ -7095,7 +7117,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841060" ;
     skos:prefLabel "Kunstausstellungen"@de ;
-    skos:scopeNote "Ort der Ausstellung in Feld 700"@de .
+    skos:scopeNote "Ort der Ausstellung in Feld 700; Auch für Architektur- und Archivausstellungen verwenden (z.B. Baukunstarchiv NRW)"@de .
 
 :N841070
     a skos:Concept ;
@@ -7224,7 +7246,7 @@
     skos:narrower :N844010, :N844020, :N844030, :N844040, :N844050, :N844060, :N844070, :N844080 ;
     skos:notation "844000" ;
     skos:prefLabel "Baudenkmäler. Kunstwerke"@de ;
-    skos:scopeNote "Freie SW: Baudenkmal; Kunstwerk"@de. 
+    skos:scopeNote "Allg., auch für Burgen, Profanbauten u.Ä.; Freie SW: Baudenkmal; Kunstwerk"@de . 
 
 :N844010
     a skos:Concept ;
