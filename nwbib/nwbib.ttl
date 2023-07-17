@@ -229,7 +229,6 @@
     skos:notation "141000" ;
     skos:prefLabel "Geophysik"@de ;
     skos:altLabel "Physik der Erde"@de ;
-    skos:definition "Study of physical processes and phenomena occurring in the earth and in its vicinity"@en ;
     skos:exactMatch wd:Q46255, gnd:4020252-5 .
 
 :N141020
@@ -559,7 +558,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142170" ;
     skos:prefLabel "Karst"@de ;
-    skos:definition "Topography formed from the dissolution of soluble rocks"@en ;
+    skos:definition "Unterirdische Geländeformen (Karsthöhlen) und oberirdische Geländeformen (Oberflächenkarst) in Karbonatgesteinen (auch in Sulfat-, Salzgesteinen und Sandsteinen o. Quarziten)"@de ;
     skos:exactMatch wd:Q16817, gnd:4129942-5 .
 
 :N142180
@@ -4018,7 +4017,7 @@
     skos:narrower :N548820, :N548840, :N548850, :N548870 ;
     skos:notation "548800" ;
     skos:prefLabel "Fremdenverkehr"@de ;
-	skos:altLabel "Tourismus"@de, "Touristik"@de, "tourism"@en ;
+	skos:altLabel "Tourismus, Touristik"@de ;
 	skos:definition "Überbegriff für Reisen, die Reisebranche und das Gastgewerbe und die Freizeitwirtschaft"@de ;
 	skos:exactMatch wd:Q49389, gnd:4018406-7 .
 
@@ -5079,7 +5078,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "615040" ;
     skos:prefLabel "Altkatholische Kirche"@de ;
-    skos:definition "Churches that split from Roman Catholic Church in the 1870s"@en ;
+    skos:definition "Bezeichnet die Gemeinschaft selbständiger katholischer Kirchen, die teilweise in der Utrechter Union zusammengeschlossen sind; 1870 entstanden"@de ;
     skos:exactMatch wd:Q5169816, gnd:4001531-2 .
 
 :N615070
@@ -5689,7 +5688,7 @@
     skos:narrower :N708220, :N708230, :N708250, :N708260, :N708270, :N708280, :N708290 ;
     skos:notation "708200" ;
     skos:prefLabel "Volkskunst"@de ;
-    skos:definition "Kunst, die von indigenen Völker, Bauern und anderen Gruppen produziert wird"@de, "Art produced by artisans trained in a relevant skill working within a local client economy"@en ;
+    skos:definition "Kunst, die von indigenen Völker, Bauern und anderen Gruppen produziert wird"@de ;
     skos:exactMatch wd:Q1153484, gnd:4063851-0 .
 
 :N708220
@@ -7216,7 +7215,6 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843010" ;
     skos:prefLabel "Baukonstruktion. Bautechnik"@de ;
-	skos:altLabel "human-made geographic feature"@en ;
 	skos:definition "Konstruktion von Bauwerken und Gebäuden"@de , "Bau- und Herstellungsprozess"@de ;
     skos:scopeNote "Freie SW: Baukonstruktion; Bautechnik"@de ;
 	skos:exactMatch wd:Q811430, gnd:4004821-4 .
