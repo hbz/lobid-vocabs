@@ -278,8 +278,8 @@
     skos:notation "141210" ;
     skos:prefLabel "Historische Geologie"@de ;
     skos:definition "Teilgebiet der Geologie mit Forschungs- und Lehrgegenstand der Erdgeschichte"@de ;
-	skos:scopeNote "Nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen"@de ;
-	skos:exactMatch wd:Q754590, <https://d-nb.info/gnd/4025104-4> .
+	skos:scopeNote "Nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen; Auch für Gesamtdarstellungen (z.B. Lehrbücher)"@de ;
+	skos:exactMatch wd:Q754590, gnd:4025104-4 .
 
 :N141220
     a skos:Concept ;
@@ -1260,7 +1260,8 @@
     skos:narrower :N217042 ;
     skos:notation "217040" ;
     skos:prefLabel "Historische Museen"@de ;
-    skos:example "LVR Bonn"@de .
+    skos:example "LVR-LandesMuseum Bonn"@de ;
+    skos:scopeNote "Benutzt für Museen mit Ausstellungen zu historischen Themen"@de .
 
 :N217042
     a skos:Concept ;
@@ -1595,7 +1596,10 @@
     skos:broader :N240000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "240500" ;
-    skos:prefLabel "Historische Ausstellungen"@de .
+    skos:prefLabel "Historische Ausstellungen"@de ;
+    skos:altLabel "Geschichtsausstellung, Geschichtliche Ausstellung"@de ;
+    skos:scopeNote "Benutzt für Ausstellungen mit historischen Themen"@de ;
+    skos:exactMatch gnd:4300849-5 .
 
 :N240600
     a skos:Concept ;
@@ -6754,7 +6758,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N794010 ;
     skos:notation "794000" ;
-    skos:prefLabel "Hochschulen"@de .
+    skos:prefLabel "Hochschulen"@de ;
+    skos:scopeNote "Allgemein; Für einzelne Hochschulen s. [Einzelne Hochschulen](https://nwbib.de/subjects#N794010)"@de .
 
 :N794010
     a skos:Concept ;
