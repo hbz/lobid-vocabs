@@ -73,7 +73,8 @@
     skos:broader :N1 ;
     skos:narrower :N100100, :N101000, :N102000, :N106000, :N109000 ;
     skos:notation "100000" ;
-    skos:prefLabel "Allgemeine Landeskunde"@de .
+    skos:prefLabel "Allgemeine Landeskunde"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N100100
     a skos:Concept ;
@@ -147,7 +148,8 @@
     skos:broader :N1 ;
     skos:narrower :N120100, :N122000, :N124000, :N126000 ;
     skos:notation "120000" ;
-    skos:prefLabel "Kartographie. Geodäsie"@de .
+    skos:prefLabel "Kartographie. Geodäsie"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N120100
     a skos:Concept ;
@@ -209,7 +211,8 @@
     skos:broader :N1 ;
     skos:narrower :N140100, :N141000, :N141100, :N141200, :N141400, :N141600, :N142000, :N142100, :N142300, :N142500, :N146000 ;
     skos:notation "140000" ;
-    skos:prefLabel "Geowissenschaften"@de .
+    skos:prefLabel "Geowissenschaften"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N140100
     a skos:Concept ;
@@ -806,7 +809,8 @@
     skos:broader :N1 ;
     skos:narrower :N160100, :N161000, :N162000, :N163000, :N164000 ;
     skos:notation "160000" ;
-    skos:prefLabel "Biowissenschaften"@de .
+    skos:prefLabel "Biowissenschaften"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N160100
     a skos:Concept ;
@@ -998,7 +1002,8 @@
     skos:broader :N2 ;
     skos:narrower :N200100, :N202000, :N202500, :N203000, :N203500, :N204000, :N205000, :N206000, :N207000, :N208000, :N208500, :N209000 ;
     skos:notation "200000" ;
-    skos:prefLabel "Historische Hilfswissenschaften"@de .
+    skos:prefLabel "Historische Hilfswissenschaften"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N200100
     a skos:Concept ;
@@ -1131,7 +1136,8 @@
     skos:broader :N2 ;
     skos:narrower :N210100, :N213000, :N217000 ;
     skos:notation "210000" ;
-    skos:prefLabel "Archive. Museen"@de .
+    skos:prefLabel "Archive. Museen"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N210100
     a skos:Concept ;
@@ -1290,7 +1296,8 @@
     skos:broader :N2 ;
     skos:narrower :N220100, :N220500, :N221000, :N222000, :N223000, :N224000, :N225000, :N226000, :N227000, :N228000 ;
     skos:notation "220000" ;
-    skos:prefLabel "Vor- und Frühgeschichte. Archäologie"@de .
+    skos:prefLabel "Vor- und Frühgeschichte. Archäologie"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N220100
     a skos:Concept ;
@@ -1621,7 +1628,8 @@
     skos:broader :N2 ;
     skos:narrower :N260100, :N262000, :N263000 ;
     skos:notation "260000" ;
-    skos:prefLabel "Militär. Wehrwesen"@de .
+    skos:prefLabel "Militär. Wehrwesen"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N260100
     a skos:Concept ;
@@ -1780,7 +1788,8 @@
     skos:broader :N4 ;
     skos:narrower :N400100, :N402000, :N402300, :N404000, :N404300, :N406000, :N406100, :N406200, :N406300 ;
     skos:notation "400000" ;
-    skos:prefLabel "Staat. Politik"@de .
+    skos:prefLabel "Staat. Politik"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N400100
     a skos:Concept ;
@@ -2100,7 +2109,8 @@
     skos:broader :N4 ;
     skos:narrower :N420100, :N421000, :N421400, :N422000, :N423000, :N423400, :N423600, :N424000, :N425000, :N425200, :N425400, :N426000, :N428000 ;
     skos:notation "420000" ;
-    skos:prefLabel "Verwaltung"@de .
+    skos:prefLabel "Verwaltung"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N420100
     a skos:Concept ;
@@ -2543,7 +2553,8 @@
     skos:broader :N4 ;
     skos:narrower :N440100, :N442000, :N443000, :N444000, :N446000, :N447000, :N448000 ;
     skos:notation "440000" ;
-    skos:prefLabel "Recht"@de .
+    skos:prefLabel "Recht"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N440100
     a skos:Concept ;
@@ -2696,7 +2707,8 @@
     skos:broader :N5 ;
     skos:narrower :N500100, :N502000, :N503000, :N503200, :N503400, :N503600 ;
     skos:notation "500000" ;
-    skos:prefLabel "Bevölkerung"@de .
+    skos:prefLabel "Bevölkerung"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N500100
     a skos:Concept ;
@@ -2876,7 +2888,8 @@
     skos:broader :N5 ;
     skos:narrower :N520100, :N521000, :N521200, :N521400, :N522000, :N523000, :N52400 ;
     skos:notation "520000" ;
-    skos:prefLabel "Sozialwesen"@de .
+    skos:prefLabel "Sozialwesen"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N520100
     a skos:Concept ;
@@ -3114,7 +3127,8 @@
     skos:broader :N5 ;
     skos:narrower :N530100, :N532000, :N533000, :N534000, :N535000, :N537000 ;
     skos:notation "530000" ;
-    skos:prefLabel "Gesundheitswesen"@de .
+    skos:prefLabel "Gesundheitswesen"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N530100
     a skos:Concept ;
@@ -3241,7 +3255,8 @@
     skos:broader :N5 ;
     skos:narrower :N540100, :N541000, :N541500, :N542000, :N543000, :N543200, :N543400, :N543600, :N543800, :N544000, :N544200, :N544400, :N544600, :N545000, :N546000, :N547000, :N547400, :N547600, :N548000, :N548200, :N548300, :N548400, :N548500, :N548600, :N548800 ;
     skos:notation "540000" ;
-    skos:prefLabel "Wirtschaft"@de .
+    skos:prefLabel "Wirtschaft"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N540100
     a skos:Concept ;
@@ -4042,7 +4057,8 @@
     skos:broader :N5 ;
     skos:narrower :N550100, :N551000, :N552000, :N553000, :N554000, :N555000, :N556000, :N557000, :N558000 ;
     skos:notation "550000" ;
-    skos:prefLabel "Verkehr"@de .
+    skos:prefLabel "Verkehr"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N550100
     a skos:Concept ;
@@ -4167,7 +4183,8 @@
     skos:broader :N5 ;
     skos:narrower :N560100, :N562000, :N562300, :N564000, :N566000 ;
     skos:notation "560000" ;
-    skos:prefLabel "Siedlung"@de .
+    skos:prefLabel "Siedlung"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N560100
     a skos:Concept ;
@@ -4391,7 +4408,8 @@
     skos:broader :N5 ;
     skos:narrower :N570100, :N572000, :N574000 ;
     skos:notation "570000" ;
-    skos:prefLabel "Raumordnung und Städtebau"@de .
+    skos:prefLabel "Raumordnung und Städtebau"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N570100
     a skos:Concept ;
@@ -4494,7 +4512,8 @@
     skos:broader :N5 ;
     skos:narrower :N580100, :N582000, :N584000, :N586000 ;
     skos:notation "580000" ;
-    skos:prefLabel "Umwelt- und Naturschutz"@de .
+    skos:prefLabel "Umwelt- und Naturschutz"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N580100
     a skos:Concept ;
@@ -4679,7 +4698,8 @@
     skos:broader :N6 ;
     skos:narrower :N610100, :N611000, :N612000, :N612500, :N613000, :N615000, :N616000, :N617000 ;
     skos:notation "610000" ;
-    skos:prefLabel "Christliche Kirchen"@de .
+    skos:prefLabel "Christliche Kirchen"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N610100
     a skos:Concept ;
@@ -5106,7 +5126,8 @@
     skos:broader :N6 ;
     skos:narrower :N630100, :N631000, :N632000, :N635000, :N636000, :N637000, :N638000 ;
     skos:notation "630000" ;
-    skos:prefLabel "Judentum"@de .
+    skos:prefLabel "Judentum"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N630100
     a skos:Concept ;
@@ -5175,7 +5196,8 @@
     skos:broader :N6 ;
     skos:narrower :N650100, :N651000, :N655000 ;
     skos:notation "650000" ;
-    skos:prefLabel "Nichtchristliche Religionen. Weltanschauungen"@de .
+    skos:prefLabel "Nichtchristliche Religionen. Weltanschauungen"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N650100
     a skos:Concept ;
@@ -5228,7 +5250,8 @@
     skos:broader :N7 ;
     skos:narrower :N700100, :N702000, :N704000, :N704200, :N704400, :N704600, :N706000, :N706200, :N708000, :N708200, :N708400 ;
     skos:notation "700000" ;
-    skos:prefLabel "Volkskunde"@de .
+    skos:prefLabel "Volkskunde"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N700100
     a skos:Concept ;
@@ -5758,7 +5781,8 @@
     skos:broader :N7 ;
     skos:narrower :N720100, :N722000, :N723000, :N724000, :N725000, :N726000, :N729000 ;
     skos:notation "720000" ;
-    skos:prefLabel "Gesellschaft"@de .
+    skos:prefLabel "Gesellschaft"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N720100
     a skos:Concept ;
@@ -5924,7 +5948,8 @@
     skos:broader :N7 ;
     skos:narrower :N730100, :N731000, :N732000, :N733000, :N734000, :N735000, :N736000 ;
     skos:notation "730000" ;
-    skos:prefLabel "Kultur und Freizeit"@de .
+    skos:prefLabel "Kultur und Freizeit"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N730100
     a skos:Concept ;
@@ -6037,7 +6062,8 @@
     skos:broader :N7 ;
     skos:narrower :N740100, :N742000, :N744000, :N745000, :N746000, :N747000 ;
     skos:notation "740000" ;
-    skos:prefLabel "Sprache"@de .
+    skos:prefLabel "Sprache"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N740100
     a skos:Concept ;
@@ -6213,7 +6239,8 @@
     skos:broader :N7 ;
     skos:narrower :N760100, :N761000, :N762000, :N766000, :N767000, :N768000, :N769000 ;
     skos:notation "760000" ;
-    skos:prefLabel "Literatur"@de .
+    skos:prefLabel "Literatur"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N760100
     a skos:Concept ;
@@ -6378,7 +6405,8 @@
     skos:broader :N7 ;
     skos:narrower :N780100, :N781000, :N782000, :N782500, :N783000, :N784000, :N785000, :N785500, :N786000, :N788000 ;
     skos:notation "780000" ;
-    skos:prefLabel "Bildung und Erziehung"@de .
+    skos:prefLabel "Bildung und Erziehung"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N780100
     a skos:Concept ;
@@ -6722,7 +6750,8 @@
     skos:broader :N7 ;
     skos:narrower :N790100, :N791000, :N792000, :N793000, :N794000, :N796000, :N797000, :N798000, :N798200, :N799000, :N799200 ;
     skos:notation "790000" ;
-    skos:prefLabel "Wissenschaft und Forschung"@de .
+    skos:prefLabel "Wissenschaft und Forschung"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N790100
     a skos:Concept ;
@@ -6824,7 +6853,8 @@
     skos:broader :N8 ;
     skos:narrower :N800100, :N802000, :N803000, :N804000, :N806000, :N807000, :N808000 ;
     skos:notation "800000" ;
-    skos:prefLabel "Darstellende Kunst"@de .
+    skos:prefLabel "Darstellende Kunst"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N800100
     a skos:Concept ;
@@ -6951,7 +6981,8 @@
     skos:broader :N8 ;
     skos:narrower :N820100, :N821000, :N822000, :N822400, :N822500, :N823000, :N824000, :N825000, :N825500, :N826000, :N827000, :N828000 ;
     skos:notation "820000" ;
-    skos:prefLabel "Musik"@de .
+    skos:prefLabel "Musik"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N820100
     a skos:Concept ;
@@ -7081,7 +7112,8 @@
     skos:broader :N8 ;
     skos:narrower :N840100, :N841000, :N842000, :N843000, :N844000, :N844200, :N844500, :N845000, :N846000, :N847000, :N847500, :N848000, :N849000 ;
     skos:notation "840000" ;
-    skos:prefLabel "Kunst. Architektur"@de .
+    skos:prefLabel "Kunst. Architektur"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N840100
     a skos:Concept ;
@@ -7507,7 +7539,8 @@
     skos:broader :N8 ;
     skos:narrower :N860100, :N861000, :N865000 ;
     skos:notation "860000" ;
-    skos:prefLabel "Buch und Bibliothek"@de .
+    skos:prefLabel "Buch und Bibliothek"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N860100
     a skos:Concept ;
@@ -7671,7 +7704,8 @@
     skos:broader :N8 ;
     skos:narrower :N880100, :N882000, :N884000 ;
     skos:notation "880000" ;
-    skos:prefLabel "Publizistik. Information und Dokumentation"@de .
+    skos:prefLabel "Publizistik. Information und Dokumentation"@de ;
+    skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
 
 :N880100
     a skos:Concept ;
