@@ -137,6 +137,7 @@
     skos:notation "109000" ;
     skos:prefLabel "Biographien"@de ;
     skos:definition "Lebensbeschreibung einer Person"@de ;
+    skos:example "Ehrenbürger"@de ;
     skos:scopeNote "Biographisches Material über einzelne Personen ist auch in den Sachgebieten sowie unter dem Registereintrag Biographien / ... verzeichnet"@de ;
     skos:exactMatch wd:Q36279, gnd:4006804-3 .
 
@@ -3284,7 +3285,7 @@
     skos:notation "543010" ;
     skos:prefLabel "Unternehmen"@de ;
     skos:definition "Gewerbliche oder kaufmännische Geschäftseinheit"@de ;
-    skos:scopeNote "Betriebsführung, Betriebsgliederung, Betriebsstruktur, Gemeinwirtschaft, Wirtschaftsentwicklung"@de ;
+    skos:example "Betriebsführung, Betriebsgliederung, Betriebsstruktur, Gemeinwirtschaft, Wirtschaftsentwicklung"@de ;
     skos:exactMatch wd:Q4830453, gnd:4061963-1 .
 
 
@@ -3384,7 +3385,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "543620" ;
     skos:prefLabel "Unternehmer. Unternehmensführung"@de ;
-    skos:scopeNote "Arbeitsmarktpolitik, Arbeitsrecht, Beruf, Mitbestimmung, Betriebsrat, Tarifvertrag, Beschäftigungsförderung, Unternehmensberatung"@de .
+    skos:example "Arbeitsmarktpolitik, Arbeitsrecht, Beruf, Mitbestimmung, Betriebsrat, Tarifvertrag, Beschäftigungsförderung, Unternehmensberatung"@de .
 
 :N543630
     a skos:Concept ;
@@ -3744,7 +3745,7 @@
     skos:narrower :N546022, :N546024, :N546026, :N546028 ;
     skos:notation "546020" ;
     skos:prefLabel "Elektrizitätsversorgung"@de ;
-    skos:scopeNote "Energieversorgungsunternehmen, Alternative Energiequellen"@de .
+    skos:example "Energieeinsparung, Energieversorgungsunternehmen, Alternative Energiequellen"@de .
 
 :N546022
     a skos:Concept ;
@@ -3824,7 +3825,8 @@
     skos:broader :N547000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547040" ;
-    skos:prefLabel "Handwerksgenossenschaften"@de .
+    skos:prefLabel "Handwerksgenossenschaften"@de ;
+    skos:example "Auch Zünfte"@de .
 
 :N547050
     a skos:Concept ;
@@ -4044,7 +4046,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "550100" ;
     skos:prefLabel "Verkehr - Allgemeines"@de ;
-    skos:scopeNote "Verkehrspolitik, Verkehrsplanung, Transportgewerbe"@de .
+    skos:example "Verkehrspolitik, Verkehrsplanung, Transportgewerbe, Transportverkehr"@de .
 
 :N551000
     a skos:Concept ;
@@ -4067,7 +4069,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "553000" ;
     skos:prefLabel "Straßenverkehr"@de ;
-    skos:scopeNote "Fahrradverkehr, Ruhender Verkehr"@de .
+    skos:example "Fahrradverkehr, Ruhender Verkehr, Straßengüterverkehr"@de .
 
 :N554000
     a skos:Concept ;
@@ -4200,7 +4202,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "562300" ;
     skos:prefLabel "Kulturlandschaft"@de ;
-    skos:scopeNote "Straßen und Lage; s.a. [Landschaftsentwicklung](https://nwbib.de/subjects#N584090), [Landschaftsplanung](https://nwbib.de/subjects#N572050)"@de .
+    skos:example "Straßen und Wege"@de ;
+    skos:scopeNote "S.a. [Landschaftsentwicklung](https://nwbib.de/subjects#N584090), [Landschaftsplanung](https://nwbib.de/subjects#N572050)"@de .
 
 :N564000
     a skos:Concept ;
@@ -4478,7 +4481,8 @@
     skos:broader :N574000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574060" ;
-    skos:prefLabel "Wohnungswirtschaft"@de .
+    skos:prefLabel "Wohnungswirtschaft"@de ;
+    skos:example "Stadtsanierung"@de .
 
 :N580000
     a skos:Concept ;
@@ -5249,7 +5253,8 @@
     skos:broader :N704000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704020" ;
-    skos:prefLabel "Brauchtum im Alltag"@de .
+    skos:prefLabel "Brauchtum im Alltag"@de ;
+    skos:example "Sitten"@de .
 
 :N704040
     a skos:Concept ;
@@ -5946,7 +5951,7 @@
     skos:narrower :N733030, :N733050 ;
     skos:notation "733000" ;
     skos:prefLabel "Zeitgenössisches Kulturleben"@de ;
-    skos:scopeNote "Kulturförderung"@de .
+    skos:example "Kulturförderung, Vereine"@de .
 
 :N733030
     a skos:Concept ;
@@ -6867,7 +6872,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802060" ;
     skos:prefLabel "Einzelne Theater"@de ;
-    skos:scopeNote "Hier auch Lit. zu Musiktheater; Regisseuren; Intendanten"@de .
+    skos:scopeNote "Hier auch Lit. zu Opernhäusern, Musiktheatern; Regisseuren; Intendanten"@de .
 
 :N802070
     a skos:Concept ;
@@ -7588,7 +7593,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N865010, :N865020, :N865030, :N865040, :N865050, :N865060, :N865070, :N865080, :N865090 ;
     skos:notation "865000" ;
-    skos:prefLabel "Bibliotheken"@de .
+    skos:prefLabel "Bibliotheken"@de ;
+    skos:example "Auch Verbände"@de .
 
 :N865010
     a skos:Concept ;
