@@ -98,7 +98,7 @@
     skos:notation "102000" ;
     skos:prefLabel "Landesbeschreibungen"@de ;
     skos:definition "Als Landesbeschreibung wurden frühe Formen der geografischen Landesaufnahme bezeichnet. Ab dem 17. Jahrhundert verstand man darunter eine Sammlung topografischer Karten kombiniert mit textlicher Beschreibung von Landschaft und Städten (Wikipedia)"@de ;
-    skos:scopeNote "Auch Bilder/Bildbände"@de, "Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
+    skos:scopeNote "Auch Bilder/Bildbände; Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
 
 :N102060
     a skos:Concept ;
@@ -106,7 +106,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102060" ;
     skos:prefLabel "Reiseberichte"@de ;
-    skos:scopeNote "Auch Kunstführer"@de, "Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
+    skos:scopeNote "Auch Kunstführer; Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
 
 :N102070
     a skos:Concept ;
@@ -139,7 +139,6 @@
     skos:prefLabel "Biographien"@de ;
     skos:definition "Lebensbeschreibung einer Person"@de ;
     skos:example "Ehrenbürger"@de ;
-    skos:scopeNote "Biographisches Material über einzelne Personen ist auch in den Sachgebieten sowie unter dem Registereintrag Biographien / ... verzeichnet"@de ;
     skos:exactMatch wd:Q36279, gnd:4006804-3 .
 
 :N120000
@@ -259,7 +258,7 @@
     skos:notation "141100" ;
     skos:prefLabel "Geochemie"@de ;
     skos:altLabel "Gesteinschemie, Lithogeochemie"@de ;
-    skos:definition "Bez. für ein Teilgebiet der Geowissenschaften, das die chem. Zusammensetzung und die chem. Veränderungen der Erde untersucht"@de;
+    skos:definition "Bez. für ein Teilgebiet der Geowissenschaften, das die chem. Zusammensetzung und die chem. Veränderungen der Erde untersucht"@de ;
     skos:exactMatch wd:Q161764, gnd:4020198-3 .
 
 :N141200
@@ -269,7 +268,6 @@
     skos:narrower :N141210, :N141220, :N141230, :N141240 ;
     skos:notation "141200" ;
     skos:prefLabel "Geologie"@de ;
-    skos:altLabel "Geognosie"@de ;
     skos:definition "Wissenschaft von der Entwicklung und vom Aufbau der Erde"@de ;
     skos:exactMatch wd:Q1069, gnd:4020227-6 .
 
@@ -1102,7 +1100,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "207020" ;
     skos:prefLabel "Einzelne Familien"@de ;
-    skos:scopeNote "Verwendet bei biographischen Angaben zu Familien, die in Feld 689 verknüpft werden, s.a. [Genealogie](https://nwbib.de/subjects#N207000)"@de .
+    skos:scopeNote "Verwendet bei biographischen Angaben zu Familien, die in Feld 689 namentlich verknüpft werden, s.a. [Genealogie](https://nwbib.de/subjects#N207000)"@de .
 
 :N208000
     a skos:Concept ;
@@ -1152,8 +1150,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N213010, :N213020, :N213030, :N213040, :N213050, :N213060, :N213070, :N213080, :N213090 ;
     skos:notation "213000" ;
-    skos:prefLabel "Archive"@de ;
-    skos:scopeNote "Einzelne Kreis- u. Stadtarchive"@de .
+    skos:prefLabel "Archive"@de .
 
 :N213010
     a skos:Concept ;
@@ -1312,7 +1309,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "220500" ;
     skos:prefLabel "Archäologie"@de ;
-    skos:scopeNote "z.B. Archäologie mit Geschichte"@de, "Hier nur Archäologie bis zum Mittelalter; \"methodische\" Stelle"@de .
+    skos:scopeNote "z.B. Archäologie mit Geschichte; Hier nur Archäologie bis zum Mittelalter; \"methodische\" Stelle"@de .
 
 :N221000
     a skos:Concept ;
@@ -1472,7 +1469,7 @@
     skos:notation "225050" ;
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
-    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen (Römerzeit)](https://nwbib.de/subjects#N226040), s.a. [Germanen (Völkerwanderungszeit)](https://nwbib.de/subjects#N227030)"@de ;
+    skos:scopeNote "S.a. [Germanen (Römerzeit)](https://nwbib.de/subjects#N226040), s.a. [Germanen (Völkerwanderungszeit)](https://nwbib.de/subjects#N227030)"@de ;
     skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N226000
@@ -1516,7 +1513,7 @@
     skos:notation "226040" ;
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
-    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225050), s.a. [Germanen (Völkerwanderungszeit)](https://nwbib.de/subjects#N227030)"@de ;
+    skos:scopeNote "S.a. [Germanen (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225050), s.a. [Germanen (Völkerwanderungszeit)](https://nwbib.de/subjects#N227030)"@de ;
     skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N226050
@@ -1554,7 +1551,7 @@
     skos:notation "227030" ;
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
-    skos:scopeNote "Als identifizierender Zusatz bei einzelnen Germanenstämmen zu verwenden (gem. Beschluss der ESG SE, Telko vom 5.6.2013), s.a. [Germanen (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225050), s.a. [Germanen (Römerzeit)](https://nwbib.de/subjects#N226040)"@de ;
+    skos:scopeNote "S.a. [Germanen (Vorrömische Eisenzeit)](https://nwbib.de/subjects#N225050), s.a. [Germanen (Römerzeit)](https://nwbib.de/subjects#N226040)"@de ;
     skos:exactMatch wd:Q22633, gnd:4020378-5 .
 
 :N227040
@@ -1580,7 +1577,7 @@
     skos:notation "240000" ;
     skos:prefLabel "Geschichte"@de ;
     skos:example "Auch verwenden bei \"Kriegsende in Neuss 1945-1948\""@de ;
-    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden; Für NRW s. [Nordrhein-Westfalen, insgesamt](https://nwbib.de/subjects#N249800)"@de, "Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de .
+    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden; Für NRW s. [Nordrhein-Westfalen, insgesamt](https://nwbib.de/subjects#N249800); Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de .
 
 :N240100
     a skos:Concept ;
@@ -1661,7 +1658,7 @@
     skos:notation "262011" ;
     skos:prefLabel "Burgen"@de ;
     skos:definition "Geschlossener, bewohnbarer Wehrbau"@de ;
-    skos:scopeNote "Wenn militärisch behandelt wird"@de, "s.a. [Burgen. Schlösser](https://nwbib.de/subjects#N844040)"@de ;
+    skos:scopeNote "Wenn militärisch behandelt wird; S.a. [Burgen. Schlösser](https://nwbib.de/subjects#N844040)"@de ;
     skos:exactMatch wd:Q23413, gnd:4009104-1 .
 
 :N262012
@@ -2968,7 +2965,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "522020" ;
     skos:prefLabel "Kirchliche Träger"@de ;
-    skos:example "Caritas etc."@de, "Freie SW: Sozialhilfeträger"@de.
+    skos:example "Caritas etc."@de ;
+    skos:scopeNote "Freie SW: Sozialhilfeträger"@de .
 
 :N522030
     a skos:Concept ;
@@ -2977,7 +2975,7 @@
     skos:notation "522030" ;
     skos:prefLabel "Private Träger"@de ;
     skos:example "AWO"@de ;
-    skos:scopeNote "Auch mildtätige Stiftungen"@de, "Freie SW: Sozialhilfeträger"@de .
+    skos:scopeNote "Auch mildtätige Stiftungen; Freie SW: Sozialhilfeträger"@de .
 
 :N523000
     a skos:Concept ;
@@ -4481,7 +4479,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574030" ;
     skos:prefLabel "Städtebau"@de ;
-    skos:scopeNote "Verwenden bei größerem Kontext (wenn es nicht nur Platzgestaltungen in der Innenstadt geht); S.a. [Stadtbaukunst](https://nwbib.de/subjects#N844500)"@de .
+    skos:scopeNote "Verwenden bei größerem Kontext (wenn es nicht nur um Platzgestaltungen in der Innenstadt geht); S.a. [Stadtbaukunst](https://nwbib.de/subjects#N844500)"@de .
 
 :N574040
     a skos:Concept ;
@@ -6329,8 +6327,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N767040 ;
     skos:notation "767000" ;
-    skos:prefLabel "Literarische Texte"@de ;
-    skos:scopeNote "Nur als Überschrift verwenden, untergeordnete Notationen besetzen"@de .
+    skos:prefLabel "Literarische Texte"@de .
 
 :N767040
     a skos:Concept ;
@@ -7206,7 +7203,7 @@
     skos:notation "843000" ;
     skos:prefLabel "Architektur"@de ;
 	skos:definition "Gebäude im öffentlichen Raum"@de ;
-	skos:editorialNote "Nicht bei Baudenkmälern anwenden, dafür s. entspr. Notation unter [Baudenkmäler. Kunstwerke](https://nwbib.de/subjects#N844000)"@de ;
+	skos:scopeNote "Nicht bei Baudenkmälern verwenden, dafür s. entspr. Notation unter [Baudenkmäler. Kunstwerke](https://nwbib.de/subjects#N844000)"@de ;
 	skos:exactMatch wd:Q12271 , gnd:4002851-3 .
 
 :N843010
@@ -7215,7 +7212,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843010" ;
     skos:prefLabel "Baukonstruktion. Bautechnik"@de ;
-	skos:definition "Konstruktion von Bauwerken und Gebäuden"@de , "Bau- und Herstellungsprozess"@de ;
+	skos:definition "Konstruktion von Bauwerken und Gebäuden, Bau- und Herstellungsprozess"@de ;
     skos:scopeNote "Freie SW: Baukonstruktion; Bautechnik"@de ;
 	skos:exactMatch wd:Q811430, gnd:4004821-4 .
 
@@ -7361,8 +7358,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844500" ;
     skos:prefLabel "Stadtbaukunst"@de ;
-	skos:definition "Stadtbildprägende Bauten, als Ensemble erbaut"@de, "Kunst am Bau"@de ;
-    skos:example "Treppenhäuser im öffentlichen Raum"@de , "Rundgang zum Thema Stadt und Kunst"@de ;
+	skos:definition "Stadtbildprägende Bauten, als Ensemble erbaut"@de ;
+    skos:example "Treppenhäuser im öffentlichen Raum, Kunst am Bau, Rundgang zum Thema Stadt und Kunst"@de ;
 	skos:closeMatch gnd:4056795-3 .
 
 :N845000
