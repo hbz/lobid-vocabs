@@ -6,14 +6,15 @@
 
 <https://w3id.org/lobid/rpb2>
     a skos:ConceptScheme ;
-    dct:title "RPB-Sachgruppen und Zusätze"@de ;
+    dct:title "LBZ-Notationen"@de, "LBZ Notations"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    dct:description "This SKOS version of a controlled vocabulary for the Rhineland-Palatian Bibliography (RPB) was created by the hbz." ;
+    dct:description "Die SKOS-Version dieses kontrollierten Vokabulars des Landesbibliothekszentrums Rheinland-Pfalz wurde vom hbz erstellt. Im Widerspruch zum gewählten Namensraum haben diese Notationen **nicht** mit der RPB (Rheinland-Pfälzischen Bibliographie) zu tun."@de ;
+    dct:description "This SKOS version of a controlled vocabulary for the LBZ Rheinland-Pfalz was created by the hbz. Contrary to the chosen namespace, these notations have **nothing** to do with the RPB, the Bibliography of Rhineland Palatinate."@en ;
     dct:issued "2016-04-25" ;
     dct:modified "2021-09-09" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
-    vann:preferredNamespacePrefix "rpb2" ;
+    vann:preferredNamespacePrefix "lbz" ;
     skos:hasTopConcept :n100, :n106, :n107, :n120, :n130, :n131, :n132, :n133, :n136, :n137, :n139, :n140, :n141, :n145, :n146, :n147, :n150, :n160, :n161, :n180, :n200, :n210, :n230, :n250, :n260, :n270, :n280, :n300, :n320, :n330, :n380, :n400, :n430, :n450, :n480, :n500, :n510, :n520, :n530, :n540, :n550, :n560, :n580, :n600, :n610, :n620, :n630, :n640, :n650, :n680, :n690, :n700, :n710, :n720, :n740, :n760, :n780, :n800, :n810, :n820, :n830, :n840, :n850, :n860, :n880, :n900, :n910, :n920, :n930, :n940, :n950, :n970, :n980, :n990 .
 
 :n100
