@@ -5354,7 +5354,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704064" ;
     skos:prefLabel "Tod. Bestattung"@de ;
-    skos:scopeNote "Freie SW: Tod; Brauchtum; s.a. [Bestattungswesen](https://nwbib.de/subjects#N617000)"@de .
+    skos:scopeNote "Freie SW: Tod; Brauchtum; s.a. [Bestattungswesen](#N617000)"@de .
 
 :N704070
     a skos:Concept ;
@@ -5384,7 +5384,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704090" ;
     skos:prefLabel "Vereine der Brauchtumspflege"@de ;
-    skos:scopeNote "Z.B. Karnevalsverein; S.a. [Schützenwesen](https://nwbib.de/subjects#N704070)"@de .
+    skos:scopeNote "Z.B. Karnevalsverein; S.a. [Schützenwesen](#N704070)"@de .
 
 :N704200
     a skos:Concept ;
@@ -5466,7 +5466,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704626" ;
     skos:prefLabel "Volkstümliche Heiligenverehrung"@de ;
-    skos:scopeNote "S.a. [Heilige. Heiligenverehrung](https://nwbib.de/subjects#N611090)"@de .
+    skos:scopeNote "S.a. [Heilige. Heiligenverehrung](#N611090)"@de .
 
 :N706000
     a skos:Concept ;
@@ -5497,7 +5497,7 @@
     skos:narrower :N706041, :N706042, :N706043 ;
     skos:notation "706040" ;
     skos:prefLabel "Märchen. Sagen. Legenden"@de ;
-    skos:scopeNote "S.a. einzelne Notationen [Märchen](https://nwbib.de/subjects#N706041), [Sagen](https://nwbib.de/subjects#N706042), [Legenden](https://nwbib.de/subjects#N706043)"@de .
+    skos:scopeNote "S.a. einzelne Notationen [Märchen](#N706041), [Sagen](#706042), [Legenden](#N706043)"@de .
 
 :N706041
     a skos:Concept ;
@@ -5567,7 +5567,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706090" ;
     skos:prefLabel "Mundartliteratur"@de ;
-    skos:scopeNote "S.a. [Mundarten](https://nwbib.de/subjects#N744000)"@de .
+    skos:scopeNote "S.a. [Mundarten](#N744000)"@de .
 
 :N706200
     a skos:Concept ;
@@ -5576,7 +5576,7 @@
     skos:narrower :N706210, :N706220, :N706230, :N706240 ;
     skos:notation "706200" ;
     skos:prefLabel "Volksmusik und Volkstanz"@de ;
-    skos:scopeNote "S.a. einzelne Notationen [Volksmusik](https://nwbib.de/subjects#N706210), [Volkstanz](https://nwbib.de/subjects#N706240)"@de .
+    skos:scopeNote "S.a. einzelne Notationen [Volksmusik](#N706210), [Volkstanz](#N706240)"@de .
 
 :N706210
     a skos:Concept ;
@@ -5591,7 +5591,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706220" ;
     skos:prefLabel "Musikinstrumente"@de ;
-    skos:scopeNote "Im Bereich Musik s. [Musikinstrumente](https://nwbib.de/subjects#N828000)"@de .
+    skos:scopeNote "Im Bereich Musik s. [Musikinstrumente](#N828000)"@de .
 
 :N706230
     a skos:Concept ;
@@ -5630,7 +5630,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708024" ;
     skos:prefLabel "Bürgerhäuser"@de ;
-    skos:scopeNote "S.a. [Wohnhäuser](https://nwbib.de/subjects#N843060)"@de .
+    skos:scopeNote "S.a. [Wohnhäuser](#N843060)"@de .
 
 :N708028
     a skos:Concept ;
@@ -5638,7 +5638,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708028" ;
     skos:prefLabel "Bauernhäuser"@de ;
-    skos:scopeNote "Volkskundlicher Aspekt; Für Architektur s.a. [Bauernhäuser](https://nwbib.de/subjects#N843050), [Hofgeschichte](https://nwbib.de/subjects#N544030)"@de .
+    skos:scopeNote "Volkskundlicher Aspekt; Für Architektur s.a. [Bauernhäuser](#N843050), [Hofgeschichte](#N544030)"@de .
 
 :N708029
     a skos:Concept ;
@@ -5654,7 +5654,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708030" ;
     skos:prefLabel "Hausrat"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Hausrat](https://nwbib.de/subjects#N849060)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Hausrat](#N849060)"@de .
 
 :N708040
     a skos:Concept ;
@@ -5709,7 +5709,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708250" ;
     skos:prefLabel "Keramik"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Keramik](https://nwbib.de/subjects#N849040)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Keramik](#N849040)"@de .
 
 :N708260
     a skos:Concept ;
@@ -5731,7 +5731,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708280" ;
     skos:prefLabel "Glas"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Glas](https://nwbib.de/subjects#N849056)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Glas](#N849056)"@de .
 
 :N708290
     a skos:Concept ;
@@ -5739,7 +5739,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708290" ;
     skos:prefLabel "Textilien"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Textilkunst. Mode](https://nwbib.de/subjects#N849082)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Textilkunst. Mode](#N849082)"@de .
 
 :N708400
     a skos:Concept ;
@@ -5748,7 +5748,7 @@
     skos:narrower :N708410, :N708430, :N708450 ;
     skos:notation "708400" ;
     skos:prefLabel "Kleidung. Schmuck"@de ;
-    skos:scopeNote "S.a. einzelne Notationen [Kleidung](https://nwbib.de/subjects#N708410), [Schmuck](https://nwbib.de/subjects#N708450)"@de .
+    skos:scopeNote "S.a. einzelne Notationen [Kleidung](#N708410), [Schmuck](#N708450)"@de .
 
 :N708410
     a skos:Concept ;
@@ -5770,7 +5770,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708450" ;
     skos:prefLabel "Schmuck"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Gold- und Silberschmiedekunst. Schmuck](https://nwbib.de/subjects#N849020)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Gold- und Silberschmiedekunst. Schmuck](#N849020)"@de .
 
 :N720000
     a skos:Concept ;
@@ -5794,7 +5794,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "722000" ;
     skos:prefLabel "Sozialgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn sozialer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn sozialer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N723000
     a skos:Concept ;
@@ -5810,7 +5810,7 @@
     skos:narrower :N724020, :N724030, :N724040, :N724050, :N724060, :N724070 ;
     skos:notation "724000" ;
     skos:prefLabel "Sozialstruktur"@de ;
-    skos:scopeNote "Schichten, soziale Netze; s.a. [Bevölkerungsstruktur](https://nwbib.de/subjects#N503000)"@de .
+    skos:scopeNote "Schichten, soziale Netze; s.a. [Bevölkerungsstruktur](#503000)"@de .
 
 :N724020
     a skos:Concept ;
@@ -5891,7 +5891,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725040" ;
     skos:prefLabel "Alternative Lebensformen"@de ;
-    skos:scopeNote "Hier auch Lebensgemeinschaften; jedoch familienähnliche Lebensgemeinschaften bei [Familie](https://nwbib.de/subjects#N725010)"@de .
+    skos:scopeNote "Hier auch Lebensgemeinschaften; jedoch familienähnliche Lebensgemeinschaften bei [Familie](#N725010)"@de .
 
 :N725050
     a skos:Concept ;
@@ -5899,7 +5899,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725050" ;
     skos:prefLabel "Vereine. Interessenverbände"@de ;
-    skos:scopeNote "Zur Geselligkeitspflege, soziale Interessen, Freizeitvereine; Im Unterschied zu [Interessenverbände](https://nwbib.de/subjects#N406230); Freie SW: Verein; Interessenverband; S.a. [Sportvereine](https://nwbib.de/subjects#N736050), [Schützenwesen](https://nwbib.de/subjects#N704070)"@de .
+    skos:scopeNote "Zur Geselligkeitspflege, soziale Interessen, Freizeitvereine; Im Unterschied zu [Interessenverbände](#N406230); Freie SW: Verein; Interessenverband; S.a. [Sportvereine](#N736050), [Schützenwesen](#N704070)"@de .
 
 :N725060
     a skos:Concept ;
@@ -5936,8 +5936,7 @@
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "729000" ;
-    skos:prefLabel "Sexualität"@de ;
-    skos:scopeNote "Freie SW: Homosexualität; Prostitution etc."@de .
+    skos:prefLabel "Sexualität"@de .
 
 :N730000
     a skos:Concept ;
@@ -5968,7 +5967,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "732000" ;
     skos:prefLabel "Kulturgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn kultureller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn kultureller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N733000
     a skos:Concept ;
@@ -6075,7 +6074,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "742000" ;
     skos:prefLabel "Sprachgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn sprachlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn sprachlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N744000
     a skos:Concept ;
@@ -6085,7 +6084,7 @@
     skos:prefLabel "Mundarten"@de ;
     skos:altLabel "Dialekte"@de ;
     skos:definition "Lokale oder regionale Sprachvarietät"@de ;
-    skos:scopeNote "Mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](https://nwbib.de/subjects#N706090)"@de ;
+    skos:scopeNote "Mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](#N706090)"@de ;
     skos:exactMatch wd:Q33384, gnd:4040725-1 .
 
 :N745000
@@ -6119,7 +6118,7 @@
     skos:narrower :N746032, :N746034 ;
     skos:notation "746030" ;
     skos:prefLabel "Hausnamen. Hofnamen"@de ;
-    skos:scopeNote "S.a. einzelne Notationen [Hausnamen](https://nwbib.de/subjects#N746032), [Hofnamen](https://nwbib.de/subjects#N746034)"@de .
+    skos:scopeNote "S.a. einzelne Notationen [Hausnamen](#N746032), [Hofnamen](#N746034)"@de .
 
 :N746032
     a skos:Concept ;
@@ -6274,7 +6273,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "762000" ;
     skos:prefLabel "Literaturgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Literaturaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Literaturaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N766000
     a skos:Concept ;
@@ -6350,7 +6349,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "768010" ;
     skos:prefLabel "Einzelne Autoren (Primärliteratur)"@de ;
-    skos:scopeNote "Mundartdichtung (Primärliteratur) s. [Mundartliteratur](https://nwbib.de/subjects#N706090)"@de .
+    skos:scopeNote "Mundartdichtung (Primärliteratur) s. [Mundartliteratur](#N706090)"@de .
 
 :N768030
     a skos:Concept ;
@@ -6438,7 +6437,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "783000" ;
     skos:prefLabel "Schulgeschichte"@de ;
-    skos:scopeNote "Geschichte einzelner Schulen s.a. [Schulformen](https://nwbib.de/subjects#N784040); Im Unterschied zu allg. [Geschichte](https://nwbib.de/subjects#N240000)"@de .
+    skos:scopeNote "Geschichte einzelner Schulen s.a. [Schulformen](#N784040); Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N784000
     a skos:Concept ;
@@ -6674,7 +6673,7 @@
     skos:narrower :N785020, :N785030, :N785040, :N785050, :N785060, :N785070 ;
     skos:notation "785000" ;
     skos:prefLabel "Berufsbildende Schulen"@de ;
-    skos:scopeNote "Zur Geschichte einzelner Schulen s.a. [Schulgeschichte](https://nwbib.de/subjects#N783000)"@de .
+    skos:scopeNote "Zur Geschichte einzelner Schulen s.a. [Schulgeschichte](#N783000)"@de .
 
 :N785020
     a skos:Concept ;
@@ -6784,7 +6783,7 @@
     skos:narrower :N794010 ;
     skos:notation "794000" ;
     skos:prefLabel "Hochschulen"@de ;
-    skos:scopeNote "Allgemein; Für einzelne Hochschulen s. [Einzelne Hochschulen](https://nwbib.de/subjects#N794010)"@de .
+    skos:scopeNote "Allgemein; Für einzelne Hochschulen s. [Einzelne Hochschulen](#N794010)"@de .
 
 :N794010
     a skos:Concept ;
