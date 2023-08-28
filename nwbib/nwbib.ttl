@@ -278,8 +278,8 @@
     skos:notation "141210" ;
     skos:prefLabel "Historische Geologie"@de ;
     skos:definition "Teilgebiet der Geologie mit Forschungs- und Lehrgegenstand der Erdgeschichte"@de ;
-	skos:scopeNote "Nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen; Auch für Gesamtdarstellungen (z.B. Lehrbücher)"@de ;
-	skos:exactMatch wd:Q754590, gnd:4025104-4 .
+    skos:scopeNote "Nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen; Auch für Gesamtdarstellungen (z.B. Lehrbücher)"@de ;
+    skos:exactMatch wd:Q754590, gnd:4025104-4 .
 
 :N141220
     a skos:Concept ;
@@ -3282,9 +3282,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "542000" ;
     skos:prefLabel "Wirtschaftsgeschichte"@de ;
-	skos:definition "Geschichtswissenschaft mit ökonomischem und sozialwissenschaftlichem Schwerpunkt"@de ;
-	skos:scopeNote "Verwenden, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc.; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
-	skos:exactMatch wd:Q47398, gnd:7504419-5 .
+    skos:definition "Geschichtswissenschaft mit ökonomischem und sozialwissenschaftlichem Schwerpunkt"@de ;
+    skos:scopeNote "Verwenden, wenn alle Unterkategorien von Wirtschaft behandelt werden: Handel, Industrie, Handwerk etc.; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch wd:Q47398, gnd:7504419-5 .
 
 :N543000
     a skos:Concept ;
@@ -4015,9 +4015,9 @@
     skos:narrower :N548820, :N548840, :N548850, :N548870 ;
     skos:notation "548800" ;
     skos:prefLabel "Fremdenverkehr"@de ;
-	skos:altLabel "Tourismus, Touristik"@de ;
-	skos:definition "Überbegriff für Reisen, die Reisebranche und das Gastgewerbe und die Freizeitwirtschaft"@de ;
-	skos:exactMatch wd:Q49389, gnd:4018406-7 .
+    skos:altLabel "Tourismus, Touristik"@de ;
+    skos:definition "Überbegriff für Reisen, die Reisebranche und das Gastgewerbe und die Freizeitwirtschaft"@de ;
+    skos:exactMatch wd:Q49389, gnd:4018406-7 .
 
 :N548820
     a skos:Concept ;
@@ -4651,7 +4651,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N586020, :N586030, :N586040, :N586070, :N586080 ;
     skos:notation "586000" ;
-    skos:prefLabel "Grünanlagen"@de .
+    skos:prefLabel "Grünanlagen"@de ;
+    skos:scopeNote "Hier auch Golfplätze"@de .
 
 :N586020
     a skos:Concept ;
@@ -7357,9 +7358,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844500" ;
     skos:prefLabel "Stadtbaukunst"@de ;
-	skos:definition "Stadtbildprägende Bauten, als Ensemble erbaut"@de ;
-    skos:example "Treppenhäuser im öffentlichen Raum, Kunst am Bau, Rundgang zum Thema Stadt und Kunst"@de ;
-	skos:closeMatch gnd:4056795-3 .
+    skos:scopeNote "Stadtbildprägende Bauten, als Ensemble erbaut"@de ;
+    skos:example "Treppenhäuser im öffentlichen Raum, Kunst am Bau, Rundgang zum Thema Stadt und Kunst"@de .
 
 :N845000
     a skos:Concept ;
