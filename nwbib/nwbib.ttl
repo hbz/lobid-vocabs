@@ -7202,9 +7202,9 @@
     skos:narrower :N843010, :N843020, :N843040, :N843050, :N843060, :N843090 ;
     skos:notation "843000" ;
     skos:prefLabel "Architektur"@de ;
-	skos:definition "Gebäude im öffentlichen Raum"@de ;
-	skos:scopeNote "Nicht bei Baudenkmälern verwenden, dafür s. entspr. Notation unter [Baudenkmäler. Kunstwerke](#N844000)"@de ;
-	skos:exactMatch wd:Q12271 , gnd:4002851-3 .
+    skos:definition "Gebäude im öffentlichen Raum"@de ;
+    skos:scopeNote "Nicht bei Baudenkmälern verwenden, dafür s. entspr. Notation unter [Baudenkmäler. Kunstwerke](#N844000)"@de ;
+    skos:exactMatch wd:Q12271 , gnd:4002851-3 .
 
 :N843010
     a skos:Concept ;
@@ -7212,9 +7212,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843010" ;
     skos:prefLabel "Baukonstruktion. Bautechnik"@de ;
-	skos:definition "Konstruktion von Bauwerken und Gebäuden, Bau- und Herstellungsprozess"@de ;
+    skos:definition "Konstruktion von Bauwerken und Gebäuden, Bau- und Herstellungsprozess"@de ;
     skos:scopeNote "Freie SW: Baukonstruktion; Bautechnik"@de ;
-	skos:exactMatch wd:Q811430, gnd:4004821-4 .
+    skos:exactMatch wd:Q811430, gnd:4004821-4 .
 
 :N843020
     a skos:Concept ;
