@@ -630,3 +630,25 @@ lv:stockNumber
    rdfs:comment "States the publisher or distributor number of a resource, based on MARC 21-028 - Publisher or Distributor Number: https://www.loc.gov/marc/bibliographic/bd028.html"@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#manufacture>
+
+lv:manufacture
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Manufacture"@en ;
+   rdfs:label "Herstellung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to state manufacture information."@en ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#manufacturedBy>
+
+lv:manufacturedBy
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "Manufactured by"@en ;
+   rdfs:label "Hergestellt durch"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to state the manufactureres."@en ;
+   rdfs:range rdfs:Literal .
