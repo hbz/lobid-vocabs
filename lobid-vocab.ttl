@@ -511,6 +511,18 @@ lv:stocksize
    rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
    rdfs:domain foaf:Organization .
 
+# <http://purl.org/lobid/lv#isil>
+
+lv:sigel
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Sigel" ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Ein eindeutiger Identifikator für D-A-CH Bibliotheken, der durch Sigel-Agenturen vergeben wird."@de ;
+   rdfs:comment "Unique identifier for libraries from Germany, Austria and Switzerland, assigned by the Sigil-Agency."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:seeAlso <https://sigel.staatsbibliothek-berlin.de/vergabe/sigel> ;
+   rdfs:range rdfs:Literal .
+
 # <http://purl.org/lobid/lv#subjectChain>
 
 lv:subjectChain
