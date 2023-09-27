@@ -577,6 +577,18 @@ lv:series
    rdfs:range dct:BibliographicResource .
 
 
+# <http://purl.org/lobid/lv#sigel>
+
+lv:sigel
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Sigel" ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Ein eindeutiger Identifikator für D-A-CH Bibliotheken, der durch Sigel-Agenturen vergeben wird."@de ;
+   rdfs:comment "Unique identifier for libraries from Germany, Austria and Switzerland, assigned by the Sigil-Agency."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:seeAlso <https://sigel.staatsbibliothek-berlin.de/vergabe/sigel> ;
+   rdfs:range rdfs:Literal .
+
 # <http://purl.org/lobid/lv#stockNumber>
 
 lv:stockNumber
