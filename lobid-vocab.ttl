@@ -30,6 +30,7 @@
    vann:preferredNamespaceUri "http://purl.org/lobid/lv#" ;
    oo:contact <mailto:semweb@hbz-nrw.de> .
 
+
 # <http://purl.org/lobid/lv#ArchivedWebPage>
 
 lv:ArchivedWebPage
@@ -40,6 +41,7 @@ lv:ArchivedWebPage
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "An archival resource that is product of archiving a web page."@en ;
    rdfs:comment "Das Produkt der Archivierung einer Webseite."@de .
+
 
 # <http://purl.org/lobid/lv#Bibliography>
 
@@ -52,6 +54,7 @@ lv:Bibliography
    rdfs:comment "A collection of documents relevant to a particular subject or author."@en ;
    rdfs:comment "Eine Sammlung von Literaturnachweisen."@de .
 
+
 # <http://purl.org/lobid/lv#Biography>
 
 lv:Biography
@@ -62,6 +65,7 @@ lv:Biography
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A detailed description or account of a person's life"@en ;
    rdfs:comment "Die Lebensbeschreibung einer Person."@de .
+
 
 # <http://purl.org/lobid/lv#EditedVolume>
 
@@ -86,6 +90,7 @@ lv:Festschrift
    rdfs:comment "A publication honoring a respected person, especially an academic."@en ;
    rdfs:comment "Einem Gelehrten gewidmete Sammlung von Aufsätzen."@de .
 
+
 # <http://purl.org/lobid/lv#IsPartOfRelation>
 
 lv:IsPartOfRelation
@@ -95,6 +100,7 @@ lv:IsPartOfRelation
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "The relationship between a resource and a superordinate resource it is part of."@en ;
    rdfs:comment "Die Beziehung zwischen einer Ressource und der ihr übergeordneten Ressource."@de .
+
 
 # <http://purl.org/lobid/lv#Miscellaneous>
 
@@ -107,6 +113,7 @@ lv:Miscellaneous
    rdfs:comment "This class covers all publication types that are not covered by existing class definitions. It is used to enable facets over seldomly found publication types in library catalogs."@en ;
    rdfs:comment "Diese Klasse deckt alle Publikationstypen ab, die nicht durch bestehende Klassen erfasst sind. Sie dient insbesondere dem Angebot von Facetten für jene Publikationstypen, die in Bibliothekskatalogen selten zu finden sind."@de ;
    rdfs:seeAlso <https://wiki1.hbz-nrw.de/x/E4AyAQ#Facettenueberhbz01-Daten-misc> .
+
 
 # <http://purl.org/lobid/lv#MultiVolumeWorkRelation>
 
@@ -142,6 +149,7 @@ lv:Schoolbook
    rdfs:comment "A textbook used by school teachers in their classes."@en ;
    rdfs:comment "Ein Lehrbuch, das Schullehrer im Unterricht einsetzen."@de .
 
+
 # <http://purl.org/lobid/lv#SecondaryPublicationEvent>
 
 lv:SecondaryPublicationEvent
@@ -164,6 +172,7 @@ lv:SeriesRelation
    rdfs:comment "The relationship between a resource and a series it is part of."@en ;
    rdfs:comment "Die Beziehung zwischen einem Dokument und einer Reihe."@de .
 
+
 # <http://purl.org/lobid/lv#Statistics>
 
 lv:Statistics
@@ -174,6 +183,7 @@ lv:Statistics
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A systematic collection and analysis of empirical data."@en ;
    rdfs:comment "Eine systematische Sammlung und Analyse von empirischen Daten."@de .
+
 
 # <http://purl.org/lobid/lv#ags>
 
@@ -187,6 +197,34 @@ lv:ags
    rdfs:seeAlso <http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel> , <http://en.wikipedia.org/wiki/Community_Identification_Number#Germany> ;
    rdfs:range xsd:positiveInteger .
 
+
+# <http://purl.org/lobid/lv#almaMmsId>
+
+lv:almaMmsId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Alma MMS ID"@de ;
+   rdfs:label "Alma MMS ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Die Datensatz-ID im Alma Metadata Management System (MMS). Die MMS ID kann 8 bis 19 Stellen land sein (wobei die ersten beiden Stellen den Datensatztyp angeben und die letzten vier Stellen auf den Identifikator für die Institution bezug nehmen.)"@de ;
+   rdfs:comment "The record ID number in the Alma Metadata Management System (MMS). The MMS ID can be 8 to 19 digits long (with the first two digits referring to the record type and the last four digits referring to a unique identifier for the institution)."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#bibliographicLevel>
+
+lv:bibliographicLevel
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Bibliografisches Level"@de ;
+   rdfs:label "Bibliographic Level"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Beschreibt das bibliografische Level einer Ressource, angeleht an MARC 21-Leader 07 - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@de ;
+   rdfs:comment "Describes the bibliographic level of a resource, based on MARC 21-Leader 07 -  - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
 # <http://purl.org/lobid/lv#callNumber>
 
 lv:callNumber
@@ -199,6 +237,7 @@ lv:callNumber
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf dct:identifier .
 
+
 # <http://purl.org/lobid/lv#currentLocation>
 
 lv:currentLocation
@@ -210,6 +249,7 @@ lv:currentLocation
     rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf dct:identifier .
+
 
 # <http://purl.org/lobid/lv#contactqr>
 
@@ -276,6 +316,20 @@ lv:dbsID
    rdfs:range rdfs:Literal .
 
 
+# <http://purl.org/lobid/lv#dnbID>
+
+lv:dnbID
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "DNB-ID"@de ;
+   rdfs:label "DNB ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "DNB-Nummer. Der Identifier, der einer bibliographischen Ressource im Katalog der DNB (Deutsche National Bibliothek) zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the catalogue of the German National Library (DNB, Deutsche National Bibliothek))."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
 # <http://purl.org/lobid/lv#fulltextOnline>
 
 lv:fulltextOnline
@@ -287,6 +341,7 @@ lv:fulltextOnline
    rdfs:domain dct:BibliographicResource ;
    rdfs:range foaf:Document .
 
+
 # <http://purl.org/lobid/lv#fundertype>
 
 lv:fundertype
@@ -297,6 +352,7 @@ lv:fundertype
    rdfs:comment "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://purl.org/lobid/fundertype."@en ;
    rdfs:domain foaf:Organization ;
    rdfs:range skos:Concept .
+
 
 # <http://purl.org/lobid/lv#hasSuperordinate>
 
@@ -316,6 +372,7 @@ lv:hasSuperordinate
   lv:hasSuperordinate
   ) .
 
+
 # <http://purl.org/lobid/lv#hbzID>
 
 lv:hbzID
@@ -325,19 +382,6 @@ lv:hbzID
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "HT-Nummer. Der Identifier, der einer bibliographischen Ressource im hbz-Verbundkatalog zugewiesen wurde."@de ;
    rdfs:comment "The identifier that is assigned to a bibliographic resource in the hbz union catalogue."@en ;
-   rdfs:subPropertyOf dct:identifier ;
-   rdfs:domain dct:BibliographicResource ;
-   rdfs:range rdfs:Literal .
-
-# <http://purl.org/lobid/lv#almaMmsId>
-
-lv:almaMmsId
-   rdf:type owl:DatatypeProperty ;
-   rdfs:label "Alma MMS ID"@de ;
-   rdfs:label "Alma MMS ID"@en ;
-   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Die Datensatz-ID im Alma Metadata Management System (MMS). Die MMS ID kann 8 bis 19 Stellen land sein (wobei die ersten beiden Stellen den Datensatztyp angeben und die letzten vier Stellen auf den Identifikator für die Institution bezug nehmen.)"@de ;
-   rdfs:comment "The record ID number in the Alma Metadata Management System (MMS). The MMS ID can be 8 to 19 digits long (with the first two digits referring to the record type and the last four digits referring to a unique identifier for the institution)."@en ;
    rdfs:subPropertyOf dct:identifier ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
@@ -354,6 +398,7 @@ lv:inCollection
    rdfs:comment "Diese Property verlinkt eine Ressource mit einer Sammlung (Bibliographie, Dokumentenserver etc.), zu der sie gehört."@de;
    rdfs:domain dct:BibliographicResource .
 
+
 # <http://purl.org/lobid/lv#inDataset>
 
    lv:inDataset
@@ -364,6 +409,7 @@ lv:inCollection
       rdfs:comment "This property is used to link a data record to a data set it is part of."@en ;
       rdfs:comment "Diese Property verlinkt einen Datensatz mit einem Dataset, zu dem er gehört."@de;
       rdfs:range schema:Dataset .
+
 
 # <http://purl.org/lobid/lv#inSeries>
 
@@ -376,6 +422,7 @@ lv:inSeries
    rdfs:comment "Diese Property verlinkt eine Ressource mit einer Dokument-Serie-Beziehung."@de;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range lv:SeriesRelation .
+
 
 # <http://purl.org/lobid/lv#isil>
 
@@ -397,6 +444,7 @@ lv:isil
       )
               ]  .
 
+
 # <http://purl.org/lobid/lv#isPartOf>
 
 lv:isPartOf
@@ -409,6 +457,29 @@ lv:isPartOf
     rdfs:domain dct:BibliographicResource ;
     rdfs:range lv:IsPartOfRelation .
 
+
+# <http://purl.org/lobid/lv#manufacture>
+
+lv:manufacture
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Manufacture"@en ;
+   rdfs:label "Herstellung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to state manufacture information."@en ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#manufacturedBy>
+
+lv:manufacturedBy
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Manufactured by"@en ;
+   rdfs:label "Hergestellt durch"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to state the manufactureres."@en ;
+   rdfs:range rdfs:Literal .
+
+
 # <http://purl.org/lobid/lv#multiVolumeWork>
 
 lv:multiVolumeWork
@@ -420,6 +491,21 @@ lv:multiVolumeWork
    rdfs:comment "Diese Property verlinkt eine Band-Werk-Beziehung mit einem mehrbändigen Werk."@de;
    rdfs:domain lv:MultiVolumeWorkRelation ;
    rdfs:range dct:BibliographicResource .
+
+
+# <http://purl.org/lobid/lv#numbering>
+
+lv:numbering
+   rdf:type owl:ObjectProperty ;
+   rdfs:label "numbering"@en ;
+   rdfs:label "Nummer"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "This property is used to indicate the numbering within a volume-to-work or a document-to-series relation."@en ;
+   rdfs:comment "Zur Angabe der Nummerierung innerhalb einer Band-Werk-Beziehung oder Dokument-Reihe-Beziehung."@de;
+   rdfs:domain [ a owl:Class;
+        owl:unionOf (  lv:MultiVolumeWorkRelation lv:SeriesRelation)
+    ];
+   rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#nwbibsubject>
 
@@ -435,6 +521,7 @@ lv:nwbibsubject
    rdfs:range skos:Concept ;
    vs:status "deprecated" .
 
+
 # <http://purl.org/lobid/lv#nwbibspatial>
 
 lv:nwbibspatial
@@ -448,6 +535,7 @@ lv:nwbibspatial
    rdfs:domain dct:BibliographicResource ;
    rdfs:range skos:Concept ;
    vs:status "deprecated" .
+
 
 # <http://purl.org/lobid/lv#rpbSubject>
 
@@ -463,19 +551,6 @@ lv:rpbSubject
    rdfs:range skos:Concept ;
    vs:status "deprecated" .
 
-# <http://purl.org/lobid/lv#numbering>
-
-lv:numbering
-   rdf:type owl:ObjectProperty ;
-   rdfs:label "numbering"@en ;
-   rdfs:label "Nummer"@de ;
-   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "This property is used to indicate the numbering within a volume-to-work or a document-to-series relation."@en ;
-   rdfs:comment "Zur Angabe der Nummerierung innerhalb einer Band-Werk-Beziehung oder Dokument-Reihe-Beziehung."@de;
-   rdfs:domain [ a owl:Class;
-        owl:unionOf (  lv:MultiVolumeWorkRelation lv:SeriesRelation)
-    ];
-   rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#rs>
 
@@ -501,17 +576,8 @@ lv:series
    rdfs:domain lv:SeriesRelation ;
    rdfs:range dct:BibliographicResource .
 
-# <http://purl.org/lobid/lv#stocksize>
 
-lv:stocksize
-   rdf:type rdf:Property ;
-   rdfs:label "Stock Size"@en ;
-   rdfs:label "Bestandsgröße"@de ;
-   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
-   rdfs:domain foaf:Organization .
-
-# <http://purl.org/lobid/lv#isil>
+# <http://purl.org/lobid/lv#sigel>
 
 lv:sigel
    rdf:type owl:DatatypeProperty ;
@@ -522,6 +588,29 @@ lv:sigel
    rdfs:subPropertyOf dct:identifier ;
    rdfs:seeAlso <https://sigel.staatsbibliothek-berlin.de/vergabe/sigel> ;
    rdfs:range rdfs:Literal .
+
+# <http://purl.org/lobid/lv#stockNumber>
+
+lv:stockNumber
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Publisher or Distributor Number"@en ;
+   rdfs:label "Verlags-/Vertriebsnummer"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "States the publisher or distributor number of a resource, based on MARC 21-028 - Publisher or Distributor Number: https://www.loc.gov/marc/bibliographic/bd028.html"@en ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#stocksize>
+
+lv:stocksize
+   rdf:type rdf:Property ;
+   rdfs:label "Stock Size"@en ;
+   rdfs:label "Bestandsgröße"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en ;
+   rdfs:domain foaf:Organization .
+
 
 # <http://purl.org/lobid/lv#subjectChain>
 
@@ -547,6 +636,7 @@ lv:subjectAltLabel
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
+
 # <http://purl.org/lobid/lv#titleKeyword>
 
 lv:titleKeyword
@@ -568,6 +658,7 @@ lv:urn
    rdfs:comment "This property is used to indicate the uniform resource name (URN) of a bibliographic resource. The URN must be stated as a string not as URI, thus identifying the identifier itself and not the resource that is identified by the URN."@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
+
 
 # <http://purl.org/lobid/lv#volumeIn>
 
@@ -604,41 +695,5 @@ lv:zdbID
    rdfs:comment "ZDB-Nummer. Der Identifier, der einer bibliographischen Ressource in der Zeitschriftendatenbank (ZDB) zugewiesen wurde."@de ;
    rdfs:comment "The identifier that is assigned to a bibliographic resource in the German Journal Database (Zeitschriftendatenbank, ZDB)."@en ;
    rdfs:subPropertyOf dct:identifier ;
-   rdfs:domain dct:BibliographicResource ;
-   rdfs:range rdfs:Literal .
-
-# <http://purl.org/lobid/lv#dnbID>
-
-lv:dnbID
-   rdf:type owl:DatatypeProperty ;
-   rdfs:label "DNB-ID"@de ;
-   rdfs:label "DNB ID"@en ;
-   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "DNB-Nummer. Der Identifier, der einer bibliographischen Ressource im Katalog der DNB (Deutsche National Bibliothek) zugewiesen wurde."@de ;
-   rdfs:comment "The identifier that is assigned to a bibliographic resource in the catalogue of the German National Library (DNB, Deutsche National Bibliothek))."@en ;
-   rdfs:subPropertyOf dct:identifier ;
-   rdfs:domain dct:BibliographicResource ;
-   rdfs:range rdfs:Literal .
-
-# <http://purl.org/lobid/lv#bibliographicLevel>
-
-lv:bibliographicLevel
-   rdf:type owl:DatatypeProperty ;
-   rdfs:label "Bibliografisches Level"@de ;
-   rdfs:label "Bibliographic Level"@en ;
-   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "Beschreibt das bibliografische Level einer Ressource, angeleht an MARC 21-Leader 07 - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@de ;
-   rdfs:comment "Describes the bibliographic level of a resource, based on MARC 21-Leader 07 -  - Bibliographic level: https://www.loc.gov/marc/bibliographic/bdleader.html"@en ;
-   rdfs:domain dct:BibliographicResource ;
-   rdfs:range rdfs:Literal .
-
-# <http://purl.org/lobid/lv#stockNumber>
-
-lv:stockNumber
-   rdf:type owl:DatatypeProperty ;
-   rdfs:label "Publisher or Distributor Number"@en ;
-   rdfs:label "Verlags-/Vertriebsnummer"@de ;
-   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "States the publisher or distributor number of a resource, based on MARC 21-028 - Publisher or Distributor Number: https://www.loc.gov/marc/bibliographic/bd028.html"@en ;
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
