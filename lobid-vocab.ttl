@@ -635,7 +635,7 @@ lv:stockNumber
 # <http://purl.org/lobid/lv#manufacture>
 
 lv:manufacture
-   rdf:type owl:ObjectProperty ;
+   rdf:type owl:DatatypeProperty ;
    rdfs:label "Manufacture"@en ;
    rdfs:label "Herstellung"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
@@ -646,7 +646,7 @@ lv:manufacture
 # <http://purl.org/lobid/lv#manufacturedBy>
 
 lv:manufacturedBy
-   rdf:type owl:ObjectProperty ;
+   rdf:type owl:DatatypeProperty ;
    rdfs:label "Manufactured by"@en ;
    rdfs:label "Hergestellt durch"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
