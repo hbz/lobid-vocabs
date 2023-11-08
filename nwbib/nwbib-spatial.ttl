@@ -4938,7 +4938,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-10-16" ;
+        dct:modified                   "2023-11-08" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12538,7 +12538,7 @@ nwbib-spatial:Q11343  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q11280 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "05954032" ;
-        skos:prefLabel  "Wetter"@de ;
+        skos:prefLabel  "Wetter (Ruhr)"@de ;
         foaf:focus      wd:Q11343 .
 
 nwbib-spatial:Q1250638
@@ -21029,6 +21029,13 @@ nwbib-spatial:Q323601
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Unterbilk"@de ;
         foaf:focus      wd:Q323601 .
+
+nwbib-spatial:Q2166852
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q2948 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Rosellerheide"@de ;
+        foaf:focus      wd:Q2166852 .
 
 nwbib-spatial:N04  a    skos:Concept ;
         skos:broader    nwbib-spatial:N0 ;
@@ -31643,6 +31650,13 @@ nwbib-spatial:Q1599752
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Heinrichsdorf"@de ;
         foaf:focus      wd:Q1599752 .
+
+nwbib-spatial:Q1021743
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q254649 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Büsch"@de ;
+        foaf:focus      wd:Q1021743 .
 
 nwbib-spatial:Q894914
         a               skos:Concept ;
