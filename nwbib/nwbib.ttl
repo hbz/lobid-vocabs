@@ -11,7 +11,7 @@
     vann:preferredNamespacePrefix "nwbib" ;
     dct:title "Sachsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Classification scheme of the North Rhine-Westphalian bibliography"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    dct:description "This classification was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
+    dct:description "This classification was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
     dct:issued "2014-01-28" ;
     dct:modified "2022-01-13" ;
     dct:publisher <http://lobid.org/organisations/DE-605> ;
@@ -2882,7 +2882,7 @@
     a skos:Concept ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:broader :N5 ;
-    skos:narrower :N520100, :N521000, :N521200, :N521400, :N522000, :N523000, :N52400 ;
+    skos:narrower :N520100, :N521000, :N521200, :N521400, :N522000, :N523000, :N524000 ;
     skos:notation "520000" ;
     skos:prefLabel "Sozialwesen"@de ;
     skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
