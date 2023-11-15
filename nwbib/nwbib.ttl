@@ -712,21 +712,24 @@
     skos:broader :N142370 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142372" ;
-    skos:prefLabel "Trinkwasserversorgung"@de .
+    skos:prefLabel "Trinkwasserversorgung"@de ;
+    skos:exactMatch gnd:4193371-0 .
 
 :N142373
     a skos:Concept ;
     skos:broader :N142370 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142373" ;
-    skos:prefLabel "Trinkwasseraufbereitung"@de .
+    skos:prefLabel "Trinkwasseraufbereitung"@de ;
+    skos:exactMatch gnd:4127028-9 .
 
 :N142375
     a skos:Concept ;
     skos:broader :N142370 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142375" ;
-    skos:prefLabel "Brauchwasser"@de .
+    skos:prefLabel "Brauchwasser"@de ;
+    skos:exactMatch gnd:4008018-3, wd:Q832131 .
 
 :N142380
     a skos:Concept ;
@@ -736,14 +739,15 @@
     skos:notation "142380" ;
     skos:prefLabel "Hydrobiologie"@de ;
     skos:altLabel "Gewässerbiologie"@de ;
-    skos:exactMatch wd:Q5728861, gnd:4026300-9 .
+    skos:exactMatch gnd:4026300-9, wd:Q5728861 .
 
 :N142382
     a skos:Concept ;
     skos:broader :N142380 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142382" ;
-    skos:prefLabel "Wasseranalysen"@de .
+    skos:prefLabel "Wasseranalysen"@de ;
+    skos:exactMatch gnd:4079058-7 .
 
 :N142390
     a skos:Concept ;
@@ -758,7 +762,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142520, :N142530, :N142540, :N142560, :N142570 ;
     skos:notation "142500" ;
-    skos:prefLabel "Klima"@de .
+    skos:prefLabel "Klima"@de ;
+    skos:exactMatch gnd:4031170-3, wd:Q7937 .
 
 :N142520
     a skos:Concept ;
@@ -766,21 +771,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142522, :N142523, :N142524, :N142526 ;
     skos:notation "142520" ;
-    skos:prefLabel "Klimaelemente"@de .
+    skos:prefLabel "Klimaelemente"@de ;
+    skos:exactMatch gnd:4164201-6 .
 
 :N142522
     a skos:Concept ;
     skos:broader :N142520 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142522" ;
-    skos:prefLabel "Strahlung"@de .
+    skos:prefLabel "Strahlung"@de ;
+    skos:exactMatch gnd:4057849-5, wd:Q18335 .
 
 :N142523
     a skos:Concept ;
     skos:broader :N142520 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142523" ;
-    skos:prefLabel "Temperatur"@de .
+    skos:prefLabel "Temperatur"@de ;
+    skos:exactMatch gnd:4059427-0, wd:Q11466 .
 
 :N142524
     a skos:Concept ;
@@ -788,7 +796,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142524" ;
     skos:prefLabel "Niederschlag"@de ;
-    skos:scopeNote "Freie SW: Luftfeuchtigkeit; Niederschlag"@de .
+    skos:scopeNote "Freie SW: Luftfeuchtigkeit; Niederschlag"@de ;
+    skos:exactMatch gnd:4132260-5, wd:Q25257 .
 
 :N142526
     a skos:Concept ;
@@ -796,7 +805,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142526" ;
     skos:prefLabel "Luft"@de ;
-    skos:scopeNote "Freie SW: z.B. Wind"@de .
+    skos:scopeNote "Freie SW: z.B. Wind"@de ;
+    skos:exactMatch gnd:4130887-6, wd:Q7391292 .
 
 :N142530
     a skos:Concept ;
@@ -806,7 +816,7 @@
     skos:prefLabel "Klimatologie"@de ;
     skos:altLabel "Klimakunde, Klimaforschung"@de ;
     skos:definition "Interdisziplinäre Wissenschaft der Fachgebiete Meteorologie, Geographie, Geologie, Ozeanographie und Physik"@de ;
-    skos:exactMatch wd:Q52139, gnd:4031178-8 .
+    skos:exactMatch gnd:4031178-8, wd:Q52139 .
 
 :N142540
     a skos:Concept ;
@@ -814,21 +824,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142541 ;
     skos:notation "142540" ;
-    skos:prefLabel "Wetterdienst"@de .
+    skos:prefLabel "Wetterdienst"@de ;
+    skos:exactMatch gnd:4477793-0 .
 
 :N142541
     a skos:Concept ;
     skos:broader :N142540 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142541" ;
-    skos:prefLabel "Wetterlagen"@de .
+    skos:prefLabel "Wetterlagen"@de ;
+    skos:exactMatch gnd:4135635-4, wd:Q1281564 .
 
 :N142560
     a skos:Concept ;
     skos:broader :N142500 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142560" ;
-    skos:prefLabel "Klimaänderungen"@de .
+    skos:prefLabel "Klimaänderungen"@de ;
+    skos:exactMatch gnd:4164199-1, wd:Q125928 .
 
 :N142570
     a skos:Concept ;
@@ -837,7 +850,7 @@
     skos:notation "142570" ;
     skos:prefLabel "Paläoklimatologie"@de ;
     skos:definition "Wissenschaft, die die Geschichte des Klimas zum Gegenstand hat"@de ;
-    skos:exactMatch wd:Q191069, gnd:4173112-8 .
+    skos:exactMatch gnd:4173112-8, wd:Q191069 .
 
 :N146000
     a skos:Concept ;
@@ -846,7 +859,7 @@
     skos:notation "146000" ;
     skos:prefLabel "Geoökologie"@de ;
     skos:definition "Wiss., die sich aus geograph.-geowiss. Sicht mit dem Landschaftshaushalt in räuml. Ausprägung beschäftigt"@de ;
-    skos:exactMatch wd:Q1265151, gnd:4137703-5 .
+    skos:exactMatch gnd:4137703-5, wd:Q1265151 .
 
 :N160000
     a skos:Concept ;
@@ -870,7 +883,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N161020, :N161030, :N161040, :N161050 ;
     skos:notation "161000" ;
-    skos:prefLabel "Biologie"@de .
+    skos:prefLabel "Biologie"@de ;
+    skos:exactMatch gnd:4006851-1, wd:Q420 .
 
 :N161020
     a skos:Concept ;
@@ -880,14 +894,16 @@
     skos:prefLabel "Biogeographie"@de ;
     skos:definition "Lehre von der Verbreitung der Pflanzen und Tiere auf der Erde"@de ;
     skos:scopeNote "Verortung von Tieren und Pflanzen; Für Verortung von Tieren s. [Tiergeographie](#N163010), für Verortung von Pflanzen s. [Pflanzengeographie](#N162020)"@de ;
-    skos:exactMatch wd:Q52106, gnd:4006801-8 .
+    skos:exactMatch gnd:4006801-8, wd:Q52106 .
 
 :N161030
     a skos:Concept ;
     skos:broader :N161000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "161030" ;
-    skos:prefLabel "Ökologie"@de .
+    skos:prefLabel "Ökologie"@de ;
+    skos:altLabel "Umweltbiologie"@de ;
+    skos:exactMatch gnd:4043207-5, wd:Q7150 .
 
 :N161040
     a skos:Concept ;
@@ -896,14 +912,15 @@
     skos:notation "161040" ;
     skos:prefLabel "Lebensgemeinschaften von Tieren und Pflanzen"@de ;
     skos:altLabel "Biozönose"@de ;
-    skos:exactMatch wd:Q184806, gnd:4167021-8 .
+    skos:exactMatch gnd:4167021-8, wd:Q184806 .
 
 :N161050
     a skos:Concept ;
     skos:broader :N161000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "161050" ;
-    skos:prefLabel "Mikrobiologie"@de .
+    skos:prefLabel "Mikrobiologie"@de ;
+    skos:exactMatch gnd:4316357-9, wd:Q7193 .
 
 :N162000
     a skos:Concept ;
@@ -911,7 +928,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N162020, :N162030, :N162040 ;
     skos:notation "162000" ;
-    skos:prefLabel "Pflanzen"@de .
+    skos:prefLabel "Pflanzen"@de ;
+    skos:exactMatch gnd:4045539-7, wd:Q192154 .
 
 :N162020
     a skos:Concept ;
@@ -921,7 +939,7 @@
     skos:prefLabel "Pflanzengeographie"@de ;
     skos:altLabel "Phytogeographie, Vegetationsgeographie"@de ;
     skos:definition "Verortung von Pflanzen"@de ;
-    skos:exactMatch wd:Q771220, gnd:4045561-0 .
+    skos:exactMatch gnd:4045561-0, wd:Q771220 .
 
 :N162030
     a skos:Concept ;
@@ -938,7 +956,8 @@
     skos:broader :N162000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "162040" ;
-    skos:prefLabel "Samenpflanzen"@de .
+    skos:prefLabel "Samenpflanzen"@de ;
+    skos:exactMatch gnd:4076988-4, wd:Q25814 .
 
 :N163000
     a skos:Concept ;
@@ -946,7 +965,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N163010, :N163020, :N163030, :N163040, :N163050, :N163060, :N163070, :N163080, :N163090 ;
     skos:notation "163000" ;
-    skos:prefLabel "Tiere"@de .
+    skos:prefLabel "Tiere"@de ;
+    skos:exactMatch gnd:4060087-7, wd:Q729 .
 
 :N163010
     a skos:Concept ;
@@ -956,14 +976,15 @@
     skos:prefLabel "Tiergeographie"@de ;
     skos:altLabel "Geozoologie, Zoogeographie"@de ;
     skos:definition "Wissenschaft von der geografischen Verbreitung und Ausbreitung der Tiere auf der Erde"@de ;
-    skos:exactMatch wd:Q599991, gnd:4133437-1 .
+    skos:exactMatch gnd:4133437-1, wd:Q599991 .
 
 :N163020
     a skos:Concept ;
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163020" ;
-    skos:prefLabel "Wirbellose"@de .
+    skos:prefLabel "Wirbellose"@de ;
+    skos:exactMatch gnd:4066359-0, wd:Q43806 .
 
 :N163030
     a skos:Concept ;
@@ -971,21 +992,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163030" ;
     skos:prefLabel "Insekten. Spinnen"@de ;
-    skos:scopeNote "Schmetterlinge, Libellen; Freie SW: Insekten; Spinnen; Spinnentiere"@de .
+    skos:scopeNote "Schmetterlinge, Libellen; Freie SW: Insekten; Spinnen; Spinnentiere"@de ;
+    skos:exactMatch gnd:4027110-9, gnd:4132662-3, wd:Q1390, wd:Q115128259 .
 
 :N163040
     a skos:Concept ;
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163040" ;
-    skos:prefLabel "Wirbeltiere"@de .
+    skos:prefLabel "Wirbeltiere"@de ;
+    skos:exactMatch gnd:4066376-0, wd:Q25241 .
 
 :N163050
     a skos:Concept ;
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163050" ;
-    skos:prefLabel "Fische"@de .
+    skos:prefLabel "Fische"@de ;
+    skos:exactMatch gnd:4017269-7, wd:Q152 .
 
 :N163060
     a skos:Concept ;
@@ -1001,21 +1025,24 @@
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163070" ;
-    skos:prefLabel "Reptilien"@de .
+    skos:prefLabel "Reptilien"@de ;
+    skos:exactMatch gnd:4076664-0, wd:Q10811 .
 
 :N163080
     a skos:Concept ;
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163080" ;
-    skos:prefLabel "Vögel"@de .
+    skos:prefLabel "Vögel"@de ;
+    skos:exactMatch gnd:4063673-2, wd:Q5113 .
 
 :N163090
     a skos:Concept ;
     skos:broader :N163000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163090" ;
-    skos:prefLabel "Säugetiere"@de .
+    skos:prefLabel "Säugetiere"@de ;
+    skos:exactMatch gnd:4051253-8, wd:Q110551885 .
 
 :N164000
     a skos:Concept ;
@@ -1023,14 +1050,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N164030, :N164040 ;
     skos:notation "164000" ;
-    skos:prefLabel "Biologische Anthropologie"@de .
+    skos:prefLabel "Biologische Anthropologie"@de ;
+    skos:exactMatch wd:Q27172 .
 
 :N164030
     a skos:Concept ;
     skos:broader :N164000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "164030" ;
-    skos:prefLabel "Skelettfunde"@de .
+    skos:prefLabel "Skelettfunde"@de ;
+    skos:exactMatch gnd:4181634-1 .
 
 :N164040
     a skos:Concept ;
@@ -1039,7 +1068,7 @@
     skos:notation "164040" ;
     skos:prefLabel "Paläanthropologie"@de ;
     skos:definition "Wissenschaft der Entstehung der spezifischen Merkmale des Menschen"@de ;
-    skos:exactMatch wd:Q7206, gnd:4173104-9 .
+    skos:exactMatch gnd:4173104-9, wd:Q7206 .
 
 :N200000
     a skos:Concept ;
@@ -1062,7 +1091,8 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "202000" ;
-    skos:prefLabel "Chronologie"@de .
+    skos:prefLabel "Chronologie"@de ;
+    skos:exactMatch gnd:4010178-2, wd:Q130788 .
 
 :N202500
     a skos:Concept ;
@@ -1071,14 +1101,15 @@
     skos:notation "202500" ;
     skos:prefLabel "Metrologie"@de ;
     skos:definition "Lehre von den Maßen und den Maßsystemen"@de ;
-    skos:exactMatch wd:Q394, gnd:4169749-2 .
+    skos:exactMatch gnd:4169749-2, wd:Q394 .
 
 :N203000
     a skos:Concept ;
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "203000" ;
-    skos:prefLabel "Urkundenlehre"@de .
+    skos:prefLabel "Urkundenlehre"@de ;
+    skos:exactMatch gnd:4062135-2, wd:Q378426 .
 
 :N203500
     a skos:Concept ;
@@ -1087,14 +1118,15 @@
     skos:notation "203500" ;
     skos:prefLabel "Paläographie"@de ;
     skos:definition "Lehre von alten Schriften"@de ;
-    skos:exactMatch wd:Q179957, gnd:4173110-4 .
+    skos:exactMatch gnd:4173110-4, wd:Q179957 .
 
 :N204000
     a skos:Concept ;
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "204000" ;
-    skos:prefLabel "Siegelkunde"@de .
+    skos:prefLabel "Siegelkunde"@de ;
+    skos:exactMatch gnd:4181228-1, wd:Q379838 .
 
 :N205000
     a skos:Concept ;
@@ -1104,7 +1136,7 @@
     skos:notation "205000" ;
     skos:prefLabel "Numismatik"@de ;
     skos:definition "Wissenschaft von Münzen, Medaillen sowie weiteren Zahlungsmitteln und Geldgeschichte"@de ;
-    skos:exactMatch wd:Q631286, gnd:4172175-5 .
+    skos:exactMatch gnd:4172175-5, wd:Q631286 .
 
 :N205020
     a skos:Concept ;
@@ -1112,14 +1144,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "205020" ;
     skos:prefLabel "Geld. Münzen"@de ;
-    skos:scopeNote "Freie SW: Geld; Münze"@de .
+    skos:scopeNote "Freie SW: Geld; Münze"@de ;
+    skos:exactMatch gnd:4019889-3, gnd:4040629-5, wd:Q1368, wd:Q41207 .
 
 :N205040
     a skos:Concept ;
     skos:broader :N205000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "205040" ;
-    skos:prefLabel "Münzfunde"@de .
+    skos:prefLabel "Münzfunde"@de ;
+    skos:exactMatch gnd:4126078-8 .
 
 :N206000
     a skos:Concept ;
@@ -1129,7 +1163,7 @@
     skos:prefLabel "Epigraphik"@de ;
     skos:altLabel "Inschriftenkunde"@de ;
     skos:definition "Historische Hilfswissenschaft der Erkundung von Inschriften auf unterschiedlichen Materialien"@de ;
-    skos:exactMatch wd:Q181260, gnd:4152508-5 .
+    skos:exactMatch gnd:4152508-5, wd:Q181260 .
 
 :N207000
     a skos:Concept ;
@@ -1140,7 +1174,7 @@
     skos:prefLabel "Genealogie"@de ;
     skos:definition "Historische Hilfswissenschaft der Familiengeschichtsforschung"@de ;
     skos:scopeNote "S.a. [Einzelne Familien](#N207020)"@de ;
-    skos:exactMatch wd:Q47307, gnd:4020097-8 .
+    skos:exactMatch gnd:4020097-8, wd:Q47307 .
 
 :N207020
     a skos:Concept ;
@@ -1157,14 +1191,15 @@
     skos:notation "208000" ;
     skos:prefLabel "Heraldik"@de ;
     skos:definition "Lehre von Wappen und deren richtigem Gebrauch"@de ;
-    skos:exactMatch wd:Q18336, gnd:4072428-1 .
+    skos:exactMatch gnd:4072428-1, wd:Q18336 .
 
 :N208500
     a skos:Concept ;
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "208500" ;
-    skos:prefLabel "Flaggen"@de .
+    skos:prefLabel "Flaggen"@de ;
+    skos:exactMatch gnd:4127955-4, wd:Q14660 .
 
 :N209000
     a skos:Concept ;
@@ -1172,7 +1207,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "209000" ;
     skos:prefLabel "Orden. Ehrenzeichen"@de ;
-    skos:scopeNote "S.a. [Sachgebiet Militärische Auszeichnungen](#N262026), freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
+    skos:scopeNote "S.a. [Militärische Auszeichnungen](#N262026), freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
     skos:exactMatch gnd:4121162-5 .
 
 :N210000
@@ -1198,14 +1233,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N213010, :N213020, :N213030, :N213040, :N213050, :N213060, :N213070, :N213080, :N213090 ;
     skos:notation "213000" ;
-    skos:prefLabel "Archive"@de .
+    skos:prefLabel "Archive"@de ;
+    skos:exactMatch gnd:4002859-8, wd:Q166118 .
 
 :N213010
     a skos:Concept ;
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213010" ;
-    skos:prefLabel "Staatsarchive"@de .
+    skos:prefLabel "Staatsarchive"@de ;
+    skos:exactMatch gnd:4191991-9, wd:Q52341833 .
 
 :N213020
     a skos:Concept ;
@@ -1213,14 +1250,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213020" ;
     skos:prefLabel "Kreisarchive. Stadtarchive"@de ;
-    skos:scopeNote "Freie SW: Kreisarchiv; Stadtarchiv"@de .
+    skos:scopeNote "Freie SW: Kreisarchiv; Stadtarchiv"@de ;
+    skos:exactMatch gnd:4449814-7, gnd:4336196-1, wd:Q604177 .
 
 :N213030
     a skos:Concept ;
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213030" ;
-    skos:prefLabel "Kirchenarchive"@de .
+    skos:prefLabel "Kirchenarchive"@de ;
+    skos:exactMatch gnd:4030706-2, wd:Q2877653 .
 
 :N213040
     a skos:Concept ;
@@ -1234,14 +1273,16 @@
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213050" ;
-    skos:prefLabel "Parteiarchive"@de .
+    skos:prefLabel "Parteiarchive"@de ;
+    skos:exactMatch gnd:4352713-9, wd:Q53252161 .
 
 :N213060
     a skos:Concept ;
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213060" ;
-    skos:prefLabel "Vereinsarchive"@de .
+    skos:prefLabel "Vereinsarchive"@de ;
+    skos:exactMatch gnd:4658407-9 .
 
 :N213070
     a skos:Concept ;
@@ -1249,7 +1290,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213070" ;
     skos:prefLabel "Pressearchive. Rundfunkarchive"@de ;
-    skos:scopeNote "Freie SW: Pressearchiv; Rundfunkarchiv"@de .
+    skos:scopeNote "Freie SW: Pressearchiv; Rundfunkarchiv"@de ;
+    skos:exactMatch gnd:4047154-8, gnd:4050970-9 , wd:Q56650887 .
 
 :N213080
     a skos:Concept ;
@@ -1257,21 +1299,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N213084 ;
     skos:notation "213080" ;
-    skos:prefLabel "Wirtschaftsarchive"@de .
+    skos:prefLabel "Wirtschaftsarchive"@de ;
+    skos:exactMatch gnd:4139023-4, wd:Q27032167 .
 
 :N213084
     a skos:Concept ;
     skos:broader :N213080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213084" ;
-    skos:prefLabel "Firmenarchive"@de .
+    skos:prefLabel "Firmenarchive"@de ;
+    skos:exactMatch gnd:4139024-6, wd:Q10605195 .
 
 :N213090
     a skos:Concept ;
     skos:broader :N213000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213090" ;
-    skos:prefLabel "Familienarchive"@de .
+    skos:prefLabel "Familienarchive"@de ;
+    skos:exactMatch gnd:4153650-2, wd:Q27032283 .
 
 :N217000
     a skos:Concept ;
