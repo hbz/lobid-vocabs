@@ -318,6 +318,12 @@
     skos:notation "680" ;
     skos:prefLabel "Wein"@de .
 
+:n689
+    a skos:Concept ;
+    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:notation "689" ;
+    skos:prefLabel "Kulinaristik"@de .
+
 :n690
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
