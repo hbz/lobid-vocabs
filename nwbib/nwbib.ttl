@@ -106,14 +106,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102060" ;
     skos:prefLabel "Reiseberichte"@de ;
-    skos:scopeNote "Auch Kunstführer; Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de .
+    skos:scopeNote "Auch Kunstführer; Freie SW: Reiseführer; Wandern / Führer; i.d.R. nur: Führer"@de ;
+    skos:exactMatch gnd:4076645-7 .
 
 :N102070
     a skos:Concept ;
     skos:broader :N102000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102070" ;
-    skos:prefLabel "Reise-, Stadt- und Wanderführer"@de .
+    skos:prefLabel "Reise-, Stadt- und Wanderführer"@de ;
+    skos:exactMatch gnd:4049291-6, wd:Q223638 .
 
 :N105000
     a skos:Concept ;
@@ -121,7 +123,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "105000" ;
     skos:prefLabel "Heimatpflege"@de ;
-    skos:scopeNote "Ggf. s.a. [Heimatvereine](#N106000)"@de .
+    skos:scopeNote "Ggf. s.a. [Heimatvereine](#N106000)"@de ;
+    skos:exactMatch gnd:4132718-4, wd:Q1595667 . 
 
 :N106000
     a skos:Concept ;
@@ -129,7 +132,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "106000" ;
     skos:prefLabel "Heimatvereine"@de ;
-    skos:scopeNote "Ggf. s.a. [Heimatpflege](#N105000)"@de .
+    skos:scopeNote "Ggf. s.a. [Heimatpflege](#N105000)"@de ;
+    skos:exactMatch gnd:4522420-1, wd:Q1474001 . 
 
 :N109000
     a skos:Concept ;
@@ -139,7 +143,7 @@
     skos:prefLabel "Biographien"@de ;
     skos:definition "Lebensbeschreibung einer Person"@de ;
     skos:example "Ehrenbürger"@de ;
-    skos:exactMatch wd:Q36279, gnd:4006804-3 .
+    skos:exactMatch gnd:4006804-3, wd:Q36279 .
 
 :N120000
     a skos:Concept ;
@@ -164,28 +168,36 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N122030, :N122050, :N122070 ;
     skos:notation "122000" ;
-    skos:prefLabel "Kartographie"@de .
+    skos:prefLabel "Kartographie"@de ;
+    skos:altLabel "Kartenkunde"@de ;
+    skos:definition "Wissenschaft und Technik der Herstellung von Karten und kartenverwandten Darstellungen"@de ;
+    skos:exactMatch gnd:4029823-1, wd:Q42515, <http://zbw.eu/stw/descriptor/11957-1> .
 
 :N122030
     a skos:Concept ;
     skos:broader :N122000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "122030" ;
-    skos:prefLabel "Kartenauswertung"@de .
+    skos:prefLabel "Kartenauswertung"@de ;
+    skos:definition "Gesamtheit der visuell-kognitiven Prozesse zur Informationsentnahme aus Karten durch einen Kartennutzer"@de ;
+    skos:exactMatch gnd:4193951-7 . 
 
 :N122050
     a skos:Concept ;
     skos:broader :N122000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "122050" ;
-    skos:prefLabel "Computerkartographie"@de .
+    skos:prefLabel "Computerkartographie"@de ;
+    skos:exactMatch gnd:4010451-5 .
 
 :N122070
     a skos:Concept ;
     skos:broader :N122000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "122070" ;
-    skos:prefLabel "Luftbildauswertung"@de .
+    skos:prefLabel "Luftbildauswertung"@de ;
+    skos:altLabel "Geografische Luftbildauswertung"@de ;
+    skos:exactMatch gnd:4139867-1 .
 
 :N124000
     a skos:Concept ;
@@ -195,14 +207,15 @@
     skos:prefLabel "Geodäsie"@de ;
     skos:altLabel "Vermessungskunde, Feldmessung"@de ;
     skos:definition "Wissenschaft von der Vermessung und Darstellung der Erde"@de ;
-    skos:exactMatch wd:Q131089, gnd:4020202-1 .
+    skos:exactMatch gnd:4020202-1, wd:Q131089 .
 
 :N126000
     a skos:Concept ;
     skos:broader :N120000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "126000" ;
-    skos:prefLabel "Karten"@de .
+    skos:prefLabel "Karten"@de ;
+    skos:exactMatch gnd:4029783-4, wd:Q4006 . 
 
 :N140000
     a skos:Concept ;
@@ -228,14 +241,15 @@
     skos:notation "141000" ;
     skos:prefLabel "Geophysik"@de ;
     skos:altLabel "Physik der Erde"@de ;
-    skos:exactMatch wd:Q46255, gnd:4020252-5 .
+    skos:exactMatch gnd:4020252-5, wd:Q46255 .
 
 :N141020
     a skos:Concept ;
     skos:broader :N141000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141020" ;
-    skos:prefLabel "Erdmagnetismus"@de .
+    skos:prefLabel "Erdmagnetismus"@de ;
+    skos:exactMatch gnd:4015173-6, wd:Q6500960 . 
 
 :N141030
     a skos:Concept ;
@@ -249,7 +263,8 @@
     skos:broader :N141000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141040" ;
-    skos:prefLabel "Erdbeben"@de .
+    skos:prefLabel "Erdbeben"@de ;
+    skos:exactMatch gnd:4015134-7, wd:Q7944, <http://zbw.eu/stw/descriptor/19615-3> .
 
 :N141100
     a skos:Concept ;
@@ -259,7 +274,7 @@
     skos:prefLabel "Geochemie"@de ;
     skos:altLabel "Gesteinschemie, Lithogeochemie"@de ;
     skos:definition "Bez. für ein Teilgebiet der Geowissenschaften, das die chem. Zusammensetzung und die chem. Veränderungen der Erde untersucht"@de ;
-    skos:exactMatch wd:Q161764, gnd:4020198-3 .
+    skos:exactMatch gnd:4020198-3, wd:Q161764 .
 
 :N141200
     a skos:Concept ;
@@ -269,7 +284,7 @@
     skos:notation "141200" ;
     skos:prefLabel "Geologie"@de ;
     skos:definition "Wissenschaft von der Entwicklung und vom Aufbau der Erde"@de ;
-    skos:exactMatch wd:Q1069, gnd:4020227-6 .
+    skos:exactMatch gnd:4020227-6, wd:Q1069 .
 
 :N141210
     a skos:Concept ;
@@ -279,7 +294,7 @@
     skos:prefLabel "Historische Geologie"@de ;
     skos:definition "Teilgebiet der Geologie mit Forschungs- und Lehrgegenstand der Erdgeschichte"@de ;
     skos:scopeNote "Nur im Sinne der historischen Forschung verwenden u. für historisch-geologische Entwicklungen; Auch für Gesamtdarstellungen (z.B. Lehrbücher)"@de ;
-    skos:exactMatch wd:Q754590, gnd:4025104-4 .
+    skos:exactMatch gnd:4025104-4, wd:Q754590 .
 
 :N141220
     a skos:Concept ;
@@ -289,14 +304,16 @@
     skos:notation "141220" ;
     skos:prefLabel "Tektonik"@de ;
     skos:definition "Lehre vom Aufbau der Erdkruste und von den in ihr stattfindenden großräumigen Bewegungen"@de ;
-    skos:exactMatch wd:Q78125729, gnd:4059351-4 .
+    skos:exactMatch gnd:4059351-4, wd:Q78125729 .
 
 :N141225
     a skos:Concept ;
     skos:broader :N141220 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141225" ;
-    skos:prefLabel "Vulkanismus"@de .
+    skos:prefLabel "Vulkanismus"@de ;
+    skos:definition "Gesamtheit der geologischen Vorgänge und Erscheinungen, die mit Vulkanen in Zusammenhang stehen"@de ;
+    skos:exactMatch gnd:4064081-4, wd:Q505748 . 
 
 :N141230
     a skos:Concept ;
@@ -306,7 +323,7 @@
     skos:prefLabel "Ingenieurgeologie"@de ;
     skos:altLabel "Baugeologie"@de ;
     skos:definition "Zweig der Angewandten Geologie und Geotechnik; Sie befasst sich mit dem Verhalten von Gesteinen und des Gebirges entsprechend den genetisch bedingten Materialeigenschaften und ihrer erdgeschichtlichen Entwicklung"@de ;
-    skos:exactMatch wd:Q586474, gnd:4125674-8 .
+    skos:exactMatch gnd:4125674-8, wd:Q586474 .
 
 :N141240
     a skos:Concept ;
@@ -316,7 +333,7 @@
     skos:prefLabel "Stratigraphie"@de ;
     skos:altLabel "Schichtenkunde"@de ;
     skos:definition "Teildisziplin der Geologie"@de ;
-    skos:exactMatch wd:Q134783, gnd:4057956-6 .
+    skos:exactMatch gnd:4057956-6, wd:Q134783 .
 
 :N141400
     a skos:Concept ;
@@ -333,14 +350,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141425 ;
     skos:notation "141420" ;
-    skos:prefLabel "Mineralogie"@de .
+    skos:prefLabel "Mineralogie"@de ;
+    skos:definition "Wissenschaft von der Entstehung, den Eigenschaften und der Verwendung der Minerale"@de ;
+    skos:exactMatch gnd:4039457-8, wd:Q83353 . 
 
 :N141425
     a skos:Concept ;
     skos:broader :N141420 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141425" ;
-    skos:prefLabel "Einzelne Minerale"@de .
+    skos:prefLabel "Einzelne Minerale"@de ;
+    skos:exactMatch gnd:4074836-4, wd:Q7946 . 
 
 :N141430
     a skos:Concept ;
@@ -348,21 +368,25 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N141435 ;
     skos:notation "141430" ;
-    skos:prefLabel "Gesteinskunde"@de .
+    skos:prefLabel "Gesteinskunde"@de ;
+    skos:altLabel "Petrografie, Petrologie"@de ;
+    skos:exactMatch gnd:4020740-7, wd:Q163082 .
 
 :N141435
     a skos:Concept ;
     skos:broader :N141430 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141435" ;
-    skos:prefLabel "Einzelne Gesteine"@de .
+    skos:prefLabel "Einzelne Gesteine"@de ;
+    skos:exactMatch gnd:4020734-1, wd:Q8063 .
 
 :N141450
     a skos:Concept ;
     skos:broader :N141400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141450" ;
-    skos:prefLabel "Lagerstättenkunde"@de .
+    skos:prefLabel "Lagerstättenkunde"@de ;
+    skos:exactMatch gnd:4140085-9, wd:Q853915 .
 
 :N141460
     a skos:Concept ;
@@ -371,7 +395,7 @@
     skos:notation "141460" ;
     skos:prefLabel "Mineralquellen. Thermalquellen"@de ;
     skos:scopeNote "Freie SW: Mineralquelle bzw. Thermalquelle"@de ;
-    skos:exactMatch wd:Q1365924, wd:Q177380, gnd:4170037-5, gnd:4191517-3 .
+    skos:exactMatch gnd:4170037-5, gnd:4191517-3, wd:Q1365924, wd:Q177380 .
 
 :N141600
     a skos:Concept ;
@@ -381,7 +405,7 @@
     skos:notation "141600" ;
     skos:prefLabel "Paläontologie"@de ;
     skos:definition "Wissenschaft von den Lebewesen vergangener Erdzeitalter"@de ;
-    skos:exactMatch wd:Q7205, gnd:4044375-9 .
+    skos:exactMatch gnd:4044375-9, wd:Q7205 .
 
 :N141620
     a skos:Concept ;
@@ -391,7 +415,7 @@
     skos:notation "141620" ;
     skos:prefLabel "Paläobotanik"@de ;
     skos:definition "Wissenschaft von den fossilen Pflanzen"@de ;
-    skos:exactMatch wd:Q192694, gnd:4044361-9 .
+    skos:exactMatch gnd:4044361-9, wd:Q192694 .
 
 :N141622
     a skos:Concept ;
@@ -406,7 +430,8 @@
     skos:broader :N141620 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141624" ;
-    skos:prefLabel "Fossile Samenpflanzen"@de .
+    skos:prefLabel "Fossile Samenpflanzen"@de ;
+    skos:exactMatch gnd:4418740-3 .
 
 :N141630
     a skos:Concept ;
@@ -416,21 +441,23 @@
     skos:notation "141630" ;
     skos:prefLabel "Paläozoologie"@de ;
     skos:definition "Naturwissenschaft, die sich der Erforschung der fossilen Tiere widmet, und als solche eine Teildisziplin der Paläontologie darstellt"@de ;
-    skos:exactMatch wd:Q210369, gnd:4044380-2 .
+    skos:exactMatch gnd:4044380-2, wd:Q210369 .
 
 :N141632
     a skos:Concept ;
     skos:broader :N141630 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141632" ;
-    skos:prefLabel "Fossile Wirbellose"@de .
+    skos:prefLabel "Fossile Wirbellose"@de ;
+    skos:exactMatch gnd:4277242-4 .
 
 :N141634
     a skos:Concept ;
     skos:broader :N141630 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141634" ;
-    skos:prefLabel "Fossile Wirbeltiere"@de .
+    skos:prefLabel "Fossile Wirbeltiere"@de ;
+    skos:exactMatch gnd:4278848-1, wd:Q104415882 .
 
 :N141640
     a skos:Concept ;
@@ -447,7 +474,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142020, :N142040, :N142050, :N142060, :N142070, :N142080 ;
     skos:notation "142000" ;
-    skos:prefLabel "Bodenkunde"@de .
+    skos:prefLabel "Bodenkunde"@de ;
+    skos:altLabel "Bodenlehre, Pedologie"@de ;
+    skos:exactMatch gnd:4007379-8, wd:Q9161265 .
 
 :N142020
     a skos:Concept ;
@@ -455,42 +484,50 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142025 ;
     skos:notation "142020" ;
-    skos:prefLabel "Bodenentwicklung"@de .
+    skos:prefLabel "Bodenentwicklung"@de ;
+    skos:exactMatch gnd:4007365-8 .
 
 :N142025
     a skos:Concept ;
     skos:broader :N142020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142025" ;
-    skos:prefLabel "Verwitterung"@de .
+    skos:prefLabel "Verwitterung"@de ;
+    skos:exactMatch gnd:4063385-8, wd:Q179177 .
 
 :N142040
     a skos:Concept ;
     skos:broader :N142000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142040" ;
-    skos:prefLabel "Bodenbiologie"@de .
+    skos:prefLabel "Bodenbiologie"@de ;
+    skos:exactMatch gnd:4007358-0 .
 
 :N142050
     a skos:Concept ;
     skos:broader :N142000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142050" ;
-    skos:prefLabel "Bodenmechanik"@de .
+    skos:prefLabel "Bodenmechanik"@de ;
+    skos:altLabel "Bautechnische Bodenkunde, Erdbaumechanik"@de ;
+    skos:definition "Lehre von den physikalischen Eigenschaften des Bodens und seines Verhaltens als Baugrund"@de ;
+    skos:exactMatch gnd:4007385-3, wd:Q471872 .
 
 :N142060
     a skos:Concept ;
     skos:broader :N142000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142060" ;
-    skos:prefLabel "Bodenchemie"@de .
+    skos:prefLabel "Bodenchemie"@de ;
+    skos:exactMatch gnd:4146134-4 .
 
 :N142070
     a skos:Concept ;
     skos:broader :N142000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142070" ;
-    skos:prefLabel "Tonminerale"@de .
+    skos:prefLabel "Tonminerale"@de ;
+    skos:exactMatch gnd:4185687-9, wd:Q1799034 .
 
 :N142080
     a skos:Concept ;
@@ -507,7 +544,7 @@
     skos:notation "142100" ;
     skos:prefLabel "Geomorphologie"@de ;
     skos:definition "Teilgebiet der Physischen Geographie; Untersucht die Formen und formbildenden Prozesse der Oberfläche, nicht nur der Erde, sondern auch jene des Mondes, des Mars und anderer Planeten"@de ;
-    skos:exactMatch wd:Q52109, gnd:4130684-3 .
+    skos:exactMatch gnd:4130684-3, wd:Q52109 .
 
 :N142110
     a skos:Concept ;
@@ -522,7 +559,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142125 ;
     skos:notation "142120" ;
-    skos:prefLabel "Abtragung"@de .
+    skos:prefLabel "Abtragung"@de ;
+    skos:exactMatch gnd:4000281-0 .
 
 :N142125
     a skos:Concept ;
@@ -531,7 +569,7 @@
     skos:notation "142125" ;
     skos:prefLabel "Sedimentation"@de ;
     skos:definition "Absetzen fester Teilchen aus Flüssigkeiten oder Gasen unter Schwerkraft oder Zentrifugalkraft"@de ;
-    skos:exactMatch wd:Q635485, gnd:4054080-7 .
+    skos:exactMatch gnd:4054080-7, wd:Q635485 .
 
 :N142130
     a skos:Concept ;
@@ -539,6 +577,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142130" ;
     skos:prefLabel "Klimamorphologie"@de ;
+    skos:altLabel "Klimatische Geomorphologie"@de ;
+    skos:scopeNote "S.a. [Geomorphologie](#N142100)"@de ;
     skos:exactMatch gnd:4073512-6 .
 
 :N142140
@@ -548,7 +588,7 @@
     skos:notation "142140" ;
     skos:prefLabel "Glazialmorphologie"@de ;
     skos:definition "Aufbau und Entstehung der Oberflächen bei Gletschern, Lehre von den Eisformen"@de ;
-    skos:exactMatch wd:Q2116384, gnd:4021212-9 .
+    skos:exactMatch gnd:4021212-9, wd:Q2116384 .
 
 :N142170
     a skos:Concept ;
@@ -557,14 +597,15 @@
     skos:notation "142170" ;
     skos:prefLabel "Karst"@de ;
     skos:definition "Unterirdische Geländeformen (Karsthöhlen) und oberirdische Geländeformen (Oberflächenkarst) in Karbonatgesteinen (auch in Sulfat-, Salzgesteinen und Sandsteinen o. Quarziten)"@de ;
-    skos:exactMatch wd:Q16817, gnd:4129942-5 .
+    skos:exactMatch gnd:4129942-5, wd:Q16817 .
 
 :N142180
     a skos:Concept ;
     skos:broader :N142100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142180" ;
-    skos:prefLabel "Höhlen"@de .
+    skos:prefLabel "Höhlen"@de ;
+    skos:exactMatch gnd:4025362-4, wd:Q35509 .
 
 :N142190
     a skos:Concept ;
@@ -583,21 +624,24 @@
     skos:notation "142300" ;
     skos:prefLabel "Wasser"@de ;
     skos:scopeNote "Mineralbrunnen u. Thermalquellen, s. [Mineralquellen. Thermalquellen](#N141460)"@de ;
-    skos:exactMatch wd:Q283, gnd:4064689-0 .
+    skos:exactMatch gnd:4064689-0, wd:Q283 .
 
 :N142310
     a skos:Concept ;
     skos:broader :N142300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142310" ;
-    skos:prefLabel "Wasserrecht"@de .
+    skos:prefLabel "Wasserrecht"@de ;
+    skos:definition "Gesamtheit der Regelungen, die das Wasser als Lebensgrundlage sowie seine Bedeutung für Wasserwirtschaft und Landeskultur und als Verkehrsweg (Wasserstraße) betreffen"@de ;
+    skos:exactMatch gnd:4064766-3, wd:Q565520 .
 
 :N142320
     a skos:Concept ;
     skos:broader :N142300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142320" ;
-    skos:prefLabel "Fließgewässer"@de .
+    skos:prefLabel "Fließgewässer"@de ;
+    skos:exactMatch gnd:4017551-0, wd:Q355304 .
 
 :N142330
     a skos:Concept ;
@@ -605,21 +649,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N142335 ;
     skos:notation "142330" ;
-    skos:prefLabel "Seen"@de .
+    skos:prefLabel "Seen"@de ;
+    skos:exactMatch gnd:4054084-4, wd:Q23397, <http://zbw.eu/stw/descriptor/15892-4> .
 
 :N142335
     a skos:Concept ;
     skos:broader :N142330 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142335" ;
-    skos:prefLabel "Kleingewässer"@de .
+    skos:prefLabel "Kleingewässer"@de ;
+    skos:exactMatch gnd:4123526-5 .
 
 :N142340
     a skos:Concept ;
     skos:broader :N142300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142340" ;
-    skos:prefLabel "Moore"@de .
+    skos:prefLabel "Moore"@de ;
+    skos:exactMatch gnd:4040195-9, wd:Q1681353 .
 
 :N142350
     a skos:Concept ;
@@ -629,7 +676,7 @@
     skos:notation "142350" ;
     skos:prefLabel "Hydrogeologie"@de ;
     skos:definition "Wissenschaft vom Wasser in der Erdkruste"@de ;
-    skos:exactMatch wd:Q179509, gnd:4026307-1 .
+    skos:exactMatch gnd:4026307-1, wd:Q179509 .
 
 :N142352
     a skos:Concept ;
@@ -638,14 +685,15 @@
     skos:notation "142352" ;
     skos:prefLabel "Bodenwasser. Grundwasser"@de ;
     skos:scopeNote "Freie SW: Bodenwasser; Grundwasser"@de ;
-    skos:exactMatch wd:Q1316304, wd:Q161598 , gnd:4007420-1 , gnd:4022369-3 .
+    skos:exactMatch gnd:4007420-1 , gnd:4022369-3, wd:Q1316304, wd:Q161598 .
 
 :N142360
     a skos:Concept ;
     skos:broader :N142300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142360" ;
-    skos:prefLabel "Wasserhaushalt"@de .
+    skos:prefLabel "Wasserhaushalt"@de ;
+    skos:exactMatch gnd:4064734-1 .
 
 :N142370
     a skos:Concept ;
@@ -657,7 +705,7 @@
     skos:altLabel "Wasserversorgung, Wasserversorgungswirtschaft, Wassermanagement"@de ;
     skos:definition "Bewirtschaftung des Wassers durch den Menschen"@de ;
     skos:scopeNote "S.a. [Brauchwasser](#N142375)"@de ;
-    skos:exactMatch wd:Q1501619, gnd:4064821-7 .
+    skos:exactMatch gnd:4064821-7, wd:Q1501619 .
 
 :N142372
     a skos:Concept ;
@@ -4337,7 +4385,8 @@
     skos:broader :N566040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566045" ;
-    skos:prefLabel "Wohngebiete"@de .
+    skos:prefLabel "Wohngebiete"@de ;
+    skos:scopeNote "Auch für Wohnsiedlungen, Arbeitersiedlungen verwenden"@de .
 
 :N566046
     a skos:Concept ;
