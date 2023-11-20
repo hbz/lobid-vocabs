@@ -1853,14 +1853,16 @@
     skos:narrower :N263010, :N263020, :N263030, :N263040, :N263050, :N263060, :N263090 ;
     skos:notation "263000" ;
     skos:prefLabel "Wehrwesen"@de ;
-    skos:scopeNote "Organisation des Militärswesens, im Unterschied zu [Militär](#N 262000) für militärische Anlagen und Ausrüstung"@de .
+    skos:scopeNote "Organisation des Militärswesens, im Unterschied zu [Militär](#N 262000): für militärische Anlagen und Ausrüstung"@de .
 
 :N263010
     a skos:Concept ;
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263010" ;
-    skos:prefLabel "Bürgerwehren"@de .
+    skos:prefLabel "Bürgerwehren"@de ;
+    skos:altLabel "Bürgergarde, Bürgerkorps, Bürgermiliz"@de ;
+    skos:exactMatch gnd:4196366-0, wd:Q450421 .
 
 :N263020
     a skos:Concept ;
@@ -1868,21 +1870,26 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263020" ;
     skos:prefLabel "Militärgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn militärischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503813-4 .
 
 :N263030
     a skos:Concept ;
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263030" ;
-    skos:prefLabel "Reichswehr"@de .
+    skos:prefLabel "Reichswehr"@de ;
+    skos:definition "Offizieller Name der deutschen Streitkräfte 1921–1935"@de ;
+    skos:exactMatch gnd:5031652-7, wd:Q157608 .
 
 :N263040
     a skos:Concept ;
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263040" ;
-    skos:prefLabel "Wehrmacht"@de .
+    skos:prefLabel "Wehrmacht"@de ;
+    skos:definition "1935-1945"@de ;
+    skos:exactMatch gnd:26159-2 .
 
 :N263050
     a skos:Concept ;
@@ -1890,21 +1897,25 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263050" ;
     skos:prefLabel "Besatzungstruppen. Ausländische Streitkräfte"@de ;
-    skos:scopeNote "Freie SW: Besatzungstruppe; Ausländisches Militär"@de .
+    skos:scopeNote "Freie SW: Besatzungstruppe; Ausländisches Militär"@de ;
+    skos:exactMatch gnd:4144850-9 .
 
 :N263060
     a skos:Concept ;
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263060" ;
-    skos:prefLabel "Bundeswehr"@de .
+    skos:prefLabel "Bundeswehr"@de ;
+    skos:definition "Gründungsdatum 03.10.1990"@de ;
+    skos:exactMatch gnd:2116728-X, wd:Q56010 .
 
 :N263090
     a skos:Concept ;
     skos:broader :N263000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "263090" ;
-    skos:prefLabel "Soldaten"@de .
+    skos:prefLabel "Soldaten"@de ;
+    skos:exactMatch gnd:4055409-0, wd:Q4991371 .
 
 :N400000
     a skos:Concept ;
@@ -1935,7 +1946,8 @@
     skos:broader :N402000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402020" ;
-    skos:prefLabel "Staatsrecht"@de .
+    skos:prefLabel "Staatsrecht"@de ;
+    skos:exactMatch gnd:4056666-3, wd:Q2801632 .
 
 :N402040
     a skos:Concept ;
@@ -1943,14 +1955,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N402042 ;
     skos:notation "402040" ;
-    skos:prefLabel "Staatsgebiet"@de .
+    skos:prefLabel "Staatsgebiet"@de ;
+    skos:exactMatch gnd:4182646-2, wd:Q3089219 .
 
 :N402042
     a skos:Concept ;
     skos:broader :N402040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402042" ;
-    skos:prefLabel "Grenzen"@de .
+    skos:prefLabel "Grenzen"@de ;
+    skos:exactMatch gnd:4130793-8, wd:Q133346 .
 
 :N402060
     a skos:Concept ;
@@ -1959,14 +1973,15 @@
     skos:notation "402060" ;
     skos:prefLabel "Staatsformen"@de ;
     skos:scopeNote "Benutzt für historische Themen"@de ;
-    skos:exactMatch wd:Q183039, gnd:4077779-0 .
+    skos:exactMatch gnd:4077779-0, wd:Q183039 .
 
 :N402070
     a skos:Concept ;
     skos:broader :N402000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402070" ;
-    skos:prefLabel "Föderalismus"@de .
+    skos:prefLabel "Föderalismus"@de ;
+    skos:exactMatch gnd:4017754-3, wd:Q204886 .
 
 :N402300
     a skos:Concept ;
@@ -1974,7 +1989,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N402330, :N402340 ;
     skos:notation "402300" ;
-    skos:prefLabel "Verfassung"@de .
+    skos:prefLabel "Verfassung"@de ;
+    skos:exactMatch gnd:4062787-1, wd:Q7755 .
 
 :N402330
     a skos:Concept ;
@@ -1982,14 +1998,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402330" ;
     skos:prefLabel "Verfassungsgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn verfassungsrechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn verfassungsrechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7504377-4, wd:Q2515460 .
 
 :N402340
     a skos:Concept ;
     skos:broader :N402300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402340" ;
-    skos:prefLabel "Grundrechte"@de .
+    skos:prefLabel "Grundrechte"@de ;
+    skos:exactMatch gnd:4022344-9, wd:Q3237872 .
 
 :N404000
     a skos:Concept ;
@@ -1997,28 +2015,33 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N404030, :N404040, :N404060, :N404070 ;
     skos:notation "404000" ;
-    skos:prefLabel "Politisches System"@de .
+    skos:prefLabel "Politisches System"@de ;
+    skos:exactMatch gnd:4046584-6, wd:Q28108 .
 
 :N404030
     a skos:Concept ;
     skos:broader :N404000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404030" ;
-    skos:prefLabel "Regierung"@de .
+    skos:prefLabel "Regierung"@de ;
+    skos:exactMatch gnd:4049012-9, wd:Q7188 .
 
 :N404040
     a skos:Concept ;
     skos:broader :N404000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404040" ;
-    skos:prefLabel "Ministerpräsident"@de .
+    skos:prefLabel "Ministerpräsident"@de ;
+    skos:scopeNote "Bezogen auf Ministerpräsident Nordrhein-Westfalens"@de ; 
+    skos:exactMatch gnd:2029427-X, wd:Q30534793 .
 
 :N404060
     a skos:Concept ;
     skos:broader :N404000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404060" ;
-    skos:prefLabel "Ministerien"@de .
+    skos:prefLabel "Ministerien"@de ;
+    skos:exactMatch gnd:4170067-3, wd:Q192350 .
 
 :N404070
     a skos:Concept ;
@@ -2026,7 +2049,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404070" ;
     skos:prefLabel "Regierungspolitik"@de ;
-    skos:scopeNote "Auch bei Regionalpolitik verwendet"@de .
+    skos:scopeNote "Auch bei Regionalpolitik verwenden"@de ;
+    skos:exactMatch gnd:4049012-9, wd:Q7188 .
 
 :N404300
     a skos:Concept ;
@@ -2034,7 +2058,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N404320, :N404340, :N404350, :N404360, :N404380 ;
     skos:notation "404300" ;
-    skos:prefLabel "Parlament"@de .
+    skos:prefLabel "Parlament"@de ;
+    skos:exactMatch gnd:4044685-2, wd:Q35749 .
 
 :N404320
     a skos:Concept ;
@@ -2049,28 +2074,32 @@
     skos:broader :N404300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404340" ;
-    skos:prefLabel "Regierungsparteien"@de .
+    skos:prefLabel "Regierungsparteien"@de ;
+    skos:exactMatch gnd:4214711-6 .
 
 :N404350
     a skos:Concept ;
     skos:broader :N404300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404350" ;
-    skos:prefLabel "Opposition"@de .
+    skos:prefLabel "Opposition"@de ;
+    skos:exactMatch gnd:4043649-4, wd:Q192852 .
 
 :N404360
     a skos:Concept ;
     skos:broader :N404300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404360" ;
-    skos:prefLabel "Parlamentsausschüsse"@de .
+    skos:prefLabel "Parlamentsausschüsse"@de ;
+    skos:exactMatch gnd:4044698-0 .
 
 :N404380
     a skos:Concept ;
     skos:broader :N404300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404380" ;
-    skos:prefLabel "Abgeordnete"@de .
+    skos:prefLabel "Abgeordnete"@de ;
+    skos:exactMatch gnd:4132700-7, gnd:4000135-0, wd:Q486839 .
 
 :N406000
     a skos:Concept ;
@@ -2078,28 +2107,33 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N406020, :N406030, :N406040, :N406060, :N406080 ;
     skos:notation "406000" ;
-    skos:prefLabel "Politische Willensbildung"@de .
+    skos:prefLabel "Politische Willensbildung"@de ;
+    skos:example "Formen der Bürgerbeteiligung, Wahlrecht, politische Partizipation"@de ;
+    skos:exactMatch gnd:4076228-2 .
 
 :N406020
     a skos:Concept ;
     skos:broader :N406000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406020" ;
-    skos:prefLabel "Öffentlichkeitsarbeit"@de .
+    skos:prefLabel "Öffentlichkeitsarbeit"@de ;
+    skos:exactMatch gnd:4043188-5, wd:Q133080 .
 
 :N406030
     a skos:Concept ;
     skos:broader :N406000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406030" ;
-    skos:prefLabel "Politische Bildung"@de .
+    skos:prefLabel "Politische Bildung"@de ;
+    skos:exactMatch gnd:4046526-3, wd:Q2101487 .
 
 :N406040
     a skos:Concept ;
     skos:broader :N406000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406040" ;
-    skos:prefLabel "Öffentliche Meinung"@de .
+    skos:prefLabel "Öffentliche Meinung"@de ;
+    skos:exactMatch gnd:4043152-6, wd:Q17946 .
 
 :N406060
     a skos:Concept ;
@@ -2107,14 +2141,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406060" ;
     skos:prefLabel "Politische Bewegungen"@de ;
-    skos:scopeNote "Ggf. s.a. [Politische Gruppen](#N406200)"@de .
+    skos:scopeNote "Ggf. s.a. [Politische Gruppen](#N406200)"@de ;
+    skos:exactMatch gnd:4229761-8, wd:Q2738074 .
 
 :N406080
     a skos:Concept ;
     skos:broader :N406000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406080" ;
-    skos:prefLabel "Politische Stiftungen"@de .
+    skos:prefLabel "Politische Stiftungen"@de ;
+    skos:scopeNote "Einzelne Stiftungen oder auch Stiftungslandschaften"@de .
 
 :N406100
     a skos:Concept ;
@@ -2130,14 +2166,16 @@
     skos:broader :N406100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406120" ;
-    skos:prefLabel "Parteien"@de .
+    skos:prefLabel "Parteien"@de ;
+    skos:exactMatch gnd:4044737-6, wd:Q7278 .
 
 :N406130
     a skos:Concept ;
     skos:broader :N406100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406130" ;
-    skos:prefLabel "Politiker"@de .
+    skos:prefLabel "Politiker"@de ;
+    skos:exactMatch gnd:4046517-2, wd:Q82955 .
 
 :N406200
     a skos:Concept ;
@@ -2146,7 +2184,8 @@
     skos:narrower :N406230, :N406250, :N406270 ;
     skos:notation "406200" ;
     skos:prefLabel "Politische Gruppen"@de ;
-    skos:scopeNote "Ggf. s.a. [Politische Bewegungen](#N406060)"@de .
+    skos:scopeNote "Ggf. s.a. [Politische Bewegungen](#N406060)"@de ;
+    skos:exactMatch gnd:4175025-1 .
 
 :N406230
     a skos:Concept ;
@@ -2154,7 +2193,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406230" ;
     skos:prefLabel "Interessenverbände"@de ;
-    skos:scopeNote "Im Unterschied zu [Vereine. Interessenverbände](#N725050)"@de .
+    skos:scopeNote "Im Unterschied zu [Vereine. Interessenverbände](#N725050)"@de ;
+    skos:exactMatch gnd:4027286-2, wd:Q1666019 .
 
 :N406250
     a skos:Concept ;
