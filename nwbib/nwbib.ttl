@@ -1325,28 +1325,34 @@
     skos:narrower :N217010, :N217020, :N217030, :N217040, :N217050, :N217090 ;
     skos:notation "217000" ;
     skos:prefLabel "Museen und Sammlungen"@de ;
-    skos:scopeNote "Kunstmuseen s. [Sachgebiet Kunstmuseen und Kunstsammlungen](#N841040)"@de .
+    skos:scopeNote "Kunstmuseen s. [Kunstmuseen und Kunstsammlungen](#N841040)"@de ;
+    skos:exactMatch gnd:4040795-0, gnd:4128844-0, wd:Q33506, wd:Q2668072 .
 
 :N217010
     a skos:Concept ;
     skos:broader :N217000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217010" ;
-    skos:prefLabel "Museumspädagogik"@de .
+    skos:prefLabel "Museumspädagogik"@de ;
+    skos:altLabel "Museumsdidaktik"@de ;
+    skos:exactMatch gnd:4075108-9, wd:Q1753045 .
 
 :N217020
     a skos:Concept ;
     skos:broader :N217000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217020" ;
-    skos:prefLabel "Naturkundemuseen"@de .
+    skos:prefLabel "Naturkundemuseen"@de ;
+    skos:exactMatch gnd:4203075-4, wd:Q1970365 .
 
 :N217030
     a skos:Concept ;
     skos:broader :N217000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217030" ;
-    skos:prefLabel "Museen für Handwerk und Technik"@de .
+    skos:prefLabel "Museen für Handwerk und Technik"@de ;
+    skos:example "Industriemuseum, Bergbaumuseum, Freilichtmuseum"@de ;
+    skos:closeMatch gnd:4184584-5, gnd:4666203-0 , gnd:4132486-9, wd:Q2398990, wd:Q819426, wd:Q756102 .
 
 :N217040
     a skos:Concept ;
@@ -1356,28 +1362,32 @@
     skos:notation "217040" ;
     skos:prefLabel "Historische Museen"@de ;
     skos:example "LVR-LandesMuseum Bonn"@de ;
-    skos:scopeNote "Benutzt für Museen mit Ausstellungen zu historischen Themen"@de .
+    skos:scopeNote "Benutzt für Museen mit Ausstellungen zu historischen Themen"@de ;
+    skos:exactMatch gnd:4160032-0 .
 
 :N217042
     a skos:Concept ;
     skos:broader :N217040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217042" ;
-    skos:prefLabel "Heimatmuseen"@de .
+    skos:prefLabel "Heimatmuseen"@de ;
+    skos:exactMatch gnd:4130302-7, wd:Q1595639 .
 
 :N217050
     a skos:Concept ;
     skos:broader :N217000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217050" ;
-    skos:prefLabel "Volkskundemuseen"@de .
+    skos:prefLabel "Volkskundemuseen"@de ;
+    skos:exactMatch gnd:4130287-4, wd:Q25047682 .
 
 :N217090
     a skos:Concept ;
     skos:broader :N217000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217090" ;
-    skos:prefLabel "Sonstige Museen und Sammlungen"@de .
+    skos:prefLabel "Sonstige Museen und Sammlungen"@de ;
+    skos:example "Domschatzkammer, Theatermuseum, Textilmuseum"@de .
 
 :N220000
     a skos:Concept ;
@@ -1402,14 +1412,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "220500" ;
     skos:prefLabel "Archäologie"@de ;
-    skos:scopeNote "z.B. Archäologie mit Geschichte; Hier nur Archäologie bis zum Mittelalter; \"methodische\" Stelle"@de .
+    skos:scopeNote "z.B. Archäologie mit Geschichte; Hier nur Archäologie bis zum Mittelalter"@de ;
+    skos:exactMatch gnd:4002827-6, wd:Q23498 .
 
 :N221000
     a skos:Concept ;
     skos:broader :N220000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "221000" ;
-    skos:prefLabel "Vor- und Frühgeschichte"@de .
+    skos:prefLabel "Vor- und Frühgeschichte"@de ;
+    skos:exactMatch gnd:4078951-2, wd:Q11756 .
 
 :N222000
     a skos:Concept ;
@@ -1420,7 +1432,7 @@
     skos:altLabel "Paläolithikum: Altsteinzeit; Mesolithikum: Mittelsteinzeit"@de ;
     skos:definition "Archäologische Funde frühester Epoche, Paläolithikum:ca. 3000000 v. Chr.-10000 v. Chr., Mesolithikum: ca. 8500-5500 v. Chr."@de ;
     skos:scopeNote "Freie SW: Paläolithikum; Mesolithikum"@de ;
-    skos:exactMatch wd:Q40203, wd:Q44155, gnd:4140148-7, gnd:4169472-7 .
+    skos:exactMatch gnd:4140148-7, gnd:4169472-7, wd:Q40203, wd:Q44155 .
 
 :N223000
     a skos:Concept ;
@@ -1432,7 +1444,7 @@
     skos:altLabel "Jungsteinzeit, Jüngere Steinzeit"@de ;
     skos:definition "Archäologischer Zeitraum, letzter Teil der Steinzeit"@de ;
     skos:scopeNote "5300-2150 v.Chr."@de ;
-    skos:exactMatch wd:Q36422, gnd:4075272-0 .
+    skos:exactMatch gnd:4075272-0, wd:Q36422 .
 
 :N223020
     a skos:Concept ;
@@ -1450,7 +1462,7 @@
     skos:notation "223030" ;
     skos:prefLabel "Rössener Kultur"@de ;
     skos:definition "Jungsteinzeitl. Kulturgruppe in West- u. Mitteldeutschland, 4800-4000 v.Chr."@de ;
-    skos:exactMatch wd:Q1886212, gnd:4196969-8 .
+    skos:exactMatch gnd:4196969-8, wd:Q1886212 .
 
 :N223040
     a skos:Concept ;
@@ -1459,7 +1471,7 @@
     skos:notation "223040" ;
     skos:prefLabel "Michelsberger Kultur"@de ;
     skos:definition "Jungsteinzeitliche Kultur in Mitteleuropa, 4100-3400 v.Chr."@de ;
-    skos:exactMatch wd:Q570798, gnd:4169764-9 .
+    skos:exactMatch gnd:4169764-9, wd:Q570798 .
 
 :N223050
     a skos:Concept ;
@@ -1468,7 +1480,7 @@
     skos:notation "223050" ;
     skos:prefLabel "Megalithkultur"@de ;
     skos:definition "3000-2000 v. Chr., Sammelbez. f. west- u. nordeurop. Kulturgruppen, i.w.S. auch archäol. u. ethnolog. Kulturen außerhalb Europas"@de ;
-    skos:exactMatch wd:Q337451, gnd:4038344-1 .
+    skos:exactMatch gnd:4038344-1, wd:Q337451 .
 
 :N223060
     a skos:Concept ;
@@ -1478,7 +1490,7 @@
     skos:prefLabel "Schnurkeramische Kultur"@de ;
     skos:altLabel "Streitaxtkultur"@de ;
     skos:definition "3000-2000 v. Chr., archäologische Epoche der Funde aus der Kupferzeit"@de ;
-    skos:exactMatch wd:Q933996, gnd:4179902-1 .
+    skos:exactMatch gnd:4179902-1, wd:Q933996 .
 
 :N223070
     a skos:Concept ;
@@ -1497,7 +1509,7 @@
     skos:notation "224000" ;
     skos:prefLabel "Bronzezeit"@de ;
     skos:definition "2150-800 v.Chr."@de ;
-    skos:exactMatch wd:Q11761, gnd:4008357-3 .
+    skos:exactMatch gnd:4008357-3, wd:Q11761 .
 
 :N224050
     a skos:Concept ;
@@ -1515,7 +1527,7 @@
     skos:notation "224060" ;
     skos:prefLabel "Urnenfelderkultur"@de ;
     skos:definition "1300-800 v.Chr."@de ;
-    skos:exactMatch wd:Q223998, gnd:4062146-7 .
+    skos:exactMatch gnd:4062146-7, wd:Q223998 .
 
 :N225000
     a skos:Concept ;
@@ -1534,7 +1546,7 @@
     skos:notation "225020" ;
     skos:prefLabel "Hallstattkultur"@de ;
     skos:definition "800-475 v.Chr., Zeitabschnitt der älteren Eisenzeit"@de ;
-    skos:exactMatch wd:Q202165, gnd:4072254-5 .
+    skos:exactMatch gnd:4072254-5, wd:Q202165 .
 
 :N225030
     a skos:Concept ;
@@ -1543,7 +1555,7 @@
     skos:notation "225030" ;
     skos:prefLabel "Latène-Zeit"@de ;
     skos:definition "475 v.Chr.-um Chr. Geburt, kelt. Kultur der jüngeren vorröm. Eisenzeit "@de ;
-    skos:exactMatch wd:Q208247, gnd:4034668-7 .
+    skos:exactMatch gnd:4034668-7, wd:Q208247 .
 
 :N225040
     a skos:Concept ;
@@ -1553,7 +1565,7 @@
     skos:prefLabel "Kelten"@de ;
     skos:definition "Volksgruppen der Eisenzeit in Europa"@de ;
     skos:scopeNote "S.a. [Kelten (Römerzeit)](#N226020)"@de ;
-    skos:exactMatch wd:Q35966, gnd:4030206-4 .
+    skos:exactMatch gnd:4030206-4, wd:Q35966 .
 
 :N225050
     a skos:Concept ;
@@ -1563,7 +1575,7 @@
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
     skos:scopeNote "S.a. [Germanen (Römerzeit)](#N226040), s.a. [Germanen (Völkerwanderungszeit)](#N227030)"@de ;
-    skos:exactMatch wd:Q22633, gnd:4020378-5 .
+    skos:exactMatch gnd:4020378-5, wd:Q22633 .
 
 :N226000
     a skos:Concept ;
@@ -1572,6 +1584,7 @@
     skos:narrower :N226010, :N226020, :N226030, :N226040, :N226050 ;
     skos:notation "226000" ;
     skos:prefLabel "Römerzeit"@de ;
+    skos:definition "753-500 v.Chr."@de ;
     skos:scopeNote "Epochenbezeichnung, benutzt in Verbindung mit einzelnen Orten und Regionen des Römischen Reichs"@de ;
     skos:exactMatch gnd:4076769-3 .
 
@@ -1580,7 +1593,10 @@
     skos:broader :N226000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226010" ;
-    skos:prefLabel "Varusschlacht"@de .
+    skos:prefLabel "Varusschlacht"@de ;
+    skos:altLabel "Schlacht im Teutoburger Wald, Hermannsschlacht, Clades Variana"@de ;
+    skos:definition "In der Varusschlacht wurden drei römische Legionen von einem durch Hermann den Cherusker befehligten Heer vernichtend geschlagen; genauer Ort des Geschehens ist unbekannt; 9 n.Chr."@de ;
+    skos:exactMatch gnd:4128963-8, wd:Q87779 .
 
 :N226020
     a skos:Concept ;
@@ -1588,7 +1604,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "226020" ;
     skos:prefLabel "Kelten"@de ;
-    skos:scopeNote "S.a. [Kelten (Vorrömische Eisenzeit)](#N225040)"@de .
+    skos:scopeNote "S.a. [Kelten (Vorrömische Eisenzeit)](#N225040)"@de ;
+    skos:exactMatch gnd:4030206-4, wd:Q35966 .
 
 :N226030
     a skos:Concept ;
@@ -1607,7 +1624,7 @@
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
     skos:scopeNote "S.a. [Germanen (Vorrömische Eisenzeit)](#N225050), s.a. [Germanen (Völkerwanderungszeit)](#N227030)"@de ;
-    skos:exactMatch wd:Q22633, gnd:4020378-5 .
+    skos:exactMatch gnd:4020378-5, wd:Q22633 .
 
 :N226050
     a skos:Concept ;
@@ -1617,7 +1634,7 @@
     skos:prefLabel "Franken"@de ;
     skos:definition "Germanischer Großstamm"@de ;
     skos:scopeNote "S.a. [Franken (Völkerwanderungszeit)](#N227040)"@de ;
-    skos:exactMatch wd:Q43482, gnd:4071340-4 . 
+    skos:exactMatch gnd:4071340-4, wd:Q43482 . 
 
 :N227000
     a skos:Concept ;
@@ -1626,7 +1643,8 @@
     skos:narrower :N227020, :N227030, :N227040 ;
     skos:notation "227000" ;
     skos:prefLabel "Völkerwanderungszeit"@de ;
-    skos:scopeNote "4.-6. Jh."@de .
+    skos:definition "4.-6. Jh."@de ;
+    skos:exactMatch gnd:4063700-1, wd:Q131192 .
 
 :N227020
     a skos:Concept ;
@@ -1645,14 +1663,15 @@
     skos:prefLabel "Germanen"@de ;
     skos:definition "Ehemalige Stämme in Mitteleuropa"@de ;
     skos:scopeNote "S.a. [Germanen (Vorrömische Eisenzeit)](#N225050), s.a. [Germanen (Römerzeit)](#N226040)"@de ;
-    skos:exactMatch wd:Q22633, gnd:4020378-5 .
+    skos:exactMatch gnd:4020378-5, wd:Q22633 .
 
 :N227040
     a skos:Concept ;
     skos:broader :N227000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "227040" ;
-    skos:prefLabel "Franken"@de .
+    skos:prefLabel "Franken"@de ;
+    skos:scopeNote "S.a. [Franken (Römerzeit)](#N226050)"@de .
 
 :N228000
     a skos:Concept ;
@@ -1660,7 +1679,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "228000" ;
     skos:prefLabel "Mittelalter und Neuzeit"@de ;
-    skos:scopeNote "500-1500"@de .
+    skos:scopeNote "Mittelalter: 500-1500; Neuzeit: ab etwa 1500"@de ;
+    skos:exactMatch gnd:4129108-6, gnd:4171678-4 ,wd:Q12554, wd:Q3281534 .
 
 :N240000
     a skos:Concept ;
@@ -1670,7 +1690,8 @@
     skos:notation "240000" ;
     skos:prefLabel "Geschichte"@de ;
     skos:example "Auch verwenden bei \"Kriegsende in Neuss 1945-1948\""@de ;
-    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden; Für NRW s. [Nordrhein-Westfalen, insgesamt](#N249800); Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de .
+    skos:scopeNote "Verwenden, wenn allg. umfassende Geschichte oder mehrere Aspekte von Geschichte, insb. politische (Ereignis-)Geschichte, angesprochen werden; Für NRW s. [Nordrhein-Westfalen, insgesamt](#N249800); Wenn der Text nur einen einzelnen Aspekt (z.B. Wirtschaft, Militär, Recht, Agrar etc) betrifft, werden die entspr. Notationen verwendet"@de ;
+    skos:exactMatch gnd:4020517-4, wd:Q110682330 .
 
 :N240100
     a skos:Concept ;
@@ -1678,14 +1699,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "240100" ;
     skos:prefLabel "Quellen"@de ;
-    skos:scopeNote "Verwenden, wenn Quelle abgebildet ist oder im Text Bezug auf eine Quelle genommen wird"@de .
+    skos:altLabel "Geschichtsquelle, Augenzeugenbericht"@de ; 
+    skos:scopeNote "Verwenden, wenn Quelle abgebildet ist oder im Text Bezug auf eine Quelle genommen wird"@de ;
+    skos:exactMatch gnd:4135952-5, wd:Q3750478 .
 
 :N240200
     a skos:Concept ;
     skos:broader :N240000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "240200" ;
-    skos:prefLabel "Geschichtsschreibung"@de .
+    skos:prefLabel "Geschichtsschreibung"@de ;
+    skos:exactMatch gnd:4020531-9, wd:Q50675 .
 
 :N240500
     a skos:Concept ;
@@ -1694,7 +1718,7 @@
     skos:notation "240500" ;
     skos:prefLabel "Historische Ausstellungen"@de ;
     skos:altLabel "Geschichtsausstellung, Geschichtliche Ausstellung"@de ;
-    skos:scopeNote "Benutzt für Ausstellungen mit historischen Themen"@de ;
+    skos:scopeNote "Für Ausstellungen zu historischen Themen"@de ;
     skos:exactMatch gnd:4300849-5 .
 
 :N240600
@@ -1702,14 +1726,16 @@
     skos:broader :N240000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "240600" ;
-    skos:prefLabel "Gedenkstätten"@de .
+    skos:prefLabel "Gedenkstätten"@de ;
+    skos:exactMatch gnd:4019622-7, wd:Q5003624 .
 
 :N249800
     a skos:Concept ;
     skos:broader :N240000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "249800" ;
-    skos:prefLabel "Nordrhein-Westfalen, insgesamt"@de .
+    skos:prefLabel "Nordrhein-Westfalen, insgesamt"@de ;
+    skos:scopeNote "Themen der Landesgeschichte"@de .
 
 :N260000
     a skos:Concept ;
@@ -1734,7 +1760,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N262010, :N262020 ;
     skos:notation "262000" ;
-    skos:prefLabel "Militär"@de .
+    skos:prefLabel "Militär"@de ;
+    skos:exactMatch gnd:4039305-7, wd:Q8473 .
 
 :N262010
     a skos:Concept ;
@@ -1742,7 +1769,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N262011, :N262012, :N262014, :N262016 ;
     skos:notation "262010" ;
-    skos:prefLabel "Militärische Anlagen"@de .
+    skos:prefLabel "Militärische Anlagen"@de ;
+    skos:exactMatch gnd:4123769-9 .
 
 :N262011
     a skos:Concept ;
@@ -1752,21 +1780,23 @@
     skos:prefLabel "Burgen"@de ;
     skos:definition "Geschlossener, bewohnbarer Wehrbau"@de ;
     skos:scopeNote "Wenn militärisch behandelt wird; S.a. [Burgen. Schlösser](#N844040)"@de ;
-    skos:exactMatch wd:Q23413, gnd:4009104-1 .
+    skos:exactMatch gnd:4009104-1, wd:Q23413 .
 
 :N262012
     a skos:Concept ;
     skos:broader :N262010 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262012" ;
-    skos:prefLabel "Festungen"@de .
+    skos:prefLabel "Festungen"@de ;
+    skos:exactMatch gnd:4016934-0, wd:Q57831 .
 
 :N262014
     a skos:Concept ;
     skos:broader :N262010 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262014" ;
-    skos:prefLabel "Schanzen"@de .
+    skos:prefLabel "Schanzen"@de ;
+    skos:exactMatch gnd:4179401-1, wd:Q91203 .
 
 :N262016
     a skos:Concept ;
@@ -1788,21 +1818,24 @@
     skos:broader :N262020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262022" ;
-    skos:prefLabel "Waffen"@de .
+    skos:prefLabel "Waffen"@de ;
+    skos:exactMatch gnd:4064228-8, wd:Q728 .
 
 :N262023
     a skos:Concept ;
     skos:broader :N262020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262023" ;
-    skos:prefLabel "Rüstungen"@de .
+    skos:prefLabel "Rüstungen"@de ;
+    skos:exactMatch gnd:4050894-8, wd:Q1167841 .
 
 :N262024
     a skos:Concept ;
     skos:broader :N262020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262024" ;
-    skos:prefLabel "Uniformen"@de .
+    skos:prefLabel "Uniformen"@de ;
+    skos:exactMatch gnd:4061751-8, wd:Q7434 .
 
 :N262026
     a skos:Concept ;
@@ -1810,7 +1843,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262026" ;
     skos:prefLabel "Militärische Auszeichnungen"@de ;
-    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](#N209000))"@de .
+    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](#N209000))"@de ;
+    skos:exactMatch gnd:4338046-3 .
 
 :N263000
     a skos:Concept ;
@@ -1818,7 +1852,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N263010, :N263020, :N263030, :N263040, :N263050, :N263060, :N263090 ;
     skos:notation "263000" ;
-    skos:prefLabel "Wehrwesen"@de .
+    skos:prefLabel "Wehrwesen"@de ;
+    skos:scopeNote "Organisation des Militärswesens, im Unterschied zu [Militär](#N 262000) für militärische Anlagen und Ausrüstung"@de .
 
 :N263010
     a skos:Concept ;
