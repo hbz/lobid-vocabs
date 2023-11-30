@@ -4938,7 +4938,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-11-16" ;
+        dct:modified                   "2023-11-30" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -27532,6 +27532,13 @@ nwbib-spatial:N44  a    skos:Concept ;
         skos:notation   "44" ;
         skos:prefLabel  "Grafschaft, Herzogtum Jülich, Herzogtum Jülich-Berg"@de ;
         foaf:focus      wd:Q322062 .
+
+nwbib-spatial:Q19835008
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q8856 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Auwel-Holt"@de ;
+        foaf:focus      wd:Q19835008 .
 
 nwbib-spatial:Q1619937
         a               skos:Concept ;
