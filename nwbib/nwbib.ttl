@@ -2201,14 +2201,16 @@
     skos:broader :N406200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406250" ;
-    skos:prefLabel "Bürgerinitiativen"@de .
+    skos:prefLabel "Bürgerinitiativen"@de ;
+    skos:exactMatch gnd:4008774-8, wd:Q1021128 .
 
 :N406270
     a skos:Concept ;
     skos:broader :N406200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406270" ;
-    skos:prefLabel "Protestbewegungen"@de .
+    skos:prefLabel "Protestbewegungen"@de ;
+    skos:exactMatch gnd:4226404-2, wd:Q120644836 .
 
 :N406300
     a skos:Concept ;
@@ -2216,56 +2218,64 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N406310, :N406330, :N406340, :N406350, :N406360, :N406370, :N406380 ;
     skos:notation "406300" ;
-    skos:prefLabel "Wahlen"@de .
+    skos:prefLabel "Wahlen"@de ;
+    skos:exactMatch gnd:4064286-0, wd:Q40231 .
 
 :N406310
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406310" ;
-    skos:prefLabel "Wahlrecht"@de .
+    skos:prefLabel "Wahlrecht"@de ;
+    skos:exactMatch gnd:4064302-5, wd:Q185387 .
 
 :N406330
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406330" ;
-    skos:prefLabel "Volksabstimmungen"@de .
+    skos:prefLabel "Volksabstimmungen"@de ;
+    skos:exactMatch gnd:4134790-0, wd:Q14515312 .
 
 :N406340
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406340" ;
-    skos:prefLabel "Europawahlen"@de .
+    skos:prefLabel "Europawahlen"@de ;
+    skos:exactMatch gnd:4113482-5, wd:Q1128324 .
 
 :N406350
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406350" ;
-    skos:prefLabel "Bundestagswahlen"@de .
+    skos:prefLabel "Bundestagswahlen"@de ;
+    skos:exactMatch gnd:4009016-4, wd:Q1007356 .
 
 :N406360
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406360" ;
-    skos:prefLabel "Landtagswahlen"@de .
+    skos:prefLabel "Landtagswahlen"@de ;
+    skos:exactMatch gnd:4034386-8 .
 
 :N406370
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406370" ;
-    skos:prefLabel "Kreistagswahlen"@de .
+    skos:prefLabel "Kreistagswahlen"@de ;
+    skos:exactMatch gnd:7764954-0 .
 
 :N406380
     a skos:Concept ;
     skos:broader :N406300 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406380" ;
-    skos:prefLabel "Kommunalwahlen"@de .
+    skos:prefLabel "Kommunalwahlen"@de ;
+    skos:exactMatch gnd:4019993-9, wd:Q152450 .
 
 :N420000
     a skos:Concept ;
@@ -2282,21 +2292,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "420100" ;
     skos:prefLabel "Verwaltung - Allgemeines"@de ;
-    skos:scopeNote "Verwenden bei sehr allgemeinem Kontext wie Verwaltung in NRW; Im Unterschied zu [Allgemeine Verwaltung](#N423000)"@de .
+    skos:scopeNote "Verwenden bei sehr allgemeinem Kontext wie Verwaltung in NRW; Im Unterschied zu [Allgemeine Verwaltung](#N423000)"@de ;
+    skos:exactMatch gnd:4063317-2, wd:Q5283295 .
 
 :N421000
     a skos:Concept ;
     skos:broader :N420000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "421000" ;
-    skos:prefLabel "Verwaltungsrecht"@de .
+    skos:prefLabel "Verwaltungsrecht"@de ;
+    skos:exactMatch gnd:4063351-2, wd:Q2520728 .
 
 :N421400
     a skos:Concept ;
     skos:broader :N420000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "421400" ;
-    skos:prefLabel "Verwaltungskontrolle"@de .
+    skos:prefLabel "Verwaltungskontrolle"@de ;
+    skos:exactMatch gnd:4063347-0, wd:Q58895902 .
 
 :N422000
     a skos:Concept ;
@@ -2304,7 +2317,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "422000" ;
     skos:prefLabel "Verwaltungsgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Verwaltungsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Verwaltungsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7504380-4 .
 
 :N423000
     a skos:Concept ;
@@ -2320,14 +2334,18 @@
     skos:broader :N423000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423030" ;
-    skos:prefLabel "Organisation"@de .
+    skos:prefLabel "Organisation"@de ;
+    skos:scopeNote "Verwenden, wenn es um Abläufe oder Neuerungen (auch Innovationsmanagement) im öffentlichen Dienst geht"@de ;
+    skos:exactMatch gnd:4043774-7, wd:Q43229 .
 
 :N423050
     a skos:Concept ;
     skos:broader :N423000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423050" ;
-    skos:prefLabel "Datenverarbeitung"@de .
+    skos:prefLabel "Datenverarbeitung"@de ;
+    skos:scopeNote "Ausschließlich öffentlicher Dienst: Elektronische Datenverarbeitung, auch für Digitalisierung, Apps; Für Themen der freien Wirtschaft s. [Information und Dokumentation](#N884000)"@de ;
+    skos:exactMatch gnd:4011152-0, wd:Q6661985 .
 
 :N423400
     a skos:Concept ;
@@ -2335,7 +2353,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N423420, :N423430, :N423440 ;
     skos:notation "423400" ;
-    skos:prefLabel "Verwaltungsreform"@de .
+    skos:prefLabel "Verwaltungsreform"@de ;
+    skos:exactMatch gnd:4063353-6 .
 
 :N423420
     a skos:Concept ;
@@ -2349,14 +2368,16 @@
     skos:broader :N423400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423430" ;
-    skos:prefLabel "Gebietsreform"@de .
+    skos:prefLabel "Gebietsreform"@de ;
+    skos:exactMatch gnd:4071616-8, wd:Q1497011 .
 
 :N423440
     a skos:Concept ;
     skos:broader :N423400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423440" ;
-    skos:prefLabel "Funktionalreform"@de .
+    skos:prefLabel "Funktionalreform"@de ;
+    skos:exactMatch gnd:4071514-0 .
 
 :N423600
     a skos:Concept ;
@@ -2364,28 +2385,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N423610, :N423620, :N423640 ;
     skos:notation "423600" ;
-    skos:prefLabel "Öffentlicher Dienst"@de .
+    skos:prefLabel "Öffentlicher Dienst"@de ;
+    skos:exactMatch gnd:4043169-1, wd:Q11771944 .
 
 :N423610
     a skos:Concept ;
     skos:broader :N423600 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423610" ;
-    skos:prefLabel "Dienstrecht"@de .
+    skos:prefLabel "Dienstrecht"@de ;
+    skos:exactMatch gnd:4113306-7, wd:Q58891897 .
 
 :N423620
     a skos:Concept ;
     skos:broader :N423600 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423620" ;
-    skos:prefLabel "Personalwesen"@de .
+    skos:prefLabel "Personalwesen"@de ;
+    skos:exactMatch gnd:4076000-5, wd:Q1056396 .
 
 :N423640
     a skos:Concept ;
     skos:broader :N423600 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423640" ;
-    skos:prefLabel "Beamte"@de .
+    skos:prefLabel "Beamte"@de ;
+    skos:exactMatch gnd:4005081-6, gnd:4005085-3, wd:Q16258947 .
 
 :N424000
     a skos:Concept ;
@@ -2393,7 +2418,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N424020, :N424030, :N424040, :N424050, :N424060 ;
     skos:notation "424000" ;
-    skos:prefLabel "Öffentlicher Haushalt"@de .
+    skos:prefLabel "Öffentlicher Haushalt"@de ;
+    skos:exactMatch gnd:4043173-3, wd:Q294324 .
 
 :N424020
     a skos:Concept ;
@@ -2401,49 +2427,56 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N424021, :N424022, :N424024, :N424026, :N424028 ;
     skos:notation "424020" ;
-    skos:prefLabel "Finanzverwaltung"@de .
+    skos:prefLabel "Finanzverwaltung"@de ;
+    skos:exactMatch gnd:4017212-0, wd:Q120499768 .
 
 :N424021
     a skos:Concept ;
     skos:broader :N424020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424021" ;
-    skos:prefLabel "Finanzämter"@de .
+    skos:prefLabel "Finanzämter"@de ;
+    skos:exactMatch gnd:4140711-8, wd:Q573607 .
 
 :N424022
     a skos:Concept ;
     skos:broader :N424020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424022" ;
-    skos:prefLabel "Finanzausgleich"@de .
+    skos:prefLabel "Finanzausgleich"@de ;
+    skos:exactMatch gnd:4017176-0, wd:Q446384 .
 
 :N424024
     a skos:Concept ;
     skos:broader :N424020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424024" ;
-    skos:prefLabel "Finanzreform"@de .
+    skos:prefLabel "Finanzreform"@de ;
+    skos:exactMatch gnd:4017209-0, wd:Q120499767 .
 
 :N424026
     a skos:Concept ;
     skos:broader :N424020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424026" ;
-    skos:prefLabel "Vergabe"@de .
+    skos:prefLabel "Vergabe"@de ;
+    skos:exactMatch gnd:4137663-8 .
 
 :N424028
     a skos:Concept ;
     skos:broader :N424020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424028" ;
-    skos:prefLabel "Rechnungshof"@de .
+    skos:prefLabel "Rechnungshof"@de ;
+    skos:exactMatch gnd:4129107-4, wd:Q10983451 .
 
 :N424030
     a skos:Concept ;
     skos:broader :N424000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424030" ;
-    skos:prefLabel "Abgaben"@de .
+    skos:prefLabel "Abgaben"@de ;
+    skos:exactMatch gnd:4129438-5, wd:Q16102139 .
 
 :N424040
     a skos:Concept ;
@@ -2451,28 +2484,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N424042 ;
     skos:notation "424040" ;
-    skos:prefLabel "Steuern"@de .
+    skos:prefLabel "Steuern"@de ;
+    skos:exactMatchgnd:4057399-0, wd:Q8161 .
 
 :N424042
     a skos:Concept ;
     skos:broader :N424040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424042" ;
-    skos:prefLabel "Steuerberatung"@de .
+    skos:prefLabel "Steuerberatung"@de ;
+    skos:exactMatch gnd:4057416-7 .
 
 :N424050
     a skos:Concept ;
     skos:broader :N424000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424050" ;
-    skos:prefLabel "Gebühren"@de .
+    skos:prefLabel "Gebühren"@de ;
+    skos:exactMatch gnd:4019583-1, wd:Q11765 .
 
 :N424060
     a skos:Concept ;
     skos:broader :N424000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "424060" ;
-    skos:prefLabel "Zölle"@de .
+    skos:prefLabel "Zölle"@de ;
+    skos:exactMatch gnd:4137564-6, wd:Q52389 .
 
 :N425000
     a skos:Concept ;
@@ -2480,21 +2517,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N425020, :N425030, :N425040, :N425050 ;
     skos:notation "425000" ;
-    skos:prefLabel "Provinzialverwaltung"@de .
+    skos:prefLabel "Provinzialverwaltung"@de ;
+    skos:exactMatch gnd:4194366-1 .
 
 :N425020
     a skos:Concept ;
     skos:broader :N425000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425020" ;
-    skos:prefLabel "Landschaftsverband Rheinland"@de .
+    skos:prefLabel "Landschaftsverband Rheinland"@de ;
+    skos:exactMatch gnd:4049790-2 .
 
 :N425030
     a skos:Concept ;
     skos:broader :N425000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425030" ;
-    skos:prefLabel "Landschaftsverband Westfalen-Lippe"@de .
+    skos:prefLabel "Landschaftsverband Westfalen-Lippe"@de ;
+    skos:exactMatch gnd:1204095035 .
 
 :N425040
     a skos:Concept ;
