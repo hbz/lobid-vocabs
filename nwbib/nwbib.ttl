@@ -2485,7 +2485,7 @@
     skos:narrower :N424042 ;
     skos:notation "424040" ;
     skos:prefLabel "Steuern"@de ;
-    skos:exactMatchgnd:4057399-0, wd:Q8161 .
+    skos:exactMatch gnd:4057399-0, wd:Q8161 .
 
 :N424042
     a skos:Concept ;
@@ -2541,21 +2541,24 @@
     skos:broader :N425000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425040" ;
-    skos:prefLabel "Landesverband Lippe"@de .
+    skos:prefLabel "Landesverband Lippe"@de ;
+    skos:exactMatch gnd:1015454-1 .
 
 :N425050
     a skos:Concept ;
     skos:broader :N425000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425050" ;
-    skos:prefLabel "Kommunalverband Ruhrgebiet"@de .
+    skos:prefLabel "Kommunalverband Ruhrgebiet"@de ;
+    skos:exactMatch gnd:2057829-5 .
 
 :N425200
     a skos:Concept ;
     skos:broader :N420000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425200" ;
-    skos:prefLabel "Regierungsbezirke"@de .
+    skos:prefLabel "Regierungsbezirke"@de ;
+    skos:exactMatch gnd:4177408-5 , wd:Q22721 .
 
 :N425400
     a skos:Concept ;
@@ -2563,7 +2566,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N425420, :N425430, :N425490 ;
     skos:notation "425400" ;
-    skos:prefLabel "Kreisverwaltung"@de .
+    skos:prefLabel "Kreisverwaltung"@de ;
+    skos:exactMatch gnd:4393380-4 .
 
 :N425420
     a skos:Concept ;
@@ -2577,7 +2581,8 @@
     skos:broader :N425400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425430" ;
-    skos:prefLabel "Kreistage"@de .
+    skos:prefLabel "Kreistage"@de ;
+    skos:exactMatch gnd:4213101-7, wd:Q729730 .
 
 :N425490
     a skos:Concept ;
@@ -2585,7 +2590,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425490" ;
     skos:prefLabel "Kreispartnerschaften"@de ;
-    skos:scopeNote "Analog zu [Städtepartnerschaft](#N426090)"@de .
+    skos:altLabel "Kommunalpartnerschaft, Gemeindepartnerschaft"@de ;
+    skos:scopeNote "S.a. [Städtepartnerschaft](#N426090)"@de ;
+    skos:exactMatch gnd:4491663-2 , wd:Q184711 .
 
 :N426000
     a skos:Concept ;
@@ -2593,49 +2600,56 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N426020, :N426030, :N426040, :N426050, :N426060, :N426070, :N426090 ;
     skos:notation "426000" ;
-    skos:prefLabel "Gemeindeverwaltung"@de .
+    skos:prefLabel "Gemeindeverwaltung"@de ;
+    skos:exactMatch gnd:4019990-3, wd:Q6501447 .
 
 :N426020
     a skos:Concept ;
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426020" ;
-    skos:prefLabel "Kommunalrecht"@de .
+    skos:prefLabel "Kommunalrecht"@de ;
+    skos:exactMatch gnd:4031881-3, wd:Q574273 .
 
 :N426030
     a skos:Concept ;
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426030" ;
-    skos:prefLabel "Gemeinderat"@de .
+    skos:prefLabel "Gemeinderat"@de ;
+    skos:exactMatch gnd:4071677-6, wd:Q17353587 .
 
 :N426040
     a skos:Concept ;
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426040" ;
-    skos:prefLabel "Kommunale Selbstverwaltung"@de .
+    skos:prefLabel "Kommunale Selbstverwaltung"@de ;
+    skos:exactMatch gnd:4073644-1, wd:Q6621940 .
 
 :N426050
     a skos:Concept ;
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426050" ;
-    skos:prefLabel "Auftragsverwaltung"@de .
+    skos:prefLabel "Auftragsverwaltung"@de ;
+    skos:exactMatch gnd:4143431-6 .
 
 :N426060
     a skos:Concept ;
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426060" ;
-    skos:prefLabel "Kommunale Spitzenverbände"@de .
+    skos:prefLabel "Kommunale Spitzenverbände"@de ;
+    skos:exactMatch gnd:4164791-9, wd:Q1780353 .
 
 :N426070
     a skos:Concept ;
     skos:broader :N426000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426070" ;
-    skos:prefLabel "Gemeindeverbände"@de .
+    skos:prefLabel "Gemeindeverbände"@de ;
+    skos:exactMatch gnd:4136074-6, wd:Q13405470 .
 
 :N426090
     a skos:Concept ;
@@ -2643,7 +2657,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426090" ;
     skos:prefLabel "Städtepartnerschaften"@de ;
-    skos:scopeNote "Analog zu [Kreispartnerschaften](#N425490)"@de .
+    skos:scopeNote "S.a. [Kreispartnerschaften](#N425490)"@de ;
+    skos:exactMatch gnd:4140864-0 .
 
 :N428000
     a skos:Concept ;
@@ -2652,14 +2667,16 @@
     skos:narrower :N428020, :N428030, :N428040, :N428050, :N428060, :N428070 ;
     skos:notation "428000" ;
     skos:prefLabel "Sicherheit und Ordnung"@de ;
-    skos:example "Polizei, Ordnungsamt, Sicherheit bei Veranstaltungen, Verkehrsunfallentwicklung u.Ä."@de .
+    skos:example "Polizei, Ordnungsamt, Sicherheit bei Veranstaltungen, Verkehrsunfallentwicklung u.Ä."@de ;
+    skos:exactMatch gnd:4128511-6 .
 
 :N428020
     a skos:Concept ;
     skos:broader :N428000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428020" ;
-    skos:prefLabel "Ordnungsrecht"@de .
+    skos:prefLabel "Ordnungsrecht"@de ;
+    skos:exactMatch gnd:4115458-7 .
 
 :N428030
     a skos:Concept ;
@@ -2667,14 +2684,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N428032 ;
     skos:notation "428030" ;
-    skos:prefLabel "Polizei"@de .
+    skos:prefLabel "Polizei"@de ;
+    skos:exactMatch gnd:4046595-0, wd:Q35535 .
 
 :N428032
     a skos:Concept ;
     skos:broader :N428030 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428032" ;
-    skos:prefLabel "Polizeiorganisation"@de .
+    skos:prefLabel "Polizeiorganisation"@de ;
+    skos:exactMatch gnd:4046612-7 .
 
 :N428040
     a skos:Concept ;
@@ -2682,7 +2701,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428040" ;
     skos:prefLabel "Zivilschutz"@de ;
-    skos:example "Feuerwehr, Luftschutz, Krisenmanagement, Gefahrenabwehr u.Ä."@de .
+    skos:example "Feuerwehr, Luftschutz, Krisenmanagement, Gefahrenabwehr u.Ä."@de ;
+    skos:exactMatch gnd:4067915-9, wd:Q10427676 .
 
 :N428050
     a skos:Concept ;
@@ -2690,21 +2710,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N428052, :N428054 ;
     skos:notation "428050" ;
-    skos:prefLabel "Staatsschutz"@de .
+    skos:prefLabel "Staatsschutz"@de ;
+    skos:exactMatch gnd:4182674-7, wd:Q3238445 .
 
 :N428052
     a skos:Concept ;
     skos:broader :N428050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428052" ;
-    skos:prefLabel "Grenzschutz"@de .
+    skos:prefLabel "Grenzschutz"@de ;
+    skos:exactMatch gnd:4158152-0, wd:Q138775 .
 
 :N428054
     a skos:Concept ;
     skos:broader :N428050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428054" ;
-    skos:prefLabel "Verfassungsschutz"@de .
+    skos:prefLabel "Verfassungsschutz"@de ;
+    skos:exactMatch gnd:4062803-6 .
 
 :N428060
     a skos:Concept ;
@@ -2712,7 +2735,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428060" ;
     skos:prefLabel "Personenstand"@de ;
-    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., Themen wie Sterberegister, Eheschließungen u.Ä.; Ggf. zusätzl. [Quellen](#N240100) u. [katholische](#N611030) o. [evangelische](#N613030) Kirchengemeinden"@de .
+    skos:scopeNote "Benutzt für moderne u. historische Personenstandsverz., Themen wie Sterberegister, Eheschließungen u.Ä.; Ggf. zusätzl. [Quellen](#N240100) u. [katholische](#N611030) o. [evangelische](#N613030) Kirchengemeinden"@de ;
+    skos:exactMatch gnd:4138658-9, wd:Q18562479 .
 
 :N428070
     a skos:Concept ;
@@ -2734,14 +2758,16 @@
     skos:broader :N428070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428074" ;
-    skos:prefLabel "Brandbekämpfung"@de .
+    skos:prefLabel "Brandbekämpfung"@de ;
+    skos:exactMatch gnd:4125289-5, wd:Q897825 .
 
 :N428076
     a skos:Concept ;
     skos:broader :N428070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428076" ;
-    skos:prefLabel "Rettungswesen"@de .
+    skos:prefLabel "Rettungswesen"@de ;
+    skos:exactMatch gnd:4049626-0, wd:Q860447 .
 
 :N428078
     a skos:Concept ;
@@ -2749,7 +2775,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428078" ;
     skos:prefLabel "Katastrophen. Unfälle"@de ;
-    skos:scopeNote "Freie SW: Katastrophe; Unfall"@de .
+    skos:scopeNote "Freie SW: Katastrophe; Unfall"@de ;
+    skos:exactMatch gnd:4029929-6, gnd:4061693-9, wd:Q3839081, wd:Q171558 .
 
 :N440000
     a skos:Concept ;
@@ -2765,7 +2792,8 @@
     skos:broader :N440000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "440100" ;
-    skos:prefLabel "Recht - Allgemeines"@de .
+    skos:prefLabel "Recht - Allgemeines"@de ;
+    skos:exactMatch gnd:4048737-4, wd:Q7748 .
 
 :N442000
     a skos:Concept ;
@@ -2774,7 +2802,8 @@
     skos:narrower :N442050 ;
     skos:notation "442000" ;
     skos:prefLabel "Rechtsgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn rechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn rechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7504001-3 .
 
 :N442050
     a skos:Concept ;
