@@ -4816,14 +4816,16 @@
     skos:broader :N566000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566060" ;
-    skos:prefLabel "Verstädterung"@de .
+    skos:prefLabel "Verstädterung"@de ;
+    skos:exactMatch gnd:4063234-9, wd:Q161078 .
 
 :N566070
     a skos:Concept ;
     skos:broader :N566000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566070" ;
-    skos:prefLabel "Ballungsräume"@de .
+    skos:prefLabel "Ballungsräume"@de ;
+    skos:exactMatch gnd:4069106-8, wd:Q159313 .
 
 :N566080
     a skos:Concept ;
@@ -4855,7 +4857,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N572020, :N572030, :N572050, :N572060 ;
     skos:notation "572000" ;
-    skos:prefLabel "Raumordnung"@de .
+    skos:prefLabel "Raumordnung"@de ;
+    skos:altLabel "Raumplanung"@de ;
+    skos:exactMatch gnd:4048590-0, wd:Q11420665 .
 
 :N572020
     a skos:Concept ;
@@ -4871,7 +4875,8 @@
     skos:broader :N572000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "572030" ;
-    skos:prefLabel "Regionalplanung"@de .
+    skos:prefLabel "Regionalplanung"@de ;
+    skos:exactMatch gnd:4049040-3, wd:Q689022 .
 
 :N572050
     a skos:Concept ;
@@ -4879,7 +4884,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "572050" ;
     skos:prefLabel "Landschaftsplanung"@de ;
-    skos:scopeNote "S.a. [Landschaftsentwicklung](#N584090), [Kulturlandschaft](#N562300)"@de .
+    skos:scopeNote "S.a. [Landschaftsentwicklung](#N584090), [Kulturlandschaft](#N562300)"@de ;
+    skos:exactMatch gnd:4034354-6, wd:Q246107 .
 
 :N572060
     a skos:Concept ;
@@ -4896,7 +4902,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N574020, :N574030, :N574040, :N574050, :N574060 ;
     skos:notation "574000" ;
-    skos:prefLabel "Bauwesen"@de .
+    skos:prefLabel "Bauwesen"@de ;
+    skos:exactMatch gnd:4144204-0, wd:Q150737 .
 
 :N574020
     a skos:Concept ;
@@ -4904,7 +4911,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574020" ;
     skos:prefLabel "Bau- und Bodenrecht"@de ;
-    skos:scopeNote "Individuell mit Baurecht oder Bodenrecht verschlagworten"@de .
+    skos:scopeNote "Individuell mit Baurecht oder Bodenrecht verschlagworten"@de ;
+    skos:exactMatch gnd:4004923-1, gnd:4007399-3, wd:Q294417 .
 
 :N574030
     a skos:Concept ;
@@ -4912,21 +4920,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574030" ;
     skos:prefLabel "Städtebau"@de ;
-    skos:scopeNote "Verwenden bei größerem Kontext (wenn es nicht nur um Platzgestaltungen in der Innenstadt geht); S.a. [Stadtbaukunst](#N844500)"@de .
+    skos:scopeNote "Verwenden bei größerem Kontext (wenn es nicht nur um Platzgestaltungen in der Innenstadt geht); S.a. [Stadtbaukunst](#N844500)"@de ;
+    skos:exactMatch gnd:4056795-3, wd:Q63100 .
 
 :N574040
     a skos:Concept ;
     skos:broader :N574000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574040" ;
-    skos:prefLabel "Straßenbau"@de .
+    skos:prefLabel "Straßenbau"@de ;
+    skos:exactMatch gnd:4057887-2, wd:Q2349677 .
 
 :N574050
     a skos:Concept ;
     skos:broader :N574000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574050" ;
-    skos:prefLabel "Wohnungsbau"@de .
+    skos:prefLabel "Wohnungsbau"@de ;
+    skos:exactMatch gnd:4066772-8 .
 
 :N574060
     a skos:Concept ;
@@ -4934,7 +4945,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574060" ;
     skos:prefLabel "Wohnungswirtschaft"@de ;
-    skos:example "Stadtsanierung"@de .
+    skos:example "Stadtsanierung"@de ;
+    skos:exactMatch gnd:4066807-1 .
 
 :N580000
     a skos:Concept ;
@@ -4950,7 +4962,8 @@
     skos:broader :N580000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "580100" ;
-    skos:prefLabel "Umwelt- und Naturschutz - Allgemeines"@de .
+    skos:prefLabel "Umwelt- und Naturschutz - Allgemeines"@de ;
+    skos:scopeNote "S.a. [Umweltschutz](#N582000), [Naturschutz. Landschaftspflege](#N584000), [Naturschutzgebiete](#N584070)"@de .
 
 :N582000
     a skos:Concept ;
@@ -4958,28 +4971,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N582020, :N582030, :N582040, :N582050, :N582060, :N582070 ;
     skos:notation "582000" ;
-    skos:prefLabel "Umweltschutz"@de .
+    skos:prefLabel "Umweltschutz"@de ;
+    skos:exactMatch gnd:4061644-7, wd:Q832237 .
 
 :N582020
     a skos:Concept ;
     skos:broader :N582000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582020" ;
-    skos:prefLabel "Bodenschutz"@de .
+    skos:prefLabel "Bodenschutz"@de ;
+    skos:exactMatch gnd:4069568-2, wd:Q889669 .
 
 :N582030
     a skos:Concept ;
     skos:broader :N582000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582030" ;
-    skos:prefLabel "Luftverschmutzung"@de .
+    skos:prefLabel "Luftverschmutzung"@de ;
+    skos:exactMatch gnd:4074381-0, wd:Q131123 .
 
 :N582040
     a skos:Concept ;
     skos:broader :N582000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582040" ;
-    skos:prefLabel "Lärmbelastung"@de .
+    skos:prefLabel "Lärmbelastung"@de ;
+    skos:exactMatch gnd:4034053-3 .
 
 :N582050
     a skos:Concept ;
@@ -4987,35 +5004,40 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N582052, :N582054 ;
     skos:notation "582050" ;
-    skos:prefLabel "Gewässerschutz"@de .
+    skos:prefLabel "Gewässerschutz"@de ;
+    skos:exactMatch gnd:4020830-8, wd:Q1462136 .
 
 :N582052
     a skos:Concept ;
     skos:broader :N582050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582052" ;
-    skos:prefLabel "Abwasser"@de .
+    skos:prefLabel "Abwasser"@de ;
+    skos:exactMatch gnd:4000302-4, wd:Q336191 .
 
 :N582054
     a skos:Concept ;
     skos:broader :N582050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582054" ;
-    skos:prefLabel "Kanalisation"@de .
+    skos:prefLabel "Kanalisation"@de ;
+    skos:exactMatch gnd:4029466-3, wd:Q156849 .
 
 :N582060
     a skos:Concept ;
     skos:broader :N582000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582060" ;
-    skos:prefLabel "Abfallbeseitigung"@de .
+    skos:prefLabel "Abfallbeseitigung"@de ;
+    skos:exactMatch gnd:4000100-3, wd:Q2684232 .
 
 :N582070
     a skos:Concept ;
     skos:broader :N582000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "582070" ;
-    skos:prefLabel "Strahlenbelastung"@de .
+    skos:prefLabel "Strahlenbelastung"@de ;
+    skos:exactMatch gnd:4057817-3, wd:Q1087405 .
 
 :N584000
     a skos:Concept ;
@@ -5024,7 +5046,8 @@
     skos:narrower :N584020, :N584040, :N584050, :N584060, :N584070, :N584080, :N584090 ;
     skos:notation "584000" ;
     skos:prefLabel "Naturschutz. Landschaftspflege"@de ;
-    skos:scopeNote "S.a. [Pflanzenschutz](#N584050)"@de .
+    skos:scopeNote "S.a. [Pflanzenschutz](#N584050)"@de ;
+    skos:exactMatch gnd:4115348-0, gnd:4034353-4, wd:Q20113959, wd:Q1803794 .
 
 :N584020
     a skos:Concept ;
@@ -5038,21 +5061,25 @@
     skos:broader :N584000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584040" ;
-    skos:prefLabel "Naturdenkmäler"@de .
+    skos:prefLabel "Naturdenkmäler"@de ;
+    skos:altLabel "Naturwunder, Naturschönheit"@de ;
+    skos:exactMatch gnd:4171310-2, wd:Q23790 .
 
 :N584050
     a skos:Concept ;
     skos:broader :N584000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584050" ;
-    skos:prefLabel "Pflanzenschutz"@de .
+    skos:prefLabel "Pflanzenschutz"@de ;
+    skos:exactMatch gnd:4045586-5, wd:Q1944497 .
 
 :N584060
     a skos:Concept ;
     skos:broader :N584000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584060" ;
-    skos:prefLabel "Tierschutz"@de .
+    skos:prefLabel "Tierschutz"@de ;
+    skos:exactMatch gnd:4060131-6, wd:Q11857638 .
 
 :N584070
     a skos:Concept ;
@@ -5060,7 +5087,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584070" ;
     skos:prefLabel "Naturschutzgebiete"@de ;
-    skos:scopeNote "Freie SW: Name des Naturschutzgebiets"@de .
+    skos:scopeNote "Freie SW: Name des Naturschutzgebiets"@de ;
+    skos:exactMatch gnd:4041414-0, wd:Q759421 .
 
 :N584080
     a skos:Concept ;
@@ -5068,7 +5096,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584080" ;
     skos:prefLabel "Naturparke"@de ;
-    skos:scopeNote "Freie SW: Name des Naturparks; S.a. [Parks](#N586020), [Park- und Gartenanlagen](#N844060)"@de .
+    skos:scopeNote "Freie SW: Name des Naturparks; S.a. [Parks](#N586020), [Park- und Gartenanlagen](#N844060)"@de ;
+    skos:exactMatch gnd:4075237-9, wd:Q728904 .
 
 :N584090
     a skos:Concept ;
@@ -5076,7 +5105,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584090" ;
     skos:prefLabel "Landschaftsentwicklung"@de ;
-    skos:scopeNote "S.a. [Landschaftsplanung](#N572050), [Kulturlandschaft](#N562300)"@de .
+    skos:scopeNote "S.a. [Landschaftsplanung](#N572050), [Kulturlandschaft](#N562300)"@de ;
+    skos:exactMatch gnd:4034348-0, wd:Q6485101 .
 
 :N586000
     a skos:Concept ;
@@ -5085,7 +5115,8 @@
     skos:narrower :N586020, :N586030, :N586040, :N586070, :N586080 ;
     skos:notation "586000" ;
     skos:prefLabel "Grünanlagen"@de ;
-    skos:scopeNote "Hier auch Golfplätze"@de .
+    skos:scopeNote "Hier auch Golfplätze"@de ;
+    skos:exactMatch gnd:4022278-0 .
 
 :N586020
     a skos:Concept ;
@@ -5093,35 +5124,40 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586020" ;
     skos:prefLabel "Parks"@de ;
-    skos:scopeNote "Für Gartenkunst s. [Park- und Gartenanlagen](#N844060); S.a. [Naturparke](#N584080)"@de .
+    skos:scopeNote "Für Gartenkunst s. [Park- und Gartenanlagen](#N844060); S.a. [Naturparke](#N584080)"@de ;
+    skos:exactMatch gnd:4044673-6, wd:Q22698 .
 
 :N586030
     a skos:Concept ;
     skos:broader :N586000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586030" ;
-    skos:prefLabel "Botanische Gärten"@de .
+    skos:prefLabel "Botanische Gärten"@de ;
+    skos:exactMatch gnd:4146403-5, wd:Q167346 .
 
 :N586040
     a skos:Concept ;
     skos:broader :N586000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586040" ;
-    skos:prefLabel "Zoologische Gärten"@de .
+    skos:prefLabel "Zoologische Gärten"@de ;
+    skos:exactMatch gnd:4067962-7, wd:Q43501 .
 
 :N586070
     a skos:Concept ;
     skos:broader :N586000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586070" ;
-    skos:prefLabel "Bundesgartenschau"@de .
+    skos:prefLabel "Bundesgartenschau"@de ;
+    skos:exactMatch gnd:4140026-4, wd:Q643918 .
 
 :N586080
     a skos:Concept ;
     skos:broader :N586000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "586080" ;
-    skos:prefLabel "Landesgartenschau"@de .
+    skos:prefLabel "Landesgartenschau"@de ;
+    skos:exactMatch gnd:4443994-5, wd:Q896958 .
 
 :N610000
     a skos:Concept ;
@@ -5137,7 +5173,8 @@
     skos:broader :N610000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "610100" ;
-    skos:prefLabel "Christliche Kirchen - Allgemeines"@de .
+    skos:prefLabel "Christliche Kirchen - Allgemeines"@de ;
+    skos:exactMatch gnd:4030702-5 .
 
 :N611000
     a skos:Concept ;
@@ -5145,7 +5182,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N611010, :N611020, :N611030, :N611040, :N611050, :N611060, :N611070, :N611080, :N611090 ;
     skos:notation "611000" ;
-    skos:prefLabel "Katholische Kirche"@de .
+    skos:prefLabel "Katholische Kirche"@de ;
+    skos:exactMatch gnd:2009545-4, wd:Q9592 .
 
 :N611010
     a skos:Concept ;
@@ -5153,7 +5191,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611010" ;
     skos:prefLabel "Kirchengeschichte"@de ;
-    skos:scopeNote "Freie SW: Katholische Kirche; Geschichte; Verwenden, wenn kirchlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Freie SW: Katholische Kirche; Geschichte; Verwenden, wenn kirchlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:4030720-7, wd:Q235329 .
 
 :N611020
     a skos:Concept ;
@@ -5161,21 +5200,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N611025 ;
     skos:notation "611020" ;
-    skos:prefLabel "Kirchenrecht"@de .
+    skos:prefLabel "Kirchenrecht"@de ;
+    skos:exactMatch gnd:4030746-3, wd:Q670732 .
 
 :N611025
     a skos:Concept ;
     skos:broader :N611020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611025" ;
-    skos:prefLabel "Kirchenverwaltung"@de .
+    skos:prefLabel "Kirchenverwaltung"@de ;
+    skos:exactMatch gnd:4133860-1 .
 
 :N611030
     a skos:Concept ;
     skos:broader :N611000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611030" ;
-    skos:prefLabel "Kirchengemeinden"@de .
+    skos:prefLabel "Kirchengemeinden"@de ;
+    skos:exactMatch gnd:4029984-3 .
 
 :N611040
     a skos:Concept ;
@@ -5183,7 +5225,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N611042, :N611043, :N611044, :N611045 ;
     skos:notation "611040" ;
-    skos:prefLabel "Kirchliches Leben"@de .
+    skos:prefLabel "Kirchliches Leben"@de ;
+    skos:exactMatch gnd:4114204-4 .
 
 :N611042
     a skos:Concept ;
@@ -5191,7 +5234,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611042" ;
     skos:prefLabel "Seelsorge"@de ;
-    skos:scopeNote "S.a. [evangelische](#N613042)"@de .
+    skos:scopeNote "S.a. [evangelische](#N613042)"@de ;
+    skos:exactMatch gnd:7502498-6 .
 
 :N611043
     a skos:Concept ;
@@ -5206,14 +5250,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611044" ;
     skos:prefLabel "Kirchliche Vereine und Verbände"@de ;
-    skos:scopeNote "Freie SW: Katholischer Verein; Katholischer Verband"@de .
+    skos:scopeNote "Freie SW: Katholischer Verein; Katholischer Verband"@de ;
+    skos:exactMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
 
 :N611045
     a skos:Concept ;
     skos:broader :N611040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611045" ;
-    skos:prefLabel "Kirchliche Stiftungen"@de .
+    skos:prefLabel "Kirchliche Stiftungen"@de ;
+    skos:exactMatch gnd:4120568-6 .
 
 :N611050
     a skos:Concept ;
@@ -5221,7 +5267,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611050" ;
     skos:prefLabel "Geistliche. Ordensleute"@de ;
-    skos:scopeNote "Freie SW: Geistlicher; Ordensleute"@de. 
+    skos:scopeNote "Freie SW: Geistlicher; Ordensleute"@de ;
+    skos:exactMatch gnd:4137184-7, gnd:4309954-3, wd:Q2259532 .
 
 :N611060
     a skos:Concept ;
@@ -5229,14 +5276,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611060" ;
     skos:prefLabel "Klöster. Stifte"@de ;
-    skos:scopeNote "Kloster u. Stift individuell verschlagworten"@de .
+    skos:scopeNote "Kloster u. Stift individuell verschlagworten"@de ;
+    skos:exactMatch gnd:4031225-2, gnd:4057534-2, wd:Q44613, wd:Q355437 .
 
 :N611070
     a skos:Concept ;
     skos:broader :N611000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611070" ;
-    skos:prefLabel "Orden"@de .
+    skos:prefLabel "Orden"@de ;
+    skos:exactMatch gnd:4043726-7, wd:Q2061186 .
 
 :N611080
     a skos:Concept ;
@@ -5248,35 +5297,39 @@
     skos:altLabel "Kult, Kultpraxis"@de ;
     skos:definition "Gesamtheit religiöser Handlungen"@de ;
     skos:scopeNote "S.a. [evangelischer](#N613070); Freie SW: z.B. Gottesdienst"@de ;
-    skos:exactMatch wd:Q756820, gnd:4033535-5 .
+    skos:exactMatch gnd:4033535-5, wd:Q756820 .
 
 :N611082
     a skos:Concept ;
     skos:broader :N611080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611082" ;
-    skos:prefLabel "Sakramente"@de .
+    skos:prefLabel "Sakramente"@de ;
+    skos:exactMatch gnd:4051342-7, wd:Q49703 .
 
 :N611083
     a skos:Concept ;
     skos:broader :N611080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611083" ;
-    skos:prefLabel "Kirchenfeste"@de .
+    skos:prefLabel "Kirchenfeste"@de ;
+    skos:exactMatch gnd:4073438-9 .
 
 :N611084
     a skos:Concept ;
     skos:broader :N611080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611084" ;
-    skos:prefLabel "Prozessionen"@de .
+    skos:prefLabel "Prozessionen"@de ;
+    skos:exactMatch gnd:4176065-7, wd:Q898830 .
 
 :N611085
     a skos:Concept ;
     skos:broader :N611080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611085" ;
-    skos:prefLabel "Wallfahrten"@de .
+    skos:prefLabel "Wallfahrten"@de ;
+    skos:exactMatch gnd:4064460-1, wd:Q1644573 .
 
 :N611090
     a skos:Concept ;
@@ -5284,7 +5337,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611090" ;
     skos:prefLabel "Heilige. Heiligenverehrung"@de ;
-    skos:scopeNote "S.a. [Volkstümliche Heiligenverehrung](#N704626)"@de .
+    skos:scopeNote "S.a. [Volkstümliche Heiligenverehrung](#N704626)"@de ;
+    skos:exactMatch gnd:4024055-1, gnd:4024052-6, wd:Q43115, wd:Q1579384 .
 
 :N612000
     a skos:Concept ;
@@ -5292,7 +5346,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N612020, :N612030, :N612040, :N612050, :N612070, :N612080 ;
     skos:notation "612000" ;
-    skos:prefLabel "Reformation"@de .
+    skos:prefLabel "Reformation"@de ;
+    skos:exactMatch gnd:4048946-2, wd:Q12562 .
 
 :N612020
     a skos:Concept ;
@@ -5302,7 +5357,7 @@
     skos:notation "612020" ;
     skos:prefLabel "Calvinismus"@de ;
     skos:definition "Theologische Bewegung des französischen Reformators aus Genf Johannes Calvin; Oberbegriff: Protestantismus"@de ;
-    skos:exactMatch wd:Q101849, gnd:4136802-2 .
+    skos:exactMatch gnd:4136802-2, wd:Q101849 .
 
 :N612025
     a skos:Concept ;
@@ -5321,7 +5376,7 @@
     skos:prefLabel "Täufer"@de ;
     skos:altLabel "Anabaptismus, Anabaptisten, Wiedertäufer"@de ;
     skos:definition "Anhänger der christlichen Täuferbewegung im 16. Jahrhundert"@de ;
-    skos:exactMatch wd:Q165580, gnd:4078126-4 .
+    skos:exactMatch gnd:4078126-4, wd:Q165580 .
 
 :N612040
     a skos:Concept ;
@@ -5331,7 +5386,7 @@
     skos:prefLabel "Schwärmer"@de ;
     skos:altLabel "Schwarmgeist, Schwärmertum, Schwärmer (Theologie), Spiritualismus (Theologie)"@de ;
     skos:definition "Der schon seit der Mitte des 19. Jahrhunderts für Außenseiter der Reformation gebräuchliche Begriff Spiritualist löste zeitgenössische abwertende Begriffe wie „Schwärmer“ oder „Schwarmgeister“ (häufig bei Martin Luther) ab"@de ;
-    skos:exactMatch wd:Q100275927, gnd:4180308-5 .
+    skos:exactMatch gnd:4180308-5, wd:Q100275927 .
 
 :N612050
     a skos:Concept ;
@@ -5340,7 +5395,7 @@
     skos:notation "612050" ;
     skos:prefLabel "Reformatoren"@de ;
     skos:definition "Personen der Kirchengeschichte, die bei der Gründung und Ausformung der evangelischen Kirchen während der Reformation mitwirkten"@de ;
-    skos:exactMatch wd:Q763779, gnd:4177347-0 .
+    skos:exactMatch gnd:4177347-0, wd:Q763779 .
 
 :N612070
     a skos:Concept ;
@@ -5359,7 +5414,7 @@
     skos:notation "612080" ;
     skos:prefLabel "Hugenotten"@de ;
     skos:definition "Synonym für Protestanten: heute meist Bezeichnung für franz. Protestanten, die 1559 auf ihrer ersten Nationalsynode in Paris ihr Bekenntnis (Confessio Gallicana) formulierten"@de ;
-    skos:exactMatch wd:Q101935, gnd:4026112-8 .
+    skos:exactMatch gnd:4026112-8, wd:Q101935 .
 
 :N612500
     a skos:Concept ;
@@ -5368,7 +5423,7 @@
     skos:notation "612500" ;
     skos:prefLabel "Gegenreformation"@de ;
     skos:definition "Im evangel. Bereich bevorzugte Terminologie; sachlich weitgehend deckungsgleich mit Katholische Erneuerung; Rekatholisierung vor Beginn der Aufklärung"@de ;
-    skos:exactMatch wd:Q128168, gnd:4019710-4 .
+    skos:exactMatch gnd:4019710-4, wd:Q128168 .
 
 :N613000
     a skos:Concept ;
@@ -5376,7 +5431,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N613010, :N613020, :N613030, :N613040, :N613050, :N613070, :N613090 ;
     skos:notation "613000" ;
-    skos:prefLabel "Evangelische Kirche"@de .
+    skos:prefLabel "Evangelische Kirche"@de ;
+    skos:exactMatch gnd:4015833-0, wd:Q346575 .
 
 :N613010
     a skos:Concept ;
@@ -5384,7 +5440,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613010" ;
     skos:prefLabel "Kirchengeschichte"@de ;
-    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte; Verwenden, wenn kirchlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Freie SW: Evangelische Kirche; Geschichte; Verwenden, wenn kirchlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:4030720-7, wd:Q235329 .
 
 :N613020
     a skos:Concept ;
@@ -5392,7 +5449,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N613025 ;
     skos:notation "613020" ;
-    skos:prefLabel "Kirchenrecht"@de .
+    skos:prefLabel "Kirchenrecht"@de ;
+    skos:definition "Evangelisches Kirchenrecht"@de ;
+    skos:exactMatch gnd:7503246-6 .
 
 :N613025
     a skos:Concept ;
@@ -5400,7 +5459,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613025" ;
     skos:prefLabel "Kirchenverwaltung"@de ;
-    skos:scopeNote "Freie SW: Evangelische Gemeinde; Ort"@de .
+    skos:scopeNote "Freie SW: Evangelische Gemeinde; Ort"@de ;
+    skos:exactMatch gnd:4133860-1 .
 
 :N613030
     a skos:Concept ;
@@ -5415,7 +5475,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N613042, :N613043, :N613044, :N613045 ;
     skos:notation "613040" ;
-    skos:prefLabel "Kirchliches Leben"@de .
+    skos:prefLabel "Kirchliches Leben"@de ;
+    skos:exactMatch gnd:4114204-4 .
 
 :N613042
     a skos:Concept ;
@@ -5423,7 +5484,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613042" ;
     skos:prefLabel "Seelsorge"@de ;
-    skos:scopeNote "S.a. [katholische](#N611042)"@de .
+    skos:scopeNote "S.a. [katholische](#N611042)"@de ;
+    skos:exactMatch gnd:7502541-3 .
 
 :N613043
     a skos:Concept ;
@@ -5432,21 +5494,23 @@
     skos:notation "613043" ;
     skos:prefLabel "Diakonie"@de ;
     skos:altLabel "Evangelische Sozialarbeit"@de ;
-    skos:exactMatch wd:Q1208280, gnd:4012046-6 .
+    skos:exactMatch gnd:4012046-6, wd:Q1208280 .
 
 :N613044
     a skos:Concept ;
     skos:broader :N613040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613044" ;
-    skos:prefLabel "Kirchliche Vereine und Verbände"@de .
+    skos:prefLabel "Kirchliche Vereine und Verbände"@de ;
+    skos:exactMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
 
 :N613045
     a skos:Concept ;
     skos:broader :N613040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613045" ;
-    skos:prefLabel "Kirchliche Stiftungen"@de .
+    skos:prefLabel "Kirchliche Stiftungen"@de ;
+    skos:exactMatch gnd:4120568-6 .
 
 :N613050
     a skos:Concept ;
@@ -5454,7 +5518,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613050" ;
     skos:prefLabel "Pfarrer. Geistliche"@de ;
-    skos:scopeNote "Freie SW: Pfarrer; Geistlicher"@de .
+    skos:scopeNote "Freie SW: Pfarrer; Geistlicher"@de ;
+    skos:exactMatch gnd:4132592-8, gnd:4174000-2, wd:Q955464 .
 
 :N613070
     a skos:Concept ;
@@ -5466,28 +5531,31 @@
     skos:altLabel "Kult, Kultpraxis"@de ;
     skos:definition "Gesamtheit religiöser Handlungen"@de ;
     skos:scopeNote "S.a. [katholischer](#N611080); Freie SW: z.B. Gottesdienst"@de ;
-    skos:exactMatch wd:Q756820, gnd:4033535-5 .
+    skos:exactMatch gnd:4033535-5, wd:Q756820 .
 
 :N613072
     a skos:Concept ;
     skos:broader :N613070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613072" ;
-    skos:prefLabel "Sakramente"@de .
+    skos:prefLabel "Sakramente"@de ;
+    skos:exactMatch gnd:4051342-7, wd:Q49703 .
 
 :N613073
     a skos:Concept ;
     skos:broader :N613070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613073" ;
-    skos:prefLabel "Kirchenfeste"@de .
+    skos:prefLabel "Kirchenfeste"@de ;
+    skos:exactMatch gnd:4073438-9 .
 
 :N613090
     a skos:Concept ;
     skos:broader :N613000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613090" ;
-    skos:prefLabel "Freikirchen"@de .
+    skos:prefLabel "Freikirchen"@de ;
+    skos:exactMatch gnd:4018337-3, wd:Q426043 .
 
 :N615000
     a skos:Concept ;
@@ -5495,14 +5563,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N615020, :N615040, :N615070 ;
     skos:notation "615000" ;
-    skos:prefLabel "Sonstige christliche Kirchen. Sekten"@de .
+    skos:prefLabel "Sonstige christliche Kirchen. Sekten"@de ;
+    skos:exactMatch gnd:4077343-7, wd:Q19097 .
 
 :N615020
     a skos:Concept ;
     skos:broader :N615000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "615020" ;
-    skos:prefLabel "Orthodoxe Kirche"@de .
+    skos:prefLabel "Orthodoxe Kirche"@de ;
+    skos:exactMatch gnd:4043912-4, wd:Q35032 .
 
 :N615040
     a skos:Concept ;
@@ -5511,14 +5581,15 @@
     skos:notation "615040" ;
     skos:prefLabel "Altkatholische Kirche"@de ;
     skos:definition "Bezeichnet die Gemeinschaft selbständiger katholischer Kirchen, die teilweise in der Utrechter Union zusammengeschlossen sind; 1870 entstanden"@de ;
-    skos:exactMatch wd:Q5169816, gnd:4001531-2 .
+    skos:exactMatch gnd:4001531-2, wd:Q5169816 .
 
 :N615070
     a skos:Concept ;
     skos:broader :N615000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "615070" ;
-    skos:prefLabel "Sekten"@de .
+    skos:prefLabel "Sekten"@de ;
+    skos:exactMatch gnd:4077343-7, wd:Q19097 .
 
 :N616000
     a skos:Concept ;
@@ -5542,14 +5613,16 @@
     skos:broader :N617000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "617030" ;
-    skos:prefLabel "Friedhöfe"@de .
+    skos:prefLabel "Friedhöfe"@de ;
+    skos:exactMatch gnd:4018537-0, wd:Q39614 .
 
 :N617050
     a skos:Concept ;
     skos:broader :N617000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "617050" ;
-    skos:prefLabel "Grabmale"@de .
+    skos:prefLabel "Grabmale"@de ;
+    skos:exactMatch gnd:4021732-2, wd:Q56055312 .
 
 :N630000
     a skos:Concept ;
@@ -5565,7 +5638,8 @@
     skos:broader :N630000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "630100" ;
-    skos:prefLabel "Judentum - Allgemeines"@de .
+    skos:prefLabel "Judentum - Allgemeines"@de ;
+    skos:exactMatch gnd:4114087-4, wd:Q9268 .
 
 :N631000
     a skos:Concept ;
@@ -5588,7 +5662,8 @@
     skos:broader :N632000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "632050" ;
-    skos:prefLabel "Judenverfolgung"@de .
+    skos:prefLabel "Judenverfolgung"@de ;
+    skos:exactMatch gnd:4028814-6 .
 
 :N635000
     a skos:Concept ;
@@ -5644,21 +5719,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N651020, :N651030 ;
     skos:notation "651000" ;
-    skos:prefLabel "Nichtchristliche Religionen"@de .
+    skos:prefLabel "Nichtchristliche Religionen"@de ;
+    skos:exactMatch gnd:4075367-0 .
 
 :N651020
     a skos:Concept ;
     skos:broader :N651000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "651020" ;
-    skos:prefLabel "Islam"@de .
+    skos:prefLabel "Islam"@de ;
+    skos:exactMatch gnd:4027743-4, wd:Q432 .
 
 :N651030
     a skos:Concept ;
     skos:broader :N651000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "651030" ;
-    skos:prefLabel "Buddhismus"@de .
+    skos:prefLabel "Buddhismus"@de ;
+    skos:exactMatch gnd:4008690-2, wd:Q748 .
 
 :N655000
     a skos:Concept ;
@@ -5666,14 +5744,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N655030 ;
     skos:notation "655000" ;
-    skos:prefLabel "Weltanschauungen"@de .
+    skos:prefLabel "Weltanschauungen"@de ;
+    skos:exactMatch gnd:4065348-1, wd:Q49447 .
 
 :N655030
     a skos:Concept ;
     skos:broader :N655000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "655030" ;
-    skos:prefLabel "Freimaurer"@de .
+    skos:prefLabel "Freimaurer"@de ;
+    skos:closeMatch gnd:4018348-8, wd:Q41726 .
 
 :N700000
     a skos:Concept ;
@@ -5689,14 +5769,17 @@
     skos:broader :N700000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "700100" ;
-    skos:prefLabel "Volkskunde - Allgemeines"@de .
+    skos:prefLabel "Volkskunde - Allgemeines"@de ;
+    skos:altLabel "Ethnologie"@de ;
+    skos:exactMatch gnd:4078937-8, gnd:4078931-7, wd:Q43455 .
 
 :N702000
     a skos:Concept ;
     skos:broader :N700000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "702000" ;
-    skos:prefLabel "Alltag"@de .
+    skos:prefLabel "Alltag"@de ;
+    skos:exactMatch gnd:4001307-8, wd:Q1129653 .
 
 :N704000
     a skos:Concept ;
@@ -5712,7 +5795,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704020" ;
     skos:prefLabel "Brauchtum im Alltag"@de ;
-    skos:example "Sitten"@de .
+    skos:altLabel "Sitten"@de .
 
 :N704040
     a skos:Concept ;
@@ -5735,7 +5818,8 @@
     skos:broader :N704040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704043" ;
-    skos:prefLabel "Fastnacht. Karneval"@de .
+    skos:prefLabel "Fastnacht. Karneval"@de ;
+    skos:exactMatch gnd:4016518-8, gnd:4276473-7, wd:Q4618 .
 
 :N704044
     a skos:Concept ;
@@ -5764,7 +5848,8 @@
     skos:broader :N704040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704047" ;
-    skos:prefLabel "Kirchweih"@de .
+    skos:prefLabel "Kirchweih"@de ;
+    skos:exactMatch gnd:4163960-1, wd:Q11706236 .
 
 :N704060
     a skos:Concept ;
@@ -5795,7 +5880,8 @@
     skos:broader :N704000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704070" ;
-    skos:prefLabel "Schützenwesen"@de .
+    skos:prefLabel "Schützenwesen"@de ;
+    skos:exactMatch gnd:4053427-3 .
 
 :N704080
     a skos:Concept ;
