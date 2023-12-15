@@ -5913,49 +5913,56 @@
     skos:narrower :N704220, :N704250, :N704260, :N704270, :N704280 ;
     skos:notation "704200" ;
     skos:prefLabel "Volkswissen. Volksglaube"@de ;
-    skos:scopeNote "Hier auch Aberglaube"@de .
+    skos:scopeNote "Hier auch Aberglaube"@de ;
+    skos:exactMatch gnd:4063834-0, wd:Q1068640 .
 
 :N704220
     a skos:Concept ;
     skos:broader :N704200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704220" ;
-    skos:prefLabel "Volksmedizin"@de .
+    skos:prefLabel "Volksmedizin"@de ;
+    skos:exactMatch gnd:4078940-8, wd:Q771035 .
 
 :N704250
     a skos:Concept ;
     skos:broader :N704200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704250" ;
-    skos:prefLabel "Wetter"@de .
+    skos:prefLabel "Wetter"@de ;
+    skos:exactMatch gnd:4065852-1, wd:Q11663 .
 
 :N704260
     a skos:Concept ;
     skos:broader :N704200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704260" ;
-    skos:prefLabel "Astrologie"@de .
+    skos:prefLabel "Astrologie"@de ;
+    skos:exactMatch gnd:4003305-3, wd:Q34362 .
 
 :N704270
     a skos:Concept ;
     skos:broader :N704200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704270" ;
-    skos:prefLabel "Wahrsagen"@de .
+    skos:prefLabel "Wahrsagen"@de ;
+    skos:exactMatch gnd:4079012-5, wd:Q1043197 .
 
 :N704280
     a skos:Concept ;
     skos:broader :N704200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704280" ;
-    skos:prefLabel "Alchemie"@de .
+    skos:prefLabel "Alchemie"@de ;
+    skos:exactMatch gnd:4127921-9, wd:Q39689 .
 
 :N704400
     a skos:Concept ;
     skos:broader :N700000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704400" ;
-    skos:prefLabel "Rechtliche Volkskunde"@de .
+    skos:prefLabel "Rechtliche Volkskunde"@de ;
+    skos:exactMatch gnd:4134614-2 .
 
 :N704600
     a skos:Concept ;
@@ -5963,7 +5970,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N704620 ;
     skos:notation "704600" ;
-    skos:prefLabel "Religiöse Volkskunde"@de .
+    skos:prefLabel "Religiöse Volkskunde"@de ;
+    skos:exactMatch gnd:4177721-9 .
 
 :N704620
     a skos:Concept ;
@@ -5971,7 +5979,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N704624, :N704626 ;
     skos:notation "704620" ;
-    skos:prefLabel "Volksfrömmigkeit"@de .
+    skos:prefLabel "Volksfrömmigkeit"@de ;
+    skos:exactMatch gnd:4121880-2, wd:Q2531916 .
 
 :N704624
     a skos:Concept ;
@@ -5994,21 +6003,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N706020, :N706030, :N706040, :N706050, :N706060, :N706070, :N706080, :N706090 ;
     skos:notation "706000" ;
-    skos:prefLabel "Volksliteratur"@de .
+    skos:prefLabel "Volksliteratur"@de ;
+    skos:exactMatch gnd:4135284-1, wd:Q986539 .
 
 :N706020
     a skos:Concept ;
     skos:broader :N706000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706020" ;
-    skos:prefLabel "Volksbücher"@de .
+    skos:prefLabel "Volksbücher"@de ;
+    skos:closeMatch gnd:4063815-7, wd:Q2558308 .
 
 :N706030
     a skos:Concept ;
     skos:broader :N706000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706030" ;
-    skos:prefLabel "Volkserzählungen"@de .
+    skos:prefLabel "Volkserzählungen"@de ;
+    skos:exactMatch gnd:4136947-6, wd:Q1221280 .
 
 :N706040
     a skos:Concept ;
@@ -6024,21 +6036,24 @@
     skos:broader :N706040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706041" ;
-    skos:prefLabel "Märchen"@de .
+    skos:prefLabel "Märchen"@de ;
+    skos:exactMatch gnd:4036910-9, wd:Q42402646 .
 
 :N706042
     a skos:Concept ;
     skos:broader :N706040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706042" ;
-    skos:prefLabel "Sagen"@de .
+    skos:prefLabel "Sagen"@de ;
+    skos:exactMatch gnd:4051288-5, wd:Q858157 .
 
 :N706043
     a skos:Concept ;
     skos:broader :N706040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706043" ;
-    skos:prefLabel "Legenden"@de .
+    skos:prefLabel "Legenden"@de ;
+    skos:exactMatch gnd:4035028-9, wd:Q44342 .
 
 :N706050
     a skos:Concept ;
@@ -6049,7 +6064,7 @@
     skos:prefLabel "Schwänke"@de ;
     skos:altLabel "Schwankdichtung"@de ;
     skos:definition "volksnahe Erzählung, lustiger Einfall"@de ;
-    skos:exactMatch wd:Q11871, gnd:4053736-5 .
+    skos:exactMatch gnd:4053736-5, wd:Q11871 .
 
 :N706052
     a skos:Concept ;
@@ -6058,28 +6073,31 @@
     skos:notation "706052" ;
     skos:prefLabel "Witz"@de ;
     skos:definition "Literaturgattung, die das Gegenüber belustigen soll"@de ;
-    skos:exactMatch wd:Q131138, gnd:4066680-3 .
+    skos:exactMatch gnd:4066680-3, wd:Q131138 .
 
 :N706060
     a skos:Concept ;
     skos:broader :N706000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706060" ;
-    skos:prefLabel "Sprichwörter"@de .
+    skos:prefLabel "Sprichwörter"@de ;
+    skos:exactMatch gnd:4056550-6, wd:Q35102 .
 
 :N706070
     a skos:Concept ;
     skos:broader :N706000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706070" ;
-    skos:prefLabel "Inschriften"@de .
+    skos:prefLabel "Inschriften"@de ;
+    skos:exactMatch gnd:4027107-9, wd:Q1640824 .
 
 :N706080
     a skos:Concept ;
     skos:broader :N706000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706080" ;
-    skos:prefLabel "Rätsel"@de .
+    skos:prefLabel "Rätsel"@de ;
+    skos:exactMatch gnd:4048267-4, wd:Q47054 .
 
 :N706090
     a skos:Concept ;
@@ -6087,7 +6105,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706090" ;
     skos:prefLabel "Mundartliteratur"@de ;
-    skos:scopeNote "S.a. [Mundarten](#N744000)"@de .
+    skos:scopeNote "S.a. [Mundarten](#N744000)"@de ;
+    skos:exactMatch gnd:4129655-2, wd:Q1208422 .
 
 :N706200
     a skos:Concept ;
@@ -6103,7 +6122,8 @@
     skos:broader :N706200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706210" ;
-    skos:prefLabel "Volksmusik"@de .
+    skos:prefLabel "Volksmusik"@de ;
+    skos:exactMatch gnd:4063854-6, wd:Q235858 .
 
 :N706220
     a skos:Concept ;
@@ -6111,21 +6131,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706220" ;
     skos:prefLabel "Musikinstrumente"@de ;
-    skos:scopeNote "Im Bereich Musik s. [Musikinstrumente](#N828000)"@de .
+    skos:scopeNote "Im Bereich Musik s. [Musikinstrumente](#N828000)"@de ;
+    skos:exactMatch gnd:4117397-1 .
 
 :N706230
     a skos:Concept ;
     skos:broader :N706200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706230" ;
-    skos:prefLabel "Volkslied"@de .
+    skos:prefLabel "Volkslied"@de ;
+    skos:exactMatch gnd:4063852-2, wd:Q943929 .
 
 :N706240
     a skos:Concept ;
     skos:broader :N706200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706240" ;
-    skos:prefLabel "Volkstanz"@de .
+    skos:prefLabel "Volkstanz"@de ;
+    skos:exactMatch gnd:4063869-8, wd:Q201022 .
 
 :N708000
     a skos:Concept ;
@@ -6142,7 +6165,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N708024, :N708028, :N708029 ;
     skos:notation "708020" ;
-    skos:prefLabel "Hausformen"@de .
+    skos:prefLabel "Hausformen"@de ;
+    skos:exactMatch gnd:4159243-8 .
 
 :N708024
     a skos:Concept ;
@@ -6150,7 +6174,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708024" ;
     skos:prefLabel "Bürgerhäuser"@de ;
-    skos:scopeNote "S.a. [Wohnhäuser](#N843060)"@de .
+    skos:scopeNote "S.a. [Wohnhäuser](#N843060)"@de ;
+    skos:exactMatch gnd:4008773-6, wd:Q1021106 .
 
 :N708028
     a skos:Concept ;
@@ -6158,7 +6183,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708028" ;
     skos:prefLabel "Bauernhäuser"@de ;
-    skos:scopeNote "Volkskundlicher Aspekt; Für Architektur s.a. [Bauernhäuser](#N843050), [Hofgeschichte](#N544030)"@de .
+    skos:scopeNote "Volkskundlicher Aspekt; Für Architektur s.a. [Bauernhäuser](#N843050), [Hofgeschichte](#N544030)"@de ;
+    skos:exactMatch gnd:4004768-4, wd:Q489357 .
 
 :N708029
     a skos:Concept ;
@@ -6166,7 +6192,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708029" ;
     skos:prefLabel "Sonstige Landwirtschaftliche Gebäude. Mühlen"@de ;
-    skos:scopeNote "Freie SW: Wirtschaftsgebäude; Mühle"@de .
+    skos:scopeNote "Freie SW: Wirtschaftsgebäude; Mühle"@de ;
+    skos:exactMatch gnd:4040457-2, wd:Q44494 .
 
 :N708030
     a skos:Concept ;
@@ -6174,14 +6201,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708030" ;
     skos:prefLabel "Hausrat"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Hausrat](#N849060)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Hausrat](#N849060)"@de ;
+    skos:exactMatch gnd:4132060-8, wd:Q59679273 .
 
 :N708040
     a skos:Concept ;
     skos:broader :N708000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708040" ;
-    skos:prefLabel "Geräte"@de .
+    skos:prefLabel "Geräte"@de ;
+    skos:exactMatch gnd:4020299-9, wd:Q1183543 .
 
 :N708050
     a skos:Concept ;
