@@ -6218,7 +6218,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708050" ;
     skos:prefLabel "Spielzeug. Spiele"@de ;
-    skos:scopeNote "Freie SW: Spielzeug; Spiel"@de.
+    skos:scopeNote "Freie SW: Spielzeug; Spiel"@de ;
+    skos:exactMatch gnd:4056248-7, gnd:4056218-9, wd:Q11422, wd:Q11410 .
 
 :N708060
     a skos:Concept ;
@@ -6226,7 +6227,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708060" ;
     skos:prefLabel "Nahrung"@de ;
-    skos:scopeNote "Hier auch Kochbücher"@de .
+    skos:scopeNote "Hier auch Kochbücher"@de ;
+    skos:exactMatch gnd:4171117-8, wd:Q1422299 .
 
 :N708200
     a skos:Concept ;
@@ -6236,21 +6238,23 @@
     skos:notation "708200" ;
     skos:prefLabel "Volkskunst"@de ;
     skos:definition "Kunst, die von indigenen Völker, Bauern und anderen Gruppen produziert wird"@de ;
-    skos:exactMatch wd:Q1153484, gnd:4063851-0 .
+    skos:exactMatch gnd:4063851-0, wd:Q1153484 .
 
 :N708220
     a skos:Concept ;
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708220" ;
-    skos:prefLabel "Holzbearbeitung"@de .
+    skos:prefLabel "Holzbearbeitung"@de ;
+    skos:exactMatch gnd:4025684-4, wd:Q1609891 .
 
 :N708230
     a skos:Concept ;
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708230" ;
-    skos:prefLabel "Bilder. Malerei"@de .
+    skos:prefLabel "Bilder. Malerei"@de ;
+    skos:exactMatch gnd:4006568-6 , gnd:4037220-0, wd:Q11629 .
 
 :N708250
     a skos:Concept ;
@@ -6258,21 +6262,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708250" ;
     skos:prefLabel "Keramik"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Keramik](#N849040)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Keramik](#N849040)"@de ;
+    skos:exactMatch gnd:4030270-2, wd:Q4219484 .
 
 :N708260
     a skos:Concept ;
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708260" ;
-    skos:prefLabel "Steinbearbeitung"@de .
+    skos:prefLabel "Steinbearbeitung"@de ;
+    skos:exactMatch gnd:4256435-9 .
 
 :N708270
     a skos:Concept ;
     skos:broader :N708200 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708270" ;
-    skos:prefLabel "Metallbearbeitung"@de .
+    skos:prefLabel "Metallbearbeitung"@de ;
+    skos:exactMatch gnd:4038872-4 .
 
 :N708280
     a skos:Concept ;
@@ -6280,7 +6287,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708280" ;
     skos:prefLabel "Glas"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Glas](#N849056)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Glas](#N849056)"@de ;
+    skos:exactMatch gnd:4021142-3, wd:Q11469 .
 
 :N708290
     a skos:Concept ;
@@ -6288,7 +6296,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708290" ;
     skos:prefLabel "Textilien"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Textilkunst. Mode](#N849082)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Textilkunst. Mode](#N849082)"@de ;
+    skos:exactMatch gnd:4059615-1 .
 
 :N708400
     a skos:Concept ;
@@ -6304,14 +6313,16 @@
     skos:broader :N708400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708410" ;
-    skos:prefLabel "Kleidung"@de .
+    skos:prefLabel "Kleidung"@de ;
+    skos:exactMatch gnd:4031011-5, wd:Q11460 .
 
 :N708430
     a skos:Concept ;
     skos:broader :N708400 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708430" ;
-    skos:prefLabel "Tracht"@de .
+    skos:prefLabel "Tracht"@de ;
+    skos:exactMatch gnd:4060554-1, wd:Q3172759 .
 
 :N708450
     a skos:Concept ;
@@ -6319,7 +6330,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708450" ;
     skos:prefLabel "Schmuck"@de ;
-    skos:scopeNote "Im Bereich Kunsthandwerk s. [Gold- und Silberschmiedekunst. Schmuck](#N849020)"@de .
+    skos:scopeNote "Im Bereich Kunsthandwerk s. [Gold- und Silberschmiedekunst. Schmuck](#N849020)"@de ;
+    skos:exactMatch gnd:4052945-9, wd:Q2142903 .
 
 :N720000
     a skos:Concept ;
@@ -6335,7 +6347,8 @@
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "720100" ;
-    skos:prefLabel "Gesellschaft - Allgemeines"@de .
+    skos:prefLabel "Gesellschaft - Allgemeines"@de ;
+    skos:exactMatch gnd:4020588-5, wd:Q8425 .
 
 :N722000
     a skos:Concept ;
@@ -6343,14 +6356,18 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "722000" ;
     skos:prefLabel "Sozialgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn sozialer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:altLabel "Gesellschaftsgeschichte"@de ;
+    skos:scopeNote "Verwenden, wenn sozialer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:4055772-8, wd:Q908604 .
 
 :N723000
     a skos:Concept ;
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "723000" ;
-    skos:prefLabel "Soziales System"@de .
+    skos:prefLabel "Soziales System"@de ;
+    skos:altLabel "Gesellschaftssystem"@de ;
+    skos:exactMatch gnd:4055764-9 .
 
 :N724000
     a skos:Concept ;
@@ -6359,42 +6376,49 @@
     skos:narrower :N724020, :N724030, :N724040, :N724050, :N724060, :N724070 ;
     skos:notation "724000" ;
     skos:prefLabel "Sozialstruktur"@de ;
-    skos:scopeNote "Schichten, soziale Netze; s.a. [Bevölkerungsstruktur](#N503000)"@de .
+    skos:scopeNote "Schichten, soziale Netze; s.a. [Bevölkerungsstruktur](#N503000)"@de ;
+    skos:exactMatch gnd:4055898-8, wd:Q211606 .
 
 :N724020
     a skos:Concept ;
     skos:broader :N724000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724020" ;
-    skos:prefLabel "Kinder"@de .
+    skos:prefLabel "Kinder"@de ;
+    skos:altLabel "Kindheit"@de ;
+    skos:exactMatch gnd:4030550-8, wd:Q276258 .
 
 :N724030
     a skos:Concept ;
     skos:broader :N724000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724030" ;
-    skos:prefLabel "Jugend"@de .
+    skos:prefLabel "Jugend"@de ;
+    skos:exactMatch gnd:4028859-6, wd:Q190007 .
 
 :N724040
     a skos:Concept ;
     skos:broader :N724000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724040" ;
-    skos:prefLabel "Frauen"@de .
+    skos:prefLabel "Frauen"@de ;
+    skos:exactMatch gnd:4018202-2, wd:Q467 .
 
 :N724050
     a skos:Concept ;
     skos:broader :N724000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724050" ;
-    skos:prefLabel "Männer"@de .
+    skos:prefLabel "Männer"@de ;
+    skos:exactMatch gnd:4037363-0, wd:Q8441 .
 
 :N724060
     a skos:Concept ;
     skos:broader :N724000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724060" ;
-    skos:prefLabel "Alter"@de .
+    skos:prefLabel "Alter"@de ;
+    skos:exactMatch gnd:4001446-0 .
 
 :N724070
     a skos:Concept ;
@@ -6402,7 +6426,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "724070" ;
     skos:prefLabel "Originale"@de ;
-    skos:scopeNote "Bezieht sich auf Personen"@de .
+    skos:scopeNote "Bezieht sich auf Personen"@de ;
+    skos:exactMatch gnd:4172833-6 .
 
 :N725000
     a skos:Concept ;
@@ -6410,7 +6435,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N725010, :N725020, :N725030, :N725040, :N725050, :N725060, :N725070, :N725080 ;
     skos:notation "725000" ;
-    skos:prefLabel "Soziale Gruppen"@de .
+    skos:prefLabel "Soziale Gruppen"@de ;
+    skos:exactMatch gnd:4022378-4, wd:Q874405 .
 
 :N725010
     a skos:Concept ;
@@ -6418,21 +6444,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725010" ;
     skos:prefLabel "Familie"@de ;
-    skos:scopeNote "Hier auch familienähnliche Lebensgemeinschaften"@de .
+    skos:scopeNote "Hier auch familienähnliche Lebensgemeinschaften"@de ;
+    skos:exactMatch gnd:4016397-0, wd:Q8436 .
 
 :N725020
     a skos:Concept ;
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725020" ;
-    skos:prefLabel "Nachbarschaft"@de .
+    skos:prefLabel "Nachbarschaft"@de ;
+    skos:exactMatch gnd:4041030-4 .
 
 :N725030
     a skos:Concept ;
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725030" ;
-    skos:prefLabel "Dorfgemeinschaft"@de .
+    skos:prefLabel "Dorfgemeinschaft"@de ;
+    skos:exactMatch gnd:4131004-4 .
 
 :N725040
     a skos:Concept ;
@@ -6448,7 +6477,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725050" ;
     skos:prefLabel "Vereine. Interessenverbände"@de ;
-    skos:scopeNote "Zur Geselligkeitspflege, soziale Interessen, Freizeitvereine; Im Unterschied zu [Interessenverbände](#N406230); Freie SW: Verein; Interessenverband; S.a. [Sportvereine](#N736050), [Schützenwesen](#N704070)"@de .
+    skos:scopeNote "Geselligkeitspflege, soziale Interessen, Freizeitvereine; Im Unterschied zu [Interessenverbände](#N406230); Freie SW: Verein; Interessenverband; S.a. [Sportvereine](#N736050), [Schützenwesen](#N704070)"@de ;
+    skos:exactMatch gnd:4062714-7, gnd:4027286-2, wd:Q48204, wd:Q1666019 .
 
 :N725060
     a skos:Concept ;
@@ -6456,7 +6486,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725060" ;
     skos:prefLabel "Minderheiten. Randgruppen"@de ;
-    skos:scopeNote "Minderheit bzw. Randgruppe frei verschlagworten"@de .
+    skos:scopeNote "Minderheit bzw. Randgruppe frei verschlagworten"@de ;
+    skos:exactMatch gnd:4752223-9, gnd:4048390-3, wd:Q30103 .
 
 :N725070
     a skos:Concept ;
@@ -6464,28 +6495,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725070" ;
     skos:prefLabel "Ausländer"@de ;
-    skos:scopeNote "Hier auch Lit. zu Asylbewerbern bzw. -berechtigten"@de .
+    skos:scopeNote "Hier auch Lit. zu Asylbewerbern bzw. -berechtigten"@de ;
+    skos:exactMatch gnd:4003725-3, wd:Q473741 .
 
 :N725080
     a skos:Concept ;
     skos:broader :N725000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725080" ;
-    skos:prefLabel "Behinderte"@de .
+    skos:prefLabel "Behinderte"@de ;
+    skos:exactMatch gnd:4005279-5, wd:Q15978181 .
 
 :N726000
     a skos:Concept ;
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "726000" ;
-    skos:prefLabel "Sozialer Wandel"@de .
+    skos:prefLabel "Sozialer Wandel"@de ;
+    skos:exactMatch gnd:4077587-2 .
 
 :N729000
     a skos:Concept ;
     skos:broader :N720000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "729000" ;
-    skos:prefLabel "Sexualität"@de .
+    skos:prefLabel "Sexualität"@de ;
+    skos:exactMatch gnd:4054684-6 .
 
 :N730000
     a skos:Concept ;
@@ -6508,7 +6543,8 @@
     skos:broader :N730000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "731000" ;
-    skos:prefLabel "Kulturpolitik"@de .
+    skos:prefLabel "Kulturpolitik"@de ;
+    skos:exactMatch gnd:4033581-1, wd:Q1711347 .
 
 :N732000
     a skos:Concept ;
@@ -6516,7 +6552,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "732000" ;
     skos:prefLabel "Kulturgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn kultureller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn kultureller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503708-7, wd:Q858517 .
 
 :N733000
     a skos:Concept ;
@@ -6525,21 +6562,24 @@
     skos:narrower :N733030, :N733050 ;
     skos:notation "733000" ;
     skos:prefLabel "Zeitgenössisches Kulturleben"@de ;
-    skos:example "Kulturförderung, Vereine"@de .
+    skos:scopeNote "Verwenden für Kulturförderung, Vereine"@de ;
+    skos:closeMatch gnd:4126540-3 .
 
 :N733030
     a skos:Concept ;
     skos:broader :N733000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "733030" ;
-    skos:prefLabel "Kulturveranstaltungen"@de .
+    skos:prefLabel "Kulturveranstaltungen"@de ;
+    skos:exactMatch gnd:4387112-4, wd:Q58687420 .
 
 :N733050
     a skos:Concept ;
     skos:broader :N733000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "733050" ;
-    skos:prefLabel "Kulturpreise"@de .
+    skos:prefLabel "Kulturpreise"@de ;
+    skos:exactMatch gnd:4136844-7, wd:Q15383322 .
 
 :N734000
     a skos:Concept ;
@@ -6547,7 +6587,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "734000" ;
     skos:prefLabel "Feiern und Feste"@de ;
-    skos:scopeNote "Freie SW: z.B. Volksfest"@de .
+    skos:scopeNote "Freie SW: z.B. Volksfest"@de ;
+    skos:exactMatch gnd:4016628-4, gnd:4121260-5, wd:Q200538 .
 
 :N735000
     a skos:Concept ;
@@ -6562,14 +6603,16 @@
     skos:broader :N735000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "735020" ;
-    skos:prefLabel "Freizeiteinrichtungen"@de .
+    skos:prefLabel "Freizeiteinrichtungen"@de ;
+    skos:exactMatch gnd:4018391-9 .
 
 :N735040
     a skos:Concept ;
     skos:broader :N735000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "735040" ;
-    skos:prefLabel "Freizeitgestaltung"@de .
+    skos:prefLabel "Freizeitgestaltung"@de ;
+    skos:exactMatch gnd:4071453-6 .
 
 :N735090
     a skos:Concept ;
@@ -6599,7 +6642,8 @@
     skos:broader :N736000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "736050" ;
-    skos:prefLabel "Sportvereine"@de .
+    skos:prefLabel "Sportvereine"@de ;
+    skos:exactMatch gnd:4056433-2, wd:Q847017 .
 
 :N740000
     a skos:Concept ;
@@ -6615,7 +6659,8 @@
     skos:broader :N740000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "740100" ;
-    skos:prefLabel "Sprache - Allgemeines"@de .
+    skos:prefLabel "Sprache - Allgemeines"@de ;
+    skos:exactMatch gnd:4056449-6, wd:Q315 .
 
 :N742000
     a skos:Concept ;
@@ -6623,7 +6668,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "742000" ;
     skos:prefLabel "Sprachgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn sprachlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn sprachlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7504210-1 .
 
 :N744000
     a skos:Concept ;
@@ -6634,7 +6680,7 @@
     skos:altLabel "Dialekte"@de ;
     skos:definition "Lokale oder regionale Sprachvarietät"@de ;
     skos:scopeNote "Mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](#N706090)"@de ;
-    skos:exactMatch wd:Q33384, gnd:4040725-1 .
+    skos:exactMatch gnd:4040725-1, wd:Q33384 .
 
 :N745000
     a skos:Concept ;
@@ -6651,14 +6697,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N746020, :N746030, :N746040, :N746050, :N746060 ;
     skos:notation "746000" ;
-    skos:prefLabel "Namenkunde"@de .
+    skos:prefLabel "Namenkunde"@de ;
+    skos:altLabel "Onomastik, Onomatologie, Namensforschung, Namenskunde"@de ;
+    skos:exactMatch gnd:4075199-5, wd:Q175156 .
 
 :N746020
     a skos:Concept ;
     skos:broader :N746000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746020" ;
-    skos:prefLabel "Personennamen"@de .
+    skos:prefLabel "Personennamen"@de ;
+    skos:exactMatch gnd:4045285-2, wd:Q1071027 .
 
 :N746030
     a skos:Concept ;
@@ -6674,14 +6723,16 @@
     skos:broader :N746030 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746032" ;
-    skos:prefLabel "Hausnamen"@de .
+    skos:prefLabel "Hausnamen"@de ;
+    skos:exactMatch gnd:4128430-6, wd:Q358378 .
 
 :N746034
     a skos:Concept ;
     skos:broader :N746030 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746034" ;
-    skos:prefLabel "Hofnamen"@de .
+    skos:prefLabel "Hofnamen"@de ;
+    skos:exactMatch gnd:4280568-5 .
 
 :N746040
     a skos:Concept ;
@@ -6690,56 +6741,65 @@
     skos:narrower :N746042, :N746043, :N746044, :N746045, :N746046 ;
     skos:notation "746040" ;
     skos:prefLabel "Geographische Namen"@de ;
-    skos:scopeNote "S.a. untergeordnete Notationen"@de .
+    skos:altLabel "Toponym, Geoname"@de ;
+    skos:scopeNote "S.a. untergeordnete Notationen"@de ;
+    skos:exactMatch gnd:4130377-5, wd:Q7884789 .
 
 :N746042
     a skos:Concept ;
     skos:broader :N746040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746042" ;
-    skos:prefLabel "Ortsnamen"@de .
+    skos:prefLabel "Ortsnamen"@de ;
+    skos:exactMatch gnd:4043950-1, wd:Q1292091 .
 
 :N746043
     a skos:Concept ;
     skos:broader :N746040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746043" ;
-    skos:prefLabel "Straßennamen"@de .
+    skos:prefLabel "Straßennamen"@de ;
+    skos:exactMatch gnd:4057910-4 .
 
 :N746044
     a skos:Concept ;
     skos:broader :N746040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746044" ;
-    skos:prefLabel "Flurnamen"@de .
+    skos:prefLabel "Flurnamen"@de ;
+    skos:exactMatch gnd:4017725-7, wd:Q1434274 .
 
 :N746045
     a skos:Concept ;
     skos:broader :N746040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746045" ;
-    skos:prefLabel "Bergnamen"@de .
+    skos:prefLabel "Bergnamen"@de ;
+    skos:exactMatch gnd:4144652-5, wd:Q1514879 .
 
 :N746046
     a skos:Concept ;
     skos:broader :N746040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746046" ;
-    skos:prefLabel "Gewässernamen"@de .
+    skos:prefLabel "Gewässernamen"@de ;
+    skos:exactMatch gnd:4131350-1, wd:Q932103 .
 
 :N746050
     a skos:Concept ;
     skos:broader :N746000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746050" ;
-    skos:prefLabel "Tiernamen"@de .
+    skos:prefLabel "Tiernamen"@de ;
+    skos:exactMatch gnd:4125619-0 .
 
 :N746060
     a skos:Concept ;
     skos:broader :N746000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "746060" ;
-    skos:prefLabel "Pflanzennamen"@de .
+    skos:prefLabel "Pflanzennamen"@de ;
+    skos:exactMatch gnd:4045573-7 .
 
 :N747000
     a skos:Concept ;
@@ -6747,28 +6807,34 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N747010, :N747020, :N747030, :N747060 ;
     skos:notation "747000" ;
-    skos:prefLabel "Soziolinguistik"@de .
+    skos:prefLabel "Soziolinguistik"@de ;
+    skos:altLabel "Sprachsoziologie"@de ;
+    skos:definition "Wissenschaft von der Sprache im Zusammenhang mit Gesellschaft, Politik und Kultur"@de ;
+    skos:exactMatch gnd:4077623-2, wd:Q160845 .
 
 :N747010
     a skos:Concept ;
     skos:broader :N747000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "747010" ;
-    skos:prefLabel "Umgangssprache"@de .
+    skos:prefLabel "Umgangssprache"@de ;
+    skos:exactMatch gnd:4061588-1, wd:Q901711 .
 
 :N747020
     a skos:Concept ;
     skos:broader :N747000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "747020" ;
-    skos:prefLabel "Geheimsprachen"@de .
+    skos:prefLabel "Geheimsprachen"@de ;
+    skos:exactMatch gnd:4156318-9 .
 
 :N747030
     a skos:Concept ;
     skos:broader :N747000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "747030" ;
-    skos:prefLabel "Fachsprachen"@de .
+    skos:prefLabel "Fachsprachen"@de ;
+    skos:exactMatch gnd:4016216-3, wd:Q1391494 .
 
 :N747060
     a skos:Concept ;
@@ -6776,7 +6842,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "747060" ;
     skos:prefLabel "Sprachpflege"@de ;
-    skos:scopeNote "Hier auch Lit. zu Sprachunterricht"@de .
+    skos:altLabel "Sprachkultur"@de ;
+    skos:scopeNote "Hier auch Lit. zu Sprachunterricht"@de ;
+    skos:exactMatch gnd:4056484-8, wd:Q732898 .
 
 :N760000
     a skos:Concept ;
@@ -6792,7 +6860,8 @@
     skos:broader :N760000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "760100" ;
-    skos:prefLabel "Literatur - Allgemeines"@de .
+    skos:prefLabel "Literatur - Allgemeines"@de ;
+    skos:exactMatch gnd:4035964-5, wd:Q8242 .
 
 :N761000
     a skos:Concept ;
@@ -6800,14 +6869,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N761020, :N761050 ;
     skos:notation "761000" ;
-    skos:prefLabel "Literaturwissenschaft"@de .
+    skos:prefLabel "Literaturwissenschaft"@de ;
+    skos:exactMatch gnd:4036034-9, wd:Q208217 .
 
 :N761020
     a skos:Concept ;
     skos:broader :N761000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "761020" ;
-    skos:prefLabel "Regionalliteratur"@de .
+    skos:prefLabel "Regionalliteratur"@de ;
+    skos:exactMatch gnd:4177428-0 .
 
 :N761050
     a skos:Concept ;
@@ -6822,7 +6893,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "762000" ;
     skos:prefLabel "Literaturgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Literaturaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Literaturaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503748-8, wd:Q6497044 .
 
 :N766000
     a skos:Concept ;
@@ -6830,14 +6902,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N766030, :N766050, :N766060 ;
     skos:notation "766000" ;
-    skos:prefLabel "Literatursoziologie"@de .
+    skos:prefLabel "Literatursoziologie"@de ;
+    skos:exactMatch gnd:4167885-0, wd:Q440848 .
 
 :N766030
     a skos:Concept ;
     skos:broader :N766000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "766030" ;
-    skos:prefLabel "Leser"@de .
+    skos:prefLabel "Leser"@de ;
+    skos:altLabel "Lesepublikum, Leserschaft"@de ;
+    skos:exactMatch gnd:4035441-6, gnd:4202554-0  .
 
 :N766050
     a skos:Concept ;
@@ -6846,28 +6921,32 @@
     skos:narrower :N766051, :N766052 ;
     skos:notation "766050" ;
     skos:prefLabel "Literaturförderung"@de ;
-    skos:scopeNote "Literarische Vereine, Gesellschaften"@de .
+    skos:scopeNote "Literarische Vereine, Gesellschaften"@de ;
+    skos:exactMatch gnd:4167872-2 .
 
 :N766051
     a skos:Concept ;
     skos:broader :N766050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "766051" ;
-    skos:prefLabel "Literaturpreise"@de .
+    skos:prefLabel "Literaturpreise"@de ;
+    skos:exactMatch gnd:4167880-1, wd:Q378427 .
 
 :N766052
     a skos:Concept ;
     skos:broader :N766050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "766052" ;
-    skos:prefLabel "Literaturwettbewerbe"@de .
+    skos:prefLabel "Literaturwettbewerbe"@de ;
+    skos:exactMatch gnd:4445374-7 .
 
 :N766060
     a skos:Concept ;
     skos:broader :N766000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "766060" ;
-    skos:prefLabel "Literaturausstellungen"@de .
+    skos:prefLabel "Literaturausstellungen"@de ;
+    skos:exactMatch gnd:4265221-2 .
 
 :N767000
     a skos:Concept ;
@@ -6875,14 +6954,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N767040 ;
     skos:notation "767000" ;
-    skos:prefLabel "Literarische Texte"@de .
+    skos:prefLabel "Literarische Texte"@de ;
+    skos:exactMatch gnd:4167851-5 .
 
 :N767040
     a skos:Concept ;
     skos:broader :N767000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "767040" ;
-    skos:prefLabel "Anthologien"@de .
+    skos:prefLabel "Anthologien"@de ;
+    skos:definition "Sammlung von überwiegend belletristischen Texten sowie von Volkserzählungen (Sagen, Märchen, Legenden) (RDA AH-007)"@de ;
+    skos:exactMatch gnd:4002214-6, wd:Q105420 .
 
 :N768000
     a skos:Concept ;
@@ -6890,7 +6972,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N768010, :N768030 ;
     skos:notation "768000" ;
-    skos:prefLabel "Schriftsteller"@de .
+    skos:prefLabel "Schriftsteller"@de ;
+    skos:exactMatch gnd:4053309-8, gnd:4053311-6, wd:Q36180 .
 
 :N768010
     a skos:Concept ;
@@ -6913,35 +6996,41 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N769020, :N769030, :N769040, :N769050 ;
     skos:notation "769000" ;
-    skos:prefLabel "Literaturgattungen"@de .
+    skos:prefLabel "Literaturgattungen"@de ;
+    skos:exactMatch gnd:4074285-4, wd:Q223393 .
 
 :N769020
     a skos:Concept ;
     skos:broader :N769000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "769020" ;
-    skos:prefLabel "Lyrik"@de .
+    skos:prefLabel "Lyrik"@de ;
+    skos:altLabel "Dichtung"@de ;
+    skos:exactMatch gnd:4226367-0, wd:Q482 .
 
 :N769030
     a skos:Concept ;
     skos:broader :N769000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "769030" ;
-    skos:prefLabel "Drama"@de .
+    skos:prefLabel "Drama"@de ;
+    skos:exactMatch gnd:4012899-4, wd:Q25372 .
 
 :N769040
     a skos:Concept ;
     skos:broader :N769000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "769040" ;
-    skos:prefLabel "Epik"@de .
+    skos:prefLabel "Epik"@de ;
+    skos:exactMatch gnd:4015025-2, wd:Q1097273 .
 
 :N769050
     a skos:Concept ;
     skos:broader :N769000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "769050" ;
-    skos:prefLabel "Kurzepik"@de .
+    skos:prefLabel "Kurzepik"@de ;
+    skos:exactMatch gnd:4129548-1 .
 
 :N780000
     a skos:Concept ;
@@ -6964,21 +7053,24 @@
     skos:broader :N780000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "781000" ;
-    skos:prefLabel "Bildungspolitik"@de .
+    skos:prefLabel "Bildungspolitik"@de ;
+    skos:exactMatch gnd:4006667-8, wd:Q452348 .
 
 :N782000
     a skos:Concept ;
     skos:broader :N780000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "782000" ;
-    skos:prefLabel "Erziehung"@de .
+    skos:prefLabel "Erziehung"@de ;
+    skos:exactMatch gnd:4015482-8, wd:Q1217379 .
 
 :N782500
     a skos:Concept ;
     skos:broader :N780000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "782500" ;
-    skos:prefLabel "Vorschulerziehung"@de .
+    skos:prefLabel "Vorschulerziehung"@de ;
+    skos:exactMatch gnd:4064016-4, wd:Q104587761 .
 
 :N783000
     a skos:Concept ;
@@ -6994,7 +7086,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784010, :N784020, :N784030, :N784040, :N784050, :N784060, :N784070, :N784080, :N784090 ;
     skos:notation "784000" ;
-    skos:prefLabel "Allgemeinbildende Schulen"@de .
+    skos:prefLabel "Allgemeinbildende Schulen"@de ;
+    skos:exactMatch gnd:4136533-1, wd:Q2648750 .
 
 :N784010
     a skos:Concept ;
@@ -7002,21 +7095,25 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784012, :N784014 ;
     skos:notation "784010" ;
-    skos:prefLabel "Schulpolitik"@de .
+    skos:prefLabel "Schulpolitik"@de ;
+    skos:exactMatch gnd:4053532-0, wd:Q59262085 .
 
 :N784012
     a skos:Concept ;
     skos:broader :N784010 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784012" ;
-    skos:prefLabel "Schulreformen"@de .
+    skos:prefLabel "Schulreformen"@de ;
+    skos:exactMatch gnd:4053539-3, wd:Q2251438 .
 
 :N784014
     a skos:Concept ;
     skos:broader :N784010 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784014" ;
-    skos:prefLabel "Schulversuche"@de .
+    skos:prefLabel "Schulversuche"@de ;
+    skos:altLabel "Laborschule, Schulmodell, Versuchsschule"@de ;
+    skos:exactMatch gnd:4116429-5 .
 
 :N784020
     a skos:Concept ;
@@ -7024,21 +7121,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784025 ;
     skos:notation "784020" ;
-    skos:prefLabel "Schulrecht"@de .
+    skos:prefLabel "Schulrecht"@de ;
+    skos:exactMatch gnd:4053538-1, wd:Q2251446 .
 
 :N784025
     a skos:Concept ;
     skos:broader :N784020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784025" ;
-    skos:prefLabel "Elternvertretung"@de .
+    skos:prefLabel "Elternvertretung"@de ;
+    skos:exactMatch gnd:4014532-3 .
 
 :N784030
     a skos:Concept ;
     skos:broader :N784000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784030" ;
-    skos:prefLabel "Schulverwaltung"@de .
+    skos:prefLabel "Schulverwaltung"@de ;
+    skos:exactMatch gnd:4053588-5 .
 
 :N784040
     a skos:Concept ;
@@ -7053,49 +7153,57 @@
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784041" ;
-    skos:prefLabel "Grundschulen"@de .
+    skos:prefLabel "Grundschulen"@de ;
+    skos:exactMatch gnd:4022349-8, wd:Q9842 .
 
 :N784042
     a skos:Concept ;
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784042" ;
-    skos:prefLabel "Hauptschulen"@de .
+    skos:prefLabel "Hauptschulen"@de ;
+    skos:exactMatch gnd:4023683-3, wd:Q675423 .
 
 :N784043
     a skos:Concept ;
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784043" ;
-    skos:prefLabel "Realschulen"@de .
+    skos:prefLabel "Realschulen"@de ;
+    skos:exactMatch gnd:4048689-8, wd:Q667471 .
 
 :N784044
     a skos:Concept ;
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784044" ;
-    skos:prefLabel "Gymnasien"@de .
+    skos:prefLabel "Gymnasien"@de ;
+    skos:exactMatch gnd:4022648-7, wd:Q55043 .
 
 :N784045
     a skos:Concept ;
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784045" ;
-    skos:prefLabel "Gesamtschulen"@de .
+    skos:prefLabel "Gesamtschulen"@de ;
+    skos:exactMatch gnd:4020463-7 .
 
 :N784046
     a skos:Concept ;
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784046" ;
-    skos:prefLabel "Kollegschulen"@de .
+    skos:prefLabel "Kollegschulen"@de ;
+    skos:definition "Zusammenschluss der gymnasialen Oberstufe mit berufsbildenden Schulen, als Versuch Kollegstufe, vom Ministerium Kollegschule genannt"@de ;
+    skos:exactMatch gnd:4073619-2 .
 
 :N784048
     a skos:Concept ;
     skos:broader :N784040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784048" ;
-    skos:prefLabel "Sonderschulen"@de .
+    skos:prefLabel "Sonderschulen"@de ;
+    skos:exactMatch gnd:4055542-2, wd:Q1110689 .
 
 :N784049
     a skos:Concept ;
@@ -7103,7 +7211,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784049" ;
     skos:prefLabel "Privatschulen"@de ;
-    skos:scopeNote "Hier auch Waldorfschulen"@de .
+    skos:scopeNote "Hier auch Waldorfschulen"@de ;
+    skos:exactMatch gnd:4130059-2, wd:Q423208 .
 
 :N784050
     a skos:Concept ;
@@ -7111,7 +7220,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784051, :N784052, :N784053, :N784054 ;
     skos:notation "784050" ;
-    skos:prefLabel "Schulstufen"@de .
+    skos:prefLabel "Schulstufen"@de ;
+    skos:definition "aufeinanderfolgenden längeren Abschnitte der Schullaufbahn (z. B. Primarstufe, Sekundarstufe, Mittelstufe)"@de ;
+    skos:exactMatch gnd:4180203-2 .
 
 :N784051
     a skos:Concept ;
@@ -7120,28 +7231,31 @@
     skos:notation "784051" ;
     skos:prefLabel "Elementarbereich"@de ;
     skos:definition "Vorschulische Förderung, Bildung und Betreuung von Kindern"@de ;
-    skos:exactMatch wd:Q1327731, gnd:4151987-5 .
+    skos:exactMatch gnd:4151987-5, wd:Q1327731 .
 
 :N784052
     a skos:Concept ;
     skos:broader :N784050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784052" ;
-    skos:prefLabel "Primarstufe"@de .
+    skos:prefLabel "Primarstufe"@de ;
+    skos:exactMatch gnd:4022349-8, wd:Q9842 .
 
 :N784053
     a skos:Concept ;
     skos:broader :N784050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784053" ;
-    skos:prefLabel "Sekundarstufe 1"@de .
+    skos:prefLabel "Sekundarstufe 1"@de ;
+    skos:exactMatch gnd:4054365-1, wd:Q2267321 .
 
 :N784054
     a skos:Concept ;
     skos:broader :N784050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784054" ;
-    skos:prefLabel "Sekundarstufe 2"@de .
+    skos:prefLabel "Sekundarstufe 2"@de ;
+    skos:exactMatch gnd:4054367-5, wd:Q1231640 .
 
 :N784060
     a skos:Concept ;
@@ -7149,28 +7263,33 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784062, :N784064, :N784066 ;
     skos:notation "784060" ;
-    skos:prefLabel "Lehrer. Pädagogen"@de .
+    skos:prefLabel "Lehrer. Pädagogen"@de ;
+    skos:exactMatch gnd:4035088-5, gnd:4035097-6, gnd:4044300-0, gnd:4135404-7, wd:Q37226, wd:Q1231865 .
 
 :N784062
     a skos:Concept ;
     skos:broader :N784060 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784062" ;
-    skos:prefLabel "Lehrerbildung"@de .
+    skos:prefLabel "Lehrerbildung"@de ;
+    skos:definition "Benutzt für die Ausbildung"@de ;
+    skos:exactMatch gnd:4035093-9, wd:Q1374230 .
 
 :N784064
     a skos:Concept ;
     skos:broader :N784060 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784064" ;
-    skos:prefLabel "Lehrerfortbildung"@de .
+    skos:prefLabel "Lehrerfortbildung"@de ;
+    skos:exactMatch gnd:4035096-4 .
 
 :N784066
     a skos:Concept ;
     skos:broader :N784060 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784066" ;
-    skos:prefLabel "Lehrerbesoldung"@de .
+    skos:prefLabel "Lehrerbesoldung"@de ;
+    skos:closeMatch gnd:4006028-7, wd:Q829986 .
 
 :N784070
     a skos:Concept ;
