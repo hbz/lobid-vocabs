@@ -7297,42 +7297,49 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784072, :N784074, :N784078 ;
     skos:notation "784070" ;
-    skos:prefLabel "Schüler"@de .
+    skos:prefLabel "Schüler"@de ;
+    skos:exactMatch gnd:4053369-4, gnd:4180040-0, wd:Q48942 .
 
 :N784072
     a skos:Concept ;
     skos:broader :N784070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784072" ;
-    skos:prefLabel "Schülermitverwaltung"@de .
+    skos:prefLabel "Schülermitverwaltung"@de ;
+    skos:altLabel "Schülerbeteiligung, Schülervertretung"@de ;
+    skos:exactMatch gnd:4180044-8, wd:Q2259825 .
 
 :N784074
     a skos:Concept ;
     skos:broader :N784070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784074" ;
-    skos:prefLabel "Schülertransport"@de .
+    skos:prefLabel "Schülertransport"@de ;
+    skos:exactMatch gnd:4180055-2, wd:Q1138413 .
 
 :N784078
     a skos:Concept ;
     skos:broader :N784070 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784078" ;
-    skos:prefLabel "Schüleraustausch"@de .
+    skos:prefLabel "Schüleraustausch"@de ;
+    skos:exactMatch gnd:4180033-3, wd:Q375471 .
 
 :N784080
     a skos:Concept ;
     skos:broader :N784000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784080" ;
-    skos:prefLabel "Unterricht"@de .
+    skos:prefLabel "Unterricht"@de ;
+    skos:exactMatch gnd:4062005-0, wd:Q352842 .
 
 :N784090
     a skos:Concept ;
     skos:broader :N784000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784090" ;
-    skos:prefLabel "Schulleben"@de .
+    skos:prefLabel "Schulleben"@de ;
+    skos:exactMatch gnd:4180172-6 .
 
 :N785000
     a skos:Concept ;
@@ -7341,42 +7348,49 @@
     skos:narrower :N785020, :N785030, :N785040, :N785050, :N785060, :N785070 ;
     skos:notation "785000" ;
     skos:prefLabel "Berufsbildende Schulen"@de ;
-    skos:scopeNote "Zur Geschichte einzelner Schulen s.a. [Schulgeschichte](#N783000)"@de .
+    skos:definition "Sammelbegriff für alle schul. Einrichtungen in öffentl. oder privater Trägerschaft, die der berufl. Aus- oder Weiterbildung dienen"@de ;
+    skos:scopeNote "Zur Geschichte einzelner Schulen s.a. [Schulgeschichte](#N783000)"@de ;
+    skos:exactMatch gnd:4069341-7, wd:Q322563 .
 
 :N785020
     a skos:Concept ;
     skos:broader :N785000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785020" ;
-    skos:prefLabel "Berufsschulen"@de .
+    skos:prefLabel "Berufsschulen"@de ;
+    skos:exactMatch gnd:4005935-2, wd:Q23005337 .
 
 :N785030
     a skos:Concept ;
     skos:broader :N785000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785030" ;
-    skos:prefLabel "Berufsaufbauschulen"@de .
+    skos:prefLabel "Berufsaufbauschulen"@de ;
+    skos:exactMatch gnd:4144736-0 .
 
 :N785040
     a skos:Concept ;
     skos:broader :N785000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785040" ;
-    skos:prefLabel "Berufsfachschulen"@de .
+    skos:prefLabel "Berufsfachschulen"@de ;
+    skos:exactMatch gnd:4125138-6, wd:Q828862 .
 
 :N785050
     a skos:Concept ;
     skos:broader :N785000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785050" ;
-    skos:prefLabel "Fachoberschulen"@de .
+    skos:prefLabel "Fachoberschulen"@de ;
+    skos:exactMatch gnd:4126216-5 .
 
 :N785060
     a skos:Concept ;
     skos:broader :N785000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785060" ;
-    skos:prefLabel "Fachschulen"@de .
+    skos:prefLabel "Fachschulen"@de ;
+    skos:exactMatch gnd:4134406-6, wd:Q1391465 .
 
 :N785070
     a skos:Concept ;
@@ -7390,14 +7404,16 @@
     skos:broader :N780000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785500" ;
-    skos:prefLabel "Berufsausbildung"@de .
+    skos:prefLabel "Berufsausbildung"@de ;
+    skos:exactMatch gnd:4005871-2, wd:Q828812 .
 
 :N786000
     a skos:Concept ;
     skos:broader :N780000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "786000" ;
-    skos:prefLabel "Außerschulische Bildung"@de .
+    skos:prefLabel "Außerschulische Bildung"@de ;
+    skos:exactMatch gnd:4234453-0 .
 
 :N788000
     a skos:Concept ;
@@ -7405,7 +7421,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "788000" ;
     skos:prefLabel "Erwachsenenbildung. Weiterbildung"@de ;
-    skos:scopeNote "Hier auch Lit. zu Volkshochschulen"@de .
+    skos:scopeNote "Hier auch Lit. zu Volkshochschulen"@de ;
+    skos:exactMatch gnd:4015428-2, gnd:4117622-4, wd:Q1319035, wd:Q1438896 .
 
 :N790000
     a skos:Concept ;
@@ -7428,21 +7445,24 @@
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "791000" ;
-    skos:prefLabel "Hochschulrecht"@de .
+    skos:prefLabel "Hochschulrecht"@de ;
+    skos:exactMatch gnd:4025254-1, wd:Q1622287 .
 
 :N792000
     a skos:Concept ;
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "792000" ;
-    skos:prefLabel "Hochschulpolitik"@de .
+    skos:prefLabel "Hochschulpolitik"@de ;
+    skos:exactMatch gnd:4113936-7, wd:Q59263180 .
 
 :N793000
     a skos:Concept ;
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "793000" ;
-    skos:prefLabel "Hochschulverwaltung"@de .
+    skos:prefLabel "Hochschulverwaltung"@de ;
+    skos:exactMatch gnd:4072563-7 .
 
 :N794000
     a skos:Concept ;
@@ -7451,7 +7471,8 @@
     skos:narrower :N794010 ;
     skos:notation "794000" ;
     skos:prefLabel "Hochschulen"@de ;
-    skos:scopeNote "Allgemein; Für einzelne Hochschulen s. [Einzelne Hochschulen](#N794010)"@de .
+    skos:scopeNote "Allgemein; Für einzelne Hochschulen s. [Einzelne Hochschulen](#N794010)"@de ;
+    skos:exactMatch gnd:4072560-1, wd:Q21028957 .
 
 :N794010
     a skos:Concept ;
@@ -7465,7 +7486,8 @@
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "796000" ;
-    skos:prefLabel "Fachhochschulen"@de .
+    skos:prefLabel "Fachhochschulen"@de ;
+    skos:exactMatch gnd:4016172-9, wd:Q1365560 .
 
 :N797000
     a skos:Concept ;
@@ -7473,7 +7495,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N797010 ;
     skos:notation "797000" ;
-    skos:prefLabel "Hochschullehrer. Wissenschaftler"@de .
+    skos:prefLabel "Hochschullehrer. Wissenschaftler"@de ;
+    skos:exactMatch gnd:4025243-7, gnd:4160219-5, gnd:4066567-7, gnd:4136652-9, wd:Q1622272, wd:Q901 .
 
 :N797010
     a skos:Concept ;
@@ -7487,28 +7510,32 @@
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "798000" ;
-    skos:prefLabel "Studenten"@de .
+    skos:prefLabel "Studenten"@de ;
+    skos:exactMatch gnd:4058167-6, gnd:4138764-8, wd:Q48282 .
 
 :N798200
     a skos:Concept ;
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "798200" ;
-    skos:prefLabel "Außeruniversitäre Forschung und Wissenschaft"@de .
+    skos:prefLabel "Außeruniversitäre Forschung und Wissenschaft"@de ;
+    skos:exactMatch gnd:4200578-4 .
 
 :N799000
     a skos:Concept ;
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "799000" ;
-    skos:prefLabel "Wissenschaftsförderung"@de .
+    skos:prefLabel "Wissenschaftsförderung"@de ;
+    skos:exactMatch gnd:4245713-0 .
 
 :N799200
     a skos:Concept ;
     skos:broader :N790000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "799200" ;
-    skos:prefLabel "Wissenschaftliche Gesellschaften"@de .
+    skos:prefLabel "Wissenschaftliche Gesellschaften"@de ;
+    skos:exactMatch gnd:4066581-1, wd:Q748019 .
 
 :N800000
     a skos:Concept ;
@@ -7524,7 +7551,8 @@
     skos:broader :N800000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "800100" ;
-    skos:prefLabel "Darstellende Kunst - Allgemeines"@de .
+    skos:prefLabel "Darstellende Kunst - Allgemeines"@de ;
+    skos:exactMatch gnd:4129566-3, wd:Q184485 .
 
 :N802000
     a skos:Concept ;
@@ -7532,7 +7560,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N802020, :N802030, :N802040, :N802050, :N802060, :N802070, :N802080 ;
     skos:notation "802000" ;
-    skos:prefLabel "Theater"@de .
+    skos:prefLabel "Theater"@de ;
+    skos:exactMatch gnd:4059702-7, wd:Q11635 .
 
 :N802020
     a skos:Concept ;
@@ -7547,14 +7576,16 @@
     skos:broader :N802000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802030" ;
-    skos:prefLabel "Volksschauspiel"@de .
+    skos:prefLabel "Volksschauspiel"@de ;
+    skos:exactMatch gnd:4130894-3 .
 
 :N802040
     a skos:Concept ;
     skos:broader :N802000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802040" ;
-    skos:prefLabel "Laienspiel"@de .
+    skos:prefLabel "Laienspiel"@de ;
+    skos:exactMatch gnd:4034128-8, wd:Q1800684 .
 
 :N802050
     a skos:Concept ;
@@ -7562,7 +7593,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802050" ;
     skos:prefLabel "Kinder- und Jugendtheater"@de ;
-    skos:scopeNote "Freie SW: Kindertheater; Jugendtheater"@de .
+    skos:scopeNote "Freie SW: Kindertheater; Jugendtheater"@de ;
+    skos:exactMatch gnd:4125349-8, gnd:4162874-3, wd:Q2416110 .
 
 :N802060
     a skos:Concept ;
@@ -7578,21 +7610,24 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802070" ;
     skos:prefLabel "Theateraufführungen"@de ;
-    skos:scopeNote "Hier auch Lit. zu Aufführungen im Bereich Musiktheater"@de .
+    skos:scopeNote "Hier auch Lit. zu Aufführungen im Bereich Musiktheater"@de ;
+    skos:exactMatch gnd:7501980-2 .
 
 :N802080
     a skos:Concept ;
     skos:broader :N802000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802080" ;
-    skos:prefLabel "Schauspieler"@de .
+    skos:prefLabel "Schauspieler"@de ;
+    skos:exactMatch gnd:4052154-0, gnd:4153179-6, wd:Q33999 .
 
 :N803000
     a skos:Concept ;
     skos:broader :N800000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "803000" ;
-    skos:prefLabel "Ballett"@de .
+    skos:prefLabel "Ballett"@de ;
+    skos:exactMatch gnd:4004351-4, wd:Q41425 .
 
 :N804000
     a skos:Concept ;
@@ -7600,14 +7635,17 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N804020 ;
     skos:notation "804000" ;
-    skos:prefLabel "Film"@de .
+    skos:prefLabel "Film"@de ;
+    skos:exactMatch gnd:4017102-4, wd:Q11424 .
 
 :N804020
     a skos:Concept ;
     skos:broader :N804000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "804020" ;
-    skos:prefLabel "Filmtheater"@de .
+    skos:prefLabel "Filmtheater"@de ;
+    skos:altLabel "Kino, Lichtspielhaus, Lichtspieltheater"@de ;
+    skos:exactMatch gnd:4129654-0, wd:Q41253 .
 
 :N806000
     a skos:Concept ;
@@ -7615,28 +7653,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N806020 ;
     skos:notation "806000" ;
-    skos:prefLabel "Kleinkunst"@de .
+    skos:prefLabel "Kleinkunst"@de ;
+    skos:exactMatch gnd:4264427-6 .
 
 :N806020
     a skos:Concept ;
     skos:broader :N806000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "806020" ;
-    skos:prefLabel "Kabarett"@de .
+    skos:prefLabel "Kabarett"@de ;
+    skos:exactMatch gnd:4029104-2, wd:Q27976507 .
 
 :N807000
     a skos:Concept ;
     skos:broader :N800000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "807000" ;
-    skos:prefLabel "Figurentheater"@de .
+    skos:prefLabel "Figurentheater"@de ;
+    skos:exactMatch gnd:4247240-4, wd:Q110889064 .
 
 :N808000
     a skos:Concept ;
     skos:broader :N800000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "808000" ;
-    skos:prefLabel "Zirkus"@de .
+    skos:prefLabel "Zirkus"@de ;
+    skos:exactMatch gnd:4067878-7, wd:Q47928 .
 
 :N820000
     a skos:Concept ;
@@ -7652,14 +7694,17 @@
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "820100" ;
-    skos:prefLabel "Musik - Allgemeines"@de .
+    skos:prefLabel "Musik - Allgemeines"@de ;
+    skos:exactMatch gnd:4040802-4, wd:Q638 .
 
 :N821000
     a skos:Concept ;
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "821000" ;
-    skos:prefLabel "Musikwissenschaft"@de .
+    skos:prefLabel "Musikwissenschaft"@de ;
+    skos:altLabel "Musikologie"@de ;
+    skos:exactMatch gnd:4130526-7, wd:Q164204 .
 
 :N822000
     a skos:Concept ;
@@ -7667,7 +7712,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "822000" ;
     skos:prefLabel "Musikerziehung"@de ;
-    skos:scopeNote "S.a. [Musikförderung](#N822400)"@de .
+    skos:altLabel "Musikpädagogik, Musikunterricht"@de ;
+    skos:scopeNote "S.a. [Musikförderung](#N822400)"@de ;
+    skos:exactMatch gnd:4040843-7, wd:Q27908 .
 
 :N822400
     a skos:Concept ;
@@ -7675,14 +7722,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "822400" ;
     skos:prefLabel "Musikförderung"@de ;
-    skos:scopeNote "S.a. [Musikerziehung](#N822000)"@de .
+    skos:scopeNote "S.a. [Musikerziehung](#N822000)"@de ;
+    skos:exactMatch gnd:7778528-9 .
 
 :N822500
     a skos:Concept ;
     skos:broader :N820000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "822500" ;
-    skos:prefLabel "Musikpreise"@de .
+    skos:prefLabel "Musikpreise"@de ;
+    skos:exactMatch gnd:4274397-7, wd:Q1364556 .
 
 :N823000
     a skos:Concept ;
@@ -7690,7 +7739,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "823000" ;
     skos:prefLabel "Musikgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Musikaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Musikaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503845-6, wd:Q846047 .
 
 :N824000
     a skos:Concept ;
@@ -7698,28 +7748,32 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N824020, :N824040, :N824060 ;
     skos:notation "824000" ;
-    skos:prefLabel "Musiker"@de .
+    skos:prefLabel "Musiker"@de ;
+    skos:exactMatch gnd:4040841-3, gnd:4170818-0, wd:Q639669 .
 
 :N824020
     a skos:Concept ;
     skos:broader :N824000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "824020" ;
-    skos:prefLabel "Sänger"@de .
+    skos:prefLabel "Sänger"@de ;
+    skos:exactMatch gnd:4124099-6, gnd:4051246-0, wd:Q177220 .
 
 :N824040
     a skos:Concept ;
     skos:broader :N824000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "824040" ;
-    skos:prefLabel "Komponisten"@de .
+    skos:prefLabel "Komponisten"@de ;
+    skos:exactMatch gnd:4032009-1, gnd:4032010-8, wd:Q36834 .
 
 :N824060
     a skos:Concept ;
     skos:broader :N824000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "824060" ;
-    skos:prefLabel "Dirigenten"@de .
+    skos:prefLabel "Dirigenten"@de ;
+    skos:exactMatch gnd:4012434-4, gnd:4648823-6, wd:Q158852 .
 
 :N825000
     a skos:Concept ;
@@ -7727,7 +7781,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "825000" ;
     skos:prefLabel "Orchester. Musikkapellen. Musikgruppen"@de ;
-    skos:scopeNote "Freie SW: Orchester; Kapelle (Musik); Musikgruppe"@de .
+    skos:scopeNote "Freie SW: Orchester; Kapelle (Musik); Musikgruppe"@de ;
+    skos:exactMatch gnd:4172708-3, gnd:4170827-1, wd:Q42998, wd:Q215380 .
 
 :N825500
     a skos:Concept ;
@@ -7735,7 +7790,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "825500" ;
     skos:prefLabel "Chöre. Gesangvereine"@de ;
-    skos:scopeNote "Freie SW: Chor; Gesangverein"@de .
+    skos:altLabel "Gesangsverein"@de ;
+    skos:scopeNote "Freie SW: Chor; Gesangverein"@de ;
+    skos:exactMatch gnd:4010045-5, gnd:4156946-5, wd:Q131186 .
 
 :N826000
     a skos:Concept ;
@@ -7743,7 +7800,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "826000" ;
     skos:prefLabel "Konzerte und Musikveranstaltungen"@de ;
-    skos:scopeNote "Freie SW: Konzert; Musikveranstaltung"@de .
+    skos:scopeNote "Freie SW: Konzert; Musikveranstaltung"@de ;
+    skos:exactMatch gnd:4032359-6, gnd:4212081-0, wd:Q182832 .
 
 :N827000
     a skos:Concept ;
@@ -7752,7 +7810,8 @@
     skos:narrower :N827020 ;
     skos:notation "827000" ;
     skos:prefLabel "Kirchenmusik"@de ;
-    skos:scopeNote "Orgeln s. [Musikinstrumente](#N828000)"@de .
+    skos:scopeNote "Orgeln s. [Musikinstrumente](#N828000)"@de ;
+    skos:exactMatch gnd:4030736-0, wd:Q8812109 .
 
 :N827020
     a skos:Concept ;
@@ -7767,7 +7826,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "828000" ;
     skos:prefLabel "Musikinstrumente"@de ;
-    skos:scopeNote "Im Bereich Volksmusik und Volkstanz s. [Musikinstrumente](#N706220)"@de .
+    skos:scopeNote "Im Bereich Volksmusik und Volkstanz s. [Musikinstrumente](#N706220)"@de ;
+    skos:exactMatch gnd:4040851-6, wd:Q34379 .
 
 :N840000
     a skos:Concept ;
@@ -7792,14 +7852,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N841020, :N841040, :N841050, :N841060, :N841070, :N841080, :N841090 ;
     skos:notation "841000" ;
-    skos:prefLabel "Kunst"@de .
+    skos:prefLabel "Kunst"@de ;
+    skos:exactMatch gnd:4114333-4, wd:Q735 .
 
 :N841020
     a skos:Concept ;
     skos:broader :N841000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841020" ;
-    skos:prefLabel "Kunsterziehung"@de .
+    skos:prefLabel "Kunsterziehung"@de ;
+    skos:exactMatch gnd:4033637-2, wd:Q1757598 .
 
 :N841040
     a skos:Concept ;
@@ -7807,14 +7869,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841040" ;
     skos:prefLabel "Kunstmuseen und Kunstsammlungen"@de ;
-    skos:scopeNote "Freie SW: Kunstmuseum; Kunstsammlung"@de .
+    skos:scopeNote "Freie SW: Kunstmuseum; Kunstsammlung"@de ;
+    skos:exactMatch gnd:4166041-9, gnd:7511175-5, wd:Q207694 .
 
 :N841050
     a skos:Concept ;
     skos:broader :N841000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841050" ;
-    skos:prefLabel "Kunstgalerien"@de .
+    skos:prefLabel "Kunstgalerien"@de ;
+    skos:exactMatch gnd:4166030-4, wd:Q1007870 .
 
 :N841060
     a skos:Concept ;
@@ -7822,7 +7886,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841060" ;
     skos:prefLabel "Kunstausstellungen"@de ;
-    skos:scopeNote "Ort der Ausstellung in Feld 700; Auch für Architektur- und Archivausstellungen verwenden (z.B. Baukunstarchiv NRW)"@de .
+    skos:scopeNote "Ort der Ausstellung in Feld 700; Auch für Architektur- und Archivausstellungen verwenden (z.B. Baukunstarchiv NRW)"@de ;
+    skos:exactMatch gnd:4033628-1, wd:Q667276 .
 
 :N841070
     a skos:Concept ;
@@ -7830,14 +7895,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841070" ;
     skos:prefLabel "Künstler"@de ;
-    skos:scopeNote "Hier alle Maler, Bildhauer, Zeichner; Raumsystematik: vorwiegender Ort od. Region + Ausstellungsort falls in NRW"@de .
+    skos:scopeNote "Hier alle Maler, Bildhauer, Zeichner; Raumsystematik: vorwiegender Ort od. Region + Ausstellungsort falls in NRW"@de ;
+    skos:exactMatch gnd:4033423-5, gnd:4033430-2, wd:Q483501 .
 
 :N841080
     a skos:Concept ;
     skos:broader :N841000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841080" ;
-    skos:prefLabel "Künstlervereinigungen"@de .
+    skos:prefLabel "Künstlervereinigungen"@de ;
+    skos:exactMatch gnd:4165895-4, wd:Q1797187 .
 
 :N841090
     a skos:Concept ;
@@ -7845,14 +7912,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N841095 ;
     skos:notation "841090" ;
-    skos:prefLabel "Kunstförderung"@de .
+    skos:prefLabel "Kunstförderung"@de ;
+    skos:exactMatch gnd:4033639-6 .
 
 :N841095
     a skos:Concept ;
     skos:broader :N841090 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841095" ;
-    skos:prefLabel "Kunstpreise"@de .
+    skos:prefLabel "Kunstpreise"@de ;
+    skos:exactMatch gnd:4136702-9, wd:Q1792571 .
 
 :N842000
     a skos:Concept ;
@@ -7860,7 +7929,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "842000" ;
     skos:prefLabel "Kunstgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn künstlerischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn künstlerischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503709-9, wd:Q50641 .
 
 :N843000
     a skos:Concept ;
@@ -7871,7 +7941,7 @@
     skos:prefLabel "Architektur"@de ;
     skos:definition "Gebäude im öffentlichen Raum"@de ;
     skos:scopeNote "Nicht bei Baudenkmälern verwenden, dafür s. entspr. Notation unter [Baudenkmäler. Kunstwerke](#N844000)"@de ;
-    skos:exactMatch wd:Q12271 , gnd:4002851-3 .
+    skos:exactMatch gnd:4002851-3, wd:Q12271 .
 
 :N843010
     a skos:Concept ;
@@ -7881,14 +7951,15 @@
     skos:prefLabel "Baukonstruktion. Bautechnik"@de ;
     skos:definition "Konstruktion von Bauwerken und Gebäuden, Bau- und Herstellungsprozess"@de ;
     skos:scopeNote "Freie SW: Baukonstruktion; Bautechnik"@de ;
-    skos:exactMatch wd:Q811430, gnd:4004821-4 .
+    skos:exactMatch gnd:4004821-4, wd:Q811430 .
 
 :N843020
     a skos:Concept ;
     skos:broader :N843000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843020" ;
-    skos:prefLabel "Öffentliche Gebäude"@de .
+    skos:prefLabel "Öffentliche Gebäude"@de ;
+    skos:exactMatch gnd:4055001-1, wd:Q294422 .
 
 :N843040
     a skos:Concept ;
@@ -7904,21 +7975,24 @@
     skos:broader :N843040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843042" ;
-    skos:prefLabel "Bürohäuser"@de .
+    skos:prefLabel "Bürohäuser"@de ;
+    skos:exactMatch gnd:4121068-2, wd:Q1021645 .
 
 :N843044
     a skos:Concept ;
     skos:broader :N843040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843044" ;
-    skos:prefLabel "Geschäftshäuser"@de .
+    skos:prefLabel "Geschäftshäuser"@de ;
+    skos:exactMatch gnd:4156958-1, wd:Q120794018 .
 
 :N843046
     a skos:Concept ;
     skos:broader :N843040 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843046" ;
-    skos:prefLabel "Industriebauten"@de .
+    skos:prefLabel "Industriebauten"@de ;
+    skos:exactMatch gnd:4026808-1, wd:Q1662011 .
 
 :N843050
     a skos:Concept ;
@@ -7926,7 +8000,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843050" ;
     skos:prefLabel "Bauernhäuser"@de ;
-    skos:scopeNote "S.a. [Bauernhäuser](#N708028), [Hofgeschichte](#N544030)"@de .
+    skos:scopeNote "S.a. [Bauernhäuser](#N708028), [Hofgeschichte](#N544030)"@de ;
+    skos:exactMatch gnd:4004768-4, wd:Q489357 .
 
 :N843060
     a skos:Concept ;
@@ -7941,7 +8016,8 @@
     skos:broader :N843000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843090" ;
-    skos:prefLabel "Architekten"@de .
+    skos:prefLabel "Architekten"@de ;
+    skos:exactMatch gnd:4002844-6, gnd:4131695-2, wd:Q42973 .
 
 :N844000
     a skos:Concept ;
@@ -7950,21 +8026,24 @@
     skos:narrower :N844010, :N844020, :N844030, :N844040, :N844050, :N844060, :N844070, :N844080 ;
     skos:notation "844000" ;
     skos:prefLabel "Baudenkmäler. Kunstwerke"@de ;
-    skos:scopeNote "Allg., auch für Burgen, Profanbauten u.Ä.; Freie SW: Baudenkmal; Kunstwerk"@de . 
+    skos:scopeNote "Allg., auch für Burgen, Profanbauten u.Ä.; Freie SW: Baudenkmal; Kunstwerk"@de ;
+    skos:exactMatch gnd:4004973-5, gnd:4123592-7, wd:Q811165, wd:Q838948 .
 
 :N844010
     a skos:Concept ;
     skos:broader :N844000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844010" ;
-    skos:prefLabel "Inventare"@de .
+    skos:prefLabel "Inventare"@de ;
+    skos:exactMatch gnd:4027540-1, wd:Q117816740 .
 
 :N844020
     a skos:Concept ;
     skos:broader :N844000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844020" ;
-    skos:prefLabel "Baustile"@de .
+    skos:prefLabel "Baustile"@de ;
+    skos:exactMatch gnd:4134057-7, wd:Q32880 .
 
 :N844030
     a skos:Concept ;
@@ -7972,7 +8051,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844030" ;
     skos:prefLabel "Kirchenbau. Kirchenausstattung"@de ;
-    skos:scopeNote "Freie SW: Kirchenbau; Kirchenbau / Ausstattung"@de .
+    skos:scopeNote "Freie SW: Kirchenbau; Kirchenbau / Ausstattung"@de ;
+    skos:exactMatch gnd:4073436-5, wd:Q16970 .
 
 :N844040
     a skos:Concept ;
@@ -7980,14 +8060,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844040" ;
     skos:prefLabel "Burgen. Schlösser"@de ;
-    skos:scopeNote "Freie SW: Burg; Schloß; Bei militärischen Aspekten s. [Burgen](#N262011)"@de .
+    skos:scopeNote "Freie SW: Burg; Schloß; Bei militärischen Aspekten s. [Burgen](#N262011)"@de ;
+    skos:exactMatch gnd:4009104-1, gnd:4052753-0, wd:Q23413, wd:Q751876 .
 
 :N844050
     a skos:Concept ;
     skos:broader :N844000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844050" ;
-    skos:prefLabel "Profanarchitektur"@de .
+    skos:prefLabel "Profanarchitektur"@de ;
+    skos:exactMatch gnd:4175821-3, wd:Q357375 .
 
 :N844060
     a skos:Concept ;
@@ -8002,14 +8084,16 @@
     skos:broader :N844000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844070" ;
-    skos:prefLabel "Brunnen"@de .
+    skos:prefLabel "Brunnen"@de ;
+    skos:exactMatch gnd:4008491-7, wd:Q43483 .
 
 :N844080
     a skos:Concept ;
     skos:broader :N844000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844080" ;
-    skos:prefLabel "Denkmäler"@de .
+    skos:prefLabel "Denkmäler"@de ;
+    skos:exactMatch gnd:4011453-3, wd:Q4989906 .
 
 :N844200
     a skos:Concept ;
@@ -8017,7 +8101,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844200" ;
     skos:prefLabel "Denkmalpflege. Denkmalschutz"@de ;
-    skos:scopeNote "Freie SW: Denkmalpflege; Denkmalschutz"@de .
+    skos:scopeNote "Freie SW: Denkmalpflege; Denkmalschutz"@de ;
+    skos:exactMatch gnd:4011455-7, gnd:4011457-0, wd:Q914856, wd:Q572824 .
 
 :N844500
     a skos:Concept ;
@@ -8033,35 +8118,41 @@
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "845000" ;
-    skos:prefLabel "Plastik"@de .
+    skos:prefLabel "Plastik"@de ;
+    skos:altLabel "Skulptur"@de ;
+    skos:exactMatch gnd:4046277-8, wd:Q860861 .
 
 :N846000
     a skos:Concept ;
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "846000" ;
-    skos:prefLabel "Malerei"@de .
+    skos:prefLabel "Malerei"@de ;
+    skos:exactMatch gnd:4037220-0, wd:Q11629 .
 
 :N847000
     a skos:Concept ;
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "847000" ;
-    skos:prefLabel "Zeichnung"@de .
+    skos:prefLabel "Zeichnung"@de ;
+    skos:exactMatch gnd:4127900-1, wd:Q93184 .
 
 :N847500
     a skos:Concept ;
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "847500" ;
-    skos:prefLabel "Graphik"@de .
+    skos:prefLabel "Graphik"@de ;
+    skos:exactMatch gnd:4021845-4, wd:Q1027879 .
 
 :N848000
     a skos:Concept ;
     skos:broader :N840000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "848000" ;
-    skos:prefLabel "Photographie"@de .
+    skos:prefLabel "Photographie"@de ;
+    skos:exactMatch gnd:4045895-7, wd:Q11633 .
 
 :N849000
     a skos:Concept ;
@@ -8069,7 +8160,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N849020, :N849030, :N849040, :N849050, :N849060, :N849070, :N849080 ;
     skos:notation "849000" ;
-    skos:prefLabel "Kunsthandwerk"@de .
+    skos:prefLabel "Kunsthandwerk"@de ;
+    skos:exactMatch gnd:4073883-8, wd:Q877729 .
 
 :N849020
     a skos:Concept ;
