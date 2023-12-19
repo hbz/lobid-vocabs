@@ -81,14 +81,17 @@
     skos:broader :N100000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "100100" ;
-    skos:prefLabel "Allgemeine Landeskunde - Allgemeines"@de .
+    skos:prefLabel "Allgemeine Landeskunde - Allgemeines"@de ;
+    skos:closeMatch gnd:4020216-1 .
 
 :N101000
     a skos:Concept ;
     skos:broader :N100000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "101000" ;
-    skos:prefLabel "Bibliographien"@de .
+    skos:prefLabel "Bibliographien"@de ;
+    skos:altLabel "Bibliografien"@de ;
+    skos:exactMatch gnd:4006432-3, wd:Q134995 .
 
 :N102000
     a skos:Concept ;
@@ -141,6 +144,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "109000" ;
     skos:prefLabel "Biographien"@de ;
+    skos:altLabel "Biografien"@de ;
     skos:definition "Lebensbeschreibung einer Person"@de ;
     skos:example "Ehrenbürger"@de ;
     skos:exactMatch gnd:4006804-3, wd:Q36279 .
@@ -169,7 +173,7 @@
     skos:narrower :N122030, :N122050, :N122070 ;
     skos:notation "122000" ;
     skos:prefLabel "Kartographie"@de ;
-    skos:altLabel "Kartenkunde"@de ;
+    skos:altLabel "Kartografie, Kartenkunde"@de ;
     skos:definition "Wissenschaft und Technik der Herstellung von Karten und kartenverwandten Darstellungen"@de ;
     skos:exactMatch gnd:4029823-1, wd:Q42515, <http://zbw.eu/stw/descriptor/11957-1> .
 
@@ -188,6 +192,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "122050" ;
     skos:prefLabel "Computerkartographie"@de ;
+    skos:altLabel "Computerkartografie"@de ;
     skos:exactMatch gnd:4010451-5 .
 
 :N122070
@@ -256,7 +261,9 @@
     skos:broader :N141000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141030" ;
-    skos:prefLabel "Schwerkraft"@de .
+    skos:prefLabel "Schwerkraft"@de ;
+    skos:altLabel "Schwere"@de ;
+    skos:exactMatch gnd:4132465-1 .
 
 :N141040
     a skos:Concept ;
@@ -303,6 +310,7 @@
     skos:narrower :N141225 ;
     skos:notation "141220" ;
     skos:prefLabel "Tektonik"@de ;
+    skos:altLabel "Geologische Struktur, geologischer Bau"@de ;
     skos:definition "Lehre vom Aufbau der Erdkruste und von den in ihr stattfindenden großräumigen Bewegungen"@de ;
     skos:exactMatch gnd:4059351-4, wd:Q78125729 .
 
@@ -551,7 +559,8 @@
     skos:broader :N142100 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142110" ;
-    skos:prefLabel "Oberflächenformen"@de .
+    skos:prefLabel "Oberflächenformen"@de ;
+    skos:example "Bergbeschreibungen, Bergsenkungen, Bergbau"@de .
 
 :N142120
     a skos:Concept ;
@@ -858,6 +867,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "146000" ;
     skos:prefLabel "Geoökologie"@de ;
+    skos:altLabel "Geografische Landschaftsökologie"@de ;
     skos:definition "Wiss., die sich aus geograph.-geowiss. Sicht mit dem Landschaftshaushalt in räuml. Ausprägung beschäftigt"@de ;
     skos:exactMatch gnd:4137703-5, wd:Q1265151 .
 
@@ -875,7 +885,9 @@
     skos:broader :N160000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "160100" ;
-    skos:prefLabel "Biowissenschaften - Allgemeines"@de .
+    skos:prefLabel "Biowissenschaften - Allgemeines"@de ;
+    skos:altLabel "Lebenswissenschaften, Life Sciences"@de ;
+    skos:exactMatch gnd:4129772-6, wd:Q864928 .
 
 :N161000
     a skos:Concept ;
@@ -892,6 +904,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "161020" ;
     skos:prefLabel "Biogeographie"@de ;
+    skos:altLabel "Biogeografie"@de ;
     skos:definition "Lehre von der Verbreitung der Pflanzen und Tiere auf der Erde"@de ;
     skos:scopeNote "Verortung von Tieren und Pflanzen; Für Verortung von Tieren s. [Tiergeographie](#N163010), für Verortung von Pflanzen s. [Pflanzengeographie](#N162020)"@de ;
     skos:exactMatch gnd:4006801-8, wd:Q52106 .
@@ -937,7 +950,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "162020" ;
     skos:prefLabel "Pflanzengeographie"@de ;
-    skos:altLabel "Phytogeographie, Vegetationsgeographie"@de ;
+    skos:altLabel "Pflanzengeografie, Phytogeographie, Vegetationsgeographie"@de ;
     skos:definition "Verortung von Pflanzen"@de ;
     skos:exactMatch gnd:4045561-0, wd:Q771220 .
 
@@ -974,7 +987,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163010" ;
     skos:prefLabel "Tiergeographie"@de ;
-    skos:altLabel "Geozoologie, Zoogeographie"@de ;
+    skos:altLabel "Tiergeografie, Geozoologie, Zoogeografie"@de ;
     skos:definition "Wissenschaft von der geografischen Verbreitung und Ausbreitung der Tiere auf der Erde"@de ;
     skos:exactMatch gnd:4133437-1, wd:Q599991 .
 
@@ -1084,7 +1097,9 @@
     skos:broader :N200000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "200100" ;
-    skos:prefLabel "Historische Hilfswissenschaften - Allgemeines"@de .
+    skos:prefLabel "Historische Hilfswissenschaften - Allgemeines"@de ;
+    skos:altLabel "Historische Grundwissenschaften, geschichtliche Grundwissenschaften"@de ;
+    skos:exactMatch gnd:4128874-9, wd:Q770723 .
 
 :N202000
     a skos:Concept ;
@@ -1092,6 +1107,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "202000" ;
     skos:prefLabel "Chronologie"@de ;
+    skos:altLabel "Zeitrechnung"@de ;
     skos:exactMatch gnd:4010178-2, wd:Q130788 .
 
 :N202500
@@ -1117,6 +1133,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "203500" ;
     skos:prefLabel "Paläographie"@de ;
+    skos:altLabel "Paläografie"@de ;
     skos:definition "Lehre von alten Schriften"@de ;
     skos:exactMatch gnd:4173110-4, wd:Q179957 .
 
@@ -1135,6 +1152,7 @@
     skos:narrower :N205020, :N205040 ;
     skos:notation "205000" ;
     skos:prefLabel "Numismatik"@de ;
+    skos:altLabel "Münzkunde"@de ;
     skos:definition "Wissenschaft von Münzen, Medaillen sowie weiteren Zahlungsmitteln und Geldgeschichte"@de ;
     skos:exactMatch gnd:4172175-5, wd:Q631286 .
 
@@ -1161,7 +1179,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "206000" ;
     skos:prefLabel "Epigraphik"@de ;
-    skos:altLabel "Inschriftenkunde"@de ;
+    skos:altLabel "Inschriftenkunde, Epigrafik"@de ;
     skos:definition "Historische Hilfswissenschaft der Erkundung von Inschriften auf unterschiedlichen Materialien"@de ;
     skos:exactMatch gnd:4152508-5, wd:Q181260 .
 
@@ -1172,6 +1190,7 @@
     skos:narrower :N207020 ;
     skos:notation "207000" ;
     skos:prefLabel "Genealogie"@de ;
+    skos:altLabel "Historische Familienforschung, Ahnenkunde, Ahnenforschung, Familienforschung, Familiengeschichte"@de ;
     skos:definition "Historische Hilfswissenschaft der Familiengeschichtsforschung"@de ;
     skos:scopeNote "S.a. [Einzelne Familien](#N207020)"@de ;
     skos:exactMatch gnd:4020097-8, wd:Q47307 .
@@ -1190,6 +1209,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "208000" ;
     skos:prefLabel "Heraldik"@de ;
+    skos:altLabel "Wappenkunde"@de ;
     skos:definition "Lehre von Wappen und deren richtigem Gebrauch"@de ;
     skos:exactMatch gnd:4072428-1, wd:Q18336 .
 
@@ -1291,7 +1311,7 @@
     skos:notation "213070" ;
     skos:prefLabel "Pressearchive. Rundfunkarchive"@de ;
     skos:scopeNote "Freie SW: Pressearchiv; Rundfunkarchiv"@de ;
-    skos:exactMatch gnd:4047154-8, gnd:4050970-9 , wd:Q56650887 .
+    skos:exactMatch gnd:4047154-8, gnd:4050970-9, wd:Q56650887 .
 
 :N213080
     a skos:Concept ;
@@ -1352,7 +1372,7 @@
     skos:notation "217030" ;
     skos:prefLabel "Museen für Handwerk und Technik"@de ;
     skos:example "Industriemuseum, Bergbaumuseum, Freilichtmuseum"@de ;
-    skos:closeMatch gnd:4184584-5, gnd:4666203-0 , gnd:4132486-9, wd:Q2398990, wd:Q819426, wd:Q756102 .
+    skos:closeMatch gnd:4184584-5, gnd:4666203-0, gnd:4132486-9, wd:Q2398990, wd:Q819426, wd:Q756102 .
 
 :N217040
     a skos:Concept ;
@@ -1545,6 +1565,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "225020" ;
     skos:prefLabel "Hallstattkultur"@de ;
+    skos:altLabel "Ältere Eisenzeit, Hallstattzeit"@de ;
     skos:definition "800-475 v.Chr., Zeitabschnitt der älteren Eisenzeit"@de ;
     skos:exactMatch gnd:4072254-5, wd:Q202165 .
 
@@ -1680,7 +1701,7 @@
     skos:notation "228000" ;
     skos:prefLabel "Mittelalter und Neuzeit"@de ;
     skos:scopeNote "Mittelalter: 500-1500; Neuzeit: ab etwa 1500"@de ;
-    skos:exactMatch gnd:4129108-6, gnd:4171678-4 ,wd:Q12554, wd:Q3281534 .
+    skos:exactMatch gnd:4129108-6, gnd:4171678-4, wd:Q12554, wd:Q3281534 .
 
 :N240000
     a skos:Concept ;
@@ -1931,7 +1952,8 @@
     skos:broader :N400000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "400100" ;
-    skos:prefLabel "Staat. Politik - Allgemeines"@de .
+    skos:prefLabel "Staat. Politik - Allgemeines"@de ;
+    skos:exactMatch gnd:4056618-3, gnd:4046514-7, wd:Q7275, wd:Q7163 .
 
 :N402000
     a skos:Concept ;
@@ -2175,7 +2197,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406130" ;
     skos:prefLabel "Politiker"@de ;
-    skos:exactMatch gnd:4046517-2, wd:Q82955 .
+    skos:exactMatch gnd:4046517-2, gnd:4175019-6, wd:Q82955 .
 
 :N406200
     a skos:Concept ;
@@ -2558,7 +2580,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425200" ;
     skos:prefLabel "Regierungsbezirke"@de ;
-    skos:exactMatch gnd:4177408-5 , wd:Q22721 .
+    skos:exactMatch gnd:4177408-5, wd:Q22721 .
 
 :N425400
     a skos:Concept ;
@@ -2592,7 +2614,7 @@
     skos:prefLabel "Kreispartnerschaften"@de ;
     skos:altLabel "Kommunalpartnerschaft, Gemeindepartnerschaft"@de ;
     skos:scopeNote "S.a. [Städtepartnerschaft](#N426090)"@de ;
-    skos:exactMatch gnd:4491663-2 , wd:Q184711 .
+    skos:exactMatch gnd:4491663-2, wd:Q184711 .
 
 :N426000
     a skos:Concept ;
@@ -4261,7 +4283,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547440" ;
     skos:prefLabel "Einzelne Industriezweige"@de ;
-    skos:scopeNote "Z.B. Stahlindustrie"@de .
+    skos:example "Stahlindustrie"@de .
 
 :N547460
     a skos:Concept ;
@@ -4353,7 +4375,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548060" ;
     skos:prefLabel "Handelsgüter"@de ;
-    skos:scopeNote "Z.B. Textilhandel"@de ;
+    skos:example "Textilhandel"@de ;
     skos:exactMatch gnd:4158995-6 .
 
 :N548090
@@ -4665,7 +4687,8 @@
     skos:narrower :N564051, :N564052 ;
     skos:notation "564050" ;
     skos:prefLabel "Dorftopographie"@de ;
-    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Topographie"@de .
+    skos:altLabel "Dorftopografie"@de ;
+    skos:scopeNote "Bei freier SW-Vergabe: Ortsname; Topografie"@de .
 
 :N564051
     a skos:Concept ;
@@ -4739,7 +4762,9 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566042" ;
     skos:prefLabel "Vororte. Stadtteile"@de ;
-    skos:scopeNote "Vorort bzw. Stadtteil frei verschlagworten"@de .
+    skos:altLabel "Ortsteil"@de ;
+    skos:scopeNote "Vorort bzw. Stadtteil frei verschlagworten"@de ;
+    skos:exactMatch gnd:4188691-4, gnd:4437321-1, wd:Q188509, wd:Q253019 .
 
 :N566043
     a skos:Concept ;
@@ -4783,6 +4808,7 @@
     skos:narrower :N566051, :N566052, :N566053 ;
     skos:notation "566050" ;
     skos:prefLabel "Stadttopographie"@de ;
+    skos:altLabel "Stadttopografie"@de ;
     skos:scopeNote "S.a. [Stadtstruktur](#N566040); Bei freier SW-Vergabe: Ortsname; Topographie, s.a. [Dorftopographie](#N564050)"@de .
 
 :N566051
@@ -5873,7 +5899,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704064" ;
     skos:prefLabel "Tod. Bestattung"@de ;
-    skos:scopeNote "Freie SW: Tod; Brauchtum; s.a. [Bestattungswesen](#N617000)"@de .
+    skos:scopeNote "Freie SW: Tod; Brauchtum; S.a. [Bestattungswesen](#N617000)"@de .
 
 :N704070
     a skos:Concept ;
@@ -6063,7 +6089,7 @@
     skos:notation "706050" ;
     skos:prefLabel "Schwänke"@de ;
     skos:altLabel "Schwankdichtung"@de ;
-    skos:definition "volksnahe Erzählung, lustiger Einfall"@de ;
+    skos:definition "Volksnahe Erzählung, lustiger Einfall"@de ;
     skos:exactMatch gnd:4053736-5, wd:Q11871 .
 
 :N706052
@@ -6254,7 +6280,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708230" ;
     skos:prefLabel "Bilder. Malerei"@de ;
-    skos:exactMatch gnd:4006568-6 , gnd:4037220-0, wd:Q11629 .
+    skos:exactMatch gnd:4006568-6, gnd:4037220-0, wd:Q11629 .
 
 :N708250
     a skos:Concept ;
@@ -6679,7 +6705,7 @@
     skos:prefLabel "Mundarten"@de ;
     skos:altLabel "Dialekte"@de ;
     skos:definition "Lokale oder regionale Sprachvarietät"@de ;
-    skos:scopeNote "Mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](#N706090)"@de ;
+    skos:scopeNote "Für mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](#N706090)"@de ;
     skos:exactMatch gnd:4040725-1, wd:Q33384 .
 
 :N745000
@@ -6688,6 +6714,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "745000" ;
     skos:prefLabel "Sprachgeographie"@de ;
+    skos:altLabel "Sprachgeografie"@de ;
     skos:definition "Verortung von Sprache"@de ;
     skos:exactMatch gnd:4056463-0 .
 
@@ -6741,7 +6768,7 @@
     skos:narrower :N746042, :N746043, :N746044, :N746045, :N746046 ;
     skos:notation "746040" ;
     skos:prefLabel "Geographische Namen"@de ;
-    skos:altLabel "Toponym, Geoname"@de ;
+    skos:altLabel "Toponym, Geoname, geografische Namen"@de ;
     skos:scopeNote "S.a. untergeordnete Notationen"@de ;
     skos:exactMatch gnd:4130377-5, wd:Q7884789 .
 
@@ -6843,7 +6870,7 @@
     skos:notation "747060" ;
     skos:prefLabel "Sprachpflege"@de ;
     skos:altLabel "Sprachkultur"@de ;
-    skos:scopeNote "Hier auch Lit. zu Sprachunterricht"@de ;
+    skos:scopeNote "Hier auch Literatur zu Sprachunterricht"@de ;
     skos:exactMatch gnd:4056484-8, wd:Q732898 .
 
 :N760000
@@ -6903,6 +6930,7 @@
     skos:narrower :N766030, :N766050, :N766060 ;
     skos:notation "766000" ;
     skos:prefLabel "Literatursoziologie"@de ;
+    skos:altLabel "Textsoziologie"@de ;
     skos:exactMatch gnd:4167885-0, wd:Q440848 .
 
 :N766030
@@ -6912,7 +6940,7 @@
     skos:notation "766030" ;
     skos:prefLabel "Leser"@de ;
     skos:altLabel "Lesepublikum, Leserschaft"@de ;
-    skos:exactMatch gnd:4035441-6, gnd:4202554-0  .
+    skos:exactMatch gnd:4035441-6, gnd:4202554-0 .
 
 :N766050
     a skos:Concept ;
@@ -6981,7 +7009,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "768010" ;
     skos:prefLabel "Einzelne Autoren (Primärliteratur)"@de ;
-    skos:scopeNote "Mundartdichtung (Primärliteratur) s. [Mundartliteratur](#N706090)"@de .
+    skos:scopeNote "Für Mundartdichtung (Primärliteratur) s. [Mundartliteratur](#N706090)"@de .
 
 :N768030
     a skos:Concept ;
@@ -7585,6 +7613,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802040" ;
     skos:prefLabel "Laienspiel"@de ;
+    skos:altLabel "Laientheater, Amateurtheater"@de ;
     skos:exactMatch gnd:4034128-8, wd:Q1800684 .
 
 :N802050
@@ -7602,7 +7631,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802060" ;
     skos:prefLabel "Einzelne Theater"@de ;
-    skos:scopeNote "Hier auch Lit. zu Opernhäusern, Musiktheatern; Regisseuren; Intendanten"@de .
+    skos:scopeNote "Hier auch Literatur zu Opernhäusern, Musiktheatern; Regisseuren; Intendanten"@de .
 
 :N802070
     a skos:Concept ;
@@ -8144,6 +8173,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "847500" ;
     skos:prefLabel "Graphik"@de ;
+    skos:altLabel "Grafik"@de ;
     skos:exactMatch gnd:4021845-4, wd:Q1027879 .
 
 :N848000
@@ -8152,6 +8182,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "848000" ;
     skos:prefLabel "Photographie"@de ;
+    skos:altLabel "Fotografie"@de ;
     skos:exactMatch gnd:4045895-7, wd:Q11633 .
 
 :N849000
@@ -8169,7 +8200,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849020" ;
     skos:prefLabel "Gold- und Silberschmiedekunst. Schmuck"@de ;
-    skos:scopeNote "Freie SW: Goldschmiedekunst; Silberschmiedekunst; Schmuck; Im Bereich Volkskunde s. [Schmuck](#N708450)"@de .
+    skos:scopeNote "Freie SW: Goldschmiedekunst; Silberschmiedekunst; Schmuck; Im Bereich Volkskunde s. [Schmuck](#N708450)"@de ;
+    skos:exactMatch gnd:4113771-1, gnd:4181345-5, gnd:4052945-9, wd:Q11202319, wd:Q2142903 .
 
 :N849030
     a skos:Concept ;
@@ -8177,28 +8209,34 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N849031, :N849032, :N849034 ;
     skos:notation "849030" ;
-    skos:prefLabel "Metallguß"@de .
+    skos:prefLabel "Metallguß"@de ;
+    skos:altLabel "Metallguss"@de ;
+    skos:exactMatch gnd:4169589-6 .
 
 :N849031
     a skos:Concept ;
     skos:broader :N849030 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849031" ;
-    skos:prefLabel "Eisenguß"@de .
+    skos:prefLabel "Eisenguß"@de ;
+    skos:altLabel "Eisenguss"@de ;
+    skos:exactMatch gnd:4126233-5 .
 
 :N849032
     a skos:Concept ;
     skos:broader :N849030 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849032" ;
-    skos:prefLabel "Bronzekunst"@de .
+    skos:prefLabel "Bronzekunst"@de ;
+    skos:exactMatch gnd:4069678-9 .
 
 :N849034
     a skos:Concept ;
     skos:broader :N849030 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849034" ;
-    skos:prefLabel "Zinngerät"@de .
+    skos:prefLabel "Zinngerät"@de ;
+    skos:exactMatch gnd:4127887-2 .
 
 :N849040
     a skos:Concept ;
@@ -8206,7 +8244,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849040" ;
     skos:prefLabel "Keramik"@de ;
-    skos:scopeNote "Im Bereich Volkskunst s. [Keramik](#N708250)"@de .
+    skos:scopeNote "Im Bereich Volkskunst s. [Keramik](#N708250)"@de ;
+    skos:exactMatch gnd:4030270-2, wd:Q45621 .
 
 :N849050
     a skos:Concept ;
@@ -8222,14 +8261,17 @@
     skos:broader :N849050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849052" ;
-    skos:prefLabel "Porzellan"@de .
+    skos:prefLabel "Porzellan"@de ;
+    skos:exactMatch gnd:4046851-3, wd:Q130693 .
 
 :N849054
     a skos:Concept ;
     skos:broader :N849050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849054" ;
-    skos:prefLabel "Fayence"@de .
+    skos:prefLabel "Fayence"@de ;
+    skos:altLabel "Majolika, Jaspisporzellan"@de ;
+    skos:exactMatch gnd:4127928-1, wd:Q209671 .
 
 :N849056
     a skos:Concept ;
@@ -8237,7 +8279,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849056" ;
     skos:prefLabel "Glas"@de ;
-    skos:scopeNote "Im Bereich Volkskunst s. [Glas](#N708280)"@de .
+    skos:scopeNote "Im Bereich Volkskunst s. [Glas](#N708280)"@de ;
+    skos:exactMatch gnd:4021142-3, wd:Q11469 .
 
 :N849060
     a skos:Concept ;
@@ -8245,14 +8288,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849060" ;
     skos:prefLabel "Hausrat"@de ;
-    skos:scopeNote "Im Bereich Sachkulturforschung s. [Hausrat](#N708030)"@de .
+    skos:scopeNote "Im Bereich Sachkulturforschung s. [Hausrat](#N708030)"@de ;
+    skos:exactMatch gnd:4132060-8, wd:Q59679273 .
 
 :N849070
     a skos:Concept ;
     skos:broader :N849000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849070" ;
-    skos:prefLabel "Möbel"@de .
+    skos:prefLabel "Möbel"@de ;
+    skos:exactMatch gnd:4039860-2, wd:Q14745 .
 
 :N849080
     a skos:Concept ;
@@ -8269,7 +8314,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849082" ;
     skos:prefLabel "Textilkunst. Mode"@de ;
-    skos:scopeNote "Im Bereich Volkskunst s. [Textilien](#N708290)"@de .
+    skos:scopeNote "Im Bereich Volkskunst s. [Textilien](#N708290)"@de ;
+    skos:exactMatch gnd:4059624-2, gnd:4039792-0, wd:Q12684 .
 
 :N849084
     a skos:Concept ;
@@ -8277,14 +8323,16 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849084" ;
     skos:prefLabel "Teppichknüpferei. Teppichweberei"@de ;
-    skos:scopeNote "Freie SW: Teppichknüpferei; Teppichweberei"@de .
+    skos:scopeNote "Freie SW: Teppichknüpferei; Teppichweberei"@de ;
+    skos:exactMatch gnd:4184730-1 .
 
 :N849086
     a skos:Concept ;
     skos:broader :N849080 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849086" ;
-    skos:prefLabel "Tapeten"@de .
+    skos:prefLabel "Tapeten"@de ;
+    skos:exactMatch gnd:4184454-3, wd:Q191529 .
 
 :N860000
     a skos:Concept ;
@@ -8309,7 +8357,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N861010, :N861020, :N861030, :N861040, :N861050, :N861060 ;
     skos:notation "861000" ;
-    skos:prefLabel "Buch"@de .
+    skos:prefLabel "Buch"@de ;
+    skos:exactMatch gnd:4008570-3, wd:Q571 .
 
 :N861010
     a skos:Concept ;
@@ -8324,7 +8373,8 @@
     skos:broader :N861000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861020" ;
-    skos:prefLabel "Handschriften"@de .
+    skos:prefLabel "Handschriften"@de ;
+    skos:exactMatch gnd:4023287-6 .
 
 :N861030
     a skos:Concept ;
@@ -8332,7 +8382,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861030" ;
     skos:prefLabel "Buchgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Buchaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Buchaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:4410857-6 .
 
 :N861040
     a skos:Concept ;
@@ -8340,7 +8391,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861040" ;
     skos:prefLabel "Druckgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Druckaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Druckaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503066-4 .
 
 :N861050
     a skos:Concept ;
@@ -8348,35 +8400,42 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N861052, :N861054, :N861056 ;
     skos:notation "861050" ;
-    skos:prefLabel "Verlage"@de .
+    skos:prefLabel "Verlage"@de ;
+    skos:altLabel "Verlagswesen"@de ;
+    skos:exactMatch gnd:4063004-3, wd:Q1320047 .
 
 :N861052
     a skos:Concept ;
     skos:broader :N861050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861052" ;
-    skos:prefLabel "Urheberrecht"@de .
+    skos:prefLabel "Urheberrecht"@de ;
+    skos:altLabel "Copyright"@de ;
+    skos:exactMatch gnd:4062127-3, wd:Q1297822 .
 
 :N861054
     a skos:Concept ;
     skos:broader :N861050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861054" ;
-    skos:prefLabel "Verlagsrecht"@de .
+    skos:prefLabel "Verlagsrecht"@de ;
+    skos:exactMatch gnd:4063022-5, wd:Q2516840 .
 
 :N861056
     a skos:Concept ;
     skos:broader :N861050 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861056" ;
-    skos:prefLabel "Verleger"@de .
+    skos:prefLabel "Verleger"@de ;
+    skos:exactMatch gnd:4138343-6, gnd:4266720-3, wd:Q2516866 .
 
 :N861060
     a skos:Concept ;
     skos:broader :N861000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861060" ;
-    skos:prefLabel "Buchhandel"@de .
+    skos:prefLabel "Buchhandel"@de ;
+    skos:exactMatch gnd:4008626-4, wd:Q998426 .
 
 :N865000
     a skos:Concept ;
@@ -8385,14 +8444,16 @@
     skos:narrower :N865010, :N865020, :N865030, :N865040, :N865050, :N865060, :N865070, :N865080, :N865090 ;
     skos:notation "865000" ;
     skos:prefLabel "Bibliotheken"@de ;
-    skos:example "Auch Verbände"@de .
+    skos:scopeNote "Auch Verbände"@de ;
+    skos:exactMatch gnd:4006439-6, wd:Q7075 .
 
 :N865010
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865010" ;
-    skos:prefLabel "Bibliotheksrecht"@de .
+    skos:prefLabel "Bibliotheksrecht"@de ;
+    skos:exactMatch gnd:4145274-4 .
 
 :N865020
     a skos:Concept ;
@@ -8400,56 +8461,64 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865020" ;
     skos:prefLabel "Bibliotheksgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Bibliotheksaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
+    skos:scopeNote "Verwenden, wenn Bibliotheksaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:exactMatch gnd:7503042-1, wd:Q856600 .
 
 :N865030
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865030" ;
-    skos:prefLabel "Bibliotheksplanung"@de .
+    skos:prefLabel "Bibliotheksplanung"@de ;
+    skos:exactMatch gnd:4145272-0 .
 
 :N865040
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865040" ;
-    skos:prefLabel "Wissenschaftliche Bibliotheken"@de .
+    skos:prefLabel "Wissenschaftliche Bibliotheken"@de ;
+    skos:exactMatch gnd:4066573-2, wd:Q2586205 .
 
 :N865050
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865050" ;
-    skos:prefLabel "Öffentliche Bibliotheken"@de .
+    skos:prefLabel "Öffentliche Bibliotheken"@de ;
+    skos:exactMatch gnd:4043141-1, wd:Q28564 .
 
 :N865060
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865060" ;
-    skos:prefLabel "Spezialbibliotheken"@de .
+    skos:prefLabel "Spezialbibliotheken"@de ;
+    skos:exactMatch gnd:4182209-2, wd:Q385994 .
 
 :N865070
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865070" ;
-    skos:prefLabel "Schulbibliotheken"@de .
+    skos:prefLabel "Schulbibliotheken"@de ;
+    skos:exactMatch gnd:4180097-7, wd:Q1076099 .
 
 :N865080
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865080" ;
-    skos:prefLabel "Privatbibliotheken"@de .
+    skos:prefLabel "Privatbibliotheken"@de ;
+    skos:exactMatch gnd:4047289-9, wd:Q380829 .
 
 :N865090
     a skos:Concept ;
     skos:broader :N865000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865090" ;
-    skos:prefLabel "Bibliothekare"@de .
+    skos:prefLabel "Bibliothekare"@de ;
+    skos:exactMatch gnd:4145258-6, gnd:4145264-1, wd:Q182436 .
 
 :N880000
     a skos:Concept ;
@@ -8474,7 +8543,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N882020, :N882030, :N882040, :N882060, :N882090 ;
     skos:notation "882000" ;
-    skos:prefLabel "Publizistik"@de .
+    skos:prefLabel "Publizistik"@de ;
+    skos:exactMatch gnd:4047770-8 .
 
 :N882020
     a skos:Concept ;
@@ -8482,60 +8552,72 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N882022, :N882024, :N882026 ;
     skos:notation "882020" ;
-    skos:prefLabel "Presse"@de .
+    skos:prefLabel "Presse"@de ;
+    skos:exactMatch gnd:4047150-0, wd:Q1193236 .
 
 :N882022
     a skos:Concept ;
     skos:broader :N882020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882022" ;
-    skos:prefLabel "Presserecht"@de .
+    skos:prefLabel "Presserecht"@de ;
+    skos:exactMatch gnd:4047171-8, wd:Q7241640 .
 
 :N882024
     a skos:Concept ;
     skos:broader :N882020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882024" ;
-    skos:prefLabel "Zeitungen"@de .
+    skos:prefLabel "Zeitungen"@de ;
+    skos:exactMatch gnd:4067510-5, wd:Q11032 .
 
 :N882026
     a skos:Concept ;
     skos:broader :N882020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882026" ;
-    skos:prefLabel "Zeitschriften"@de .
+    skos:prefLabel "Zeitschriften"@de ;
+    skos:exactMatch gnd:4067488-5, wd:Q41298 .
 
 :N882030
     a skos:Concept ;
     skos:broader :N882000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882030" ;
-    skos:prefLabel "Audiovisuelle Medien"@de .
+    skos:prefLabel "Audiovisuelle Medien"@de ;
+    skos:exactMatch gnd:4068939-6, wd:Q758904 .
 
 :N882040
     a skos:Concept ;
     skos:broader :N882000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882040" ;
-    skos:prefLabel "Rundfunk"@de .
+    skos:prefLabel "Rundfunk"@de ;
+    skos:exactMatch gnd:4050963-1, wd:Q15078788 .
 
 :N882060
     a skos:Concept ;
     skos:broader :N882000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882060" ;
-    skos:prefLabel "Fernsehen"@de .
+    skos:prefLabel "Fernsehen"@de ;
+    skos:altLabel "Fernsehsendung, TV, Fernseh-Rundfunk, Personen aus dem Bereich Fernsehen"@de ;
+    skos:exactMatch gnd:4016842-6, wd:Q289 ;
+    skos:closeMatch gnd:4016825-6 .
 
 :N882090
     a skos:Concept ;
     skos:broader :N882000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882090" ;
-    skos:prefLabel "Journalisten"@de .
+    skos:prefLabel "Journalisten"@de ;
+    skos:exactMatch gnd:4028781-6, gnd:4028786-5, wd:Q1930187 .
 
 :N884000
     a skos:Concept ;
     skos:broader :N880000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "884000" ;
-    skos:prefLabel "Information und Dokumentation"@de .
+    skos:prefLabel "Information und Dokumentation"@de ;
+    skos:example "Social Media, Digitalisierungskampagnen, Apps, (Kulturgut-)Digitalisierung"@de ;
+    skos:exactMatch gnd:4026901-2 .
