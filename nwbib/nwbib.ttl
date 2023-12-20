@@ -119,6 +119,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "102070" ;
     skos:prefLabel "Reise-, Stadt- und Wanderführer"@de ;
+    skos:example "Fahrradführer, Skat-Guide"@de ;
+    skos:scopeNote "SW: Sportart ; Führer"@de ;
     skos:exactMatch gnd:4049291-6, wd:Q223638 .
 
 :N105000
@@ -148,6 +150,7 @@
     skos:altLabel "Biografien"@de ;
     skos:definition "Lebensbeschreibung einer Person"@de ;
     skos:example "Ehrenbürger"@de ;
+    skos:scopeNote "Bei Vergabe des Form-SW „Biografie“ immer angeben"@de ;
     skos:exactMatch gnd:4006804-3, wd:Q36279 .
 
 :N120000
@@ -176,6 +179,7 @@
     skos:prefLabel "Kartographie"@de ;
     skos:altLabel "Kartografie, Kartenkunde"@de ;
     skos:definition "Wissenschaft und Technik der Herstellung von Karten und kartenverwandten Darstellungen"@de ;
+    skos:example "Städteatlas"@de ;
     skos:exactMatch gnd:4029823-1, wd:Q42515, <http://zbw.eu/stw/descriptor/11957-1> .
 
 :N122030
@@ -185,6 +189,7 @@
     skos:notation "122030" ;
     skos:prefLabel "Kartenauswertung"@de ;
     skos:definition "Gesamtheit der visuell-kognitiven Prozesse zur Informationsentnahme aus Karten durch einen Kartennutzer"@de ;
+    skos:example "Kataster, historische Karten"@de ;
     skos:exactMatch gnd:4193951-7 . 
 
 :N122050
@@ -194,6 +199,7 @@
     skos:notation "122050" ;
     skos:prefLabel "Computerkartographie"@de ;
     skos:altLabel "Computerkartografie"@de ;
+    skos:example "Geoinformationssystem"@de ;
     skos:exactMatch gnd:4010451-5 .
 
 :N122070
@@ -221,6 +227,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "126000" ;
     skos:prefLabel "Karten"@de ;
+    skos:scopeNote "Bei Vergabe des Form-SW „Karte“ immer angeben"@de ;
     skos:exactMatch gnd:4029783-4, wd:Q4006 . 
 
 :N140000
@@ -458,6 +465,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "141632" ;
     skos:prefLabel "Fossile Wirbellose"@de ;
+    skos:example "Ammoniten"@de ;
     skos:exactMatch gnd:4277242-4 .
 
 :N141634
@@ -651,6 +659,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142320" ;
     skos:prefLabel "Fließgewässer"@de ;
+    skos:scopeNote "Für Hochwasser [Fließgewässer](#N142320) + [Katastrophen. Unfälle](#N428078) verwenden"@de ;
     skos:exactMatch gnd:4017551-0, wd:Q355304 .
 
 :N142330
