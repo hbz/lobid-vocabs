@@ -101,7 +101,8 @@
     skos:notation "102000" ;
     skos:prefLabel "Landesbeschreibungen"@de ;
     skos:definition "Als Landesbeschreibung wurden frühe Formen der geografischen Landesaufnahme bezeichnet. Ab dem 17. Jahrhundert verstand man darunter eine Sammlung topografischer Karten kombiniert mit textlicher Beschreibung von Landschaft und Städten (Wikipedia)"@de ;
-    skos:scopeNote "Auch Bilder/Bildbände; Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
+    skos:example "Heimatkunde, Geschichte eines Ortes, Adressbuch, Bildband"@de ;
+    skos:scopeNote "Freie SW: Landeskunde; bei Orten u. Kreisen: Heimatkunde"@de .
 
 :N102060
     a skos:Concept ;
