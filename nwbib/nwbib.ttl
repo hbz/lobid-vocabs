@@ -669,6 +669,7 @@
     skos:narrower :N142335 ;
     skos:notation "142330" ;
     skos:prefLabel "Seen"@de ;
+    skos:example "Talsperren"@de ;
     skos:exactMatch gnd:4054084-4, wd:Q23397, <http://zbw.eu/stw/descriptor/15892-4> .
 
 :N142335
@@ -677,6 +678,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142335" ;
     skos:prefLabel "Kleingewässer"@de ;
+    skos:example "Heilquellen"@de ;
     skos:exactMatch gnd:4123526-5 .
 
 :N142340
@@ -723,6 +725,7 @@
     skos:prefLabel "Wasserwirtschaft"@de ;
     skos:altLabel "Wasserversorgung, Wasserversorgungswirtschaft, Wassermanagement"@de ;
     skos:definition "Bewirtschaftung des Wassers durch den Menschen"@de ;
+    skos:example "Talsperren"@de ;
     skos:scopeNote "S.a. [Brauchwasser](#N142375)"@de ;
     skos:exactMatch gnd:4064821-7, wd:Q1501619 .
 
@@ -748,6 +751,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "142375" ;
     skos:prefLabel "Brauchwasser"@de ;
+    skos:scopeNote "S.a. [Abwasser](#N582052)"@de ;
     skos:exactMatch gnd:4008018-3, wd:Q832131 .
 
 :N142380
@@ -971,7 +975,7 @@
     skos:notation "162030" ;
     skos:prefLabel "Kryptogamen"@de ;
     skos:definition "Blütenlose Pflanzen, Sporenpflanzen"@de ;
-    skos:scopeNote "Flechten, Sporenpflanzen, auch Pilze"@de ;
+    skos:example "Algen, Farne, Moose, Flechten, Sporenpflanzen, Pilze"@de ;
     skos:exactMatch gnd:4073845-0 .
 
 :N162040
@@ -980,6 +984,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "162040" ;
     skos:prefLabel "Samenpflanzen"@de ;
+    skos:example "Disteln"@de ;
     skos:exactMatch gnd:4076988-4, wd:Q25814 .
 
 :N163000
@@ -1007,6 +1012,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163020" ;
     skos:prefLabel "Wirbellose"@de ;
+    skos:example "Weichtiere, Schnecken"@de ;
     skos:exactMatch gnd:4066359-0, wd:Q43806 .
 
 :N163030
@@ -1015,7 +1021,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "163030" ;
     skos:prefLabel "Insekten. Spinnen"@de ;
-    skos:scopeNote "Schmetterlinge, Libellen; Freie SW: Insekten; Spinnen; Spinnentiere"@de ;
+    skos:example "Bienen, Käfer, Schmetterlinge, Libellen"@de ;
+    skos:scopeNote "Freie SW: Insekten; Spinnen; Spinnentiere"@de ;
     skos:exactMatch gnd:4027110-9, gnd:4132662-3, wd:Q1390, wd:Q115128259 .
 
 :N163040
@@ -1041,6 +1048,7 @@
     skos:notation "163060" ;
     skos:prefLabel "Lurche"@de ;
     skos:altLabel "Amphibien"@de ;
+    skos:example "Frosch, Molch, Kröte"@de ;
     skos:exactMatch gnd:4036689-3 .
 
 :N163070
@@ -1082,6 +1090,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "164030" ;
     skos:prefLabel "Skelettfunde"@de ;
+    skos:scopeNote "Nur ganze Skelette, keine einzelnen Knochenfunde"@de ;
     skos:exactMatch gnd:4181634-1 .
 
 :N164040
@@ -1091,6 +1100,7 @@
     skos:notation "164040" ;
     skos:prefLabel "Paläanthropologie"@de ;
     skos:definition "Wissenschaft der Entstehung der spezifischen Merkmale des Menschen"@de ;
+    skos:scopeNote "Neandertaler im Zusammenhang mit [Paläolithikum. Mesolithikum](#N222000)"@de ;
     skos:exactMatch gnd:4173104-9, wd:Q7206 .
 
 :N200000
@@ -1191,6 +1201,7 @@
     skos:prefLabel "Epigraphik"@de ;
     skos:altLabel "Inschriftenkunde, Epigrafik"@de ;
     skos:definition "Historische Hilfswissenschaft der Erkundung von Inschriften auf unterschiedlichen Materialien"@de ;
+    skos:example "Inschriften, Chronogramme"@de ;
     skos:exactMatch gnd:4152508-5, wd:Q181260 .
 
 :N207000
@@ -1229,6 +1240,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "208500" ;
     skos:prefLabel "Flaggen"@de ;
+    skos:example "Fahnen"@de ;
     skos:exactMatch gnd:4127955-4, wd:Q14660 .
 
 :N209000
@@ -1237,7 +1249,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "209000" ;
     skos:prefLabel "Orden. Ehrenzeichen"@de ;
-    skos:scopeNote "S.a. [Militärische Auszeichnungen](#N262026), freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
+    skos:scopeNote "S.a. [Militärische Auszeichnungen](#N262026); Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen"@de ;
     skos:exactMatch gnd:4121162-5 .
 
 :N210000
@@ -1289,6 +1301,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213030" ;
     skos:prefLabel "Kirchenarchive"@de ;
+    skos:scopeNote "Auch für Klosterarchive verwenden"@de ;
     skos:exactMatch gnd:4030706-2, wd:Q2877653 .
 
 :N213040
@@ -1346,6 +1359,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "213090" ;
     skos:prefLabel "Familienarchive"@de ;
+    skos:scopeNote "Auch für Adelsarchive verwenden"@de ;
     skos:exactMatch gnd:4153650-2, wd:Q27032283 .
 
 :N217000
@@ -1381,7 +1395,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217030" ;
     skos:prefLabel "Museen für Handwerk und Technik"@de ;
-    skos:example "Industriemuseum, Bergbaumuseum, Freilichtmuseum"@de ;
+    skos:example "Industriemuseum, Bergbaumuseum, Freilichtmuseum, KFZ-Museum"@de ;
     skos:closeMatch gnd:4184584-5, gnd:4666203-0, gnd:4132486-9, wd:Q2398990, wd:Q819426, wd:Q756102 .
 
 :N217040
@@ -1391,7 +1405,7 @@
     skos:narrower :N217042 ;
     skos:notation "217040" ;
     skos:prefLabel "Historische Museen"@de ;
-    skos:example "LVR-LandesMuseum Bonn"@de ;
+    skos:example "Archäologischer Park, LVR-LandesMuseum Bonn"@de ;
     skos:scopeNote "Benutzt für Museen mit Ausstellungen zu historischen Themen"@de ;
     skos:exactMatch gnd:4160032-0 .
 
@@ -1409,6 +1423,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "217050" ;
     skos:prefLabel "Volkskundemuseen"@de ;
+    skos:example "Freilichtmuseum mit Thema: Landwirtschaft, Handwerk + Technik"@de ;
     skos:exactMatch gnd:4130287-4, wd:Q25047682 .
 
 :N217090
@@ -1442,7 +1457,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "220500" ;
     skos:prefLabel "Archäologie"@de ;
-    skos:scopeNote "z.B. Archäologie mit Geschichte; Hier nur Archäologie bis zum Mittelalter"@de ;
+    skos:scopeNote "Archäologie und Geschichte; Hier nur Archäologie bis zum Mittelalter; Verwenden, wenn kein genauerer Zeitraum angegeben ist"@de ;
     skos:exactMatch gnd:4002827-6, wd:Q23498 .
 
 :N221000
@@ -1451,6 +1466,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "221000" ;
     skos:prefLabel "Vor- und Frühgeschichte"@de ;
+    skos:scopeNote "Völkerwanderungszeit"@de ;
     skos:exactMatch gnd:4078951-2, wd:Q11756 .
 
 :N222000
@@ -1461,6 +1477,7 @@
     skos:prefLabel "Paläolithikum. Mesolithikum"@de ;
     skos:altLabel "Paläolithikum: Altsteinzeit; Mesolithikum: Mittelsteinzeit"@de ;
     skos:definition "Archäologische Funde frühester Epoche, Paläolithikum:ca. 3000000 v. Chr.-10000 v. Chr., Mesolithikum: ca. 8500-5500 v. Chr."@de ;
+    skos:example "Neandertaler"@de ;
     skos:scopeNote "Freie SW: Paläolithikum; Mesolithikum"@de ;
     skos:exactMatch gnd:4140148-7, gnd:4169472-7, wd:Q40203, wd:Q44155 .
 
@@ -1758,6 +1775,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "240600" ;
     skos:prefLabel "Gedenkstätten"@de ;
+    skos:example "Kriegerdenkmal, Ehrenmal"@de ;
     skos:exactMatch gnd:4019622-7, wd:Q5003624 .
 
 :N249800
@@ -1801,6 +1819,7 @@
     skos:narrower :N262011, :N262012, :N262014, :N262016 ;
     skos:notation "262010" ;
     skos:prefLabel "Militärische Anlagen"@de ;
+    skos:example "Legionslager"@de ;
     skos:exactMatch gnd:4123769-9 .
 
 :N262011
@@ -1827,6 +1846,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262014" ;
     skos:prefLabel "Schanzen"@de ;
+    skos:example "Landwehr, Grenze"@de ;
     skos:exactMatch gnd:4179401-1, wd:Q91203 .
 
 :N262016
@@ -1874,7 +1894,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "262026" ;
     skos:prefLabel "Militärische Auszeichnungen"@de ;
-    skos:scopeNote "Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](#N209000))"@de ;
+    skos:scopeNote "S.a. [Orden. Ehrenzeichen](#N209000); Freie SW: Orden <Ehrenzeichen>; Ehrenzeichen (wie bei [Orden. Ehrenzeichen](#N209000))"@de ;
     skos:exactMatch gnd:4338046-3 .
 
 :N263000
@@ -1938,6 +1958,7 @@
     skos:notation "263060" ;
     skos:prefLabel "Bundeswehr"@de ;
     skos:definition "Gründungsdatum 03.10.1990"@de ;
+    skos:example "Heer, Luftwaffe, Marine"@de ;
     skos:exactMatch gnd:2116728-X, wd:Q56010 .
 
 :N263090
@@ -1996,6 +2017,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402042" ;
     skos:prefLabel "Grenzen"@de ;
+    skos:example "Westfalen: Schnatgang, Schnadegang, Schnadezug"@de ;
     skos:exactMatch gnd:4130793-8, wd:Q133346 .
 
 :N402060
@@ -2030,6 +2052,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "402330" ;
     skos:prefLabel "Verfassungsgeschichte"@de ;
+    skos:example "Wigbold (= Weichbild)"@de ;
     skos:scopeNote "Verwenden, wenn verfassungsrechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
     skos:exactMatch gnd:7504377-4, wd:Q2515460 .
 
@@ -2099,6 +2122,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404320" ;
     skos:prefLabel "Parlamentsgeschichte"@de ;
+    skos:example "Landstände, Reichsstände"@de ;
     skos:scopeNote "Verwenden, wenn parlamentarischer Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N404340
@@ -2216,6 +2240,7 @@
     skos:narrower :N406230, :N406250, :N406270 ;
     skos:notation "406200" ;
     skos:prefLabel "Politische Gruppen"@de ;
+    skos:example "Eine-Welt-Gruppe"@de ;
     skos:scopeNote "Ggf. s.a. [Politische Bewegungen](#N406060)"@de ;
     skos:exactMatch gnd:4175025-1 .
 
@@ -2242,6 +2267,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406270" ;
     skos:prefLabel "Protestbewegungen"@de ;
+    skos:example "Friedensbewegung"@de ;
     skos:exactMatch gnd:4226404-2, wd:Q120644836 .
 
 :N406300
@@ -2267,6 +2293,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406330" ;
     skos:prefLabel "Volksabstimmungen"@de ;
+    skos:example "Bürgerentscheid"@de ;
     skos:exactMatch gnd:4134790-0, wd:Q14515312 .
 
 :N406340
@@ -2386,6 +2413,7 @@
     skos:narrower :N423420, :N423430, :N423440 ;
     skos:notation "423400" ;
     skos:prefLabel "Verwaltungsreform"@de ;
+    skos:scopeNote "S.a. [Finanzverwaltung](#N424020)"@de ;
     skos:exactMatch gnd:4063353-6 .
 
 :N423420
@@ -2401,6 +2429,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423430" ;
     skos:prefLabel "Gebietsreform"@de ;
+    skos:example "Kommunale Gebietsreform 1967-1978; Wiener Kongress 1815"@de ;
     skos:exactMatch gnd:4071616-8, wd:Q1497011 .
 
 :N423440
@@ -2460,6 +2489,7 @@
     skos:narrower :N424021, :N424022, :N424024, :N424026, :N424028 ;
     skos:notation "424020" ;
     skos:prefLabel "Finanzverwaltung"@de ;
+    skos:example "Kommunale Finanzverwaltung"@de ;
     skos:exactMatch gnd:4017212-0, wd:Q120499768 .
 
 :N424021
@@ -2566,6 +2596,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "425030" ;
     skos:prefLabel "Landschaftsverband Westfalen-Lippe"@de ;
+    skos:scopeNote "SW: Westfalen-Lippe"@de ;
     skos:exactMatch gnd:1204095035 .
 
 :N425040
@@ -2633,6 +2664,7 @@
     skos:narrower :N426020, :N426030, :N426040, :N426050, :N426060, :N426070, :N426090 ;
     skos:notation "426000" ;
     skos:prefLabel "Gemeindeverwaltung"@de ;
+    skos:altLabel "Entwicklungspolitik"@de ;
     skos:exactMatch gnd:4019990-3, wd:Q6501447 .
 
 :N426020
@@ -2641,6 +2673,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426020" ;
     skos:prefLabel "Kommunalrecht"@de ;
+    skos:example "Gemeindeordnung, Bestattungsgesetz"@de ;
     skos:exactMatch gnd:4031881-3, wd:Q574273 .
 
 :N426030
@@ -2657,6 +2690,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "426040" ;
     skos:prefLabel "Kommunale Selbstverwaltung"@de ;
+    skos:example "Kommunalpolitik"@de ;
     skos:exactMatch gnd:4073644-1, wd:Q6621940 .
 
 :N426050
@@ -2708,6 +2742,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428020" ;
     skos:prefLabel "Ordnungsrecht"@de ;
+    skos:example "Hundeordnung"@de ;
     skos:exactMatch gnd:4115458-7 .
 
 :N428030
@@ -2792,6 +2827,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428074" ;
     skos:prefLabel "Brandbekämpfung"@de ;
+    skos:example "Feuerwehr"@de ;
     skos:exactMatch gnd:4125289-5, wd:Q897825 .
 
 :N428076
@@ -2800,6 +2836,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428076" ;
     skos:prefLabel "Rettungswesen"@de ;
+    skos:example "Rotes Kreuz, THW"@de ;
     skos:exactMatch gnd:4049626-0, wd:Q860447 .
 
 :N428078
@@ -2808,6 +2845,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "428078" ;
     skos:prefLabel "Katastrophen. Unfälle"@de ;
+    skos:example "Brände, Unwetter, Hochwasser  und Überschwemmungen, Kyrill"@de ;
     skos:scopeNote "Freie SW: Katastrophe; Unfall"@de ;
     skos:exactMatch gnd:4029929-6, gnd:4061693-9, wd:Q3839081, wd:Q171558 .
 
@@ -2835,6 +2873,7 @@
     skos:narrower :N442050 ;
     skos:notation "442000" ;
     skos:prefLabel "Rechtsgeschichte"@de ;
+    skos:example "Hexenverfolgung"@de ;
     skos:scopeNote "Verwenden, wenn rechtlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
     skos:exactMatch gnd:7504001-3 .
 
@@ -2852,6 +2891,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "443000" ;
     skos:prefLabel "Privatrecht"@de ;
+    skos:example "Bürgerliches Recht, Arbeitsrecht, Bestattungsrecht, Zivilrecht"@de ;
+    skos:scopeNote "Öffentliches Recht s. unter d. einzelnen Sachgebieten"@de ;
     skos:exactMatch gnd:4047304-1, wd:Q4122235 .
 
 :N444000
@@ -2877,6 +2918,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "444050" ;
     skos:prefLabel "Kriminalität"@de ;
+    skos:example "Wilderei"@de ;
     skos:exactMatch gnd:4033178-7, wd:Q12754227 .
 
 :N444070
@@ -2911,6 +2953,7 @@
     skos:narrower :N446032, :N446034 ;
     skos:notation "446030" ;
     skos:prefLabel "Ordentliche Gerichtsbarkeit"@de ;
+    skos:example "Amtsgericht, Oberlandesgericht"@de ;
     skos:exactMatch gnd:4131330-6, wd:Q3998643 .
 
 :N446032
@@ -2978,7 +3021,7 @@
     skos:notation "448000" ;
     skos:prefLabel "Rechtspflege"@de ;
     skos:definition "Anwendung des Rechts auf den Einzelfall durch den Staat"@de ;
-    skos:scopeNote "Betrifft juristische Berufe; Verwenden auch bei Grundbucheintragungen, Erbschaftsangelegenheiten, Personenstandsangelegenheiten"@de ;
+    skos:scopeNote "Betrifft juristische Berufe wie Anwalt, Notar etc.; Verwenden auch bei Grundbucheintragungen, Erbschaftsangelegenheiten, Personenstandsangelegenheiten"@de ;
     skos:exactMatch gnd:4048816-0, wd:Q1522168 .
 
 :N500000
