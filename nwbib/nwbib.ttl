@@ -3089,7 +3089,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503050" ;
     skos:prefLabel "Einwohnerverzeichnisse"@de ;
-    skos:scopeNote "Benutzt für historische Verzeichnisse, zusätzl. [Quellen](#N240100)"@de .
+    skos:scopeNote "Benutzt für historische Verzeichnisse, zusätzl. [Quellen](#N240100); S.a. [Personenstand](#N428060)"@de .
 
 :N503060
     a skos:Concept ;
@@ -3174,6 +3174,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503260" ;
     skos:prefLabel "Prognosen"@de ;
+    skos:scopeNote "SW-Kette: Bevölkerungsentwicklung ; Prognose"@de ;
     skos:exactMatch gnd:4047390-9, wd:Q748250 .
 
 :N503400
@@ -3192,6 +3193,7 @@
     skos:narrower :N503424 ;
     skos:notation "503420" ;
     skos:prefLabel "Binnenwanderung"@de ;
+    skos:scopeNote "Innerhalb von NRW und BRD"@de ;
     skos:exactMatch gnd:4112768-7, wd:Q863941 .
 
 :N503424
@@ -3208,6 +3210,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503430" ;
     skos:prefLabel "Auswanderung"@de ;
+    skos:scopeNote "Bei Einzelpersonen SW Auswanderer verwenden;  bei Personengruppen SW Auswanderung verwenden und noch 2. Kette mit SW Einwanderung (s. PR §218,2)"@de ;
     skos:exactMatch gnd:4003920-1, wd:Q187668 .
 
 :N503440
@@ -3216,6 +3219,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "503440" ;
     skos:prefLabel "Einwanderung"@de ;
+    skos:scopeNote "SW: Vertriebene"@de ;
     skos:exactMatch gnd:4013960-8, wd:Q131288 .
 
 :N503600
@@ -3249,6 +3253,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "521000" ;
     skos:prefLabel "Sozialpolitik"@de ;
+    skos:scopeNote "S.a. [Sozialgeschichte](#N722000)"@de ;
     skos:exactMatch gnd:4055879-4, wd:Q828395 .
 
 :N521200
@@ -3274,6 +3279,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "521410" ;
     skos:prefLabel "Krankenversicherung"@de ;
+    skos:example "Berufsgenossenschaft"@de ;
+    skos:scopeNote "S.a. [Versicherungen](#N548600)"@de ;
     skos:exactMatch gnd:4032836-3, wd:Q334911 .
 
 :N521420
@@ -3323,7 +3330,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "522020" ;
     skos:prefLabel "Kirchliche Träger"@de ;
-    skos:example "Caritas etc."@de ;
+    skos:example "Caritas, Malteser (kath.), Johanniter (evangl.)"@de ;
     skos:scopeNote "Freie SW: Sozialhilfeträger"@de .
 
 :N522030
@@ -3378,6 +3385,7 @@
     skos:narrower :N523035 ;
     skos:notation "523030" ;
     skos:prefLabel "Armenfürsorge"@de ;
+    skos:example "Armenspeisung, Suppenküchen"@de ;
     skos:scopeNote "Auch für die Zeit nach 1960, wenn es sich um die soziale Betreuung handelt"@de ;
     skos:exactMatch gnd:4018801-2, wd:Q687613 .
 
@@ -3463,6 +3471,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "524030" ;
     skos:prefLabel "Fürsorgeerziehung"@de ;
+    skos:example "Heimerziehung"@de ;
     skos:exactMatch gnd:4018802-4 .
 
 :N524050
@@ -3540,6 +3549,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "532050" ;
     skos:prefLabel "Ärzte. Heilberufe"@de ;
+    skos:example "Hebamme"@de ;
     skos:scopeNote "Freie SW: Arzt; Heilberuf"@de ;
     skos:exactMatch gnd:4003157-3, gnd:4140665-5, wd:Q39631, wd:Q110228881 .
 
@@ -3591,6 +3601,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "534030" ;
     skos:prefLabel "Krankenhäuser"@de ;
+    skos:example "Hospiz"@de ;
     skos:exactMatch gnd:4032786-3, wd:Q16917 .
 
 :N534050
@@ -3655,6 +3666,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "541000" ;
     skos:prefLabel "Wirtschaftspolitik"@de ;
+    skos:example "Entwicklungspolitik"@de ;
     skos:exactMatch gnd:4066493-4, wd:Q582577 .
 
 :N541500
@@ -3682,6 +3694,7 @@
     skos:narrower :N543010, :N543020, :N543060, :N543080 ;
     skos:notation "543000" ;
     skos:prefLabel "Wirtschaftsstruktur"@de ;
+    skos:example "Regionale Wirtschaftsentwicklung"@de ;
     skos:exactMatch gnd:4129504-3, wd:Q1668335 .
 
 :N543010
@@ -3701,6 +3714,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "543020" ;
     skos:prefLabel "Wirtschaftsförderung"@de ;
+    skos:example "Regionale Wirtschaftsförderung"@de ;
     skos:exactMatch gnd:4066442-9, wd:Q4530482 .
 
 :N543060
@@ -3843,6 +3857,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "543800" ;
     skos:prefLabel "Marketing"@de ;
+    skos:example "Regionalmarke, Werbung, Außenpräsentation, Markenpolitik"@de ;
     skos:exactMatch gnd:4037589-4, wd:Q39809 .
 
 :N544000
@@ -3868,6 +3883,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544020" ;
     skos:prefLabel "Agrargeschichte"@de ;
+    skos:example "Hungersnöte, Viehhaltung, Landleben"@de ;
     skos:scopeNote "Freie SW: Landwirtschaft; Geschichte; Verwenden, wenn landwirtschaftlicher Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
     skos:exactMatch gnd:7503727-0 .
 
@@ -3893,7 +3909,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N544052, :N544054, :N544056 ;
     skos:notation "544050" ;
-    skos:prefLabel "Landwirtschaftliche Arbeitskräfte"@de .
+    skos:prefLabel "Landwirtschaftliche Arbeitskräfte"@de ;
+    skos:example "Dienstmägde"@de .
 
 :N544052
     a skos:Concept ;
@@ -4008,6 +4025,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544280" ;
     skos:prefLabel "Tierzucht"@de ;
+    skos:example "Imkerei, Schweinemast"@de ;
     skos:exactMatch gnd:4060143-2, wd:Q227675 .
 
 :N544400
@@ -4033,6 +4051,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544420" ;
     skos:prefLabel "Forstgeschichte"@de ;
+    skos:example "Köhlerei"@de ;
     skos:scopeNote "Verwenden, wenn Forstaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N544440
@@ -4041,6 +4060,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544440" ;
     skos:prefLabel "Forstprodukte"@de ;
+    skos:example "Brennholz"@de ;
     skos:exactMatch gnd:4272528-8 .
 
 :N544450
@@ -4147,6 +4167,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "545030" ;
     skos:prefLabel "Kohlenbergbau"@de ;
+    skos:scopeNote "Bei Ruhrbergbau: SW-Kette: Ruhrgebiet ; Steinkohlenbergbau"@de ;
     skos:exactMatch gnd:4031646-4, wd:Q12880211 .
 
 :N545040
@@ -4155,6 +4176,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "545040" ;
     skos:prefLabel "Gesteinsabbau"@de ;
+    skos:example "Schieferbergbau, Sandabbau"@de ;
     skos:exactMatch gnd:4157150-2 .
 
 :N545050
@@ -4163,6 +4185,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "545050" ;
     skos:prefLabel "Erzbergbau"@de ;
+    skos:example "Kupfer"@de ;
     skos:exactMatch gnd:4015469-5, wd:Q16638398 .
 
 :N545060
@@ -4238,7 +4261,8 @@
     skos:broader :N546020 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "546028" ;
-    skos:prefLabel "Sonstige Kraftwerke"@de .
+    skos:prefLabel "Sonstige Kraftwerke"@de ;
+    skos:example "Windenergie, Sonnenenergie"@de .
 
 :N546040
     a skos:Concept ;
@@ -4287,7 +4311,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547030" ;
     skos:prefLabel "Einzelne Handwerke"@de ;
-    skos:scopeNote "Z.B. Bäckerhandwerk"@de .
+    skos:example "Z.B. Bäckerhandwerk, Salzgewinnung"@de ; 
+    skos:scopeNote "Für Salzgewinnung zusätzlich [Salz- und Kalibergbau](#N545060) vergeben"@de .
 
 :N547040
     a skos:Concept ;
@@ -4328,6 +4353,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547420" ;
     skos:prefLabel "Industriegeschichte"@de ;
+    skos:example "Industriekultur, Industrialisierung"@de ;
     skos:scopeNote "Verwenden, wenn industrieller Aspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N547440
@@ -4336,7 +4362,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547440" ;
     skos:prefLabel "Einzelne Industriezweige"@de ;
-    skos:example "Stahlindustrie"@de .
+    skos:example "Stahlindustrie, Montanindustrie"@de .
 
 :N547460
     a skos:Concept ;
@@ -4344,6 +4370,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547460" ;
     skos:prefLabel "Industriebetriebe"@de ;
+    skos:example "Brauerei, Werft, Ziegelei, Maschinenfabrik"@de ;
     skos:scopeNote "Freie SW: Firmenname"@de ;
     skos:exactMatch gnd:4026813-5 .
 
@@ -4361,6 +4388,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "547600" ;
     skos:prefLabel "Technik"@de ;
+    skos:example "Bildverarbeitung"@de ;
     skos:exactMatch gnd:4059205-4, wd:Q2695280 .
 
 :N548000
@@ -4386,6 +4414,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548020" ;
     skos:prefLabel "Handelsgeschichte"@de ;
+    skos:example "Kiepenkerl, Hollandgänger, Hanse, Handelsstraße, Kaufmannschaft"@de ;
     skos:scopeNote "Verwenden, wenn Handelsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de .
 
 :N548030
@@ -4394,6 +4423,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548030" ;
     skos:prefLabel "Handelsformen"@de ;
+    skos:example "Einzelhandel"@de ;
     skos:scopeNote "Freie SW: z.B. Großhandel, Einzelhandel"@de .
 
 :N548040
@@ -4411,6 +4441,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548045" ;
     skos:prefLabel "Märkte"@de ;
+    skos:example "Wochenmarkt"@de ;
     skos:exactMatch gnd:4037621-7, wd:Q37654 .
 
 :N548050
@@ -4419,7 +4450,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548050" ;
     skos:prefLabel "Handelsbetriebe"@de ;
-    skos:scopeNote "Freie SW: Firmenname"@de ;
+    skos:scopeNote "Für einzelne Betriebe verwenden; Freie SW: Firmenname"@de ;
     skos:exactMatch gnd:4023226-8, wd:Q2865305 .
 
 :N548060
@@ -4445,6 +4476,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "548200" ;
     skos:prefLabel "Dienstleistungssektor"@de ;
+    skos:example "Logistik"@de ;
     skos:exactMatch gnd:4012183-5, wd:Q55638 .
 
 :N548300
@@ -4555,6 +4587,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "552000" ;
     skos:prefLabel "Verkehrsgeschichte"@de ;
+    skos:example "Historische Handelsstraßen, Pilgerweg"@de ;
     skos:scopeNote "Verwenden, wenn Verkehrsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
     skos:exactMatch gnd:7504378-6 .
 
@@ -4564,7 +4597,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "553000" ;
     skos:prefLabel "Straßenverkehr"@de ;
-    skos:example "Fahrradverkehr, Ruhender Verkehr, Straßengüterverkehr"@de ;
+    skos:example "Fahrradverkehr, Ruhender Verkehr, Straßengüterverkehr, Wirtschaftswege"@de ;
     skos:exactMatch gnd:4057931-1, wd:Q4323994 .
 
 :N554000
@@ -4608,7 +4641,7 @@
     skos:narrower :N557020, :N557040, :N557060 ;
     skos:notation "557000" ;
     skos:prefLabel "Schiffahrt"@de ;
-    skos:scopeNote "Bei Flüssen, Kanälen u. Seen SW \"Binnenschiffahrt\" verwenden"@de ;
+    skos:example "Fluß-, Kanal-, Seenschifffahrt, Binnenschifffahrt"@de ;
     skos:exactMatch gnd:4116383-7, wd:Q155930 .
 
 :N557020
@@ -4686,7 +4719,7 @@
     skos:narrower :N562040, :N562060 ;
     skos:notation "562000" ;
     skos:prefLabel "Siedlungsgeschichte"@de ;
-    skos:scopeNote "Verwenden, wenn Siedlungsaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
+    skos:scopeNote "Verwenden, wenn Siedlungsaspekt im Vordergrund steht; Insbes. Gründungsgeschichte eines Ortes, Stadtgrenze; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
     skos:exactMatch gnd:7504134-0 .
 
 :N562040
@@ -4767,6 +4800,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "564080" ;
     skos:prefLabel "Dorferneuerung"@de ;
+    skos:scopeNote "S.a. [Flurformen. Flurbereinigung](#N544040)"@de ;
     skos:exactMatch gnd:4303765-3 .
 
 :N566000
@@ -4782,7 +4816,8 @@
     skos:broader :N566000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566010" ;
-    skos:prefLabel "Stadttypen"@de .
+    skos:prefLabel "Stadttypen"@de ;
+    skos:example "Residenzstadt"@de .
 
 :N566020
     a skos:Concept ;
@@ -4862,6 +4897,7 @@
     skos:notation "566050" ;
     skos:prefLabel "Stadttopographie"@de ;
     skos:altLabel "Stadttopografie"@de ;
+    skos:example "Stadtbild"@de ;
     skos:scopeNote "S.a. [Stadtstruktur](#N566040); Bei freier SW-Vergabe: Ortsname; Topographie, s.a. [Dorftopographie](#N564050)"@de .
 
 :N566051
@@ -4870,6 +4906,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566051" ;
     skos:prefLabel "Plätze"@de ;
+    skos:example "Bahnhofsvorplatz"@de ;
     skos:scopeNote "Für Dörfer s. [Dorfplätze](#N564051)"@de ;
     skos:exactMatch gnd:4046326-6, wd:Q174782 .
 
@@ -4896,6 +4933,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566060" ;
     skos:prefLabel "Verstädterung"@de ;
+    skos:example "Stadtentwicklung"@de ;
     skos:exactMatch gnd:4063234-9, wd:Q161078 .
 
 :N566070
@@ -4904,6 +4942,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "566070" ;
     skos:prefLabel "Ballungsräume"@de ;
+    skos:example "Ruhrgebiet"@de ;
     skos:exactMatch gnd:4069106-8, wd:Q159313 .
 
 :N566080
@@ -4955,6 +4994,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "572030" ;
     skos:prefLabel "Regionalplanung"@de ;
+    skos:example "Regionale"@de ;
     skos:exactMatch gnd:4049040-3, wd:Q689022 .
 
 :N572050
@@ -4990,6 +5030,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574020" ;
     skos:prefLabel "Bau- und Bodenrecht"@de ;
+    skos:example "Nachbarrechtsgesetz"@de ;
     skos:scopeNote "Individuell mit Baurecht oder Bodenrecht verschlagworten"@de ;
     skos:exactMatch gnd:4004923-1, gnd:4007399-3, wd:Q294417 .
 
@@ -4999,6 +5040,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574030" ;
     skos:prefLabel "Städtebau"@de ;
+    skos:example "Stadtentwicklung, Flächennutzungsplan"@de ;
     skos:scopeNote "Verwenden bei größerem Kontext (wenn es nicht nur um Platzgestaltungen in der Innenstadt geht); S.a. [Stadtbaukunst](#N844500)"@de ;
     skos:exactMatch gnd:4056795-3, wd:Q63100 .
 
@@ -5024,7 +5066,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "574060" ;
     skos:prefLabel "Wohnungswirtschaft"@de ;
-    skos:example "Stadtsanierung"@de ;
+    skos:example "Stadtsanierung, Immobilien"@de ;
     skos:exactMatch gnd:4066807-1 .
 
 :N580000
@@ -5051,6 +5093,7 @@
     skos:narrower :N582020, :N582030, :N582040, :N582050, :N582060, :N582070 ;
     skos:notation "582000" ;
     skos:prefLabel "Umweltschutz"@de ;
+    skos:example "Landschaftswacht"@de ;
     skos:exactMatch gnd:4061644-7, wd:Q832237 .
 
 :N582020
@@ -5158,6 +5201,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584060" ;
     skos:prefLabel "Tierschutz"@de ;
+    skos:example "Biotopschutz, Artenschutz, Vogelbeobachtung"@de ;
     skos:exactMatch gnd:4060131-6, wd:Q11857638 .
 
 :N584070
@@ -5175,6 +5219,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "584080" ;
     skos:prefLabel "Naturparke"@de ;
+    skos:example "Nationalpark"@de ;
     skos:scopeNote "Freie SW: Name des Naturparks; S.a. [Parks](#N586020), [Park- und Gartenanlagen](#N844060)"@de ;
     skos:exactMatch gnd:4075237-9, wd:Q728904 .
 
@@ -5305,6 +5350,7 @@
     skos:narrower :N611042, :N611043, :N611044, :N611045 ;
     skos:notation "611040" ;
     skos:prefLabel "Kirchliches Leben"@de ;
+    skos:example "Kirchentag, Katholikentag"@de ;
     skos:exactMatch gnd:4114204-4 .
 
 :N611042
@@ -5329,6 +5375,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611044" ;
     skos:prefLabel "Kirchliche Vereine und Verbände"@de ;
+    skos:example "Kolping, CVJM, Bruderschaften"@de ;
     skos:scopeNote "Freie SW: Katholischer Verein; Katholischer Verband"@de ;
     skos:exactMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
 
@@ -5346,6 +5393,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611050" ;
     skos:prefLabel "Geistliche. Ordensleute"@de ;
+    skos:example "Fürstbischöfe, Bischöfe, Mönche, kath. Pfarrer, Theologen, Stiftsdame"@de ;
     skos:scopeNote "Freie SW: Geistlicher; Ordensleute"@de ;
     skos:exactMatch gnd:4137184-7, gnd:4309954-3, wd:Q2259532 .
 
@@ -5355,6 +5403,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611060" ;
     skos:prefLabel "Klöster. Stifte"@de ;
+    skos:example "Weltliches Stift, wenn vorher katholisch, Kommende"@de ;
     skos:scopeNote "Kloster u. Stift individuell verschlagworten"@de ;
     skos:exactMatch gnd:4031225-2, gnd:4057534-2, wd:Q44613, wd:Q355437 .
 
@@ -5375,6 +5424,7 @@
     skos:prefLabel "Kultus"@de ;
     skos:altLabel "Kult, Kultpraxis"@de ;
     skos:definition "Gesamtheit religiöser Handlungen"@de ;
+    skos:example "Gottesdienst, Liturgie"@de ;
     skos:scopeNote "S.a. [evangelischer](#N613070); Freie SW: z.B. Gottesdienst"@de ;
     skos:exactMatch gnd:4033535-5, wd:Q756820 .
 
@@ -5408,6 +5458,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611085" ;
     skos:prefLabel "Wallfahrten"@de ;
+    skos:example "Pilgern"@de ;
     skos:exactMatch gnd:4064460-1, wd:Q1644573 .
 
 :N611090
@@ -5416,6 +5467,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "611090" ;
     skos:prefLabel "Heilige. Heiligenverehrung"@de ;
+    skos:example "Namenspatron"@de ;
     skos:scopeNote "S.a. [Volkstümliche Heiligenverehrung](#N704626)"@de ;
     skos:exactMatch gnd:4024055-1, gnd:4024052-6, wd:Q43115, wd:Q1579384 .
 
@@ -5426,6 +5478,7 @@
     skos:narrower :N612020, :N612030, :N612040, :N612050, :N612070, :N612080 ;
     skos:notation "612000" ;
     skos:prefLabel "Reformation"@de ;
+    skos:definition "Reformierte Kirche"@de ;
     skos:exactMatch gnd:4048946-2, wd:Q12562 .
 
 :N612020
@@ -5511,6 +5564,7 @@
     skos:narrower :N613010, :N613020, :N613030, :N613040, :N613050, :N613070, :N613090 ;
     skos:notation "613000" ;
     skos:prefLabel "Evangelische Kirche"@de ;
+    skos:definition "Pietismus = Reformbewegung im dt. Protestantismus"@de ;
     skos:exactMatch gnd:4015833-0, wd:Q346575 .
 
 :N613010
@@ -5538,6 +5592,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613025" ;
     skos:prefLabel "Kirchenverwaltung"@de ;
+    skos:example "Kirchenkreise, Presbyter, Landessynode"@de ;
     skos:scopeNote "Freie SW: Evangelische Gemeinde; Ort"@de ;
     skos:exactMatch gnd:4133860-1 .
 
@@ -5573,6 +5628,7 @@
     skos:notation "613043" ;
     skos:prefLabel "Diakonie"@de ;
     skos:altLabel "Evangelische Sozialarbeit"@de ;
+    skos:example "Von-Bodelschwinghsche Anstalten in Bethel"@de ;
     skos:exactMatch gnd:4012046-6, wd:Q1208280 .
 
 :N613044
@@ -5581,6 +5637,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613044" ;
     skos:prefLabel "Kirchliche Vereine und Verbände"@de ;
+    skos:example "Evangelische Frauenhilfe, Evangelische Allianz"@de ;
     skos:exactMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
 
 :N613045
@@ -5597,6 +5654,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613050" ;
     skos:prefLabel "Pfarrer. Geistliche"@de ;
+    skos:example "Präses, Superintendent"@de ;
     skos:scopeNote "Freie SW: Pfarrer; Geistlicher"@de ;
     skos:exactMatch gnd:4132592-8, gnd:4174000-2, wd:Q955464 .
 
@@ -5634,6 +5692,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "613090" ;
     skos:prefLabel "Freikirchen"@de ;
+    skos:example "Baptisten, Mennoniten, Quäker"@de ;
     skos:exactMatch gnd:4018337-3, wd:Q426043 .
 
 :N615000
@@ -5668,6 +5727,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "615070" ;
     skos:prefLabel "Sekten"@de ;
+    skos:example "Zeugen Jehovas, Scientology"@de ;
     skos:exactMatch gnd:4077343-7, wd:Q19097 .
 
 :N616000
@@ -5693,6 +5753,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "617030" ;
     skos:prefLabel "Friedhöfe"@de ;
+    skos:scopeNote "Jüdische Friedhöfe s.a. [Jüdische Religion](#N631000); Gräberfeld s.a. [Archäologie](#N220500)"@de ;
     skos:exactMatch gnd:4018537-0, wd:Q39614 .
 
 :N617050
@@ -5726,7 +5787,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "631000" ;
     skos:prefLabel "Jüdische Religion"@de ;
-    skos:scopeNote "An dieser Stelle: Synagogen; jüdische Friedhöfe etc."@de .
+    skos:example "Synagogen, jüdische Friedhöfe"@de .
 
 :N632000
     a skos:Concept ;
@@ -5734,7 +5795,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N632050 ;
     skos:notation "632000" ;
-    skos:prefLabel "Geschichte der Juden"@de .
+    skos:prefLabel "Geschichte der Juden"@de ;
+    skos:example "Jüdische Gemeinden"@de .
 
 :N632050
     a skos:Concept ;
@@ -5742,6 +5804,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "632050" ;
     skos:prefLabel "Judenverfolgung"@de ;
+    skos:altLabel "Antisemitismus"@de ;
     skos:exactMatch gnd:4028814-6 .
 
 :N635000
@@ -5882,7 +5945,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N704042, :N704043, :N704044, :N704045, :N704046, :N704047 ;
     skos:notation "704040" ;
-    skos:prefLabel "Brauchtum im Jahreslauf"@de .
+    skos:prefLabel "Brauchtum im Jahreslauf"@de ;
+    skos:scopeNote "Volksfeste s. [Feiern und Feste](#N734000)"@de .
 
 :N704042
     a skos:Concept ;
@@ -5928,6 +5992,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704047" ;
     skos:prefLabel "Kirchweih"@de ;
+    skos:example "Kirmes"@de ;
     skos:exactMatch gnd:4163960-1, wd:Q11706236 .
 
 :N704060
@@ -6066,7 +6131,8 @@
     skos:broader :N704620 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704624" ;
-    skos:prefLabel "Gegenstände der Frömmigkeit"@de .
+    skos:prefLabel "Gegenstände der Frömmigkeit"@de ;
+    skos:example "Bildstock, Wegkreuz, Krippen, Ikonen"@de .
 
 :N704626
     a skos:Concept ;
@@ -6108,7 +6174,7 @@
     skos:narrower :N706041, :N706042, :N706043 ;
     skos:notation "706040" ;
     skos:prefLabel "Märchen. Sagen. Legenden"@de ;
-    skos:scopeNote "S.a. einzelne Notationen [Märchen](#N706041), [Sagen](#N706042), [Legenden](#N706043)"@de .
+    skos:scopeNote "S.a. einzelne Notationen [Märchen](#N706041), [Sagen](#N706042), [Legenden](#N706043); S.a. [Anthologien](#N767040)"@de .
 
 :N706041
     a skos:Concept ;
@@ -6143,6 +6209,7 @@
     skos:prefLabel "Schwänke"@de ;
     skos:altLabel "Schwankdichtung"@de ;
     skos:definition "Volksnahe Erzählung, lustiger Einfall"@de ;
+    skos:scopeNote "Für Primärliteratur verwenden"@de ;
     skos:exactMatch gnd:4053736-5, wd:Q11871 .
 
 :N706052
@@ -6184,7 +6251,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "706090" ;
     skos:prefLabel "Mundartliteratur"@de ;
-    skos:scopeNote "S.a. [Mundarten](#N744000)"@de ;
+    skos:scopeNote "Nur für Primärliteratur; Sekundärliteratur zu Mundarten s. [Mundarten](#N744000); Sekundärliteratur zu Mundartdichtern s. [Einzelne Autoren (Sekundärliteratur)](#N768030)"@de ;
     skos:exactMatch gnd:4129655-2, wd:Q1208422 .
 
 :N706200
@@ -6271,6 +6338,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708029" ;
     skos:prefLabel "Sonstige Landwirtschaftliche Gebäude. Mühlen"@de ;
+    skos:example "Stall"@de ;
     skos:scopeNote "Freie SW: Wirtschaftsgebäude; Mühle"@de ;
     skos:exactMatch gnd:4040457-2, wd:Q44494 .
 
@@ -6548,7 +6616,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725040" ;
     skos:prefLabel "Alternative Lebensformen"@de ;
-    skos:scopeNote "Hier auch Lebensgemeinschaften; jedoch familienähnliche Lebensgemeinschaften bei [Familie](#N725010)"@de .
+    skos:scopeNote "Hier auch Lebensgemeinschaften, Wohngemeinschaften; jedoch familienähnliche Lebensgemeinschaften bei [Familie](#N725010)"@de .
 
 :N725050
     a skos:Concept ;
@@ -6565,6 +6633,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725060" ;
     skos:prefLabel "Minderheiten. Randgruppen"@de ;
+    skos:example "Roma, Sinti"@de ;
     skos:scopeNote "Minderheit bzw. Randgruppe frei verschlagworten"@de ;
     skos:exactMatch gnd:4752223-9, gnd:4048390-3, wd:Q30103 .
 
@@ -6574,6 +6643,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "725070" ;
     skos:prefLabel "Ausländer"@de ;
+    skos:example "Asylbewerber/-berechtigte u. deren Unterbringung"@de ;
     skos:scopeNote "Hier auch Lit. zu Asylbewerbern bzw. -berechtigten"@de ;
     skos:exactMatch gnd:4003725-3, wd:Q473741 .
 
@@ -6599,6 +6669,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "729000" ;
     skos:prefLabel "Sexualität"@de ;
+    skos:scopeNote "Hier auch Prostitution"@de ;
     skos:exactMatch gnd:4054684-6 .
 
 :N730000
@@ -6658,6 +6729,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "733050" ;
     skos:prefLabel "Kulturpreise"@de ;
+    skos:scopeNote "S.a. [Literaturpreise](#N766051); [Musikpreise](#N822500); [Kunstpreise](#N841095)"@de ;
     skos:exactMatch gnd:4136844-7, wd:Q15383322 .
 
 :N734000
@@ -6666,7 +6738,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "734000" ;
     skos:prefLabel "Feiern und Feste"@de ;
-    skos:scopeNote "Freie SW: z.B. Volksfest"@de ;
+    skos:scopeNote "Feste im Jahresverlauf s. [Brauchtum im Jahreslauf](#N704040); Freie SW: z.B. Volksfest"@de ;
     skos:exactMatch gnd:4016628-4, gnd:4121260-5, wd:Q200538 .
 
 :N735000
@@ -6675,7 +6747,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N735020, :N735040, :N735090 ;
     skos:notation "735000" ;
-    skos:prefLabel "Freizeit und Erholung"@de .
+    skos:prefLabel "Freizeit und Erholung"@de ;
+    skos:example "Wandern, Radwandern"@de .
 
 :N735020
     a skos:Concept ;
@@ -6691,6 +6764,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "735040" ;
     skos:prefLabel "Freizeitgestaltung"@de ;
+    skos:example "Freizeit-, Wanderkarten"@de ;
     skos:exactMatch gnd:4071453-6 .
 
 :N735090
@@ -6714,6 +6788,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "736030" ;
     skos:prefLabel "Einzelne Sportarten"@de ;
+    skos:example "Nordic Walking, Volkslauf"@de ;
     skos:scopeNote "Hier auch Golfplätze"@de .
 
 :N736050
@@ -6758,7 +6833,7 @@
     skos:prefLabel "Mundarten"@de ;
     skos:altLabel "Dialekte"@de ;
     skos:definition "Lokale oder regionale Sprachvarietät"@de ;
-    skos:scopeNote "Für mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](#N706090)"@de ;
+    skos:scopeNote "Nur für Sekundärliteratur; Für mundartliche Texte (Primärliteratur) s.a. [Mundartliteratur](#N706090); Texte über Mundartdichter s. [Einzelne Autoren (Sekundärliteratur)](#N768030)"@de ;
     skos:exactMatch gnd:4040725-1, wd:Q33384 .
 
 :N745000
@@ -6779,6 +6854,7 @@
     skos:notation "746000" ;
     skos:prefLabel "Namenkunde"@de ;
     skos:altLabel "Onomastik, Onomatologie, Namensforschung, Namenskunde"@de ;
+    skos:example "Familiennamen"@de ;
     skos:exactMatch gnd:4075199-5, wd:Q175156 .
 
 :N746020
@@ -6923,7 +6999,7 @@
     skos:notation "747060" ;
     skos:prefLabel "Sprachpflege"@de ;
     skos:altLabel "Sprachkultur"@de ;
-    skos:scopeNote "Hier auch Literatur zu Sprachunterricht"@de ;
+    skos:example "Sprachunterricht"@de ;
     skos:exactMatch gnd:4056484-8, wd:Q732898 .
 
 :N760000
@@ -7019,6 +7095,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "766052" ;
     skos:prefLabel "Literaturwettbewerbe"@de ;
+    skos:scopeNote "Sekundärliteratur"@de ;
     skos:exactMatch gnd:4445374-7 .
 
 :N766060
@@ -7069,7 +7146,8 @@
     skos:broader :N768000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "768030" ;
-    skos:prefLabel "Einzelne Autoren (Sekundärliteratur)"@de .
+    skos:prefLabel "Einzelne Autoren (Sekundärliteratur)"@de ;
+    skos:scopeNote "Biographien, Sekundärliteratur über die Werke"@de .
 
 :N769000
     a skos:Concept ;
@@ -7103,6 +7181,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "769040" ;
     skos:prefLabel "Epik"@de ;
+    skos:example "Prosa"@de ;
     skos:exactMatch gnd:4015025-2, wd:Q1097273 .
 
 :N769050
@@ -7151,6 +7230,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "782500" ;
     skos:prefLabel "Vorschulerziehung"@de ;
+    skos:example "Kindergarten"@de ;
     skos:exactMatch gnd:4064016-4, wd:Q104587761 .
 
 :N783000
@@ -7203,6 +7283,7 @@
     skos:narrower :N784025 ;
     skos:notation "784020" ;
     skos:prefLabel "Schulrecht"@de ;
+    skos:example "Schulgesetz"@de ;
     skos:exactMatch gnd:4053538-1, wd:Q2251446 .
 
 :N784025
@@ -7227,7 +7308,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:narrower :N784041, :N784042, :N784043, :N784044, :N784045, :N784046, :N784048, :N784049 ;
     skos:notation "784040" ;
-    skos:prefLabel "Schulformen"@de .
+    skos:prefLabel "Schulformen"@de ;
+    skos:example "Laborschulen"@de .
 
 :N784041
     a skos:Concept ;
@@ -7235,6 +7317,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784041" ;
     skos:prefLabel "Grundschulen"@de ;
+    skos:scopeNote "Bei Volksschulen [Grundschulen](#N784041) und [Hauptschulen](#N784042) vergeben"@de ;
     skos:exactMatch gnd:4022349-8, wd:Q9842 .
 
 :N784042
@@ -7243,6 +7326,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784042" ;
     skos:prefLabel "Hauptschulen"@de ;
+    skos:scopeNote "Bei Volksschulen [Grundschulen](#N784041) und [Hauptschulen](#N784042) vergeben"@de ;
     skos:exactMatch gnd:4023683-3, wd:Q675423 .
 
 :N784043
@@ -7276,6 +7360,7 @@
     skos:notation "784046" ;
     skos:prefLabel "Kollegschulen"@de ;
     skos:definition "Zusammenschluss der gymnasialen Oberstufe mit berufsbildenden Schulen, als Versuch Kollegstufe, vom Ministerium Kollegschule genannt"@de ;
+    skos:example "Berufskolleg NRW"@de ;
     skos:exactMatch gnd:4073619-2 .
 
 :N784048
@@ -7292,7 +7377,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784049" ;
     skos:prefLabel "Privatschulen"@de ;
-    skos:scopeNote "Hier auch Waldorfschulen"@de ;
+    skos:example "Waldorfschule, höhere Mädchenschule"@de ;
     skos:exactMatch gnd:4130059-2, wd:Q423208 .
 
 :N784050
@@ -7420,6 +7505,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "784090" ;
     skos:prefLabel "Schulleben"@de ;
+    skos:example "Schullandheim"@de ;
     skos:exactMatch gnd:4180172-6 .
 
 :N785000
@@ -7430,6 +7516,7 @@
     skos:notation "785000" ;
     skos:prefLabel "Berufsbildende Schulen"@de ;
     skos:definition "Sammelbegriff für alle schul. Einrichtungen in öffentl. oder privater Trägerschaft, die der berufl. Aus- oder Weiterbildung dienen"@de ;
+    skos:example "Berufskolleg NRW"@de ;
     skos:scopeNote "Zur Geschichte einzelner Schulen s.a. [Schulgeschichte](#N783000)"@de ;
     skos:exactMatch gnd:4069341-7, wd:Q322563 .
 
@@ -7471,6 +7558,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "785060" ;
     skos:prefLabel "Fachschulen"@de ;
+    skos:example "Krankenpflegeschule"@de ;
     skos:exactMatch gnd:4134406-6, wd:Q1391465 .
 
 :N785070
@@ -7502,7 +7590,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "788000" ;
     skos:prefLabel "Erwachsenenbildung. Weiterbildung"@de ;
-    skos:scopeNote "Hier auch Lit. zu Volkshochschulen"@de ;
+    skos:example "Volkshochschulen"@de ;
     skos:exactMatch gnd:4015428-2, gnd:4117622-4, wd:Q1319035, wd:Q1438896 .
 
 :N790000
@@ -7560,7 +7648,8 @@
     skos:broader :N794000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "794010" ;
-    skos:prefLabel "Einzelne Hochschulen"@de .
+    skos:prefLabel "Einzelne Hochschulen"@de ;
+    skos:example "Kunstakademie"@de .
 
 :N796000
     a skos:Concept ;
@@ -7600,6 +7689,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "798200" ;
     skos:prefLabel "Außeruniversitäre Forschung und Wissenschaft"@de ;
+    skos:example "Max-Planck-Institut"@de ;
     skos:exactMatch gnd:4200578-4 .
 
 :N799000
