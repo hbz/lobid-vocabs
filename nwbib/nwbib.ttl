@@ -3366,7 +3366,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "523010" ;
     skos:prefLabel "Arbeitslosenhilfe"@de ;
-    skos:scopeNote "Hier nur Titel zur sozialen Betreuung, nicht zur Versicherung, s. [Arbeitslosenversicherung](#N521450)"@de ;
+    skos:scopeNote "Hier nur Titel zur sozialen Betreuung; Für Versicherung s. [Arbeitslosenversicherung](#N521450)"@de ;
     skos:exactMatch gnd:4002725-9, wd:Q628574 .
 
 :N523020
@@ -8172,7 +8172,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843046" ;
     skos:prefLabel "Industriebauten"@de ;
-    skos:example "Technisches Denkmal, Industriedenkmal@de ;
+    skos:example "Technisches Denkmal, Industriedenkmal"@de ;
     skos:exactMatch gnd:4026808-1, wd:Q1662011 .
 
 :N843050
