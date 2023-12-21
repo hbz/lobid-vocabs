@@ -129,7 +129,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "105000" ;
     skos:prefLabel "Heimatpflege"@de ;
-    skos:scopeNote "Ggf. s.a. [Heimatvereine](#N106000)"@de ;
+    skos:scopeNote "S.a. [Heimatvereine](#N106000)"@de ;
     skos:exactMatch gnd:4132718-4, wd:Q1595667 . 
 
 :N106000
@@ -138,7 +138,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "106000" ;
     skos:prefLabel "Heimatvereine"@de ;
-    skos:scopeNote "Ggf. s.a. [Heimatpflege](#N105000)"@de ;
+    skos:scopeNote "S.a. [Heimatpflege](#N105000)"@de ;
     skos:exactMatch gnd:4522420-1, wd:Q1474001 . 
 
 :N109000
@@ -199,7 +199,7 @@
     skos:notation "122050" ;
     skos:prefLabel "Computerkartographie"@de ;
     skos:altLabel "Computerkartografie"@de ;
-    skos:example "Geoinformationssystem"@de ;
+    skos:example "Geoinformationssysteme"@de ;
     skos:exactMatch gnd:4010451-5 .
 
 :N122070
@@ -227,7 +227,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "126000" ;
     skos:prefLabel "Karten"@de ;
-    skos:scopeNote "Bei Vergabe des Form-SW „Karte“ immer angeben"@de ;
+    skos:scopeNote "Bei Vergabe immer Karte als SW angeben"@de ;
     skos:exactMatch gnd:4029783-4, wd:Q4006 . 
 
 :N140000
@@ -641,7 +641,7 @@
     skos:narrower :N142310, :N142320, :N142330, :N142340, :N142350, :N142360, :N142370, :N142380, :N142390 ;
     skos:notation "142300" ;
     skos:prefLabel "Wasser"@de ;
-    skos:scopeNote "Mineralbrunnen u. Thermalquellen, s. [Mineralquellen. Thermalquellen](#N141460)"@de ;
+    skos:scopeNote "Mineralbrunnen u. Thermalquellen s. [Mineralquellen. Thermalquellen](#N141460)"@de ;
     skos:exactMatch gnd:4064689-0, wd:Q283 .
 
 :N142310
@@ -706,7 +706,7 @@
     skos:notation "142352" ;
     skos:prefLabel "Bodenwasser. Grundwasser"@de ;
     skos:scopeNote "Freie SW: Bodenwasser; Grundwasser"@de ;
-    skos:exactMatch gnd:4007420-1 , gnd:4022369-3, wd:Q1316304, wd:Q161598 .
+    skos:exactMatch gnd:4007420-1, gnd:4022369-3, wd:Q1316304, wd:Q161598 .
 
 :N142360
     a skos:Concept ;
@@ -1457,7 +1457,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "220500" ;
     skos:prefLabel "Archäologie"@de ;
-    skos:scopeNote "Archäologie und Geschichte; Hier nur Archäologie bis zum Mittelalter; Verwenden, wenn kein genauerer Zeitraum angegeben ist"@de ;
+    skos:scopeNote "Hier nur Archäologie bis zum Mittelalter; Verwenden, wenn kein genauerer Zeitraum angegeben ist"@de ;
     skos:exactMatch gnd:4002827-6, wd:Q23498 .
 
 :N221000
@@ -1904,7 +1904,7 @@
     skos:narrower :N263010, :N263020, :N263030, :N263040, :N263050, :N263060, :N263090 ;
     skos:notation "263000" ;
     skos:prefLabel "Wehrwesen"@de ;
-    skos:scopeNote "Organisation des Militärswesens, im Unterschied zu [Militär](#N 262000): für militärische Anlagen und Ausrüstung"@de .
+    skos:scopeNote "Organisation des Militärswesens; Für militärische Anlagen und Ausrüstung s. [Militär](#N262000)"@de .
 
 :N263010
     a skos:Concept ;
@@ -2197,7 +2197,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406060" ;
     skos:prefLabel "Politische Bewegungen"@de ;
-    skos:scopeNote "Ggf. s.a. [Politische Gruppen](#N406200)"@de ;
+    skos:scopeNote "S.a. [Politische Gruppen](#N406200)"@de ;
     skos:exactMatch gnd:4229761-8, wd:Q2738074 .
 
 :N406080
@@ -2206,7 +2206,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406080" ;
     skos:prefLabel "Politische Stiftungen"@de ;
-    skos:scopeNote "Einzelne Stiftungen oder auch Stiftungslandschaften"@de .
+    skos:example "Einzelne Stiftungen oder auch Stiftungslandschaften"@de .
 
 :N406100
     a skos:Concept ;
@@ -2241,7 +2241,7 @@
     skos:notation "406200" ;
     skos:prefLabel "Politische Gruppen"@de ;
     skos:example "Eine-Welt-Gruppe"@de ;
-    skos:scopeNote "Ggf. s.a. [Politische Bewegungen](#N406060)"@de ;
+    skos:scopeNote "S.a. [Politische Bewegungen](#N406060)"@de ;
     skos:exactMatch gnd:4175025-1 .
 
 :N406230
@@ -7974,7 +7974,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "826000" ;
     skos:prefLabel "Konzerte und Musikveranstaltungen"@de ;
-    skos:scopeNote "Freie SW: Konzert; Musikveranstaltung"@de ;
+    skos:scopeNote "Primärliteratur zu Musikveranstaltungen, Gebrauchsliteratur wie Programmhefte und Spielpläne; Freie SW: Konzert; Musikveranstaltung"@de ;
     skos:exactMatch gnd:4032359-6, gnd:4212081-0, wd:Q182832 .
 
 :N827000
@@ -8043,6 +8043,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841040" ;
     skos:prefLabel "Kunstmuseen und Kunstsammlungen"@de ;
+    skos:example "Gemäldegalerie"@de ;
     skos:scopeNote "Freie SW: Kunstmuseum; Kunstsammlung"@de ;
     skos:exactMatch gnd:4166041-9, gnd:7511175-5, wd:Q207694 .
 
@@ -8069,7 +8070,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "841070" ;
     skos:prefLabel "Künstler"@de ;
-    skos:scopeNote "Hier alle Maler, Bildhauer, Zeichner; Raumsystematik: vorwiegender Ort od. Region + Ausstellungsort falls in NRW"@de ;
+    skos:example "Maler, Bildhauer, Zeichner; Photographen, Ausstellungen von Künstlern, Biografien von Künstlern"@de ;
+    skos:scopeNote "Raumsystematik: vorwiegender Ort od. Region + Ausstellungsort falls in NRW"@de ;
     skos:exactMatch gnd:4033423-5, gnd:4033430-2, wd:Q483501 .
 
 :N841080
@@ -8087,6 +8089,7 @@
     skos:narrower :N841095 ;
     skos:notation "841090" ;
     skos:prefLabel "Kunstförderung"@de ;
+    skos:example "Kunstwettbewerb"@de ;
     skos:exactMatch gnd:4033639-6 .
 
 :N841095
@@ -8124,6 +8127,7 @@
     skos:notation "843010" ;
     skos:prefLabel "Baukonstruktion. Bautechnik"@de ;
     skos:definition "Konstruktion von Bauwerken und Gebäuden, Bau- und Herstellungsprozess"@de ;
+    skos:example "Brücken, Aussichtstürme, Bahnunterführung, Überführung"@de ;
     skos:scopeNote "Freie SW: Baukonstruktion; Bautechnik"@de ;
     skos:exactMatch gnd:4004821-4, wd:Q811430 .
 
@@ -8133,6 +8137,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843020" ;
     skos:prefLabel "Öffentliche Gebäude"@de ;
+    skos:example "Rathaus, Museumsbau, Theaterbau, Trauerhalle"@de ;
     skos:exactMatch gnd:4055001-1, wd:Q294422 .
 
 :N843040
@@ -8150,6 +8155,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843042" ;
     skos:prefLabel "Bürohäuser"@de ;
+    skos:example "Hotel"@de ;
     skos:exactMatch gnd:4121068-2, wd:Q1021645 .
 
 :N843044
@@ -8166,6 +8172,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843046" ;
     skos:prefLabel "Industriebauten"@de ;
+    skos:example "Technisches Denkmal, Industriedenkmal@de ;
     skos:exactMatch gnd:4026808-1, wd:Q1662011 .
 
 :N843050
@@ -8183,6 +8190,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843060" ;
     skos:prefLabel "Wohnhäuser"@de ;
+    skos:example "Villen"@de ;
     skos:scopeNote "S.a. [Bürgerhäuser](#N708024)"@de .
 
 :N843090
@@ -8191,6 +8199,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "843090" ;
     skos:prefLabel "Architekten"@de ;
+    skos:example "Hier auch Zimmerer, Bautischler"@de ;
     skos:exactMatch gnd:4002844-6, gnd:4131695-2, wd:Q42973 .
 
 :N844000
@@ -8200,7 +8209,7 @@
     skos:narrower :N844010, :N844020, :N844030, :N844040, :N844050, :N844060, :N844070, :N844080 ;
     skos:notation "844000" ;
     skos:prefLabel "Baudenkmäler. Kunstwerke"@de ;
-    skos:scopeNote "Allg., auch für Burgen, Profanbauten u.Ä.; Freie SW: Baudenkmal; Kunstwerk"@de ;
+    skos:scopeNote "Allg., auch für Burgen, Profanbauten, Kulturdenkmal u.Ä.; Freie SW: Baudenkmal; Kunstwerk"@de ;
     skos:exactMatch gnd:4004973-5, gnd:4123592-7, wd:Q811165, wd:Q838948 .
 
 :N844010
@@ -8234,7 +8243,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844040" ;
     skos:prefLabel "Burgen. Schlösser"@de ;
-    skos:scopeNote "Freie SW: Burg; Schloß; Bei militärischen Aspekten s. [Burgen](#N262011)"@de ;
+    skos:scopeNote "Burgmannshof, Herrenhaus, Adelssitz; Freie SW: Burg; Schloß; Bei militärischen Aspekten s. [Burgen](#N262011)"@de ;
     skos:exactMatch gnd:4009104-1, gnd:4052753-0, wd:Q23413, wd:Q751876 .
 
 :N844050
@@ -8267,6 +8276,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "844080" ;
     skos:prefLabel "Denkmäler"@de ;
+    skos:example "Hier auch Kriegerdenkmal"@de ;
     skos:exactMatch gnd:4011453-3, wd:Q4989906 .
 
 :N844200
@@ -8302,6 +8312,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "846000" ;
     skos:prefLabel "Malerei"@de ;
+    skos:example "Collagen, Wandmalerei"@de ;
     skos:exactMatch gnd:4037220-0, wd:Q11629 .
 
 :N847000
@@ -8319,6 +8330,7 @@
     skos:notation "847500" ;
     skos:prefLabel "Graphik"@de ;
     skos:altLabel "Grafik"@de ;
+    skos:example "Kupferstich"@de ;
     skos:exactMatch gnd:4021845-4, wd:Q1027879 .
 
 :N848000
@@ -8459,6 +8471,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "849082" ;
     skos:prefLabel "Textilkunst. Mode"@de ;
+    skos:example "Hier auch Paramente"@de ;
     skos:scopeNote "Im Bereich Volkskunst s. [Textilien](#N708290)"@de ;
     skos:exactMatch gnd:4059624-2, gnd:4039792-0, wd:Q12684 .
 
@@ -8519,6 +8532,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861020" ;
     skos:prefLabel "Handschriften"@de ;
+    skos:example "Handgeschriebene Stundenbücher"@de ;
     skos:exactMatch gnd:4023287-6 .
 
 :N861030
@@ -8536,6 +8550,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861040" ;
     skos:prefLabel "Druckgeschichte"@de ;
+    skos:example "Frühdrucke"@de ;
     skos:scopeNote "Verwenden, wenn Druckaspekt im Vordergrund steht; Im Unterschied zu allg. [Geschichte](#N240000)"@de ;
     skos:exactMatch gnd:7503066-4 .
 
@@ -8639,6 +8654,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865060" ;
     skos:prefLabel "Spezialbibliotheken"@de ;
+    skos:example "Kirchliche Bibliotheken, Klosterbibliotheken, Stiftsbibliotheken, Museumsbibliotheken, Diözesanbibliotheken"@de ;
     skos:exactMatch gnd:4182209-2, wd:Q385994 .
 
 :N865070
@@ -8663,6 +8679,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "865090" ;
     skos:prefLabel "Bibliothekare"@de ;
+    skos:scopeNote "Archivar s. [Archive](#N213000)"@de ;
     skos:exactMatch gnd:4145258-6, gnd:4145264-1, wd:Q182436 .
 
 :N880000
