@@ -7765,6 +7765,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802050" ;
     skos:prefLabel "Kinder- und Jugendtheater"@de ;
+    skos:example "Schultheater"@de ;
     skos:scopeNote "Freie SW: Kindertheater; Jugendtheater"@de ;
     skos:exactMatch gnd:4125349-8, gnd:4162874-3, wd:Q2416110 .
 
@@ -7774,7 +7775,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802060" ;
     skos:prefLabel "Einzelne Theater"@de ;
-    skos:scopeNote "Hier auch Literatur zu Opernhäusern, Musiktheatern; Regisseuren; Intendanten"@de .
+    skos:scopeNote "Sekundärliteratur über das Theater; Hier auch Literatur zu Opernhäusern, Musiktheatern; Regisseuren; Intendanten; Achtung: Programmhefte und Spielpläne (Primärliteratur) s. [Theateraufführungen](#N802070)"@de .
 
 :N802070
     a skos:Concept ;
@@ -7782,7 +7783,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802070" ;
     skos:prefLabel "Theateraufführungen"@de ;
-    skos:scopeNote "Hier auch Lit. zu Aufführungen im Bereich Musiktheater"@de ;
+    skos:scopeNote "Primärliteratur von Theateraufführungen, Gebrauchsliteratur wie Programmhefte und Spielpläne; Hier auch Lit. zu Aufführungen im Bereich Musiktheater"@de ;
     skos:exactMatch gnd:7501980-2 .
 
 :N802080
@@ -7842,6 +7843,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "807000" ;
     skos:prefLabel "Figurentheater"@de ;
+    skos:example "Puppentheater"@de ;
     skos:exactMatch gnd:4247240-4, wd:Q110889064 .
 
 :N808000
@@ -7953,7 +7955,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "825000" ;
     skos:prefLabel "Orchester. Musikkapellen. Musikgruppen"@de ;
-    skos:scopeNote "Freie SW: Orchester; Kapelle (Musik); Musikgruppe"@de ;
+    skos:scopeNote "Sekundärliteratur über einzelne Orchester, Musikkapellen, Musikgruppen; Achtung: Programmhefte und Spielpläne (Primärliteratur) s. [Konzerte und Musikveranstaltungen](#N826000); Freie SW: Orchester; Kapelle (Musik); Musikgruppe"@de ;
     skos:exactMatch gnd:4172708-3, gnd:4170827-1, wd:Q42998, wd:Q215380 .
 
 :N825500
@@ -7963,7 +7965,7 @@
     skos:notation "825500" ;
     skos:prefLabel "Chöre. Gesangvereine"@de ;
     skos:altLabel "Gesangsverein"@de ;
-    skos:scopeNote "Freie SW: Chor; Gesangverein"@de ;
+    skos:scopeNote "Sekundärliteratur über einzelne Chöre und Gesangvereine; Achtung: Programmhefte und Spielpläne (Primärliteratur) s. [Konzerte und Musikveranstaltungen](#N826000); Freie SW: Chor; Gesangverein"@de ;
     skos:exactMatch gnd:4010045-5, gnd:4156946-5, wd:Q131186 .
 
 :N826000
