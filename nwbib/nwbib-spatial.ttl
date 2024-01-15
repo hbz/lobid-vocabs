@@ -4938,7 +4938,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2023-11-30" ;
+        dct:modified                   "2024-01-15" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -11078,6 +11078,13 @@ nwbib-spatial:Q1624184
         skos:prefLabel  "Hoinkhausen"@de ;
         foaf:focus      wd:Q1624184 .
 
+nwbib-spatial:Q27959005
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q254458 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Eckhausen"@de ;
+        foaf:focus      wd:Q27959005 .
+
 nwbib-spatial:Q2380832
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q14923 ;
@@ -17062,7 +17069,7 @@ nwbib-spatial:Q47462205
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis Lüdenscheid"@de ;
+        skos:prefLabel  "Kirchenkreis Lüdenscheid-Plettenberg"@de ;
         foaf:focus      wd:Q47462205 .
 
 nwbib-spatial:Q225794
@@ -31601,6 +31608,13 @@ nwbib-spatial:Q436998
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Altendorf"@de ;
         foaf:focus      wd:Q436998 .
+
+nwbib-spatial:Q1483734
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11038 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Fürweg"@de ;
+        foaf:focus      wd:Q1483734 .
 
 nwbib-spatial:Q55629960
         a               skos:Concept ;
