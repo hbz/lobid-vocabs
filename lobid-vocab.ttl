@@ -23,7 +23,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17" ;
-   dct:modified "2023-06-15"^^xsd:date ;
+   dct:modified "2024-02-16"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -42,6 +42,15 @@ lv:ArchivedWebPage
    rdfs:comment "An archival resource that is product of archiving a web page."@en ;
    rdfs:comment "Das Produkt der Archivierung einer Webseite."@de .
 
+# <http://purl.org/lobid/lv#BibliographicDescription>
+
+lv:BibliographicDescription
+   a owl:Class ;
+   rdfs:subClassOf bibo:Document ;
+   rdfs:label "Bibliographic description"@en ;
+   rdfs:label "Bibliographische Beschreibung"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "A description of a bibliographic resource, e.g. in form of a metadata record."@en , "Die Beschreibung einer bibliographischen Ressource, z.B. in Form eines Metadatensatzes."@de .
 
 # <http://purl.org/lobid/lv#Bibliography>
 
