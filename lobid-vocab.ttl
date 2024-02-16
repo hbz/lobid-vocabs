@@ -273,7 +273,7 @@ lv:containedIn
    rdfs:comment "This property is used to link an article to a journal or an edited volume it is contained in."@en ;
    rdfs:comment "Diese Property verlinkt einen Artikel mit einer Zeitschrift oder einer Aufsatzsammlung, in der er enthalten ist."@de;
    rdfs:subPropertyOf dct:isPartOf;
-   rdfs:domain bibo:Article ;
+   rdfs:domain bibo:BibliographicResource ;
    rdfs:range dct:BibliographicResource .
 
 
