@@ -264,6 +264,7 @@ lv:currentLocation
 
 lv:contactqr
    rdf:type owl:ObjectProperty ;
+   owl:deprecated true ;
    rdfs:label "Contact QR code"@en ;
    rdfs:label "Kontakt-QR-Code"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
@@ -614,6 +615,7 @@ lv:stockNumber
 
 lv:stocksize
    rdf:type rdf:Property ;
+   owl:deprecated true ;
    rdfs:label "Stock Size"@en ;
    rdfs:label "Bestandsgröße"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
