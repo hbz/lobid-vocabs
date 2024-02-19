@@ -9,8 +9,10 @@
 libtype:scheme
   a skos:ConceptScheme ;
   dct:title "Bibliothekstypen gemäß dem Sigelverzeichnis"@de ;
-  dct:creator <http://lobid.org/team/ap> ;
+  dct:creator <http://lobid.org/team/ap#!> ;
   dc:creator "Felix Ostrowski" ;
+  dct:issued "2011-04-28" ;
+  dct:modified "2024-02-19"^^xsd:date ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description "Dies ist eine SKOS-Repräsentation des im deutschen Sigelverzeichnis benutzten Klassifizierungsschemas für bibliothekarische Einrichtungen. Siehe http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/#c72416."@de ;
   rdfs:seeAlso <http://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/805/#c72416> ;
@@ -204,6 +206,13 @@ libtype:n82
   skos:prefLabel "Einrichtung der Denkmalpflege"@de ;
   skos:prefLabel "Institution for Preservation of Historical Monuments"@en .
 
+libtype:n83
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "83" ;
+  skos:prefLabel "Gedenkstätte"@de ;
+  skos:prefLabel "Memorial Place"@en .
+
 libtype:n84
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
@@ -211,13 +220,20 @@ libtype:n84
   skos:prefLabel "Forschungseinrichtung"@de ;
   skos:prefLabel "Research Institution"@en .
 
+libtype:n85
+  a skos:Concept ;
+  skos:inScheme libtype:scheme ;
+  skos:notation "85" ;
+  skos:prefLabel "Sammlung"@de ;
+  skos:prefLabel "Collection"@en .
+
 libtype:n86
   a skos:Concept ;
   skos:inScheme libtype:scheme ;
   skos:notation "86" ;
   skos:prefLabel "Museum"@de ;
   skos:scopeNote "nicht Museumsbibliothek"@de ;
-  skos:PrefLabel "Museum"@en ;
+  skos:prefLabel "Museum"@en ;
   skos:scopeNote "not Museum Library"@en .
 
 libtype:n87
@@ -225,7 +241,7 @@ libtype:n87
   skos:inScheme libtype:scheme ;
   skos:notation "87" ;
   skos:prefLabel "Verlag"@de ;
-  skos:PrefLabel "Publisher"@en .
+  skos:prefLabel "Publisher"@en .
 
 libtype:n88
   a skos:Concept ;
