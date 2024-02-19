@@ -233,7 +233,7 @@ libtype:n86
   skos:notation "86" ;
   skos:prefLabel "Museum"@de ;
   skos:scopeNote "nicht Museumsbibliothek"@de ;
-  skos:PrefLabel "Museum"@en ;
+  skos:prefLabel "Museum"@en ;
   skos:scopeNote "not Museum Library"@en .
 
 libtype:n87
@@ -241,7 +241,7 @@ libtype:n87
   skos:inScheme libtype:scheme ;
   skos:notation "87" ;
   skos:prefLabel "Verlag"@de ;
-  skos:PrefLabel "Publisher"@en .
+  skos:prefLabel "Publisher"@en .
 
 libtype:n88
   a skos:Concept ;
