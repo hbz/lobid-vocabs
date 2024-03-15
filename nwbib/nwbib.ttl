@@ -71,7 +71,7 @@
     a skos:Concept ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:broader :N1 ;
-    skos:narrower :N100100, :N101000, :N102000, :N106000, :N109000 ;
+    skos:narrower :N100100, :N101000, :N102000, :N106000, :N109000 , :N105000;
     skos:notation "100000" ;
     skos:prefLabel "Allgemeine Landeskunde"@de ;
     skos:scopeNote "Hauptsachgebiet - nicht verknüpfen"@de .
@@ -94,7 +94,7 @@
     a skos:Concept ;
     skos:broader :N100000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
-    skos:narrower :N102060, :N102070, :N105000 ;
+    skos:narrower :N102060, :N102070 ;
     skos:notation "102000" ;
     skos:prefLabel "Landesbeschreibungen"@de ;
     skos:definition "Als Landesbeschreibung wurden frühe Formen der geografischen Landesaufnahme bezeichnet. Ab dem 17. Jahrhundert verstand man darunter eine Sammlung topografischer Karten kombiniert mit textlicher Beschreibung von Landschaft und Städten (Wikipedia)"@de ;
