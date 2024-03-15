@@ -117,7 +117,7 @@
 
 :N105000
     a skos:Concept ;
-    skos:broader :N102000 ;
+    skos:broader :N100000 ;
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "105000" ;
     skos:prefLabel "Heimatpflege"@de ;
