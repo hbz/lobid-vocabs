@@ -52,6 +52,13 @@ nwbib-spatial:Q832411
         skos:prefLabel  "Bettenhoven"@de ;
         foaf:focus      wd:Q832411 .
 
+nwbib-spatial:Q42302003
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10890 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Germinghausen"@de ;
+        foaf:focus      wd:Q42302003 .
+
 nwbib-spatial:Q6136  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q5965 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
@@ -4938,7 +4945,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2024-04-09" ;
+        dct:modified                   "2024-05-17" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -9333,6 +9340,13 @@ nwbib-spatial:Q432917
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Alt-Godesberg"@de ;
         foaf:focus      wd:Q432917 .
+
+nwbib-spatial:Q40719209
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10890 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dumicke"@de ;
+        foaf:focus      wd:Q40719209 .
 
 nwbib-spatial:Q242514
         a               skos:Concept ;
@@ -21778,6 +21792,13 @@ nwbib-spatial:Q968  a   skos:Concept ;
         skos:prefLabel  "Warburg"@de ;
         foaf:focus      wd:Q968 .
 
+nwbib-spatial:Q125580787
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10890 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Junkernhöh"@de ;
+        foaf:focus      wd:Q125580787 .
+
 nwbib-spatial:Q2555954
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6961 ;
@@ -30291,6 +30312,13 @@ nwbib-spatial:Q1735461
         skos:prefLabel  "Kaster"@de ;
         foaf:focus      wd:Q1735461 .
 
+nwbib-spatial:Q14917  a  skos:Concept ;
+        skos:broader    nwbib-spatial:Q6187 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "05566012" ;
+        skos:prefLabel  "Greven"@de ;
+        foaf:focus      wd:Q14917 .
+
 nwbib-spatial:Q1752455
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q242149 ;
@@ -30305,13 +30333,6 @@ nwbib-spatial:Q1479624
         skos:prefLabel  "Föckinghausen"@de ;
         foaf:focus      wd:Q1479624 .
 
-nwbib-spatial:Q14917  a  skos:Concept ;
-        skos:broader    nwbib-spatial:Q6187 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05566012" ;
-        skos:prefLabel  "Greven"@de ;
-        foaf:focus      wd:Q14917 .
-
 nwbib-spatial:Q1872483
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200894 ;
@@ -30325,6 +30346,13 @@ nwbib-spatial:Q322426
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Essig"@de ;
         foaf:focus      wd:Q322426 .
+
+nwbib-spatial:Q125580956
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q10890 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Schürholz"@de ;
+        foaf:focus      wd:Q125580956 .
 
 nwbib-spatial:Q1663115
         a               skos:Concept ;
