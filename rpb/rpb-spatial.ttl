@@ -7711,7 +7711,7 @@
 
 <https://rpb.lobid.org/spatial>
         a                              skos:ConceptScheme ;
-        dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)." ;
+        dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)."@en ;
         dct:issued                     "2022-08-26" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
         dct:modified                   "2022-10-21" ;

@@ -7,7 +7,7 @@
     a skos:ConceptScheme ;
     dct:title "Systematik der Rheinland-Pfälzischen Bibliographie"@de , "Classification scheme for the bibliography of Rhineland-Palatinate"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    dct:description "This classification was created for use in the bibliography of . The transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
+    dct:description "This classification was created for use in the bibliography of . The transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
     dct:issued "2014-01-28" ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "http://purl.org/lobid/rpb#" ;
