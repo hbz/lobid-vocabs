@@ -14,7 +14,7 @@
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb-fachgebiete/" ;
     vann:preferredNamespacePrefix "rpbf" ;
-	skos:hasTopConcept :n2.1p, :n2.2p, :n2.3p, :n3.1p, :n3.6p, :n4.7p, :n5.5p, :n5.7p, :n6.1p, :n6.4p, :n6.7p, :n6.8p, :n7.14p, :n7.15p, :n8.1p, :n8.4p, :n9.5p, :n10.10p, :n10.11p, :n10.12p, :n10.13p, :n10.14p, :n10.15p, :n10.1p, :n10.3p, :n10.4p, :n10.5p, :n10.6p, :n10.7p, :n10.8p, :n10.9p, :n11.2p, :n11.3p, :n12.1p, :n12.2p, :n13.2p, :n13.4p, :n13.5p, :n13.6p, :n13.7p, :n14.4p, :n15.1p, :n15.2p, :n15.3p, :n15.4p, :n16.1p, :n16.5p, :n17.4p, :n18p, :n19.2p, :n19.3p, :n19.4p, :n19.5p, :n20p, :n21.5p, :n22.5p, :n23.4p, :n24.3p, :n25.3p, :n26p, :n27.20p, :n28p, :n29p, :n30p, :n31.16p, :n31.3p, :n32.10p, :n33.3p, :n34.3p, :n35p, :n36p .
+	skos:hasTopConcept :n2.1p, :n2.2p, :n2.3p, :n3.1p, :n3.6p, :n4.7p, :n5.5p, :n5.7p, :n6.1p, :n6.4p, :n6.7p, :n6.8p, :n7.14p, :n7.15p, :n8.1p, :n8.4p, :n9.5p, :n10.10p, :n10.11p, :n10.12p, :n10.13p, :n10.14p, :n10.15p, :n10.1p, :n10.2dp, :n10.2ep, :n10.3p, :n10.4p, :n10.5p, :n10.6p, :n10.7p, :n10.8p, :n10.9p, :n11.2p, :n11.3p, :n12.1p, :n12.2p, :n13.1bp, :n13.2p, :n13.4p, :n13.5p, :n13.6p, :n13.7p, :n14.4p, :n15.1p, :n15.2p, :n15.3p, :n15.4p, :n16.1p, :n16.5p, :n17.4p, :n18p, :n19.1dp, :n19.2p, :n19.3p, :n19.4p, :n19.5p, :n20p, :n21.5p, :n22.5p, :n23.4p, :n24.3p, :n25.3p, :n26p, :n27.20p, :n28p, :n29p, :n30p, :n31.16p, :n31.3p, :n32.10p, :n33.3p, :n34.3p, :n35p, :n36p .
 
 :n10.10p a	skos:Concept ;
 	skos:inScheme : ;
