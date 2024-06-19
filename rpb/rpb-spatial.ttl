@@ -32,14 +32,14 @@
 
 :n01 a skos:Concept ;
     skos:broader :n1 ;
-    skos:closeMatch "http://d-nb.info/gnd/4049795-1" ;
+    skos:closeMatch <http://d-nb.info/gnd/4049795-1> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinland-Pfalz"@de .
 
 :n05 a skos:Concept ;
     skos:altLabel "Provinz Rheinhessen"@de ;
     skos:broader :n1 ;
-    skos:closeMatch "http://d-nb.info/gnd/4049762-8" ;
+    skos:closeMatch <http://d-nb.info/gnd/4049762-8> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinhessen"@de .
 
@@ -177,7 +177,7 @@
     skos:altLabel "Hessen / Mainzer Becken"@de,
         "Rheinland-Pfalz / Mainzer Becken"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4037133-5" ;
+    skos:closeMatch <http://d-nb.info/gnd/4037133-5> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Mainzer Becken"@de .
 
@@ -8391,10 +8391,10 @@
         "Oberrhein-Gebiet / Nord"@de,
         "Oberrheinebene / Nord"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4224683-0" ;
+    skos:closeMatch <http://d-nb.info/gnd/4224683-0> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Oberrheinisches Tiefland / Nord"@de ;
-    skos:scopeNote "Umfasst das Einzugsgebiet von Pfalz, Rheinhessen, Südhessen u. Nordbaden." .
+    skos:scopeNote "Umfasst das Einzugsgebiet von Pfalz, Rheinhessen, Südhessen u. Nordbaden."@de .
 
 :n231001340100 a skos:Concept ;
     skos:broader :n23100134 ;
@@ -12169,14 +12169,14 @@
 :n25 a skos:Concept ;
     skos:altLabel "Lahn / Tal"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4098938-0" ;
+    skos:closeMatch <http://d-nb.info/gnd/4098938-0> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Lahntal"@de .
 
 :n26 a skos:Concept ;
     skos:altLabel "Nahe / Tal"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4102346-8" ;
+    skos:closeMatch <http://d-nb.info/gnd/4102346-8> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Nahetal"@de .
 
@@ -12184,14 +12184,14 @@
     skos:altLabel "Untere Saar / Tal"@de,
         "Unteres Saartal"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4337778-6" ;
+    skos:closeMatch <http://d-nb.info/gnd/4337778-6> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Untere-Saar-Tal"@de .
 
 :n28 a skos:Concept ;
     skos:altLabel "Ahr / Tal"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4084812-7" ;
+    skos:closeMatch <http://d-nb.info/gnd/4084812-7> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Ahrtal"@de .
 
@@ -12200,7 +12200,7 @@
         "Kirchenprovinz Rheinland"@de,
         "Rheinische Provinzialkirche"@de ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/4015837-8" ;
+    skos:closeMatch <http://d-nb.info/gnd/4015837-8> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Evangelische Kirche im Rheinland"@de .
 
@@ -12210,7 +12210,7 @@
         "Kirche in Hessen und Nassau"@de,
         "Landeskirche in Hessen und Nassau"@de ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/4015844-5" ;
+    skos:closeMatch <http://d-nb.info/gnd/4015844-5> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Evangelische Kirche in Hessen und Nassau"@de .
 
@@ -12728,7 +12728,7 @@
         "Protestantische Landeskirche der Pfalz"@de,
         "Vereinigte Protestantisch-Evangelisch-Christliche Kirche der Pfalz"@de ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/1046700-2" ;
+    skos:closeMatch <http://d-nb.info/gnd/1046700-2> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Evangelische Kirche der Pfalz (Protestantische Landeskirche)"@de .
 
@@ -16526,7 +16526,7 @@
     skos:altLabel "Erzbistum Köln"@de,
         "Erzdiözese Köln"@de ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/2029646-0" ;
+    skos:closeMatch <http://d-nb.info/gnd/2029646-0> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Erzdiözese Köln"@de .
 
@@ -17142,25 +17142,25 @@
 
 :n35 a skos:Concept ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/4035752-1" ;
+    skos:closeMatch <http://d-nb.info/gnd/4035752-1> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Limburg"@de .
 
 :n36 a skos:Concept ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/1081206853" ;
+    skos:closeMatch <http://d-nb.info/gnd/1081206853> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Mainz"@de .
 
 :n37 a skos:Concept ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/1072550938" ;
+    skos:closeMatch <http://d-nb.info/gnd/1072550938> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Speyer"@de .
 
 :n38 a skos:Concept ;
     skos:broader :n3 ;
-    skos:closeMatch "http://d-nb.info/gnd/1084659573" ;
+    skos:closeMatch <http://d-nb.info/gnd/1084659573> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Trier"@de .
 
@@ -17294,10 +17294,10 @@
         "Kurfürstentum und Erzbistum Trier"@de,
         "Kurtrier"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4060882-7" ;
+    skos:closeMatch <http://d-nb.info/gnd/4060882-7> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Erzstift Trier"@de ;
-    skos:scopeNote "ca. 800-1803" .
+    skos:scopeNote "ca. 800-1803"@de .
 
 :n4101050n4 a skos:Concept ;
     skos:broader :n22 ;
@@ -17415,10 +17415,10 @@
         "Kurmainz"@de,
         "Staat Mainz"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4100026-2" ;
+    skos:closeMatch <http://d-nb.info/gnd/4100026-2> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Erzstift Mainz"@de ;
-    skos:scopeNote "ca. 550-1803" .
+    skos:scopeNote "ca. 550-1803"@de .
 
 :n4316101n7 a skos:Concept ;
     skos:broader :n24 ;
@@ -17472,10 +17472,10 @@
 
 :n45 a skos:Concept ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4118751-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4118751-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hochstift Speyer"@de ;
-    skos:scopeNote "ca. 614-1801" .
+    skos:scopeNote "ca. 614-1801"@de .
 
 :n4526161n1 a skos:Concept ;
     skos:broader :n50 ;
@@ -17487,10 +17487,10 @@
         "Pfalzgrafschaft bei Rhein"@de,
         "Unterpfalz"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/25943-3" ;
+    skos:closeMatch <http://d-nb.info/gnd/25943-3> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Kurpfalz"@de ;
-    skos:scopeNote "10. Jh.-1801" .
+    skos:scopeNote "10. Jh.-1801"@de .
 
 :n4607820n4 a skos:Concept ;
     skos:broader :n19 ;
@@ -17520,18 +17520,18 @@
 :n47 a skos:Concept ;
     skos:altLabel "Herzogtum Zweibrücken"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4045464-2" ;
+    skos:closeMatch <http://d-nb.info/gnd/4045464-2> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Pfalz-Zweibrücken"@de ;
-    skos:scopeNote "1444-1793" .
+    skos:scopeNote "1444-1793"@de .
 
 :n48 a skos:Concept ;
     skos:altLabel "Bistum Worms"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4119173-0" ;
+    skos:closeMatch <http://d-nb.info/gnd/4119173-0> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hochstift Worms"@de ;
-    skos:scopeNote "ca. 4. Jh.-1805" .
+    skos:scopeNote "ca. 4. Jh.-1805"@de .
 
 :n4827033n7 a skos:Concept ;
     skos:broader :n10 ;
@@ -17550,10 +17550,10 @@
         "Provinz Niederrhein"@de,
         "Rheinpreußen"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4211235-7" ;
+    skos:closeMatch <http://d-nb.info/gnd/4211235-7> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinprovinz"@de ;
-    skos:scopeNote "1816-1945" .
+    skos:scopeNote "1816-1945"@de .
 
 :n52 a skos:Concept ;
     skos:broader :n4 ;
@@ -17565,10 +17565,10 @@
         "Großherzogtum Hessen / Volksstaat Hessen-Darmstadt"@de,
         "Landgrafschaft Hessen"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4072471-2" ;
+    skos:closeMatch <http://d-nb.info/gnd/4072471-2> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hessen-Darmstadt"@de ;
-    skos:scopeNote "1806-1945" .
+    skos:scopeNote "1806-1945"@de .
 
 :n54 a skos:Concept ;
     skos:altLabel "Grafschaft Nassau"@de,
@@ -17576,20 +17576,20 @@
         "Nassau"@de,
         "Nassauische Fürstentümer"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4041265-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4041265-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Staat Nassau"@de ;
-    skos:scopeNote "12. Jh.-1866" .
+    skos:scopeNote "12. Jh.-1866"@de .
 
 :n55 a skos:Concept ;
     skos:altLabel "Bezirk Wiesbaden"@de,
         "Preußische Provinz Hessen-Nassau"@de,
         "Provinz Hessen-Nassau"@de ;
     skos:broader :n4 ;
-    skos:closeMatch "http://d-nb.info/gnd/4041265-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4041265-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hessen-Nassau"@de ;
-    skos:scopeNote "1868-1944" .
+    skos:scopeNote "1868-1944"@de .
 
 :n58 a skos:Concept ;
     skos:altLabel "Bayerischer Rheinkreis"@de,
@@ -17603,7 +17603,7 @@
 :n70 a skos:Concept ;
     skos:altLabel "Saargebiet"@de ;
     skos:broader :n5 ;
-    skos:closeMatch "http://d-nb.info/gnd/4076919-7" ;
+    skos:closeMatch <http://d-nb.info/gnd/4076919-7> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saarland"@de .
 
@@ -17613,7 +17613,7 @@
         "Planungsgemeinschaft West"@de,
         "Westpfalz / Planungsgemeinschaft"@de ;
     skos:broader :n07 ;
-    skos:closeMatch "http://d-nb.info/gnd/4065806-5" ;
+    skos:closeMatch <http://d-nb.info/gnd/4065806-5> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westpfalz"@de .
 
@@ -17621,14 +17621,14 @@
     skos:altLabel "Grenzregion Saarland-Lothringen-Luxemburg"@de,
         "Saar-Lor-Lux-Trier-Westpfalz"@de ;
     skos:broader :n5 ;
-    skos:closeMatch "http://d-nb.info/gnd/4137543-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4137543-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saar-Lor-Lux"@de .
 
 :n92 a skos:Concept ;
     skos:altLabel "Rhein-Main / Region"@de ;
     skos:broader :n5 ;
-    skos:closeMatch "http://d-nb.info/gnd/4049799-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4049799-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rhein-Main-Gebiet"@de .
 
@@ -17639,13 +17639,13 @@
         "Rhein-Neckar-Dreieck"@de,
         "Rhein-Neckar-Gebiet"@de ;
     skos:broader :n5 ;
-    skos:closeMatch "http://d-nb.info/gnd/4049804-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4049804-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rhein-Neckar-Raum"@de .
 
 :n94 a skos:Concept ;
     skos:broader :n5 ;
-    skos:closeMatch "http://d-nb.info/gnd/4374036-4" ;
+    skos:closeMatch <http://d-nb.info/gnd/4374036-4> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rhein-Nahe-Raum"@de .
 
@@ -17654,7 +17654,7 @@
         "Planungsgemeinschaft Südpfalz"@de,
         "Südpfalz / Planungsgemeinschaft"@de ;
     skos:broader :n07 ;
-    skos:closeMatch "http://d-nb.info/gnd/4058451-3" ;
+    skos:closeMatch <http://d-nb.info/gnd/4058451-3> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Südpfalz"@de .
 
@@ -17664,13 +17664,13 @@
 
 :n03 a skos:Concept ;
     skos:broader :n1 ;
-    skos:closeMatch "http://d-nb.info/gnd/4049788-4" ;
+    skos:closeMatch <http://d-nb.info/gnd/4049788-4> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinland"@de .
 
 :n12 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4049791-4" ;
+    skos:closeMatch <http://d-nb.info/gnd/4049791-4> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinhessisches Hügelland"@de .
 
@@ -18542,7 +18542,7 @@
 :n17 a skos:Concept ;
     skos:altLabel "Saar-Nahe-Bergland / Südost"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4042533-2" ;
+    skos:closeMatch <http://d-nb.info/gnd/4042533-2> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Nordpfälzer Bergland"@de .
 
@@ -19589,7 +19589,7 @@
 
 :n11 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4059163-3" ;
+    skos:closeMatch <http://d-nb.info/gnd/4059163-3> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Taunus"@de .
 
@@ -19860,7 +19860,7 @@
 
 :n14 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4063962-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4063962-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Vorderpfalz"@de .
 
@@ -19996,14 +19996,14 @@
 
 :n16 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4065818-1" ;
+    skos:closeMatch <http://d-nb.info/gnd/4065818-1> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westrich"@de .
 
 :n18 a skos:Concept ;
     skos:altLabel "Pfälzer Bergland"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4045427-7" ;
+    skos:closeMatch <http://d-nb.info/gnd/4045427-7> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saar-Nahe-Bergland"@de .
 
@@ -20730,7 +20730,7 @@
 :n24 a skos:Concept ;
     skos:altLabel "Mosel / Tal"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4102224-5" ;
+    skos:closeMatch <http://d-nb.info/gnd/4102224-5> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Moseltal"@de .
 
@@ -21261,7 +21261,7 @@
 :n15 a skos:Concept ;
     skos:altLabel "Pfälzerwald"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4045428-9" ;
+    skos:closeMatch <http://d-nb.info/gnd/4045428-9> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Pfälzer Wald"@de .
 
@@ -21592,7 +21592,7 @@
 
 :n19 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4026217-0" ;
+    skos:closeMatch <http://d-nb.info/gnd/4026217-0> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hunsrück"@de .
 
@@ -21602,7 +21602,7 @@
         "Mittelrheinlande"@de,
         "Mittleres Rheinland"@de ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4074902-2" ;
+    skos:closeMatch <http://d-nb.info/gnd/4074902-2> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Mittelrhein-Gebiet"@de .
 
@@ -21707,7 +21707,7 @@
 
 :n10 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4065773-5" ;
+    skos:closeMatch <http://d-nb.info/gnd/4065773-5> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westerwald"@de .
 
@@ -21913,7 +21913,7 @@
 
 :n20 a skos:Concept ;
     skos:broader :n2 ;
-    skos:closeMatch "http://d-nb.info/gnd/4013749-1" ;
+    skos:closeMatch <http://d-nb.info/gnd/4013749-1> ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Eifel"@de .
 
