@@ -440,6 +440,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wachenheim an der Weinstraße, Verbandsgemeinde"@de .
 
+:n232050110202  a       skos:Concept ;
+        skos:broader    :n23205011 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Luppertsseifen"@de .
+
 :n232012850100  a       skos:Concept ;
         skos:broader    :n23201285 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -715,6 +720,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sankt Jost"@de .
 
+:n143022350101  a       skos:Concept ;
+        skos:broader    :n14302235 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hütte"@de .
+
 :n137020890112  a       skos:Concept ;
         skos:broader    :n13702089 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -780,15 +790,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Deidesheim, Verbandsgemeinde"@de .
 
-:n23301011  a           skos:Concept ;
-        skos:broader    :n23301 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Brockscheid"@de .
-
 :n137000030301  a       skos:Concept ;
         skos:broader    :n13700003 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Tönisstein, Kuranlage und Hotel"@de .
+
+:n23301011  a           skos:Concept ;
+        skos:broader    :n23301 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Brockscheid"@de .
 
 :n141000750200  a       skos:Concept ;
         skos:broader    :n14100075 ;
@@ -1215,6 +1225,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Heilenbach"@de .
 
+:n138010440100  a       skos:Concept ;
+        skos:broader    :n13801044 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bühlingen"@de .
+
 :n33307043  a           skos:Concept ;
         skos:broader    :n33307 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -1425,6 +1440,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rehweiler"@de .
 
+:n231080030102  a       skos:Concept ;
+        skos:broader    :n23108003 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hütt"@de .
+
 :n33106056  a           skos:Concept ;
         skos:broader    :n33106 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -1605,6 +1625,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hohenfels-Essingen"@de .
 
+:n232051300101  a       skos:Concept ;
+        skos:broader    :n23205130 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Falkenstein, Burg"@de .
+
 :n23206300  a           skos:Concept ;
         skos:broader    :n23206 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -1719,6 +1744,11 @@
         skos:broader    :n13709221 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hünenfeld"@de .
+
+:n232050690102  a       skos:Concept ;
+        skos:broader    :n23205069 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schwarzenbruch"@de .
 
 :n23501005  a           skos:Concept ;
         skos:broader    :n23501 ;
@@ -2025,6 +2055,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Weißenbrüchen"@de .
 
+:n232012130105  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Feder"@de .
+
 :n14109083  a           skos:Concept ;
         skos:broader    :n14109 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -2034,6 +2069,11 @@
         skos:broader    :n13210048 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Helmerotherhöhe"@de .
+
+:n340010110100  a       skos:Concept ;
+        skos:broader    :n34001011 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Fischbach bei Dahn"@de .
 
 :n14008123  a           skos:Concept ;
         skos:broader    :n14008 ;
@@ -2070,6 +2110,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mehren"@de .
 
+:n133000060300  a       skos:Concept ;
+        skos:broader    :n13300006 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ippesheim (Ortsbezirk)"@de .
+
 :n13809006  a           skos:Concept ;
         skos:broader    :n13809 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -2080,10 +2125,10 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Neuhof"@de .
 
-:n133000060300  a       skos:Concept ;
-        skos:broader    :n13300006 ;
+:n232012850202  a       skos:Concept ;
+        skos:broader    :n23201285 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Ippesheim (Ortsbezirk)"@de .
+        skos:prefLabel  "Hausmannsdell"@de .
 
 :n137072240101  a       skos:Concept ;
         skos:broader    :n13707224 ;
@@ -2324,6 +2369,11 @@
         skos:broader    :n33207 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Battenberg (Pfalz)"@de .
+
+:n232050280101  a       skos:Concept ;
+        skos:broader    :n23205028 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Fölkenbach"@de .
 
 :n33907066  a           skos:Concept ;
         skos:broader    :n33907 ;
@@ -2820,15 +2870,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberstadt (Ortsbezirk)"@de .
 
-:n143062950101  a       skos:Concept ;
-        skos:broader    :n14306295 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Neukirch"@de .
-
 :n13703007  a           skos:Concept ;
         skos:broader    :n13703 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Baar"@de .
+
+:n143062950101  a       skos:Concept ;
+        skos:broader    :n14306295 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Neukirch"@de .
 
 :n311000000500  a       skos:Concept ;
         skos:broader    :n31100000 ;
@@ -2900,15 +2950,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Evangelische Kirche im Rheinland"@de .
 
-:n232081260101  a       skos:Concept ;
-        skos:broader    :n23208126 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Teitelbach"@de .
-
 :n135050710200  a       skos:Concept ;
         skos:broader    :n13505071 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Peterswald"@de .
+
+:n232081260101  a       skos:Concept ;
+        skos:broader    :n23208126 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Teitelbach"@de .
 
 :n340082080105  a       skos:Concept ;
         skos:broader    :n34008208 ;
@@ -2949,6 +2999,11 @@
         skos:broader    :n13803012 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Elgert (Ortsbezirk)"@de .
+
+:n235071110101  a       skos:Concept ;
+        skos:broader    :n23507111 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Edingerberg"@de .
 
 :n14306271  a           skos:Concept ;
         skos:broader    :n14306 ;
@@ -3315,15 +3370,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Laudert"@de .
 
+:n33901062  a           skos:Concept ;
+        skos:broader    :n33901 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Waldalgesheim"@de .
+
 :n131000900502  a       skos:Concept ;
         skos:broader    :n13100090 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Esch"@de .
 
-:n33901062  a           skos:Concept ;
-        skos:broader    :n33901 ;
+:n235060830205  a       skos:Concept ;
+        skos:broader    :n23506083 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Waldalgesheim"@de .
+        skos:prefLabel  "Schleicherberg"@de .
 
 :n335020480102  a       skos:Concept ;
         skos:broader    :n33502048 ;
@@ -3390,6 +3450,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberhersdorf"@de .
 
+:n232050950101  a       skos:Concept ;
+        skos:broader    :n23205095 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Freilingerhöhe"@de .
+
 :n132105010200  a       skos:Concept ;
         skos:broader    :n13210501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -3435,15 +3500,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dittelsheim"@de .
 
-:n141000750101  a       skos:Concept ;
-        skos:broader    :n14100075 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Allerheiligenberg"@de .
-
 :n137030970101  a       skos:Concept ;
         skos:broader    :n13703097 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bürresheim, Schloß und Hof"@de .
+
+:n141000750101  a       skos:Concept ;
+        skos:broader    :n14100075 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Allerheiligenberg"@de .
 
 :n311000000101  a       skos:Concept ;
         skos:broader    :n31100000 ;
@@ -3459,6 +3524,11 @@
         skos:broader    :n13102 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ahrbrück"@de .
+
+:n232051280101  a       skos:Concept ;
+        skos:broader    :n23205128 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Merlbach"@de .
 
 :n143040480800  a       skos:Concept ;
         skos:broader    :n14304048 ;
@@ -3504,6 +3574,11 @@
         skos:broader    :n33205014 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Röderthal"@de .
+
+:n111000000501  a       skos:Concept ;
+        skos:broader    :n11100000 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Festung Ehrenbreitstein"@de .
 
 :n13502052  a           skos:Concept ;
         skos:broader    :n13502 ;
@@ -3934,15 +4009,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kyllburgweiler"@de .
 
-:n23108013  a           skos:Concept ;
-        skos:broader    :n23108 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bruch"@de .
-
 :n23205095  a           skos:Concept ;
         skos:broader    :n23205 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nusbaum"@de .
+
+:n23108013  a           skos:Concept ;
+        skos:broader    :n23108 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bruch"@de .
 
 :n331030230100  a       skos:Concept ;
         skos:broader    :n33103023 ;
@@ -3953,6 +4028,11 @@
         skos:broader    :n23304 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Reimerath"@de .
+
+:n133100830103  a       skos:Concept ;
+        skos:broader    :n13310083 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schreckhof"@de .
 
 :n13503083  a           skos:Concept ;
         skos:broader    :n13503 ;
@@ -4448,6 +4528,11 @@
         skos:broader    :n13101 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bauler"@de .
+
+:n232012130112  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Zinglersseif"@de .
 
 :n132100880102  a       skos:Concept ;
         skos:broader    :n13210088 ;
@@ -4994,6 +5079,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hombachsmühle"@de .
 
+:n232050950203  a       skos:Concept ;
+        skos:broader    :n23205095 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Silberberg"@de .
+
 :n34001043  a           skos:Concept ;
         skos:broader    :n34001 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -5003,6 +5093,11 @@
         skos:broader    :n13100007 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ahrweiler (Ortsbezirk)"@de .
+
+:n143012550102  a       skos:Concept ;
+        skos:broader    :n14301255 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hohensayn"@de .
 
 :n14009161  a           skos:Concept ;
         skos:broader    :n14009 ;
@@ -5119,6 +5214,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nittel"@de .
 
+:n140005010211  a       skos:Concept ;
+        skos:broader    :n14000501 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Mühltal"@de .
+
 :n13805058  a           skos:Concept ;
         skos:broader    :n13805 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -5154,10 +5254,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Stabenhof"@de .
 
+:n133000060652  a       skos:Concept ;
+        skos:broader    :n13300006 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Birkerhof"@de .
+
 :n135050920300  a       skos:Concept ;
         skos:broader    :n13505092 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Zell"@de .
+
+:n235060220201  a       skos:Concept ;
+        skos:broader    :n23506022 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Fellerhof"@de .
 
 :n337020710100  a       skos:Concept ;
         skos:broader    :n33702071 ;
@@ -5324,6 +5434,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Laubenheim (Ortsbezirk)"@de .
 
+:n235071110506  a       skos:Concept ;
+        skos:broader    :n23507111 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Merteshof"@de .
+
 :n33610091  a           skos:Concept ;
         skos:broader    :n33610 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -5473,6 +5588,11 @@
         skos:broader    :n13801044 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Etscheid"@de .
+
+:n138010770203  a       skos:Concept ;
+        skos:broader    :n13801077 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hüngsberg"@de .
 
 :n23301  a              skos:Concept ;
         skos:broader    :n233 ;
@@ -5659,6 +5779,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mainz-Bingen, Landkreis"@de .
 
+:n232012330101  a       skos:Concept ;
+        skos:broader    :n23201233 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Gesotz"@de .
+
 :n132081170402  a       skos:Concept ;
         skos:broader    :n13208117 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -5683,6 +5808,11 @@
         skos:broader    :n13402 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Elchweiler"@de .
+
+:n235075010112  a       skos:Concept ;
+        skos:broader    :n23507501 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Windmühle"@de .
 
 :n135020310102  a       skos:Concept ;
         skos:broader    :n13502031 ;
@@ -5949,6 +6079,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Echternacherbrück"@de .
 
+:n231001340619  a       skos:Concept ;
+        skos:broader    :n23100134 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Neumühle"@de .
+
 :n334   a               skos:Concept ;
         skos:broader    :n6 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6079,6 +6214,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niedergondershausen"@de .
 
+:n135050130102  a       skos:Concept ;
+        skos:broader    :n13505013 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bummkopf"@de .
+
 :n33510014  a           skos:Concept ;
         skos:broader    :n33510 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6093,6 +6233,11 @@
         skos:broader    :n33511047 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Langensohl"@de .
+
+:n231080310101  a       skos:Concept ;
+        skos:broader    :n23108031 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Eschermühle"@de .
 
 :n13310060  a           skos:Concept ;
         skos:broader    :n13310 ;
@@ -6238,6 +6383,11 @@
         skos:broader    :n13100077 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Beuler Hof"@de .
+
+:n232012850205  a       skos:Concept ;
+        skos:broader    :n23201285 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Röllersdorf"@de .
 
 :n131040590104  a       skos:Concept ;
         skos:broader    :n13104059 ;
@@ -6399,6 +6549,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Battweiler"@de .
 
+:n232080300102  a       skos:Concept ;
+        skos:broader    :n23208030 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schäfersmühle"@de .
+
 :n339070240103  a       skos:Concept ;
         skos:broader    :n33907024 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6424,6 +6579,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dachsenhausen"@de .
 
+:n13702095  a           skos:Concept ;
+        skos:broader    :n13702 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rüber"@de .
+
 :n235071110300  a       skos:Concept ;
         skos:broader    :n23507111 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6433,11 +6593,6 @@
         skos:broader    :n33707023 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Dreihof"@de .
-
-:n13702095  a           skos:Concept ;
-        skos:broader    :n13702 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Rüber"@de .
 
 :n135010820208  a       skos:Concept ;
         skos:broader    :n13501082 ;
@@ -6533,6 +6688,11 @@
         skos:broader    :n33405 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Westheim (Pfalz)"@de .
+
+:n232012130103  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Burtdell"@de .
 
 :n232063040200  a       skos:Concept ;
         skos:broader    :n23206304 ;
@@ -7504,6 +7664,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Herresthal"@de .
 
+:n138040750104  a       skos:Concept ;
+        skos:broader    :n13804075 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kretzhaus"@de .
+
 :n335100340200  a       skos:Concept ;
         skos:broader    :n33510034 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -7569,6 +7734,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberdiebach"@de .
 
+:n232050110101  a       skos:Concept ;
+        skos:broader    :n23205011 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hausmannsdell"@de .
+
 :n33105  a              skos:Concept ;
         skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -7594,15 +7764,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gonzerath (Ortsbezirk)"@de .
 
+:n13206038  a           skos:Concept ;
+        skos:broader    :n13206 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Fürthen"@de .
+
 :n337015010400  a       skos:Concept ;
         skos:broader    :n33701501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Queichhambach (Ortsbezirk)"@de .
 
-:n13206038  a           skos:Concept ;
-        skos:broader    :n13206 ;
+:n232081090101  a       skos:Concept ;
+        skos:broader    :n23208109 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Fürthen"@de .
+        skos:prefLabel  "Bildchen"@de .
 
 :n132070370147  a       skos:Concept ;
         skos:broader    :n13207037 ;
@@ -7711,10 +7886,10 @@
 
 <https://rpb.lobid.org/spatial>
         a                              skos:ConceptScheme ;
-        dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)."@en ;
+        dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)." ;
         dct:issued                     "2022-08-26" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2022-10-21" ;
+        dct:modified                   "2024-07-02" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Spatial classification scheme for the Bibiography of Rhineland-Palatinate"@en , "Raumsystematik der Rheinland-Pfälzischen Bibliographie"@de ;
         vann:preferredNamespacePrefix  "rpb-spatial" ;
@@ -7930,6 +8105,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Olzheim"@de .
 
+:n232050120104  a       skos:Concept ;
+        skos:broader    :n23205012 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schiershof"@de .
+
 :n132070630200  a       skos:Concept ;
         skos:broader    :n13207063 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -7990,6 +8170,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Glees"@de .
 
+:n138010030317  a       skos:Concept ;
+        skos:broader    :n13801003 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Oberplag"@de .
+
 :n232050880101  a       skos:Concept ;
         skos:broader    :n23205088 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -7999,6 +8184,11 @@
         skos:broader    :n23208 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Orsfeld"@de .
+
+:n141091210100  a       skos:Concept ;
+        skos:broader    :n14109121 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "St.Goarshausen"@de .
 
 :n23108037  a           skos:Concept ;
         skos:broader    :n23108 ;
@@ -8694,6 +8884,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ehemalige Weinbaudomäne"@de .
 
+:n232071230104  a       skos:Concept ;
+        skos:broader    :n23207123 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Laymühle"@de .
+
 :n00Sn02m0557a  a       skos:Concept ;
         skos:broader    :n19 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -9059,6 +9254,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Burglahr"@de .
 
+:n232012130110  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Vor der Höh"@de .
+
 :n33501202  a           skos:Concept ;
         skos:broader    :n33501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -9389,6 +9589,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Fusenich (Ortsbezirk)"@de .
 
+:n137031100101  a       skos:Concept ;
+        skos:broader    :n13703110 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Niederelz"@de .
+
 :n33608057  a           skos:Concept ;
         skos:broader    :n33608 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -9519,6 +9724,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gipsmühle, Baldenauermühle"@de .
 
+:n235071510103  a       skos:Concept ;
+        skos:broader    :n23507151 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Forstgut Euleneck"@de .
+
 :n14107085  a           skos:Concept ;
         skos:broader    :n14107 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -9584,6 +9794,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bruchhausen"@de .
 
+:n232050950201  a       skos:Concept ;
+        skos:broader    :n23205095 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Nusbaumerhöhe"@de .
+
 :n33101014  a           skos:Concept ;
         skos:broader    :n33101 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -9633,6 +9848,11 @@
         skos:broader    :n33306 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sippersfeld"@de .
+
+:n132091110102  a       skos:Concept ;
+        skos:broader    :n13209111 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Muhlau"@de .
 
 :n33608073  a           skos:Concept ;
         skos:broader    :n33608 ;
@@ -9889,6 +10109,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hütte"@de .
 
+:n235071110504  a       skos:Concept ;
+        skos:broader    :n23507111 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kunkelborn"@de .
+
 :n235081540200  a       skos:Concept ;
         skos:broader    :n23508154 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -10024,6 +10249,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hardenburg (Ortsbezirk)"@de .
 
+:n211000000402  a       skos:Concept ;
+        skos:broader    :n21100000 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Karthäuserhof"@de .
+
 :n34002014  a           skos:Concept ;
         skos:broader    :n34002 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -10118,6 +10348,11 @@
         skos:broader    :n33304057 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Leithof"@de .
+
+:n339010440104  a       skos:Concept ;
+        skos:broader    :n33901044 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schloß Fürstenberg"@de .
 
 :n13402062  a           skos:Concept ;
         skos:broader    :n13402 ;
@@ -10699,6 +10934,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Steinbachweier"@de .
 
+:n331020380101  a       skos:Concept ;
+        skos:broader    :n33102038 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Gernsheimer Fahrt"@de .
+
 :n337015010105  a       skos:Concept ;
         skos:broader    :n33701501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -10868,6 +11108,11 @@
         skos:broader    :n23301020 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Brück"@de .
+
+:n232012130106  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kalenbornerhof"@de .
 
 :n14306309  a           skos:Concept ;
         skos:broader    :n14306 ;
@@ -11063,6 +11308,11 @@
         skos:broader    :n13309 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberhausen bei Kirn"@de .
+
+:n133060270101  a       skos:Concept ;
+        skos:broader    :n13306027 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Dimrotherhof"@de .
 
 :n33705065  a           skos:Concept ;
         skos:broader    :n33705 ;
@@ -11494,6 +11744,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wahlerhof"@de .
 
+:n232012930101  a       skos:Concept ;
+        skos:broader    :n23201293 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Atzseifen"@de .
+
 :n138090070112  a       skos:Concept ;
         skos:broader    :n13809007 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -11764,6 +12019,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Breidscheid"@de .
 
+:n138040750107  a       skos:Concept ;
+        skos:broader    :n13804075 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Seiferhof"@de .
+
 :n33608085  a           skos:Concept ;
         skos:broader    :n33608 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -11848,6 +12108,11 @@
         skos:broader    :n13102027 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Beilstein"@de .
+
+:n232050110104  a       skos:Concept ;
+        skos:broader    :n23205011 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Merlbach"@de .
 
 :n340082010101  a       skos:Concept ;
         skos:broader    :n34008201 ;
@@ -12364,6 +12629,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Brück"@de .
 
+:n337020450102  a       skos:Concept ;
+        skos:broader    :n33702045 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Drusweiler"@de .
+
 :n33609101  a           skos:Concept ;
         skos:broader    :n33609 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -12758,6 +13028,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Obersimten"@de .
 
+:n232012530301  a       skos:Concept ;
+        skos:broader    :n23201253 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Sauerwies"@de .
+
 :n320000000112  a       skos:Concept ;
         skos:broader    :n32000000 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -13003,6 +13278,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ehlenz"@de .
 
+:n23205054  a           skos:Concept ;
+        skos:broader    :n23205 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hommerdingen"@de .
+
 :n333070650102  a       skos:Concept ;
         skos:broader    :n33307065 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -13013,15 +13293,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Auw bei Prüm"@de .
 
-:n23201301  a           skos:Concept ;
-        skos:broader    :n23201 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Roscheid"@de .
-
 :n13405052  a           skos:Concept ;
         skos:broader    :n13405 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Mackenrodt"@de .
+
+:n23201301  a           skos:Concept ;
+        skos:broader    :n23201 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Roscheid"@de .
 
 :n335080380100  a       skos:Concept ;
         skos:broader    :n33508038 ;
@@ -13032,6 +13312,11 @@
         skos:broader    :n34003 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Trulben"@de .
+
+:n231010700800  a       skos:Concept ;
+        skos:broader    :n23101070 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Thalkleinich (Ortsbezirk)"@de .
 
 :n231085030202  a       skos:Concept ;
         skos:broader    :n23108503 ;
@@ -13267,6 +13552,11 @@
         skos:broader    :n14110 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Geisig"@de .
+
+:n232071230102  a       skos:Concept ;
+        skos:broader    :n23207123 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bermeshausen"@de .
 
 :n133105010200  a       skos:Concept ;
         skos:broader    :n13310501 ;
@@ -13623,6 +13913,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Fachbach"@de .
 
+:n232012530100  a       skos:Concept ;
+        skos:broader    :n23201253 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bellscheid"@de .
+
 :n13101005  a           skos:Concept ;
         skos:broader    :n13101 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -13823,10 +14118,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ehweiler"@de .
 
+:n138010440215  a       skos:Concept ;
+        skos:broader    :n13801044 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Jungfernhof"@de .
+
 :n34009222  a           skos:Concept ;
         skos:broader    :n34009 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rieschweiler-Mühlbach"@de .
+
+:n232050950204  a       skos:Concept ;
+        skos:broader    :n23205095 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Stockigt"@de .
 
 :n233060260600  a       skos:Concept ;
         skos:broader    :n23306026 ;
@@ -14043,6 +14348,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Haschbach am Remigiusberg"@de .
 
+:n138010440231  a       skos:Concept ;
+        skos:broader    :n13801044 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Wiedmühle (ehem.Gem.Elsaffthal)"@de .
+
 :n231005021500  a       skos:Concept ;
         skos:broader    :n23100502 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -14083,15 +14393,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hördt"@de .
 
+:n319000001500  a       skos:Concept ;
+        skos:broader    :n31900000 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Wiesoppenheim (Ortsbezirk)"@de .
+
 :n23301031  a           skos:Concept ;
         skos:broader    :n23301 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hörscheid"@de .
 
-:n319000001500  a       skos:Concept ;
-        skos:broader    :n31900000 ;
+:n235071110507  a       skos:Concept ;
+        skos:broader    :n23507111 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Wiesoppenheim (Ortsbezirk)"@de .
+        skos:prefLabel  "Ralinger Mühle"@de .
 
 :n14003147  a           skos:Concept ;
         skos:broader    :n14003 ;
@@ -14262,6 +14577,11 @@
         skos:broader    :n33608 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kirrweiler"@de .
+
+:n140091330202  a       skos:Concept ;
+        skos:broader    :n14009133 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Gründelbach"@de .
 
 :n316000000700  a       skos:Concept ;
         skos:broader    :n31600000 ;
@@ -14893,6 +15213,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bad Neuenahr-Ahrweiler, Stadt"@de .
 
+:n232012130109  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schwabert"@de .
+
 :n132100230101  a       skos:Concept ;
         skos:broader    :n13210023 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -14918,15 +15243,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Neuendorf"@de .
 
-:n14008127  a           skos:Concept ;
-        skos:broader    :n14008 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Riesweiler"@de .
-
 :n339000300300  a       skos:Concept ;
         skos:broader    :n33900030 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Heidesheim am Rhein"@de .
+
+:n14008127  a           skos:Concept ;
+        skos:broader    :n14008 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Riesweiler"@de .
 
 :n231011360104  a       skos:Concept ;
         skos:broader    :n23101136 ;
@@ -14937,6 +15262,11 @@
         skos:broader    :n13208054 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Siegenthal"@de .
+
+:n232050690101  a       skos:Concept ;
+        skos:broader    :n23205069 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Neuafrika"@de .
 
 :n13701081  a           skos:Concept ;
         skos:broader    :n13701 ;
@@ -15002,6 +15332,11 @@
         skos:broader    :n13405 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Horbruch"@de .
+
+:n232012850206  a       skos:Concept ;
+        skos:broader    :n23201285 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Trampelsdell"@de .
 
 :n23108504  a           skos:Concept ;
         skos:broader    :n23108 ;
@@ -15228,15 +15563,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wienau (Ortsbezirk)"@de .
 
-:n33401001  a           skos:Concept ;
-        skos:broader    :n33401 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Bellheim"@de .
-
 :n13702102  a           skos:Concept ;
         skos:broader    :n13702 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Trimbs"@de .
+
+:n33401001  a           skos:Concept ;
+        skos:broader    :n33401 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bellheim"@de .
 
 :n14309219  a           skos:Concept ;
         skos:broader    :n14309 ;
@@ -15302,6 +15637,11 @@
         skos:broader    :n31200000 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Hahnbrunnerhof"@de .
+
+:n232012130104  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Falkenauel"@de .
 
 :n333040390113  a       skos:Concept ;
         skos:broader    :n33304039 ;
@@ -15378,6 +15718,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Nordpfälzer Land, Verbandsgemeinde"@de .
 
+:n232012850201  a       skos:Concept ;
+        skos:broader    :n23201285 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Dehnseifen"@de .
+
 :n140005011000  a       skos:Concept ;
         skos:broader    :n14000501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -15392,6 +15737,11 @@
         skos:broader    :n33207 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Tiefenthal"@de .
+
+:n138040680211  a       skos:Concept ;
+        skos:broader    :n13804068 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Strödt"@de .
 
 :n141031300101  a       skos:Concept ;
         skos:broader    :n14103130 ;
@@ -16003,15 +16353,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ingelheim am Rhein, große kreisangeh. Stadt"@de .
 
-:n33610046  a           skos:Concept ;
-        skos:broader    :n33610 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Horschbach"@de .
-
 :n13703006  a           skos:Concept ;
         skos:broader    :n13703 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Arft"@de .
+
+:n33610046  a           skos:Concept ;
+        skos:broader    :n33610 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Horschbach"@de .
 
 :n235081540300  a       skos:Concept ;
         skos:broader    :n23508154 ;
@@ -16088,15 +16438,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Balduinstein"@de .
 
-:n138000450300  a       skos:Concept ;
-        skos:broader    :n13800045 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Feldkirchen (Ortsbezirk)"@de .
-
 :n138020630102  a       skos:Concept ;
         skos:broader    :n13802063 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Arienheller"@de .
+
+:n138000450300  a       skos:Concept ;
+        skos:broader    :n13800045 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Feldkirchen (Ortsbezirk)"@de .
 
 :n141000750211  a       skos:Concept ;
         skos:broader    :n14100075 ;
@@ -16243,6 +16593,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Karbach"@de .
 
+:n235075010109  a       skos:Concept ;
+        skos:broader    :n23507501 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schwarzkreuz"@de .
+
 :n33901045  a           skos:Concept ;
         skos:broader    :n33901 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -16257,6 +16612,11 @@
         skos:broader    :n331 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wörrstadt, Verbandsgemeinde"@de .
+
+:n232050110102  a       skos:Concept ;
+        skos:broader    :n23205011 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Heinischseifen"@de .
 
 :n333070140200  a       skos:Concept ;
         skos:broader    :n33307014 ;
@@ -16388,15 +16748,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Newel"@de .
 
+:n140040410101  a       skos:Concept ;
+        skos:broader    :n14004041 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Panzweiler"@de .
+
 :n23108107  a           skos:Concept ;
         skos:broader    :n23108 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Platten"@de .
 
-:n140040410101  a       skos:Concept ;
-        skos:broader    :n14004041 ;
+:n141035030102  a       skos:Concept ;
+        skos:broader    :n14103503 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Panzweiler"@de .
+        skos:prefLabel  "Hausen"@de .
 
 :n33501011  a           skos:Concept ;
         skos:broader    :n33501 ;
@@ -16493,6 +16858,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rolandsbogen"@de .
 
+:n231090050106  a       skos:Concept ;
+        skos:broader    :n23109005 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Springiersbacher Hof"@de .
+
 :n13502014  a           skos:Concept ;
         skos:broader    :n13502 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -16542,6 +16912,11 @@
         skos:broader    :n23201333 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberüttfeld"@de .
+
+:n232050950100  a       skos:Concept ;
+        skos:broader    :n23205095 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Freilingen"@de .
 
 :n33307054  a           skos:Concept ;
         skos:broader    :n33307 ;
@@ -16597,6 +16972,11 @@
         skos:broader    :n13207037 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Neuhöhe"@de .
+
+:n140081250100  a       skos:Concept ;
+        skos:broader    :n14008125 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kleinweidelbach (Ortsbezirk)"@de .
 
 :n13805040  a           skos:Concept ;
         skos:broader    :n13805 ;
@@ -17147,6 +17527,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Rußmühlerhof"@de .
 
+:n232012980102  a       skos:Concept ;
+        skos:broader    :n23201298 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Haustrich"@de .
+
 :n23306060  a           skos:Concept ;
         skos:broader    :n23306 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -17477,6 +17862,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Schönberg"@de .
 
+:n231001340622  a       skos:Concept ;
+        skos:broader    :n23100134 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Rotmühle"@de .
+
 :n333075020303  a       skos:Concept ;
         skos:broader    :n33307502 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -17657,6 +18047,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Barweiler"@de .
 
+:n232012130111  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Zingent"@de .
+
 :n33501203  a           skos:Concept ;
         skos:broader    :n33501 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -17817,15 +18212,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Höhn"@de .
 
-:n23301018  a           skos:Concept ;
-        skos:broader    :n23301 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Dockweiler"@de .
-
 :n137000030308  a       skos:Concept ;
         skos:broader    :n13700003 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Pönterhof"@de .
+
+:n23301018  a           skos:Concept ;
+        skos:broader    :n23301 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Dockweiler"@de .
 
 :n133000060200  a       skos:Concept ;
         skos:broader    :n13300006 ;
@@ -18877,6 +19272,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gondelsheim"@de .
 
+:n133010370102  a       skos:Concept ;
+        skos:broader    :n13301037 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bonnheimer Hof"@de .
+
 :n23304228  a           skos:Concept ;
         skos:broader    :n23304 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -19337,6 +19737,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Waldsee"@de .
 
+:n137000680201  a       skos:Concept ;
+        skos:broader    :n13700068 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Betzing"@de .
+
 :n14004028  a           skos:Concept ;
         skos:broader    :n14004 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -19497,6 +19902,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Belg"@de .
 
+:n232012130107  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Laarberg"@de .
+
 :n14308281  a           skos:Concept ;
         skos:broader    :n14308 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -19566,6 +19976,11 @@
         skos:broader    :n33900030 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sporkenheim"@de .
+
+:n232012850204  a       skos:Concept ;
+        skos:broader    :n23201285 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Philippsweiler"@de .
 
 :n33207047  a           skos:Concept ;
         skos:broader    :n33207 ;
@@ -19757,6 +20172,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Althornbach"@de .
 
+:n232080300101  a       skos:Concept ;
+        skos:broader    :n23208030 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ackerburg"@de .
+
 :n140091120304  a       skos:Concept ;
         skos:broader    :n14009112 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -19816,6 +20236,11 @@
         skos:broader    :n13208 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Birken-Honigsessen"@de .
+
+:n232012130102  a       skos:Concept ;
+        skos:broader    :n23201213 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Bommert"@de .
 
 :n33405032  a           skos:Concept ;
         skos:broader    :n33405 ;
@@ -19992,6 +20417,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wieslauterhof"@de .
 
+:n232012550101  a       skos:Concept ;
+        skos:broader    :n23201255 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Gesotz"@de .
+
 :n134000450900  a       skos:Concept ;
         skos:broader    :n13400045 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -20056,6 +20486,11 @@
         skos:broader    :n33304013 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bastenhaus"@de .
+
+:n232012930102  a       skos:Concept ;
+        skos:broader    :n23201293 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Gesotz"@de .
 
 :n33702006  a           skos:Concept ;
         skos:broader    :n33702 ;
@@ -20186,6 +20621,11 @@
         skos:broader    :n13100090 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Lantershofen (Ortsbezirk)"@de .
+
+:n235071510201  a       skos:Concept ;
+        skos:broader    :n23507151 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Forsthaus Mülchen"@de .
 
 :n340092220100  a       skos:Concept ;
         skos:broader    :n34009222 ;
@@ -20471,6 +20911,11 @@
         skos:broader    :n14103 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Altendiez"@de .
+
+:n340092280202  a       skos:Concept ;
+        skos:broader    :n34009228 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Klosterbergerhof"@de .
 
 :n131020270102  a       skos:Concept ;
         skos:broader    :n13102027 ;
@@ -21336,6 +21781,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Sohrschied"@de .
 
+:n23206266  a           skos:Concept ;
+        skos:broader    :n23206 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Matzerath"@de .
+
 :n23208015  a           skos:Concept ;
         skos:broader    :n23208 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -21616,6 +22066,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Felsenbrunnerhof (Ortsbezirk)"@de .
 
+:n138040410107  a       skos:Concept ;
+        skos:broader    :n13804041 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kretzhaus"@de .
+
 :n132100530103  a       skos:Concept ;
         skos:broader    :n13210053 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -21766,6 +22221,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Montabaur, Stadt"@de .
 
+:n232050670400  a       skos:Concept ;
+        skos:broader    :n23205067 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Schloß Kewenig"@de .
+
 :n14004120  a           skos:Concept ;
         skos:broader    :n14004 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -21856,15 +22316,15 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niederich"@de .
 
-:n23501030  a           skos:Concept ;
-        skos:broader    :n23501 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Geisfeld"@de .
-
 :n13702112  a           skos:Concept ;
         skos:broader    :n13702 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Welling"@de .
+
+:n23501030  a           skos:Concept ;
+        skos:broader    :n23501 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Geisfeld"@de .
 
 :n13306089  a           skos:Concept ;
         skos:broader    :n13306 ;
@@ -21916,10 +22376,20 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kurtscheid"@de .
 
+:n133060700101  a       skos:Concept ;
+        skos:broader    :n13306070 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Hermannshöhle"@de .
+
 :n231090680101  a       skos:Concept ;
         skos:broader    :n23109068 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Kindel"@de .
+
+:n232071230103  a       skos:Concept ;
+        skos:broader    :n23207123 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Commeshof"@de .
 
 :n131020110102  a       skos:Concept ;
         skos:broader    :n13102011 ;
