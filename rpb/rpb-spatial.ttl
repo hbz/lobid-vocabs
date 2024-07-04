@@ -1230,11 +1230,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Stockum"@de .
 
-:n140071340102  a       skos:Concept ;
-        skos:broader    :n14007134 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Johanneshof"@de .
-
 :n33903  a              skos:Concept ;
         skos:broader    :n339 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -2304,11 +2299,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wörrstadt,Stadt"@de .
 
-:n3330750250101  a      skos:Concept ;
-        skos:broader    :n333075025 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Althof"@de .
-
 :n131042020303  a       skos:Concept ;
         skos:broader    :n13104202 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -2608,6 +2598,11 @@
         skos:broader    :n14310010 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Ritzmühle"@de .
+
+:n333070250101  a       skos:Concept ;
+        skos:broader    :n33307025 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Althof"@de .
 
 :n23205117  a           skos:Concept ;
         skos:broader    :n23205 ;
@@ -5749,6 +5744,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Wappenschmiede"@de .
 
+:n140081340101  a       skos:Concept ;
+        skos:broader    :n14008134 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Forsthaus Ellerspring"@de .
+
 :n333030260104  a       skos:Concept ;
         skos:broader    :n33303026 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -6288,11 +6288,6 @@
         skos:broader    :n13809 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Oberhonnefeld-Gierend"@de .
-
-:n140071340103  a       skos:Concept ;
-        skos:broader    :n14007134 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Wildburg"@de .
 
 :n231001340100  a       skos:Concept ;
         skos:broader    :n23100134 ;
@@ -11008,6 +11003,11 @@
         skos:broader    :n13206 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Roth"@de .
+
+:n140081340102  a       skos:Concept ;
+        skos:broader    :n14008134 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Johanneshof"@de .
 
 :n339060470103  a       skos:Concept ;
         skos:broader    :n33906047 ;
@@ -16208,6 +16208,11 @@
         skos:broader    :n23207 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Preist"@de .
+
+:n140081340103  a       skos:Concept ;
+        skos:broader    :n14008134 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Wildburg"@de .
 
 :n23205078  a           skos:Concept ;
         skos:broader    :n23205 ;
@@ -24989,6 +24994,11 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Waldfischbach-Burgalben, Verbandsgemeinde"@de .
 
+:n140080680101  a       skos:Concept ;
+        skos:broader    :n14008068 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Grings-Mühle"@de .
+
 :n34008227  a           skos:Concept ;
         skos:broader    :n34008 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -30198,11 +30208,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Birkenhof"@de .
 
-:n140060680101  a       skos:Concept ;
-        skos:broader    :n14006068 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Grings-Mühle"@de .
-
 :n140031530104  a       skos:Concept ;
         skos:broader    :n14003153 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -30377,6 +30382,11 @@
         skos:broader    :n13210057 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Bahnhof Ingelbach"@de .
+
+:n140080680102  a       skos:Concept ;
+        skos:broader    :n14008068 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Kesselhannesmühle"@de .
 
 :n13702065  a           skos:Concept ;
         skos:broader    :n13702 ;
@@ -35392,11 +35402,6 @@
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gänsmühle"@de .
 
-:n140060680102  a       skos:Concept ;
-        skos:broader    :n14006068 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Kesselhannesmühle"@de .
-
 :n140035030101  a       skos:Concept ;
         skos:broader    :n14003503 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
@@ -35586,6 +35591,11 @@
         skos:broader    :n14004107 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Niedersohrener Hof"@de .
+
+:n140080680103  a       skos:Concept ;
+        skos:broader    :n14008068 ;
+        skos:inScheme   <https://rpb.lobid.org/spatial> ;
+        skos:prefLabel  "Ölmühle"@de .
 
 :n133100720101  a       skos:Concept ;
         skos:broader    :n13310072 ;
@@ -36842,7 +36852,7 @@
         dct:description                "This controlled vocabulary for areas in Rineland-Palatinate was created for use in the Bibliography of Rhineland (RPB)."@en ;
         dct:issued                     "2022-08-26" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2024-07-03" ;
+        dct:modified                   "2024-07-04" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Spatial classification scheme for the Bibiography of Rhineland-Palatinate"@en , "Raumsystematik der Rheinland-Pfälzischen Bibliographie"@de ;
         vann:preferredNamespacePrefix  "rpb-spatial" ;
@@ -40622,11 +40632,6 @@
         skos:broader    :n13702027 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Geismühle"@de .
-
-:n140060680103  a       skos:Concept ;
-        skos:broader    :n14006068 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Ölmühle"@de .
 
 :n140035030102  a       skos:Concept ;
         skos:broader    :n14003503 ;
@@ -48971,11 +48976,6 @@
         skos:broader    :n33801022 ;
         skos:inScheme   <https://rpb.lobid.org/spatial> ;
         skos:prefLabel  "Gronau"@de .
-
-:n140071340101  a       skos:Concept ;
-        skos:broader    :n14007134 ;
-        skos:inScheme   <https://rpb.lobid.org/spatial> ;
-        skos:prefLabel  "Forsthaus Ellerspring"@de .
 
 :n33902  a              skos:Concept ;
         skos:broader    :n339 ;
