@@ -82,7 +82,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "100100" ;
     skos:prefLabel "Allgemeine Landeskunde - Allgemeines"@de ;
-    skos:closeMatch gnd:4020216-1 .
+    skos:narrowMatch gnd:4073972-7 .
 
 :N101000
     a skos:Concept ;
@@ -411,7 +411,7 @@
     skos:notation "141460" ;
     skos:prefLabel "Mineralquellen. Thermalquellen"@de ;
     skos:scopeNote "Freie SW: Mineralquelle bzw. Thermalquelle"@de ;
-    skos:exactMatch gnd:4170037-5, gnd:4191517-3, wd:Q1365924, wd:Q177380 .
+    skos:narrowMatch gnd:4170037-5, gnd:4191517-3, wd:Q1365924, wd:Q177380 .
 
 :N141600
     a skos:Concept ;
@@ -1334,7 +1334,7 @@
     skos:notation "213070" ;
     skos:prefLabel "Pressearchive. Rundfunkarchive"@de ;
     skos:scopeNote "Freie SW: Pressearchiv; Rundfunkarchiv"@de ;
-    skos:exactMatch gnd:4047154-8, gnd:4050970-9, wd:Q56650887 .
+    skos:narrowMatch gnd:4047154-8, gnd:4050970-9, wd:Q56650887 .
 
 :N213080
     a skos:Concept ;
@@ -1370,7 +1370,7 @@
     skos:notation "217000" ;
     skos:prefLabel "Museen und Sammlungen"@de ;
     skos:scopeNote "Kunstmuseen s. [Kunstmuseen und Kunstsammlungen](#N841040)"@de ;
-    skos:exactMatch gnd:4040795-0, gnd:4128844-0, wd:Q33506, wd:Q2668072 .
+    skos:narrowMatch gnd:4040795-0, gnd:4128844-0, wd:Q33506, wd:Q2668072 .
 
 :N217010
     a skos:Concept ;
@@ -1396,7 +1396,7 @@
     skos:notation "217030" ;
     skos:prefLabel "Museen für Handwerk und Technik"@de ;
     skos:example "Industriemuseum, Bergbaumuseum, Freilichtmuseum, KFZ-Museum"@de ;
-    skos:closeMatch gnd:4184584-5, gnd:4666203-0, gnd:4132486-9, wd:Q2398990, wd:Q819426, wd:Q756102 .
+    skos:narrowMatch gnd:4184584-5, gnd:4666203-0, gnd:4132486-9, wd:Q2398990, wd:Q819426, wd:Q756102 .
 
 :N217040
     a skos:Concept ;
@@ -1479,7 +1479,7 @@
     skos:definition "Archäologische Funde frühester Epoche, Paläolithikum:ca. 3000000 v. Chr.-10000 v. Chr., Mesolithikum: ca. 8500-5500 v. Chr."@de ;
     skos:example "Neandertaler"@de ;
     skos:scopeNote "Freie SW: Paläolithikum; Mesolithikum"@de ;
-    skos:exactMatch gnd:4140148-7, gnd:4169472-7, wd:Q40203, wd:Q44155 .
+    skos:narrowMatch gnd:4140148-7, gnd:4169472-7, wd:Q40203, wd:Q44155 .
 
 :N223000
     a skos:Concept ;
@@ -1728,7 +1728,7 @@
     skos:notation "228000" ;
     skos:prefLabel "Mittelalter und Neuzeit"@de ;
     skos:scopeNote "Mittelalter: 500-1500; Neuzeit: ab etwa 1500"@de ;
-    skos:exactMatch gnd:4129108-6, gnd:4171678-4, wd:Q12554, wd:Q3281534 .
+    skos:narrowMatch gnd:4129108-6, gnd:4171678-4, wd:Q12554, wd:Q3281534 .
 
 :N240000
     a skos:Concept ;
@@ -1984,7 +1984,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "400100" ;
     skos:prefLabel "Staat. Politik - Allgemeines"@de ;
-    skos:exactMatch gnd:4056618-3, gnd:4046514-7, wd:Q7275, wd:Q7163 .
+    skos:narrowMatch gnd:4056618-3, gnd:4046514-7, wd:Q7275, wd:Q7163 .
 
 :N402000
     a skos:Concept ;
@@ -2155,7 +2155,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "404380" ;
     skos:prefLabel "Abgeordnete"@de ;
-    skos:exactMatch gnd:4132700-7, gnd:4000135-0, wd:Q486839 .
+    skos:narrowMatch gnd:4132700-7, gnd:4000135-0, wd:Q486839 .
 
 :N406000
     a skos:Concept ;
@@ -2231,7 +2231,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "406130" ;
     skos:prefLabel "Politiker"@de ;
-    skos:exactMatch gnd:4046517-2, gnd:4175019-6, wd:Q82955 .
+    skos:narrowMatch gnd:4046517-2, gnd:4175019-6, wd:Q82955 .
 
 :N406200
     a skos:Concept ;
@@ -2471,7 +2471,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "423640" ;
     skos:prefLabel "Beamte"@de ;
-    skos:exactMatch gnd:4005081-6, gnd:4005085-3, wd:Q16258947 .
+    skos:narrowMatch gnd:4005081-6, gnd:4005085-3, wd:Q16258947 .
 
 :N424000
     a skos:Concept ;
@@ -2847,7 +2847,7 @@
     skos:prefLabel "Katastrophen. Unfälle"@de ;
     skos:example "Brände, Unwetter, Hochwasser  und Überschwemmungen, Kyrill"@de ;
     skos:scopeNote "Freie SW: Katastrophe; Unfall"@de ;
-    skos:exactMatch gnd:4029929-6, gnd:4061693-9, wd:Q3839081, wd:Q171558 .
+    skos:narrowMatch gnd:4029929-6, gnd:4061693-9, wd:Q3839081, wd:Q171558 .
 
 :N440000
     a skos:Concept ;
@@ -3114,7 +3114,7 @@
     skos:notation "503080" ;
     skos:prefLabel "Einkommen. Vermögen"@de ;
     skos:scopeNote "Statistiken, s.a. [Lohn und Einkommen](#N543660), freie SW: Einkommen; Vermögen"@de ;
-    skos:exactMatch gnd:4013887-2, gnd:4063065-1, wd:4013887-2, wd:Q2186896 .
+    skos:narrowMatch gnd:4013887-2, gnd:4063065-1, wd:4013887-2, wd:Q2186896 .
 
 :N503090
     a skos:Concept ;
@@ -3463,7 +3463,7 @@
     skos:notation "524010" ;
     skos:prefLabel "Kinder- und Jugendhilfe"@de ;
     skos:scopeNote "Freie SW: Kinderfürsorge; Jugendhilfe"@de ;
-    skos:exactMatch gnd:4163817-7, gnd:4028892-4, wd:Q1711293 .
+    skos:narrowMatch gnd:4163817-7, gnd:4028892-4, wd:Q1711293 .
 
 :N524030
     a skos:Concept ;
@@ -3551,7 +3551,7 @@
     skos:prefLabel "Ärzte. Heilberufe"@de ;
     skos:example "Hebamme"@de ;
     skos:scopeNote "Freie SW: Arzt; Heilberuf"@de ;
-    skos:exactMatch gnd:4003157-3, gnd:4140665-5, wd:Q39631, wd:Q110228881 .
+    skos:narrowMatch gnd:4003157-3, gnd:4140665-5, wd:Q39631, wd:Q110228881 .
 
 :N532070
     a skos:Concept ;
@@ -3816,7 +3816,7 @@
     skos:notation "543620" ;
     skos:prefLabel "Unternehmer. Unternehmensführung"@de ;
     skos:example "Arbeitsmarktpolitik, Arbeitsrecht, Beruf, Mitbestimmung, Betriebsrat, Tarifvertrag, Beschäftigungsförderung, Unternehmensberatung"@de ;
-    skos:exactMatch gnd:4061949-7, gnd:4187051-7, wd:Q131524 .
+    skos:narrowMatch gnd:4061949-7, gnd:4187051-7, wd:Q131524 .
 
 :N543630
     a skos:Concept ;
@@ -3841,7 +3841,7 @@
     skos:notation "543660" ;
     skos:prefLabel "Lohn und Einkommen"@de ;
     skos:scopeNote "S.a. [Einkommen. Vermögen](#N503080)"@de ;
-    skos:exactMatch gnd:4036229-2, gnd:4013887-2, wd:Q1527264 .
+    skos:narrowMatch gnd:4036229-2, gnd:4013887-2, wd:Q1527264 .
 
 :N543680
     a skos:Concept ;
@@ -3901,7 +3901,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "544040" ;
     skos:prefLabel "Flurformen. Flurbereinigung"@de ;
-    skos:exactMatch gnd:4154890-5, gnd:4017715-4, wd:Q2113013 .
+    skos:narrowMatch gnd:4154890-5, gnd:4017715-4, wd:Q2113013 .
 
 :N544050
     a skos:Concept ;
@@ -3919,7 +3919,7 @@
     skos:notation "544052" ;
     skos:prefLabel "Bauern"@de ;
     skos:altLabel "Landwirt, Landwirtin"@de ;
-    skos:exactMatch gnd:4034399-6, gnd:4468055-7, wd:Q131512 .
+    skos:narrowMatch gnd:4034399-6, gnd:4468055-7, wd:Q131512 .
 
 :N544054
     a skos:Concept ;
@@ -4675,7 +4675,7 @@
     skos:narrower :N558020, :N558050 ;
     skos:notation "558000" ;
     skos:prefLabel "Post- und Fernmeldewesen"@de ;
-    skos:exactMatch gnd:4046886-0, gnd:4130207-2, wd:Q57616250 .
+    skos:narrowMatch gnd:4046886-0, gnd:4130207-2, wd:Q57616250 .
 
 :N558020
     a skos:Concept ;
@@ -4693,7 +4693,7 @@
     skos:notation "558050" ;
     skos:prefLabel "Fernmeldewesen. Telekommunikation"@de ;
     skos:scopeNote "Freie SW: Fernmeldewesen; Telekommunikation"@de ;
-    skos:exactMatch gnd:4130207-2, gnd:4059360-5, wd:Q57616250, wd:Q418 .
+    skos:narrowMatch gnd:4130207-2, gnd:4059360-5, wd:Q57616250, wd:Q418 .
 
 :N560000
     a skos:Concept ;
@@ -4852,7 +4852,7 @@
     skos:prefLabel "Vororte. Stadtteile"@de ;
     skos:altLabel "Ortsteil"@de ;
     skos:scopeNote "Vorort bzw. Stadtteil frei verschlagworten"@de ;
-    skos:exactMatch gnd:4188691-4, gnd:4437321-1, wd:Q188509, wd:Q253019 .
+    skos:narrowMatch gnd:4188691-4, gnd:4437321-1, wd:Q188509, wd:Q253019 .
 
 :N566043
     a skos:Concept ;
@@ -5032,7 +5032,7 @@
     skos:prefLabel "Bau- und Bodenrecht"@de ;
     skos:example "Nachbarrechtsgesetz"@de ;
     skos:scopeNote "Individuell mit Baurecht oder Bodenrecht verschlagworten"@de ;
-    skos:exactMatch gnd:4004923-1, gnd:4007399-3, wd:Q294417 .
+    skos:narrowMatch gnd:4004923-1, gnd:4007399-3, wd:Q294417 .
 
 :N574030
     a skos:Concept ;
@@ -5169,7 +5169,7 @@
     skos:notation "584000" ;
     skos:prefLabel "Naturschutz. Landschaftspflege"@de ;
     skos:scopeNote "S.a. [Pflanzenschutz](#N584050)"@de ;
-    skos:exactMatch gnd:4115348-0, gnd:4034353-4, wd:Q20113959, wd:Q1803794 .
+    skos:narrowMatch gnd:4115348-0, gnd:4034353-4, wd:Q20113959, wd:Q1803794 .
 
 :N584020
     a skos:Concept ;
@@ -5377,7 +5377,7 @@
     skos:prefLabel "Kirchliche Vereine und Verbände"@de ;
     skos:example "Kolping, CVJM, Bruderschaften"@de ;
     skos:scopeNote "Freie SW: Katholischer Verein; Katholischer Verband"@de ;
-    skos:exactMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
+    skos:narrowMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
 
 :N611045
     a skos:Concept ;
@@ -5395,7 +5395,7 @@
     skos:prefLabel "Geistliche. Ordensleute"@de ;
     skos:example "Fürstbischöfe, Bischöfe, Mönche, kath. Pfarrer, Theologen, Stiftsdame"@de ;
     skos:scopeNote "Freie SW: Geistlicher; Ordensleute"@de ;
-    skos:exactMatch gnd:4137184-7, gnd:4309954-3, wd:Q2259532 .
+    skos:narrowMatch gnd:4137184-7, gnd:4309954-3, wd:Q2259532 .
 
 :N611060
     a skos:Concept ;
@@ -5405,7 +5405,7 @@
     skos:prefLabel "Klöster. Stifte"@de ;
     skos:example "Weltliches Stift, wenn vorher katholisch, Kommende"@de ;
     skos:scopeNote "Kloster u. Stift individuell verschlagworten"@de ;
-    skos:exactMatch gnd:4031225-2, gnd:4057534-2, wd:Q44613, wd:Q355437 .
+    skos:narrowMatch gnd:4031225-2, gnd:4057534-2, wd:Q44613, wd:Q355437 .
 
 :N611070
     a skos:Concept ;
@@ -5469,7 +5469,7 @@
     skos:prefLabel "Heilige. Heiligenverehrung"@de ;
     skos:example "Namenspatron"@de ;
     skos:scopeNote "S.a. [Volkstümliche Heiligenverehrung](#N704626)"@de ;
-    skos:exactMatch gnd:4024055-1, gnd:4024052-6, wd:Q43115, wd:Q1579384 .
+    skos:narrowMatch gnd:4024055-1, gnd:4024052-6, wd:Q43115, wd:Q1579384 .
 
 :N612000
     a skos:Concept ;
@@ -5638,7 +5638,7 @@
     skos:notation "613044" ;
     skos:prefLabel "Kirchliche Vereine und Verbände"@de ;
     skos:example "Evangelische Frauenhilfe, Evangelische Allianz"@de ;
-    skos:exactMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
+    skos:narrowMatch gnd:4199440-1, gnd:4163474-3, wd:Q108287602 .
 
 :N613045
     a skos:Concept ;
@@ -5656,7 +5656,7 @@
     skos:prefLabel "Pfarrer. Geistliche"@de ;
     skos:example "Präses, Superintendent"@de ;
     skos:scopeNote "Freie SW: Pfarrer; Geistlicher"@de ;
-    skos:exactMatch gnd:4132592-8, gnd:4174000-2, wd:Q955464 .
+    skos:narrowMatch gnd:4132592-8, gnd:4174000-2, wd:Q955464 .
 
 :N613070
     a skos:Concept ;
@@ -5913,7 +5913,7 @@
     skos:notation "700100" ;
     skos:prefLabel "Volkskunde - Allgemeines"@de ;
     skos:altLabel "Ethnologie"@de ;
-    skos:exactMatch gnd:4078937-8, gnd:4078931-7, wd:Q43455 .
+    skos:narrowMatch gnd:4078937-8, gnd:4078931-7, wd:Q43455 .
 
 :N702000
     a skos:Concept ;
@@ -5962,7 +5962,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "704043" ;
     skos:prefLabel "Fastnacht. Karneval"@de ;
-    skos:exactMatch gnd:4016518-8, gnd:4276473-7, wd:Q4618 .
+    skos:narrowMatch gnd:4016518-8, gnd:4276473-7, wd:Q4618 .
 
 :N704044
     a skos:Concept ;
@@ -6366,7 +6366,7 @@
     skos:notation "708050" ;
     skos:prefLabel "Spielzeug. Spiele"@de ;
     skos:scopeNote "Freie SW: Spielzeug; Spiel"@de ;
-    skos:exactMatch gnd:4056248-7, gnd:4056218-9, wd:Q11422, wd:Q11410 .
+    skos:narrowMatch gnd:4056248-7, gnd:4056218-9, wd:Q11422, wd:Q11410 .
 
 :N708060
     a skos:Concept ;
@@ -6401,7 +6401,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "708230" ;
     skos:prefLabel "Bilder. Malerei"@de ;
-    skos:exactMatch gnd:4006568-6, gnd:4037220-0, wd:Q11629 .
+    skos:narrowMatch gnd:4006568-6, gnd:4037220-0, wd:Q11629 .
 
 :N708250
     a skos:Concept ;
@@ -6625,7 +6625,7 @@
     skos:notation "725050" ;
     skos:prefLabel "Vereine. Interessenverbände"@de ;
     skos:scopeNote "Geselligkeitspflege, soziale Interessen, Freizeitvereine; Im Unterschied zu [Interessenverbände](#N406230); Freie SW: Verein; Interessenverband; S.a. [Sportvereine](#N736050), [Schützenwesen](#N704070)"@de ;
-    skos:exactMatch gnd:4062714-7, gnd:4027286-2, wd:Q48204, wd:Q1666019 .
+    skos:narrowMatch gnd:4062714-7, gnd:4027286-2, wd:Q48204, wd:Q1666019 .
 
 :N725060
     a skos:Concept ;
@@ -6635,7 +6635,7 @@
     skos:prefLabel "Minderheiten. Randgruppen"@de ;
     skos:example "Roma, Sinti"@de ;
     skos:scopeNote "Minderheit bzw. Randgruppe frei verschlagworten"@de ;
-    skos:exactMatch gnd:4752223-9, gnd:4048390-3, wd:Q30103 .
+    skos:narrowMatch gnd:4752223-9, gnd:4048390-3, wd:Q30103 .
 
 :N725070
     a skos:Concept ;
@@ -6739,7 +6739,7 @@
     skos:notation "734000" ;
     skos:prefLabel "Feiern und Feste"@de ;
     skos:scopeNote "Feste im Jahresverlauf s. [Brauchtum im Jahreslauf](#N704040); Freie SW: z.B. Volksfest"@de ;
-    skos:exactMatch gnd:4016628-4, gnd:4121260-5, wd:Q200538 .
+    skos:narrowMatch gnd:4016628-4, gnd:4121260-5, wd:Q200538 .
 
 :N735000
     a skos:Concept ;
@@ -7131,7 +7131,7 @@
     skos:narrower :N768010, :N768030 ;
     skos:notation "768000" ;
     skos:prefLabel "Schriftsteller"@de ;
-    skos:exactMatch gnd:4053309-8, gnd:4053311-6, wd:Q36180 .
+    skos:narrowMatch gnd:4053309-8, gnd:4053311-6, wd:Q36180 .
 
 :N768010
     a skos:Concept ;
@@ -7430,7 +7430,7 @@
     skos:narrower :N784062, :N784064, :N784066 ;
     skos:notation "784060" ;
     skos:prefLabel "Lehrer. Pädagogen"@de ;
-    skos:exactMatch gnd:4035088-5, gnd:4035097-6, gnd:4044300-0, gnd:4135404-7, wd:Q37226, wd:Q1231865 .
+    skos:narrowMatch gnd:4035088-5, gnd:4035097-6, gnd:4044300-0, gnd:4135404-7, wd:Q37226, wd:Q1231865 .
 
 :N784062
     a skos:Concept ;
@@ -7464,7 +7464,7 @@
     skos:narrower :N784072, :N784074, :N784078 ;
     skos:notation "784070" ;
     skos:prefLabel "Schüler"@de ;
-    skos:exactMatch gnd:4053369-4, gnd:4180040-0, wd:Q48942 .
+    skos:narrowMatch gnd:4053369-4, gnd:4180040-0, wd:Q48942 .
 
 :N784072
     a skos:Concept ;
@@ -7591,7 +7591,7 @@
     skos:notation "788000" ;
     skos:prefLabel "Erwachsenenbildung. Weiterbildung"@de ;
     skos:example "Volkshochschulen"@de ;
-    skos:exactMatch gnd:4015428-2, gnd:4117622-4, wd:Q1319035, wd:Q1438896 .
+    skos:narrowMatch gnd:4015428-2, gnd:4117622-4, wd:Q1319035, wd:Q1438896 .
 
 :N790000
     a skos:Concept ;
@@ -7666,7 +7666,7 @@
     skos:narrower :N797010 ;
     skos:notation "797000" ;
     skos:prefLabel "Hochschullehrer. Wissenschaftler"@de ;
-    skos:exactMatch gnd:4025243-7, gnd:4160219-5, gnd:4066567-7, gnd:4136652-9, wd:Q1622272, wd:Q901 .
+    skos:narrowMatch gnd:4025243-7, gnd:4160219-5, gnd:4066567-7, gnd:4136652-9, wd:Q1622272, wd:Q901 .
 
 :N797010
     a skos:Concept ;
@@ -7681,7 +7681,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "798000" ;
     skos:prefLabel "Studenten"@de ;
-    skos:exactMatch gnd:4058167-6, gnd:4138764-8, wd:Q48282 .
+    skos:narrowMatch gnd:4058167-6, gnd:4138764-8, wd:Q48282 .
 
 :N798200
     a skos:Concept ;
@@ -7767,7 +7767,7 @@
     skos:prefLabel "Kinder- und Jugendtheater"@de ;
     skos:example "Schultheater"@de ;
     skos:scopeNote "Freie SW: Kindertheater; Jugendtheater"@de ;
-    skos:exactMatch gnd:4125349-8, gnd:4162874-3, wd:Q2416110 .
+    skos:narrowMatch gnd:4125349-8, gnd:4162874-3, wd:Q2416110 .
 
 :N802060
     a skos:Concept ;
@@ -7792,7 +7792,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "802080" ;
     skos:prefLabel "Schauspieler"@de ;
-    skos:exactMatch gnd:4052154-0, gnd:4153179-6, wd:Q33999 .
+    skos:narrowMatch gnd:4052154-0, gnd:4153179-6, wd:Q33999 .
 
 :N803000
     a skos:Concept ;
@@ -7923,7 +7923,7 @@
     skos:narrower :N824020, :N824040, :N824060 ;
     skos:notation "824000" ;
     skos:prefLabel "Musiker"@de ;
-    skos:exactMatch gnd:4040841-3, gnd:4170818-0, wd:Q639669 .
+    skos:narrowMatch gnd:4040841-3, gnd:4170818-0, wd:Q639669 .
 
 :N824020
     a skos:Concept ;
@@ -7931,7 +7931,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "824020" ;
     skos:prefLabel "Sänger"@de ;
-    skos:exactMatch gnd:4124099-6, gnd:4051246-0, wd:Q177220 .
+    skos:narrowMatch gnd:4124099-6, gnd:4051246-0, wd:Q177220 .
 
 :N824040
     a skos:Concept ;
@@ -7939,7 +7939,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "824040" ;
     skos:prefLabel "Komponisten"@de ;
-    skos:exactMatch gnd:4032009-1, gnd:4032010-8, wd:Q36834 .
+    skos:narrowMatch gnd:4032009-1, gnd:4032010-8, wd:Q36834 .
 
 :N824060
     a skos:Concept ;
@@ -7947,7 +7947,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "824060" ;
     skos:prefLabel "Dirigenten"@de ;
-    skos:exactMatch gnd:4012434-4, gnd:4648823-6, wd:Q158852 .
+    skos:narrowMatch gnd:4012434-4, gnd:4648823-6, wd:Q158852 .
 
 :N825000
     a skos:Concept ;
@@ -7956,7 +7956,7 @@
     skos:notation "825000" ;
     skos:prefLabel "Orchester. Musikkapellen. Musikgruppen"@de ;
     skos:scopeNote "Sekundärliteratur über einzelne Orchester, Musikkapellen, Musikgruppen; Achtung: Programmhefte und Spielpläne (Primärliteratur) s. [Konzerte und Musikveranstaltungen](#N826000); Freie SW: Orchester; Kapelle (Musik); Musikgruppe"@de ;
-    skos:exactMatch gnd:4172708-3, gnd:4170827-1, wd:Q42998, wd:Q215380 .
+    skos:narrowMatch gnd:4172708-3, gnd:4170827-1, wd:Q42998, wd:Q215380 .
 
 :N825500
     a skos:Concept ;
@@ -7966,7 +7966,7 @@
     skos:prefLabel "Chöre. Gesangvereine"@de ;
     skos:altLabel "Gesangsverein"@de ;
     skos:scopeNote "Sekundärliteratur über einzelne Chöre und Gesangvereine; Achtung: Programmhefte und Spielpläne (Primärliteratur) s. [Konzerte und Musikveranstaltungen](#N826000); Freie SW: Chor; Gesangverein"@de ;
-    skos:exactMatch gnd:4010045-5, gnd:4156946-5, wd:Q131186 .
+    skos:narrowMatch gnd:4010045-5, gnd:4156946-5, wd:Q131186 .
 
 :N826000
     a skos:Concept ;
@@ -7975,7 +7975,7 @@
     skos:notation "826000" ;
     skos:prefLabel "Konzerte und Musikveranstaltungen"@de ;
     skos:scopeNote "Primärliteratur zu Musikveranstaltungen, Gebrauchsliteratur wie Programmhefte und Spielpläne; Freie SW: Konzert; Musikveranstaltung"@de ;
-    skos:exactMatch gnd:4032359-6, gnd:4212081-0, wd:Q182832 .
+    skos:narrowMatch gnd:4032359-6, gnd:4212081-0, wd:Q182832 .
 
 :N827000
     a skos:Concept ;
@@ -8045,7 +8045,7 @@
     skos:prefLabel "Kunstmuseen und Kunstsammlungen"@de ;
     skos:example "Gemäldegalerie"@de ;
     skos:scopeNote "Freie SW: Kunstmuseum; Kunstsammlung"@de ;
-    skos:exactMatch gnd:4166041-9, gnd:7511175-5, wd:Q207694 .
+    skos:narrowMatch gnd:4166041-9, gnd:7511175-5, wd:Q207694 .
 
 :N841050
     a skos:Concept ;
@@ -8072,7 +8072,7 @@
     skos:prefLabel "Künstler"@de ;
     skos:example "Maler, Bildhauer, Zeichner; Photographen, Ausstellungen von Künstlern, Biografien von Künstlern"@de ;
     skos:scopeNote "Raumsystematik: vorwiegender Ort od. Region + Ausstellungsort falls in NRW"@de ;
-    skos:exactMatch gnd:4033423-5, gnd:4033430-2, wd:Q483501 .
+    skos:narrowMatch gnd:4033423-5, gnd:4033430-2, wd:Q483501 .
 
 :N841080
     a skos:Concept ;
@@ -8200,7 +8200,7 @@
     skos:notation "843090" ;
     skos:prefLabel "Architekten"@de ;
     skos:example "Hier auch Zimmerer, Bautischler"@de ;
-    skos:exactMatch gnd:4002844-6, gnd:4131695-2, wd:Q42973 .
+    skos:narrowMatch gnd:4002844-6, gnd:4131695-2, wd:Q42973 .
 
 :N844000
     a skos:Concept ;
@@ -8210,7 +8210,7 @@
     skos:notation "844000" ;
     skos:prefLabel "Baudenkmäler. Kunstwerke"@de ;
     skos:scopeNote "Allg., auch für Burgen, Profanbauten, Kulturdenkmal u.Ä.; Freie SW: Baudenkmal; Kunstwerk"@de ;
-    skos:exactMatch gnd:4004973-5, gnd:4123592-7, wd:Q811165, wd:Q838948 .
+    skos:narrowMatch gnd:4004973-5, gnd:4123592-7, wd:Q811165, wd:Q838948 .
 
 :N844010
     a skos:Concept ;
@@ -8244,7 +8244,7 @@
     skos:notation "844040" ;
     skos:prefLabel "Burgen. Schlösser"@de ;
     skos:scopeNote "Burgmannshof, Herrenhaus, Adelssitz; Freie SW: Burg; Schloß; Bei militärischen Aspekten s. [Burgen](#N262011)"@de ;
-    skos:exactMatch gnd:4009104-1, gnd:4052753-0, wd:Q23413, wd:Q751876 .
+    skos:narrowMatch gnd:4009104-1, gnd:4052753-0, wd:Q23413, wd:Q751876 .
 
 :N844050
     a skos:Concept ;
@@ -8286,7 +8286,7 @@
     skos:notation "844200" ;
     skos:prefLabel "Denkmalpflege. Denkmalschutz"@de ;
     skos:scopeNote "Freie SW: Denkmalpflege; Denkmalschutz"@de ;
-    skos:exactMatch gnd:4011455-7, gnd:4011457-0, wd:Q914856, wd:Q572824 .
+    skos:narrowMatch gnd:4011455-7, gnd:4011457-0, wd:Q914856, wd:Q572824 .
 
 :N844500
     a skos:Concept ;
@@ -8358,7 +8358,7 @@
     skos:notation "849020" ;
     skos:prefLabel "Gold- und Silberschmiedekunst. Schmuck"@de ;
     skos:scopeNote "Freie SW: Goldschmiedekunst; Silberschmiedekunst; Schmuck; Im Bereich Volkskunde s. [Schmuck](#N708450)"@de ;
-    skos:exactMatch gnd:4113771-1, gnd:4181345-5, gnd:4052945-9, wd:Q11202319, wd:Q2142903 .
+    skos:narrowMatch gnd:4113771-1, gnd:4181345-5, gnd:4052945-9, wd:Q11202319, wd:Q2142903 .
 
 :N849030
     a skos:Concept ;
@@ -8473,7 +8473,7 @@
     skos:prefLabel "Textilkunst. Mode"@de ;
     skos:example "Hier auch Paramente"@de ;
     skos:scopeNote "Im Bereich Volkskunst s. [Textilien](#N708290)"@de ;
-    skos:exactMatch gnd:4059624-2, gnd:4039792-0, wd:Q12684 .
+    skos:narrowMatch gnd:4059624-2, gnd:4039792-0, wd:Q12684 .
 
 :N849084
     a skos:Concept ;
@@ -8587,7 +8587,7 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "861056" ;
     skos:prefLabel "Verleger"@de ;
-    skos:exactMatch gnd:4138343-6, gnd:4266720-3, wd:Q2516866 .
+    skos:narrowMatch gnd:4138343-6, gnd:4266720-3, wd:Q2516866 .
 
 :N861060
     a skos:Concept ;
@@ -8680,7 +8680,8 @@
     skos:notation "865090" ;
     skos:prefLabel "Bibliothekare"@de ;
     skos:scopeNote "Archivar s. [Archive](#N213000)"@de ;
-    skos:exactMatch gnd:4145258-6, gnd:4145264-1, wd:Q182436 .
+    skos:exactMatch wd:Q182436 ;
+    skos:narrowMatch gnd:4145258-6, gnd:4145264-1 .
 
 :N880000
     a skos:Concept ;
@@ -8773,7 +8774,8 @@
     skos:inScheme <https://nwbib.de/subjects> ;
     skos:notation "882090" ;
     skos:prefLabel "Journalisten"@de ;
-    skos:exactMatch gnd:4028781-6, gnd:4028786-5, wd:Q1930187 .
+    skos:exactMatch wd:Q1930187 ;
+    skos:narrowMatch gnd:4028781-6, gnd:4028786-5 .
 
 :N884000
     a skos:Concept ;
