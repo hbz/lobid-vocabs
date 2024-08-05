@@ -4942,10 +4942,10 @@ nwbib-spatial:Q14936  a  skos:Concept ;
 
 <https://nwbib.de/spatial>
         a                              skos:ConceptScheme ;
-        dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
+        dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2024-05-17" ;
+        dct:modified                   "2024-08-05" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -15640,7 +15640,7 @@ nwbib-spatial:Q32059172
         skos:broader    nwbib-spatial:Q317314 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Hochfeld"@de ;
-        foaf:focus      wd:Q32059172 .
+        foaf:focus      wd:Q1621773 .
 
 nwbib-spatial:Q1485554
         a               skos:Concept ;
@@ -21729,13 +21729,6 @@ nwbib-spatial:Q18608587
         skos:prefLabel  "Ließem"@de ;
         foaf:focus      wd:Q18608587 .
 
-nwbib-spatial:Q2143169
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q11047 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Remshagen"@de ;
-        foaf:focus      wd:Q2143169 .
-
 nwbib-spatial:Q1278516
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3771 ;
@@ -21743,12 +21736,26 @@ nwbib-spatial:Q1278516
         skos:prefLabel  "Ebbesloh"@de ;
         foaf:focus      wd:Q1278516 .
 
+nwbib-spatial:Q2143169
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11047 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Remshagen"@de ;
+        foaf:focus      wd:Q2143169 .
+
 nwbib-spatial:Q1669858
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1503134 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "St. Mauritz"@de ;
         foaf:focus      wd:Q1669858 .
+
+nwbib-spatial:Q1464461
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q5632 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Frielinghausen"@de ;
+        foaf:focus      wd:Q1464461 .
 
 nwbib-spatial:Q2256779
         a               skos:Concept ;
