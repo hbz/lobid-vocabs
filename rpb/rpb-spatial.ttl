@@ -46,23 +46,28 @@
 
 :n01 a skos:Concept ;
     skos:broader :n1 ;
+    skos:closeMatch <http://d-nb.info/gnd/4049795-1> ;
     skos:definition "Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland-Pfalz (n01)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinland-Pfalz"@de .
 
 :n03 a skos:Concept ;
     skos:broader :n1 ;
+    skos:closeMatch <http://d-nb.info/gnd/4049788-4> ;
     skos:definition "Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinland (n03)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinland"@de .
 
 :n05 a skos:Concept ;
+    skos:altLabel "Provinz Rheinhessen"@de ;
     skos:broader :n1 ;
+    skos:closeMatch <http://d-nb.info/gnd/4049762-8> ;
     skos:definition "Rheinland-Pfalz insgesamt. Landesteile (n1) > Rheinhessen (n05)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinhessen"@de .
 
 :n07 a skos:Concept ;
+    skos:altLabel "Pfalz / Landschaft"@de ;
     skos:broader :n1 ;
     skos:definition "Rheinland-Pfalz insgesamt. Landesteile (n1) > Pfalz (n07)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
@@ -70,66 +75,82 @@
 
 :n10 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4065773-5> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westerwald (n10)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westerwald"@de .
 
 :n11 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4059163-3> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Taunus (n11)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Taunus"@de .
 
 :n12 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4049791-4> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Rheinhessisches Hügelland (n12)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rheinhessisches Hügelland"@de .
 
 :n13 a skos:Concept ;
+    skos:altLabel "Hessen / Mainzer Becken"@de,
+        "Rheinland-Pfalz / Mainzer Becken"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4037133-5> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Mainzer Becken (n13)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Mainzer Becken"@de .
 
 :n14 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4063962-9> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Vorderpfalz (n14)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Vorderpfalz"@de .
 
 :n15 a skos:Concept ;
+    skos:altLabel "Pfälzerwald"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4045428-9> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Pfälzer Wald (n15)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Pfälzer Wald"@de .
 
 :n16 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4065818-1> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Westrich (n16)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westrich"@de .
 
 :n17 a skos:Concept ;
+    skos:altLabel "Saar-Nahe-Bergland / Südost"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4042533-2> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Nordpfälzer Bergland (n17)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Nordpfälzer Bergland"@de .
 
 :n18 a skos:Concept ;
+    skos:altLabel "Pfälzer Bergland"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4045427-7> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Saar-Nahe-Bergland (n18)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saar-Nahe-Bergland"@de .
 
 :n19 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4026217-0> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Hunsrück (n19)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Hunsrück"@de .
 
 :n20 a skos:Concept ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4013749-1> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Eifel (n20)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Eifel"@de .
@@ -141,118 +162,183 @@
     skos:prefLabel "Ingelheimer Rheinebene"@de .
 
 :n22 a skos:Concept ;
+    skos:altLabel "Mittelrheingebiet"@de,
+        "Mittelrheinland"@de,
+        "Mittelrheinlande"@de,
+        "Mittleres Rheinland"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4074902-2> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Mittelrhein-Gebiet (n22)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Mittelrhein-Gebiet"@de .
 
 :n23 a skos:Concept ;
+    skos:altLabel "Nördliches Oberrheinisches Tiefland"@de,
+        "Oberrhein-Gebiet / Nord"@de,
+        "Oberrheinebene / Nord"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4224683-0> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Oberrheinisches Tiefland / Nord (n23)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Oberrheinisches Tiefland / Nord"@de .
+    skos:prefLabel "Oberrheinisches Tiefland / Nord"@de ;
+    skos:scopeNote "Umfasst das Einzugsgebiet von Pfalz, Rheinhessen, Südhessen u. Nordbaden."@de .
 
 :n24 a skos:Concept ;
+    skos:altLabel "Mosel / Tal"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4102224-5> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Moseltal (n24)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Moseltal"@de .
 
 :n25 a skos:Concept ;
+    skos:altLabel "Lahn / Tal"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4098938-0> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Lahntal (n25)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Lahntal"@de .
 
 :n26 a skos:Concept ;
+    skos:altLabel "Nahe / Tal"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4102346-8> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Nahetal (n26)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Nahetal"@de .
 
 :n27 a skos:Concept ;
+    skos:altLabel "Untere Saar / Tal"@de,
+        "Unteres Saartal"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4337778-6> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Untere-Saar-Tal (n27)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Untere-Saar-Tal"@de .
 
 :n28 a skos:Concept ;
+    skos:altLabel "Ahr / Tal"@de ;
     skos:broader :n2 ;
+    skos:closeMatch <http://d-nb.info/gnd/4084812-7> ;
     skos:definition "Landschaften in Rheinland-Pfalz (n2) > Ahrtal (n28)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Ahrtal"@de .
 
 :n30 a skos:Concept ;
+    skos:altLabel "Evangelische Kirche der Rheinprovinz"@de,
+        "Kirchenprovinz Rheinland"@de,
+        "Rheinische Provinzialkirche"@de ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/4015837-8> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Evangelische Kirche im Rheinland (n30)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Evangelische Kirche im Rheinland"@de .
 
 :n31 a skos:Concept ;
+    skos:altLabel "Evangelische Landeskirche in Hessen und Nassau"@de,
+        "Hessen-Nassau / Evangelische Kirche in Hessen und Nassau"@de,
+        "Kirche in Hessen und Nassau"@de,
+        "Landeskirche in Hessen und Nassau"@de ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/4015844-5> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Evangelische Kirche in Hessen und Nassau (n31)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Evangelische Kirche in Hessen und Nassau"@de .
 
 :n32 a skos:Concept ;
+    skos:altLabel "Kirche der Pfalz"@de,
+        "Landeskirche der Pfalz"@de,
+        "Pfälzische Landeskirche"@de,
+        "Pfälzische Unionskirche"@de,
+        "Protestantisch-Evangelisch-Christliche Kirche der Pfalz"@de,
+        "Protestantische Landeskirche der Pfalz"@de,
+        "Vereinigte Protestantisch-Evangelisch-Christliche Kirche der Pfalz"@de ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/1046700-2> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Evangelische Kirche der Pfalz (Protestantische Landeskirche) (n32)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Evangelische Kirche der Pfalz (Protestantische Landeskirche)"@de .
 
 :n34 a skos:Concept ;
+    skos:altLabel "Erzbistum Köln"@de,
+        "Erzdiözese Köln"@de ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/2029646-0> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Katholische Kirche / Erzdiözese Köln (n34)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Erzdiözese Köln"@de .
 
 :n36 a skos:Concept ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/1081206853> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Katholische Kirche / Diözese Mainz (n36)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Mainz"@de .
 
 :n37 a skos:Concept ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/1072550938> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Katholische Kirche / Diözese Speyer (n37)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Speyer"@de .
 
 :n38 a skos:Concept ;
     skos:broader :n3 ;
+    skos:closeMatch <http://d-nb.info/gnd/1084659573> ;
     skos:definition "Kirchliche Gebiete in Rheinland-Pfalz (n3) > Katholische Kirche / Diözese Trier (n38)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Katholische Kirche / Diözese Trier"@de .
 
 :n41 a skos:Concept ;
+    skos:altLabel "Kurfürstentum Trier"@de,
+        "Kurfürstentum und Erzbistum Trier"@de,
+        "Kurtrier"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4060882-7> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Erzstift Trier (n41)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Erzstift Trier"@de .
+    skos:prefLabel "Erzstift Trier"@de ;
+    skos:scopeNote "ca. 800-1803"@de .
 
 :n43 a skos:Concept ;
+    skos:altLabel "Kurfürstentum Mainz"@de,
+        "Kurfürstentum und Erzbistum Mainz"@de,
+        "Kurmainz"@de,
+        "Staat Mainz"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4100026-2> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Erzstift Mainz (n43)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Erzstift Mainz"@de .
+    skos:prefLabel "Erzstift Mainz"@de ;
+    skos:scopeNote "ca. 550-1803"@de .
 
 :n45 a skos:Concept ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4118751-9> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Hochstift Speyer (n45)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Hochstift Speyer"@de .
+    skos:prefLabel "Hochstift Speyer"@de ;
+    skos:scopeNote "ca. 614-1801"@de .
 
 :n46 a skos:Concept ;
+    skos:altLabel "Pfalz / Kurfürstentum"@de,
+        "Pfalzgrafschaft bei Rhein"@de,
+        "Unterpfalz"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/25943-3> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Kurpfalz (n46)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Kurpfalz"@de .
+    skos:prefLabel "Kurpfalz"@de ;
+    skos:scopeNote "10. Jh.-1801"@de .
 
 :n48 a skos:Concept ;
+    skos:altLabel "Bistum Worms"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4119173-0> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Hochstift Worms (n48)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Hochstift Worms"@de .
+    skos:prefLabel "Hochstift Worms"@de ;
+    skos:scopeNote "ca. 4. Jh.-1805"@de .
 
 :n49 a skos:Concept ;
     skos:broader :n4 ;
@@ -261,16 +347,24 @@
     skos:prefLabel "Kleinere Territorien und Teile auswärtiger Territorien -1800"@de .
 
 :n50 a skos:Concept ;
+    skos:altLabel "Territorien unter französischer Herrschaft / 1792-1815"@de ;
     skos:broader :n4 ;
     skos:definition "Historische Territorien und Gebiete (n4) > Französische Gebiete / 1792-1815 (n50)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Französische Gebiete / 1792-1815"@de .
 
 :n51 a skos:Concept ;
+    skos:altLabel "Preußen / Rheinprovinz"@de,
+        "Preußische Rheinprovinz"@de,
+        "Provinz Jülich-Kleve-Berg"@de,
+        "Provinz Niederrhein"@de,
+        "Rheinpreußen"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4211235-7> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Rheinprovinz (n51)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Rheinprovinz"@de .
+    skos:prefLabel "Rheinprovinz"@de ;
+    skos:scopeNote "1816-1945"@de .
 
 :n52 a skos:Concept ;
     skos:broader :n4 ;
@@ -279,55 +373,90 @@
     skos:prefLabel "Kleinere Territorien des 19. und 20. Jh."@de .
 
 :n53 a skos:Concept ;
+    skos:altLabel "Großherzogtum Hessen"@de,
+        "Großherzogtum Hessen / Volksstaat Hessen-Darmstadt"@de,
+        "Landgrafschaft Hessen"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4072471-2> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Hessen-Darmstadt (n53)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Hessen-Darmstadt"@de .
+    skos:prefLabel "Hessen-Darmstadt"@de ;
+    skos:scopeNote "1806-1945"@de .
 
 :n55 a skos:Concept ;
+    skos:altLabel "Bezirk Wiesbaden"@de,
+        "Preußische Provinz Hessen-Nassau"@de,
+        "Provinz Hessen-Nassau"@de ;
     skos:broader :n4 ;
+    skos:closeMatch <http://d-nb.info/gnd/4041265-9> ;
     skos:definition "Historische Territorien und Gebiete (n4) > Hessen-Nassau (n55)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
-    skos:prefLabel "Hessen-Nassau"@de .
+    skos:prefLabel "Hessen-Nassau"@de ;
+    skos:scopeNote "1868-1944"@de .
 
 :n58 a skos:Concept ;
+    skos:altLabel "Bayerischer Rheinkreis"@de,
+        "Rheinbayern"@de,
+        "Rheinkreis"@de,
+        "Rheinpfalz"@de ;
     skos:broader :n4 ;
     skos:definition "Historische Territorien und Gebiete (n4) > Bayerische Pfalz (n58)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Bayerische Pfalz"@de .
 
 :n70 a skos:Concept ;
+    skos:altLabel "Saargebiet"@de ;
     skos:broader :n5 ;
+    skos:closeMatch <http://d-nb.info/gnd/4076919-7> ;
     skos:definition "Angrenzende Gebiete und länderübergreifende Regionen (n5) > Saarland (n70)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saarland"@de .
 
 :n90 a skos:Concept ;
+    skos:altLabel "PGW"@de,
+        "Pfalz / West"@de,
+        "Planungsgemeinschaft West"@de,
+        "Westpfalz / Planungsgemeinschaft"@de ;
     skos:broader :n07 ;
+    skos:closeMatch <http://d-nb.info/gnd/4065806-5> ;
     skos:definition "Rheinland-Pfalz insgesamt. Landesteile (n1) > Pfalz (n07) > Westpfalz (n90)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Westpfalz"@de .
 
 :n91 a skos:Concept ;
+    skos:altLabel "Grenzregion Saarland-Lothringen-Luxemburg"@de,
+        "Saar-Lor-Lux-Trier-Westpfalz"@de ;
     skos:broader :n5 ;
+    skos:closeMatch <http://d-nb.info/gnd/4137543-9> ;
     skos:definition "Angrenzende Gebiete und länderübergreifende Regionen (n5) > Saar-Lor-Lux (n91)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Saar-Lor-Lux"@de .
 
 :n93 a skos:Concept ;
+    skos:altLabel "Neckar-Rhein-Gebiet"@de,
+        "Neckar-Rhein-Raum"@de,
+        "Rhein-Neckar / Region"@de,
+        "Rhein-Neckar-Dreieck"@de,
+        "Rhein-Neckar-Gebiet"@de ;
     skos:broader :n5 ;
+    skos:closeMatch <http://d-nb.info/gnd/4049804-9> ;
     skos:definition "Angrenzende Gebiete und länderübergreifende Regionen (n5) > Rhein-Neckar-Raum (n93)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rhein-Neckar-Raum"@de .
 
 :n94 a skos:Concept ;
     skos:broader :n5 ;
+    skos:closeMatch <http://d-nb.info/gnd/4374036-4> ;
     skos:definition "Angrenzende Gebiete und länderübergreifende Regionen (n5) > Rhein-Nahe-Raum (n94)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Rhein-Nahe-Raum"@de .
 
 :n95 a skos:Concept ;
+    skos:altLabel "Pfalz / Süd"@de,
+        "Planungsgemeinschaft Südpfalz"@de,
+        "Südpfalz / Planungsgemeinschaft"@de ;
     skos:broader :n07 ;
+    skos:closeMatch <http://d-nb.info/gnd/4058451-3> ;
     skos:definition "Rheinland-Pfalz insgesamt. Landesteile (n1) > Pfalz (n07) > Südpfalz (n95)"@de ;
     skos:inScheme <https://rpb.lobid.org/spatial> ;
     skos:prefLabel "Südpfalz"@de .
