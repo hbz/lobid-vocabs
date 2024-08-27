@@ -15,7 +15,13 @@
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/lobid/rpb2#" ;
     vann:preferredNamespacePrefix "lbz" ;
-    skos:hasTopConcept :n100, :n106, :n107, :n120, :n130, :n131, :n132, :n133, :n136, :n137, :n139, :n140, :n141, :n145, :n146, :n147, :n150, :n160, :n161, :n180, :n200, :n210, :n230, :n250, :n260, :n270, :n280, :n300, :n320, :n330, :n380, :n400, :n430, :n450, :n480, :n500, :n510, :n520, :n530, :n540, :n550, :n560, :n580, :n600, :n610, :n620, :n630, :n640, :n650, :n680, :n689, :n690, :n700, :n710, :n720, :n740, :n760, :n780, :n800, :n810, :n820, :n830, :n840, :n850, :n860, :n880, :n900, :n910, :n920, :n930, :n940, :n950, :n970, :n980, :n990 .
+    skos:hasTopConcept :n33, :n100, :n106, :n107, :n120, :n130, :n131, :n132, :n133, :n136, :n137, :n139, :n140, :n141, :n145, :n146, :n147, :n150, :n160, :n161, :n180, :n200, :n210, :n230, :n250, :n260, :n270, :n280, :n300, :n320, :n330, :n380, :n400, :n430, :n450, :n480, :n500, :n510, :n520, :n530, :n540, :n550, :n560, :n580, :n600, :n610, :n620, :n630, :n640, :n650, :n680, :n689, :n690, :n700, :n710, :n720, :n740, :n760, :n780, :n800, :n810, :n820, :n830, :n840, :n850, :n860, :n880, :n900, :n910, :n920, :n930, :n940, :n950, :n970, :n980, :n990 .
+
+:n33
+    a skos:Concept ;
+    skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
+    skos:notation "33" ;
+    skos:prefLabel "Vorlesungsverzeichnisse"@de .
 
 :n100
     a skos:Concept ;
@@ -27,13 +33,13 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "106" ;
-    skos:prefLabel "Amtsdruckschriften Rheinland-Pfalz"@de .
+    skos:prefLabel "Amtsdruckschriften allgemein"@de .
 
 :n107
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "107" ;
-    skos:prefLabel "Schulbücher"@de .
+    skos:prefLabel "Schulbücher allgemein"@de .
 
 
 :n120
@@ -58,13 +64,13 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "132" ;
-    skos:prefLabel "Personen aus der Region Koblenz"@de .
+    skos:prefLabel "Personen aus der Region Koblenz, deren Werke keinen inhaltlichen Bezug zur Region aufweisen"@de .
 
 :n133
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "133" ;
-    skos:prefLabel "Personen aus der Pfalz"@de .
+    skos:prefLabel "Personen aus der Pfalz, deren Werke keinen inhaltlichen Bezug zur Region aufweisen"@de .
 
 :n136
     a skos:Concept ;
@@ -118,7 +124,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "150" ;
-    skos:prefLabel "Allg. und vergl. Sprach- u. Lit. – Wiss."@de .
+    skos:prefLabel "Allgemeine und vergleichende Sprach- und Literaturwissenschaft"@de .
 
 :n160
     a skos:Concept ;
@@ -136,19 +142,19 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "180" ;
-    skos:prefLabel "Wörterbücher (nicht fachgebunden)"@de .
+    skos:prefLabel "Wörterbücher"@de .
 
 :n200
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "200" ;
-    skos:prefLabel "Deutsche Sprache und Literatur"@de .
+    skos:prefLabel "Deutsche Sprache u. Literatur"@de .
 
 :n210
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "210" ;
-    skos:prefLabel "Übrige germanische Sprachen und Lit."@de .
+    skos:prefLabel "Übrige Germanische Sprachen und Literaturen"@de .
 
 :n230
     a skos:Concept ;
@@ -172,7 +178,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "270" ;
-    skos:prefLabel "Slawische und baltische Spr. u. Lit."@de .
+    skos:prefLabel "Slawische Sprachen und Literaturen"@de .
 
 :n280
     a skos:Concept ;
@@ -184,7 +190,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "300" ;
-    skos:prefLabel "Archäologie, Vorgeschichte"@de .
+    skos:prefLabel "Archäologie, Vor- und Frühgeschichte"@de .
 
 :n320
     a skos:Concept ;
@@ -208,13 +214,13 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "400" ;
-    skos:prefLabel "Philosophie/Esoterik"@de .
+    skos:prefLabel "Philosophie"@de .
 
 :n430
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "430" ;
-    skos:prefLabel "Allg. und vergl. Religionswiss."@de .
+    skos:prefLabel "Allgemeine und vergleichende Religionswissenschaft"@de .
 
 :n450
     a skos:Concept ;
@@ -232,7 +238,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "500" ;
-    skos:prefLabel "Bildende Kunst"@de .
+    skos:prefLabel "Kunst, Comics, Cartoons, Karikaturen"@de .
 
 :n510
     a skos:Concept ;
@@ -244,7 +250,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "520" ;
-    skos:prefLabel "Photographie"@de .
+    skos:prefLabel "Fotografie"@de .
 
 :n530
     a skos:Concept ;
@@ -268,19 +274,19 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "560" ;
-    skos:prefLabel "Buch, Bibl., Information und Dok."@de .
+    skos:prefLabel "Buch, Bibliothek, Information und Dokumentation"@de .
 
 :n580
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "580" ;
-    skos:prefLabel "Handschriften, Buchkunst"@de .
+    skos:prefLabel "Schrift, Handschriften, Buchkunst"@de .
 
 :n600
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "600" ;
-    skos:prefLabel "Recht, öffentliche Verwaltung"@de .
+    skos:prefLabel "Recht"@de .
 
 :n610
     a skos:Concept ;
@@ -304,19 +310,19 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "640" ;
-    skos:prefLabel "Volks- und Völkerkunde"@de .
+    skos:prefLabel "Volkskunde, Völkerkunde"@de .
 
 :n650
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "650" ;
-    skos:prefLabel "Wirtschaft und Arbeit"@de .
+    skos:prefLabel "Wirtschaft"@de .
 
 :n680
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "680" ;
-    skos:prefLabel "Wein"@de .
+    skos:prefLabel "Sondersammlung Wein"@de .
 
 :n689
     a skos:Concept ;
@@ -334,13 +340,13 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "700" ;
-    skos:prefLabel "Natur, Naturwiss. allgemein"@de .
+    skos:prefLabel "Natur, Naturwissenschaften allgemein"@de .
 
 :n710
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "710" ;
-    skos:prefLabel "Geographie"@de .
+    skos:prefLabel "Geographie, Heimat- und Länderkunde, Atlanten"@de .
 
 :n720
     a skos:Concept ;
@@ -352,13 +358,13 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "740" ;
-    skos:prefLabel "Umweltschutz, Raumordn., Landschaft"@de .
+    skos:prefLabel "Umweltschutz, Raumordnung, Landschaftsgestaltung"@de .
 
 :n760
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "760" ;
-    skos:prefLabel "Landwirtschaft"@de .
+    skos:prefLabel "Landwirtschaft, Garten"@de .
 
 :n780
     a skos:Concept ;
@@ -382,7 +388,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "820" ;
-    skos:prefLabel "Informatik, Kybernetik"@de .
+    skos:prefLabel "Informatik, Datenverarbeitung"@de .
 
 :n830
     a skos:Concept ;
@@ -424,7 +430,7 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "910" ;
-    skos:prefLabel "Energie, Masch.-, Fertigungstechnik"@de .
+    skos:prefLabel "Energie, Maschinen- Fertigungstechnik"@de .
 
 :n920
     a skos:Concept ;
@@ -448,19 +454,19 @@
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "950" ;
-    skos:prefLabel "Chemische Technik, Versch. Technologien"@de .
+    skos:prefLabel "Technische Chemie, Lebensmitteltechnologie, Textiltechnik"@de .
 
 :n970
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "970" ;
-    skos:prefLabel "Hausw., Hotel- und Gaststättengewerbe"@de .
+    skos:prefLabel "Hauswirtschaft, Kochen, Hotel- und Gaststättengewerbe"@de .
 
 :n980
     a skos:Concept ;
     skos:topConceptOf <https://w3id.org/lobid/rpb2> ;
     skos:notation "980" ;
-    skos:prefLabel "Basteln, Handarbeit, Heimwerken"@de .
+    skos:prefLabel "Basteln, Handarbeiten, Heimwerken"@de .
 
 :n990
     a skos:Concept ;
