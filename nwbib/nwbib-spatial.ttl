@@ -722,7 +722,7 @@ nwbib-spatial:Q831067
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 10 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 10"@de ;
         foaf:focus      wd:Q831067 .
 
 nwbib-spatial:Q1248779
@@ -1466,7 +1466,7 @@ nwbib-spatial:Q323607
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 4 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 4"@de ;
         foaf:focus      wd:Q323607 .
 
 nwbib-spatial:Q642199
@@ -2238,7 +2238,7 @@ nwbib-spatial:Q1110161
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q16024 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lüllingen"@de ;
+        skos:prefLabel  "Lüllingen-De Klus"@de ;
         foaf:focus      wd:Q1110161 .
 
 nwbib-spatial:Q14903  a  skos:Concept ;
@@ -2325,6 +2325,13 @@ nwbib-spatial:Q117782
         skos:prefLabel  "Vahlhausen"@de ;
         foaf:focus      wd:Q117782 .
 
+nwbib-spatial:Q63078887
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N32 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kirchenkreis An der Ruhr"@de ;
+        foaf:focus      wd:Q63078887 .
+
 nwbib-spatial:Q629048
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3912 ;
@@ -2332,12 +2339,12 @@ nwbib-spatial:Q629048
         skos:prefLabel  "Breitenbruch"@de ;
         foaf:focus      wd:Q629048 .
 
-nwbib-spatial:Q63078887
+nwbib-spatial:Q109182551
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:N32 ;
+        skos:broader    nwbib-spatial:Q3886 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kirchenkreis An der Ruhr"@de ;
-        foaf:focus      wd:Q63078887 .
+        skos:prefLabel  "Feldmark"@de ;
+        foaf:focus      wd:Q109182551 .
 
 nwbib-spatial:Q437203
         a               skos:Concept ;
@@ -4942,10 +4949,10 @@ nwbib-spatial:Q14936  a  skos:Concept ;
 
 <https://nwbib.de/spatial>
         a                              skos:ConceptScheme ;
-        dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
+        dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2024-08-05" ;
+        dct:modified                   "2025-01-06" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -5012,7 +5019,7 @@ nwbib-spatial:Q1568819
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2563710 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hahn (Aachen)"@de ;
+        skos:prefLabel  "Hahn"@de ;
         foaf:focus      wd:Q1568819 .
 
 nwbib-spatial:Q1534520
@@ -5712,7 +5719,7 @@ nwbib-spatial:Q322875
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 3 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 3"@de ;
         foaf:focus      wd:Q322875 .
 
 nwbib-spatial:Q16006  a  skos:Concept ;
@@ -17083,7 +17090,7 @@ nwbib-spatial:Q551600
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 1 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 1"@de ;
         foaf:focus      wd:Q551600 .
 
 nwbib-spatial:Q47462205
@@ -17849,7 +17856,7 @@ nwbib-spatial:Q323588
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 5 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 5"@de ;
         foaf:focus      wd:Q323588 .
 
 nwbib-spatial:Q2971  a  skos:Concept ;
@@ -21943,7 +21950,7 @@ nwbib-spatial:Q1628011
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2151315 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Horbach (Aachen)"@de ;
+        skos:prefLabel  "Horbach"@de ;
         foaf:focus      wd:Q1628011 .
 
 nwbib-spatial:Q1980075
@@ -22964,7 +22971,7 @@ nwbib-spatial:Q320896
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 2 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 2"@de ;
         foaf:focus      wd:Q320896 .
 
 nwbib-spatial:Q1795766
@@ -25565,7 +25572,7 @@ nwbib-spatial:Q870865
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 8 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 8"@de ;
         foaf:focus      wd:Q870865 .
 
 nwbib-spatial:Q1182208
@@ -25992,7 +25999,7 @@ nwbib-spatial:Q323826
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 7 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 7"@de ;
         foaf:focus      wd:Q323826 .
 
 nwbib-spatial:Q437554
@@ -27305,7 +27312,7 @@ nwbib-spatial:Q878667
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q16024 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kapellen"@de ;
+        skos:prefLabel  "Kapellen an der Fleuth"@de ;
         foaf:focus      wd:Q878667 .
 
 nwbib-spatial:Q56373241
@@ -27431,7 +27438,7 @@ nwbib-spatial:Q323577
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 9 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 9"@de ;
         foaf:focus      wd:Q323577 .
 
 nwbib-spatial:Q1456426
@@ -29375,7 +29382,7 @@ nwbib-spatial:Q831039
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1718 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk 6 (Düsseldorf)"@de ;
+        skos:prefLabel  "Stadtbezirk 6"@de ;
         foaf:focus      wd:Q831039 .
 
 nwbib-spatial:Q330792
