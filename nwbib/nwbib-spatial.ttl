@@ -4949,7 +4949,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
 
 <https://nwbib.de/spatial>
         a                              skos:ConceptScheme ;
-        dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz." ;
+        dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
         dct:modified                   "2025-01-06" ;
