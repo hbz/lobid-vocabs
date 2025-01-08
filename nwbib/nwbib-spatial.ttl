@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2025-01-06" ;
+        dct:modified                   "2025-01-08" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -22861,6 +22861,13 @@ nwbib-spatial:Q925346
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Broicher Siedlung"@de ;
         foaf:focus      wd:Q925346 .
+
+nwbib-spatial:Q109182264
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3886 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Östrich"@de ;
+        foaf:focus      wd:Q109182264 .
 
 nwbib-spatial:Q2585095
         a               skos:Concept ;
