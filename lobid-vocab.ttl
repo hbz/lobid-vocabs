@@ -434,6 +434,18 @@ lv:inSeries
    rdfs:range lv:SeriesRelation .
 
 
+# <http://purl.org/lobid/lv#inventoryNumber>
+
+lv:inventoryNumber
+    a owl:DatatypeProperty ;
+    rdfs:comment "An inventoryNumber for an item different to call number and shelf mark"@en ;
+    rdfs:domain bf:Item;
+    rdfs:label "inventory number"@en ;
+    rdfs:label "Inventarnummer"@de ;
+    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf dct:identifier .
+
 # <http://purl.org/lobid/lv#isil>
 
 lv:isil
