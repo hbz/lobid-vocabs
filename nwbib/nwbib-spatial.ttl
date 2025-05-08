@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2025-02-04" ;
+        dct:modified                   "2025-05-08" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -11725,7 +11725,7 @@ nwbib-spatial:Q29642630
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q181609 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Hohne (Lengerich)"@de ;
+        skos:prefLabel  "Hohne"@de ;
         foaf:focus      wd:Q29642630 .
 
 nwbib-spatial:Q1368622
@@ -18875,6 +18875,13 @@ nwbib-spatial:Q1250678
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Nette"@de ;
         foaf:focus      wd:Q1250678 .
+
+nwbib-spatial:Q1367382
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q1959104 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Rumphorst"@de ;
+        foaf:focus      wd:Q1367382 .
 
 nwbib-spatial:Q2259764
         a               skos:Concept ;
