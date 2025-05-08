@@ -4317,7 +4317,7 @@ nwbib-spatial:Q10929  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q5946 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:notation   "05958016" ;
-        skos:prefLabel  "Eslohe"@de ;
+        skos:prefLabel  "Eslohe (Sauerland)"@de ;
         foaf:focus      wd:Q10929 .
 
 nwbib-spatial:Q73110  a  skos:Concept ;
@@ -9632,19 +9632,19 @@ nwbib-spatial:Q2543282
         skos:prefLabel  "Walstedde"@de ;
         foaf:focus      wd:Q2543282 .
 
-nwbib-spatial:Q889550
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q240039 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Bodenheim (Weilerswist)"@de ;
-        foaf:focus      wd:Q889550 .
-
 nwbib-spatial:Q2237935
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q253185 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Schladern"@de ;
         foaf:focus      wd:Q2237935 .
+
+nwbib-spatial:Q889550
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q240039 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Bodenheim"@de ;
+        foaf:focus      wd:Q889550 .
 
 nwbib-spatial:Q1959109
         a               skos:Concept ;
@@ -26570,6 +26570,13 @@ nwbib-spatial:Q1521837
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Schweinheim"@de ;
         foaf:focus      wd:Q1521837 .
+
+nwbib-spatial:Q17539867
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3117 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Ehrenfeld"@de ;
+        foaf:focus      wd:Q17539867 .
 
 nwbib-spatial:Q2253657
         a               skos:Concept ;
