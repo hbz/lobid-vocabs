@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2025-05-08" ;
+        dct:modified                   "2025-06-23" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -18580,7 +18580,7 @@ nwbib-spatial:Q47462041
         skos:broader    nwbib-spatial:N33 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Kirchenkreis Bielefeld"@de ;
-        foaf:focus      wd:Q47462041 .
+        foaf:focus      wd:Q1612475 .
 
 nwbib-spatial:Q1812057
         a               skos:Concept ;
