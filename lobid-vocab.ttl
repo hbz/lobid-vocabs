@@ -258,6 +258,17 @@ lv:currentLocation
     rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
     rdfs:range rdfs:Literal .
 
+# <http://purl.org/lobid/lv#currentLibrary>
+
+lv:currentLibrary
+    a owl:DatatypeProperty ;
+    rdfs:comment "The specific library within an institution holding an item"@en ;
+    rdfs:domain bf:Item;
+    rdfs:label "current location"@en ;
+    rdfs:label "Standort"@de ;
+    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+    rdfs:range rdfs:Literal .
+
 # <http://purl.org/lobid/lv#contactqr>
 
 lv:contactqr
