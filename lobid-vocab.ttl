@@ -256,9 +256,7 @@ lv:currentLocation
     rdfs:label "current location"@en ;
     rdfs:label "Standort"@de ;
     rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-    rdfs:range rdfs:Literal ;
-    rdfs:subPropertyOf dct:identifier .
-
+    rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#contactqr>
 
