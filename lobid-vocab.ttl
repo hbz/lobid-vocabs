@@ -595,6 +595,17 @@ lv:rs
    rdfs:seeAlso <https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel#Regionalschl.C3.BCssel> ;
    rdfs:range xsd:positiveInteger .
 
+lv:schoeneNummer
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Schöne Nummer"@de ;
+   rdfs:label "Schoene Nummer"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Identifikator für eine Ressource in BiblioVino, der Bibliographie zum Thema Wein des Landesbibliothekszentrum Rheinland-Pfalz (LBZ)."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the BiblioVino, the wine bibliography of Landesbibliothekszentrum Rheinland-Pfalz(LBZ)."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
 # <http://purl.org/lobid/lv#series>
 
 lv:series
