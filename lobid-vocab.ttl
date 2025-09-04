@@ -22,8 +22,8 @@
    dct:title "lobid vocab" ;
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
-   dct:issued "2012-01-17" ;
-   dct:modified "2024-02-16"^^xsd:date ;
+   dct:issued "2012-01-17"^^xsd:date ;
+   dct:modified "2025-09-03"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
