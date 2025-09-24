@@ -22,8 +22,8 @@
    dct:title "lobid vocab" ;
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
-   dct:issued "2012-01-17" ;
-   dct:modified "2024-02-16"^^xsd:date ;
+   dct:issued "2012-01-17"^^xsd:date ;
+   dct:modified "2025-09-03"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -256,9 +256,18 @@ lv:currentLocation
     rdfs:label "current location"@en ;
     rdfs:label "Standort"@de ;
     rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-    rdfs:range rdfs:Literal ;
-    rdfs:subPropertyOf dct:identifier .
+    rdfs:range rdfs:Literal .
 
+# <http://purl.org/lobid/lv#currentLibrary>
+
+lv:currentLibrary
+    a owl:DatatypeProperty ;
+    rdfs:comment "The code of the specific library within an institution holding an item used in ALMA"@en ;
+    rdfs:domain bf:Item;
+    rdfs:label "current library"@en ;
+    rdfs:label "Aktuelle Bibliothek"@de ;
+    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+    rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#contactqr>
 
@@ -585,6 +594,17 @@ lv:rs
    rdfs:comment "Regionalschlüssel der Region, in der sich die beschriebene raum-zeitliche Ressource befindet."@de ;
    rdfs:seeAlso <https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel#Regionalschl.C3.BCssel> ;
    rdfs:range xsd:positiveInteger .
+
+lv:schoeneNummer
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "Schöne Nummer"@de ;
+   rdfs:label "Schoene Nummer"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Identifikator für eine Ressource in BiblioVino, der Bibliographie zum Thema Wein des Landesbibliothekszentrum Rheinland-Pfalz (LBZ)."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the BiblioVino, the wine bibliography of Landesbibliothekszentrum Rheinland-Pfalz(LBZ)."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#series>
 
