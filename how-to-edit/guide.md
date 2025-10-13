@@ -81,7 +81,9 @@ Es gibt auch wieder zwei Möglichkeiten, um die Änderungen zu committen.
 
 1. Klick auf das "Quellcodeverwaltung"-Symbol in der linken Navigationsleiste.
 2. Eingabe einer Commit-Message und Klick auf "Commit"
+
 ![](ui-commit.png)
+
 3. Auswahl von "Ja" oder "Immer", wenn der Dialog erscheint, der auf nicht-gestagete Änderungen hinweist:
 ![](stage-all.png)
 
@@ -92,8 +94,8 @@ Es gibt auch wieder zwei Möglichkeiten, um die Änderungen zu committen.
 3. Commit Message eingeben, dabei möglichst beachten
    * die Message im Imperativ formulieren (Ticket/Änderungen nennen), Großbuchstabe am Anfang, kein Punkt am Ende
    * nach eine Leerzeile ist ein längerer Kommentar Möglichkeiten
-   * siehe auch [hier](https://github.com/metafacture/metafacture-playground/blob/main/CONTRIBUTING.md#commit-messages)
-![](commit-message-via-terminal.png)
+      * ![](commit-message-via-terminal.png)
+   * siehe auch [hier](https://github.com/metafacture/metafacture-playground/blob/main/CONTRIBUTING.md#commit-messages):
 4. Die Datei mit der Commit-Message schießen und der Commit wird gemacht.
 
 ## 7. Pull Request eröffnen
