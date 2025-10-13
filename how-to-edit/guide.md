@@ -16,7 +16,7 @@ Um sich ein wenig mit den Prinzipien von SKOS (Simple Knowledge Organization Sys
 
 * auf "<> Code"oben links in der Zeile klicken (falls nicht bereits dort)
 * rechts auf "Code" (grün hinterlegt) klicken und "Create codespaces in main/master"
-![Screenshot des "Open Codespaces"-Dialogs](/open-codespaces.png)
+![Screenshot des "Open Codespaces"-Dialogs](open-codespaces.png)
    * Ist die letzte Bearbeitung in einem Codespace nicht allzu lange her, dann kann ein bestehender Codespace ausgewählt werden. Zur Sicherheit sollte dann der Stand in dem Codespace mit dem aktuellen Haupt-Branch abgeglichen werden (siehe Schritt 3).
 * Weiterleitung im Browser
 
@@ -33,11 +33,11 @@ Um sich ein wenig mit den Prinzipien von SKOS (Simple Knowledge Organization Sys
 ## 3. Bearbeitung einer Datei im Browser
 
 * links in der Spalte die zu editierende Datei wählen (z.B. `nwbib.ttl` oder `rpb-spatial.ttl`)
-![Screenshot vom Dateibrowser in Codespaces](/open-file.png)
+![Screenshot vom Dateibrowser in Codespaces](open-file.png)
 * Sodann die Datei im Editor anpassen. Hier ergänze ich beispielhaft zwei neue Top-Level-Konzepte:
    * Der braun/orangene Streifen neben den geänderten Zeilen markiert, dass hier Änderungen vorgenommen wurden.
    * Ein grüner Streifen zeigt an, dass neue Zeilen ergänzt wurden.
-  ![Ergänzung eines SKOS-Concepts im Codespace-Editor](/add-concepts.png)
+  ![Ergänzung eines SKOS-Concepts im Codespace-Editor](add-concepts.png)
 
 ## 4. Neuen Branch erstellen
 
