@@ -16,7 +16,13 @@
     dct:modified "2022-01-13" ;
     dct:publisher <http://lobid.org/organisations/DE-605> ;
     vann:preferredNamespaceUri "https://nwbib.de/subjects#" ;
-    skos:hasTopConcept :N1, :N2, :N4, :N5, :N6, :N7, :N8 .
+    skos:hasTopConcept :N1, :N2, :N4, :N5, :N6, :N7, :N8, :demo, :demo2 .
+
+:demo
+    a skos:Concept ;
+    skos:inScheme <https://nwbib.de/subjects> ;
+    skos:notation "demo" ;
+    skos:prefLabel "Demo-Konzept"@de .
 
 :N1
     a skos:Concept ;
@@ -24,6 +30,12 @@
     skos:narrower :N100000 ,:N120000, :N140000, :N160000;
     skos:notation "1" ;
     skos:prefLabel "Landeskunde (allgemein. Geo-u. Biowissenschaften)"@de .
+
+:demo2
+    a skos:Concept ;
+    skos:inScheme <https://nwbib.de/subjects> ;
+    skos:notation "demo" ;
+    skos:prefLabel "Demo-Konzept2"@de .
 
 :N2
     a skos:Concept ;
