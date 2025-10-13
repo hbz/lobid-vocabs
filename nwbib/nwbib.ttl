@@ -34,7 +34,7 @@
 :demo2
     a skos:Concept ;
     skos:inScheme <https://nwbib.de/subjects> ;
-    skos:notation "demo" ;
+    skos:notation "demo2" ;
     skos:prefLabel "Demo-Konzept2"@de .
 
 :N2
