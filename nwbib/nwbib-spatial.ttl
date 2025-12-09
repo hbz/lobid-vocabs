@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2025-06-23" ;
+        dct:modified                   "2025-12-09" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -6900,6 +6900,13 @@ nwbib-spatial:Q1520802
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Lülsdorf"@de ;
         foaf:focus      wd:Q1520802 .
+
+nwbib-spatial:Q1736820
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3771 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kattenstroth"@de ;
+        foaf:focus      wd:Q1736820 .
 
 nwbib-spatial:Q573387
         a               skos:Concept ;
@@ -18614,7 +18621,7 @@ nwbib-spatial:Q1342173
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q199968 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Engelsdorf (Aldenhoven)"@de ;
+        skos:prefLabel  "Engelsdorf"@de ;
         foaf:focus      wd:Q1342173 .
 
 nwbib-spatial:Q1261080
@@ -20154,7 +20161,7 @@ nwbib-spatial:Q825489
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Grafschaft Pyrmont (bis 1848)"@de ;
+        skos:prefLabel  "Grafschaft Pyrmont (bis 1922)"@de ;
         foaf:focus      wd:Q825489 .
 
 nwbib-spatial:Q819821
@@ -22007,7 +22014,7 @@ nwbib-spatial:Q15122771
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q12547 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Neukirchen (Rheinbach)"@de ;
+        skos:prefLabel  "Neukirchen"@de ;
         foaf:focus      wd:Q15122771 .
 
 nwbib-spatial:Q2310669
