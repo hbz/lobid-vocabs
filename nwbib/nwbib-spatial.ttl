@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2025-12-11" ;
+        dct:modified                   "2026-02-12" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -17346,6 +17346,13 @@ nwbib-spatial:Q1668485
         skos:prefLabel  "Kotten"@de ;
         foaf:focus      wd:Q1668485 .
 
+nwbib-spatial:Q1466945
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q5628 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Mittelsorpe"@de ;
+        foaf:focus      wd:Q1466945 .
+
 nwbib-spatial:Q925274
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3978 ;
@@ -24972,7 +24979,7 @@ nwbib-spatial:Q2160971
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1130 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Roden (Iserlohn)"@de ;
+        skos:prefLabel  "Roden"@de ;
         foaf:focus      wd:Q2160971 .
 
 nwbib-spatial:Q2018791
