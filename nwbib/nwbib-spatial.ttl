@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2026-02-12" ;
+        dct:modified                   "2026-02-13" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -14995,7 +14995,7 @@ nwbib-spatial:Q1650249
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q200044 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Morschenich"@de ;
+        skos:prefLabel  "Bürgewald"@de ;
         foaf:focus      wd:Q1650249 .
 
 nwbib-spatial:Q2229979
@@ -17040,7 +17040,7 @@ nwbib-spatial:Q1890294
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3959 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Manheim"@de ;
+        skos:prefLabel  "Manheim-Alt"@de ;
         foaf:focus      wd:Q1890294 .
 
 nwbib-spatial:Q1764291
