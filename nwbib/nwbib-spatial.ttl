@@ -2961,7 +2961,7 @@ nwbib-spatial:Q1623813
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q3117 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kaule"@de ;
+        skos:prefLabel  "Kaule (Bergisch Gladbach)"@de ;
         foaf:focus      wd:Q1623813 .
 
 nwbib-spatial:Q822005
@@ -4952,7 +4952,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2026-03-04" ;
+        dct:modified                   "2026-03-30" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -12435,6 +12435,13 @@ nwbib-spatial:Q857431
         skos:prefLabel  "Biemenhorst"@de ;
         foaf:focus      wd:Q857431 .
 
+nwbib-spatial:Q2030959
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3973 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Orken"@de ;
+        foaf:focus      wd:Q2030959 .
+
 nwbib-spatial:Q2166105
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q681425 ;
@@ -19813,6 +19820,13 @@ nwbib-spatial:Q1742468
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Kirchborchen"@de ;
         foaf:focus      wd:Q1742468 .
+
+nwbib-spatial:Q813540
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3902 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Beberich"@de ;
+        foaf:focus      wd:Q813540 .
 
 nwbib-spatial:Q2010314
         a               skos:Concept ;
@@ -27592,7 +27606,7 @@ nwbib-spatial:Q2016476
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q5542 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Ohle (Plettenberg)"@de ;
+        skos:prefLabel  "Ohle"@de ;
         foaf:focus      wd:Q2016476 .
 
 nwbib-spatial:Q16107  a  skos:Concept ;
