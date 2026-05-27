@@ -5,10 +5,10 @@ on: [push]
 jobs:
   check-for-warnings:
     name: Check for Warnings
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
 
     - name: Check for Warnings
       run: |
@@ -27,10 +27,10 @@ jobs:
 
   check-for-errors:
     name: Check for Errors
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
 
     - name: Check for Errors
       run: |
