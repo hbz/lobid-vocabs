@@ -228,6 +228,13 @@ nwbib-spatial:Q1631641
         skos:prefLabel  "Hovestadt"@de ;
         foaf:focus      wd:Q1631641 .
 
+nwbib-spatial:Q56100147
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Bielefeld-Lippe"@de ;
+        foaf:focus      wd:Q56100147 .
+
 nwbib-spatial:Q55498347
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q59241193 ;
@@ -1432,7 +1439,7 @@ nwbib-spatial:Q1588183
         skos:broader    nwbib-spatial:Q225432 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Sende"@de ;
-        foaf:focus      wd:Q1588183 .
+        foaf:focus      wd:Q139591634 .
 
 nwbib-spatial:Q978734
         a               skos:Concept ;
@@ -2297,19 +2304,19 @@ nwbib-spatial:Q105745680
         skos:prefLabel  "Vornick"@de ;
         foaf:focus      wd:Q105745680 .
 
-nwbib-spatial:Q1734761
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q11114 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kneblinghausen"@de ;
-        foaf:focus      wd:Q1734761 .
-
 nwbib-spatial:Q1172719
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q253185 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Dattenfeld"@de ;
         foaf:focus      wd:Q1172719 .
+
+nwbib-spatial:Q1734761
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11114 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kneblinghausen"@de ;
+        foaf:focus      wd:Q1734761 .
 
 nwbib-spatial:Q320095
         a               skos:Concept ;
@@ -4952,7 +4959,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2026-03-30" ;
+        dct:modified                   "2026-05-27" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -7820,6 +7827,13 @@ nwbib-spatial:Q3005  a  skos:Concept ;
         skos:prefLabel  "Altstadt-Nord"@de ;
         foaf:focus      wd:Q3005 .
 
+nwbib-spatial:Q56099612
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Hochsauerland-West"@de ;
+        foaf:focus      wd:Q56099612 .
+
 nwbib-spatial:Q1646501
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q13388983 ;
@@ -7904,6 +7918,13 @@ nwbib-spatial:Q45033207
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Corvey"@de ;
         foaf:focus      wd:Q45033207 .
+
+nwbib-spatial:Q56100071
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Höxter"@de ;
+        foaf:focus      wd:Q56100071 .
 
 nwbib-spatial:Q28543311
         a               skos:Concept ;
@@ -8717,6 +8738,13 @@ nwbib-spatial:Q1643934
         skos:prefLabel  "Höingen"@de ;
         foaf:focus      wd:Q1643934 .
 
+nwbib-spatial:Q1183602
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Märkisches Sauerland"@de ;
+        foaf:focus      wd:Q1183602 .
+
 nwbib-spatial:Q1528807
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10950 ;
@@ -8864,6 +8892,13 @@ nwbib-spatial:Q1276112
         skos:prefLabel  "Vellinghausen-Eilmsen"@de ;
         foaf:focus      wd:Q1276112 .
 
+nwbib-spatial:Q14895  a  skos:Concept ;
+        skos:broader    nwbib-spatial:Q6245 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "05170020" ;
+        skos:prefLabel  "Kamp-Lintfort"@de ;
+        foaf:focus      wd:Q14895 .
+
 nwbib-spatial:Q1541799
         a               skos:Concept ;
         skos:broader    nwbib-spatial:N74 ;
@@ -8885,13 +8920,6 @@ nwbib-spatial:Q2407434
         skos:prefLabel  "Teveren"@de ;
         foaf:focus      wd:Q2407434 .
 
-nwbib-spatial:Q14895  a  skos:Concept ;
-        skos:broader    nwbib-spatial:Q6245 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05170020" ;
-        skos:prefLabel  "Kamp-Lintfort"@de ;
-        foaf:focus      wd:Q14895 .
-
 nwbib-spatial:Q907346
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6111 ;
@@ -8905,6 +8933,13 @@ nwbib-spatial:Q16018  a  skos:Concept ;
         skos:notation   "05566084" ;
         skos:prefLabel  "Steinfurt"@de ;
         foaf:focus      wd:Q16018 .
+
+nwbib-spatial:Q48754909
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Paderborn"@de ;
+        foaf:focus      wd:Q48754909 .
 
 nwbib-spatial:Q1301886
         a               skos:Concept ;
@@ -10945,6 +10980,13 @@ nwbib-spatial:Q2326752
         skos:prefLabel  "Stadtbezirk Innenstadt-Ost"@de ;
         foaf:focus      wd:Q2326752 .
 
+nwbib-spatial:Q56100630
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Hagen-Witten"@de ;
+        foaf:focus      wd:Q56100630 .
+
 nwbib-spatial:Q54803602
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2066 ;
@@ -11103,7 +11145,7 @@ nwbib-spatial:Q1573603
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2880 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Stadtbezirk Hamm-Bockum-Hövel"@de ;
+        skos:prefLabel  "Stadtbezirk Bockum-Hövel"@de ;
         foaf:focus      wd:Q1573603 .
 
 nwbib-spatial:Q47483940
@@ -11154,6 +11196,13 @@ nwbib-spatial:Q436744
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Altenbergen"@de ;
         foaf:focus      wd:Q436744 .
+
+nwbib-spatial:Q1183619
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Südsauerland"@de ;
+        foaf:focus      wd:Q1183619 .
 
 nwbib-spatial:Q1538519
         a               skos:Concept ;
@@ -14075,19 +14124,19 @@ nwbib-spatial:Q1618464
         skos:prefLabel  "Hildfeld"@de ;
         foaf:focus      wd:Q1618464 .
 
-nwbib-spatial:Q1419894
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q6755 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Fischelbach"@de ;
-        foaf:focus      wd:Q1419894 .
-
 nwbib-spatial:Q1627740
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q253185 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Hoppengarten"@de ;
         foaf:focus      wd:Q1627740 .
+
+nwbib-spatial:Q1419894
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q6755 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Fischelbach"@de ;
+        foaf:focus      wd:Q1419894 .
 
 nwbib-spatial:Q15125849
         a               skos:Concept ;
@@ -17388,6 +17437,13 @@ nwbib-spatial:Q925274
         skos:prefLabel  "Broich"@de ;
         foaf:focus      wd:Q925274 .
 
+nwbib-spatial:Q1458817
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q11046 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Loope"@de ;
+        foaf:focus      wd:Q1458817 .
+
 nwbib-spatial:Q870633
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2662781 ;
@@ -17395,12 +17451,12 @@ nwbib-spatial:Q870633
         skos:prefLabel  "Altenbochum"@de ;
         foaf:focus      wd:Q870633 .
 
-nwbib-spatial:Q1458817
+nwbib-spatial:Q56100023
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q11046 ;
+        skos:broader    nwbib-spatial:Q253765 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Loope"@de ;
-        foaf:focus      wd:Q1458817 .
+        skos:prefLabel  "Dekanat Büren-Delbrück"@de ;
+        foaf:focus      wd:Q56100023 .
 
 nwbib-spatial:Q18028242
         a               skos:Concept ;
@@ -19009,6 +19065,13 @@ nwbib-spatial:Q1786904
         skos:prefLabel  "Krauthausen"@de ;
         foaf:focus      wd:Q1786904 .
 
+nwbib-spatial:Q15627491
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Emschertal"@de ;
+        foaf:focus      wd:Q15627491 .
+
 nwbib-spatial:Q1589053
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6149 ;
@@ -19022,6 +19085,13 @@ nwbib-spatial:Q432964
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Alt-Oberhausen"@de ;
         foaf:focus      wd:Q432964 .
+
+nwbib-spatial:Q19277079
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q3943 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Cappel"@de ;
+        foaf:focus      wd:Q19277079 .
 
 nwbib-spatial:Q810760
         a               skos:Concept ;
@@ -19044,19 +19114,19 @@ nwbib-spatial:Q2010510
         skos:prefLabel  "Oberndorf (Bad Laasphe)"@de ;
         foaf:focus      wd:Q2010510 .
 
-nwbib-spatial:Q19277079
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q3943 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Cappel"@de ;
-        foaf:focus      wd:Q19277079 .
-
 nwbib-spatial:Q1630503
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q241450 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Rupperath"@de ;
         foaf:focus      wd:Q1630503 .
+
+nwbib-spatial:Q56100236
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Hellweg"@de ;
+        foaf:focus      wd:Q56100236 .
 
 nwbib-spatial:Q1250657
         a               skos:Concept ;
@@ -19295,6 +19365,13 @@ nwbib-spatial:Q1250615
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Simonskall"@de ;
         foaf:focus      wd:Q1250615 .
+
+nwbib-spatial:Q56100188
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Herford-Minden"@de ;
+        foaf:focus      wd:Q56100188 .
 
 nwbib-spatial:Q896720
         a               skos:Concept ;
@@ -21192,6 +21269,13 @@ nwbib-spatial:Q1281286
         skos:prefLabel  "Eckardtsheim"@de ;
         foaf:focus      wd:Q1281286 .
 
+nwbib-spatial:Q878096
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q4074 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kreuzweingarten"@de ;
+        foaf:focus      wd:Q878096 .
+
 nwbib-spatial:Q1770238
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q446864 ;
@@ -21213,12 +21297,12 @@ nwbib-spatial:Q659562
         skos:prefLabel  "Rinthe"@de ;
         foaf:focus      wd:Q659562 .
 
-nwbib-spatial:Q878096
+nwbib-spatial:Q1183597
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q4074 ;
+        skos:broader    nwbib-spatial:Q253765 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kreuzweingarten"@de ;
-        foaf:focus      wd:Q878096 .
+        skos:prefLabel  "Dekanat Lippstadt-Rüthen"@de ;
+        foaf:focus      wd:Q1183597 .
 
 nwbib-spatial:Q547577
         a               skos:Concept ;
@@ -21995,6 +22079,14 @@ nwbib-spatial:Q24804026
         skos:prefLabel  "Hülsdonk"@de ;
         foaf:focus      wd:Q24804026 .
 
+nwbib-spatial:Q182753
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q6239 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:notation   "05770016" ;
+        skos:prefLabel  "Hüllhorst"@de ;
+        foaf:focus      wd:Q182753 .
+
 nwbib-spatial:Q2350688
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q182805 ;
@@ -22037,13 +22129,12 @@ nwbib-spatial:Q1980075
         skos:prefLabel  "Neuenkleusheim"@de ;
         foaf:focus      wd:Q1980075 .
 
-nwbib-spatial:Q182753
+nwbib-spatial:Q153428
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q6239 ;
+        skos:broader    nwbib-spatial:Q4083 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05770016" ;
-        skos:prefLabel  "Hüllhorst"@de ;
-        foaf:focus      wd:Q182753 .
+        skos:prefLabel  "Weisweiler"@de ;
+        foaf:focus      wd:Q153428 .
 
 nwbib-spatial:Q1880342
         a               skos:Concept ;
@@ -22094,12 +22185,13 @@ nwbib-spatial:Q2100603
         skos:prefLabel  "Pohlhausen"@de ;
         foaf:focus      wd:Q2100603 .
 
-nwbib-spatial:Q153428
+nwbib-spatial:Q255235
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q4083 ;
+        skos:broader    nwbib-spatial:Q6253 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Weisweiler"@de ;
-        foaf:focus      wd:Q153428 .
+        skos:notation   "05162028" ;
+        skos:prefLabel  "Rommerskirchen"@de ;
+        foaf:focus      wd:Q255235 .
 
 nwbib-spatial:Q14870  a  skos:Concept ;
         skos:broader    nwbib-spatial:Q6287 ;
@@ -22114,14 +22206,6 @@ nwbib-spatial:Q66132704
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Wissen"@de ;
         foaf:focus      wd:Q66132704 .
-
-nwbib-spatial:Q255235
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q6253 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:notation   "05162028" ;
-        skos:prefLabel  "Rommerskirchen"@de ;
-        foaf:focus      wd:Q255235 .
 
 nwbib-spatial:Q835981
         a               skos:Concept ;
@@ -22151,6 +22235,13 @@ nwbib-spatial:Q948181
         skos:prefLabel  "Mariadorf"@de ;
         foaf:focus      wd:Q948181 .
 
+nwbib-spatial:Q1390078
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q241655 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kleinenbreden"@de ;
+        foaf:focus      wd:Q1390078 .
+
 nwbib-spatial:Q1304126
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q1304125 ;
@@ -22158,12 +22249,12 @@ nwbib-spatial:Q1304126
         skos:prefLabel  "Eilpe"@de ;
         foaf:focus      wd:Q1304126 .
 
-nwbib-spatial:Q1390078
+nwbib-spatial:Q56100285
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q241655 ;
+        skos:broader    nwbib-spatial:Q253765 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Kleinenbreden"@de ;
-        foaf:focus      wd:Q1390078 .
+        skos:prefLabel  "Dekanat Hochsauerland-Ost"@de ;
+        foaf:focus      wd:Q56100285 .
 
 nwbib-spatial:Q241866
         a               skos:Concept ;
@@ -22806,6 +22897,13 @@ nwbib-spatial:Q2552606
         skos:prefLabel  "Watern"@de ;
         foaf:focus      wd:Q2552606 .
 
+nwbib-spatial:Q2099544
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q153260 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Plittersdorf"@de ;
+        foaf:focus      wd:Q2099544 .
+
 nwbib-spatial:Q572216
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q10921 ;
@@ -22827,12 +22925,12 @@ nwbib-spatial:Q2340484
         skos:prefLabel  "Steinenbrück"@de ;
         foaf:focus      wd:Q2340484 .
 
-nwbib-spatial:Q2099544
+nwbib-spatial:Q56100116
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q153260 ;
+        skos:broader    nwbib-spatial:Q253765 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Plittersdorf"@de ;
-        foaf:focus      wd:Q2099544 .
+        skos:prefLabel  "Dekanat Rietberg-Wiedenbrück"@de ;
+        foaf:focus      wd:Q56100116 .
 
 nwbib-spatial:Q1795729
         a               skos:Concept ;
@@ -23970,6 +24068,13 @@ nwbib-spatial:Q1609858
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Herhagen"@de ;
         foaf:focus      wd:Q1609858 .
+
+nwbib-spatial:Q56100562
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q253765 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Dekanat Unna"@de ;
+        foaf:focus      wd:Q56100562 .
 
 nwbib-spatial:Q908114
         a               skos:Concept ;
