@@ -233,6 +233,33 @@ lv:bibliographicLevel
    rdfs:domain dct:BibliographicResource ;
    rdfs:range rdfs:Literal .
 
+  # <http://purl.org/lobid/lv#bszId>
+
+lv:bszId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "BSZ-ID"@de ;
+   rdfs:label "BSZ ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Der Identifier, der einer bibliographischen Ressource im BSZ-Verbundkatalog zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the BSZ union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#bvbId>
+
+lv:bvbId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "BVB-ID"@de ;
+   rdfs:label "BVB ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Der Identifier, der einer bibliographischen Ressource im BVB-Verbundkatalog zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the BVB union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
 
 # <http://purl.org/lobid/lv#callNumber>
 
@@ -391,6 +418,19 @@ lv:hasSuperordinate
   lv:hasSuperordinate
   ) .
 
+# <http://purl.org/lobid/lv#gbvId>
+
+lv:gbvId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "GBV-ID"@de ;
+   rdfs:label "GBV ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Der Identifier, der einer bibliographischen Ressource im GBV-Verbundkatalog zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the GBV union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
 
 # <http://purl.org/lobid/lv#hbzID>
 
@@ -488,6 +528,32 @@ lv:isPartOf
     rdfs:domain dct:BibliographicResource ;
     rdfs:range lv:IsPartOfRelation .
 
+# <http://purl.org/lobid/lv#k10PlusId>
+
+lv:k10PlusId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "K10Plus-ID"@de ;
+   rdfs:label "K10Plus ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Der Identifier, der einer bibliographischen Ressource im K10Plus-Verbundkatalog zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the K10Plus union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
+
+
+# <http://purl.org/lobid/lv#kobvId>
+
+lv:kobvId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "KOBV-ID"@de ;
+   rdfs:label "KOBV ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Der Identifier, der einer bibliographischen Ressource im KOBV-Verbundkatalog zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the KOBV union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#manufacture>
 
@@ -567,6 +633,18 @@ lv:nwbibspatial
    rdfs:range skos:Concept ;
    vs:status "deprecated" .
 
+# <http://purl.org/lobid/lv#obvId>
+
+lv:obvId
+   rdf:type owl:DatatypeProperty ;
+   rdfs:label "OBV-ID"@de ;
+   rdfs:label "OBV ID"@en ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "Der Identifier, der einer bibliographischen Ressource im OBV-Verbundkatalog zugewiesen wurde."@de ;
+   rdfs:comment "The identifier that is assigned to a bibliographic resource in the OBV union catalogue."@en ;
+   rdfs:subPropertyOf dct:identifier ;
+   rdfs:domain dct:BibliographicResource ;
+   rdfs:range rdfs:Literal .
 
 # <http://purl.org/lobid/lv#rpbSubject>
 
