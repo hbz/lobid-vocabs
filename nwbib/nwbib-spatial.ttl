@@ -207,6 +207,13 @@ nwbib-spatial:Q1494684
         skos:prefLabel  "Gartenstadt (Krefeld)"@de ;
         foaf:focus      wd:Q1494684 .
 
+nwbib-spatial:Q120400900
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N32 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kirchenkreis Krefeld-Viersen"@de ;
+        foaf:focus      wd:Q120400900 .
+
 nwbib-spatial:Q1959115
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q2742 ;
@@ -4966,7 +4973,7 @@ nwbib-spatial:Q14936  a  skos:Concept ;
         dct:description                "This controlled vocabulary for areas in Northrhine-Westphalia was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
         dct:issued                     "2014-01-28" ;
         dct:license                    <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        dct:modified                   "2026-06-12" ;
+        dct:modified                   "2026-06-29" ;
         dct:publisher                  <http://lobid.org/organisations/DE-605> ;
         dct:title                      "Raumsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Spatial classification scheme of the North Rhine-Westphalian bibliography"@en ;
         vann:preferredNamespacePrefix  "nwbib-spatial" ;
@@ -13595,6 +13602,13 @@ nwbib-spatial:Q201061
         skos:prefLabel  "Silberg"@de ;
         foaf:focus      wd:Q201061 .
 
+nwbib-spatial:Q1749999
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q5398 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Schwerfen"@de ;
+        foaf:focus      wd:Q1749999 .
+
 nwbib-spatial:Q1743172
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q59261667 ;
@@ -13602,12 +13616,12 @@ nwbib-spatial:Q1743172
         skos:prefLabel  "Oberschelden"@de ;
         foaf:focus      wd:Q1743172 .
 
-nwbib-spatial:Q1749999
+nwbib-spatial:Q1741344
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q5398 ;
+        skos:broader    nwbib-spatial:Q4083 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Schwerfen"@de ;
-        foaf:focus      wd:Q1749999 .
+        skos:prefLabel  "Lürken"@de ;
+        foaf:focus      wd:Q1741344 .
 
 nwbib-spatial:Q257398
         a               skos:Concept ;
@@ -13657,12 +13671,12 @@ nwbib-spatial:Q376205
         skos:prefLabel  "Linn"@de ;
         foaf:focus      wd:Q376205 .
 
-nwbib-spatial:Q1741344
+nwbib-spatial:Q939872
         a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q4083 ;
+        skos:broader    nwbib-spatial:Q199974 ;
         skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Lürken"@de ;
-        foaf:focus      wd:Q1741344 .
+        skos:prefLabel  "Vossenack"@de ;
+        foaf:focus      wd:Q939872 .
 
 nwbib-spatial:Q2326748
         a               skos:Concept ;
@@ -13670,13 +13684,6 @@ nwbib-spatial:Q2326748
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Stadtbezirk Innenstadt-Nord"@de ;
         foaf:focus      wd:Q2326748 .
-
-nwbib-spatial:Q939872
-        a               skos:Concept ;
-        skos:broader    nwbib-spatial:Q199974 ;
-        skos:inScheme   <https://nwbib.de/spatial> ;
-        skos:prefLabel  "Vossenack"@de ;
-        foaf:focus      wd:Q939872 .
 
 nwbib-spatial:Q871980
         a               skos:Concept ;
@@ -13692,6 +13699,13 @@ nwbib-spatial:Q225729
         skos:notation   "05754016" ;
         skos:prefLabel  "Harsewinkel"@de ;
         foaf:focus      wd:Q225729 .
+
+nwbib-spatial:Q1959111
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:Q1318888 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Sentrup"@de ;
+        foaf:focus      wd:Q1959111 .
 
 nwbib-spatial:Q2155793
         a               skos:Concept ;
@@ -16551,6 +16565,13 @@ nwbib-spatial:Q736029
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Nassau-Siegen (bis 1743)"@de ;
         foaf:focus      wd:Q736029 .
+
+nwbib-spatial:Q122960728
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N32 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kirchenkreis Dinslaken"@de ;
+        foaf:focus      wd:Q122960728 .
 
 nwbib-spatial:Q1805516
         a               skos:Concept ;
@@ -21066,6 +21087,13 @@ nwbib-spatial:Q1765128
         skos:prefLabel  "Hahlen"@de ;
         foaf:focus      wd:Q1765128 .
 
+nwbib-spatial:Q122984257
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N32 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kirchenkreis Duisburg"@de ;
+        foaf:focus      wd:Q122984257 .
+
 nwbib-spatial:Q1738257
         a               skos:Concept ;
         skos:broader    nwbib-spatial:Q6992 ;
@@ -22621,6 +22649,13 @@ nwbib-spatial:Q1499818
         skos:inScheme   <https://nwbib.de/spatial> ;
         skos:prefLabel  "Ückendorf"@de ;
         foaf:focus      wd:Q1499818 .
+
+nwbib-spatial:Q140354052
+        a               skos:Concept ;
+        skos:broader    nwbib-spatial:N32 ;
+        skos:inScheme   <https://nwbib.de/spatial> ;
+        skos:prefLabel  "Kirchenkreis Kleve"@de ;
+        foaf:focus      wd:Q140354052 .
 
 nwbib-spatial:Q2420842
         a               skos:Concept ;
