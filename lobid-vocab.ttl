@@ -573,7 +573,7 @@ lv:manufacturedBy
    rdfs:label "Manufactured by"@en ;
    rdfs:label "Hergestellt durch"@de ;
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
-   rdfs:comment "This property is used to state the manufactureres."@en ;
+   rdfs:comment "This property is used to state the manufacturers."@en ;
    rdfs:range rdfs:Literal .
 
 
