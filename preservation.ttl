@@ -1,0 +1,281 @@
+@base <https://w3id.org/lobid/preservation/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+  a skos:ConceptScheme ;
+  dct:title    "Bestandsschutzmaßnahmen"@de, " „Preservation & digitization actions"@en ;
+  dct:creator <http://lobid.org/team/ap> ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dct:description "Dies ist eine SKOS-Repräsentation der Terminologieliste für Bestandsschutzmaßnahmen in MARC 583 Unterfeld $a, siehe [https://www.agkva.org/919503035.html](https://www.agkva.org/919503035.html)"@de ;
+  vann:preferredNamespacePrefix "preservation" ;
+  vann:preferredNamespaceUri "https://w3id.org/lobid/preservation/" ;
+  skos:hasTopConcept
+    <eb>,
+    <a>,
+    <b>,
+    <c>,
+    <d>,
+    <f>,
+    <g>,
+    <h>,
+    <i>.
+
+
+<eb>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:notation "eb" ;
+  skos:prefLabel "Archivierung prüfen"@de ;
+  skos:prefLabel "request review"@en .
+
+<a>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Archivierung"@de ;
+  skos:prefLabel "Retained"@en .
+
+<aa>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <a> ;
+  skos:notation "aa" ;
+  skos:prefLabel "Archivierung/Langzeitarchivierung gewährleistet"@de ;
+  skos:prefLabel "committed to retain"@en .
+
+<ab>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <a> ;
+  skos:notation "ab" ;
+  skos:prefLabel "Archivierung/Langzeitarchivierung geplant"@de ;
+  skos:prefLabel "will retain"@en .
+
+<ac>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <a> ;
+  skos:notation "ac" ;
+  skos:prefLabel "Archivierung/Langzeitarchivierung nicht möglich"@de ;
+  skos:prefLabel "will not retain"@en .
+
+<b>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Massenentsäuerung"@de ;
+  skos:prefLabel "Mass deacidified"@en .
+
+<ba>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <b> ;
+  skos:notation "ba" ;
+  skos:prefLabel "Massenentsäuert"@de ;
+  skos:prefLabel "mass deacidified"@en .
+
+<bb>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <b> ;
+  skos:notation "bb" ;
+  skos:prefLabel "Massenentsäuerung geplant"@de ;
+  skos:prefLabel "will mass deacidify"@en .
+
+<bc>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <b> ;
+  skos:notation "bc" ;
+  skos:prefLabel "Massenentsäuerung nicht möglich"@de ;
+  skos:prefLabel "will not mass deacidify"@en .
+
+<c>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Digitalisierung"@de ;
+  skos:prefLabel "Digitized"@en .
+
+<ca>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <c> ;
+  skos:notation "ca" ;
+  skos:prefLabel "Digitalisiert"@de ;
+  skos:prefLabel "digitized"@en .
+
+<cb>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <c> ;
+  skos:notation "cb" ;
+  skos:prefLabel "Digitalisierung geplant"@de ;
+  skos:prefLabel "will digitize"@en .
+
+<cc>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <c> ;
+  skos:notation "cc" ;
+  skos:prefLabel "Digitalisierung nicht möglich"@de ;
+  skos:prefLabel "will not digitize"@en .
+
+<cd>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <c> ;
+  skos:notation "cd" ;
+  skos:prefLabel "Fremddigitalisat/Parallelausgabe verfügbar"@de ;
+  skos:prefLabel "acquired surrogate"@en .
+
+<d>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Verfilmung"@de ;
+  skos:prefLabel "Microfilmed"@en .
+
+<da>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <d> ;
+  skos:notation "da" ;
+  skos:prefLabel "Verfilmt"@de ;
+  skos:prefLabel "microfilmed"@en .
+
+<db>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <d> ;
+  skos:notation "db" ;
+  skos:prefLabel "Verfilmung geplant"@de ;
+  skos:prefLabel "will microfilm"@en .
+
+<dc>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <d> ;
+  skos:notation "dc" ;
+  skos:prefLabel "Verfilmung nicht möglich"@de ;
+  skos:prefLabel "will not microfilm"@en .
+
+<f>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Restaurierung"@de ;
+  skos:prefLabel "Restoration"@en .
+
+<fa>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <f> ;
+  skos:notation "fa" ;
+  skos:prefLabel "Restauriert"@de ;
+  skos:prefLabel "Restoration done"@en .
+
+<fb>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <f> ;
+  skos:notation "fb" ;
+  skos:prefLabel "Restaurierung geplant"@de ;
+  skos:prefLabel "Restoration planned"@en .
+
+<fc>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <f> ;
+  skos:notation "fc" ;
+  skos:prefLabel "Restaurierung nicht möglich"@de ;
+  skos:prefLabel "Restoration not possible"@en .
+
+<g>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Schutzverpackung"@de ;
+  skos:prefLabel "Archival boxing"@en .
+
+<ga>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <g> ;
+  skos:notation "ga" ;
+  skos:prefLabel "Schutzverpackt"@de ;
+  skos:prefLabel "Archival boxing done"@en .
+
+<gb>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <g> ;
+  skos:notation "gb" ;
+  skos:prefLabel "Schutzverpackung geplant"@de ;
+  skos:prefLabel "Archival boxing planned"@en .
+
+<gc>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <g> ;
+  skos:notation "gb" ;
+  skos:prefLabel "Schutzverpackung nicht möglich"@de ;
+  skos:prefLabel "Archival boxing not possible"@en .
+
+<h>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel "Zustandserhebung"@de ;
+  skos:prefLabel "Condition survey"@en .
+
+<ha>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <h> ;
+  skos:notation "ha" ;
+  skos:prefLabel "Zustandserhebung erfolgt"@de ;
+  skos:prefLabel "Condition survey done"@en .
+
+<hb>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <h> ;
+  skos:notation "hb" ;
+  skos:prefLabel "Zustandserhebung geplant"@de ;
+  skos:prefLabel "Condition survey planned"@en .
+
+<hc>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <h> ;
+  skos:notation "hc" ;
+  skos:prefLabel "Zustandserhebung nicht möglich"@de ;
+  skos:prefLabel "Condition survey not possible"@en .
+
+<i>
+  a skos:Concept ;
+  skos:topConceptOf <> ;
+  skos:prefLabel " Präventive/stabilisierende Konservierung "@de ;
+  skos:prefLabel "Conservation"@en .
+
+<ia>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <i> ;
+  skos:notation "ia" ;
+  skos:prefLabel "Präventive/stabilisierende Konservierung erfolgt"@de ;
+  skos:prefLabel "Conservation done"@en .
+
+<ib>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <i> ;
+  skos:notation "ib" ;
+  skos:prefLabel "Präventive/stabilisierende Konservierung geplant"@de ;
+  skos:prefLabel "Conservation planned"@en .
+
+<ic>
+  a skos:Concept ;
+  skos:inScheme <> ;
+  skos:broader <i> ;
+  skos:notation "ic" ;
+  skos:prefLabel "Präventive/stabilisierende Konservierung nicht möglich"@de ;
+  skos:prefLabel "Conservation not possible"@en .
