@@ -23,7 +23,7 @@
    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    dct:description "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en ;
    dct:issued "2012-01-17"^^xsd:date ;
-   dct:modified "2025-09-03"^^xsd:date ;
+   dct:modified "2026-11-03"^^xsd:date ;
    skos:historyNote "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." ;
    dct:publisher <http://lobid.org/organisation/DE-605> ;
    dct:creator <http://lobid.org/team/ap> ;
@@ -110,6 +110,16 @@ lv:IsPartOfRelation
    rdfs:comment "The relationship between a resource and a superordinate resource it is part of."@en ;
    rdfs:comment "Die Beziehung zwischen einer Ressource und der ihr übergeordneten Ressource."@de .
 
+# <http://purl.org/lobid/lv#LocatableDocument>
+
+lv:LocatableDocument
+   a owl:Class ;
+   rdfs:subClassOf bf:Item ;
+   rdfs:label "LocatableDocument"@en ;
+   rdfs:label "Physikalischer Titel"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "hbz-ALMA specific holding item type referring to resource with an 'Lokalsatz' (mostly with callNumber) but without a specific copy e.g. series"@en ;
+   rdfs:comment "hbz-ALMA specifischer Bestandstyp bezieht sich auf Titel mit nur einen Lokalsatz (ohne Exemplare) in der Alma-IZ, z.B. Überordnungen mit zusätzlichen lokalen Informationen die für alle Bände gelten wie Signatur"@de .
 
 # <http://purl.org/lobid/lv#Miscellaneous>
 
@@ -192,6 +202,19 @@ lv:Statistics
    rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
    rdfs:comment "A systematic collection and analysis of empirical data."@en ;
    rdfs:comment "Eine systematische Sammlung und Analyse von empirischen Daten."@de .
+
+
+# <http://purl.org/lobid/lv#VirtualDocument>
+
+lv:VirtualDocument
+   a owl:Class ;
+   rdfs:subClassOf bf:Item ;
+   rdfs:label "VirtualDocument"@en ;
+   rdfs:label "Nur Titel"@de ;
+   rdfs:isDefinedBy <http://purl.org/lobid/lv> ;
+   rdfs:comment "hbz-ALMA specific holding item type referring to resource without an 'Lokalsatz', but that should be represented in the catalogue, e.g. series, articles,..."@en ;
+   rdfs:comment "hbz-ALMA specifischer Bestandstyp bezieht sich auf Titel ohne Lokalsatz, die aber als Bestand nachgewiesen werden sollen, z.B. Überordnungen und Artikel"@de .
+
 
 
 # <http://purl.org/lobid/lv#ags>
